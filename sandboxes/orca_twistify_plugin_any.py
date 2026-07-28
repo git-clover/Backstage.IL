@@ -89,7 +89,7 @@ _CONFIG_UI = """
     --paper:    var(--orca-bg, #ffffff);
     --rule:     var(--orca-border, #d9dee3);
     --quiet:    var(--orca-muted, #6b7580);
-    --live:     var(--orca-accent, #009688);
+    --live:     var(--orca-accent, #002b6b);
     --live-ink: var(--orca-accent-fg, #ffffff);
     --ui:       var(--orca-font, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif);
     --data:     ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
