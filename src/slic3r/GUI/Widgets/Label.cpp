@@ -23,7 +23,7 @@ wxFont Label::sysFont(int size, bool bold)
 
     // Check if the current locale is Korean
     if (wxLocale::GetSystemLanguage() == wxLANGUAGE_KOREAN) {
-        face = "NanumGothic";
+        face = "Pretendard";
     }
 
     wxFont font{size, wxFONTFAMILY_SWISS, wxFONTSTYLE_NORMAL, bold ? wxFONTWEIGHT_BOLD : wxFONTWEIGHT_NORMAL, false, face};
@@ -92,14 +92,14 @@ void Label::initSysFont()
     // because FcConfigAppFontAddFile invalidates Pango's cached font map.
     bool load_fonts = true;
 #ifdef __linux__
-    load_fonts = !fc_font_available("HarmonyOS Sans SC") || !fc_font_available("NanumGothic");
+    load_fonts = !fc_font_available("HarmonyOS Sans SC") || !fc_font_available("Pretendard");
 #endif
     if (load_fonts) {
         const std::string &resource_path = Slic3r::resources_dir();
         wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/HarmonyOS_Sans_SC_Bold.ttf"));
         wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/HarmonyOS_Sans_SC_Regular.ttf"));
-        wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/NanumGothic-Regular.ttf"));
-        wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/NanumGothic-Bold.ttf"));
+        wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/Pretendard-Regular.ttf"));
+        wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/Pretendard-ExtraBold.ttf"));
     }
 #endif
     Head_48 = Label::sysFont(48, true);
