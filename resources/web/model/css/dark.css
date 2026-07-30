@@ -6,7 +6,7 @@ body
 
 a
 {
-	color: #002b6b;
+	color: #003887;
 }
 
 .ZScrol::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
@@ -44,7 +44,7 @@ a
 
 .ProcessBarSelected
 {
-	border-left-color:#002b6b;
+	border-left-color:#003887;
 }
 
 .Block_BKGA

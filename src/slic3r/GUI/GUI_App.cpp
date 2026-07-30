@@ -315,7 +315,7 @@ public:
         m_bg_color = StateColor::darkModeColorFor(wxColour("#FFFFFF"));
         m_fg_color = StateColor::darkModeColorFor(wxColour("#6B6A6A"));
         m_progress_bg_color = StateColor::darkModeColorFor(wxColour("#DFDFDF"));
-        m_progress_fg_color = StateColor::darkModeColorFor(wxColour("#002b6b"));
+        m_progress_fg_color = StateColor::darkModeColorFor(wxColour("#003887"));
         m_progress_h = FromDIP(6);
         bool dark_mode = m_fg_color != wxColour("#6B6A6A");
         wxSize sz  = m_window->GetClientSize();
@@ -4171,7 +4171,7 @@ void GUI_App::UpdateDarkUI(wxWindow* window, bool highlited/* = false*/, bool ju
         auto orig_col = window->GetBackgroundColour();
         auto bg_col = StateColor::darkModeColorFor(orig_col);
         // there are cases where the background color of an item is bright, specifically:
-        // * the background color of a button: #002b6b  -- 73
+        // * the background color of a button: #003887  -- 73
         if (bg_col != orig_col) {
             window->SetBackgroundColour(bg_col);
         }
