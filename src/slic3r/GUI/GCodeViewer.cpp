@@ -2832,7 +2832,7 @@ void GCodeViewer::render_legend_color_arr_recommen(float window_padding)
     auto link_text = [&](const std::string &label) {
         ImVec2 wiki_part_size = ImGui::CalcTextSize(label.c_str());
 
-        ImColor HyperColor = ImColor((0, 55, 133), 255).Value;
+        ImColor HyperColor = ImColor(0, 55, 133, 255).Value;
         ImGui::PushStyleColor(ImGuiCol_Text, HyperColor.Value);
         imgui.text(label.c_str());
         ImGui::PopStyleColor();
@@ -2858,7 +2858,7 @@ void GCodeViewer::render_legend_color_arr_recommen(float window_padding)
     auto link_text_set_to_optional = [&](const std::string &label) {
         ImVec2 wiki_part_size = ImGui::CalcTextSize(label.c_str());
 
-        ImColor HyperColor = ImColor((0, 55, 133), 255).Value;
+        ImColor HyperColor = ImColor(0, 55, 133, 255).Value;
         ImGui::PushStyleColor(ImGuiCol_Text, HyperColor.Value);
         imgui.text(label.c_str());
         ImGui::PopStyleColor();
@@ -2885,7 +2885,7 @@ void GCodeViewer::render_legend_color_arr_recommen(float window_padding)
 
     auto link_filament_group_wiki = [&](const std::string& label) {
         ImVec2 wiki_part_size = ImGui::CalcTextSize(label.c_str());
-        ImColor HyperColor = ImColor((0, 55, 133), 255); // ORCA match color
+        ImColor HyperColor = ImColor(0, 55, 133, 255); // ORCA match color
         ImGui::PushStyleColor(ImGuiCol_Text, HyperColor.Value);
         imgui.text(label.c_str());
         ImGui::PopStyleColor();
