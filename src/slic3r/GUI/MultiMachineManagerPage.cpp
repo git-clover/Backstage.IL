@@ -218,7 +218,7 @@ void MultiMachineItem::doRender(wxDC& dc)
         left += FromDIP(DEVICE_LEFT_PRO_INFO);
 
         //button
-        dc.SetPen(wxPen(wxColour(38, 46, 48)));
+        dc.SetPen(wxPen(wxColour(0, 13, 31)));
         dc.SetBrush(wxBrush(wxColour(*wxWHITE)));
         dc.DrawRoundedRectangle(left, (size.y - FromDIP(38)) / 2, FromDIP(90), FromDIP(38), 6);
         dc.SetFont(Label::Body_14);
