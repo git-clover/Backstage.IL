@@ -824,7 +824,7 @@ AmsMapingPopup::AmsMapingPopup(wxWindow *parent, bool use_in_sync_dialog) :
      wxBoxSizer *title_sizer_v = new wxBoxSizer(wxVERTICAL);
 
      m_title_text = new wxStaticText(title_panel, wxID_ANY, _L("AMS Slots"));
-     m_title_text->SetForegroundColour(wxColour("#262E30"));
+     m_title_text->SetForegroundColour(wxColour("#000d1f"));
      m_title_text->SetFont(::Label::Body_16);
      title_sizer_v->Add(m_title_text, 0, wxALIGN_LEFT | wxLEFT,  FromDIP(15));
      title_sizer_h->Add(title_sizer_v, 1, wxALIGN_CENTER, 5);
@@ -871,7 +871,7 @@ AmsMapingPopup::AmsMapingPopup(wxWindow *parent, bool use_in_sync_dialog) :
          _L(DevPrinterConfigUtil::get_toolhead_display_name(amp_pt, MAIN_EXTRUDER_ID, ToolHeadComponent::Nozzle, ToolHeadNameCase::LowerCase)));
 
      m_left_tips = new Label(m_left_first_text_panel);
-     m_left_tips->SetForegroundColour(StateColor::darkModeColorFor("0x262E30"));
+     m_left_tips->SetForegroundColour(StateColor::darkModeColorFor("0x000d1f"));
      m_left_tips->SetBackgroundColour(StateColor::darkModeColorFor("0xFFFFFF"));
      m_left_tips->SetFont(::Label::Body_13);
      m_left_tips->SetLabel(m_left_tip_text);
@@ -886,7 +886,7 @@ AmsMapingPopup::AmsMapingPopup(wxWindow *parent, bool use_in_sync_dialog) :
      m_sizer_ams_left->Add(sizer_temp, 0, wxEXPAND | wxTOP, FromDIP(8));
 
      m_right_tips = new Label(m_right_first_text_panel);
-     m_right_tips->SetForegroundColour(StateColor::darkModeColorFor("0x262E30"));
+     m_right_tips->SetForegroundColour(StateColor::darkModeColorFor("0x000d1f"));
      m_right_tips->SetBackgroundColour(StateColor::darkModeColorFor("0xFFFFFF"));
      m_right_tips->SetFont(::Label::Body_13);
      m_right_tips->SetLabel(m_right_tip_text);
@@ -2142,7 +2142,7 @@ void AmsReplaceMaterialDialog::create()
         std::pair<wxColour, int>(wxColour(38, 46, 48), StateColor::Enabled));
 
 
-    StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(0, 137, 123), StateColor::Pressed), std::pair<wxColour, int>(wxColour(0, 150, 136), StateColor::Normal)); // Orca: accent teal button (not brand green)
+    StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(0, 137, 123), StateColor::Pressed), std::pair<wxColour, int>(wxColour((0, 55, 133)), StateColor::Normal)); // Orca: accent teal button (not brand green)
     m_button_sizer->Add( 0, 0, 1, wxEXPAND, 0 );
 
     m_main_sizer->Add(0,0,0, wxTOP, FromDIP(12));
@@ -2532,8 +2532,8 @@ void AmsRMGroup::doRender(wxDC& dc)
         //draw tray
         dc.SetFont(::Label::Body_12);
         auto text_size = dc.GetTextExtent(tray_name);
-        dc.SetTextForeground(tray_color.GetLuminance() < 0.6 ? *wxWHITE : wxColour("#262E30"));
-        if (tray_color.Alpha() == 0) { dc.SetTextForeground(wxColour("#262E30")); }
+        dc.SetTextForeground(tray_color.GetLuminance() < 0.6 ? *wxWHITE : wxColour("#000d1f"));
+        if (tray_color.Alpha() == 0) { dc.SetTextForeground(wxColour("#000d1f")); }
 
         dc.DrawText(tray_name, x_center - text_size.x / 2, size.y - y_center - text_size.y / 2);
 

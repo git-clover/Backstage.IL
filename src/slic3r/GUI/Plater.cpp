@@ -488,17 +488,17 @@ public:
 
         m_brace_left = new wxStaticText(this, wxID_ANY, "(", wxDefaultPosition, wxDefaultSize, wxBORDER_NONE);
         m_brace_left->SetFont(Label::Body_13);
-        m_brace_left->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+        m_brace_left->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
         m_brace_left->Hide();
 
         m_count = new wxStaticText(this, wxID_ANY, "", wxDefaultPosition, wxDefaultSize, wxBORDER_NONE);
         m_count->SetFont(Label::Body_13.Bold());
-        m_count->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+        m_count->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
         m_count->Hide();
 
         m_brace_right = new wxStaticText(this, wxID_ANY, ")", wxDefaultPosition, wxDefaultSize, wxBORDER_NONE);
         m_brace_right->SetFont(Label::Body_13);
-        m_brace_right->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+        m_brace_right->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
         m_brace_right->Hide();
 
         m_hover_btn = new ScalableButton(this, wxID_ANY, "dot");
@@ -559,7 +559,7 @@ public:
         SetBackgroundColour(extruder_group_chip_bg());
         m_label->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#6B6B6B")));
         for (wxStaticText *t : {m_brace_left, m_count, m_brace_right})
-            t->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+            t->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
         m_hover_btn->SetBackgroundColour(extruder_group_chip_bg());
         Refresh();
     }
@@ -1144,7 +1144,7 @@ public:
         SetBackgroundColour(*wxWHITE);
         auto msg  = new wxStaticText(this, wxID_ANY, _L("Set the number of AMS installed on the nozzle."));
         msg->SetFont(Label::Body_14);
-        msg->SetForegroundColour("#262E30");
+        msg->SetForegroundColour("#000d1f");
         msg->Wrap(FromDIP(280));
         auto box = new StaticBox(this, wxID_ANY);
         box->SetBackgroundColor(0xF8F8F8);
@@ -1156,11 +1156,11 @@ public:
         auto txt4 = new wxStaticText(box, wxID_ANY, _L("AMS(4 slots)"));
         txt4->SetFont(Label::Body_14);
         txt4->SetBackgroundColour(0xF8F8F8);
-        txt4->SetForegroundColour("#262E30");
+        txt4->SetForegroundColour("#000d1f");
         auto txt1 = new wxStaticText(box, wxID_ANY, _L("AMS(1 slot)"));
         txt1->SetFont(Label::Body_14);
         txt1->SetBackgroundColour(0xF8F8F8);
-        txt1->SetForegroundColour("#262E30");
+        txt1->SetForegroundColour("#000d1f");
         int ams4 = 0, ams1 = 0;
         int oth4 = 0, oth1 = 0;
         GetAMSCount(index, ams4, ams1);
@@ -1266,13 +1266,13 @@ ExtruderGroup::ExtruderGroup(wxWindow * parent, int index, wxString const &title
     // Nozzle
     wxStaticText *label_diameter = new wxStaticText(this, wxID_ANY, _L("Diameter"));
     label_diameter->SetFont(Label::Body_14);
-    label_diameter->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+    label_diameter->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
     if (index >= 0) label_diameter->SetMinSize({FromDIP(80), -1});
     auto combo_diameter = new ComboBox(this, wxID_ANY, wxString(""), wxDefaultPosition, wxDefaultSize, 0, nullptr, wxCB_READONLY);
     this->combo_diameter = combo_diameter;
     wxStaticText *label_flow = new wxStaticText(this, wxID_ANY, _L("Flow"));
     label_flow->SetFont(Label::Body_14);
-    label_flow->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+    label_flow->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
     if (index >= 0) label_flow->SetMinSize({FromDIP(80), -1});
     auto combo_flow = new ComboBox(this, wxID_ANY, wxString(""), wxDefaultPosition, wxDefaultSize, 0, nullptr, wxCB_READONLY);
     combo_flow->GetDropDown().SetUseContentWidth(true);
@@ -1294,7 +1294,7 @@ ExtruderGroup::ExtruderGroup(wxWindow * parent, int index, wxString const &title
     // AMS
     wxStaticText *label_ams  = new wxStaticText(this, wxID_ANY, _L("AMS"));
     label_ams->SetFont(Label::Body_14);
-    label_ams->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+    label_ams->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
     //label_ams->SetMinSize({FromDIP(70), -1});
     if (index >= 0) {
         btn_edit = new ScalableButton(this, wxID_ANY, "dot");
@@ -1319,7 +1319,7 @@ ExtruderGroup::ExtruderGroup(wxWindow * parent, int index, wxString const &title
     // AMS not installed message
     ams_not_installed_msg = new wxStaticText(this, wxID_ANY, _L("Not installed"));
     ams_not_installed_msg->SetFont(Label::Body_14);
-    ams_not_installed_msg->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+    ams_not_installed_msg->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
 
     // AMS group
     for (size_t i = 0; i < 4; ++i) {
@@ -3020,7 +3020,7 @@ Sidebar::Sidebar(Plater *parent)
 
     wxTextCtrl* text_ctrl = p->m_search_item->GetTextCtrl();
     text_ctrl->SetHint(_L("Search plate, object and part."));
-    text_ctrl->SetForegroundColour(wxColour("#262E30"));
+    text_ctrl->SetForegroundColour(wxColour("#000d1f"));
     text_ctrl->SetFont(Label::Body_13);
     text_ctrl->SetSize(wxSize(-1, FromDIP(16))); // Centers text vertically
 

@@ -347,7 +347,7 @@ body.pane-resizing {
 
 .capabilities-tree {
   border-top: 1px solid var(--border-soft);
-  background: rgba(0, 150, 136, 0.04);
+  background: rgba((0, 55, 133), 0.04);
   box-shadow: inset 2px 0 0 var(--row-selected-outline);
 }
 
@@ -370,7 +370,7 @@ body.pane-resizing {
 }
 
 .capability-row:hover {
-  background: rgba(0, 150, 136, 0.05);
+  background: rgba((0, 55, 133), 0.05);
 }
 
 .capability-name-cell,
@@ -842,7 +842,7 @@ body.pane-resizing {
 .plugin-expand-btn:hover,
 .plugin-expand-btn:focus-visible {
   color: var(--text);
-  background: rgba(0, 150, 136, 0.12);
+  background: rgba((0, 55, 133), 0.12);
 }
 
 .plugin-expand-btn:focus-visible {

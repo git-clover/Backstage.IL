@@ -578,7 +578,7 @@ void ImageGrid::render(wxDC& dc)
         auto date1 = wxDateTime((time_t) file1.time).Format(_L(TIME_FORMATS[m_file_sys->GetGroupMode()]));
         auto date2 = wxDateTime((time_t) file2.time).Format(_L(TIME_FORMATS[m_file_sys->GetGroupMode()]));
         dc.SetFont(Label::Head_16);
-        dc.SetTextForeground(StateColor::darkModeColorFor("#262E30"));
+        dc.SetTextForeground(StateColor::darkModeColorFor("#000d1f"));
         dc.DrawText(date1 + " - " + date2, wxPoint{off.x, 2});
     }
     // Draw bottom background

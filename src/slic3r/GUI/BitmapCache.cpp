@@ -327,7 +327,7 @@ wxBitmap* BitmapCache::load_svg(const std::string &bitmap_name, unsigned target_
     replaces["\"#0x00AE42\""] = "\"#003887\"";
     replaces["\"#00FF00\""] = "\"#52c7b8\"";
     if (dark_mode) {
-        replaces["\"#262E30\""] = "\"#EFEFF0\"";
+        replaces["\"#000d1f\""] = "\"#EFEFF0\"";
         replaces["\"#323A3D\""] = "\"#B3B3B5\"";
         replaces["\"#808080\""] = "\"#818183\"";
         //replaces["\"#ACACAC\""] = "\"#54545A\"";
@@ -339,7 +339,7 @@ wxBitmap* BitmapCache::load_svg(const std::string &bitmap_name, unsigned target_
         replaces["\"#F1F1F1\""] = "\"#36363B\"";
         replaces["#DBDBDB"] = "#4A4A51"; // ORCA border color
         replaces["#F0F0F1"] = "#333337"; // ORCA disabled background color
-        replaces["#262E30"] = "#EFEFF0"; // ORCA
+        replaces["#000d1f"] = "#EFEFF0"; // ORCA
     } else {
         replaces["#949494"] = "#7C8282"; // ORCA replace icon line color for light theme
     }

@@ -21,7 +21,7 @@ namespace Slic3r { namespace GUI {
 static StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(206, 206, 206), StateColor::Disabled),
                                std::pair<wxColour, int>(wxColour(0, 137, 123), StateColor::Pressed),
                                std::pair<wxColour, int>(wxColour(38, 166, 154), StateColor::Hovered),
-                               std::pair<wxColour, int>(wxColour(0, 150, 136), StateColor::Normal));
+                               std::pair<wxColour, int>(wxColour((0, 55, 133)), StateColor::Normal));
 
 PrintOptionsDialog::PrintOptionsDialog(wxWindow* parent)
     : DPIDialog(parent, wxID_ANY, _L("Print Options"), wxDefaultPosition, wxDefaultSize, wxCAPTION | wxCLOSE_BOX)
@@ -707,7 +707,7 @@ void PrintOptionsDialog::update_purify_air_at_print_end(MachineObject *obj_)
     m_cb_purify_air_at_print_end->Enable();
     purify_air_switch_board->Enable();
     text_purify_air_context->SetForegroundColour(STATIC_TEXT_CAPTION_COL);
-    text_purify_air->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#262E30")));
+    text_purify_air->SetForegroundColour(StateColor::darkModeColorFor(wxColour("#000d1f")));
 
     // Orca: this codebase's AirDuctData has no IsExaustFanExit() helper, so the exhaust/chamber
     //       fan is detected inline by scanning the air-duct parts for the chamber-fan id.

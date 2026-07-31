@@ -693,7 +693,7 @@ wxBitmap *get_extruder_color_icon(std::vector<std::string> colors, bool is_gradi
             int text_y = (icon_height - size.y) / 2;
 
             // Draw very thin border with lighter color and fewer directions
-            dc.SetTextForeground(wxColor("262E30")); // Semi-transparent dark gray
+            dc.SetTextForeground(wxColor("000d1f")); // Semi-transparent dark gray
             dc.DrawText(label, text_x - 1, text_y);     // Left
             dc.DrawText(label, text_x + 1, text_y);     // Right
             dc.DrawText(label, text_x, text_y - 1);     // Up

@@ -22,7 +22,7 @@ END_EVENT_TABLE()
 
 SpinInput::SpinInput()
     : label_color(std::make_pair(0x6B6B6B, (int) StateColor::Disabled), std::make_pair(0x6B6B6B, (int) StateColor::Normal))
-    , text_color(std::make_pair(0x6B6B6B, (int) StateColor::Disabled), std::make_pair(0x262E30, (int) StateColor::Normal))
+    , text_color(std::make_pair(0x6B6B6B, (int) StateColor::Disabled), std::make_pair(0x000d1f, (int) StateColor::Normal))
 {
     radius = 0;
     border_width     = 1;
