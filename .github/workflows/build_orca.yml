@@ -20,7 +20,7 @@ on:
 
 jobs:
   build_orca:
-    name: Build OrcaSlicer
+    name: Build OrcaSlicer - IDOLABS
     runs-on: ${{ inputs.os }}
     env:
       date:
