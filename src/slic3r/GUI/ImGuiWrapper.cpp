@@ -2795,8 +2795,8 @@ void ImGuiWrapper::init_font(bool compress)
     auto font_name_regular = "HarmonyOS_Sans_SC_Regular.ttf";
     auto font_name_bold = "HarmonyOS_Sans_SC_Bold.ttf";
     if(m_glyph_ranges == ImGui::GetIO().Fonts->GetGlyphRangesKorean()) {
-        font_name_regular = "NanumGothic-Regular.ttf";
-        font_name_bold = "NanumGothic-Bold.ttf";
+        font_name_regular = "Pretendard-Regular.ttf";
+        font_name_bold = "Pretendard-ExtraBold.ttf";
     } else if (m_glyph_ranges == ImGui::GetIO().Fonts->GetGlyphRangesThai()) {
         font_name_regular = "Sarabun-Medium.ttf";
         font_name_bold = "Sarabun-SemiBold.ttf";

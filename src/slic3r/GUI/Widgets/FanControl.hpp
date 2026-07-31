@@ -25,7 +25,7 @@ Description:Fan
 #define SIZE_OF_FAN_OPERATE wxSize(154, 28)
 
 #define DRAW_TEXT_COLOUR wxColour(0x898989)
-#define DRAW_HEAD_TEXT_COLOUR wxColour(0x262e30)
+#define DRAW_HEAD_TEXT_COLOUR wxColour(0x000b1b)
 #define DRAW_OPERATE_LINE_COLOUR wxColour(0xDEDEDE)
 
 enum FanControlType
