@@ -23,7 +23,7 @@ ButtonsListCtrl::ButtonsListCtrl(wxWindow *parent, wxBoxSizer* side_tools) :
 
     wxColour default_btn_bg;
 #ifdef __APPLE__
-    default_btn_bg = wxColour("#3B4446"); // Gradient #414B4E
+    default_btn_bg = wxColour("#232B37"); // Gradient #414B4E
 #else
     default_btn_bg = wxColour("#2D2D30"); // Gradient #414B4E
 #endif
@@ -70,7 +70,7 @@ void ButtonsListCtrl::OnPaint(wxPaintEvent&)
         return;
 
     wxColour selected_btn_bg("#1F8EEA");
-    wxColour default_btn_bg("#3B4446"); // Gradient #414B4E
+    wxColour default_btn_bg("#232B37"); // Gradient #414B4E
     const wxColour& btn_marker_color = Slic3r::GUI::wxGetApp().get_color_hovered_btn_label();
 
     // highlight selected notebook button
