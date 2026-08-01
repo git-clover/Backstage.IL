@@ -2142,7 +2142,7 @@ void AmsReplaceMaterialDialog::create()
         std::pair<wxColour, int>(wxColour(0, 13, 31), StateColor::Enabled));
 
 
-    StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(0, 137, 123), StateColor::Pressed), std::pair<wxColour, int>(wxColour(0, 55, 133), StateColor::Normal)); // Orca: accent teal button (not brand green)
+    StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(0, 92, 213), StateColor::Pressed), std::pair<wxColour, int>(wxColour(0, 55, 133), StateColor::Normal)); // Orca: accent teal button (not brand green)
     m_button_sizer->Add( 0, 0, 1, wxEXPAND, 0 );
 
     m_main_sizer->Add(0,0,0, wxTOP, FromDIP(12));
