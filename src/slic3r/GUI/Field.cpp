@@ -2561,7 +2561,7 @@ void ColourPicker::set_undef_value(wxColourPickerCtrl* field)
 #else
     wxDC &dc2(dc);
 #endif
-    dc2.SetPen(wxPen("#F1754E", 1));
+    dc2.SetPen(wxPen("#006AFF", 1));
 
     const wxRect rect = wxRect(0, 0, bmp.GetWidth(), bmp.GetHeight());
     dc2.DrawLine(rect.GetLeftBottom(), rect.GetTopRight());
