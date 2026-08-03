@@ -4270,13 +4270,19 @@ void PartPlateList::generate_icon_textures()
 			else
 				file_name = std::to_string(i+1);
 
-			wxColour foreground(0xf2, 0x75, 0x4e, 0xff);
+			wxColour foreground(0x00, 0x58, 0xd3, 0xff);
 			if (!m_idx_textures[i].generate_from_text_string(file_name, *font, *wxBLACK, foreground)) {
 				BOOST_LOG_TRIVIAL(error) << __FUNCTION__ << boost::format(":load file %1% failed") % file_name;
 			}
 		}
 	}
 }
+
+// Oh my GOD! It took THREE DAYS to find this! I had to sleep at 4 AM!
+// Pity me for all that pain I suffered through every day.
+// Bambu Studio: 0x00, 0xae, 0x42
+// IDOLABS Royal Blue: 0x00, 0x58, 0xd3 (Currently set)
+// TEXT_AROUND_BUILD_PLATE - FIND THIS AS A LANDMARK!
 
 void PartPlateList::release_icon_textures()
 {
