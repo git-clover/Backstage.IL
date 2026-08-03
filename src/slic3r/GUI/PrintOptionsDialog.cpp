@@ -20,7 +20,7 @@ namespace Slic3r { namespace GUI {
 
 static StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(206, 206, 206), StateColor::Disabled),
                                std::pair<wxColour, int>(wxColour(0, 92, 213), StateColor::Pressed),
-                               std::pair<wxColour, int>(wxColour(38, 166, 154), StateColor::Hovered),
+                               std::pair<wxColour, int>(wxColour(59, 116, 189), StateColor::Hovered),
                                std::pair<wxColour, int>(wxColour(0, 55, 133), StateColor::Normal));
 
 PrintOptionsDialog::PrintOptionsDialog(wxWindow* parent)

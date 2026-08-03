@@ -2469,7 +2469,7 @@ void PartPlate::generate_plate_name_texture()
     auto l = Label::sysFont(size, true);
     wxFont* font = &l;
 
-	wxColour foreground(0xf2, 0x75, 0x4e, 0xff);
+	wxColour foreground(0x00, 0x58, 0xd3, 0xff);
 	if (!m_name_texture.generate_from_text_string(text.ToUTF8().data(), *font, *wxBLACK, foreground)) {
 		BOOST_LOG_TRIVIAL(error) << "PartPlate::generate_plate_name_texture(): generate_from_text_string() failed";
 		return;
@@ -2501,6 +2501,10 @@ void PartPlate::generate_plate_name_texture()
     calc_vertex_for_plate_name_edit_icon(&m_name_texture, 0, m_plate_name_edit_icon);
     register_model_for_picking(*canvas, m_plate_name_edit_icon, picking_id_component(6));
 }
+
+// PHASE 2: Goodbye, Prusa Orange!
+// TEXT_AROUND_BUILD_PLATE - FIND THIS AS A LANDMARK!
+// Landmark 1 of 2
 
 void PartPlate::invalidate_plate_name_texture()
 {
@@ -4283,6 +4287,7 @@ void PartPlateList::generate_icon_textures()
 // Bambu Studio: 0x00, 0xae, 0x42
 // IDOLABS Royal Blue: 0x00, 0x58, 0xd3 (Currently set)
 // TEXT_AROUND_BUILD_PLATE - FIND THIS AS A LANDMARK!
+// Landmark 2 of 2
 
 void PartPlateList::release_icon_textures()
 {
