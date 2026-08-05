@@ -2,7 +2,7 @@
 Wait, you've got [Bambu Studio?](https://github.com/bambulab/BambuStudio) Behind your PEI stage should also be **BACKstage!**<br>
 This is **Backstage.IL**, which you'd call another Orca fork anyways.
 ## But WHY this one?
-This is actually just a powerful, permanent excuse for me to buy **EVEN MORE MACHINES! HAHA!** <br>
+This is actually just a powerful, permanent excuse for me to buy or build **EVEN MORE MACHINES! HAHA!** <br>
 I'm only 2% joking. Rarely are there profiles for your homemade machines; but not this time.
 ## Confirmed to be ADDED
 It'll include:
