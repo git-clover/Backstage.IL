@@ -330,7 +330,7 @@ wxBitmap* BitmapCache::load_svg(const std::string &bitmap_name, unsigned target_
         replaces["\"#000d1f\""] = "\"#EFEFF0\"";
         replaces["\"#323A3D\""] = "\"#B3B3B5\"";
         replaces["\"#808080\""] = "\"#818183\"";
-        //replaces["\"#ACACAC\""] = "\"#54545A\"";
+        //replaces["\"#ACACAC\""] = "\"#515D6F\"";
         replaces["\"#CECECE\""] = "\"#54545B\"";
         replaces["\"#6B6B6B\""] = "\"#818182\"";
         replaces["\"#909090\""] = "\"#FFFFFF\"";
