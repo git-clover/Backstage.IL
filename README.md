@@ -11,7 +11,7 @@ It'll include:
 - Matt's T100 and T250
 - Doron Velta ([I have my own Velta!](https://github.com/git-clover/IL.Velta))
 - Micron and Salad Fork
-- Creality Ender-2 Pro (If I could ever get one, which I would probably not)
+- Frisky stuff (It's basically a box of mystery)
 
 ## Trying (mostly not) to build
 - Volumetric MP4 files (Easiest out of all four)
