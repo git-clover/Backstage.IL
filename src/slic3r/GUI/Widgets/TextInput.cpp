@@ -26,7 +26,7 @@ TextInput::TextInput()
     : label_color(std::make_pair(0x6B6B6B, (int) StateColor::Disabled),
                  std::make_pair(0x6B6B6B, (int) StateColor::Normal))
     , text_color(std::make_pair(0x6B6B6B, (int) StateColor::Disabled),
-                 std::make_pair(0x262E30, (int) StateColor::Normal))
+                 std::make_pair(0x171F29, (int) StateColor::Normal))
 {
     radius = 0;
     border_width = 1;

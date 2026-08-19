@@ -268,7 +268,7 @@ void UiStyledSwitchPanel::OnPaint(wxPaintEvent& event)
     int selBaseY = height - FromDIP(56);
     dc.DrawRoundedRectangle(wxRect(selBaseX, selBaseY, selWidth, selHeight), FromDIP(4));
     // wxFont font(12, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
-    dc.SetTextForeground(wxColour("#262E30"));
+    dc.SetTextForeground(wxColour("#171F29"));
     // dc.SetFont(font);
     int selTextPosX = selBaseX + (selWidth - selTextWidth) / 2;
     int selTextPosY = selBaseY + (selHeight - selTextHeight) / 2;

@@ -59,7 +59,7 @@ ComboBox::ComboBox(wxWindow *parent,
             std::make_pair(*wxWHITE, (int) StateColor::Normal)));
         TextInput::SetLabelColor(StateColor(
             std::make_pair(0x6B6B6B, (int) StateColor::Disabled), // ORCA: Use same color for disabled text on combo boxes
-            std::make_pair(0x262E30, (int) StateColor::Normal)));
+            std::make_pair(0x171F29, (int) StateColor::Normal)));
     }
     if (auto scroll = GetScrollParent(this))
         scroll->Bind(wxEVT_MOVE, &ComboBox::onMove, this);

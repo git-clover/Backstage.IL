@@ -128,7 +128,7 @@ public:
     ) override
     {   // ORCA draw custom text to improve consistency between platforms
         //dc.SetFont(win->GetFont()); Without SetFont it pulls font from window
-        dc.SetTextForeground(StateColor::darkModeColorFor(wxColour("#262E30"))); // use same color for selected / non-selected
+        dc.SetTextForeground(StateColor::darkModeColorFor(wxColour("#171F29"))); // use same color for selected / non-selected
         dc.DrawText(text,wxPoint(rect.x, rect.y));
     }
 };
