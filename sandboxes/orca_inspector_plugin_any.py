@@ -484,7 +484,7 @@ BASE_CSS = r"""
     --fg:        var(--orca-fg, #1f2429);
     --muted:     var(--orca-muted, #6b7580);
     --border:    var(--orca-border, #d9dee3);
-    --accent:    var(--orca-accent, #009688);
+    --accent:    var(--orca-accent, #004fbd);
     --accent-fg: var(--orca-accent-fg, #ffffff);
     --ui:        var(--orca-font, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif);
     --mono:      ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
