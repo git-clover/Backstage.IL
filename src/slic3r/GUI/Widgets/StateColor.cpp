@@ -6,7 +6,7 @@ static bool gDarkMode = false;
 static bool operator<(wxColour const &l, wxColour const &r) { return l.GetRGBA() < r.GetRGBA(); }
 
 static std::map<wxColour, wxColour> gDarkColors{
-    {"#004fbd", "#004db9"}, // rgb(0, 79, 189)    ORCA color
+    {"#004fbd", "#004fbd"}, // rgb(0, 79, 189)    ORCA color
     {"#1F8EEA", "#2778D2"}, // rgb(31, 142, 234)   ???
     {"#FF6F00", "#D15B00"}, // rgb(255, 111, 0)    Secondary color
     {"#D01B1B", "#BB2A3A"}, // rgb(208, 27, 27)    ???
@@ -25,7 +25,7 @@ static std::map<wxColour, wxColour> gDarkColors{
     {"#FFFFFF", "#2D2D31"}, // rgb(255, 255, 255)  Window background
     {"#F8F8F8", "#36363C"}, // rgb(248, 248, 248)  Sidebar > Titlebar > Gradient Top | BBL monitor page titlebar bg
     {"#F1F1F1", "#36363B"}, // rgb(241, 241, 241)  Sidebar > Titlebar > Gradient Bottom
-    {"#3B4446", "#2D2D30"}, // rgb(59, 68, 78)     Top Bar / Main tab bar bg color
+    {"#3B485B", "#2D2D30"}, // rgb(59, 68, 78)     Top Bar / Main tab bar bg color
     {"#CECECE", "#54545B"}, // rgb(206, 206, 206)  Sidebar wxPanel bg | 
     {"#DBFDD5", "#3B3B40"}, // rgb(219, 253, 213)  Not Used anymore // Was used for BBS combo boxes etc
     {"#000000", "#FFFFFE"}, // rgb(0, 0, 0)        Mostly Text color wxBlack

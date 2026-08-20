@@ -19,7 +19,7 @@ static const wxColour STATIC_TEXT_EXPLAIN_COL = wxColour(100, 100, 100);
 namespace Slic3r { namespace GUI {
 
 static StateColor btn_bg_green(std::pair<wxColour, int>(wxColour(206, 206, 206), StateColor::Disabled),
-                               std::pair<wxColour, int>(wxColour(0, 137, 123), StateColor::Pressed),
+                               std::pair<wxColour, int>(wxColour(0, 65, 155), StateColor::Pressed),
                                std::pair<wxColour, int>(wxColour(38, 166, 154), StateColor::Hovered),
                                std::pair<wxColour, int>(wxColour(0, 79, 189), StateColor::Normal));
 

@@ -36,7 +36,7 @@ MultiTaskItem::MultiTaskItem(wxWindow* parent, MachineObject* obj, int type)
 
 
     auto m_btn_bg_enable = StateColor(
-        std::pair<wxColour, int>(wxColour(0, 137, 123), StateColor::Pressed),
+        std::pair<wxColour, int>(wxColour(0, 65, 155), StateColor::Pressed),
         std::pair<wxColour, int>(wxColour(38, 166, 154), StateColor::Hovered),
         std::pair<wxColour, int>(wxColour(0, 79, 189), StateColor::Normal)
     );
