@@ -335,7 +335,7 @@ wxBitmap* BitmapCache::load_svg(const std::string &bitmap_name, unsigned target_
         replaces["\"#6B6B6B\""] = "\"#818182\"";
         replaces["\"#909090\""] = "\"#FFFFFF\"";
         replaces["\"#00FF00\""] = "\"#FF0000\"";
-        replaces["\"#004fbd\""] = "\"#00675b\"";
+        replaces["\"#004fbd\""] = "\"#004db9\"";
         replaces["\"#F1F1F1\""] = "\"#36363B\"";
         replaces["#DBDBDB"] = "#4A4A51"; // ORCA border color
         replaces["#F0F0F1"] = "#333337"; // ORCA disabled background color
@@ -345,7 +345,7 @@ wxBitmap* BitmapCache::load_svg(const std::string &bitmap_name, unsigned target_
     }
 
     if (strstr(bitmap_name.c_str(), "toggle_on") != NULL && dark_mode) // ORCA only replace color of toggle button
-        replaces["#004fbd"] = "#00675b";
+        replaces["#004fbd"] = "#004db9";
 
     if (!new_color.empty())
         replaces["\"#004fbd\""] = "\"" + new_color + "\"";

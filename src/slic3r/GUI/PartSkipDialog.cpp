@@ -47,8 +47,8 @@ static StateColor zoom_bg(std::pair<wxColour, int>(wxColour(255, 255, 255), Stat
                           std::pair<wxColour, int>(wxColour(255, 255, 255), StateColor::Enabled),
                           std::pair<wxColour, int>(wxColour(255, 255, 255), StateColor::Normal));
 
-static StateColor zoom_bd(std::pair<wxColour, int>(wxColour(144, 144, 144), StateColor::Disabled), std::pair<wxColour, int>(wxColour(38, 46, 48), StateColor::Enabled));
-static StateColor zoom_text(std::pair<wxColour, int>(wxColour(144, 144, 144), StateColor::Disabled), std::pair<wxColour, int>(wxColour(38, 46, 48), StateColor::Enabled));
+static StateColor zoom_bd(std::pair<wxColour, int>(wxColour(144, 144, 144), StateColor::Disabled), std::pair<wxColour, int>(wxColour(38, 51, 69), StateColor::Enabled));
+static StateColor zoom_text(std::pair<wxColour, int>(wxColour(144, 144, 144), StateColor::Disabled), std::pair<wxColour, int>(wxColour(38, 51, 69), StateColor::Enabled));
 
 PartSkipDialog::PartSkipDialog(wxWindow *parent) : DPIDialog(parent, wxID_ANY, _L("Skip Objects"), wxDefaultPosition, wxDefaultSize, wxCAPTION | wxCLOSE_BOX)
 {
