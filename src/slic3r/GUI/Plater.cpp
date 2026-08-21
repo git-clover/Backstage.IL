@@ -11506,7 +11506,7 @@ void Plater::priv::on_change_color_mode(SimpleEvent& evt) {
 void Plater::priv::apply_color_mode()
 {
     const bool is_dark         = wxGetApp().dark_mode();
-    wxColour   orca_color      = wxColour(59, 68, 70);//wxColour(ColorRGBA::ORCA().r_uchar(), ColorRGBA::ORCA().g_uchar(), ColorRGBA::ORCA().b_uchar());
+    wxColour   orca_color      = wxColour(59, 72, 91);//wxColour(ColorRGBA::ORCA().r_uchar(), ColorRGBA::ORCA().g_uchar(), ColorRGBA::ORCA().b_uchar());
     orca_color                 = is_dark ? StateColor::darkModeColorFor(orca_color) : StateColor::lightModeColorFor(orca_color);
     wxColour sash_color = is_dark ? wxColour(38, 51, 69) : wxColour(206, 206, 206);
     m_aui_mgr.GetArtProvider()->SetColour(wxAUI_DOCKART_INACTIVE_CAPTION_COLOUR, sash_color);

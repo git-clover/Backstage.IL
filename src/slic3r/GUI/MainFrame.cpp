@@ -2445,7 +2445,7 @@ void MainFrame::update_side_button_style()
     // m_publish_btn->SetCornerRadius(FromDIP(12));
     // m_publish_btn->SetBackgroundColor(m_btn_bg_enable);
     // m_publish_btn->SetBorderColor(m_btn_bg_enable);
-    // m_publish_btn->SetBackgroundColour(wxColour(59,68,70));
+    // m_publish_btn->SetBackgroundColour(wxColour(59,72,91));
     // m_publish_btn->SetTextColor(StateColor::darkModeColorFor("#FFFFFE"));
 
     m_slice_btn->SetTextLayout(SideButton::EHorizontalOrientation::HO_Left, FromDIP(15));

@@ -127,7 +127,7 @@ void ButtonsListCtrl::SetSelection(int sel)
     if (m_selection >= 0 && m_selection < static_cast<int>(m_pageButtons.size())) {
         StateColor bg_color = StateColor(
         std::pair{wxColour(107, 107, 107), (int) StateColor::Hovered},
-        std::pair{wxColour(59, 68, 70), (int) StateColor::Normal});
+        std::pair{wxColour(59, 72, 91), (int) StateColor::Normal});
         m_pageButtons[m_selection]->SetBackgroundColor(bg_color);
         StateColor text_color = StateColor(
         std::pair{wxColour(254,254, 254), (int) StateColor::Normal}
@@ -170,7 +170,7 @@ bool ButtonsListCtrl::InsertPage(size_t n, const wxString &text, bool bSelect /*
 
     StateColor bg_color = StateColor(
         std::pair{wxColour(107, 107, 107), (int) StateColor::Hovered},
-        std::pair{wxColour(59, 68, 70), (int) StateColor::Normal});
+        std::pair{wxColour(59, 72, 91), (int) StateColor::Normal});
 
     btn->SetBackgroundColor(bg_color);
     StateColor text_color = StateColor(
