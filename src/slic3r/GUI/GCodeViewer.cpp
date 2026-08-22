@@ -189,7 +189,7 @@ int GCodeViewer::SequentialView::ActualSpeedImguiWidget::plot(const char* label,
         const float y0 = y_range.first;
 
         const ImU32 grid_main_color = ImGui::GetColorU32(ImVec4(0.5f, 0.5f, 0.5f, 0.5f));
-        const ImU32 grid_secondary_color = ImGui::GetColorU32(ImVec4(0   / 255.f, 150 / 255.f, 136 / 255.f, 0.5f)); // ORCA color with opacity
+        const ImU32 grid_secondary_color = ImGui::GetColorU32(ImVec4(0   / 255.f, 79  / 255.f, 189 / 255.f, 0.5f)); // ORCA color with opacity
 
         // horizontal levels
         for (const auto& [level, color] : levels) {
@@ -209,7 +209,7 @@ int GCodeViewer::SequentialView::ActualSpeedImguiWidget::plot(const char* label,
 
         // profiile
         const ImU32 col_base = ImGui::GetColorU32(ImVec4(0.8f, 0.8f, 0.8f, 1.0f));
-        const ImU32 col_hovered = ImGui::GetColorU32(ImVec4(0   / 255.f, 150 / 255.f, 136 / 255.f, 1.0f)); // ORCA color
+        const ImU32 col_hovered = ImGui::GetColorU32(ImVec4(0   / 255.f, 79  / 255.f, 189 / 255.f, 1.0f)); // ORCA color
         for (int n = 0; n < values_count - 1; ++n) {
             const ImVec2 tp1(ImSaturate((data[n].pos - x0) * inv_scale_x), 1.0f - ImSaturate((data[n].speed - y0) * inv_scale_y));
             const ImVec2 tp2(ImSaturate((data[n + 1].pos - x0) * inv_scale_x), 1.0f - ImSaturate((data[n + 1].speed - y0) * inv_scale_y));
@@ -593,7 +593,7 @@ void GCodeViewer::SequentialView::Marker::render_position_window(const libvgcode
                     for (const ActualSpeedImguiWidget::Item& item : m_actual_speed_imgui_widget.data) {
                         const bool highlight = hover_id >= 0 && (counter == hover_id || counter == hover_id + 1);
                         ImGui::TableNextRow();
-                        const ImU32 row_bg_color = ImGui::GetColorU32(item.internal ? ImVec4(0   / 255.f, 150 / 255.f, 136 / 255.f, 0.15f) : ImVec4(0.2f, 0.2f, 0.2f, 0.25f)); // ORCA
+                        const ImU32 row_bg_color = ImGui::GetColorU32(item.internal ? ImVec4(0   / 255.f, 79  / 255.f, 189 / 255.f, 0.15f) : ImVec4(0.2f, 0.2f, 0.2f, 0.25f)); // ORCA
                         ImGui::TableSetBgColor(ImGuiTableBgTarget_RowBg0, row_bg_color);
                         ImGui::TableSetColumnIndex(0);
                         sprintf(buff, "%.3f", item.pos);
