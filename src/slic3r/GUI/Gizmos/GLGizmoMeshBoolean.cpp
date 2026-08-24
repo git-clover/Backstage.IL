@@ -150,7 +150,7 @@ void GLGizmoMeshBoolean::on_render()
     }
 
     ColorRGB src_color = { 1.0f, 1.0f, 1.0f };
-    ColorRGB tool_color = {0.0f, 150.0f / 255.0f, 136.0f / 255.0f};
+    ColorRGB tool_color = {0   / 255.f, 79  / 255.f, 189 / 255.f};
     m_parent.get_selection().render_bounding_box(src_bb, src_color, m_parent.get_scale());
     m_parent.get_selection().render_bounding_box(tool_bb, tool_color, m_parent.get_scale());
 }
