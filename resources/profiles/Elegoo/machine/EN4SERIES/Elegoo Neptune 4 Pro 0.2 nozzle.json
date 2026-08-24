@@ -13,7 +13,7 @@
 	"default_filament_profile": [
 		"Elegoo PLA @0.2 nozzle"
 	],
-	"default_print_profile": "0.10mm Standard @Elegoo N4Pro 0.2 nozzle",
+	"default_print_profile": "0.10 mm Standard @Elegoo N4Pro 0.2 nozzle",
 	"retraction_minimum_travel": [
 		"0.4"
 	],

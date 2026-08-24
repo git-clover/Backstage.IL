@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @X-Max 4",
+	"name": "0.12 mm Fine @X-Max 4",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
 	"setting_id": "LwuGo5RPFaXOdGOP",

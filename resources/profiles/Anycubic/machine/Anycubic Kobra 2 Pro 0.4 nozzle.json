@@ -12,7 +12,7 @@
 	"nozzle_diameter": [
 		"0.4"
 	],
-	"default_print_profile": "0.16mm Optimal @Anycubic Kobra 2 Pro 0.4 nozzle",
+	"default_print_profile": "0.16 mm Optimal @Anycubic Kobra 2 Pro 0.4 nozzle",
 	"default_filament_profile": [
 		"Anycubic PLA @Anycubic Kobra 2 Pro 0.4 nozzle"
 	],
@@ -146,7 +146,7 @@
 		"0"
 	],
 	"machine_pause_gcode": "M601",
-	"machine_start_gcode": "G90 ;Use absolute coordinates\nM83 ;Extruder relative mode\nM140 S[first_layer_bed_temperature] ;Set bed temp\nM190 S[first_layer_bed_temperature] ;Wait for bed temp\nM104 S[first_layer_temperature] ;Set extruder temp\nM109 S[first_layer_temperature] ;Wait for extruder temp\nG28 ;Move X/Y/Z to min endstops\nG1 Z0.28 ;Lift nozzle a bit\nG92 E0 ;Specify current extruder position as zero\nG1 Y226 F1800 ;Move Y to purge point\nG1 X180 E25 F500 ;Extrude 25mm of filament in a 5cm line\nG92 E0 ;Zero the extruded length again\nG1 E-0.2 F500 ;Retract a little\nG1 X181 F4000 ;Quickly wipe away from the filament line\nM117\nM900 K0.07",
+	"machine_start_gcode": "G90 ;Use absolute coordinates\nM83 ;Extruder relative mode\nM140 S[first_layer_bed_temperature] ;Set bed temp\nM190 S[first_layer_bed_temperature] ;Wait for bed temp\nM104 S[first_layer_temperature] ;Set extruder temp\nM109 S[first_layer_temperature] ;Wait for extruder temp\nG28 ;Move X/Y/Z to min endstops\nG1 Z0.28 ;Lift nozzle a bit\nG92 E0 ;Specify current extruder position as zero\nG1 Y226 F1800 ;Move Y to purge point\nG1 X180 E25 F500 ;Extrude 25 mm of filament in a 5cm line\nG92 E0 ;Zero the extruded length again\nG1 E-0.2 F500 ;Retract a little\nG1 X181 F4000 ;Quickly wipe away from the filament line\nM117\nM900 K0.07",
 	"machine_unload_filament_time": "29",
 	"manual_filament_change": "0",
 	"max_layer_height": [

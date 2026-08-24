@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "NGQAnSKnUVHcq0sR",
-	"name": "0.24mm Draft @Creality K1 (0.4 nozzle)",
+	"name": "0.24 mm Draft @Creality K1 (0.4 nozzle)",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

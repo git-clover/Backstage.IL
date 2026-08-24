@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Creality Ender3V3SE 0.8",
+	"name": "0.16 mm Optimal @Creality Ender3V3SE 0.8",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "kLTt1KBtPskehSHv",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @The Positron",
+	"name": "0.20 mm Standard @The Positron",
 	"inherits": "fdm_process_the_positron_common",
 	"from": "system",
 	"setting_id": "vA3iTj6YYqIsCzds",

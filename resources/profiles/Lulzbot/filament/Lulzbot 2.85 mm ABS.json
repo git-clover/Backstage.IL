@@ -1,6 +1,6 @@
 {
 	"type": "filament",
-	"name": "Lulzbot 2.85mm ABS",
+	"name": "Lulzbot 2.85 mm ABS",
 	"inherits": "Generic ABS @System",
 	"from": "system",
 	"setting_id": "XwsWBVH2xIwyRMm4",

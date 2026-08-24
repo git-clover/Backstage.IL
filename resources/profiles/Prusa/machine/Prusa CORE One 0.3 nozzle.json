@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "llQiP3fGzNknt1fY",
 	"instantiation": "true",
-	"default_print_profile": "0.16mm STRUCTURAL @CORE One 0.3",
+	"default_print_profile": "0.16 mm STRUCTURAL @CORE One 0.3",
 	"machine_max_jerk_x": [
 		"8",
 		"8"

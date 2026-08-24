@@ -6,7 +6,7 @@
 	"setting_id": "GA2GSWco5cgRn8FI",
 	"instantiation": "true",
 	"printer_model": "BIQU Hurakan",
-	"default_print_profile": "0.20mm Standard @BIQU Hurakan (0.4 nozzle)",
+	"default_print_profile": "0.20 mm Standard @BIQU Hurakan (0.4 nozzle)",
 	"nozzle_diameter": [
 		"0.4"
 	],

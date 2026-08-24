@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Draft @Raise3D Pro3",
+	"name": "0.25 mm Draft @Raise3D Pro3",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "p0KdJttce5WMx30N",

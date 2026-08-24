@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "BKpizWAIMDwwSaTu",
-	"name": "Full performance DUAL - 0.20mm",
+	"name": "Full performance DUAL - 0.20 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

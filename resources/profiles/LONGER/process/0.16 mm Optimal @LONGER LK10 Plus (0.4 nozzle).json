@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @LONGER LK10 Plus (0.4 nozzle)",
+	"name": "0.16 mm Optimal @LONGER LK10 Plus (0.4 nozzle)",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "qRe2lkPbt13Bv69D",

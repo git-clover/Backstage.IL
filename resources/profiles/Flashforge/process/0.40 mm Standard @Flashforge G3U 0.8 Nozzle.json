@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @Flashforge G3U 0.8 Nozzle",
+	"name": "0.40 mm Standard @Flashforge G3U 0.8 Nozzle",
 	"inherits": "fdm_process_flashforge_0.40",
 	"from": "system",
 	"setting_id": "gTCiZUTED9NajbsZ",
@@ -34,7 +34,7 @@
 	"prime_tower_brim_width": "5",
 	"prime_tower_width": "30",
 	"prime_volume": "5",
-	"print_settings_id": "0.40mm Standard @Flashforge G3U 0.8 Nozzle",
+	"print_settings_id": "0.40 mm Standard @Flashforge G3U 0.8 Nozzle",
 	"seam_gap": "5%",
 	"sparse_infill_acceleration": "50%",
 	"sparse_infill_line_width": "0.82",

@@ -7,7 +7,7 @@
 	"inherits": "Elegoo Neptune 4 0.4 nozzle",
 	"host_type": "elegoolink",
 	"printer_model": "Elegoo Neptune 4 Pro",
-	"default_print_profile": "0.20mm Standard @Elegoo N4Pro 0.4 nozzle",
+	"default_print_profile": "0.20 mm Standard @Elegoo N4Pro 0.4 nozzle",
 	"gcode_flavor": "klipper",
 	"nozzle_diameter": [
 		"0.4"

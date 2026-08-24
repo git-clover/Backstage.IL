@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @M1",
+	"name": "0.08 mm Extra Fine @M1",
 	"inherits": "fdm_process_M1_common",
 	"from": "system",
 	"setting_id": "eancI3korAAbrT0H",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Structural @Prusa XL 5T 0.5",
+	"name": "0.10 mm Structural @Prusa XL 5T 0.5",
 	"inherits": "process_common_xl_5t",
 	"from": "system",
 	"setting_id": "dJXdBn0NOlO6W6Zy",

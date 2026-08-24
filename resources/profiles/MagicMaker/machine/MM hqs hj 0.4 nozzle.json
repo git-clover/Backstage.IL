@@ -6,7 +6,7 @@
 	"setting_id": "2MC7ljWsyIfNcoCS",
 	"instantiation": "true",
 	"printer_model": "MM hqs hj",
-	"default_print_profile": "0.10mm Fine @MM hqs hj",
+	"default_print_profile": "0.10 mm Fine @MM hqs hj",
 	"nozzle_diameter": [
 		"0.4"
 	],

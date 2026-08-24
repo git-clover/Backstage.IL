@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
+	"name": "0.20 mm Standard @Flashforge G3U 0.4 Nozzle",
 	"inherits": "fdm_process_flashforge_0.20",
 	"from": "system",
 	"setting_id": "KhWOD428xXaI9mwx",
@@ -124,7 +124,7 @@
 	"prime_volume": "40",
 	"print_flow_ratio": "1",
 	"print_sequence": "by layer",
-	"print_settings_id": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
+	"print_settings_id": "0.20 mm Standard @Flashforge G3U 0.4 Nozzle",
 	"raft_contact_distance": "0.1",
 	"raft_expansion": "1.5",
 	"raft_first_layer_density": "90%",

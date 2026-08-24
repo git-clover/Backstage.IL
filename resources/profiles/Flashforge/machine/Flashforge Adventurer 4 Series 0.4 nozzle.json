@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_variant": "0.4",
 	"printer_model": "Flashforge Adventurer 4 Series",
-	"default_print_profile": "0.20mm Standard @Flashforge AD4 0.4 Nozzle",
+	"default_print_profile": "0.20 mm Standard @Flashforge AD4 0.4 Nozzle",
 	"nozzle_diameter": [
 		"0.4"
 	],

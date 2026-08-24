@@ -15,7 +15,7 @@
 	"default_filament_profile": [
 		"Bambu PLA Basic @BBL A2L 0.4 nozzle"
 	],
-	"default_print_profile": "0.20mm Standard @BBL A2L",
+	"default_print_profile": "0.20 mm Standard @BBL A2L",
 	"enable_long_retraction_when_cut": "2",
 	"extruder_clearance_height_to_lid": "325",
 	"extruder_clearance_height_to_rod": "25",

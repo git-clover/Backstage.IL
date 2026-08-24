@@ -6,7 +6,7 @@
 	"setting_id": "ljpHARdxa4iYSUPI",
 	"instantiation": "true",
 	"printer_model": "Sovol SV05",
-	"default_print_profile": "0.20mm Standard @Sovol SV05",
+	"default_print_profile": "0.20 mm Standard @Sovol SV05",
 	"nozzle_diameter": [
 		"0.4"
 	],

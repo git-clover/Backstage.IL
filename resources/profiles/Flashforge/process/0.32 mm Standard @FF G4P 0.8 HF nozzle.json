@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.32mm Standard @FF G4P 0.8 HF nozzle",
-	"inherits": "0.30mm Standard @Flashforge G3U 0.6 Nozzle",
+	"name": "0.32 mm Standard @FF G4P 0.8 HF nozzle",
+	"inherits": "0.30 mm Standard @Flashforge G3U 0.6 Nozzle",
 	"from": "system",
 	"setting_id": "1gxibPIjDyqcZV1e",
 	"instantiation": "true",
@@ -43,7 +43,7 @@
 	"overhang_4_4_speed": "12",
 	"prime_tower_brim_width": "6",
 	"prime_volume": "70",
-	"print_settings_id": "0.32mm Standard @FF G4P 0.8 HF nozzle",
+	"print_settings_id": "0.32 mm Standard @FF G4P 0.8 HF nozzle",
 	"role_based_wipe_speed": "0",
 	"skirt_loops": "0",
 	"slowdown_for_curled_perimeters": "0",

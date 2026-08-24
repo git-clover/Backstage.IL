@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Draft @Geeetech Thunder",
+	"name": "0.25 mm Draft @Geeetech Thunder",
 	"inherits": "fdm_process_Geeetech_HS_0.25",
 	"from": "system",
 	"setting_id": "rZx2bMXMIj70jjlU",

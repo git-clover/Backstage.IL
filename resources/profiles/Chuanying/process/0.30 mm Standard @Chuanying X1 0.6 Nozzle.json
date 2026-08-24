@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Standard @Chuanying X1 0.6 Nozzle",
+	"name": "0.30 mm Standard @Chuanying X1 0.6 Nozzle",
 	"inherits": "fdm_process_chuanying_0.30",
 	"from": "system",
 	"setting_id": "pk0f171o2vhWhbzg",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.14mm Quality @Construct 1",
+	"name": "0.14 mm Quality @Construct 1",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "kDE169rxMES8i1MA",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.18mm High Detail @Lulzbot Taz 4 or 5",
-	"inherits": "0.25mm Standard @Lulzbot Taz 4 or 5",
+	"name": "0.18 mm High Detail @Lulzbot Taz 4 or 5",
+	"inherits": "0.25 mm Standard @Lulzbot Taz 4 or 5",
 	"from": "system",
 	"setting_id": "N4f0GCg9YjwFjfZu",
 	"instantiation": "true",

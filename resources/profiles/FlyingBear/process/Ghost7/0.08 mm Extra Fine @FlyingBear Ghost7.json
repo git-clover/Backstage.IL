@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @FlyingBear Ghost7",
+	"name": "0.08 mm Extra Fine @FlyingBear Ghost7",
 	"inherits": "fdm_process_common_Ghost7",
 	"from": "system",
 	"setting_id": "MgVBCShfLwCDXcK7",
@@ -20,7 +20,7 @@
 	"internal_solid_infill_speed": "150",
 	"top_surface_speed": "150",
 	"layer_height": "0.08",
-	"print_settings_id": "0.08mm Extra Fine @FlyingBear Ghost7",
+	"print_settings_id": "0.08 mm Extra Fine @FlyingBear Ghost7",
 	"sparse_infill_speed": "150",
 	"exclude_object": "1",
 	"internal_bridge_speed": "50",

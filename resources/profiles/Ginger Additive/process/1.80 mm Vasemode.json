@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "1.80mm Vasemode",
+	"name": "1.80 mm Vasemode",
 	"inherits": "fdm_process_common",
 	"from": "User",
 	"setting_id": "J6eZDCuu5egRTMlY",
@@ -43,7 +43,7 @@
 	"overhang_4_4_speed": "40",
 	"overhang_reverse_internal_only": "1",
 	"overhang_reverse_threshold": "0%",
-	"print_settings_id": "1.80mm Vasemode",
+	"print_settings_id": "1.80 mm Vasemode",
 	"role_based_wipe_speed": "1",
 	"seam_position": "aligned",
 	"skirt_distance": "10",

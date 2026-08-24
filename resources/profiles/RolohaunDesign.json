@@ -23,68 +23,68 @@
 			"sub_path": "process/fdm_process_Rook MK1 LDO_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Rook MK1 LDO",
-			"sub_path": "process/0.08mm Extra Fine @Rook MK1 LDO.json"
+			"name": "0.08 mm Extra Fine @Rook MK1 LDO",
+			"sub_path": "process/0.08 mm Extra Fine @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.08mm Super Fine @Delta Flyer Refit",
-			"sub_path": "process/0.08mm Super Fine @Rolohaun Delta Flyer Refit.json"
+			"name": "0.08 mm Super Fine @Delta Flyer Refit",
+			"sub_path": "process/0.08 mm Super Fine @Rolohaun Delta Flyer Refit.json"
 		},
 		{
-			"name": "0.10mm Fine @Delta Flyer Refit",
-			"sub_path": "process/0.10mm Fine @Rolohaun Delta Flyer Refit.json"
+			"name": "0.10 mm Fine @Delta Flyer Refit",
+			"sub_path": "process/0.10 mm Fine @Rolohaun Delta Flyer Refit.json"
 		},
 		{
-			"name": "0.12mm Fine @Rook MK1 LDO",
-			"sub_path": "process/0.12mm Fine @Rook MK1 LDO.json"
+			"name": "0.12 mm Fine @Rook MK1 LDO",
+			"sub_path": "process/0.12 mm Fine @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.16mm Optimal @Delta Flyer Refit",
-			"sub_path": "process/0.16mm Optimal @Rolohaun Delta Flyer Refit.json"
+			"name": "0.16 mm Optimal @Delta Flyer Refit",
+			"sub_path": "process/0.16 mm Optimal @Rolohaun Delta Flyer Refit.json"
 		},
 		{
-			"name": "0.16mm Optimal @Rook MK1 LDO",
-			"sub_path": "process/0.16mm Optimal @Rook MK1 LDO.json"
+			"name": "0.16 mm Optimal @Rook MK1 LDO",
+			"sub_path": "process/0.16 mm Optimal @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.20mm Standard @Delta Flyer Refit",
-			"sub_path": "process/0.20mm Standard @Rolohaun Delta Flyer Refit.json"
+			"name": "0.20 mm Standard @Delta Flyer Refit",
+			"sub_path": "process/0.20 mm Standard @Rolohaun Delta Flyer Refit.json"
 		},
 		{
-			"name": "0.20mm Standard @Rook MK1 LDO",
-			"sub_path": "process/0.20mm Standard @Rook MK1 LDO.json"
+			"name": "0.20 mm Standard @Rook MK1 LDO",
+			"sub_path": "process/0.20 mm Standard @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.24mm Draft @Delta Flyer Refit",
-			"sub_path": "process/0.24mm Draft @Rolohaun Delta Flyer Refit.json"
+			"name": "0.24 mm Draft @Delta Flyer Refit",
+			"sub_path": "process/0.24 mm Draft @Rolohaun Delta Flyer Refit.json"
 		},
 		{
-			"name": "0.24mm Draft @Rook MK1 LDO",
-			"sub_path": "process/0.24mm Draft @Rook MK1 LDO.json"
+			"name": "0.24 mm Draft @Rook MK1 LDO",
+			"sub_path": "process/0.24 mm Draft @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Rook MK1 LDO",
-			"sub_path": "process/0.28mm Extra Draft @Rook MK1 LDO.json"
+			"name": "0.28 mm Extra Draft @Rook MK1 LDO",
+			"sub_path": "process/0.28 mm Extra Draft @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.28mm Rough Draft @Delta Flyer Refit",
-			"sub_path": "process/0.28mm Rough Draft @Rolohaun Delta Flyer Refit.json"
+			"name": "0.28 mm Rough Draft @Delta Flyer Refit",
+			"sub_path": "process/0.28 mm Rough Draft @Rolohaun Delta Flyer Refit.json"
 		},
 		{
 			"name": "0.2mm Vase Mode @Delta Flyer Refit",
 			"sub_path": "process/0.2mm Vase Mode @Rolohaun Delta Flyer Refit.json"
 		},
 		{
-			"name": "0.32mm Standard @Rook MK1 LDO",
-			"sub_path": "process/0.32mm Extra Draft @Rook MK1 LDO.json"
+			"name": "0.32 mm Standard @Rook MK1 LDO",
+			"sub_path": "process/0.32 mm Extra Draft @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.40mm Standard @Rook MK1 LDO",
-			"sub_path": "process/0.40mm Extra Draft @Rook MK1 LDO.json"
+			"name": "0.40 mm Standard @Rook MK1 LDO",
+			"sub_path": "process/0.40 mm Extra Draft @Rook MK1 LDO.json"
 		},
 		{
-			"name": "0.56mm Standard @Rook MK1 LDO",
-			"sub_path": "process/0.56mm Extra Draft @Rook MK1 LDO.json"
+			"name": "0.56 mm Standard @Rook MK1 LDO",
+			"sub_path": "process/0.56 mm Extra Draft @Rook MK1 LDO.json"
 		}
 	],
 	"filament_list": [],

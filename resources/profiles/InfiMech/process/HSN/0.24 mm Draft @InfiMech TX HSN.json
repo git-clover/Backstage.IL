@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @InfiMech TX HSN",
+	"name": "0.24 mm Draft @InfiMech TX HSN",
 	"inherits": "fdm_process_common_HSN",
 	"from": "system",
 	"setting_id": "T9uHAqamT2bXL0LV",
@@ -17,7 +17,7 @@
 	"inner_wall_speed": "230",
 	"internal_solid_infill_speed": "230",
 	"layer_height": "0.24",
-	"print_settings_id": "0.24mm Draft @InfiMech TX HSN",
+	"print_settings_id": "0.24 mm Draft @InfiMech TX HSN",
 	"sparse_infill_speed": "230",
 	"exclude_object": "1",
 	"internal_bridge_speed": "50",

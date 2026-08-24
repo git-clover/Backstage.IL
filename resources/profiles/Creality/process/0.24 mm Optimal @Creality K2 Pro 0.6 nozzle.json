@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Optimal @Creality K2 Pro 0.6 nozzle",
+	"name": "0.24 mm Optimal @Creality K2 Pro 0.6 nozzle",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "3Pbmrd0qM9D2TjD7",

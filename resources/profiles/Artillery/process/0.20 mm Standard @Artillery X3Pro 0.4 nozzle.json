@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Artillery X3Pro 0.4 nozzle",
+	"name": "0.20 mm Standard @Artillery X3Pro 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "SwsU8x0FgAa4zu3n",
@@ -135,7 +135,7 @@
 	"print_flow_ratio": "1",
 	"print_order": "default",
 	"print_sequence": "by layer",
-	"print_settings_id": "0.20mm Standard @Artillery X3Pro 0.4 nozzle",
+	"print_settings_id": "0.20 mm Standard @Artillery X3Pro 0.4 nozzle",
 	"raft_contact_distance": "0.1",
 	"raft_expansion": "1.5",
 	"raft_first_layer_density": "90%",

@@ -6,7 +6,7 @@
 	"instantiation": "true",
 	"inherits": "fdm_volumic_common",
 	"printer_model": "EXO42",
-	"default_print_profile": "Normal speed - 0.15mm",
+	"default_print_profile": "Normal speed - 0.15 mm",
 	"host_type": "esp3d",
 	"print_host": "192.168.0.60",
 	"nozzle_diameter": [

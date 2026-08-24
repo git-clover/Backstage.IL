@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @CoLiDo 160 V2",
+	"name": "0.24 mm Draft @CoLiDo 160 V2",
 	"inherits": "fdm_process_colido160v2_common",
 	"from": "system",
 	"setting_id": "cYG9mdetut2iHRhB",

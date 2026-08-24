@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.56mm Extra Draft @Tiertime UP400 Pro 0.8 nozzle",
+	"name": "0.56 mm Extra Draft @Tiertime UP400 Pro 0.8 nozzle",
 	"inherits": "fdm_process_tiertime_0.56_nozzle_0.8",
 	"from": "system",
 	"setting_id": "XAuIJcY4WL1KQyO4",

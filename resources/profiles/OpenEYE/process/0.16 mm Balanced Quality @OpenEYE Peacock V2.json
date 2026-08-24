@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.16mm Balanced Quality @OpenEYE Peacock V2",
+	"name": "0.16 mm Balanced Quality @OpenEYE Peacock V2",
 	"inherits": "fdm_process_openeye_0.16_nozzle_0.4",
 	"from": "system",
 	"setting_id": "PBks1gcyPcxRhGtr",
 	"instantiation": "true",
-	"description": "High quality profile for 0.16mm layer height, prioritizing print quality and strength.",
+	"description": "High quality profile for 0.16 mm layer height, prioritizing print quality and strength.",
 	"default_acceleration": "4000",
 	"initial_layer_speed": "50",
 	"inner_wall_speed": "150",

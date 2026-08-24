@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm PETG @LH Stinger",
+	"name": "0.20 mm PETG @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "K3dY4BJPW9HL0NQ2",

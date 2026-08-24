@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @RatRig",
+	"name": "0.20 mm Standard @RatRig",
 	"inherits": "fdm_process_ratrig_common",
 	"from": "system",
 	"setting_id": "yY0DqowupfGG1k09",

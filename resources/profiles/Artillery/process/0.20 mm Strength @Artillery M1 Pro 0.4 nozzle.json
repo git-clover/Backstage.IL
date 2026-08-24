@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Strength @Artillery M1 Pro 0.4 nozzle",
+	"name": "0.20 mm Strength @Artillery M1 Pro 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "KswPAAYezpKlVDY4",
@@ -9,7 +9,7 @@
 	"default_acceleration": "10000",
 	"filename_format": "{input_filename_base}_{filament_type[initial_tool]}_M1Pro.gcode",
 	"gap_infill_speed": "250",
-	"print_settings_id": "0.20mm Strength @Artillery M1 Pro 0.4 nozzle",
+	"print_settings_id": "0.20 mm Strength @Artillery M1 Pro 0.4 nozzle",
 	"slow_down_layers": "3",
 	"support_style": "default",
 	"support_type": "tree(auto)",

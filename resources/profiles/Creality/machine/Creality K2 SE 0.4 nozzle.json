@@ -16,7 +16,7 @@
 	"cooling_tube_length": "0",
 	"cooling_tube_retraction": "0",
 	"creality_flush_time": "135",
-	"default_print_profile": "0.20mm Standard @Creality K2 SE 0.4 nozzle",
+	"default_print_profile": "0.20 mm Standard @Creality K2 SE 0.4 nozzle",
 	"disable_m73": "0",
 	"emit_machine_limits_to_gcode": "1",
 	"enable_filament_ramming": "0",

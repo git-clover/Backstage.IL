@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Fine Fast @MM BoneKing",
+	"name": "0.10 mm Fine Fast @MM BoneKing",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "fIzlKlmcI4pDKviy",

@@ -35,7 +35,7 @@
 	],
 	"compatible_printers_condition": "",
 	"compatible_prints": [
-		"0.20mm Standard @iQ TiQ2 P1 - PETG Polymax Polymaker (0.4 Nozzle)"
+		"0.20 mm Standard @iQ TiQ2 P1 - PETG Polymax Polymaker (0.4 Nozzle)"
 	],
 	"compatible_prints_condition": "",
 	"complete_print_exhaust_fan_speed": [

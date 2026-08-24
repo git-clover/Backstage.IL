@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.16mm High Quality @Artillery X4Plus 0.4 nozzle",
-	"inherits": "0.20mm Standard @Artillery X4Plus 0.4 nozzle",
+	"name": "0.16 mm High Quality @Artillery X4Plus 0.4 nozzle",
+	"inherits": "0.20 mm Standard @Artillery X4Plus 0.4 nozzle",
 	"from": "system",
 	"setting_id": "jBHKTmqFc3PVi59U",
 	"instantiation": "true",
@@ -14,7 +14,7 @@
 	"outer_wall_acceleration": "2000",
 	"outer_wall_line_width": "0.42",
 	"outer_wall_speed": "60",
-	"print_settings_id": "0.16mm High Quality @Artillery X4Plus 0.4 nozzle",
+	"print_settings_id": "0.16 mm High Quality @Artillery X4Plus 0.4 nozzle",
 	"sparse_infill_speed": "180",
 	"support_line_width": "0.42",
 	"top_surface_line_width": "0.42"

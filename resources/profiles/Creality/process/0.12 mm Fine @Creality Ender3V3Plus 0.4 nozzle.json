@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Creality Ender-3 V3 Plus",
+	"name": "0.12 mm Fine @Creality Ender-3 V3 Plus",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "qPcJyOUL611jQfcb",

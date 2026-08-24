@@ -31,44 +31,44 @@
 			"sub_path": "process/fdm_process_tiertime_common.json"
 		},
 		{
-			"name": "0.12mm Fine @Tiertime UP310 Pro",
-			"sub_path": "process/0.12mm Fine @Tiertime UP310 Pro.json"
+			"name": "0.12 mm Fine @Tiertime UP310 Pro",
+			"sub_path": "process/0.12 mm Fine @Tiertime UP310 Pro.json"
 		},
 		{
-			"name": "0.12mm Fine @Tiertime UP400 Pro",
-			"sub_path": "process/0.12mm Fine @Tiertime UP400 Pro.json"
+			"name": "0.12 mm Fine @Tiertime UP400 Pro",
+			"sub_path": "process/0.12 mm Fine @Tiertime UP400 Pro.json"
 		},
 		{
-			"name": "0.16mm Optimal @Tiertime UP310 Pro",
-			"sub_path": "process/0.16mm Optimal @Tiertime UP310 Pro.json"
+			"name": "0.16 mm Optimal @Tiertime UP310 Pro",
+			"sub_path": "process/0.16 mm Optimal @Tiertime UP310 Pro.json"
 		},
 		{
-			"name": "0.16mm Optimal @Tiertime UP400 Pro",
-			"sub_path": "process/0.16mm Optimal @Tiertime UP400 Pro.json"
+			"name": "0.16 mm Optimal @Tiertime UP400 Pro",
+			"sub_path": "process/0.16 mm Optimal @Tiertime UP400 Pro.json"
 		},
 		{
-			"name": "0.20mm Standard @Tiertime UP310 Pro",
-			"sub_path": "process/0.20mm Standard @Tiertime UP310 Pro.json"
+			"name": "0.20 mm Standard @Tiertime UP310 Pro",
+			"sub_path": "process/0.20 mm Standard @Tiertime UP310 Pro.json"
 		},
 		{
-			"name": "0.20mm Standard @Tiertime UP400 Pro",
-			"sub_path": "process/0.20mm Standard @Tiertime UP400 Pro.json"
+			"name": "0.20 mm Standard @Tiertime UP400 Pro",
+			"sub_path": "process/0.20 mm Standard @Tiertime UP400 Pro.json"
 		},
 		{
-			"name": "0.24mm Draft @Tiertime UP310 Pro",
-			"sub_path": "process/0.24mm Draft @Tiertime UP310 Pro.json"
+			"name": "0.24 mm Draft @Tiertime UP310 Pro",
+			"sub_path": "process/0.24 mm Draft @Tiertime UP310 Pro.json"
 		},
 		{
-			"name": "0.24mm Draft @Tiertime UP400 Pro",
-			"sub_path": "process/0.24mm Draft @Tiertime UP400 Pro.json"
+			"name": "0.24 mm Draft @Tiertime UP400 Pro",
+			"sub_path": "process/0.24 mm Draft @Tiertime UP400 Pro.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Tiertime UP310 Pro",
-			"sub_path": "process/0.28mm Extra Draft @Tiertime UP310 Pro.json"
+			"name": "0.28 mm Extra Draft @Tiertime UP310 Pro",
+			"sub_path": "process/0.28 mm Extra Draft @Tiertime UP310 Pro.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Tiertime UP400 Pro",
-			"sub_path": "process/0.28mm Extra Draft @Tiertime UP400 Pro.json"
+			"name": "0.28 mm Extra Draft @Tiertime UP400 Pro",
+			"sub_path": "process/0.28 mm Extra Draft @Tiertime UP400 Pro.json"
 		},
 		{
 			"name": "fdm_process_tiertime_0.18_nozzle_0.6",
@@ -115,88 +115,88 @@
 			"sub_path": "process/fdm_process_tiertime_HS_common.json"
 		},
 		{
-			"name": "0.18mm Fine @Tiertime UP400 Pro 0.6 nozzle",
-			"sub_path": "process/0.18mm Fine @Tiertime UP400 Pro 0.6 nozzle.json"
+			"name": "0.18 mm Fine @Tiertime UP400 Pro 0.6 nozzle",
+			"sub_path": "process/0.18 mm Fine @Tiertime UP400 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Tiertime UP400 Pro 0.6 nozzle",
-			"sub_path": "process/0.24mm Standard @Tiertime UP400 Pro 0.6 nozzle.json"
+			"name": "0.24 mm Standard @Tiertime UP400 Pro 0.6 nozzle",
+			"sub_path": "process/0.24 mm Standard @Tiertime UP400 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Fine @Tiertime UP400 Pro 0.8 nozzle",
-			"sub_path": "process/0.24mm Fine @Tiertime UP400 Pro 0.8 nozzle.json"
+			"name": "0.24 mm Fine @Tiertime UP400 Pro 0.8 nozzle",
+			"sub_path": "process/0.24 mm Fine @Tiertime UP400 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.30mm Standard @Tiertime UP400 Pro 0.6 nozzle",
-			"sub_path": "process/0.30mm Standard @Tiertime UP400 Pro 0.6 nozzle.json"
+			"name": "0.30 mm Standard @Tiertime UP400 Pro 0.6 nozzle",
+			"sub_path": "process/0.30 mm Standard @Tiertime UP400 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Strength @Tiertime UP400 Pro 0.6 nozzle",
-			"sub_path": "process/0.30mm Strength @Tiertime UP400 Pro 0.6 nozzle.json"
+			"name": "0.30 mm Strength @Tiertime UP400 Pro 0.6 nozzle",
+			"sub_path": "process/0.30 mm Strength @Tiertime UP400 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.32mm Standard @Tiertime UP400 Pro 0.8 nozzle",
-			"sub_path": "process/0.32mm Standard @Tiertime UP400 Pro 0.8 nozzle.json"
+			"name": "0.32 mm Standard @Tiertime UP400 Pro 0.8 nozzle",
+			"sub_path": "process/0.32 mm Standard @Tiertime UP400 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.36mm Draft @Tiertime UP400 Pro 0.6 nozzle",
-			"sub_path": "process/0.36mm Draft @Tiertime UP400 Pro 0.6 nozzle.json"
+			"name": "0.36 mm Draft @Tiertime UP400 Pro 0.6 nozzle",
+			"sub_path": "process/0.36 mm Draft @Tiertime UP400 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.40mm Standard @Tiertime UP400 Pro 0.8 nozzle",
-			"sub_path": "process/0.40mm Standard @Tiertime UP400 Pro 0.8 nozzle.json"
+			"name": "0.40 mm Standard @Tiertime UP400 Pro 0.8 nozzle",
+			"sub_path": "process/0.40 mm Standard @Tiertime UP400 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.42mm Extra Draft @Tiertime UP400 Pro 0.6 nozzle",
-			"sub_path": "process/0.42mm Extra Draft @Tiertime UP400 Pro 0.6 nozzle.json"
+			"name": "0.42 mm Extra Draft @Tiertime UP400 Pro 0.6 nozzle",
+			"sub_path": "process/0.42 mm Extra Draft @Tiertime UP400 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.48mm Draft @Tiertime UP400 Pro 0.8 nozzle",
-			"sub_path": "process/0.48mm Draft @Tiertime UP400 Pro 0.8 nozzle.json"
+			"name": "0.48 mm Draft @Tiertime UP400 Pro 0.8 nozzle",
+			"sub_path": "process/0.48 mm Draft @Tiertime UP400 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.56mm Extra Draft @Tiertime UP400 Pro 0.8 nozzle",
-			"sub_path": "process/0.56mm Extra Draft @Tiertime UP400 Pro 0.8 nozzle.json"
+			"name": "0.56 mm Extra Draft @Tiertime UP400 Pro 0.8 nozzle",
+			"sub_path": "process/0.56 mm Extra Draft @Tiertime UP400 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Tiertime UP300 HS",
-			"sub_path": "process/0.12mm Fine @Tiertime UP300 HS.json"
+			"name": "0.12 mm Fine @Tiertime UP300 HS",
+			"sub_path": "process/0.12 mm Fine @Tiertime UP300 HS.json"
 		},
 		{
-			"name": "0.12mm Fine @Tiertime UP600 HS",
-			"sub_path": "process/0.12mm Fine @Tiertime UP600 HS.json"
+			"name": "0.12 mm Fine @Tiertime UP600 HS",
+			"sub_path": "process/0.12 mm Fine @Tiertime UP600 HS.json"
 		},
 		{
-			"name": "0.16mm Optimal @Tiertime UP300 HS",
-			"sub_path": "process/0.16mm Optimal @Tiertime UP300 HS.json"
+			"name": "0.16 mm Optimal @Tiertime UP300 HS",
+			"sub_path": "process/0.16 mm Optimal @Tiertime UP300 HS.json"
 		},
 		{
-			"name": "0.16mm Optimal @Tiertime UP600 HS",
-			"sub_path": "process/0.16mm Optimal @Tiertime UP600 HS.json"
+			"name": "0.16 mm Optimal @Tiertime UP600 HS",
+			"sub_path": "process/0.16 mm Optimal @Tiertime UP600 HS.json"
 		},
 		{
-			"name": "0.20mm Standard @Tiertime UP300 HS",
-			"sub_path": "process/0.20mm Standard @Tiertime UP300 HS.json"
+			"name": "0.20 mm Standard @Tiertime UP300 HS",
+			"sub_path": "process/0.20 mm Standard @Tiertime UP300 HS.json"
 		},
 		{
-			"name": "0.20mm Standard @Tiertime UP600 HS",
-			"sub_path": "process/0.20mm Standard @Tiertime UP600 HS.json"
+			"name": "0.20 mm Standard @Tiertime UP600 HS",
+			"sub_path": "process/0.20 mm Standard @Tiertime UP600 HS.json"
 		},
 		{
-			"name": "0.24mm Draft @Tiertime UP300 HS",
-			"sub_path": "process/0.24mm Draft @Tiertime UP300 HS.json"
+			"name": "0.24 mm Draft @Tiertime UP300 HS",
+			"sub_path": "process/0.24 mm Draft @Tiertime UP300 HS.json"
 		},
 		{
-			"name": "0.24mm Draft @Tiertime UP600 HS",
-			"sub_path": "process/0.24mm Draft @Tiertime UP600 HS.json"
+			"name": "0.24 mm Draft @Tiertime UP600 HS",
+			"sub_path": "process/0.24 mm Draft @Tiertime UP600 HS.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Tiertime UP300 HS",
-			"sub_path": "process/0.28mm Extra Draft @Tiertime UP300 HS.json"
+			"name": "0.28 mm Extra Draft @Tiertime UP300 HS",
+			"sub_path": "process/0.28 mm Extra Draft @Tiertime UP300 HS.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Tiertime UP600 HS",
-			"sub_path": "process/0.28mm Extra Draft @Tiertime UP600 HS.json"
+			"name": "0.28 mm Extra Draft @Tiertime UP600 HS",
+			"sub_path": "process/0.28 mm Extra Draft @Tiertime UP600 HS.json"
 		},
 		{
 			"name": "fdm_process_tiertime_0.18_nozzle_0.6_HS",
@@ -239,48 +239,48 @@
 			"sub_path": "process/fdm_process_tiertime_0.56_nozzle_0.8_HS.json"
 		},
 		{
-			"name": "0.18mm Fine @Tiertime UP600 HS 0.6 nozzle",
-			"sub_path": "process/0.18mm Fine @Tiertime UP600 HS 0.6 nozzle.json"
+			"name": "0.18 mm Fine @Tiertime UP600 HS 0.6 nozzle",
+			"sub_path": "process/0.18 mm Fine @Tiertime UP600 HS 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Tiertime UP600 HS 0.6 nozzle",
-			"sub_path": "process/0.24mm Standard @Tiertime UP600 HS 0.6 nozzle.json"
+			"name": "0.24 mm Standard @Tiertime UP600 HS 0.6 nozzle",
+			"sub_path": "process/0.24 mm Standard @Tiertime UP600 HS 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Fine @Tiertime UP600 HS 0.8 nozzle",
-			"sub_path": "process/0.24mm Fine @Tiertime UP600 HS 0.8 nozzle.json"
+			"name": "0.24 mm Fine @Tiertime UP600 HS 0.8 nozzle",
+			"sub_path": "process/0.24 mm Fine @Tiertime UP600 HS 0.8 nozzle.json"
 		},
 		{
-			"name": "0.30mm Standard @Tiertime UP600 HS 0.6 nozzle",
-			"sub_path": "process/0.30mm Standard @Tiertime UP600 HS 0.6 nozzle.json"
+			"name": "0.30 mm Standard @Tiertime UP600 HS 0.6 nozzle",
+			"sub_path": "process/0.30 mm Standard @Tiertime UP600 HS 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Strength @Tiertime UP600 HS 0.6 nozzle",
-			"sub_path": "process/0.30mm Strength @Tiertime UP600 HS 0.6 nozzle.json"
+			"name": "0.30 mm Strength @Tiertime UP600 HS 0.6 nozzle",
+			"sub_path": "process/0.30 mm Strength @Tiertime UP600 HS 0.6 nozzle.json"
 		},
 		{
-			"name": "0.32mm Standard @Tiertime UP600 HS 0.8 nozzle",
-			"sub_path": "process/0.32mm Standard @Tiertime UP600 HS 0.8 nozzle.json"
+			"name": "0.32 mm Standard @Tiertime UP600 HS 0.8 nozzle",
+			"sub_path": "process/0.32 mm Standard @Tiertime UP600 HS 0.8 nozzle.json"
 		},
 		{
-			"name": "0.36mm Draft @Tiertime UP600 HS 0.6 nozzle",
-			"sub_path": "process/0.36mm Draft @Tiertime UP600 HS 0.6 nozzle.json"
+			"name": "0.36 mm Draft @Tiertime UP600 HS 0.6 nozzle",
+			"sub_path": "process/0.36 mm Draft @Tiertime UP600 HS 0.6 nozzle.json"
 		},
 		{
-			"name": "0.40mm Standard @Tiertime UP600 HS 0.8 nozzle",
-			"sub_path": "process/0.40mm Standard @Tiertime UP600 HS 0.8 nozzle.json"
+			"name": "0.40 mm Standard @Tiertime UP600 HS 0.8 nozzle",
+			"sub_path": "process/0.40 mm Standard @Tiertime UP600 HS 0.8 nozzle.json"
 		},
 		{
-			"name": "0.42mm Extra Draft @Tiertime UP600 HS 0.6 nozzle",
-			"sub_path": "process/0.42mm Extra Draft @Tiertime UP600 HS 0.6 nozzle.json"
+			"name": "0.42 mm Extra Draft @Tiertime UP600 HS 0.6 nozzle",
+			"sub_path": "process/0.42 mm Extra Draft @Tiertime UP600 HS 0.6 nozzle.json"
 		},
 		{
-			"name": "0.48mm Draft @Tiertime UP600 HS 0.8 nozzle",
-			"sub_path": "process/0.48mm Draft @Tiertime UP600 HS 0.8 nozzle.json"
+			"name": "0.48 mm Draft @Tiertime UP600 HS 0.8 nozzle",
+			"sub_path": "process/0.48 mm Draft @Tiertime UP600 HS 0.8 nozzle.json"
 		},
 		{
-			"name": "0.56mm Extra Draft @Tiertime UP600 HS 0.8 nozzle",
-			"sub_path": "process/0.56mm Extra Draft @Tiertime UP600 HS 0.8 nozzle.json"
+			"name": "0.56 mm Extra Draft @Tiertime UP600 HS 0.8 nozzle",
+			"sub_path": "process/0.56 mm Extra Draft @Tiertime UP600 HS 0.8 nozzle.json"
 		}
 	],
 	"filament_list": [

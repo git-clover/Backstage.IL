@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Vzbot",
+	"name": "0.20 mm Standard @Vzbot",
 	"inherits": "fdm_process_Vzbot_common",
 	"from": "system",
 	"setting_id": "aufrk8Rt9qtJksVX",

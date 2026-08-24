@@ -16,7 +16,7 @@
 	"default_filament_profile": [
 		"QIDI PLA Rapido @Qidi X-Plus 5 0.4 nozzle"
 	],
-	"default_print_profile": "0.20mm Standard @X-Plus 5",
+	"default_print_profile": "0.20 mm Standard @X-Plus 5",
 	"enable_long_retraction_when_cut": "2",
 	"extruder_clearance_dist_to_rod": "42",
 	"extruder_clearance_height_to_lid": "168",

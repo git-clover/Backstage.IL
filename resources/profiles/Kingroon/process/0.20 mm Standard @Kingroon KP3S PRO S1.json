@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Kingroon KP3S PRO S1",
+	"name": "0.20 mm Standard @Kingroon KP3S PRO S1",
 	"inherits": "fdm_process_common",
 	"setting_id": "t6R8DxQkbEHDGpK1",
 	"instantiation": "true",

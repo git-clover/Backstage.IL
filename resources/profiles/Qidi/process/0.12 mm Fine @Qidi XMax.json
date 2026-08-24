@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Qidi XMax",
+	"name": "0.12 mm Fine @Qidi XMax",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
 	"setting_id": "Ls6f3OYdkl6qG2i2",

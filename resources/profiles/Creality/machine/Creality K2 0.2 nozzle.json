@@ -11,7 +11,7 @@
 	"change_filament_gcode": "G2 Z{z_after_toolchange + 0.4} I0.86 J0.86 P1 F10000 ; spiral lift a little from second lift\nG1 X0 Y140 F30000\nG1 Z{z_after_toolchange} F600",
 	"cooling_tube_length": "0",
 	"cooling_tube_retraction": "0",
-	"default_print_profile": "0.10mm Standard @Creality K2 0.2 nozzle",
+	"default_print_profile": "0.10 mm Standard @Creality K2 0.2 nozzle",
 	"emit_machine_limits_to_gcode": "1",
 	"enable_filament_ramming": "0",
 	"extra_loading_move": "0",

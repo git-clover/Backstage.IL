@@ -6,7 +6,7 @@
 	"instantiation": "true",
 	"inherits": "fdm_machine_common",
 	"printer_model": "Artillery Genius",
-	"default_print_profile": "0.20mm Standard @Artillery Genius",
+	"default_print_profile": "0.20 mm Standard @Artillery Genius",
 	"nozzle_diameter": [
 		"0.4"
 	],

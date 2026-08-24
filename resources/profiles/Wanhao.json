@@ -19,20 +19,20 @@
 			"sub_path": "process/fdm_process_wanhao_common.json"
 		},
 		{
-			"name": "0.12mm Fine @Wanhao D12-400",
-			"sub_path": "process/0.12mm Fine @Wanhao D12-300.json"
+			"name": "0.12 mm Fine @Wanhao D12-400",
+			"sub_path": "process/0.12 mm Fine @Wanhao D12-300.json"
 		},
 		{
-			"name": "0.15mm Optimal @Wanhao D12-300",
-			"sub_path": "process/0.15mm Optimal @Wanhao D12-300.json"
+			"name": "0.15 mm Optimal @Wanhao D12-300",
+			"sub_path": "process/0.15 mm Optimal @Wanhao D12-300.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao D12-300",
-			"sub_path": "process/0.20mm Standard @Wanhao D12-300.json"
+			"name": "0.20 mm Standard @Wanhao D12-300",
+			"sub_path": "process/0.20 mm Standard @Wanhao D12-300.json"
 		},
 		{
-			"name": "0.24mm Draft @Wanhao D12-300",
-			"sub_path": "process/0.24mm Draft @Wanhao D12-300.json"
+			"name": "0.24 mm Draft @Wanhao D12-300",
+			"sub_path": "process/0.24 mm Draft @Wanhao D12-300.json"
 		}
 	],
 	"filament_list": [],

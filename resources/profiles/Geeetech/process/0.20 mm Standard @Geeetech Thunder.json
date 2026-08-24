@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Geeetech Thunder",
+	"name": "0.20 mm Standard @Geeetech Thunder",
 	"inherits": "fdm_process_Geeetech_HS_0.20",
 	"from": "system",
 	"setting_id": "LbbZZy7Mek5Zj75c",

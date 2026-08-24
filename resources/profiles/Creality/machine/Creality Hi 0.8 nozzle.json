@@ -5,7 +5,7 @@
 	"inherits": "fdm_creality_common",
 	"printer_model": "Creality Hi",
 	"printer_structure": "i3",
-	"default_print_profile": "0.40mm Standard @Creality Hi 0.8 nozzle",
+	"default_print_profile": "0.40 mm Standard @Creality Hi 0.8 nozzle",
 	"auxiliary_fan": "0",
 	"bbl_use_printhost": "0",
 	"bed_exclude_area": "0x0",

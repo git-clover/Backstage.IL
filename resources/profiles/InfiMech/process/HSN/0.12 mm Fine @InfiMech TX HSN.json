@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @InfiMech TX HSN",
+	"name": "0.12 mm Fine @InfiMech TX HSN",
 	"inherits": "fdm_process_common_HSN",
 	"from": "system",
 	"setting_id": "2ZdoZtUnCdDmnLwu",
@@ -20,7 +20,7 @@
 	"internal_solid_infill_speed": "180",
 	"top_surface_speed": "150",
 	"layer_height": "0.12",
-	"print_settings_id": "0.12mm Fine @InfiMech TX HSN",
+	"print_settings_id": "0.12 mm Fine @InfiMech TX HSN",
 	"sparse_infill_speed": "180",
 	"exclude_object": "1",
 	"internal_bridge_speed": "50",

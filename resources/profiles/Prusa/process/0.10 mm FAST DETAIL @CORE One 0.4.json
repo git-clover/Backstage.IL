@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.10mm FAST DETAIL @CORE One 0.4",
-	"inherits": "0.10mm FAST DETAIL @MK4S 0.4",
+	"name": "0.10 mm FAST DETAIL @CORE One 0.4",
+	"inherits": "0.10 mm FAST DETAIL @MK4S 0.4",
 	"from": "system",
 	"setting_id": "TB8xk2nE7AbUVYe9",
 	"instantiation": "true",

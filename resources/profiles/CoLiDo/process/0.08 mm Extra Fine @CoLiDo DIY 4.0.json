@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @CoLiDo DIY 4.0",
+	"name": "0.08 mm Extra Fine @CoLiDo DIY 4.0",
 	"inherits": "fdm_process_colidodiy40_common",
 	"from": "system",
 	"setting_id": "syKS4qdutQSXduyt",

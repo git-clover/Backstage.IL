@@ -20,7 +20,7 @@
 	"default_filament_profile": [
 		"Flashforge Generic PLA @G3U"
 	],
-	"default_print_profile": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
+	"default_print_profile": "0.20 mm Standard @Flashforge G3U 0.4 Nozzle",
 	"deretraction_speed": [
 		"35"
 	],

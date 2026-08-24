@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @FF G4",
-	"inherits": "0.20mm Standard @Flashforge AD5M Pro 0.4 Nozzle",
+	"name": "0.16 mm Standard @FF G4",
+	"inherits": "0.20 mm Standard @Flashforge AD5M Pro 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "qIdJBQt3z3OKjG0N",
 	"instantiation": "true",
@@ -23,7 +23,7 @@
 	"prime_tower_brim_width": "5",
 	"prime_tower_width": "30",
 	"prime_volume": "30",
-	"print_settings_id": "0.16mm Standard @FF G4",
+	"print_settings_id": "0.16 mm Standard @FF G4",
 	"seam_gap": "5%",
 	"skirt_loops": "0",
 	"slowdown_for_curled_perimeters": "0",

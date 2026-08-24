@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Qidi XMax",
+	"name": "0.20 mm Standard @Qidi XMax",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
 	"setting_id": "2lJE6tuEIL22NBc2",

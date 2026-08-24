@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @MyMarlin",
+	"name": "0.12 mm Fine @MyMarlin",
 	"inherits": "fdm_process_marlin_common",
 	"from": "system",
 	"setting_id": "p7cD7BCjLQtah9z8",

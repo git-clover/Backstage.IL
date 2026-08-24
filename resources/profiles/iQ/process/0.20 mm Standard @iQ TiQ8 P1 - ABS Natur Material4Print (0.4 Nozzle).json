@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @iQ TiQ8 P1 - ABS Natur Material4Print (0.4 Nozzle)",
+	"name": "0.20 mm Standard @iQ TiQ8 P1 - ABS Natur Material4Print (0.4 Nozzle)",
 	"inherits": "fdm_process_tiq_common",
 	"from": "system",
 	"setting_id": "2tme6z6FUnpCpm4H",
@@ -38,7 +38,7 @@
 	"raft_first_layer_expansion": "3",
 	"prime_tower_width": "80",
 	"layer_height": "0.2",
-	"print_settings_id": "0.20mm Standard @iQ TiQ8 P1 - ABS Natur Material4Print (0.4 Nozzle)",
+	"print_settings_id": "0.20 mm Standard @iQ TiQ8 P1 - ABS Natur Material4Print (0.4 Nozzle)",
 	"reduce_crossing_wall": "1",
 	"skirt_height": "3",
 	"skirt_loops": "2",

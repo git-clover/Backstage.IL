@@ -67,28 +67,28 @@
 			"sub_path": "process/process_common_mk3.json"
 		},
 		{
-			"name": "0.20mm Standard @MINI",
-			"sub_path": "process/0.20mm Standard @MINI.json"
+			"name": "0.20 mm Standard @MINI",
+			"sub_path": "process/0.20 mm Standard @MINI.json"
 		},
 		{
-			"name": "0.20mm Standard @MINI 0.25",
-			"sub_path": "process/0.20mm Standard @MINI 0.25.json"
+			"name": "0.20 mm Standard @MINI 0.25",
+			"sub_path": "process/0.20 mm Standard @MINI 0.25.json"
 		},
 		{
-			"name": "0.20mm Standard @MINI 0.6",
-			"sub_path": "process/0.20mm Standard @MINI 0.6.json"
+			"name": "0.20 mm Standard @MINI 0.6",
+			"sub_path": "process/0.20 mm Standard @MINI 0.6.json"
 		},
 		{
-			"name": "0.20mm Standard @MINI 0.8",
-			"sub_path": "process/0.20mm Standard @MINI 0.8.json"
+			"name": "0.20 mm Standard @MINI 0.8",
+			"sub_path": "process/0.20 mm Standard @MINI 0.8.json"
 		},
 		{
-			"name": "0.20mm Standard @MK3S",
-			"sub_path": "process/0.20mm Standard @MK3S.json"
+			"name": "0.20 mm Standard @MK3S",
+			"sub_path": "process/0.20 mm Standard @MK3S.json"
 		},
 		{
-			"name": "0.20mm Standard @MK3S 0.4",
-			"sub_path": "process/0.20mm Standard @MK3S 0.4.json"
+			"name": "0.20 mm Standard @MK3S 0.4",
+			"sub_path": "process/0.20 mm Standard @MK3S 0.4.json"
 		},
 		{
 			"name": "process_common_MK3.5",
@@ -111,132 +111,132 @@
 			"sub_path": "process/process_common_xl.json"
 		},
 		{
-			"name": "0.05mm UltraDetail @MK3S",
-			"sub_path": "process/0.05mm UltraDetail @MK3S.json"
+			"name": "0.05 mm UltraDetail @MK3S",
+			"sub_path": "process/0.05 mm UltraDetail @MK3S.json"
 		},
 		{
-			"name": "0.05mm UltraDetail @MK3S 0.25",
-			"sub_path": "process/0.05mm UltraDetail @MK3S 0.25.json"
+			"name": "0.05 mm UltraDetail @MK3S 0.25",
+			"sub_path": "process/0.05 mm UltraDetail @MK3S 0.25.json"
 		},
 		{
-			"name": "0.05mm UltraDetail @MK3S 0.4",
-			"sub_path": "process/0.05mm UltraDetail @MK3S 0.4.json"
+			"name": "0.05 mm UltraDetail @MK3S 0.4",
+			"sub_path": "process/0.05 mm UltraDetail @MK3S 0.4.json"
 		},
 		{
-			"name": "0.07mm UltraDetail @MK3S",
-			"sub_path": "process/0.07mm UltraDetail @MK3S.json"
+			"name": "0.07 mm UltraDetail @MK3S",
+			"sub_path": "process/0.07 mm UltraDetail @MK3S.json"
 		},
 		{
-			"name": "0.07mm UltraDetail @MK3S 0.25",
-			"sub_path": "process/0.07mm UltraDetail @MK3S 0.25.json"
+			"name": "0.07 mm UltraDetail @MK3S 0.25",
+			"sub_path": "process/0.07 mm UltraDetail @MK3S 0.25.json"
 		},
 		{
-			"name": "0.07mm UltraDetail @MK3S 0.4",
-			"sub_path": "process/0.07mm UltraDetail @MK3S 0.4.json"
+			"name": "0.07 mm UltraDetail @MK3S 0.4",
+			"sub_path": "process/0.07 mm UltraDetail @MK3S 0.4.json"
 		},
 		{
-			"name": "0.10mm Detail @MK3S",
-			"sub_path": "process/0.10mm Detail @MK3S.json"
+			"name": "0.10 mm Detail @MK3S",
+			"sub_path": "process/0.10 mm Detail @MK3S.json"
 		},
 		{
-			"name": "0.10mm Detail @MK3S 0.25",
-			"sub_path": "process/0.10mm Detail @MK3S 0.25.json"
+			"name": "0.10 mm Detail @MK3S 0.25",
+			"sub_path": "process/0.10 mm Detail @MK3S 0.25.json"
 		},
 		{
-			"name": "0.10mm Detail @MK3S 0.4",
-			"sub_path": "process/0.10mm Detail @MK3S 0.4.json"
+			"name": "0.10 mm Detail @MK3S 0.4",
+			"sub_path": "process/0.10 mm Detail @MK3S 0.4.json"
 		},
 		{
-			"name": "0.15mm Detail @MK3S 0.6",
-			"sub_path": "process/0.15mm Detail @MK3S 0.6.json"
+			"name": "0.15 mm Detail @MK3S 0.6",
+			"sub_path": "process/0.15 mm Detail @MK3S 0.6.json"
 		},
 		{
-			"name": "0.15mm Quality @MK3S",
-			"sub_path": "process/0.15mm Quality @MK3S.json"
+			"name": "0.15 mm Quality @MK3S",
+			"sub_path": "process/0.15 mm Quality @MK3S.json"
 		},
 		{
-			"name": "0.15mm Quality @MK3S 0.25",
-			"sub_path": "process/0.15mm Quality @MK3S 0.25.json"
+			"name": "0.15 mm Quality @MK3S 0.25",
+			"sub_path": "process/0.15 mm Quality @MK3S 0.25.json"
 		},
 		{
-			"name": "0.15mm Quality @MK3S 0.4",
-			"sub_path": "process/0.15mm Quality @MK3S 0.4.json"
+			"name": "0.15 mm Quality @MK3S 0.4",
+			"sub_path": "process/0.15 mm Quality @MK3S 0.4.json"
 		},
 		{
-			"name": "0.15mm Speed @MK3S",
-			"sub_path": "process/0.15mm Speed @MK3S.json"
+			"name": "0.15 mm Speed @MK3S",
+			"sub_path": "process/0.15 mm Speed @MK3S.json"
 		},
 		{
-			"name": "0.20mm Detail @MK3S 0.6",
-			"sub_path": "process/0.20mm Detail @MK3S 0.6.json"
+			"name": "0.20 mm Detail @MK3S 0.6",
+			"sub_path": "process/0.20 mm Detail @MK3S 0.6.json"
 		},
 		{
-			"name": "0.20mm Quality @MK3S",
-			"sub_path": "process/0.20mm Quality @MK3S.json"
+			"name": "0.20 mm Quality @MK3S",
+			"sub_path": "process/0.20 mm Quality @MK3S.json"
 		},
 		{
-			"name": "0.20mm Speed @MK3S",
-			"sub_path": "process/0.20mm Speed @MK3S.json"
+			"name": "0.20 mm Speed @MK3S",
+			"sub_path": "process/0.20 mm Speed @MK3S.json"
 		},
 		{
-			"name": "0.20mm Speed @MK3S 0.4",
-			"sub_path": "process/0.20mm Speed @MK3S 0.4.json"
+			"name": "0.20 mm Speed @MK3S 0.4",
+			"sub_path": "process/0.20 mm Speed @MK3S 0.4.json"
 		},
 		{
-			"name": "0.30mm Detail @MK3S 0.8",
-			"sub_path": "process/0.30mm Detail @MK3S 0.8.json"
+			"name": "0.30 mm Detail @MK3S 0.8",
+			"sub_path": "process/0.30 mm Detail @MK3S 0.8.json"
 		},
 		{
-			"name": "0.30mm Draft @MK3S",
-			"sub_path": "process/0.30mm Draft @MK3S.json"
+			"name": "0.30 mm Draft @MK3S",
+			"sub_path": "process/0.30 mm Draft @MK3S.json"
 		},
 		{
-			"name": "0.30mm Draft @MK3S 0.4",
-			"sub_path": "process/0.30mm Draft @MK3S 0.4.json"
+			"name": "0.30 mm Draft @MK3S 0.4",
+			"sub_path": "process/0.30 mm Draft @MK3S 0.4.json"
 		},
 		{
-			"name": "0.30mm Quality @MK3S 0.6",
-			"sub_path": "process/0.30mm Quality @MK3S 0.6.json"
+			"name": "0.30 mm Quality @MK3S 0.6",
+			"sub_path": "process/0.30 mm Quality @MK3S 0.6.json"
 		},
 		{
-			"name": "0.35mm Speed @MK3S 0.6",
-			"sub_path": "process/0.35mm Speed @MK3S 0.6.json"
+			"name": "0.35 mm Speed @MK3S 0.6",
+			"sub_path": "process/0.35 mm Speed @MK3S 0.6.json"
 		},
 		{
-			"name": "0.40mm Draft @MK3S 0.6",
-			"sub_path": "process/0.40mm Draft @MK3S 0.6.json"
+			"name": "0.40 mm Draft @MK3S 0.6",
+			"sub_path": "process/0.40 mm Draft @MK3S 0.6.json"
 		},
 		{
-			"name": "0.40mm Quality @MK3S 0.8",
-			"sub_path": "process/0.40mm Quality @MK3S 0.8.json"
+			"name": "0.40 mm Quality @MK3S 0.8",
+			"sub_path": "process/0.40 mm Quality @MK3S 0.8.json"
 		},
 		{
-			"name": "0.55mm Draft @MK3S 0.8",
-			"sub_path": "process/0.55mm Draft @MK3S 0.8.json"
+			"name": "0.55 mm Draft @MK3S 0.8",
+			"sub_path": "process/0.55 mm Draft @MK3S 0.8.json"
 		},
 		{
-			"name": "0.15mm Standard @MK3.5 0.6",
-			"sub_path": "process/0.15mm Standard @MK3.5 0.6.json"
+			"name": "0.15 mm Standard @MK3.5 0.6",
+			"sub_path": "process/0.15 mm Standard @MK3.5 0.6.json"
 		},
 		{
-			"name": "0.20mm Standard @MK3.5",
-			"sub_path": "process/0.20mm Standard @MK3.5.json"
+			"name": "0.20 mm Standard @MK3.5",
+			"sub_path": "process/0.20 mm Standard @MK3.5.json"
 		},
 		{
-			"name": "0.20mm Standard @MK3.5 0.6",
-			"sub_path": "process/0.20mm Standard @MK3.5 0.6.json"
+			"name": "0.20 mm Standard @MK3.5 0.6",
+			"sub_path": "process/0.20 mm Standard @MK3.5 0.6.json"
 		},
 		{
-			"name": "0.25mm Standard @MK3.5",
-			"sub_path": "process/0.25mm Standard @MK3.5.json"
+			"name": "0.25 mm Standard @MK3.5",
+			"sub_path": "process/0.25 mm Standard @MK3.5.json"
 		},
 		{
-			"name": "0.32mm Standard @MK3.5",
-			"sub_path": "process/0.32mm Standard @MK3.5.json"
+			"name": "0.32 mm Standard @MK3.5",
+			"sub_path": "process/0.32 mm Standard @MK3.5.json"
 		},
 		{
-			"name": "0.35mm Standard @MK3.5",
-			"sub_path": "process/0.35mm Standard @MK3.5.json"
+			"name": "0.35 mm Standard @MK3.5",
+			"sub_path": "process/0.35 mm Standard @MK3.5.json"
 		},
 		{
 			"name": "process_detail_MK3.5",
@@ -251,28 +251,28 @@
 			"sub_path": "process/process_speed_MK3.5.json"
 		},
 		{
-			"name": "0.15mm Standard @MINIIS 0.6",
-			"sub_path": "process/0.15mm Standard @MINIIS 0.6.json"
+			"name": "0.15 mm Standard @MINIIS 0.6",
+			"sub_path": "process/0.15 mm Standard @MINIIS 0.6.json"
 		},
 		{
-			"name": "0.20mm Standard @MINIIS",
-			"sub_path": "process/0.20mm Standard @MINIIS.json"
+			"name": "0.20 mm Standard @MINIIS",
+			"sub_path": "process/0.20 mm Standard @MINIIS.json"
 		},
 		{
-			"name": "0.20mm Standard @MINIIS 0.6",
-			"sub_path": "process/0.20mm Standard @MINIIS 0.6.json"
+			"name": "0.20 mm Standard @MINIIS 0.6",
+			"sub_path": "process/0.20 mm Standard @MINIIS 0.6.json"
 		},
 		{
-			"name": "0.25mm Standard @MINIIS",
-			"sub_path": "process/0.25mm Standard @MINIIS.json"
+			"name": "0.25 mm Standard @MINIIS",
+			"sub_path": "process/0.25 mm Standard @MINIIS.json"
 		},
 		{
-			"name": "0.32mm Standard @MINIIS",
-			"sub_path": "process/0.32mm Standard @MINIIS.json"
+			"name": "0.32 mm Standard @MINIIS",
+			"sub_path": "process/0.32 mm Standard @MINIIS.json"
 		},
 		{
-			"name": "0.35mm Standard @MINIIS",
-			"sub_path": "process/0.35mm Standard @MINIIS.json"
+			"name": "0.35 mm Standard @MINIIS",
+			"sub_path": "process/0.35 mm Standard @MINIIS.json"
 		},
 		{
 			"name": "process_detail_miniis",
@@ -287,1112 +287,1112 @@
 			"sub_path": "process/process_speed_miniis.json"
 		},
 		{
-			"name": "0.08mm Standard @MK4",
-			"sub_path": "process/0.08mm Standard @MK4.json"
+			"name": "0.08 mm Standard @MK4",
+			"sub_path": "process/0.08 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.12mm Standard @MK4",
-			"sub_path": "process/0.12mm Standard @MK4.json"
+			"name": "0.12 mm Standard @MK4",
+			"sub_path": "process/0.12 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.16mm Standard @MK4",
-			"sub_path": "process/0.16mm Standard @MK4.json"
+			"name": "0.16 mm Standard @MK4",
+			"sub_path": "process/0.16 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.20mm Standard @MK4",
-			"sub_path": "process/0.20mm Standard @MK4.json"
+			"name": "0.20 mm Standard @MK4",
+			"sub_path": "process/0.20 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.24mm Standard @MK4",
-			"sub_path": "process/0.24mm Standard @MK4.json"
+			"name": "0.24 mm Standard @MK4",
+			"sub_path": "process/0.24 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.28mm Standard @MK4",
-			"sub_path": "process/0.28mm Standard @MK4.json"
+			"name": "0.28 mm Standard @MK4",
+			"sub_path": "process/0.28 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.32mm Standard @MK4",
-			"sub_path": "process/0.32mm Standard @MK4.json"
+			"name": "0.32 mm Standard @MK4",
+			"sub_path": "process/0.32 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.40mm Standard @MK4",
-			"sub_path": "process/0.40mm Standard @MK4.json"
+			"name": "0.40 mm Standard @MK4",
+			"sub_path": "process/0.40 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.56mm Standard @MK4",
-			"sub_path": "process/0.56mm Standard @MK4.json"
+			"name": "0.56 mm Standard @MK4",
+			"sub_path": "process/0.56 mm Standard @MK4.json"
 		},
 		{
-			"name": "0.07mm DETAIL @MK4S 0.25",
-			"sub_path": "process/0.07mm DETAIL @MK4S 0.25.json"
+			"name": "0.07 mm DETAIL @MK4S 0.25",
+			"sub_path": "process/0.07 mm DETAIL @MK4S 0.25.json"
 		},
 		{
-			"name": "0.10mm STRUCTURAL @MK4S 0.5",
-			"sub_path": "process/0.10mm STRUCTURAL @MK4S 0.5.json"
+			"name": "0.10 mm STRUCTURAL @MK4S 0.5",
+			"sub_path": "process/0.10 mm STRUCTURAL @MK4S 0.5.json"
 		},
 		{
-			"name": "0.12mm SPEED @MK4S 0.25",
-			"sub_path": "process/0.12mm SPEED @MK4S 0.25.json"
+			"name": "0.12 mm SPEED @MK4S 0.25",
+			"sub_path": "process/0.12 mm SPEED @MK4S 0.25.json"
 		},
 		{
-			"name": "0.12mm STRUCTURAL @MK4S 0.3",
-			"sub_path": "process/0.12mm STRUCTURAL @MK4S 0.3.json"
+			"name": "0.12 mm STRUCTURAL @MK4S 0.3",
+			"sub_path": "process/0.12 mm STRUCTURAL @MK4S 0.3.json"
 		},
 		{
-			"name": "0.15mm SPEED @MK4S 0.4",
-			"sub_path": "process/0.15mm SPEED @MK4S 0.4.json"
+			"name": "0.15 mm SPEED @MK4S 0.4",
+			"sub_path": "process/0.15 mm SPEED @MK4S 0.4.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @MK4S 0.5",
-			"sub_path": "process/0.15mm STRUCTURAL @MK4S 0.5.json"
+			"name": "0.15 mm STRUCTURAL @MK4S 0.5",
+			"sub_path": "process/0.15 mm STRUCTURAL @MK4S 0.5.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @MK4S 0.6",
-			"sub_path": "process/0.15mm STRUCTURAL @MK4S 0.6.json"
+			"name": "0.15 mm STRUCTURAL @MK4S 0.6",
+			"sub_path": "process/0.15 mm STRUCTURAL @MK4S 0.6.json"
 		},
 		{
-			"name": "0.20mm SOLUBLE FULL @MK4S 0.4",
-			"sub_path": "process/0.20mm SOLUBLE FULL @MK4S 0.4.json"
+			"name": "0.20 mm SOLUBLE FULL @MK4S 0.4",
+			"sub_path": "process/0.20 mm SOLUBLE FULL @MK4S 0.4.json"
 		},
 		{
-			"name": "0.20mm SOLUBLE INTERFACE @MK4S 0.4",
-			"sub_path": "process/0.20mm SOLUBLE INTERFACE @MK4S 0.4.json"
+			"name": "0.20 mm SOLUBLE INTERFACE @MK4S 0.4",
+			"sub_path": "process/0.20 mm SOLUBLE INTERFACE @MK4S 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S 0.4",
-			"sub_path": "process/0.20mm SPEED @MK4S 0.4.json"
+			"name": "0.20 mm SPEED @MK4S 0.4",
+			"sub_path": "process/0.20 mm SPEED @MK4S 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S 0.5",
-			"sub_path": "process/0.20mm SPEED @MK4S 0.5.json"
+			"name": "0.20 mm SPEED @MK4S 0.5",
+			"sub_path": "process/0.20 mm SPEED @MK4S 0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S 0.6",
-			"sub_path": "process/0.20mm SPEED @MK4S 0.6.json"
+			"name": "0.20 mm SPEED @MK4S 0.6",
+			"sub_path": "process/0.20 mm SPEED @MK4S 0.6.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S HF0.4",
-			"sub_path": "process/0.20mm SPEED @MK4S HF0.4.json"
+			"name": "0.20 mm SPEED @MK4S HF0.4",
+			"sub_path": "process/0.20 mm SPEED @MK4S HF0.4.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @MK4S 0.4",
-			"sub_path": "process/0.20mm STRUCTURAL @MK4S 0.4.json"
+			"name": "0.20 mm STRUCTURAL @MK4S 0.4",
+			"sub_path": "process/0.20 mm STRUCTURAL @MK4S 0.4.json"
 		},
 		{
-			"name": "0.25mm SPEED @MK4S 0.6",
-			"sub_path": "process/0.25mm SPEED @MK4S 0.6.json"
+			"name": "0.25 mm SPEED @MK4S 0.6",
+			"sub_path": "process/0.25 mm SPEED @MK4S 0.6.json"
 		},
 		{
-			"name": "0.25mm SPEED @MK4S HF0.4",
-			"sub_path": "process/0.25mm SPEED @MK4S HF0.4.json"
+			"name": "0.25 mm SPEED @MK4S HF0.4",
+			"sub_path": "process/0.25 mm SPEED @MK4S HF0.4.json"
 		},
 		{
-			"name": "0.28mm DRAFT @MK4S HF0.4",
-			"sub_path": "process/0.28mm DRAFT @MK4S HF0.4.json"
+			"name": "0.28 mm DRAFT @MK4S HF0.4",
+			"sub_path": "process/0.28 mm DRAFT @MK4S HF0.4.json"
 		},
 		{
-			"name": "0.30mm DETAIL @MK4S 0.8",
-			"sub_path": "process/0.30mm DETAIL @MK4S 0.8.json"
+			"name": "0.30 mm DETAIL @MK4S 0.8",
+			"sub_path": "process/0.30 mm DETAIL @MK4S 0.8.json"
 		},
 		{
-			"name": "0.32mm SPEED @MK4S 0.6",
-			"sub_path": "process/0.32mm SPEED @MK4S 0.6.json"
+			"name": "0.32 mm SPEED @MK4S 0.6",
+			"sub_path": "process/0.32 mm SPEED @MK4S 0.6.json"
 		},
 		{
-			"name": "0.40mm QUALITY @MK4S 0.8",
-			"sub_path": "process/0.40mm QUALITY @MK4S 0.8.json"
+			"name": "0.40 mm QUALITY @MK4S 0.8",
+			"sub_path": "process/0.40 mm QUALITY @MK4S 0.8.json"
 		},
 		{
-			"name": "0.40mm SPEED @MK4S HF0.6",
-			"sub_path": "process/0.40mm SPEED @MK4S HF0.6.json"
+			"name": "0.40 mm SPEED @MK4S HF0.6",
+			"sub_path": "process/0.40 mm SPEED @MK4S HF0.6.json"
 		},
 		{
-			"name": "0.55mm DRAFT @MK4S 0.8",
-			"sub_path": "process/0.55mm DRAFT @MK4S 0.8.json"
+			"name": "0.55 mm DRAFT @MK4S 0.8",
+			"sub_path": "process/0.55 mm DRAFT @MK4S 0.8.json"
 		},
 		{
-			"name": "0.05mm Detail @Prusa XL 0.25",
-			"sub_path": "process/0.05mm Detail @Prusa XL 0.25.json"
+			"name": "0.05 mm Detail @Prusa XL 0.25",
+			"sub_path": "process/0.05 mm Detail @Prusa XL 0.25.json"
 		},
 		{
-			"name": "0.07mm Detail @Prusa XL 0.25",
-			"sub_path": "process/0.07mm Detail @Prusa XL 0.25.json"
+			"name": "0.07 mm Detail @Prusa XL 0.25",
+			"sub_path": "process/0.07 mm Detail @Prusa XL 0.25.json"
 		},
 		{
-			"name": "0.10mm FastDetail @Prusa XL 0.4",
-			"sub_path": "process/0.10mm FastDetail @Prusa XL 0.4.json"
+			"name": "0.10 mm FastDetail @Prusa XL 0.4",
+			"sub_path": "process/0.10 mm FastDetail @Prusa XL 0.4.json"
 		},
 		{
-			"name": "0.10mm Structural @Prusa XL 0.5",
-			"sub_path": "process/0.10mm Structural @Prusa XL 0.5.json"
+			"name": "0.10 mm Structural @Prusa XL 0.5",
+			"sub_path": "process/0.10 mm Structural @Prusa XL 0.5.json"
 		},
 		{
-			"name": "0.12mm Speed @Prusa XL 0.25",
-			"sub_path": "process/0.12mm Speed @Prusa XL 0.25.json"
+			"name": "0.12 mm Speed @Prusa XL 0.25",
+			"sub_path": "process/0.12 mm Speed @Prusa XL 0.25.json"
 		},
 		{
-			"name": "0.12mm Structural @Prusa XL 0.25",
-			"sub_path": "process/0.12mm Structural @Prusa XL 0.25.json"
+			"name": "0.12 mm Structural @Prusa XL 0.25",
+			"sub_path": "process/0.12 mm Structural @Prusa XL 0.25.json"
 		},
 		{
-			"name": "0.12mm Structural @Prusa XL 0.3",
-			"sub_path": "process/0.12mm Structural @Prusa XL 0.3.json"
+			"name": "0.12 mm Structural @Prusa XL 0.3",
+			"sub_path": "process/0.12 mm Structural @Prusa XL 0.3.json"
 		},
 		{
-			"name": "0.15mm Speed @Prusa XL 0.25",
-			"sub_path": "process/0.15mm Speed @Prusa XL 0.25.json"
+			"name": "0.15 mm Speed @Prusa XL 0.25",
+			"sub_path": "process/0.15 mm Speed @Prusa XL 0.25.json"
 		},
 		{
-			"name": "0.15mm Speed @Prusa XL 0.4",
-			"sub_path": "process/0.15mm Speed @Prusa XL 0.4.json"
+			"name": "0.15 mm Speed @Prusa XL 0.4",
+			"sub_path": "process/0.15 mm Speed @Prusa XL 0.4.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 0.25",
-			"sub_path": "process/0.15mm Structural @Prusa XL 0.25.json"
+			"name": "0.15 mm Structural @Prusa XL 0.25",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 0.25.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 0.4",
-			"sub_path": "process/0.15mm Structural @Prusa XL 0.4.json"
+			"name": "0.15 mm Structural @Prusa XL 0.4",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 0.4.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 0.5",
-			"sub_path": "process/0.15mm Structural @Prusa XL 0.5.json"
+			"name": "0.15 mm Structural @Prusa XL 0.5",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 0.5.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 0.6",
-			"sub_path": "process/0.15mm Structural @Prusa XL 0.6.json"
+			"name": "0.15 mm Structural @Prusa XL 0.6",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.16mm Speed @Prusa XL 0.3",
-			"sub_path": "process/0.16mm Speed @Prusa XL 0.3.json"
+			"name": "0.16 mm Speed @Prusa XL 0.3",
+			"sub_path": "process/0.16 mm Speed @Prusa XL 0.3.json"
 		},
 		{
-			"name": "0.16mm Structural @Prusa XL 0.3",
-			"sub_path": "process/0.16mm Structural @Prusa XL 0.3.json"
+			"name": "0.16 mm Structural @Prusa XL 0.3",
+			"sub_path": "process/0.16 mm Structural @Prusa XL 0.3.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 0.3",
-			"sub_path": "process/0.20mm Speed @Prusa XL 0.3.json"
+			"name": "0.20 mm Speed @Prusa XL 0.3",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 0.3.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 0.4",
-			"sub_path": "process/0.20mm Speed @Prusa XL 0.4.json"
+			"name": "0.20 mm Speed @Prusa XL 0.4",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 0.4.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 0.5",
-			"sub_path": "process/0.20mm Speed @Prusa XL 0.5.json"
+			"name": "0.20 mm Speed @Prusa XL 0.5",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 0.5.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 0.6",
-			"sub_path": "process/0.20mm Speed @Prusa XL 0.6.json"
+			"name": "0.20 mm Speed @Prusa XL 0.6",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.20mm Structural @Prusa XL 0.4",
-			"sub_path": "process/0.20mm Structural @Prusa XL 0.4.json"
+			"name": "0.20 mm Structural @Prusa XL 0.4",
+			"sub_path": "process/0.20 mm Structural @Prusa XL 0.4.json"
 		},
 		{
-			"name": "0.20mm Structural @Prusa XL 0.5",
-			"sub_path": "process/0.20mm Structural @Prusa XL 0.5.json"
+			"name": "0.20 mm Structural @Prusa XL 0.5",
+			"sub_path": "process/0.20 mm Structural @Prusa XL 0.5.json"
 		},
 		{
-			"name": "0.20mm Structural @Prusa XL 0.6",
-			"sub_path": "process/0.20mm Structural @Prusa XL 0.6.json"
+			"name": "0.20 mm Structural @Prusa XL 0.6",
+			"sub_path": "process/0.20 mm Structural @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.25mm Speed @Prusa XL 0.5",
-			"sub_path": "process/0.25mm Speed @Prusa XL 0.5.json"
+			"name": "0.25 mm Speed @Prusa XL 0.5",
+			"sub_path": "process/0.25 mm Speed @Prusa XL 0.5.json"
 		},
 		{
-			"name": "0.25mm Speed @Prusa XL 0.6",
-			"sub_path": "process/0.25mm Speed @Prusa XL 0.6.json"
+			"name": "0.25 mm Speed @Prusa XL 0.6",
+			"sub_path": "process/0.25 mm Speed @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.25mm Structural @Prusa XL 0.4",
-			"sub_path": "process/0.25mm Structural @Prusa XL 0.4.json"
+			"name": "0.25 mm Structural @Prusa XL 0.4",
+			"sub_path": "process/0.25 mm Structural @Prusa XL 0.4.json"
 		},
 		{
-			"name": "0.25mm Structural @Prusa XL 0.5",
-			"sub_path": "process/0.25mm Structural @Prusa XL 0.5.json"
+			"name": "0.25 mm Structural @Prusa XL 0.5",
+			"sub_path": "process/0.25 mm Structural @Prusa XL 0.5.json"
 		},
 		{
-			"name": "0.25mm Structural @Prusa XL 0.6",
-			"sub_path": "process/0.25mm Structural @Prusa XL 0.6.json"
+			"name": "0.25 mm Structural @Prusa XL 0.6",
+			"sub_path": "process/0.25 mm Structural @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.30mm Detail @Prusa XL 0.8",
-			"sub_path": "process/0.30mm Detail @Prusa XL 0.8.json"
+			"name": "0.30 mm Detail @Prusa XL 0.8",
+			"sub_path": "process/0.30 mm Detail @Prusa XL 0.8.json"
 		},
 		{
-			"name": "0.32mm Speed @Prusa XL 0.6",
-			"sub_path": "process/0.32mm Speed @Prusa XL 0.6.json"
+			"name": "0.32 mm Speed @Prusa XL 0.6",
+			"sub_path": "process/0.32 mm Speed @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.32mm Structural @Prusa XL 0.6",
-			"sub_path": "process/0.32mm Structural @Prusa XL 0.6.json"
+			"name": "0.32 mm Structural @Prusa XL 0.6",
+			"sub_path": "process/0.32 mm Structural @Prusa XL 0.6.json"
 		},
 		{
-			"name": "0.40mm Quality @Prusa XL 0.8",
-			"sub_path": "process/0.40mm Quality @Prusa XL 0.8.json"
+			"name": "0.40 mm Quality @Prusa XL 0.8",
+			"sub_path": "process/0.40 mm Quality @Prusa XL 0.8.json"
 		},
 		{
-			"name": "0.55mm Draft @Prusa XL 0.8",
-			"sub_path": "process/0.55mm Draft @Prusa XL 0.8.json"
+			"name": "0.55 mm Draft @Prusa XL 0.8",
+			"sub_path": "process/0.55 mm Draft @Prusa XL 0.8.json"
 		},
 		{
 			"name": "process_common_xl_5t",
 			"sub_path": "process/process_common_xl_5t.json"
 		},
 		{
-			"name": "0.05mm Detail @MK3.5",
-			"sub_path": "process/0.05mm Detail @MK3.5.json"
+			"name": "0.05 mm Detail @MK3.5",
+			"sub_path": "process/0.05 mm Detail @MK3.5.json"
 		},
 		{
-			"name": "0.07mm Detail @MK3.5",
-			"sub_path": "process/0.07mm Detail @MK3.5.json"
+			"name": "0.07 mm Detail @MK3.5",
+			"sub_path": "process/0.07 mm Detail @MK3.5.json"
 		},
 		{
-			"name": "0.12mm Speed @MK3.5",
-			"sub_path": "process/0.12mm Speed @MK3.5.json"
+			"name": "0.12 mm Speed @MK3.5",
+			"sub_path": "process/0.12 mm Speed @MK3.5.json"
 		},
 		{
-			"name": "0.12mm Standard @MK3.5",
-			"sub_path": "process/0.12mm Standard @MK3.5.json"
+			"name": "0.12 mm Standard @MK3.5",
+			"sub_path": "process/0.12 mm Standard @MK3.5.json"
 		},
 		{
-			"name": "0.15mm Speed @MK3.5 0.25",
-			"sub_path": "process/0.15mm Speed @MK3.5 0.25.json"
+			"name": "0.15 mm Speed @MK3.5 0.25",
+			"sub_path": "process/0.15 mm Speed @MK3.5 0.25.json"
 		},
 		{
-			"name": "0.15mm Standard @MK3.5",
-			"sub_path": "process/0.15mm Standard @MK3.5.json"
+			"name": "0.15 mm Standard @MK3.5",
+			"sub_path": "process/0.15 mm Standard @MK3.5.json"
 		},
 		{
-			"name": "0.15mm Standard @MK3.5 0.25",
-			"sub_path": "process/0.15mm Standard @MK3.5 0.25.json"
+			"name": "0.15 mm Standard @MK3.5 0.25",
+			"sub_path": "process/0.15 mm Standard @MK3.5 0.25.json"
 		},
 		{
-			"name": "0.30mm Detail @MK3.5",
-			"sub_path": "process/0.30mm Detail @MK3.5.json"
+			"name": "0.30 mm Detail @MK3.5",
+			"sub_path": "process/0.30 mm Detail @MK3.5.json"
 		},
 		{
-			"name": "0.40mm Standard @MK3.5",
-			"sub_path": "process/0.40mm Standard @MK3.5.json"
+			"name": "0.40 mm Standard @MK3.5",
+			"sub_path": "process/0.40 mm Standard @MK3.5.json"
 		},
 		{
-			"name": "0.15mm High Flow @MK3.5",
-			"sub_path": "process/0.15mm High Flow @MK3.5.json"
+			"name": "0.15 mm High Flow @MK3.5",
+			"sub_path": "process/0.15 mm High Flow @MK3.5.json"
 		},
 		{
-			"name": "0.20mm High Flow @MK3.5",
-			"sub_path": "process/0.20mm High Flow @MK3.5.json"
+			"name": "0.20 mm High Flow @MK3.5",
+			"sub_path": "process/0.20 mm High Flow @MK3.5.json"
 		},
 		{
-			"name": "0.20mm High Flow @MK3.5 0.6",
-			"sub_path": "process/0.20mm High Flow @MK3.5 0.6.json"
+			"name": "0.20 mm High Flow @MK3.5 0.6",
+			"sub_path": "process/0.20 mm High Flow @MK3.5 0.6.json"
 		},
 		{
-			"name": "0.25mm High Flow @MK3.5",
-			"sub_path": "process/0.25mm High Flow @MK3.5.json"
+			"name": "0.25 mm High Flow @MK3.5",
+			"sub_path": "process/0.25 mm High Flow @MK3.5.json"
 		},
 		{
-			"name": "0.32mm High Flow @MK3.5",
-			"sub_path": "process/0.32mm High Flow @MK3.5.json"
+			"name": "0.32 mm High Flow @MK3.5",
+			"sub_path": "process/0.32 mm High Flow @MK3.5.json"
 		},
 		{
-			"name": "0.40mm High Flow @MK3.5",
-			"sub_path": "process/0.40mm High Flow @MK3.5.json"
+			"name": "0.40 mm High Flow @MK3.5",
+			"sub_path": "process/0.40 mm High Flow @MK3.5.json"
 		},
 		{
-			"name": "0.10mm Speed @MK3.5",
-			"sub_path": "process/0.10mm Speed @MK3.5.json"
+			"name": "0.10 mm Speed @MK3.5",
+			"sub_path": "process/0.10 mm Speed @MK3.5.json"
 		},
 		{
-			"name": "0.15mm Speed @MK3.5",
-			"sub_path": "process/0.15mm Speed @MK3.5.json"
+			"name": "0.15 mm Speed @MK3.5",
+			"sub_path": "process/0.15 mm Speed @MK3.5.json"
 		},
 		{
-			"name": "0.20mm Speed @MK3.5",
-			"sub_path": "process/0.20mm Speed @MK3.5.json"
+			"name": "0.20 mm Speed @MK3.5",
+			"sub_path": "process/0.20 mm Speed @MK3.5.json"
 		},
 		{
-			"name": "0.20mm Speed @MK3.5 0.6",
-			"sub_path": "process/0.20mm Speed @MK3.5 0.6.json"
+			"name": "0.20 mm Speed @MK3.5 0.6",
+			"sub_path": "process/0.20 mm Speed @MK3.5 0.6.json"
 		},
 		{
-			"name": "0.25mm Speed @MK3.5",
-			"sub_path": "process/0.25mm Speed @MK3.5.json"
+			"name": "0.25 mm Speed @MK3.5",
+			"sub_path": "process/0.25 mm Speed @MK3.5.json"
 		},
 		{
-			"name": "0.05mm Detail @MINIIS",
-			"sub_path": "process/0.05mm Detail @MINIIS.json"
+			"name": "0.05 mm Detail @MINIIS",
+			"sub_path": "process/0.05 mm Detail @MINIIS.json"
 		},
 		{
-			"name": "0.07mm Detail @MINIIS",
-			"sub_path": "process/0.07mm Detail @MINIIS.json"
+			"name": "0.07 mm Detail @MINIIS",
+			"sub_path": "process/0.07 mm Detail @MINIIS.json"
 		},
 		{
-			"name": "0.12mm Speed @MINIIS",
-			"sub_path": "process/0.12mm Speed @MINIIS.json"
+			"name": "0.12 mm Speed @MINIIS",
+			"sub_path": "process/0.12 mm Speed @MINIIS.json"
 		},
 		{
-			"name": "0.12mm Standard @MINIIS",
-			"sub_path": "process/0.12mm Standard @MINIIS.json"
+			"name": "0.12 mm Standard @MINIIS",
+			"sub_path": "process/0.12 mm Standard @MINIIS.json"
 		},
 		{
-			"name": "0.15mm Speed @MINIIS",
-			"sub_path": "process/0.15mm Speed @MINIIS.json"
+			"name": "0.15 mm Speed @MINIIS",
+			"sub_path": "process/0.15 mm Speed @MINIIS.json"
 		},
 		{
-			"name": "0.15mm Speed @MINIIS 0.25",
-			"sub_path": "process/0.15mm Speed @MINIIS 0.25.json"
+			"name": "0.15 mm Speed @MINIIS 0.25",
+			"sub_path": "process/0.15 mm Speed @MINIIS 0.25.json"
 		},
 		{
-			"name": "0.15mm Standard @MINIIS",
-			"sub_path": "process/0.15mm Standard @MINIIS.json"
+			"name": "0.15 mm Standard @MINIIS",
+			"sub_path": "process/0.15 mm Standard @MINIIS.json"
 		},
 		{
-			"name": "0.15mm Standard @MINIIS 0.25",
-			"sub_path": "process/0.15mm Standard @MINIIS 0.25.json"
+			"name": "0.15 mm Standard @MINIIS 0.25",
+			"sub_path": "process/0.15 mm Standard @MINIIS 0.25.json"
 		},
 		{
-			"name": "0.30mm Detail @MINIIS",
-			"sub_path": "process/0.30mm Detail @MINIIS.json"
+			"name": "0.30 mm Detail @MINIIS",
+			"sub_path": "process/0.30 mm Detail @MINIIS.json"
 		},
 		{
-			"name": "0.40mm Standard @MINIIS",
-			"sub_path": "process/0.40mm Standard @MINIIS.json"
+			"name": "0.40 mm Standard @MINIIS",
+			"sub_path": "process/0.40 mm Standard @MINIIS.json"
 		},
 		{
-			"name": "0.15mm High Flow @MINIIS",
-			"sub_path": "process/0.15mm High Flow @MINIIS.json"
+			"name": "0.15 mm High Flow @MINIIS",
+			"sub_path": "process/0.15 mm High Flow @MINIIS.json"
 		},
 		{
-			"name": "0.20mm High Flow @MINIIS",
-			"sub_path": "process/0.20mm High Flow @MINIIS.json"
+			"name": "0.20 mm High Flow @MINIIS",
+			"sub_path": "process/0.20 mm High Flow @MINIIS.json"
 		},
 		{
-			"name": "0.20mm High Flow @MINIIS 0.6",
-			"sub_path": "process/0.20mm High Flow @MINIIS 0.6.json"
+			"name": "0.20 mm High Flow @MINIIS 0.6",
+			"sub_path": "process/0.20 mm High Flow @MINIIS 0.6.json"
 		},
 		{
-			"name": "0.25mm High Flow @MINIIS",
-			"sub_path": "process/0.25mm High Flow @MINIIS.json"
+			"name": "0.25 mm High Flow @MINIIS",
+			"sub_path": "process/0.25 mm High Flow @MINIIS.json"
 		},
 		{
-			"name": "0.32mm High Flow @MINIIS",
-			"sub_path": "process/0.32mm High Flow @MINIIS.json"
+			"name": "0.32 mm High Flow @MINIIS",
+			"sub_path": "process/0.32 mm High Flow @MINIIS.json"
 		},
 		{
-			"name": "0.40mm High Flow @MINIIS",
-			"sub_path": "process/0.40mm High Flow @MINIIS.json"
+			"name": "0.40 mm High Flow @MINIIS",
+			"sub_path": "process/0.40 mm High Flow @MINIIS.json"
 		},
 		{
-			"name": "0.10mm Speed @MINIIS",
-			"sub_path": "process/0.10mm Speed @MINIIS.json"
+			"name": "0.10 mm Speed @MINIIS",
+			"sub_path": "process/0.10 mm Speed @MINIIS.json"
 		},
 		{
-			"name": "0.20mm Speed @MINIIS",
-			"sub_path": "process/0.20mm Speed @MINIIS.json"
+			"name": "0.20 mm Speed @MINIIS",
+			"sub_path": "process/0.20 mm Speed @MINIIS.json"
 		},
 		{
-			"name": "0.20mm Speed @MINIIS 0.6",
-			"sub_path": "process/0.20mm Speed @MINIIS 0.6.json"
+			"name": "0.20 mm Speed @MINIIS 0.6",
+			"sub_path": "process/0.20 mm Speed @MINIIS 0.6.json"
 		},
 		{
-			"name": "0.25mm Speed @MINIIS",
-			"sub_path": "process/0.25mm Speed @MINIIS.json"
+			"name": "0.25 mm Speed @MINIIS",
+			"sub_path": "process/0.25 mm Speed @MINIIS.json"
 		},
 		{
-			"name": "0.05mm DETAIL @MK4S 0.25",
-			"sub_path": "process/0.05mm DETAIL @MK4S 0.25.json"
+			"name": "0.05 mm DETAIL @MK4S 0.25",
+			"sub_path": "process/0.05 mm DETAIL @MK4S 0.25.json"
 		},
 		{
-			"name": "0.07mm DETAIL @CORE One 0.25",
-			"sub_path": "process/0.07mm DETAIL @CORE One 0.25.json"
+			"name": "0.07 mm DETAIL @CORE One 0.25",
+			"sub_path": "process/0.07 mm DETAIL @CORE One 0.25.json"
 		},
 		{
-			"name": "0.07mm DETAIL @CORE One L 0.25",
-			"sub_path": "process/0.07mm DETAIL @CORE One L 0.25.json"
+			"name": "0.07 mm DETAIL @CORE One L 0.25",
+			"sub_path": "process/0.07 mm DETAIL @CORE One L 0.25.json"
 		},
 		{
-			"name": "0.10mm STRUCTURAL @CORE One 0.5",
-			"sub_path": "process/0.10mm STRUCTURAL @CORE One 0.5.json"
+			"name": "0.10 mm STRUCTURAL @CORE One 0.5",
+			"sub_path": "process/0.10 mm STRUCTURAL @CORE One 0.5.json"
 		},
 		{
-			"name": "0.10mm STRUCTURAL @CORE One L 0.5",
-			"sub_path": "process/0.10mm STRUCTURAL @CORE One L 0.5.json"
+			"name": "0.10 mm STRUCTURAL @CORE One L 0.5",
+			"sub_path": "process/0.10 mm STRUCTURAL @CORE One L 0.5.json"
 		},
 		{
-			"name": "0.12mm SPEED @CORE One 0.25",
-			"sub_path": "process/0.12mm SPEED @CORE One 0.25.json"
+			"name": "0.12 mm SPEED @CORE One 0.25",
+			"sub_path": "process/0.12 mm SPEED @CORE One 0.25.json"
 		},
 		{
-			"name": "0.12mm SPEED @CORE One L 0.25",
-			"sub_path": "process/0.12mm SPEED @CORE One L 0.25.json"
+			"name": "0.12 mm SPEED @CORE One L 0.25",
+			"sub_path": "process/0.12 mm SPEED @CORE One L 0.25.json"
 		},
 		{
-			"name": "0.12mm STRUCTURAL @MK4S 0.25",
-			"sub_path": "process/0.12mm STRUCTURAL @MK4S 0.25.json"
+			"name": "0.12 mm STRUCTURAL @MK4S 0.25",
+			"sub_path": "process/0.12 mm STRUCTURAL @MK4S 0.25.json"
 		},
 		{
-			"name": "0.15mm SPEED @MK4S 0.25",
-			"sub_path": "process/0.15mm SPEED @MK4S 0.25.json"
+			"name": "0.15 mm SPEED @MK4S 0.25",
+			"sub_path": "process/0.15 mm SPEED @MK4S 0.25.json"
 		},
 		{
-			"name": "0.12mm STRUCTURAL @CORE One 0.3",
-			"sub_path": "process/0.12mm STRUCTURAL @CORE One 0.3.json"
+			"name": "0.12 mm STRUCTURAL @CORE One 0.3",
+			"sub_path": "process/0.12 mm STRUCTURAL @CORE One 0.3.json"
 		},
 		{
-			"name": "0.12mm STRUCTURAL @CORE One L 0.3",
-			"sub_path": "process/0.12mm STRUCTURAL @CORE One L 0.3.json"
+			"name": "0.12 mm STRUCTURAL @CORE One L 0.3",
+			"sub_path": "process/0.12 mm STRUCTURAL @CORE One L 0.3.json"
 		},
 		{
-			"name": "0.16mm STRUCTURAL @MK4S 0.3",
-			"sub_path": "process/0.16mm STRUCTURAL @MK4S 0.3.json"
+			"name": "0.16 mm STRUCTURAL @MK4S 0.3",
+			"sub_path": "process/0.16 mm STRUCTURAL @MK4S 0.3.json"
 		},
 		{
-			"name": "0.10mm FAST DETAIL @MK4S 0.4",
-			"sub_path": "process/0.10mm FAST DETAIL @MK4S 0.4.json"
+			"name": "0.10 mm FAST DETAIL @MK4S 0.4",
+			"sub_path": "process/0.10 mm FAST DETAIL @MK4S 0.4.json"
 		},
 		{
-			"name": "0.15mm SPEED @CORE One 0.4",
-			"sub_path": "process/0.15mm SPEED @CORE One 0.4.json"
+			"name": "0.15 mm SPEED @CORE One 0.4",
+			"sub_path": "process/0.15 mm SPEED @CORE One 0.4.json"
 		},
 		{
-			"name": "0.15mm SPEED @CORE One L 0.4",
-			"sub_path": "process/0.15mm SPEED @CORE One L 0.4.json"
+			"name": "0.15 mm SPEED @CORE One L 0.4",
+			"sub_path": "process/0.15 mm SPEED @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.15mm SPEED @MK4S HF0.4",
-			"sub_path": "process/0.15mm SPEED @MK4S HF0.4.json"
+			"name": "0.15 mm SPEED @MK4S HF0.4",
+			"sub_path": "process/0.15 mm SPEED @MK4S HF0.4.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One 0.5",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One 0.5.json"
+			"name": "0.15 mm STRUCTURAL @CORE One 0.5",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One 0.5.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One L 0.5",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One L 0.5.json"
+			"name": "0.15 mm STRUCTURAL @CORE One L 0.5",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One L 0.5.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One 0.6",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One 0.6.json"
+			"name": "0.15 mm STRUCTURAL @CORE One 0.6",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One 0.6.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One L 0.6",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One L 0.6.json"
+			"name": "0.15 mm STRUCTURAL @CORE One L 0.6",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.20mm SOLUBLE FULL @CORE One 0.4",
-			"sub_path": "process/0.20mm SOLUBLE FULL @CORE One 0.4.json"
+			"name": "0.20 mm SOLUBLE FULL @CORE One 0.4",
+			"sub_path": "process/0.20 mm SOLUBLE FULL @CORE One 0.4.json"
 		},
 		{
-			"name": "0.20mm SOLUBLE FULL @CORE One L 0.4",
-			"sub_path": "process/0.20mm SOLUBLE FULL @CORE One L 0.4.json"
+			"name": "0.20 mm SOLUBLE FULL @CORE One L 0.4",
+			"sub_path": "process/0.20 mm SOLUBLE FULL @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.20mm SOLUBLE INTERFACE @CORE One 0.4",
-			"sub_path": "process/0.20mm SOLUBLE INTERFACE @CORE One 0.4.json"
+			"name": "0.20 mm SOLUBLE INTERFACE @CORE One 0.4",
+			"sub_path": "process/0.20 mm SOLUBLE INTERFACE @CORE One 0.4.json"
 		},
 		{
-			"name": "0.20mm SOLUBLE INTERFACE @CORE One L 0.4",
-			"sub_path": "process/0.20mm SOLUBLE INTERFACE @CORE One L 0.4.json"
+			"name": "0.20 mm SOLUBLE INTERFACE @CORE One L 0.4",
+			"sub_path": "process/0.20 mm SOLUBLE INTERFACE @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One 0.4",
-			"sub_path": "process/0.20mm SPEED @CORE One 0.4.json"
+			"name": "0.20 mm SPEED @CORE One 0.4",
+			"sub_path": "process/0.20 mm SPEED @CORE One 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L 0.4",
-			"sub_path": "process/0.20mm SPEED @CORE One L 0.4.json"
+			"name": "0.20 mm SPEED @CORE One L 0.4",
+			"sub_path": "process/0.20 mm SPEED @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One 0.5",
-			"sub_path": "process/0.20mm SPEED @CORE One 0.5.json"
+			"name": "0.20 mm SPEED @CORE One 0.5",
+			"sub_path": "process/0.20 mm SPEED @CORE One 0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L 0.5",
-			"sub_path": "process/0.20mm SPEED @CORE One L 0.5.json"
+			"name": "0.20 mm SPEED @CORE One L 0.5",
+			"sub_path": "process/0.20 mm SPEED @CORE One L 0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S HF0.5",
-			"sub_path": "process/0.20mm SPEED @MK4S HF0.5.json"
+			"name": "0.20 mm SPEED @MK4S HF0.5",
+			"sub_path": "process/0.20 mm SPEED @MK4S HF0.5.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @MK4S 0.5",
-			"sub_path": "process/0.20mm STRUCTURAL @MK4S 0.5.json"
+			"name": "0.20 mm STRUCTURAL @MK4S 0.5",
+			"sub_path": "process/0.20 mm STRUCTURAL @MK4S 0.5.json"
 		},
 		{
-			"name": "0.25mm SPEED @MK4S 0.5",
-			"sub_path": "process/0.25mm SPEED @MK4S 0.5.json"
+			"name": "0.25 mm SPEED @MK4S 0.5",
+			"sub_path": "process/0.25 mm SPEED @MK4S 0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One 0.6",
-			"sub_path": "process/0.20mm SPEED @CORE One 0.6.json"
+			"name": "0.20 mm SPEED @CORE One 0.6",
+			"sub_path": "process/0.20 mm SPEED @CORE One 0.6.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L 0.6",
-			"sub_path": "process/0.20mm SPEED @CORE One L 0.6.json"
+			"name": "0.20 mm SPEED @CORE One L 0.6",
+			"sub_path": "process/0.20 mm SPEED @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S HF0.6",
-			"sub_path": "process/0.20mm SPEED @MK4S HF0.6.json"
+			"name": "0.20 mm SPEED @MK4S HF0.6",
+			"sub_path": "process/0.20 mm SPEED @MK4S HF0.6.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @MK4S 0.6",
-			"sub_path": "process/0.20mm STRUCTURAL @MK4S 0.6.json"
+			"name": "0.20 mm STRUCTURAL @MK4S 0.6",
+			"sub_path": "process/0.20 mm STRUCTURAL @MK4S 0.6.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One HF 0.4",
-			"sub_path": "process/0.20mm SPEED @CORE One HF 0.4.json"
+			"name": "0.20 mm SPEED @CORE One HF 0.4",
+			"sub_path": "process/0.20 mm SPEED @CORE One HF 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L HF 0.4",
-			"sub_path": "process/0.20mm SPEED @CORE One L HF 0.4.json"
+			"name": "0.20 mm SPEED @CORE One L HF 0.4",
+			"sub_path": "process/0.20 mm SPEED @CORE One L HF 0.4.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @MK4S 0.4",
-			"sub_path": "process/0.15mm STRUCTURAL @MK4S 0.4.json"
+			"name": "0.15 mm STRUCTURAL @MK4S 0.4",
+			"sub_path": "process/0.15 mm STRUCTURAL @MK4S 0.4.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One 0.4",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One 0.4.json"
+			"name": "0.20 mm STRUCTURAL @CORE One 0.4",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One 0.4.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One L 0.4",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One L 0.4.json"
+			"name": "0.20 mm STRUCTURAL @CORE One L 0.4",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @MK4S HF0.4",
-			"sub_path": "process/0.25mm STRUCTURAL @MK4S HF0.4.json"
+			"name": "0.25 mm STRUCTURAL @MK4S HF0.4",
+			"sub_path": "process/0.25 mm STRUCTURAL @MK4S HF0.4.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One 0.6",
-			"sub_path": "process/0.25mm SPEED @CORE One 0.6.json"
+			"name": "0.25 mm SPEED @CORE One 0.6",
+			"sub_path": "process/0.25 mm SPEED @CORE One 0.6.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One L 0.6",
-			"sub_path": "process/0.25mm SPEED @CORE One L 0.6.json"
+			"name": "0.25 mm SPEED @CORE One L 0.6",
+			"sub_path": "process/0.25 mm SPEED @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.25mm SPEED @MK4S HF0.6",
-			"sub_path": "process/0.25mm SPEED @MK4S HF0.6.json"
+			"name": "0.25 mm SPEED @MK4S HF0.6",
+			"sub_path": "process/0.25 mm SPEED @MK4S HF0.6.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @MK4S 0.6",
-			"sub_path": "process/0.25mm STRUCTURAL @MK4S 0.6.json"
+			"name": "0.25 mm STRUCTURAL @MK4S 0.6",
+			"sub_path": "process/0.25 mm STRUCTURAL @MK4S 0.6.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One HF 0.4",
-			"sub_path": "process/0.25mm SPEED @CORE One HF 0.4.json"
+			"name": "0.25 mm SPEED @CORE One HF 0.4",
+			"sub_path": "process/0.25 mm SPEED @CORE One HF 0.4.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One L HF 0.4",
-			"sub_path": "process/0.25mm SPEED @CORE One L HF 0.4.json"
+			"name": "0.25 mm SPEED @CORE One L HF 0.4",
+			"sub_path": "process/0.25 mm SPEED @CORE One L HF 0.4.json"
 		},
 		{
-			"name": "0.28mm DRAFT @CORE One HF 0.4",
-			"sub_path": "process/0.28mm DRAFT @CORE One HF 0.4.json"
+			"name": "0.28 mm DRAFT @CORE One HF 0.4",
+			"sub_path": "process/0.28 mm DRAFT @CORE One HF 0.4.json"
 		},
 		{
-			"name": "0.28mm DRAFT @CORE One L HF 0.4",
-			"sub_path": "process/0.28mm DRAFT @CORE One L HF 0.4.json"
+			"name": "0.28 mm DRAFT @CORE One L HF 0.4",
+			"sub_path": "process/0.28 mm DRAFT @CORE One L HF 0.4.json"
 		},
 		{
-			"name": "0.30mm DETAIL @CORE One 0.8",
-			"sub_path": "process/0.30mm DETAIL @CORE One 0.8.json"
+			"name": "0.30 mm DETAIL @CORE One 0.8",
+			"sub_path": "process/0.30 mm DETAIL @CORE One 0.8.json"
 		},
 		{
-			"name": "0.30mm DETAIL @CORE One L 0.8",
-			"sub_path": "process/0.30mm DETAIL @CORE One L 0.8.json"
+			"name": "0.30 mm DETAIL @CORE One L 0.8",
+			"sub_path": "process/0.30 mm DETAIL @CORE One L 0.8.json"
 		},
 		{
-			"name": "0.30mm SPEED @MK4S HF0.8",
-			"sub_path": "process/0.30mm SPEED @MK4S HF0.8.json"
+			"name": "0.30 mm SPEED @MK4S HF0.8",
+			"sub_path": "process/0.30 mm SPEED @MK4S HF0.8.json"
 		},
 		{
-			"name": "0.30mm STRUCTURAL @MK4S HF0.8",
-			"sub_path": "process/0.30mm STRUCTURAL @MK4S HF0.8.json"
+			"name": "0.30 mm STRUCTURAL @MK4S HF0.8",
+			"sub_path": "process/0.30 mm STRUCTURAL @MK4S HF0.8.json"
 		},
 		{
-			"name": "0.32mm SPEED @CORE One 0.6",
-			"sub_path": "process/0.32mm SPEED @CORE One 0.6.json"
+			"name": "0.32 mm SPEED @CORE One 0.6",
+			"sub_path": "process/0.32 mm SPEED @CORE One 0.6.json"
 		},
 		{
-			"name": "0.32mm SPEED @CORE One L 0.6",
-			"sub_path": "process/0.32mm SPEED @CORE One L 0.6.json"
+			"name": "0.32 mm SPEED @CORE One L 0.6",
+			"sub_path": "process/0.32 mm SPEED @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.32mm SPEED @MK4S HF0.6",
-			"sub_path": "process/0.32mm SPEED @MK4S HF0.6.json"
+			"name": "0.32 mm SPEED @MK4S HF0.6",
+			"sub_path": "process/0.32 mm SPEED @MK4S HF0.6.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @MK4S 0.6",
-			"sub_path": "process/0.32mm STRUCTURAL @MK4S 0.6.json"
+			"name": "0.32 mm STRUCTURAL @MK4S 0.6",
+			"sub_path": "process/0.32 mm STRUCTURAL @MK4S 0.6.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @MK4S HF0.6",
-			"sub_path": "process/0.32mm STRUCTURAL @MK4S HF0.6.json"
+			"name": "0.32 mm STRUCTURAL @MK4S HF0.6",
+			"sub_path": "process/0.32 mm STRUCTURAL @MK4S HF0.6.json"
 		},
 		{
-			"name": "0.40mm QUALITY @CORE One 0.8",
-			"sub_path": "process/0.40mm QUALITY @CORE One 0.8.json"
+			"name": "0.40 mm QUALITY @CORE One 0.8",
+			"sub_path": "process/0.40 mm QUALITY @CORE One 0.8.json"
 		},
 		{
-			"name": "0.40mm QUALITY @CORE One L 0.8",
-			"sub_path": "process/0.40mm QUALITY @CORE One L 0.8.json"
+			"name": "0.40 mm QUALITY @CORE One L 0.8",
+			"sub_path": "process/0.40 mm QUALITY @CORE One L 0.8.json"
 		},
 		{
-			"name": "0.40mm SPEED @MK4S HF0.8",
-			"sub_path": "process/0.40mm SPEED @MK4S HF0.8.json"
+			"name": "0.40 mm SPEED @MK4S HF0.8",
+			"sub_path": "process/0.40 mm SPEED @MK4S HF0.8.json"
 		},
 		{
-			"name": "0.40mm STRUCTURAL @MK4S HF0.8",
-			"sub_path": "process/0.40mm STRUCTURAL @MK4S HF0.8.json"
+			"name": "0.40 mm STRUCTURAL @MK4S HF0.8",
+			"sub_path": "process/0.40 mm STRUCTURAL @MK4S HF0.8.json"
 		},
 		{
-			"name": "0.40mm SPEED @CORE One HF 0.6",
-			"sub_path": "process/0.40mm SPEED @CORE One HF 0.6.json"
+			"name": "0.40 mm SPEED @CORE One HF 0.6",
+			"sub_path": "process/0.40 mm SPEED @CORE One HF 0.6.json"
 		},
 		{
-			"name": "0.40mm SPEED @CORE One L HF 0.6",
-			"sub_path": "process/0.40mm SPEED @CORE One L HF 0.6.json"
+			"name": "0.40 mm SPEED @CORE One L HF 0.6",
+			"sub_path": "process/0.40 mm SPEED @CORE One L HF 0.6.json"
 		},
 		{
-			"name": "0.40mm STRUCTURAL @MK4S HF0.6",
-			"sub_path": "process/0.40mm STRUCTURAL @MK4S HF0.6.json"
+			"name": "0.40 mm STRUCTURAL @MK4S HF0.6",
+			"sub_path": "process/0.40 mm STRUCTURAL @MK4S HF0.6.json"
 		},
 		{
-			"name": "0.55mm DRAFT @CORE One 0.8",
-			"sub_path": "process/0.55mm DRAFT @CORE One 0.8.json"
+			"name": "0.55 mm DRAFT @CORE One 0.8",
+			"sub_path": "process/0.55 mm DRAFT @CORE One 0.8.json"
 		},
 		{
-			"name": "0.55mm DRAFT @CORE One L 0.8",
-			"sub_path": "process/0.55mm DRAFT @CORE One L 0.8.json"
+			"name": "0.55 mm DRAFT @CORE One L 0.8",
+			"sub_path": "process/0.55 mm DRAFT @CORE One L 0.8.json"
 		},
 		{
-			"name": "0.55mm SPEED @MK4S HF0.8",
-			"sub_path": "process/0.55mm SPEED @MK4S HF0.8.json"
+			"name": "0.55 mm SPEED @MK4S HF0.8",
+			"sub_path": "process/0.55 mm SPEED @MK4S HF0.8.json"
 		},
 		{
-			"name": "0.55mm STRUCTURAL @MK4S HF0.8",
-			"sub_path": "process/0.55mm STRUCTURAL @MK4S HF0.8.json"
+			"name": "0.55 mm STRUCTURAL @MK4S HF0.8",
+			"sub_path": "process/0.55 mm STRUCTURAL @MK4S HF0.8.json"
 		},
 		{
-			"name": "0.05mm Detail @Prusa XL 5T 0.25",
-			"sub_path": "process/0.05mm Detail @Prusa XL 5T 0.25.json"
+			"name": "0.05 mm Detail @Prusa XL 5T 0.25",
+			"sub_path": "process/0.05 mm Detail @Prusa XL 5T 0.25.json"
 		},
 		{
-			"name": "0.07mm Detail @Prusa XL 5T 0.25",
-			"sub_path": "process/0.07mm Detail @Prusa XL 5T 0.25.json"
+			"name": "0.07 mm Detail @Prusa XL 5T 0.25",
+			"sub_path": "process/0.07 mm Detail @Prusa XL 5T 0.25.json"
 		},
 		{
-			"name": "0.10mm FastDetail @Prusa XL 5T 0.4",
-			"sub_path": "process/0.10mm FastDetail @Prusa XL 5T 0.4.json"
+			"name": "0.10 mm FastDetail @Prusa XL 5T 0.4",
+			"sub_path": "process/0.10 mm FastDetail @Prusa XL 5T 0.4.json"
 		},
 		{
-			"name": "0.10mm Structural @Prusa XL 5T 0.5",
-			"sub_path": "process/0.10mm Structural @Prusa XL 5T 0.5.json"
+			"name": "0.10 mm Structural @Prusa XL 5T 0.5",
+			"sub_path": "process/0.10 mm Structural @Prusa XL 5T 0.5.json"
 		},
 		{
-			"name": "0.12mm Speed @Prusa XL 5T 0.25",
-			"sub_path": "process/0.12mm Speed @Prusa XL 5T 0.25.json"
+			"name": "0.12 mm Speed @Prusa XL 5T 0.25",
+			"sub_path": "process/0.12 mm Speed @Prusa XL 5T 0.25.json"
 		},
 		{
-			"name": "0.12mm Structural @Prusa XL 5T 0.25",
-			"sub_path": "process/0.12mm Structural @Prusa XL 5T 0.25.json"
+			"name": "0.12 mm Structural @Prusa XL 5T 0.25",
+			"sub_path": "process/0.12 mm Structural @Prusa XL 5T 0.25.json"
 		},
 		{
-			"name": "0.12mm Structural @Prusa XL 5T 0.3",
-			"sub_path": "process/0.12mm Structural @Prusa XL 5T 0.3.json"
+			"name": "0.12 mm Structural @Prusa XL 5T 0.3",
+			"sub_path": "process/0.12 mm Structural @Prusa XL 5T 0.3.json"
 		},
 		{
-			"name": "0.15mm Speed @Prusa XL 5T 0.25",
-			"sub_path": "process/0.15mm Speed @Prusa XL 5T 0.25.json"
+			"name": "0.15 mm Speed @Prusa XL 5T 0.25",
+			"sub_path": "process/0.15 mm Speed @Prusa XL 5T 0.25.json"
 		},
 		{
-			"name": "0.15mm Speed @Prusa XL 5T 0.4",
-			"sub_path": "process/0.15mm Speed @Prusa XL 5T 0.4.json"
+			"name": "0.15 mm Speed @Prusa XL 5T 0.4",
+			"sub_path": "process/0.15 mm Speed @Prusa XL 5T 0.4.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 5T 0.25",
-			"sub_path": "process/0.15mm Structural @Prusa XL 5T 0.25.json"
+			"name": "0.15 mm Structural @Prusa XL 5T 0.25",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 5T 0.25.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 5T 0.4",
-			"sub_path": "process/0.15mm Structural @Prusa XL 5T 0.4.json"
+			"name": "0.15 mm Structural @Prusa XL 5T 0.4",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 5T 0.4.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 5T 0.5",
-			"sub_path": "process/0.15mm Structural @Prusa XL 5T 0.5.json"
+			"name": "0.15 mm Structural @Prusa XL 5T 0.5",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 5T 0.5.json"
 		},
 		{
-			"name": "0.15mm Structural @Prusa XL 5T 0.6",
-			"sub_path": "process/0.15mm Structural @Prusa XL 5T 0.6.json"
+			"name": "0.15 mm Structural @Prusa XL 5T 0.6",
+			"sub_path": "process/0.15 mm Structural @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.16mm Speed @Prusa XL 5T 0.3",
-			"sub_path": "process/0.16mm Speed @Prusa XL 5T 0.3.json"
+			"name": "0.16 mm Speed @Prusa XL 5T 0.3",
+			"sub_path": "process/0.16 mm Speed @Prusa XL 5T 0.3.json"
 		},
 		{
-			"name": "0.16mm Structural @Prusa XL 5T 0.3",
-			"sub_path": "process/0.16mm Structural @Prusa XL 5T 0.3.json"
+			"name": "0.16 mm Structural @Prusa XL 5T 0.3",
+			"sub_path": "process/0.16 mm Structural @Prusa XL 5T 0.3.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 5T 0.3",
-			"sub_path": "process/0.20mm Speed @Prusa XL 5T 0.3.json"
+			"name": "0.20 mm Speed @Prusa XL 5T 0.3",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 5T 0.3.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 5T 0.4",
-			"sub_path": "process/0.20mm Speed @Prusa XL 5T 0.4.json"
+			"name": "0.20 mm Speed @Prusa XL 5T 0.4",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 5T 0.4.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 5T 0.5",
-			"sub_path": "process/0.20mm Speed @Prusa XL 5T 0.5.json"
+			"name": "0.20 mm Speed @Prusa XL 5T 0.5",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 5T 0.5.json"
 		},
 		{
-			"name": "0.20mm Speed @Prusa XL 5T 0.6",
-			"sub_path": "process/0.20mm Speed @Prusa XL 5T 0.6.json"
+			"name": "0.20 mm Speed @Prusa XL 5T 0.6",
+			"sub_path": "process/0.20 mm Speed @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.20mm Structural @Prusa XL 5T 0.4",
-			"sub_path": "process/0.20mm Structural @Prusa XL 5T 0.4.json"
+			"name": "0.20 mm Structural @Prusa XL 5T 0.4",
+			"sub_path": "process/0.20 mm Structural @Prusa XL 5T 0.4.json"
 		},
 		{
-			"name": "0.20mm Structural @Prusa XL 5T 0.5",
-			"sub_path": "process/0.20mm Structural @Prusa XL 5T 0.5.json"
+			"name": "0.20 mm Structural @Prusa XL 5T 0.5",
+			"sub_path": "process/0.20 mm Structural @Prusa XL 5T 0.5.json"
 		},
 		{
-			"name": "0.20mm Structural @Prusa XL 5T 0.6",
-			"sub_path": "process/0.20mm Structural @Prusa XL 5T 0.6.json"
+			"name": "0.20 mm Structural @Prusa XL 5T 0.6",
+			"sub_path": "process/0.20 mm Structural @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.25mm Speed @Prusa XL 5T 0.5",
-			"sub_path": "process/0.25mm Speed @Prusa XL 5T 0.5.json"
+			"name": "0.25 mm Speed @Prusa XL 5T 0.5",
+			"sub_path": "process/0.25 mm Speed @Prusa XL 5T 0.5.json"
 		},
 		{
-			"name": "0.25mm Speed @Prusa XL 5T 0.6",
-			"sub_path": "process/0.25mm Speed @Prusa XL 5T 0.6.json"
+			"name": "0.25 mm Speed @Prusa XL 5T 0.6",
+			"sub_path": "process/0.25 mm Speed @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.25mm Structural @Prusa XL 5T 0.4",
-			"sub_path": "process/0.25mm Structural @Prusa XL 5T 0.4.json"
+			"name": "0.25 mm Structural @Prusa XL 5T 0.4",
+			"sub_path": "process/0.25 mm Structural @Prusa XL 5T 0.4.json"
 		},
 		{
-			"name": "0.25mm Structural @Prusa XL 5T 0.5",
-			"sub_path": "process/0.25mm Structural @Prusa XL 5T 0.5.json"
+			"name": "0.25 mm Structural @Prusa XL 5T 0.5",
+			"sub_path": "process/0.25 mm Structural @Prusa XL 5T 0.5.json"
 		},
 		{
-			"name": "0.25mm Structural @Prusa XL 5T 0.6",
-			"sub_path": "process/0.25mm Structural @Prusa XL 5T 0.6.json"
+			"name": "0.25 mm Structural @Prusa XL 5T 0.6",
+			"sub_path": "process/0.25 mm Structural @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.30mm Detail @Prusa XL 5T 0.8",
-			"sub_path": "process/0.30mm Detail @Prusa XL 5T 0.8.json"
+			"name": "0.30 mm Detail @Prusa XL 5T 0.8",
+			"sub_path": "process/0.30 mm Detail @Prusa XL 5T 0.8.json"
 		},
 		{
-			"name": "0.32mm Speed @Prusa XL 5T 0.6",
-			"sub_path": "process/0.32mm Speed @Prusa XL 5T 0.6.json"
+			"name": "0.32 mm Speed @Prusa XL 5T 0.6",
+			"sub_path": "process/0.32 mm Speed @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.32mm Structural @Prusa XL 5T 0.6",
-			"sub_path": "process/0.32mm Structural @Prusa XL 5T 0.6.json"
+			"name": "0.32 mm Structural @Prusa XL 5T 0.6",
+			"sub_path": "process/0.32 mm Structural @Prusa XL 5T 0.6.json"
 		},
 		{
-			"name": "0.40mm Quality @Prusa XL 5T 0.8",
-			"sub_path": "process/0.40mm Quality @Prusa XL 5T 0.8.json"
+			"name": "0.40 mm Quality @Prusa XL 5T 0.8",
+			"sub_path": "process/0.40 mm Quality @Prusa XL 5T 0.8.json"
 		},
 		{
-			"name": "0.55mm Draft @Prusa XL 5T 0.8",
-			"sub_path": "process/0.55mm Draft @Prusa XL 5T 0.8.json"
+			"name": "0.55 mm Draft @Prusa XL 5T 0.8",
+			"sub_path": "process/0.55 mm Draft @Prusa XL 5T 0.8.json"
 		},
 		{
-			"name": "0.05mm DETAIL @CORE One 0.25",
-			"sub_path": "process/0.05mm DETAIL @CORE One 0.25.json"
+			"name": "0.05 mm DETAIL @CORE One 0.25",
+			"sub_path": "process/0.05 mm DETAIL @CORE One 0.25.json"
 		},
 		{
-			"name": "0.05mm DETAIL @CORE One L 0.25",
-			"sub_path": "process/0.05mm DETAIL @CORE One L 0.25.json"
+			"name": "0.05 mm DETAIL @CORE One L 0.25",
+			"sub_path": "process/0.05 mm DETAIL @CORE One L 0.25.json"
 		},
 		{
-			"name": "0.12mm STRUCTURAL @CORE One 0.25",
-			"sub_path": "process/0.12mm STRUCTURAL @CORE One 0.25.json"
+			"name": "0.12 mm STRUCTURAL @CORE One 0.25",
+			"sub_path": "process/0.12 mm STRUCTURAL @CORE One 0.25.json"
 		},
 		{
-			"name": "0.12mm STRUCTURAL @CORE One L 0.25",
-			"sub_path": "process/0.12mm STRUCTURAL @CORE One L 0.25.json"
+			"name": "0.12 mm STRUCTURAL @CORE One L 0.25",
+			"sub_path": "process/0.12 mm STRUCTURAL @CORE One L 0.25.json"
 		},
 		{
-			"name": "0.15mm SPEED @CORE One 0.25",
-			"sub_path": "process/0.15mm SPEED @CORE One 0.25.json"
+			"name": "0.15 mm SPEED @CORE One 0.25",
+			"sub_path": "process/0.15 mm SPEED @CORE One 0.25.json"
 		},
 		{
-			"name": "0.15mm SPEED @CORE One L 0.25",
-			"sub_path": "process/0.15mm SPEED @CORE One L 0.25.json"
+			"name": "0.15 mm SPEED @CORE One L 0.25",
+			"sub_path": "process/0.15 mm SPEED @CORE One L 0.25.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @MK4S 0.25",
-			"sub_path": "process/0.15mm STRUCTURAL @MK4S 0.25.json"
+			"name": "0.15 mm STRUCTURAL @MK4S 0.25",
+			"sub_path": "process/0.15 mm STRUCTURAL @MK4S 0.25.json"
 		},
 		{
-			"name": "0.16mm SPEED @MK4S 0.3",
-			"sub_path": "process/0.16mm SPEED @MK4S 0.3.json"
+			"name": "0.16 mm SPEED @MK4S 0.3",
+			"sub_path": "process/0.16 mm SPEED @MK4S 0.3.json"
 		},
 		{
-			"name": "0.16mm STRUCTURAL @CORE One 0.3",
-			"sub_path": "process/0.16mm STRUCTURAL @CORE One 0.3.json"
+			"name": "0.16 mm STRUCTURAL @CORE One 0.3",
+			"sub_path": "process/0.16 mm STRUCTURAL @CORE One 0.3.json"
 		},
 		{
-			"name": "0.16mm STRUCTURAL @CORE One L 0.3",
-			"sub_path": "process/0.16mm STRUCTURAL @CORE One L 0.3.json"
+			"name": "0.16 mm STRUCTURAL @CORE One L 0.3",
+			"sub_path": "process/0.16 mm STRUCTURAL @CORE One L 0.3.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @MK4S 0.3",
-			"sub_path": "process/0.20mm STRUCTURAL @MK4S 0.3.json"
+			"name": "0.20 mm STRUCTURAL @MK4S 0.3",
+			"sub_path": "process/0.20 mm STRUCTURAL @MK4S 0.3.json"
 		},
 		{
-			"name": "0.10mm FAST DETAIL @CORE One 0.4",
-			"sub_path": "process/0.10mm FAST DETAIL @CORE One 0.4.json"
+			"name": "0.10 mm FAST DETAIL @CORE One 0.4",
+			"sub_path": "process/0.10 mm FAST DETAIL @CORE One 0.4.json"
 		},
 		{
-			"name": "0.10mm FAST DETAIL @CORE One L 0.4",
-			"sub_path": "process/0.10mm FAST DETAIL @CORE One L 0.4.json"
+			"name": "0.10 mm FAST DETAIL @CORE One L 0.4",
+			"sub_path": "process/0.10 mm FAST DETAIL @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.15mm SPEED @CORE One HF 0.4",
-			"sub_path": "process/0.15mm SPEED @CORE One HF 0.4.json"
+			"name": "0.15 mm SPEED @CORE One HF 0.4",
+			"sub_path": "process/0.15 mm SPEED @CORE One HF 0.4.json"
 		},
 		{
-			"name": "0.15mm SPEED @CORE One L HF 0.4",
-			"sub_path": "process/0.15mm SPEED @CORE One L HF 0.4.json"
+			"name": "0.15 mm SPEED @CORE One L HF 0.4",
+			"sub_path": "process/0.15 mm SPEED @CORE One L HF 0.4.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One HF 0.5",
-			"sub_path": "process/0.20mm SPEED @CORE One HF 0.5.json"
+			"name": "0.20 mm SPEED @CORE One HF 0.5",
+			"sub_path": "process/0.20 mm SPEED @CORE One HF 0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L HF 0.5",
-			"sub_path": "process/0.20mm SPEED @CORE One L HF 0.5.json"
+			"name": "0.20 mm SPEED @CORE One L HF 0.5",
+			"sub_path": "process/0.20 mm SPEED @CORE One L HF 0.5.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One 0.5",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One 0.5.json"
+			"name": "0.20 mm STRUCTURAL @CORE One 0.5",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One 0.5.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One L 0.5",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One L 0.5.json"
+			"name": "0.20 mm STRUCTURAL @CORE One L 0.5",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One L 0.5.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @MK4S 0.5",
-			"sub_path": "process/0.25mm STRUCTURAL @MK4S 0.5.json"
+			"name": "0.25 mm STRUCTURAL @MK4S 0.5",
+			"sub_path": "process/0.25 mm STRUCTURAL @MK4S 0.5.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One 0.5",
-			"sub_path": "process/0.25mm SPEED @CORE One 0.5.json"
+			"name": "0.25 mm SPEED @CORE One 0.5",
+			"sub_path": "process/0.25 mm SPEED @CORE One 0.5.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One L 0.5",
-			"sub_path": "process/0.25mm SPEED @CORE One L 0.5.json"
+			"name": "0.25 mm SPEED @CORE One L 0.5",
+			"sub_path": "process/0.25 mm SPEED @CORE One L 0.5.json"
 		},
 		{
-			"name": "0.25mm SPEED @MK4S HF0.5",
-			"sub_path": "process/0.25mm SPEED @MK4S HF0.5.json"
+			"name": "0.25 mm SPEED @MK4S HF0.5",
+			"sub_path": "process/0.25 mm SPEED @MK4S HF0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One HF 0.6",
-			"sub_path": "process/0.20mm SPEED @CORE One HF 0.6.json"
+			"name": "0.20 mm SPEED @CORE One HF 0.6",
+			"sub_path": "process/0.20 mm SPEED @CORE One HF 0.6.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L HF 0.6",
-			"sub_path": "process/0.20mm SPEED @CORE One L HF 0.6.json"
+			"name": "0.20 mm SPEED @CORE One L HF 0.6",
+			"sub_path": "process/0.20 mm SPEED @CORE One L HF 0.6.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One 0.6",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One 0.6.json"
+			"name": "0.20 mm STRUCTURAL @CORE One 0.6",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One 0.6.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One L 0.6",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One L 0.6.json"
+			"name": "0.20 mm STRUCTURAL @CORE One L 0.6",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One 0.4",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One 0.4.json"
+			"name": "0.15 mm STRUCTURAL @CORE One 0.4",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One 0.4.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One L 0.4",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One L 0.4.json"
+			"name": "0.15 mm STRUCTURAL @CORE One L 0.4",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One L 0.4.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @CORE One HF 0.4",
-			"sub_path": "process/0.25mm STRUCTURAL @CORE One HF 0.4.json"
+			"name": "0.25 mm STRUCTURAL @CORE One HF 0.4",
+			"sub_path": "process/0.25 mm STRUCTURAL @CORE One HF 0.4.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @CORE One L HF 0.4",
-			"sub_path": "process/0.25mm STRUCTURAL @CORE One L HF 0.4.json"
+			"name": "0.25 mm STRUCTURAL @CORE One L HF 0.4",
+			"sub_path": "process/0.25 mm STRUCTURAL @CORE One L HF 0.4.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One HF 0.6",
-			"sub_path": "process/0.25mm SPEED @CORE One HF 0.6.json"
+			"name": "0.25 mm SPEED @CORE One HF 0.6",
+			"sub_path": "process/0.25 mm SPEED @CORE One HF 0.6.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One L HF 0.6",
-			"sub_path": "process/0.25mm SPEED @CORE One L HF 0.6.json"
+			"name": "0.25 mm SPEED @CORE One L HF 0.6",
+			"sub_path": "process/0.25 mm SPEED @CORE One L HF 0.6.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @CORE One 0.6",
-			"sub_path": "process/0.25mm STRUCTURAL @CORE One 0.6.json"
+			"name": "0.25 mm STRUCTURAL @CORE One 0.6",
+			"sub_path": "process/0.25 mm STRUCTURAL @CORE One 0.6.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @CORE One L 0.6",
-			"sub_path": "process/0.25mm STRUCTURAL @CORE One L 0.6.json"
+			"name": "0.25 mm STRUCTURAL @CORE One L 0.6",
+			"sub_path": "process/0.25 mm STRUCTURAL @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.30mm SPEED @CORE One HF 0.8",
-			"sub_path": "process/0.30mm SPEED @CORE One HF 0.8.json"
+			"name": "0.30 mm SPEED @CORE One HF 0.8",
+			"sub_path": "process/0.30 mm SPEED @CORE One HF 0.8.json"
 		},
 		{
-			"name": "0.30mm SPEED @CORE One L HF 0.8",
-			"sub_path": "process/0.30mm SPEED @CORE One L HF 0.8.json"
+			"name": "0.30 mm SPEED @CORE One L HF 0.8",
+			"sub_path": "process/0.30 mm SPEED @CORE One L HF 0.8.json"
 		},
 		{
-			"name": "0.30mm STRUCTURAL @CORE One HF 0.8",
-			"sub_path": "process/0.30mm STRUCTURAL @CORE One HF 0.8.json"
+			"name": "0.30 mm STRUCTURAL @CORE One HF 0.8",
+			"sub_path": "process/0.30 mm STRUCTURAL @CORE One HF 0.8.json"
 		},
 		{
-			"name": "0.30mm STRUCTURAL @CORE One L HF 0.8",
-			"sub_path": "process/0.30mm STRUCTURAL @CORE One L HF 0.8.json"
+			"name": "0.30 mm STRUCTURAL @CORE One L HF 0.8",
+			"sub_path": "process/0.30 mm STRUCTURAL @CORE One L HF 0.8.json"
 		},
 		{
-			"name": "0.32mm SPEED @CORE One HF 0.6",
-			"sub_path": "process/0.32mm SPEED @CORE One HF 0.6.json"
+			"name": "0.32 mm SPEED @CORE One HF 0.6",
+			"sub_path": "process/0.32 mm SPEED @CORE One HF 0.6.json"
 		},
 		{
-			"name": "0.32mm SPEED @CORE One L HF 0.6",
-			"sub_path": "process/0.32mm SPEED @CORE One L HF 0.6.json"
+			"name": "0.32 mm SPEED @CORE One L HF 0.6",
+			"sub_path": "process/0.32 mm SPEED @CORE One L HF 0.6.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @CORE One 0.6",
-			"sub_path": "process/0.32mm STRUCTURAL @CORE One 0.6.json"
+			"name": "0.32 mm STRUCTURAL @CORE One 0.6",
+			"sub_path": "process/0.32 mm STRUCTURAL @CORE One 0.6.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @CORE One L 0.6",
-			"sub_path": "process/0.32mm STRUCTURAL @CORE One L 0.6.json"
+			"name": "0.32 mm STRUCTURAL @CORE One L 0.6",
+			"sub_path": "process/0.32 mm STRUCTURAL @CORE One L 0.6.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @CORE One HF 0.6",
-			"sub_path": "process/0.32mm STRUCTURAL @CORE One HF 0.6.json"
+			"name": "0.32 mm STRUCTURAL @CORE One HF 0.6",
+			"sub_path": "process/0.32 mm STRUCTURAL @CORE One HF 0.6.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @CORE One L HF 0.6",
-			"sub_path": "process/0.32mm STRUCTURAL @CORE One L HF 0.6.json"
+			"name": "0.32 mm STRUCTURAL @CORE One L HF 0.6",
+			"sub_path": "process/0.32 mm STRUCTURAL @CORE One L HF 0.6.json"
 		},
 		{
-			"name": "0.40mm SPEED @CORE One HF 0.8",
-			"sub_path": "process/0.40mm SPEED @CORE One HF 0.8.json"
+			"name": "0.40 mm SPEED @CORE One HF 0.8",
+			"sub_path": "process/0.40 mm SPEED @CORE One HF 0.8.json"
 		},
 		{
-			"name": "0.40mm SPEED @CORE One L HF 0.8",
-			"sub_path": "process/0.40mm SPEED @CORE One L HF 0.8.json"
+			"name": "0.40 mm SPEED @CORE One L HF 0.8",
+			"sub_path": "process/0.40 mm SPEED @CORE One L HF 0.8.json"
 		},
 		{
-			"name": "0.40mm STRUCTURAL @CORE One HF 0.8",
-			"sub_path": "process/0.40mm STRUCTURAL @CORE One HF 0.8.json"
+			"name": "0.40 mm STRUCTURAL @CORE One HF 0.8",
+			"sub_path": "process/0.40 mm STRUCTURAL @CORE One HF 0.8.json"
 		},
 		{
-			"name": "0.40mm STRUCTURAL @CORE One L HF 0.8",
-			"sub_path": "process/0.40mm STRUCTURAL @CORE One L HF 0.8.json"
+			"name": "0.40 mm STRUCTURAL @CORE One L HF 0.8",
+			"sub_path": "process/0.40 mm STRUCTURAL @CORE One L HF 0.8.json"
 		},
 		{
-			"name": "0.40mm STRUCTURAL @CORE One HF 0.6",
-			"sub_path": "process/0.40mm STRUCTURAL @CORE One HF 0.6.json"
+			"name": "0.40 mm STRUCTURAL @CORE One HF 0.6",
+			"sub_path": "process/0.40 mm STRUCTURAL @CORE One HF 0.6.json"
 		},
 		{
-			"name": "0.40mm STRUCTURAL @CORE One L HF 0.6",
-			"sub_path": "process/0.40mm STRUCTURAL @CORE One L HF 0.6.json"
+			"name": "0.40 mm STRUCTURAL @CORE One L HF 0.6",
+			"sub_path": "process/0.40 mm STRUCTURAL @CORE One L HF 0.6.json"
 		},
 		{
-			"name": "0.55mm SPEED @CORE One HF 0.8",
-			"sub_path": "process/0.55mm SPEED @CORE One HF 0.8.json"
+			"name": "0.55 mm SPEED @CORE One HF 0.8",
+			"sub_path": "process/0.55 mm SPEED @CORE One HF 0.8.json"
 		},
 		{
-			"name": "0.55mm SPEED @CORE One L HF 0.8",
-			"sub_path": "process/0.55mm SPEED @CORE One L HF 0.8.json"
+			"name": "0.55 mm SPEED @CORE One L HF 0.8",
+			"sub_path": "process/0.55 mm SPEED @CORE One L HF 0.8.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One 0.25",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One 0.25.json"
+			"name": "0.15 mm STRUCTURAL @CORE One 0.25",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One 0.25.json"
 		},
 		{
-			"name": "0.15mm STRUCTURAL @CORE One L 0.25",
-			"sub_path": "process/0.15mm STRUCTURAL @CORE One L 0.25.json"
+			"name": "0.15 mm STRUCTURAL @CORE One L 0.25",
+			"sub_path": "process/0.15 mm STRUCTURAL @CORE One L 0.25.json"
 		},
 		{
-			"name": "0.16mm SPEED @CORE One 0.3",
-			"sub_path": "process/0.16mm SPEED @CORE One 0.3.json"
+			"name": "0.16 mm SPEED @CORE One 0.3",
+			"sub_path": "process/0.16 mm SPEED @CORE One 0.3.json"
 		},
 		{
-			"name": "0.16mm SPEED @CORE One L 0.3",
-			"sub_path": "process/0.16mm SPEED @CORE One L 0.3.json"
+			"name": "0.16 mm SPEED @CORE One L 0.3",
+			"sub_path": "process/0.16 mm SPEED @CORE One L 0.3.json"
 		},
 		{
-			"name": "0.20mm SPEED @MK4S 0.3",
-			"sub_path": "process/0.20mm SPEED @MK4S 0.3.json"
+			"name": "0.20 mm SPEED @MK4S 0.3",
+			"sub_path": "process/0.20 mm SPEED @MK4S 0.3.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One 0.3",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One 0.3.json"
+			"name": "0.20 mm STRUCTURAL @CORE One 0.3",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One 0.3.json"
 		},
 		{
-			"name": "0.20mm STRUCTURAL @CORE One L 0.3",
-			"sub_path": "process/0.20mm STRUCTURAL @CORE One L 0.3.json"
+			"name": "0.20 mm STRUCTURAL @CORE One L 0.3",
+			"sub_path": "process/0.20 mm STRUCTURAL @CORE One L 0.3.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @CORE One 0.5",
-			"sub_path": "process/0.25mm STRUCTURAL @CORE One 0.5.json"
+			"name": "0.25 mm STRUCTURAL @CORE One 0.5",
+			"sub_path": "process/0.25 mm STRUCTURAL @CORE One 0.5.json"
 		},
 		{
-			"name": "0.25mm STRUCTURAL @CORE One L 0.5",
-			"sub_path": "process/0.25mm STRUCTURAL @CORE One L 0.5.json"
+			"name": "0.25 mm STRUCTURAL @CORE One L 0.5",
+			"sub_path": "process/0.25 mm STRUCTURAL @CORE One L 0.5.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @MK4S HF0.5",
-			"sub_path": "process/0.32mm STRUCTURAL @MK4S HF0.5.json"
+			"name": "0.32 mm STRUCTURAL @MK4S HF0.5",
+			"sub_path": "process/0.32 mm STRUCTURAL @MK4S HF0.5.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One HF 0.5",
-			"sub_path": "process/0.25mm SPEED @CORE One HF 0.5.json"
+			"name": "0.25 mm SPEED @CORE One HF 0.5",
+			"sub_path": "process/0.25 mm SPEED @CORE One HF 0.5.json"
 		},
 		{
-			"name": "0.25mm SPEED @CORE One L HF 0.5",
-			"sub_path": "process/0.25mm SPEED @CORE One L HF 0.5.json"
+			"name": "0.25 mm SPEED @CORE One L HF 0.5",
+			"sub_path": "process/0.25 mm SPEED @CORE One L HF 0.5.json"
 		},
 		{
-			"name": "0.32mm SPEED @MK4S HF0.5",
-			"sub_path": "process/0.32mm SPEED @MK4S HF0.5.json"
+			"name": "0.32 mm SPEED @MK4S HF0.5",
+			"sub_path": "process/0.32 mm SPEED @MK4S HF0.5.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One 0.3",
-			"sub_path": "process/0.20mm SPEED @CORE One 0.3.json"
+			"name": "0.20 mm SPEED @CORE One 0.3",
+			"sub_path": "process/0.20 mm SPEED @CORE One 0.3.json"
 		},
 		{
-			"name": "0.20mm SPEED @CORE One L 0.3",
-			"sub_path": "process/0.20mm SPEED @CORE One L 0.3.json"
+			"name": "0.20 mm SPEED @CORE One L 0.3",
+			"sub_path": "process/0.20 mm SPEED @CORE One L 0.3.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @CORE One HF 0.5",
-			"sub_path": "process/0.32mm STRUCTURAL @CORE One HF 0.5.json"
+			"name": "0.32 mm STRUCTURAL @CORE One HF 0.5",
+			"sub_path": "process/0.32 mm STRUCTURAL @CORE One HF 0.5.json"
 		},
 		{
-			"name": "0.32mm STRUCTURAL @CORE One L HF 0.5",
-			"sub_path": "process/0.32mm STRUCTURAL @CORE One L HF 0.5.json"
+			"name": "0.32 mm STRUCTURAL @CORE One L HF 0.5",
+			"sub_path": "process/0.32 mm STRUCTURAL @CORE One L HF 0.5.json"
 		},
 		{
-			"name": "0.32mm SPEED @CORE One HF 0.5",
-			"sub_path": "process/0.32mm SPEED @CORE One HF 0.5.json"
+			"name": "0.32 mm SPEED @CORE One HF 0.5",
+			"sub_path": "process/0.32 mm SPEED @CORE One HF 0.5.json"
 		},
 		{
-			"name": "0.32mm SPEED @CORE One L HF 0.5",
-			"sub_path": "process/0.32mm SPEED @CORE One L HF 0.5.json"
+			"name": "0.32 mm SPEED @CORE One L HF 0.5",
+			"sub_path": "process/0.32 mm SPEED @CORE One L HF 0.5.json"
 		}
 	],
 	"filament_list": [

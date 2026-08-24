@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @MINI 0.6",
+	"name": "0.20 mm Standard @MINI 0.6",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "wMoBkmRqQ0nhI5Tj",

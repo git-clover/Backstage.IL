@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "QwgTvSeq1hLKGILo",
-	"name": "Full performance DUAL - 0.15mm",
+	"name": "Full performance DUAL - 0.15 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

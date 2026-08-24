@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Flashforge Artemis 0.4 Nozzle",
+	"name": "0.20 mm Standard @Flashforge Artemis 0.4 Nozzle",
 	"inherits": "fdm_process_flashforge_common",
 	"from": "system",
 	"setting_id": "duPiYbtsPEZKLQr8",

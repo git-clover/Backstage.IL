@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.07mm UltraDetail @MK3S",
+	"name": "0.07 mm UltraDetail @MK3S",
 	"inherits": "process_common_mk3",
 	"from": "system",
 	"setting_id": "Kq78NpEJ9yHfp0dR",
 	"instantiation": "true",
-	"print_settings_id": "0.07mm UltraDetail @MK3S",
+	"print_settings_id": "0.07 mm UltraDetail @MK3S",
 	"bottom_shell_layers": "8",
 	"bridge_acceleration": "300",
 	"bridge_flow": "0.6",

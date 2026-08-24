@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "KJc1HuWgcYJkoy32",
-	"name": "0.24mm Draft @Creality K1 SE",
+	"name": "0.24 mm Draft @Creality K1 SE",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

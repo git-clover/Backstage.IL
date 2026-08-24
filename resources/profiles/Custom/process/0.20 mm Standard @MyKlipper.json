@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @MyKlipper",
+	"name": "0.20 mm Standard @MyKlipper",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
 	"setting_id": "UkxcnbdZ2LeRvO4x",

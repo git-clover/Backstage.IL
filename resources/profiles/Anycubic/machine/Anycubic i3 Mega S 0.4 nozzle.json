@@ -6,7 +6,7 @@
 	"setting_id": "5dhgi6AGtzKSrNiD",
 	"instantiation": "true",
 	"printer_model": "Anycubic i3 Mega S",
-	"default_print_profile": "0.20mm Standard @Anycubic i3MegaS",
+	"default_print_profile": "0.20 mm Standard @Anycubic i3MegaS",
 	"nozzle_diameter": [
 		"0.4"
 	],

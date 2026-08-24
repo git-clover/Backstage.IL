@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Creality Ender3S1Plus 0.4",
+	"name": "0.24 mm Draft @Creality Ender3S1Plus 0.4",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "mxnyxP2RYe284OB7",

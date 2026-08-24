@@ -1,8 +1,8 @@
 {
 	"type": "process",
 	"from": "system",
-	"inherits": "0.20mm Standard @Elegoo N4Pro 0.4 nozzle",
-	"name": "0.20mm Strength @Elegoo N4Pro 0.4 nozzle",
+	"inherits": "0.20 mm Standard @Elegoo N4Pro 0.4 nozzle",
+	"name": "0.20 mm Strength @Elegoo N4Pro 0.4 nozzle",
 	"wall_sequence": "inner-outer-inner wall",
 	"setting_id": "LrBDOuD4h741FItb",
 	"instantiation": "true",

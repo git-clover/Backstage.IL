@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm MMU @LH Stinger",
+	"name": "0.20 mm MMU @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "g6RZV8hOSJZKm80i",

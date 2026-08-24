@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.36mm Draft @Creality Ender-3 V3",
+	"name": "0.36 mm Draft @Creality Ender-3 V3",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "5L1oQB22HBdoaocC",

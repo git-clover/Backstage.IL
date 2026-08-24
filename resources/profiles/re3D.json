@@ -49,11 +49,11 @@
                          },
                          {
                              "name":  "0.26 Standard",
-                             "sub_path":  "process/0.26mm Standard @re3D fdm 0.4.json"
+                             "sub_path":  "process/0.26 mm Standard @re3D fdm 0.4.json"
                          },
                          {
                              "name":  "0.32 Draft",
-                             "sub_path":  "process/0.32mm Draft @re3D fdm 0.4.json"
+                             "sub_path":  "process/0.32 mm Draft @re3D fdm 0.4.json"
                          },
                          {
                              "name":  "0.3 Fine",

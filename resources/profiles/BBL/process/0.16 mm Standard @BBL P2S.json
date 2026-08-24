@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @BBL P2S",
+	"name": "0.16 mm Standard @BBL P2S",
 	"inherits": "fdm_process_single_0.16",
 	"from": "system",
 	"setting_id": "GP209",
 	"instantiation": "true",
-	"description": "Standard profile for 0.16mm layer height, prioritizing speed.",
+	"description": "Standard profile for 0.16 mm layer height, prioritizing speed.",
 	"bottom_surface_pattern": "monotonicline",
 	"bridge_speed": [
 		"50",

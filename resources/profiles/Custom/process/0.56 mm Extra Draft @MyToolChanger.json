@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.56mm Standard @MyToolChanger",
+	"name": "0.56 mm Standard @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
 	"setting_id": "Pky5GvEuSlaG1Lvm",

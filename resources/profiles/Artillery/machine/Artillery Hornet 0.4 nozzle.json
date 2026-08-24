@@ -6,7 +6,7 @@
 	"instantiation": "true",
 	"inherits": "fdm_machine_common",
 	"printer_model": "Artillery Hornet",
-	"default_print_profile": "0.20mm Standard @Artillery Hornet",
+	"default_print_profile": "0.20 mm Standard @Artillery Hornet",
 	"nozzle_diameter": [
 		"0.4"
 	],

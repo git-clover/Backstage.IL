@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm SuperDetail @Creality CR-6 0.2",
+	"name": "0.08 mm SuperDetail @Creality CR-6 0.2",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "2DE0Yll1uWWACmoJ",

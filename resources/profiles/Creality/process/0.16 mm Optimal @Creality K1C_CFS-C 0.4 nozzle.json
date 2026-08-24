@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "CpdVjCmJkN3pWssv",
-	"name": "0.16mm Optimal @Creality K1C_CFS-C 0.4 nozzle",
+	"name": "0.16 mm Optimal @Creality K1C_CFS-C 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

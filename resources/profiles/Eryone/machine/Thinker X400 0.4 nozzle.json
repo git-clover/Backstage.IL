@@ -5,7 +5,7 @@
 	"setting_id": "iOmDPImz2E66SIpL",
 	"instantiation": "true",
 	"printer_model": "Thinker X400",
-	"default_print_profile": "0.20mm Standard @Thinker X400",
+	"default_print_profile": "0.20 mm Standard @Thinker X400",
 	"default_filament_profile": "Eryone PLA;Eryone ABS;Eryone ASA;Eryone PETG;Eryone Silk PLA;Eryone TPU;Eryone ABS-CF;Eryone ASA-CF;Eryone PA;Eryone PA-CF;Eryone PA-GF;Eryone PETG-CF;Eryone PLA-CF;Eryone PP;Eryone PP-CF;",
 	"auxiliary_fan": "0",
 	"bed_custom_model": "",

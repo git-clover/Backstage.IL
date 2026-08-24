@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.05mm Detail @Prusa XL 0.25",
+	"name": "0.05 mm Detail @Prusa XL 0.25",
 	"inherits": "process_common_xl",
 	"from": "system",
 	"setting_id": "o8hfSDG0dyoYR7x8",

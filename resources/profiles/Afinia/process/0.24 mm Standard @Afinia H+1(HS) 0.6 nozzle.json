@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Standard @Afinia H+1(HS) 0.6 nozzle",
+	"name": "0.24 mm Standard @Afinia H+1(HS) 0.6 nozzle",
 	"inherits": "fdm_process_afinia_0.24_nozzle_0.6_HS",
 	"from": "system",
 	"setting_id": "QlOnQEeUXkGaxZS5",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.32mm Standard @M1",
+	"name": "0.32 mm Standard @M1",
 	"inherits": "fdm_process_M1_common",
 	"from": "system",
 	"setting_id": "yjnb7R1H07rZtYGA",

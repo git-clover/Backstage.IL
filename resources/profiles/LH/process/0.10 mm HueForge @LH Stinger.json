@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm HueForge @LH Stinger",
+	"name": "0.10 mm HueForge @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "YbSn7A99XdQu18TS",

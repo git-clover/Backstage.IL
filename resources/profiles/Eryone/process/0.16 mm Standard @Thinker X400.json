@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @Thinker X400",
-	"inherits": "0.20mm Standard @Thinker X400",
+	"name": "0.16 mm Standard @Thinker X400",
+	"inherits": "0.20 mm Standard @Thinker X400",
 	"from": "User",
 	"setting_id": "YZvPJK8iIG1BFWs3",
 	"instantiation": "true",
@@ -18,7 +18,7 @@
 	"overhang_1_4_speed": "60",
 	"overhang_2_4_speed": "30",
 	"overhang_3_4_speed": "10",
-	"print_settings_id": "0.16mm Standard @Thinker X400",
+	"print_settings_id": "0.16 mm Standard @Thinker X400",
 	"raft_first_layer_expansion": "10",
 	"sparse_infill_density": "15%",
 	"sparse_infill_speed": "250",

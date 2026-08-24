@@ -42,7 +42,7 @@
 		"250"
 	],
 	"filament_notes": [
-		"Bu filament ayarları GlauTech tarafından oluşturulmuştur. Filamentin daha verimli çalışması için, slicerdaki kalibrasyon ayarlarının tek tek yapılması önemlidir. Kalibrasyon ayarları için, GlauTech youtube kanalından destek alabilirsiniz.\n\nGalaxy filamentlerimizde; \n0.2mm nozul kullanılmaması,\n0.16mm katman yüksekliği altına inilmemesi önerilir.\n\nBoş Makara Ağırlığı: 150gr"
+		"Bu filament ayarları GlauTech tarafından oluşturulmuştur. Filamentin daha verimli çalışması için, slicerdaki kalibrasyon ayarlarının tek tek yapılması önemlidir. Kalibrasyon ayarları için, GlauTech youtube kanalından destek alabilirsiniz.\n\nGalaxy filamentlerimizde; \n0.2mm nozul kullanılmaması,\n0.16 mm katman yüksekliği altına inilmemesi önerilir.\n\nBoş Makara Ağırlığı: 150gr"
 	],
 	"slow_down_min_speed": [
 		"20"

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Draft @BBL A1 0.2 nozzle",
+	"name": "0.12 mm Draft @BBL A1 0.2 nozzle",
 	"inherits": "fdm_process_single_0.12_nozzle_0.2",
 	"from": "system",
 	"setting_id": "GP086",

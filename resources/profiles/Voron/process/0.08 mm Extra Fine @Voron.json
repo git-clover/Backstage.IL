@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Voron",
+	"name": "0.08 mm Extra Fine @Voron",
 	"inherits": "fdm_process_voron_common",
 	"from": "system",
 	"setting_id": "eFPB6RHFWXA8mbJf",

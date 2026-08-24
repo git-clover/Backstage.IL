@@ -25,12 +25,12 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.15mm MM @D8500",
-			"sub_path": "process/0.15mm MM @D8500.json"
+			"name": "0.15 mm MM @D8500",
+			"sub_path": "process/0.15 mm MM @D8500.json"
 		},
 		{
-			"name": "0.20mm MM @D8500",
-			"sub_path": "process/0.20mm MM @D8500.json"
+			"name": "0.20 mm MM @D8500",
+			"sub_path": "process/0.20 mm MM @D8500.json"
 		}
 	],
 	"filament_list": []

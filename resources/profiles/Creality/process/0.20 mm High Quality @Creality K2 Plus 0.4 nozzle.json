@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "UR1b2Z2o4t2uXsDO",
-	"name": "0.20mm High Quality @Creality K2 Plus 0.4 nozzle",
+	"name": "0.20 mm High Quality @Creality K2 Plus 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

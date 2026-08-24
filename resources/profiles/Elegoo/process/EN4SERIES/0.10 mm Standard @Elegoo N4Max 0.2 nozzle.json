@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Standard @Elegoo N4Max 0.2 nozzle",
+	"name": "0.10 mm Standard @Elegoo N4Max 0.2 nozzle",
 	"inherits": "fdm_process_elegoo_02010",
 	"from": "system",
 	"setting_id": "zFHnOUd2WXdPG1d0",
@@ -13,5 +13,5 @@
 	"default_acceleration": "3000",
 	"min_width_top_surface": "50%",
 	"outer_wall_acceleration": "1500",
-	"renamed_from": "0.20mm Standard @Elegoo Neptune4Max (0.2 nozzle)"
+	"renamed_from": "0.20 mm Standard @Elegoo Neptune4Max (0.2 nozzle)"
 }

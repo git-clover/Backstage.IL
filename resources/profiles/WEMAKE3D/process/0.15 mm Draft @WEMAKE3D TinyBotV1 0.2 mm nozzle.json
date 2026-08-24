@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
+	"name": "0.15 mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"from": "system",
 	"setting_id": "VF0y0eQfT0BZ7iPk",
@@ -22,7 +22,7 @@
 	"outer_wall_acceleration": "2000",
 	"outer_wall_line_width": "0.22",
 	"outer_wall_speed": "150",
-	"print_settings_id": "0.15mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
+	"print_settings_id": "0.15 mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
 	"slow_down_layers": "2",
 	"sparse_infill_pattern": "rectilinear",
 	"sparse_infill_speed": "200",

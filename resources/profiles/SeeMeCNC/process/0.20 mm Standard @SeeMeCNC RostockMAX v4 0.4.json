@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @SeeMeCNC RostockMAX v4 0.4",
+	"name": "0.20 mm Standard @SeeMeCNC RostockMAX v4 0.4",
 	"inherits": "SeeMeCNC process base 0.4mm",
 	"from": "System",
 	"setting_id": "sFyuuCdsPp69Ckxr",
 	"instantiation": "true",
-	"print_settings_id": "0.20mm Standard @SeeMeCNC RostockMAX v4 0.4",
+	"print_settings_id": "0.20 mm Standard @SeeMeCNC RostockMAX v4 0.4",
 	"compatible_printers": [
 		"SeeMeCNC RostockMAX v4 0.4 nozzle"
 	],

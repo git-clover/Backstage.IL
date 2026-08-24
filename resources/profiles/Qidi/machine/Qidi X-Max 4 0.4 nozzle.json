@@ -8,7 +8,7 @@
 	"box_id": "3",
 	"printer_model": "Qidi X-Max 4",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @X-Max 4",
+	"default_print_profile": "0.20 mm Standard @X-Max 4",
 	"printer_settings_id": "Qidi",
 	"bed_exclude_area": [
 		"0x0, 16x0, 16x13, 0x13, 0x0, 0x0, 0x0, 0x0, 0x13, 6x13, 6x23, 0x23, 0x13, 0x13, 0x13, 0x13, 0x387, 53x387, 53x390, 0x390, 0x387, 0x387, 0x397, 0x390, 338x390, 338x384, 390x384, 390x390, 0x390"

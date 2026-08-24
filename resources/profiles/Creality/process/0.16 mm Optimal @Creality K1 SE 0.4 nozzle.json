@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "xHoh6Y8AfDzNA5Mf",
-	"name": "0.16mm Optimal @Creality K1 SE",
+	"name": "0.16 mm Optimal @Creality K1 SE",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

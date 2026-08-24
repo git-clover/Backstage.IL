@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @X-Max 4 0.2 nozzle",
+	"name": "0.08 mm Extra Fine @X-Max 4 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
 	"setting_id": "9aEE4QRwpA84OcRn",

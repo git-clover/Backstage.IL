@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Standard @iQ TiQ2 (0.25 Nozzle)",
+	"name": "0.15 mm Standard @iQ TiQ2 (0.25 Nozzle)",
 	"inherits": "fdm_process_tiq_common",
 	"from": "system",
 	"setting_id": "PNxZXC0peOlGlKwG",
@@ -22,5 +22,5 @@
 	"initial_layer_speed": "35",
 	"initial_layer_infill_speed": "55",
 	"bridge_speed": "30",
-	"print_settings_id": "0.15mm Standard @iQ TiQ2 (0.25 Nozzle)"
+	"print_settings_id": "0.15 mm Standard @iQ TiQ2 (0.25 Nozzle)"
 }

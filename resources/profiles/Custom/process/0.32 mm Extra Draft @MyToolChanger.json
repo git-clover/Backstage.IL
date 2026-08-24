@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.32mm Extra Draft @MyToolChanger",
-	"renamed_from": "0.32mm Standard @MyToolChanger",
+	"name": "0.32 mm Extra Draft @MyToolChanger",
+	"renamed_from": "0.32 mm Standard @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
 	"setting_id": "7cM9iT4GyGhmfwHu",

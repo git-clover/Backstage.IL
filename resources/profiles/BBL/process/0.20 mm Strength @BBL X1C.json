@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Strength @BBL X1C",
+	"name": "0.20 mm Strength @BBL X1C",
 	"inherits": "fdm_process_single_0.20",
 	"from": "system",
 	"setting_id": "GP013",

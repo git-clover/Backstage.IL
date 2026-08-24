@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.28mm Extra Draft @Arena X1C",
+	"name": "0.28 mm Extra Draft @Arena X1C",
 	"inherits": "fdm_process_arena_0.28",
 	"from": "system",
 	"setting_id": "Q03WAuYXUC4h4Vyk",

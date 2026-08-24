@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Flashforge G3U 0.4 Nozzle",
-	"inherits": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
+	"name": "0.24 mm Draft @Flashforge G3U 0.4 Nozzle",
+	"inherits": "0.20 mm Standard @Flashforge G3U 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "YeElEtVLb55pdAgy",
 	"instantiation": "true",
@@ -15,7 +15,7 @@
 	"post_process": "",
 	"internal_bridge_speed": "30",
 	"layer_height": "0.24",
-	"print_settings_id": "0.24mm Draft @Flashforge G3U 0.4 Nozzle",
+	"print_settings_id": "0.24 mm Draft @Flashforge G3U 0.4 Nozzle",
 	"support_bottom_interface_spacing": "0.2",
 	"support_bottom_z_distance": "0.15",
 	"support_interface_spacing": "0.2",

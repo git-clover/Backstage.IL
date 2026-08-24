@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.42mm Extra Draft @FT 0.6 nozzle",
+	"name": "0.42 mm Extra Draft @FT 0.6 nozzle",
 	"inherits": "fdm_process_folgertech_common",
 	"from": "system",
 	"setting_id": "TvdVRkRKDJ5CSWz8",

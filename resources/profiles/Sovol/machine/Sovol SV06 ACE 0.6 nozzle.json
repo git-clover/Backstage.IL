@@ -6,7 +6,7 @@
 	"setting_id": "bsROify59RvHQlk8",
 	"instantiation": "true",
 	"printer_model": "Sovol SV06 ACE",
-	"default_print_profile": "0.30mm Standard @Sovol SV06 ACE 0.6 nozzle",
+	"default_print_profile": "0.30 mm Standard @Sovol SV06 ACE 0.6 nozzle",
 	"printer_variant": "0.6",
 	"nozzle_diameter": [
 		"0.6"

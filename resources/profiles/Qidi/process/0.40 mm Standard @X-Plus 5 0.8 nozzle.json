@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "6EBzl1Pg5Px36Cu6",
-	"name": "0.40mm Standard @X-Plus 5 0.8 nozzle",
+	"name": "0.40 mm Standard @X-Plus 5 0.8 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_n_common",

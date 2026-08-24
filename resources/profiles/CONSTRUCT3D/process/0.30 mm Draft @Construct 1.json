@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Draft @Construct 1",
+	"name": "0.30 mm Draft @Construct 1",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "BqNKXSWtwefGcYp0",

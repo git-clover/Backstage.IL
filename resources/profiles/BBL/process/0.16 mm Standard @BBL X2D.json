@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @BBL X2D",
+	"name": "0.16 mm Standard @BBL X2D",
 	"inherits": "fdm_process_dual_0.16_nozzle_0.4",
 	"from": "system",
 	"setting_id": "GP222",
 	"instantiation": "true",
-	"description": "Standard profile for 0.16mm layer height, prioritizing speed.",
+	"description": "Standard profile for 0.16 mm layer height, prioritizing speed.",
 	"bridge_flow": "1.5",
 	"bridge_speed": [
 		"25",

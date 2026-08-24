@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "YVbjgCkFSIfI9zDy",
-	"name": "0.20mm Standard @Elegoo N3Max 0.4 nozzle",
+	"name": "0.20 mm Standard @Elegoo N3Max 0.4 nozzle",
 	"from": "system",
 	"inherits": "fdm_process_elegoo_04020",
 	"instantiation": "true",
@@ -27,5 +27,5 @@
 	"compatible_printers": [
 		"Elegoo Neptune 3 Max 0.4 nozzle"
 	],
-	"renamed_from": "0.20mm Standard @Elegoo Neptune3Max"
+	"renamed_from": "0.20 mm Standard @Elegoo Neptune3Max"
 }

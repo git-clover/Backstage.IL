@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm SOLUBLE FULL @MK4S 0.4",
+	"name": "0.20 mm SOLUBLE FULL @MK4S 0.4",
 	"inherits": "process_common_mk4s",
 	"from": "system",
 	"setting_id": "yYJCu437HslbPCKF",

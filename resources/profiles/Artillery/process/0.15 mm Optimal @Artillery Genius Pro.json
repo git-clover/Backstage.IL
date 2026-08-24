@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "lF4fXJjfALsU4vVF",
-	"name": "0.15mm Optimal @Artillery Genius Pro",
+	"name": "0.15 mm Optimal @Artillery Genius Pro",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_common",

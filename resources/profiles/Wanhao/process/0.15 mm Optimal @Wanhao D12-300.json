@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Wanhao D12-300",
+	"name": "0.15 mm Optimal @Wanhao D12-300",
 	"inherits": "fdm_process_wanhao_common",
 	"from": "system",
 	"setting_id": "rS2XLUYO7QV9sLuZ",

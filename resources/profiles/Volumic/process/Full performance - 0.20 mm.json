@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "vjm5CwY9lx6DOJZy",
-	"name": "Full performance - 0.20mm",
+	"name": "Full performance - 0.20 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

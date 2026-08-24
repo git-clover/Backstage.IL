@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.20mm SOLUBLE INTERFACE @CORE One L 0.4",
-	"inherits": "0.20mm SOLUBLE INTERFACE @MK4S 0.4",
+	"name": "0.20 mm SOLUBLE INTERFACE @CORE One L 0.4",
+	"inherits": "0.20 mm SOLUBLE INTERFACE @MK4S 0.4",
 	"from": "system",
 	"setting_id": "r8BNUNlPpwhTlojC",
 	"instantiation": "true",

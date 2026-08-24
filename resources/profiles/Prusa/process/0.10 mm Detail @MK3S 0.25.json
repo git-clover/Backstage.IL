@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.10mm Detail @MK3S 0.25",
+	"name": "0.10 mm Detail @MK3S 0.25",
 	"inherits": "process_common_mk3",
 	"from": "system",
 	"setting_id": "VmTT5hHyrcvsj16J",
 	"instantiation": "true",
-	"print_settings_id": "0.10mm Detail @MK3S 0.25",
+	"print_settings_id": "0.10 mm Detail @MK3S 0.25",
 	"bottom_shell_layers": "7",
 	"bridge_acceleration": "800",
 	"bridge_flow": "1",

@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.16mm High Quality @BBL H2C",
+	"name": "0.16 mm High Quality @BBL H2C",
 	"inherits": "fdm_process_dual_0.16_nozzle_0.4",
 	"from": "system",
 	"setting_id": "GP248",
 	"instantiation": "true",
-	"description": "High quality profile for 0.16mm layer height, prioritizing print quality and strength.",
+	"description": "High quality profile for 0.16 mm layer height, prioritizing print quality and strength.",
 	"default_acceleration": [
 		"4000",
 		"4000",

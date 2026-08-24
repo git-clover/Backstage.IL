@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.14mm Detail Strength @LH Stinger",
+	"name": "0.14 mm Detail Strength @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "c3dgsHRrgdfhu5OQ",

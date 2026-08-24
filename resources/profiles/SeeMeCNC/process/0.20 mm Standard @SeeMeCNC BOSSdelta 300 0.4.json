@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @SeeMeCNC BOSSdelta 300 0.4",
+	"name": "0.20 mm Standard @SeeMeCNC BOSSdelta 300 0.4",
 	"inherits": "SeeMeCNC process base 0.4mm",
 	"from": "System",
 	"setting_id": "fGlhxiOPIFvrAml1",
 	"instantiation": "true",
-	"print_settings_id": "0.20mm Standard @SeeMeCNC BOSSdelta 300 0.4",
+	"print_settings_id": "0.20 mm Standard @SeeMeCNC BOSSdelta 300 0.4",
 	"compatible_printers": [
 		"SeeMeCNC BOSSdelta 300 0.4 nozzle"
 	],

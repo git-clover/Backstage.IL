@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Speed @Prusa XL 5T 0.3",
+	"name": "0.20 mm Speed @Prusa XL 5T 0.3",
 	"inherits": "process_common_xl_5t",
 	"from": "system",
 	"setting_id": "a0baBMlcEFTb2OZ8",

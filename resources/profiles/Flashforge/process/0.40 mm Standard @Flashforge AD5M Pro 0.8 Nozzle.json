@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @Flashforge AD5M Pro 0.8 Nozzle",
-	"inherits": "0.30mm Standard @Flashforge AD5M Pro 0.6 Nozzle",
+	"name": "0.40 mm Standard @Flashforge AD5M Pro 0.8 Nozzle",
+	"inherits": "0.30 mm Standard @Flashforge AD5M Pro 0.6 Nozzle",
 	"from": "system",
 	"setting_id": "3ZjvDS1FBf9wSuaO",
 	"instantiation": "true",
@@ -10,7 +10,7 @@
 	],
 	"filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
 	"post_process": "",
-	"print_settings_id": "0.40mm Standard @Flashforge AD5M Pro 0.8 Nozzle",
+	"print_settings_id": "0.40 mm Standard @Flashforge AD5M Pro 0.8 Nozzle",
 	"elefant_foot_compensation": "0",
 	"initial_layer_infill_speed": "55",
 	"initial_layer_line_width": "0.85",

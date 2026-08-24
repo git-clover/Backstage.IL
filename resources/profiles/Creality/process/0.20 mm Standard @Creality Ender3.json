@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Creality Ender3",
+	"name": "0.20 mm Standard @Creality Ender3",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "XzSinPHka1JNcgdc",

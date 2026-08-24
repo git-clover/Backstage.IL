@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.28mm Extra Draft @SecKit",
+	"name": "0.28 mm Extra Draft @SecKit",
 	"inherits": "fdm_process_seckit_common",
 	"from": "system",
 	"setting_id": "1wYO0wik3Wk2o6sV",

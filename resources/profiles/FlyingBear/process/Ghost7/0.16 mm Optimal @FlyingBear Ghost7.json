@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @FlyingBear Ghost7",
+	"name": "0.16 mm Optimal @FlyingBear Ghost7",
 	"inherits": "fdm_process_common_Ghost7",
 	"from": "system",
 	"setting_id": "1wZC0qr91DtOGVAo",

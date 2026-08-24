@@ -17,7 +17,7 @@
 	"filament_type": [
 		"PETG"
 	],
-	"filament_notes": "IMPORTANT: Set travel speed to maximum your machine allows (200-500mm/s) to reduce stringing",
+	"filament_notes": "IMPORTANT: Set travel speed to maximum your machine allows (200-500 mm/s) to reduce stringing",
 	"nozzle_temperature": [
 		"245"
 	],

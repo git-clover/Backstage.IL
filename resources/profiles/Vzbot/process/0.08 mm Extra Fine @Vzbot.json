@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Vzbot",
+	"name": "0.08 mm Extra Fine @Vzbot",
 	"inherits": "fdm_process_Vzbot_common",
 	"from": "system",
 	"setting_id": "sXYnaha5Rf3X27WC",

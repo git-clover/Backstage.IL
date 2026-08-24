@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.36mm Optimal @Geeetech Thunder 0.8 nozzle",
+	"name": "0.36 mm Optimal @Geeetech Thunder 0.8 nozzle",
 	"inherits": "fdm_process_Geeetech_HS_0.36_nozzle_0.8",
 	"from": "system",
 	"setting_id": "vahGH49uW93BAABu",

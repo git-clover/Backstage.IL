@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @MyRRF",
+	"name": "0.24 mm Draft @MyRRF",
 	"inherits": "fdm_process_rrf_common",
 	"from": "system",
 	"setting_id": "lh4F2302iVSyXP0D",

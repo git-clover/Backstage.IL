@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "OUVOMZEwJDilvXiO",
-	"name": "0.56mm SuperDraft @Creality K2 Plus 0.8 nozzle",
+	"name": "0.56 mm SuperDraft @Creality K2 Plus 0.8 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

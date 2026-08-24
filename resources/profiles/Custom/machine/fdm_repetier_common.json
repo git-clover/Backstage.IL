@@ -128,7 +128,7 @@
 	"default_filament_profile": [
 		"Generic PLA @System"
 	],
-	"default_print_profile": "0.20mm Standard @MyRepetier",
+	"default_print_profile": "0.20 mm Standard @MyRepetier",
 	"bed_exclude_area": [
 		"0x0"
 	],

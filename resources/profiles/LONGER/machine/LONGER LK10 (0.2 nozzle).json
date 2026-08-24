@@ -8,7 +8,7 @@
 	"printer_model": "LONGER LK10",
 	"printer_settings_id": "LONGER",
 	"printer_notes": "",
-	"default_print_profile": "0.20mm Standard @LONGER LK10 (0.2 nozzle)",
+	"default_print_profile": "0.20 mm Standard @LONGER LK10 (0.2 nozzle)",
 	"nozzle_diameter": [
 		"0.2"
 	],

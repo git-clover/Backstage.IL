@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.12mm STRUCTURAL @CORE One 0.25",
-	"inherits": "0.12mm STRUCTURAL @MK4S 0.25",
+	"name": "0.12 mm STRUCTURAL @CORE One 0.25",
+	"inherits": "0.12 mm STRUCTURAL @MK4S 0.25",
 	"from": "system",
 	"setting_id": "7kDqJKRKvvJguw7E",
 	"instantiation": "true",

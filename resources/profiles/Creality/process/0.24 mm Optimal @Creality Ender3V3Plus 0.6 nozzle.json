@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Optimal @Creality Ender-3 V3 Plus",
+	"name": "0.24 mm Optimal @Creality Ender-3 V3 Plus",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "w5MuLpLSpMMuLXwf",

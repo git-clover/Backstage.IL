@@ -12,7 +12,7 @@
 	"nozzle_diameter": [
 		"0.4"
 	],
-	"default_print_profile": "0.20mm Standard @Anycubic Kobra 2 Neo 0.4 nozzle",
+	"default_print_profile": "0.20 mm Standard @Anycubic Kobra 2 Neo 0.4 nozzle",
 	"default_filament_profile": [
 		"Anycubic PLA @Anycubic Kobra 2 Neo 0.4 nozzle"
 	],
@@ -143,7 +143,7 @@
 		"0"
 	],
 	"machine_pause_gcode": "M601",
-	"machine_start_gcode": "G21 ; metric values\nG90 ; use absolute coordinates\nM83 ; extruder relative mode\nM104 S[first_layer_temperature] ; set extruder temp\nM140 S[first_layer_bed_temperature] ; set bed temp\nG28; move X/Y/Z to min endstops\nM420 S1\nM300 S1318 P266\nG1 Z5 F5000 ; lift nozzle\nG1 X0 Y0  F3000\nG1 Z0.3; lift nozzle a bit\nG92 E0 ; zero after lift\nG1 X10 Y5 F1800 ; move to purge line start position\nM190 S[first_layer_bed_temperature] ; wait for bed temp\nM109 S[first_layer_temperature] ; wait for extruder temp\nG1 X60 Y5 E20 F500 ; Extrude 20mm of filament in a 5cm line. \nG92 E0 ; zero the extruded length again \nG1 E-4.5 F4000 ; Retract a little \nG92 E0 ; zero the extruded length again\nG1 X120 F4000 ; Quickly wipe away from the filament line\nM117 Printing... ; Display status message",
+	"machine_start_gcode": "G21 ; metric values\nG90 ; use absolute coordinates\nM83 ; extruder relative mode\nM104 S[first_layer_temperature] ; set extruder temp\nM140 S[first_layer_bed_temperature] ; set bed temp\nG28; move X/Y/Z to min endstops\nM420 S1\nM300 S1318 P266\nG1 Z5 F5000 ; lift nozzle\nG1 X0 Y0  F3000\nG1 Z0.3; lift nozzle a bit\nG92 E0 ; zero after lift\nG1 X10 Y5 F1800 ; move to purge line start position\nM190 S[first_layer_bed_temperature] ; wait for bed temp\nM109 S[first_layer_temperature] ; wait for extruder temp\nG1 X60 Y5 E20 F500 ; Extrude 20 mm of filament in a 5cm line. \nG92 E0 ; zero the extruded length again \nG1 E-4.5 F4000 ; Retract a little \nG92 E0 ; zero the extruded length again\nG1 X120 F4000 ; Quickly wipe away from the filament line\nM117 Printing... ; Display status message",
 	"machine_unload_filament_time": "0",
 	"manual_filament_change": "0",
 	"max_layer_height": [

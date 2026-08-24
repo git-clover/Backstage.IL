@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @FLSun T1",
+	"name": "0.16 mm Optimal @FLSun T1",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "bKRAKNOYR7D8G2Ox",

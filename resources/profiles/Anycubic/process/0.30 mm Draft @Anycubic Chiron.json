@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Draft @Anycubic Chiron",
+	"name": "0.30 mm Draft @Anycubic Chiron",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "B0Ar6gbysEbWId84",

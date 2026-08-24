@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Fine 0.8 nozzle @Voron",
+	"name": "0.24 mm Fine 0.8 nozzle @Voron",
 	"inherits": "fdm_process_voron_common_0_8",
 	"from": "system",
 	"setting_id": "mEpo3myfJtsFdBpf",

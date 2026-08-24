@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Draft 0.25 nozzle @Voron",
+	"name": "0.12 mm Draft 0.25 nozzle @Voron",
 	"inherits": "fdm_process_voron_common_0_2_5",
 	"from": "system",
 	"setting_id": "RZ1d77nOCvPHWZcR",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.16mm SPEED @CORE One 0.3",
-	"inherits": "0.16mm SPEED @MK4S 0.3",
+	"name": "0.16 mm SPEED @CORE One 0.3",
+	"inherits": "0.16 mm SPEED @MK4S 0.3",
 	"from": "system",
 	"setting_id": "YGK4pmtGyq62UmYk",
 	"instantiation": "true",

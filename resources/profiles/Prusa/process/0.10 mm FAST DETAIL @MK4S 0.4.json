@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.10mm FAST DETAIL @MK4S 0.4",
-	"inherits": "0.15mm SPEED @MK4S 0.4",
+	"name": "0.10 mm FAST DETAIL @MK4S 0.4",
+	"inherits": "0.15 mm SPEED @MK4S 0.4",
 	"from": "system",
 	"setting_id": "vpFV7gpKO9nE1pkc",
 	"instantiation": "true",

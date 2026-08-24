@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Optimal @Geeetech common 0.6 nozzle",
+	"name": "0.24 mm Optimal @Geeetech common 0.6 nozzle",
 	"inherits": "fdm_process_geeetech_0.24_nozzle_0.6",
 	"from": "system",
 	"setting_id": "tIujZIJjTMwRmsbn",

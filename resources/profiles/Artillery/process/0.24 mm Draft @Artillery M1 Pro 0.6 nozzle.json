@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Artillery M1 Pro 0.6 nozzle",
+	"name": "0.24 mm Draft @Artillery M1 Pro 0.6 nozzle",
 	"from": "system",
 	"setting_id": "ex2FH49ORQnD1yqa",
 	"instantiation": "true",
@@ -145,7 +145,7 @@
 	"print_flow_ratio": "1",
 	"print_order": "default",
 	"print_sequence": "by layer",
-	"print_settings_id": "0.24mm Draft @Artillery M1 Pro 0.6 nozzle",
+	"print_settings_id": "0.24 mm Draft @Artillery M1 Pro 0.6 nozzle",
 	"raft_contact_distance": "0.1",
 	"raft_expansion": "1.5",
 	"raft_first_layer_density": "90%",

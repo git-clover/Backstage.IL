@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.24mm Standard @FF C5",
-	"inherits": "0.20mm Standard @Flashforge AD5M Pro 0.4 Nozzle",
+	"name": "0.24 mm Standard @FF C5",
+	"inherits": "0.20 mm Standard @Flashforge AD5M Pro 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "vchCynehN4s32swH",
 	"instantiation": "true",
@@ -32,7 +32,7 @@
 	"preheat_time": "20",
 	"prime_tower_brim_width": "5",
 	"prime_tower_width": "28",
-	"print_settings_id": "0.24mm Standard @FF C5",
+	"print_settings_id": "0.24 mm Standard @FF C5",
 	"seam_gap": "15%",
 	"seam_slope_conditional": "1",
 	"seam_slope_inner_walls": "1",

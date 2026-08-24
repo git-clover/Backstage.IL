@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm STRUCTURAL @MK4S 0.3",
+	"name": "0.12 mm STRUCTURAL @MK4S 0.3",
 	"inherits": "process_common_mk4s",
 	"from": "system",
 	"setting_id": "ZkPNeh5PoMZk0w42",

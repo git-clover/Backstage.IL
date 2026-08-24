@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Detail @Anker",
+	"name": "0.10 mm Detail @Anker",
 	"inherits": "fdm_process_anker_common",
 	"from": "system",
 	"setting_id": "doEmSk2yclAlrDje",

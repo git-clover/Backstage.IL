@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Quality Speed @RatRig V-Core 4 0.5",
+	"name": "0.25 mm Quality Speed @RatRig V-Core 4 0.5",
 	"inherits": "fdm_process_ratrig_common",
 	"from": "system",
 	"setting_id": "CthLcwlUTaDqashr",

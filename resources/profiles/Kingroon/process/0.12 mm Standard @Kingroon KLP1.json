@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Standard @Kingroon KLP1",
+	"name": "0.12 mm Standard @Kingroon KLP1",
 	"inherits": "fdm_process_common",
 	"setting_id": "JnhayooC0fiqPQ6B",
 	"instantiation": "true",

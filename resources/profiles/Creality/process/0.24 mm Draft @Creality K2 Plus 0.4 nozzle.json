@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "sPONNeyRg4CxHD1r",
-	"name": "0.24mm Draft @Creality K2 Plus 0.4 nozzle",
+	"name": "0.24 mm Draft @Creality K2 Plus 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

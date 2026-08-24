@@ -126,7 +126,7 @@
 	"default_filament_profile": [
 		"Generic PLA @System"
 	],
-	"default_print_profile": "0.20mm Standard @MyKlipper",
+	"default_print_profile": "0.20 mm Standard @MyKlipper",
 	"bed_exclude_area": [
 		"0x0"
 	],

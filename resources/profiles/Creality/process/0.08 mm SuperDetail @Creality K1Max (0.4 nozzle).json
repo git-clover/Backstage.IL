@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "CaqcNDTSGWeJ81xw",
-	"name": "0.08mm SuperDetail @Creality K1Max (0.4 nozzle)",
+	"name": "0.08 mm SuperDetail @Creality K1Max (0.4 nozzle)",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

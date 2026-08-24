@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "1.50mm Standard",
+	"name": "1.50 mm Standard",
 	"inherits": "fdm_process_common",
 	"from": "User",
 	"setting_id": "dgDdnVOmSOYGK6Az",
@@ -39,7 +39,7 @@
 	"overhang_reverse": "0",
 	"overhang_reverse_internal_only": "1",
 	"overhang_reverse_threshold": "0%",
-	"print_settings_id": "1.50mm Standard",
+	"print_settings_id": "1.50 mm Standard",
 	"role_based_wipe_speed": "1",
 	"seam_position": "aligned",
 	"skirt_distance": "10",

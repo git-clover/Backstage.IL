@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Tronxy",
+	"name": "0.20 mm Standard @Tronxy",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "kZ09yTsbcxBl8Cys",

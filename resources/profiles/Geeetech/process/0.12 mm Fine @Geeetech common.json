@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Geeetech common",
+	"name": "0.12 mm Fine @Geeetech common",
 	"inherits": "fdm_process_geeetech_0.12",
 	"from": "system",
 	"setting_id": "DCHmMexqN9CUIzOH",

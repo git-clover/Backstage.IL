@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "KopqA4S2dMBSCBSD",
-	"name": "0.16mm Standard @Creality K2 SE 0.4 nozzle",
+	"name": "0.16 mm Standard @Creality K2 SE 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

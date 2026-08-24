@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Z-Bolt 0.4 nozzle",
-	"renamed_from": "0.08mm Extra Fine @Z-Bolt S300;0.08mm Extra Fine @Z-Bolt S400",
+	"name": "0.08 mm Extra Fine @Z-Bolt 0.4 nozzle",
+	"renamed_from": "0.08 mm Extra Fine @Z-Bolt S300;0.08 mm Extra Fine @Z-Bolt S400",
 	"inherits": "fdm_process_zbolt_0.08",
 	"from": "system",
 	"setting_id": "aQbSyiYUXanu2sjX",

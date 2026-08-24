@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Detail @MINIIS",
+	"name": "0.30 mm Detail @MINIIS",
 	"inherits": "process_detail_miniis",
 	"from": "system",
 	"setting_id": "ptyJRt8c36jzZ2Hq",

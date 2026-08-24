@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Extra Draft @FLSun SR",
+	"name": "0.30 mm Extra Draft @FLSun SR",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "kOtY4iPbqQlkQPef",

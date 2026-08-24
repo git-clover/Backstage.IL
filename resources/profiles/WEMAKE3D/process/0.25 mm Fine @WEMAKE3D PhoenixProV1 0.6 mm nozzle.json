@@ -1,10 +1,10 @@
 {
 	"type": "process",
-	"name": "0.25mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+	"name": "0.25 mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
 	"setting_id": "5m612Xzx3KRvVWrt",
 	"instantiation": "true",
-	"print_settings_id": "0.25mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+	"print_settings_id": "0.25 mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
 	"layer_height": "0.25",
 	"initial_layer_print_height": "0.35",
 	"initial_layer_line_width": "0.7",

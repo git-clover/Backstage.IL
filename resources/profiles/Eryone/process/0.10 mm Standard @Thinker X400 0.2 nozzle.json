@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.10mm Standard @Thinker X400 0.2 nozzle",
-	"inherits": "0.20mm Standard @Thinker X400",
+	"name": "0.10 mm Standard @Thinker X400 0.2 nozzle",
+	"inherits": "0.20 mm Standard @Thinker X400",
 	"from": "system",
 	"setting_id": "tO27DW2I42BFee5R",
 	"instantiation": "true",
@@ -21,7 +21,7 @@
 	"outer_wall_acceleration": "2000",
 	"outer_wall_line_width": "0.22",
 	"outer_wall_speed": "60",
-	"print_settings_id": "0.10mm Standard @Thinker X400 0.2 nozzle",
+	"print_settings_id": "0.10 mm Standard @Thinker X400 0.2 nozzle",
 	"sparse_infill_line_width": "0.22",
 	"sparse_infill_speed": "100",
 	"support_line_width": "0.22",

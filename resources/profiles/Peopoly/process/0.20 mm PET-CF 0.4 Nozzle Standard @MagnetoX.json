@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm PET-CF 0.4 Nozzle Standard @MagnetoX",
+	"name": "0.20 mm PET-CF 0.4 Nozzle Standard @MagnetoX",
 	"inherits": "fdm_process_pply_0.20",
 	"from": "system",
 	"setting_id": "bJFNzjyv23sg2utH",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "z3fSJ5Y0JuhRQhOU",
-	"name": "Compatible speed - 0.20mm",
+	"name": "Compatible speed - 0.20 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

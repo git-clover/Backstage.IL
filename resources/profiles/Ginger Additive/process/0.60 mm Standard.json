@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.60mm Standard",
+	"name": "0.60 mm Standard",
 	"inherits": "fdm_process_common",
 	"from": "User",
 	"setting_id": "DjZUwrFvdniWLKLX",
@@ -48,7 +48,7 @@
 	"overhang_reverse": "0",
 	"overhang_reverse_internal_only": "1",
 	"overhang_reverse_threshold": "0%",
-	"print_settings_id": "0.60mm Standard",
+	"print_settings_id": "0.60 mm Standard",
 	"reduce_infill_retraction": "1",
 	"role_based_wipe_speed": "1",
 	"skirt_distance": "10",

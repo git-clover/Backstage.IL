@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Fast @Anker",
+	"name": "0.15 mm Fast @Anker",
 	"inherits": "fdm_process_anker_fast_common",
 	"from": "system",
 	"setting_id": "AmygchBTj8t7w1p8",

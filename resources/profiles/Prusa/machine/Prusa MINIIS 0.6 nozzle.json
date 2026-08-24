@@ -11,7 +11,7 @@
 	"default_filament_profile": [
 		"Prusa Generic PLA @MINIIS 0.6"
 	],
-	"default_print_profile": "0.25mm Standard @MINIIS",
+	"default_print_profile": "0.25 mm Standard @MINIIS",
 	"nozzle_diameter": [
 		"0.6"
 	],

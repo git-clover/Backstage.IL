@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.05mm Ultradetail @Anker",
+	"name": "0.05 mm Ultradetail @Anker",
 	"inherits": "fdm_process_anker_common",
 	"from": "system",
 	"setting_id": "GmuMBllBDCV3wgp6",

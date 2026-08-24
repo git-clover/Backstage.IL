@@ -35,88 +35,88 @@
 			"sub_path": "process/S1/fdm_process_common_S1.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @FlyingBear Reborn3",
-			"sub_path": "process/0.08mm Extra Fine @FlyingBear Reborn3.json"
+			"name": "0.08 mm Extra Fine @FlyingBear Reborn3",
+			"sub_path": "process/0.08 mm Extra Fine @FlyingBear Reborn3.json"
 		},
 		{
-			"name": "0.12mm Fine @FlyingBear Reborn3",
-			"sub_path": "process/0.12mm Fine @FlyingBear Reborn3.json"
+			"name": "0.12 mm Fine @FlyingBear Reborn3",
+			"sub_path": "process/0.12 mm Fine @FlyingBear Reborn3.json"
 		},
 		{
-			"name": "0.16mm Optimal @FlyingBear Reborn3",
-			"sub_path": "process/0.16mm Optimal @FlyingBear Reborn3.json"
+			"name": "0.16 mm Optimal @FlyingBear Reborn3",
+			"sub_path": "process/0.16 mm Optimal @FlyingBear Reborn3.json"
 		},
 		{
-			"name": "0.20mm Standard @FlyingBear Reborn3",
-			"sub_path": "process/0.20mm Standard @FlyingBear Reborn3.json"
+			"name": "0.20 mm Standard @FlyingBear Reborn3",
+			"sub_path": "process/0.20 mm Standard @FlyingBear Reborn3.json"
 		},
 		{
-			"name": "0.24mm Draft @FlyingBear Reborn3",
-			"sub_path": "process/0.24mm Draft @FlyingBear Reborn3.json"
+			"name": "0.24 mm Draft @FlyingBear Reborn3",
+			"sub_path": "process/0.24 mm Draft @FlyingBear Reborn3.json"
 		},
 		{
 			"name": "fdm_process_marlin_common",
 			"sub_path": "process/fdm_process_marlin_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @FlyingBear Ghost7",
-			"sub_path": "process/Ghost7/0.08mm Extra Fine @FlyingBear Ghost7.json"
+			"name": "0.08 mm Extra Fine @FlyingBear Ghost7",
+			"sub_path": "process/Ghost7/0.08 mm Extra Fine @FlyingBear Ghost7.json"
 		},
 		{
-			"name": "0.12mm Fine @FlyingBear Ghost7",
-			"sub_path": "process/Ghost7/0.12mm Fine @FlyingBear Ghost7.json"
+			"name": "0.12 mm Fine @FlyingBear Ghost7",
+			"sub_path": "process/Ghost7/0.12 mm Fine @FlyingBear Ghost7.json"
 		},
 		{
-			"name": "0.16mm Optimal @FlyingBear Ghost7",
-			"sub_path": "process/Ghost7/0.16mm Optimal @FlyingBear Ghost7.json"
+			"name": "0.16 mm Optimal @FlyingBear Ghost7",
+			"sub_path": "process/Ghost7/0.16 mm Optimal @FlyingBear Ghost7.json"
 		},
 		{
-			"name": "0.20mm Standard @FlyingBear Ghost7",
-			"sub_path": "process/Ghost7/0.20mm Standard @FlyingBear Ghost7.json"
+			"name": "0.20 mm Standard @FlyingBear Ghost7",
+			"sub_path": "process/Ghost7/0.20 mm Standard @FlyingBear Ghost7.json"
 		},
 		{
-			"name": "0.24mm Draft @FlyingBear Ghost7",
-			"sub_path": "process/Ghost7/0.24mm Draft @FlyingBear Ghost7.json"
+			"name": "0.24 mm Draft @FlyingBear Ghost7",
+			"sub_path": "process/Ghost7/0.24 mm Draft @FlyingBear Ghost7.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @FlyingBear S1",
-			"sub_path": "process/S1/0.08mm Extra Fine @FlyingBear S1.json"
+			"name": "0.08 mm Extra Fine @FlyingBear S1",
+			"sub_path": "process/S1/0.08 mm Extra Fine @FlyingBear S1.json"
 		},
 		{
-			"name": "0.12mm Fine @FlyingBear S1",
-			"sub_path": "process/S1/0.12mm Fine @FlyingBear S1.json"
+			"name": "0.12 mm Fine @FlyingBear S1",
+			"sub_path": "process/S1/0.12 mm Fine @FlyingBear S1.json"
 		},
 		{
-			"name": "0.16mm Optimal @FlyingBear S1",
-			"sub_path": "process/S1/0.16mm Optimal @FlyingBear S1.json"
+			"name": "0.16 mm Optimal @FlyingBear S1",
+			"sub_path": "process/S1/0.16 mm Optimal @FlyingBear S1.json"
 		},
 		{
-			"name": "0.20mm Standard @FlyingBear S1",
-			"sub_path": "process/S1/0.20mm Standard @FlyingBear S1.json"
+			"name": "0.20 mm Standard @FlyingBear S1",
+			"sub_path": "process/S1/0.20 mm Standard @FlyingBear S1.json"
 		},
 		{
-			"name": "0.24mm Draft @FlyingBear S1",
-			"sub_path": "process/S1/0.24mm Draft @FlyingBear S1.json"
+			"name": "0.24 mm Draft @FlyingBear S1",
+			"sub_path": "process/S1/0.24 mm Draft @FlyingBear S1.json"
 		},
 		{
 			"name": "fdm_process_ghost_6",
 			"sub_path": "process/fdm_process_ghost_6.json"
 		},
 		{
-			"name": "0.12mm Fine @FlyingBear Ghost 6 0.4 nozzle",
-			"sub_path": "process/0.12mm Fine @FlyingBear Ghost 6 0.4 nozzle.json"
+			"name": "0.12 mm Fine @FlyingBear Ghost 6 0.4 nozzle",
+			"sub_path": "process/0.12 mm Fine @FlyingBear Ghost 6 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @FlyingBear Ghost 6 0.4 nozzle",
-			"sub_path": "process/0.16mm Optimal @FlyingBear Ghost 6 0.4 nozzle.json"
+			"name": "0.16 mm Optimal @FlyingBear Ghost 6 0.4 nozzle",
+			"sub_path": "process/0.16 mm Optimal @FlyingBear Ghost 6 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @FlyingBear Ghost 6 0.4 nozzle",
-			"sub_path": "process/0.20mm Standard @FlyingBear Ghost 6 0.4 nozzle.json"
+			"name": "0.20 mm Standard @FlyingBear Ghost 6 0.4 nozzle",
+			"sub_path": "process/0.20 mm Standard @FlyingBear Ghost 6 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @FlyingBear Ghost 6 0.4 nozzle",
-			"sub_path": "process/0.24mm Draft @FlyingBear Ghost 6 0.4 nozzle.json"
+			"name": "0.24 mm Draft @FlyingBear Ghost 6 0.4 nozzle",
+			"sub_path": "process/0.24 mm Draft @FlyingBear Ghost 6 0.4 nozzle.json"
 		}
 	],
 	"filament_list": [

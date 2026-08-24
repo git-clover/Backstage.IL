@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Artillery M1 Pro 0.4 nozzle",
+	"name": "0.24 mm Draft @Artillery M1 Pro 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "ZzpGr7z94TVfX4mq",
@@ -10,7 +10,7 @@
 	"gap_infill_speed": "200",
 	"inner_wall_speed": "300",
 	"outer_wall_speed": "200",
-	"print_settings_id": "0.24mm Draft @Artillery M1 Pro 0.4 nozzle",
+	"print_settings_id": "0.24 mm Draft @Artillery M1 Pro 0.4 nozzle",
 	"slow_down_layers": "3",
 	"support_style": "default",
 	"support_type": "tree(auto)",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Standard @OpenEYE Peacock V2 0.2 nozzle",
+	"name": "0.10 mm Standard @OpenEYE Peacock V2 0.2 nozzle",
 	"inherits": "fdm_process_openeye_0.10_nozzle_0.2",
 	"from": "system",
 	"setting_id": "rnKBfxEW7XHh12sh",

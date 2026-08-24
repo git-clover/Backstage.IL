@@ -20,7 +20,7 @@
 	"default_filament_profile": [
 		"InfiMech PLA Basic @EX"
 	],
-	"default_print_profile": "0.20mm Standard @InfiMech EX",
+	"default_print_profile": "0.20 mm Standard @InfiMech EX",
 	"deretraction_speed": [
 		"30"
 	],

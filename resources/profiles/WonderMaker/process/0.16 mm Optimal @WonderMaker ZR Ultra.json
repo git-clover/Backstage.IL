@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @WonderMaker ZR Ultra",
+	"name": "0.16 mm Optimal @WonderMaker ZR Ultra",
 	"inherits": "fdm_process_wm_0.16",
 	"from": "system",
 	"setting_id": "CJRH0KVoqMhAKf7b",

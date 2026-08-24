@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Vzbot 0.5nozzle",
+	"name": "0.24 mm Draft @Vzbot 0.5nozzle",
 	"inherits": "fdm_process_Vzbot_common_0.5_nozzle",
 	"from": "system",
 	"setting_id": "u5viOOkhCR3nFs8B",

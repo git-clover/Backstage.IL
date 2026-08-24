@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard 0.8 nozzle @Blocks",
+	"name": "0.40 mm Standard 0.8 nozzle @Blocks",
 	"inherits": "fdm_process_common 0.8 nozzle",
 	"from": "system",
 	"setting_id": "TSRjmfWaatY7oLJB",

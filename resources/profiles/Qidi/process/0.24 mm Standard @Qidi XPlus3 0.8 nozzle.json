@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Standard @Qidi XPlus3 0.8 nozzle",
+	"name": "0.24 mm Standard @Qidi XPlus3 0.8 nozzle",
 	"inherits": "fdm_process_QIDI_0.24_nozzle_0.8",
 	"from": "system",
 	"setting_id": "gCM4UXwKTScpWbyJ",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "APeSqnRZh6I9OTFr",
-	"name": "0.24mm Draft @Afinia H+1(HS)",
+	"name": "0.24 mm Draft @Afinia H+1(HS)",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_afinia_HS_common",

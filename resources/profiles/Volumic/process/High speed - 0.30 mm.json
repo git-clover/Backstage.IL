@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "6h7mK5XKws51vPov",
-	"name": "High speed - 0.30mm",
+	"name": "High speed - 0.30 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.28mm SuperDraft @Comgrow T500 0.6",
+	"name": "0.28 mm SuperDraft @Comgrow T500 0.6",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
 	"setting_id": "oQkDbf0FdMb4nV0i",

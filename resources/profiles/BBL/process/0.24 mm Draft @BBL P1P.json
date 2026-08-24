@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @BBL P1P",
+	"name": "0.24 mm Draft @BBL P1P",
 	"inherits": "fdm_process_single_0.24",
 	"from": "system",
 	"setting_id": "GP022",

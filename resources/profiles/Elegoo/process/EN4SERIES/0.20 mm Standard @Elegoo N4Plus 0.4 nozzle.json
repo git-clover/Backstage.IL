@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "EWip2jSpsehCzgdG",
-	"name": "0.20mm Standard @Elegoo N4Plus 0.4 nozzle",
+	"name": "0.20 mm Standard @Elegoo N4Plus 0.4 nozzle",
 	"from": "system",
 	"inherits": "fdm_process_elegoo_04020",
 	"instantiation": "true",
@@ -13,5 +13,5 @@
 	"compatible_printers": [
 		"Elegoo Neptune 4 Plus 0.4 nozzle"
 	],
-	"renamed_from": "0.20mm Standard @Elegoo Neptune4 Plus (0.4 nozzle)"
+	"renamed_from": "0.20 mm Standard @Elegoo Neptune4 Plus (0.4 nozzle)"
 }

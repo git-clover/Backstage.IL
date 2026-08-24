@@ -1,5 +1,5 @@
 {
-	"default_print_profile": "0.20mm Standard @OpenEYE Peacock V2",
+	"default_print_profile": "0.20 mm Standard @OpenEYE Peacock V2",
 	"default_bed_type": "Textured PEI Plate",
 	"from": "system",
 	"inherits": "fdm_openeye_common",

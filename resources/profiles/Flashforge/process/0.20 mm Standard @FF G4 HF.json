@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @FF G4 HF",
-	"inherits": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
+	"name": "0.20 mm Standard @FF G4 HF",
+	"inherits": "0.20 mm Standard @Flashforge G3U 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "w0m7t2XNPeoLIQq1",
 	"instantiation": "true",
@@ -18,7 +18,7 @@
 	"initial_layer_speed": "60",
 	"inner_wall_speed": "300",
 	"only_one_wall_first_layer": "1",
-	"print_settings_id": "0.20mm Standard @FF G4 HF",
+	"print_settings_id": "0.20 mm Standard @FF G4 HF",
 	"resolution": "0.005",
 	"seam_gap": "5%",
 	"skirt_loops": "0",

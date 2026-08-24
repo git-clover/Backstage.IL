@@ -6,7 +6,7 @@
 	"setting_id": "nyudbXDikl51Tr9N",
 	"instantiation": "true",
 	"printer_model": "Anycubic Kobra",
-	"default_print_profile": "0.20mm Standard @Anycubic Kobra",
+	"default_print_profile": "0.20 mm Standard @Anycubic Kobra",
 	"nozzle_diameter": [
 		"0.4"
 	],

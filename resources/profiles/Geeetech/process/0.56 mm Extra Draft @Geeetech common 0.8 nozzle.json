@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.56mm Extra Draft @Geeetech common 0.8 nozzle",
+	"name": "0.56 mm Extra Draft @Geeetech common 0.8 nozzle",
 	"inherits": "fdm_process_geeetech_0.56_nozzle_0.8",
 	"from": "system",
 	"setting_id": "iYCfOISMf21rpxvu",

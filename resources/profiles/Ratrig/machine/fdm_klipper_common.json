@@ -128,7 +128,7 @@
 	"default_filament_profile": [
 		"RatRig Generic ABS"
 	],
-	"default_print_profile": "0.20mm Standard @RatRig",
+	"default_print_profile": "0.20 mm Standard @RatRig",
 	"bed_exclude_area": [
 		"0x0"
 	],

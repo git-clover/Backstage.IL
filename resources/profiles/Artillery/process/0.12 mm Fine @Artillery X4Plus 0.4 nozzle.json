@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Artillery X4Plus 0.4 nozzle",
-	"inherits": "0.20mm Standard @Artillery X4Plus 0.4 nozzle",
+	"name": "0.12 mm Fine @Artillery X4Plus 0.4 nozzle",
+	"inherits": "0.20 mm Standard @Artillery X4Plus 0.4 nozzle",
 	"from": "system",
 	"setting_id": "sO9baFXRvMQahUO5",
 	"instantiation": "true",
@@ -9,7 +9,7 @@
 	"internal_solid_infill_line_width": "0.42",
 	"layer_height": "0.12",
 	"outer_wall_line_width": "0.42",
-	"print_settings_id": "0.12mm Fine @Artillery X4Plus 0.4 nozzle",
+	"print_settings_id": "0.12 mm Fine @Artillery X4Plus 0.4 nozzle",
 	"support_line_width": "0.42",
 	"top_surface_line_width": "0.42"
 }

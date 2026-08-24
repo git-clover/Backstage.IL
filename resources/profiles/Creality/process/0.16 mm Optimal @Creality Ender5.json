@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Creality Ender5",
+	"name": "0.16 mm Optimal @Creality Ender5",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "dIPbjfE0UjFaq6YU",

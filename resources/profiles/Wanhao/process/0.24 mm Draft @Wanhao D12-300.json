@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Wanhao D12-300",
+	"name": "0.24 mm Draft @Wanhao D12-300",
 	"inherits": "fdm_process_wanhao_common",
 	"from": "system",
 	"setting_id": "wJ1rmnyK4uPv168Y",

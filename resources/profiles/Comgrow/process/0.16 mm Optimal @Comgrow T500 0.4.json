@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Comgrow T500 0.4",
+	"name": "0.16 mm Optimal @Comgrow T500 0.4",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
 	"setting_id": "fHx55sqqkzl0l6vD",

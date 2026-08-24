@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.54mm Extra Draft 0.8 nozzle @Blocks_RF50",
+	"name": "0.54 mm Extra Draft 0.8 nozzle @Blocks_RF50",
 	"inherits": "fdm_process_common 0.8 nozzle",
 	"from": "system",
 	"setting_id": "8uJVEmWMNB1BzrhR",

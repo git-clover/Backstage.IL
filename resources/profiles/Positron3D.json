@@ -19,40 +19,40 @@
 			"sub_path": "process/fdm_process_the_positron_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @The Positron",
-			"sub_path": "process/0.08mm Extra Fine @The Positron.json"
+			"name": "0.08 mm Extra Fine @The Positron",
+			"sub_path": "process/0.08 mm Extra Fine @The Positron.json"
 		},
 		{
-			"name": "0.12mm Fine @The Positron",
-			"sub_path": "process/0.12mm Fine @The Positron.json"
+			"name": "0.12 mm Fine @The Positron",
+			"sub_path": "process/0.12 mm Fine @The Positron.json"
 		},
 		{
-			"name": "0.16mm Optimal @The Positron",
-			"sub_path": "process/0.16mm Optimal @The Positron.json"
+			"name": "0.16 mm Optimal @The Positron",
+			"sub_path": "process/0.16 mm Optimal @The Positron.json"
 		},
 		{
-			"name": "0.20mm Standard @The Positron",
-			"sub_path": "process/0.20mm Standard @The Positron.json"
+			"name": "0.20 mm Standard @The Positron",
+			"sub_path": "process/0.20 mm Standard @The Positron.json"
 		},
 		{
-			"name": "0.24mm Draft @The Positron",
-			"sub_path": "process/0.24mm Draft @The Positron.json"
+			"name": "0.24 mm Draft @The Positron",
+			"sub_path": "process/0.24 mm Draft @The Positron.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @The Positron",
-			"sub_path": "process/0.28mm Extra Draft @The Positron.json"
+			"name": "0.28 mm Extra Draft @The Positron",
+			"sub_path": "process/0.28 mm Extra Draft @The Positron.json"
 		},
 		{
-			"name": "0.32mm Standard @The Positron",
-			"sub_path": "process/0.32mm Extra Draft @The Positron.json"
+			"name": "0.32 mm Standard @The Positron",
+			"sub_path": "process/0.32 mm Extra Draft @The Positron.json"
 		},
 		{
-			"name": "0.40mm Standard @The Positron",
-			"sub_path": "process/0.40mm Extra Draft @The Positron.json"
+			"name": "0.40 mm Standard @The Positron",
+			"sub_path": "process/0.40 mm Extra Draft @The Positron.json"
 		},
 		{
-			"name": "0.56mm Standard @The Positron",
-			"sub_path": "process/0.56mm Extra Draft @The Positron.json"
+			"name": "0.56 mm Standard @The Positron",
+			"sub_path": "process/0.56 mm Extra Draft @The Positron.json"
 		}
 	],
 	"filament_list": [],

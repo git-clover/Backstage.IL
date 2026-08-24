@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Draft @Anycubic i3MegaS",
+	"name": "0.30 mm Draft @Anycubic i3MegaS",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "7PNQ3S9tucM5wFyj",

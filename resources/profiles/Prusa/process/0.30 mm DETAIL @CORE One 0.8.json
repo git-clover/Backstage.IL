@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.30mm DETAIL @CORE One 0.8",
-	"inherits": "0.30mm DETAIL @MK4S 0.8",
+	"name": "0.30 mm DETAIL @CORE One 0.8",
+	"inherits": "0.30 mm DETAIL @MK4S 0.8",
 	"from": "system",
 	"setting_id": "m23j7wSoEJdezJgy",
 	"instantiation": "true",

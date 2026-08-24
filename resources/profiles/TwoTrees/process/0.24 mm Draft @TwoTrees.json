@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @TwoTrees",
+	"name": "0.24 mm Draft @TwoTrees",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "BNUMnQUb18fMkCQa",

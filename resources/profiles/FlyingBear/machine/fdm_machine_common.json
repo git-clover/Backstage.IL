@@ -16,7 +16,7 @@
 	"default_filament_profile": [
 		"FlyingBear Generic PLA"
 	],
-	"default_print_profile": "0.20mm Standard @FlyingBear Reborn3",
+	"default_print_profile": "0.20 mm Standard @FlyingBear Reborn3",
 	"deretraction_speed": [
 		"30"
 	],

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @FT 0.4 nozzle",
+	"name": "0.08 mm Extra Fine @FT 0.4 nozzle",
 	"inherits": "fdm_process_folgertech_common",
 	"from": "system",
 	"setting_id": "4mumHLuCrFPe3ylw",

@@ -9,7 +9,7 @@
 	"default_filament_profile": [
 		"CoLiDo PLA+ @CoLiDo DIY 4.0 V2"
 	],
-	"default_print_profile": "0.20mm Standard @CoLiDo DIY 4.0 V2",
+	"default_print_profile": "0.20 mm Standard @CoLiDo DIY 4.0 V2",
 	"printer_settings_id": "CoLiDo DIY 4.0 V2 0.4 nozzle",
 	"nozzle_diameter": [
 		"0.4"

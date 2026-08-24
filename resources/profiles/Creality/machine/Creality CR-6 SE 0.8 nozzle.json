@@ -11,7 +11,7 @@
 		"Creality Generic PLA"
 	],
 	"printer_variant": "0.8",
-	"default_print_profile": "0.32mm Standard @Creality CR-6 0.8",
+	"default_print_profile": "0.32 mm Standard @Creality CR-6 0.8",
 	"nozzle_diameter": [
 		"0.8"
 	],

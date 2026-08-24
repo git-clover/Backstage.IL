@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Qidi XPlus",
+	"name": "0.16 mm Optimal @Qidi XPlus",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
 	"setting_id": "R1lqL3bMvvg6NMgD",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "rnRfy0wN7TWGyq6y",
-	"name": "Very high speed (Stage 2) - 0.20mm",
+	"name": "Very high speed (Stage 2) - 0.20 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

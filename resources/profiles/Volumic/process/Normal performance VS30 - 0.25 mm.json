@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "O4mCyYEDLcYs9ksp",
-	"name": "Normal performance VS30 - 0.25mm",
+	"name": "Normal performance VS30 - 0.25 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

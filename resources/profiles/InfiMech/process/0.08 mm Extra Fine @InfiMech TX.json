@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @InfiMech TX",
+	"name": "0.08 mm Extra Fine @InfiMech TX",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "ic9slTaW3rLhRub7",
@@ -20,7 +20,7 @@
 	"internal_solid_infill_speed": "150",
 	"top_surface_speed": "150",
 	"layer_height": "0.08",
-	"print_settings_id": "0.08mm Extra Fine @InfiMech TX",
+	"print_settings_id": "0.08 mm Extra Fine @InfiMech TX",
 	"sparse_infill_speed": "150",
 	"exclude_object": "1",
 	"internal_bridge_speed": "50",

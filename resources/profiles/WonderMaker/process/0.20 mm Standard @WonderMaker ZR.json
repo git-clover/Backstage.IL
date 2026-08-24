@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @WonderMaker ZR",
+	"name": "0.20 mm Standard @WonderMaker ZR",
 	"inherits": "fdm_process_wm_0.20",
 	"from": "system",
 	"setting_id": "nalI7H3j0Qhs6qig",

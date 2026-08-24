@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Fine @Tiertime UP600 HS 0.8 nozzle",
+	"name": "0.24 mm Fine @Tiertime UP600 HS 0.8 nozzle",
 	"inherits": "fdm_process_tiertime_0.24_nozzle_0.8_HS",
 	"from": "system",
 	"setting_id": "elPtw7ApN0MhXk3e",

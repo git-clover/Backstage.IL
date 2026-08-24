@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.55mm SPEED @MK4S HF0.8",
-	"inherits": "0.55mm DRAFT @MK4S 0.8",
+	"name": "0.55 mm SPEED @MK4S HF0.8",
+	"inherits": "0.55 mm DRAFT @MK4S 0.8",
 	"from": "system",
 	"setting_id": "8T2f9AQSJeZkCTFr",
 	"instantiation": "true",

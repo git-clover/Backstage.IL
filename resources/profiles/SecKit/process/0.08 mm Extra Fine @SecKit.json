@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @SecKit",
+	"name": "0.08 mm Extra Fine @SecKit",
 	"inherits": "fdm_process_seckit_common",
 	"from": "system",
 	"setting_id": "VfCCYbSSzln0oSff",

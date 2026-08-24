@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @BBL X2D",
+	"name": "0.20 mm Standard @BBL X2D",
 	"inherits": "fdm_process_dual_0.20_nozzle_0.4",
 	"from": "system",
 	"setting_id": "GP151",

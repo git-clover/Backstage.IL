@@ -6,7 +6,7 @@
 	"setting_id": "8xoZ6vYv9ws0J97u",
 	"instantiation": "true",
 	"printer_model": "WonderMaker ZR Ultra S",
-	"default_print_profile": "0.20mm Standard @WonderMaker ZR Ultra",
+	"default_print_profile": "0.20 mm Standard @WonderMaker ZR Ultra",
 	"default_bed_type": "4",
 	"default_filament_profile": [
 		"WonderMaker PLA Basic"

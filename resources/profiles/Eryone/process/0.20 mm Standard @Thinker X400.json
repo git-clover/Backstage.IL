@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Thinker X400",
+	"name": "0.20 mm Standard @Thinker X400",
 	"inherits": "fdm_process_common",
 	"from": "",
 	"setting_id": "XuXFgmQdgSDywHuc",
@@ -121,7 +121,7 @@
 	"prime_volume": "45",
 	"print_flow_ratio": "1",
 	"print_sequence": "by layer",
-	"print_settings_id": "0.20mm Standard @Thinker X400",
+	"print_settings_id": "0.20 mm Standard @Thinker X400",
 	"raft_contact_distance": "0.1",
 	"raft_expansion": "1.5",
 	"raft_first_layer_density": "95%",

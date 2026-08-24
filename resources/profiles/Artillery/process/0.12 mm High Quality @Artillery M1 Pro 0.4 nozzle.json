@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm High Quality @Artillery M1 Pro 0.4 nozzle",
+	"name": "0.12 mm High Quality @Artillery M1 Pro 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "NnbXJ8LEQMO0jp4U",
@@ -10,7 +10,7 @@
 	"filename_format": "{input_filename_base}_{filament_type[initial_tool]}_M1Pro.gcode",
 	"gap_infill_speed": "230",
 	"inner_wall_speed": "150",
-	"print_settings_id": "0.12mm High Quality @Artillery M1 Pro 0.4 nozzle",
+	"print_settings_id": "0.12 mm High Quality @Artillery M1 Pro 0.4 nozzle",
 	"slow_down_layers": "3",
 	"top_shell_thickness": "0.6",
 	"top_surface_pattern": "monotonicline",

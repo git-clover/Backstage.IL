@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "tc9ZLzQlKlARHNGw",
-	"name": "Normal speed (Stage 2) - 0.10mm",
+	"name": "Normal speed (Stage 2) - 0.10 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

@@ -6,7 +6,7 @@
 	"instantiation": "true",
 	"inherits": "fdm_afinia_common",
 	"printer_model": "Afinia H+1(HS)",
-	"default_print_profile": "0.20mm Standard @Afinia H+1(HS)",
+	"default_print_profile": "0.20 mm Standard @Afinia H+1(HS)",
 	"nozzle_diameter": [
 		"0.4"
 	],

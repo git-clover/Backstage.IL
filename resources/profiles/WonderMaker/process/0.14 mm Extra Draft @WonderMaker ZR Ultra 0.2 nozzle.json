@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.14mm Extra Draft @WonderMaker ZR Ultra 0.2 nozzle",
+	"name": "0.14 mm Extra Draft @WonderMaker ZR Ultra 0.2 nozzle",
 	"inherits": "fdm_process_wm_0.14_nozzle_0.2",
 	"from": "system",
 	"setting_id": "C9hqtsamnyeX5OMB",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Speed @MK3.5 0.6",
+	"name": "0.20 mm Speed @MK3.5 0.6",
 	"inherits": "process_speed_MK3.5",
 	"from": "system",
 	"setting_id": "yuklDUzGzkqsumBs",

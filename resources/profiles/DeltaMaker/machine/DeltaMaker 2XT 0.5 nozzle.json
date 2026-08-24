@@ -6,7 +6,7 @@
 	"setting_id": "OdZvaBNZMQ92kyMg",
 	"instantiation": "true",
 	"printer_model": "DeltaMaker 2XT",
-	"default_print_profile": "0.25mm Draft @DeltaMaker",
+	"default_print_profile": "0.25 mm Draft @DeltaMaker",
 	"nozzle_diameter": [
 		"0.5"
 	],

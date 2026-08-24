@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.16mm High Quality @BBL X2D",
+	"name": "0.16 mm High Quality @BBL X2D",
 	"inherits": "fdm_process_dual_0.16_nozzle_0.4",
 	"from": "system",
 	"setting_id": "GP221",
 	"instantiation": "true",
-	"description": "High quality profile for 0.16mm layer height, prioritizing print quality and strength.",
+	"description": "High quality profile for 0.16 mm layer height, prioritizing print quality and strength.",
 	"bridge_flow": "1.5",
 	"bridge_speed": [
 		"25",

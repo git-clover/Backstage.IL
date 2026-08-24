@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Standard 0.2 nozzle @Anker",
+	"name": "0.10 mm Standard 0.2 nozzle @Anker",
 	"inherits": "fdm_process_anker_common_0_2",
 	"from": "system",
 	"setting_id": "VsbQS5WHAe8eWdMb",

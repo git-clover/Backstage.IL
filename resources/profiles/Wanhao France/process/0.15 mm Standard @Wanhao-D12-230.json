@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Standard @Wanhao-D12-230",
+	"name": "0.15 mm Standard @Wanhao-D12-230",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "wZtQZ12wbfpFcCc7",

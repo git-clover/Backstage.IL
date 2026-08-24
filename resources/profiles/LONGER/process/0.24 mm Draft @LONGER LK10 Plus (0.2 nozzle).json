@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @LONGER LK10 Plus (0.2 nozzle)",
+	"name": "0.24 mm Draft @LONGER LK10 Plus (0.2 nozzle)",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "9za3LNV8qjTQiTCD",

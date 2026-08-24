@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Draft @Anycubic KobraPlus",
+	"name": "0.30 mm Draft @Anycubic KobraPlus",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "lSoaR17JUQSesbgG",

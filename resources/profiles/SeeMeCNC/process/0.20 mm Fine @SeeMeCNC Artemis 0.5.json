@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.20mm Fine @SeeMeCNC Artemis 0.5",
+	"name": "0.20 mm Fine @SeeMeCNC Artemis 0.5",
 	"inherits": "SeeMeCNC process base 0.5mm",
 	"from": "System",
 	"setting_id": "avw7c6fWePolMUGA",
 	"instantiation": "true",
-	"print_settings_id": "0.20mm Fine @SeeMeCNC Artemis 0.5",
+	"print_settings_id": "0.20 mm Fine @SeeMeCNC Artemis 0.5",
 	"compatible_printers": [
 		"SeeMeCNC Artemis 0.5 nozzle"
 	],

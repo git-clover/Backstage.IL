@@ -10,7 +10,7 @@
 	"default_filament_profile": [
 		"Prusa Generic PLA"
 	],
-	"default_print_profile": "0.30mm Quality @MK3S 0.6",
+	"default_print_profile": "0.30 mm Quality @MK3S 0.6",
 	"nozzle_diameter": [
 		"0.6"
 	],

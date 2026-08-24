@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Qidi Q2C",
-	"inherits": "0.16mm Optimal @Qidi X3",
+	"name": "0.16 mm Optimal @Qidi Q2C",
+	"inherits": "0.16 mm Optimal @Qidi X3",
 	"from": "system",
 	"setting_id": "HSsR88yRyghWJ1TH",
 	"instantiation": "true",

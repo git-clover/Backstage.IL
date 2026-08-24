@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "lxzarnB1H22cOqIl",
-	"name": "Normal performance DUAL - 0.15mm",
+	"name": "Normal performance DUAL - 0.15 mm",
 	"from": "system",
 	"inherits": "fdm_process_volumic_common",
 	"instantiation": "true",

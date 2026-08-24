@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Z-Bolt 0.4 nozzle",
-	"renamed_from": "0.24mm Draft @Z-Bolt S300;0.24mm Draft @Z-Bolt S400;0.24mm Draft @Z-Bolt S600;0.24mm Draft @Z-Bolt S800",
+	"name": "0.24 mm Draft @Z-Bolt 0.4 nozzle",
+	"renamed_from": "0.24 mm Draft @Z-Bolt S300;0.24 mm Draft @Z-Bolt S400;0.24 mm Draft @Z-Bolt S600;0.24 mm Draft @Z-Bolt S800",
 	"inherits": "fdm_process_zbolt_0.24",
 	"from": "system",
 	"setting_id": "L1bdHzIO1OKLDT3Q",

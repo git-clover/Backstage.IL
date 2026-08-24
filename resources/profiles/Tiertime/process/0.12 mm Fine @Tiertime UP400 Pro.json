@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "LiT2jc5HHSsxdPOY",
-	"name": "0.12mm Fine @Tiertime UP400 Pro",
+	"name": "0.12 mm Fine @Tiertime UP400 Pro",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_tiertime_common",

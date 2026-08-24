@@ -14,7 +14,7 @@
 	"default_filament_profile": [
 		"Bambu PLA Basic @BBL X2D"
 	],
-	"default_print_profile": "0.40mm Standard @BBL X2D 0.8 nozzle",
+	"default_print_profile": "0.40 mm Standard @BBL X2D 0.8 nozzle",
 	"max_layer_height": [
 		"0.56",
 		"0.56"

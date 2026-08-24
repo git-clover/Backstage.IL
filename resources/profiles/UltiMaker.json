@@ -16,16 +16,16 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.12mm Fine @UltiMaker 2",
-			"sub_path": "process/0.12mm Fine @UltiMaker 2.json"
+			"name": "0.12 mm Fine @UltiMaker 2",
+			"sub_path": "process/0.12 mm Fine @UltiMaker 2.json"
 		},
 		{
-			"name": "0.18mm Standard @UltiMaker 2",
-			"sub_path": "process/0.18mm Standard @UltiMaker 2.json"
+			"name": "0.18 mm Standard @UltiMaker 2",
+			"sub_path": "process/0.18 mm Standard @UltiMaker 2.json"
 		},
 		{
-			"name": "0.25mm Draft @UltiMaker 2",
-			"sub_path": "process/0.25mm Darft @UltiMaker 2.json"
+			"name": "0.25 mm Draft @UltiMaker 2",
+			"sub_path": "process/0.25 mm Darft @UltiMaker 2.json"
 		}
 	],
 	"filament_list": [],

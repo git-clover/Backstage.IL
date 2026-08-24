@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.55mm Draft @MK3S 0.8",
+	"name": "0.55 mm Draft @MK3S 0.8",
 	"inherits": "process_common_mk3",
 	"from": "system",
 	"setting_id": "3CwGwu7DcQx8idVK",
 	"instantiation": "true",
-	"print_settings_id": "0.55mm Draft @MK3S 0.8",
+	"print_settings_id": "0.55 mm Draft @MK3S 0.8",
 	"bottom_shell_layers": "3",
 	"bridge_acceleration": "1000",
 	"bridge_speed": "25",

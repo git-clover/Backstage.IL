@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @Anycubic Kobra X",
+	"name": "0.16 mm Standard @Anycubic Kobra X",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "LGufe8i6pUT0ZqXa",
 	"instantiation": "true",
-	"print_settings_id": "0.16mm Standard @Anycubic Kobra X 0.4 nozzle",
+	"print_settings_id": "0.16 mm Standard @Anycubic Kobra X 0.4 nozzle",
 	"layer_height": "0.16",
 	"compatible_printers": [
 		"Anycubic Kobra X 0.4 nozzle"

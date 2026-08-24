@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @SeeMeCNC BOSSdelta 500 0521 0.4",
+	"name": "0.24 mm Draft @SeeMeCNC BOSSdelta 500 0521 0.4",
 	"inherits": "SeeMeCNC process base 0.4mm",
 	"from": "System",
 	"setting_id": "Rstm9vPtFdjlUezr",
 	"instantiation": "true",
-	"print_settings_id": "0.24mm Draft @SeeMeCNC BOSSdelta 500 0521 0.4",
+	"print_settings_id": "0.24 mm Draft @SeeMeCNC BOSSdelta 500 0521 0.4",
 	"compatible_printers": [
 		"SeeMeCNC BOSSdelta 500 0521 0.4 nozzle"
 	],

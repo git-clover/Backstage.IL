@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Wanhao D12-400",
+	"name": "0.12 mm Fine @Wanhao D12-400",
 	"inherits": "fdm_process_wanhao_common",
 	"from": "system",
 	"setting_id": "qlj7Yq7lzsuAM9Yx",

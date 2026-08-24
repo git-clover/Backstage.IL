@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Daily @LH Stinger",
+	"name": "0.20 mm Daily @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "oCPHcikuQmP0q1et",

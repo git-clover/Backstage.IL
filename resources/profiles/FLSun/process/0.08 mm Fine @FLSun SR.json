@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Fine @FLSun SR",
+	"name": "0.08 mm Fine @FLSun SR",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "WMx2mtWIuLTNAPHS",

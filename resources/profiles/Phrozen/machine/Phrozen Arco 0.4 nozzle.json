@@ -12,7 +12,7 @@
 	"nozzle_diameter": [
 		"0.4"
 	],
-	"default_print_profile": "0.20mm Standard @Phrozen Arco 0.4 nozzle",
+	"default_print_profile": "0.20 mm Standard @Phrozen Arco 0.4 nozzle",
 	"default_filament_profile": [
 		"Phrozen PLA @Phrozen Arco 0.4 nozzle"
 	],
