@@ -1,11 +1,6 @@
 # Backstage.IL | [![Wanna compile?](https://github.com/git-clover/IL.Orca/actions/workflows/build_all.yml/badge.svg)](https://github.com/git-clover/IL.Orca/actions/workflows/build_all.yml)
 Welcome to the backstage!
 
-## What happened to Windows?
-I develop this ONLY on Linux. I don't care about Windows.<br>
-REALLY wanna use this damn thing? Just use Linux! You can get a nice virtual machine and slice it there.<br>
-Issues about Windows compatibility will NOT be discussed. EVER. Just get Debian.
-
 ## But WHY this one?
 This is actually just a powerful, permanent excuse for me to buy or build **EVEN MORE MACHINES! HAHA!**<br>
 I'm only 21% joking. I didn't make this to develop profiles for niche machines, but it happened to turn out this way. Thanks.<br>
@@ -24,4 +19,7 @@ It'll include:
 - SLS/SLM (May my lungs even survive out there)
 - MJF (What the f)
 
-- The **Bambu networking plugin** is based on non-free libraries from BambuLab. It is optional to the OrcaSlicer and provides extended functionalities for Bambulab printer users.
+## I'm in the Bambu Drama!
+- This fork omits Bambu Lab's cloud module because I'm too lazy.
+- But it's still got the network plugin, which you can use to slice files in LAN mode.
+- The plugin is completely optional, and STRICTLY for Bambu machines.
