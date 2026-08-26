@@ -286,7 +286,7 @@ void AccentSlider::OnPaint(wxPaintEvent&)
     int ts = FromDIP(8);
     int pen_w = FromDIP(2);
 
-    wxColour accent_clr = StateColor::darkModeColorFor(IsEnabled() ? wxColour("#009688") : wxColour("#ACACAC"));
+    wxColour accent_clr = StateColor::darkModeColorFor(IsEnabled() ? wxColour("#004FBD") : wxColour("#ACACAC"));
     wxColour track_clr  = StateColor::darkModeColorFor(IsEnabled() ? wxColour("#CECECE") : wxColour("#DFDFDF"));
 
     int tx = xFromValue();
@@ -589,7 +589,7 @@ public:
         add_label->SetFont(af);
         decompose_label->SetFont(af);
         const bool add_enabled = !m_can_add_filament || m_can_add_filament();
-        const wxColour action_clr = StateColor::darkModeColorFor(wxColour("#009688"));
+        const wxColour action_clr = StateColor::darkModeColorFor(wxColour("#004FBD"));
         add_label->SetForegroundColour(add_enabled ? action_clr : header_clr);
         decompose_label->SetForegroundColour(add_enabled ? action_clr : header_clr);
         add_label->SetCursor(wxCursor(add_enabled ? wxCURSOR_HAND : wxCURSOR_ARROW));
@@ -953,7 +953,7 @@ private:
         wxColour row_bg   = StateColor::darkModeColorFor(*wxWHITE);
         wxColour hover_bg = StateColor::darkModeColorFor(wxColour("#F4F4F4"));
         wxColour text_fg  = texture_import_text_colour();
-        wxColour accent   = StateColor::darkModeColorFor(wxColour("#009688"));
+        wxColour accent   = StateColor::darkModeColorFor(wxColour("#004FBD"));
 
         wxPanel* row = new wxPanel(parent, wxID_ANY, wxDefaultPosition, wxSize(-1, row_h),
                                    wxTAB_TRAVERSAL | wxFULL_REPAINT_ON_RESIZE);
