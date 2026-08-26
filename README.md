@@ -1,6 +1,10 @@
 # Backstage.IL | [![Wanna compile?](https://github.com/git-clover/IL.Orca/actions/workflows/build_all.yml/badge.svg)](https://github.com/git-clover/IL.Orca/actions/workflows/build_all.yml)
 Welcome to the backstage!
 
+## What happened to Windows?
+I develop this ONLY on Linux. I don't care about Windows.<br>
+REALLY wanna use this damn thing? Just use Linux! You can get a nice virtual machine and slice it there.
+
 ## But WHY this one?
 This is actually just a powerful, permanent excuse for me to buy or build **EVEN MORE MACHINES! HAHA!**<br>
 I'm only 21% joking. I didn't make this to develop profiles for niche machines, but it happened to turn out this way. Thanks.<br>
