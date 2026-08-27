@@ -1910,7 +1910,7 @@ void ModelObject::convert_units(ModelObjectPtrs& new_objects, ConversionType con
     ModelObject* new_object = new_clone(*this);
 
     float koef = conv_type == ConversionType::CONV_FROM_INCH   ? 25.4f  : conv_type == ConversionType::CONV_TO_INCH  ? 0.0393700787f  :
-                 conv_type == ConversionType::CONV_FROM_METER  ? 1000.f : conv_type == ConversionType::CONV_TO_METER ? 0.001f         : 1.f;
+                 conv_type == ConversionType::CONV_FROM_METER  ? 1000.f : conv_type == ConversionType::CONV_TO_METER ? 0.00   / 255.f  : 1.f;
 
     new_object->set_model(nullptr);
     new_object->sla_support_points.clear();

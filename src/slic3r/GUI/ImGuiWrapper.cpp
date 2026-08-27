@@ -184,9 +184,9 @@ const ImVec4 ImGuiWrapper::COL_WINDOW_BG_DARK    = { 45 / 255.f, 45 / 255.f, 49 
 const ImVec4 ImGuiWrapper::COL_TOOLBAR_BG        = { 250 / 255.f, 250 / 255.f, 250 / 255.f, 1.f }; // ORCA color matches with toolbar_background.png
 const ImVec4 ImGuiWrapper::COL_TOOLBAR_BG_DARK   = { 57  / 255.f, 60  / 255.f, 66  / 255.f, 1.f }; // ORCA color matches with toolbar_background_dark.png
 const ImVec4 ImGuiWrapper::COL_ORCA              = to_ImVec4(ColorRGBA::ORCA());
-const ImVec4 ImGuiWrapper::COL_ORCA_DARK         = { 0.f       , 46  / 255.f, 110 / 255.f, 1.f };
+const ImVec4 ImGuiWrapper::COL_ORCA_DARK         = { 0   / 255.f, 79  / 255.f, 189 / 255.f, 1.f };
 const ImVec4 ImGuiWrapper::COL_ORCA_HOVER        = { 0   / 255.f, 77  / 255.f, 185 / 255.f, 1.f };
-const ImVec4 ImGuiWrapper::COL_ORCA_HOVER_DARK   = { 0.f       , 129 / 255.f, 114  / 255.f, 1.f };
+const ImVec4 ImGuiWrapper::COL_ORCA_HOVER_DARK   = { 0   / 255.f, 79  / 255.f, 189 / 255.f, 1.f };
 const ImVec4 ImGuiWrapper::COL_MODIFIED          = { 253.f / 255.f, 111.f / 255.f, 40.f / 255.f, 1}; // ORCA same color with m_color_label_modified
 const ImVec4 ImGuiWrapper::COL_WARNING           = to_ImVec4(ColorRGB::WARNING());
 
@@ -2671,7 +2671,7 @@ void ImGuiWrapper::push_confirm_button_style() {
     if (m_is_dark_mode) {
         ImGui::PushStyleColor(ImGuiCol_Button,        to_ImVec4(decode_color_to_float_array("#004fbd")));
         ImGui::PushStyleColor(ImGuiCol_Border, ImVec4(0.f / 255.f, 79 / 255.f, 189 / 255.f, 1.f));
-        ImGui::PushStyleColor(ImGuiCol_ButtonHovered, to_ImVec4(decode_color_to_float_array("#008172")));
+        ImGui::PushStyleColor(ImGuiCol_ButtonHovered, to_ImVec4(decode_color_to_float_array("#003A86")));
         ImGui::PushStyleColor(ImGuiCol_ButtonActive,  to_ImVec4(decode_color_to_float_array("#004fbd")));
         ImGui::PushStyleColor(ImGuiCol_CheckMark, ImVec4(1.f, 1.f, 1.f, 0.88f));
         ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(1.f, 1.f, 1.f, 0.88f));
