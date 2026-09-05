@@ -51,7 +51,7 @@ const char* const CONFIG_PROBE_SOURCE = R"PY(# /// script
 # [tool.orcaslicer.plugin]
 # name = "Config Probe"
 # description = "Echoes its own config back to the test"
-# author = "OrcaSlicer"
+# author = "Backstage.IL"
 # version = "1.0"
 # type = "slicing-pipeline"
 # ///

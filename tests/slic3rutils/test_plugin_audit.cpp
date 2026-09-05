@@ -78,7 +78,7 @@ TEST_CASE("Plugin audit denies app config and token filenames anywhere", "[audit
 
     SECTION("an unrelated name that merely shares a stem is not denied")
     {
-        // The prefix is the full registered name ("OrcaSlicer.conf"), not the stem "OrcaSlicer",
+        // The prefix is the full registered name ("Backstage.IL.conf"), not the stem "Backstage.IL",
         // so a sibling file with a different extension/suffix stays allowed.
         CHECK_FALSE(mgr.is_denied_filename(fs::path(data_dir()) / (SLIC3R_APP_KEY "_other.txt")));
         CHECK_FALSE(mgr.is_denied_filename(fs::path(data_dir()) / (SLIC3R_APP_KEY ".json")));
@@ -190,7 +190,7 @@ TEST_CASE("Plugin audit does not constrain non-plugin code", "[audit]")
     seed_denied_names();
 
     PluginAuditManager& mgr = PluginAuditManager::instance();
-    mgr.clear_current_plugin(); // no plugin context: this is OrcaSlicer's own C++/internal Python
+    mgr.clear_current_plugin(); // no plugin context: this is Backstage.IL's own C++/internal Python
 
     const fs::path conf = fs::path(data_dir()) / (SLIC3R_APP_KEY ".conf");
 

@@ -451,7 +451,7 @@ static void migrate_flatpak_legacy_datadir(const boost::filesystem::path &data_d
     std::cerr << "Migrating Flatpak data dir: " << data_dir_path << std::endl;
 
     std::string legacy_data_dir_str = data_dir_path.string();
-    boost::replace_first(legacy_data_dir_str, "com.orcaslicer.OrcaSlicer", "io.github.softfever.OrcaSlicer");
+    boost::replace_first(legacy_data_dir_str, "com.orcaslicer.Backstage.IL", "io.github.softfever.Backstage.IL");
     const fs::path legacy_data_dir(legacy_data_dir_str);
 
     std::cerr << "Legacy Flatpak data dir: " << legacy_data_dir << std::endl;
@@ -733,7 +733,7 @@ static void generic_exception_handle()
         // and terminate the app so it is at least certain to happen now.
         BOOST_LOG_TRIVIAL(error) << boost::format("std::bad_alloc exception: %1%") % ex.what();
         flush_logs();
-        wxString errmsg = wxString::Format(_L("OrcaSlicer will terminate because of running out of memory. "
+        wxString errmsg = wxString::Format(_L("Backstage.IL will terminate because of running out of memory. "
                                               "It may be a bug. It will be appreciated if you report the issue to our team."));
         wxMessageBox(errmsg + "\n\n" + wxString(ex.what()), _L("Fatal error"), wxOK | wxICON_ERROR);
 
@@ -742,7 +742,7 @@ static void generic_exception_handle()
      } catch (const boost::io::bad_format_string& ex) {
      	BOOST_LOG_TRIVIAL(error) << boost::format("Uncaught exception: %1%") % ex.what();
         	flush_logs();
-        wxString errmsg = _L("OrcaSlicer will terminate because of a localization error. "
+        wxString errmsg = _L("Backstage.IL will terminate because of a localization error. "
                              "It will be appreciated if you report the specific scenario this issue happened.");
         wxMessageBox(errmsg + "\n\n" + wxString(ex.what()), _L("Critical error"), wxOK | wxICON_ERROR);
         std::terminate();
@@ -750,7 +750,7 @@ static void generic_exception_handle()
     } catch (const std::exception& ex) {
         BOOST_LOG_TRIVIAL(error) << boost::format("Uncaught exception: %1%") % ex.what();
         flush_logs();
-        wxLogError(format_wxstr(_L("OrcaSlicer got an unhandled exception: %1%"), ex.what()));
+        wxLogError(format_wxstr(_L("Backstage.IL got an unhandled exception: %1%"), ex.what()));
         throw;
     }
 //#endif
@@ -1001,9 +1001,9 @@ void GUI_App::post_init()
         CallAfter([] {
             const wxString wiki_url = "https://www.orcaslicer.com/wiki/user_profiles/user_profiles.html#profiles-missing-after-updating-from-bambu-cloud";
             MessageDialog dlg(nullptr,
-                _L("Since version 2.4.0, OrcaSlicer syncs user profiles through Orca Cloud instead of Bambu Cloud.\n\n"
+                _L("Since version 2.4.0, Backstage.IL syncs user profiles through Orca Cloud instead of Bambu Cloud.\n\n"
                    "To migrate your existing profiles, log in to Orca Cloud and they will be transferred automatically. "
-                   "To learn more about how OrcaSlicer stores and syncs your profiles, or to migrate your presets manually, check out our wiki.\n\n"
+                   "To learn more about how Backstage.IL stores and syncs your profiles, or to migrate your presets manually, check out our wiki.\n\n"
                    "If you did not use Bambu Cloud to sync profiles, this change does not affect you and you can safely ignore this message."),
                 _L("Profile syncing change"),
                 wxOK,
@@ -1108,7 +1108,7 @@ GUI_App::GUI_App()
     , m_downloader(std::make_unique<Downloader>())
 	, m_other_instance_message_handler(std::make_unique<OtherInstanceMessageHandler>())
 {
-	//app config initializes early becasuse it is used in instance checking in OrcaSlicer.cpp
+	//app config initializes early becasuse it is used in instance checking in Backstage.IL.cpp
     this->init_app_config();
     this->init_download_path();
     // Note: the WebView2 runtime check (init_webview_runtime) used to run here, but
@@ -2435,9 +2435,9 @@ static boost::optional<Semver> parse_semver_from_ini(std::string path)
     std::stringstream buffer;
     buffer << stream.rdbuf();
     std::string body = buffer.str();
-    size_t start = body.find("OrcaSlicer ");
+    size_t start = body.find("Backstage.IL ");
     if (start == std::string::npos) {
-        start = body.find("OrcaSlicer ");
+        start = body.find("Backstage.IL ");
         if (start == std::string::npos)
             return boost::none;
     }
@@ -2580,7 +2580,7 @@ void GUI_App::init_app_config()
     set_log_path_and_level(log_filename, 3);
 #endif
 
-    BOOST_LOG_TRIVIAL(info) << boost::format("gui mode, Current OrcaSlicer Version %1% build %2%") % SoftFever_VERSION % GIT_COMMIT_HASH;
+    BOOST_LOG_TRIVIAL(info) << boost::format("gui mode, Current Backstage.IL Version %1% build %2%") % SoftFever_VERSION % GIT_COMMIT_HASH;
 
     //BBS: remove GCodeViewer as seperate APP logic
 	if (!app_config)
@@ -3024,7 +3024,7 @@ bool GUI_App::on_init_inner()
             RichMessageDialog
                 dlg(nullptr,
                     wxString::Format(_L("%s\nDo you want to continue?"), msg),
-                    "OrcaSlicer", wxICON_QUESTION | wxYES_NO);
+                    "Backstage.IL", wxICON_QUESTION | wxYES_NO);
             dlg.ShowCheckBox(_L("Remember my choice"));
             if (dlg.ShowModal() != wxID_YES) return false;
 
@@ -3102,7 +3102,7 @@ bool GUI_App::on_init_inner()
     //     }
     // }
 
-    //Orca: write OrcaSlicer version
+    //Orca: write Backstage.IL version
     if(app_config->get("version") != SoftFever_VERSION) {
         app_config->set("version", SoftFever_VERSION);
     }
@@ -3212,7 +3212,7 @@ bool GUI_App::on_init_inner()
                 wxString tips = wxString::Format(_L("Click to download new version in default browser: %s"), version_str);
                 DownloadDialog dialog(this->mainframe,
                     tips,
-                    _L("OrcaSlicer needs an update"),
+                    _L("Backstage.IL needs an update"),
                     false,
                     wxCENTER | wxICON_INFORMATION);
                 dialog.SetExtendedMessage(description_text);
@@ -3528,7 +3528,7 @@ bool GUI_App::on_init_inner()
         m_config_corrupted = false;
         show_error(nullptr,
                    _u8L(
-                       "The OrcaSlicer configuration file may be corrupted and cannot be parsed.\nOrcaSlicer has attempted to recreate the "
+                       "The Backstage.IL configuration file may be corrupted and cannot be parsed.\nBackstage.IL has attempted to recreate the "
                        "configuration file.\nPlease note, application settings will be lost, but printer profiles will not be affected."));
     }
     return true;
@@ -6200,7 +6200,7 @@ bool GUI_App::process_network_msg(std::string dev_id, std::string msg)
         else if (msg == "update_studio") {
             BOOST_LOG_TRIVIAL(info) << "process_network_msg, update_studio";
             if (!m_show_error_msgdlg) {
-                MessageDialog msg_dlg(nullptr, _L("Please try updating OrcaSlicer and then try again."), "", wxAPPLY | wxOK);
+                MessageDialog msg_dlg(nullptr, _L("Please try updating Backstage.IL and then try again."), "", wxAPPLY | wxOK);
                 m_show_error_msgdlg = true;
                 msg_dlg.ShowModal();
                 m_show_error_msgdlg = false;
@@ -6210,7 +6210,7 @@ bool GUI_App::process_network_msg(std::string dev_id, std::string msg)
         else if (msg == "update_fixed_studio") {
             BOOST_LOG_TRIVIAL(info) << "process_network_msg, update_fixed_studio";
             if (!m_show_error_msgdlg) {
-                MessageDialog msg_dlg(nullptr, _L("Please try updating OrcaSlicer and then try again."), "", wxAPPLY | wxOK);
+                MessageDialog msg_dlg(nullptr, _L("Please try updating Backstage.IL and then try again."), "", wxAPPLY | wxOK);
                 m_show_error_msgdlg = true;
                 msg_dlg.ShowModal();
                 m_show_error_msgdlg = false;
@@ -6220,7 +6220,7 @@ bool GUI_App::process_network_msg(std::string dev_id, std::string msg)
         else if (msg == "cert_expired") {
             BOOST_LOG_TRIVIAL(info) << "process_network_msg, cert_expired";
             if (!m_show_error_msgdlg) {
-                MessageDialog msg_dlg(nullptr, _L("The certificate has expired. Please check the time settings or update OrcaSlicer and try again."), "", wxAPPLY | wxOK);
+                MessageDialog msg_dlg(nullptr, _L("The certificate has expired. Please check the time settings or update Backstage.IL and try again."), "", wxAPPLY | wxOK);
                 m_show_error_msgdlg = true;
                 msg_dlg.ShowModal();
                 m_show_error_msgdlg = false;
@@ -6240,7 +6240,7 @@ bool GUI_App::process_network_msg(std::string dev_id, std::string msg)
         else if (msg == "update_firmware_studio") {
             BOOST_LOG_TRIVIAL(info) << "process_network_msg, firmware internal error";
             if (!m_show_error_msgdlg) {
-                MessageDialog msg_dlg(nullptr, _L("Internal error. Please try upgrading the firmware and OrcaSlicer version. If the issue persists, contact support."), "", wxAPPLY | wxOK);
+                MessageDialog msg_dlg(nullptr, _L("Internal error. Please try upgrading the firmware and Backstage.IL version. If the issue persists, contact support."), "", wxAPPLY | wxOK);
                 m_show_error_msgdlg = true;
                 msg_dlg.ShowModal();
                 m_show_error_msgdlg = false;
@@ -6255,12 +6255,12 @@ bool GUI_App::process_network_msg(std::string dev_id, std::string msg)
                 m_unsigned_plugin_warning_shown = true;
                 MessageDialog
                     msg_dlg(nullptr,
-                            _L("To use OrcaSlicer with Bambu Lab printers, you need to enable LAN mode and Developer mode on your printer.\n\n"
+                            _L("To use Backstage.IL with Bambu Lab printers, you need to enable LAN mode and Developer mode on your printer.\n\n"
                                "Please go to your printer's settings and:\n"
                                "1. Turn on LAN mode\n"
                                "2. Enable Developer mode\n\n"
                                "Developer mode allows the printer to work exclusively through local network access, "
-                               "enabling full functionality with OrcaSlicer."),
+                               "enabling full functionality with Backstage.IL."),
                             _L("Network Plug-in Restriction"), wxAPPLY | wxOK);
                 m_show_error_msgdlg = true;
                 msg_dlg.ShowModal();
@@ -7954,7 +7954,7 @@ bool GUI_App::load_language(wxString language, bool initial)
     	// Get the active language from PrusaSlicer.ini, or empty string if the key does not exist.
         language = app_config->get("language");
         if (! language.empty())
-        	BOOST_LOG_TRIVIAL(info) << boost::format("language provided by OrcaSlicer.conf: %1%") % language;
+        	BOOST_LOG_TRIVIAL(info) << boost::format("language provided by Backstage.IL.conf: %1%") % language;
         else {
             // Get the system language.
             const wxLanguage lang_system = wxLanguage(wxLocale::GetSystemLanguage());
@@ -8011,7 +8011,7 @@ bool GUI_App::load_language(wxString language, bool initial)
 	}
 
 	if (language_info != nullptr && language_info->LayoutDirection == wxLayout_RightToLeft) {
-    	BOOST_LOG_TRIVIAL(trace) << boost::format("The following language code requires right to left layout, which is not supported by OrcaSlicer: %1%") % language_info->CanonicalName.ToUTF8().data();
+    	BOOST_LOG_TRIVIAL(trace) << boost::format("The following language code requires right to left layout, which is not supported by Backstage.IL: %1%") % language_info->CanonicalName.ToUTF8().data();
 		language_info = nullptr;
 	}
 
@@ -9104,7 +9104,7 @@ void GUI_App::OSXStoreOpenFiles(const wxArrayString &fileNames)
         if (is_gcode_file(into_u8(filename)))
             ++ num_gcodes;
     if (fileNames.size() == num_gcodes) {
-        // Opening PrusaSlicer by drag & dropping a G-Code onto OrcaSlicer icon in Finder,
+        // Opening PrusaSlicer by drag & dropping a G-Code onto Backstage.IL icon in Finder,
         // just G-codes were passed. Switch to G-code viewer mode.
         m_app_mode = EAppMode::GCodeViewer;
         unlock_lockfile(get_instance_hash_string() + ".lock", data_dir() + "/cache/");
@@ -9830,7 +9830,7 @@ void GUI_App::associate_files(std::wstring extend)
 
     std::wstring prog_path = L"\"" + std::wstring(app_path) + L"\"";
     std::wstring prog_id = L" Orca.Slicer.1";
-    std::wstring prog_desc = L"OrcaSlicer";
+    std::wstring prog_desc = L"Backstage.IL";
     std::wstring prog_command = prog_path + L" \"%1\"";
     std::wstring reg_base = L"Software\\Classes";
     std::wstring reg_extension = reg_base + L"\\." + extend;
@@ -9857,7 +9857,7 @@ void GUI_App::disassociate_files(std::wstring extend)
 
     std::wstring prog_path = L"\"" + std::wstring(app_path) + L"\"";
     std::wstring prog_id = L" Orca.Slicer.1";
-    std::wstring prog_desc = L"OrcaSlicer";
+    std::wstring prog_desc = L"Backstage.IL";
     std::wstring prog_command = prog_path + L" \"%1\"";
     std::wstring reg_base = L"Software\\Classes";
     std::wstring reg_extension = reg_base + L"\\." + extend;

@@ -7,10 +7,10 @@ flatpak install flathub org.gnome.Platform//50 org.gnome.Sdk//50 org.freedesktop
 
 
 ##
-# in OrcaSlicer folder, run following command to build Orca
+# in Backstage.IL folder, run following command to build Orca
 
 # # First time build
-# ./scripts/flatpak/make_deps_tar.sh && flatpak-builder --state-dir=.flatpak-builder --keep-build-dirs --user --force-clean build-dir scripts/flatpak/com.orcaslicer.OrcaSlicer.yml
+# ./scripts/flatpak/make_deps_tar.sh && flatpak-builder --state-dir=.flatpak-builder --keep-build-dirs --user --force-clean build-dir scripts/flatpak/com.orcaslicer.Backstage.IL.yml
 
-# # Subsequent builds (only rebuilding OrcaSlicer; run make_deps_tar.sh first if deps/ changed)
-# flatpak-builder --state-dir=.flatpak-builder --keep-build-dirs --user build-dir scripts/flatpak/com.orcaslicer.OrcaSlicer.yml --build-only=OrcaSlicer
+# # Subsequent builds (only rebuilding Backstage.IL; run make_deps_tar.sh first if deps/ changed)
+# flatpak-builder --state-dir=.flatpak-builder --keep-build-dirs --user build-dir scripts/flatpak/com.orcaslicer.Backstage.IL.yml --build-only=Backstage.IL

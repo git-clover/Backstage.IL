@@ -4165,7 +4165,7 @@ void GLCanvas3D::on_mouse(wxMouseEvent& evt)
     // On macOS, the mouse key state is only present for mouse btn related events such as wxEVT_LEFT_DOWN.
     // For other events, all buttons are reported as non-pressed, such as window leaving event. This causes
     // imgui stopped responding if cursor moved out of window, such as
-    // https://github.com/OrcaSlicer/OrcaSlicer/pull/14999#issuecomment-5151344759
+    // https://github.com/Backstage.IL/Backstage.IL/pull/14999#issuecomment-5151344759
     // We solve this by correcting the state of the event from the actual mouse state querying with `wxGetMouseState()`
     // so it works like on other platforms.
     {

@@ -54,7 +54,7 @@ const char* const ECHO_PLUGIN_SOURCE = R"PY(# /// script
 # [tool.orcaslicer.plugin]
 # name = "Echo Plugin"
 # description = "Plugin lifecycle characterization fixture"
-# author = "OrcaSlicer"
+# author = "Backstage.IL"
 # version = "1.0"
 # type = "script"
 # ///

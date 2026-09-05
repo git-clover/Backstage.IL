@@ -1,4 +1,4 @@
-@REM OrcaSlicer build script for Windows with VS auto-detect
+@REM Backstage.IL build script for Windows with VS auto-detect
 @echo off
 set WP=%CD%
 set _START_TIME=%TIME%
@@ -101,9 +101,9 @@ if "%1"=="pack" (
     cd %WP%/deps/build
     if "%arch%"=="ARM64" cd %WP%/deps/build-arm64
     for /f "tokens=2-4 delims=/ " %%a in ('date /t') do set build_date=%%c%%b%%a
-    echo packing deps: OrcaSlicer_dep_win-!arch!_!build_date!_vs!VS_VERSION!.zip
+    echo packing deps: Backstage.IL_dep_win-!arch!_!build_date!_vs!VS_VERSION!.zip
 
-    %WP%/tools/7z.exe a OrcaSlicer_dep_win-!arch!_!build_date!_vs!VS_VERSION!.zip OrcaSlicer_dep
+    %WP%/tools/7z.exe a Backstage.IL_dep_win-!arch!_!build_date!_vs!VS_VERSION!.zip Backstage.IL_dep
     goto :done
 )
 

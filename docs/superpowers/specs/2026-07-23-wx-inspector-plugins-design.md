@@ -1,11 +1,11 @@
-# wxInspector Plugins for OrcaSlicer Custom Controls — Design Spec
+# wxInspector Plugins for Backstage.IL Custom Controls — Design Spec
 
 Date: 2026-07-23
 Branch: `dev/layout-inspector`
 
 ## Overview
 
-Create wxInspector plugins that expose OrcaSlicer's custom widget properties in the inspector's property grid. Without these plugins, the inspector shows only generic wxWidgets properties — missing all DPI-awareness data, custom styling, and Orca-specific control state.
+Create wxInspector plugins that expose Backstage.IL's custom widget properties in the inspector's property grid. Without these plugins, the inspector shows only generic wxWidgets properties — missing all DPI-awareness data, custom styling, and Orca-specific control state.
 
 ## Goals
 

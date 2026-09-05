@@ -1765,7 +1765,7 @@ StringObjectException Print::validate(std::vector<StringObjectException> *warnin
     // This check is modified from PrusaSlicer, the original author is Vojtech Bubnik
     // Orca: case‑sensitive match for exactly "G92 E0" (uppercase G and E only) 
     // because gcode is case sensitive and G92 e0 satisfies the regex but causes a slicing error
-    // https://github.com/OrcaSlicer/OrcaSlicer/issues/13927
+    // https://github.com/Backstage.IL/Backstage.IL/issues/13927
 
 	    // Matches any case of "G92 E0" (original pattern)
     static const boost::regex regex_g92e0 {

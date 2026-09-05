@@ -31,7 +31,7 @@ FFmpeg libraries from the deps build instead of dynamic ones.
   `--enable-shared`. The existing arm64 deps build on the dev machine happened to be
   configured with both static and shared enabled, so `libavcodec.a` / `libswscale.a` /
   `libavutil.a` are already present at
-  `deps/build/arm64/OrcaSlicer_dep/usr/local/lib/`.
+  `deps/build/arm64/Backstage.IL_dep/usr/local/lib/`.
 - `EVT_MEDIA_CTRL_STAT` is `wxDEFINE_EVENT`'d in `wxMediaCtrl2.cpp` (Win/Linux) and
   `wxMediaCtrl2.mm` (macOS); the define in `wxMediaCtrl3.cpp` is commented out.
 - `wxMediaCtrl2` is never instantiated anywhere on any platform — dead code.

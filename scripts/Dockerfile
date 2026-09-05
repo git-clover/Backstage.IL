@@ -58,9 +58,9 @@ RUN locale-gen $LC_ALL
 # the CA cert path on every startup
 ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 
-COPY ./ OrcaSlicer
+COPY ./ Backstage.IL
 
-WORKDIR OrcaSlicer
+WORKDIR Backstage.IL
 
 # These can run together, but we run them separate for podman caching
 # Update System dependencies
@@ -97,4 +97,4 @@ RUN if [[ "$UID" != "0" ]]; then \
     fi
 # Using an entrypoint instead of CMD because the binary
 # accepts several command line arguments.
-ENTRYPOINT ["/OrcaSlicer/build/package/bin/orca-slicer"]
+ENTRYPOINT ["/Backstage.IL/build/package/bin/orca-slicer"]

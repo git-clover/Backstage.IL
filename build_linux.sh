@@ -329,7 +329,7 @@ function run_in_docker() {
     host_uid=$(id -u)
     host_gid=$(id -g)
     host_user="${USER:-orca}"
-    container_workspace="/__w/OrcaSlicer/OrcaSlicer"
+    container_workspace="/__w/Backstage.IL/Backstage.IL"
     build_args=()
     for item in "${FORWARDED_ARGS[@]}" ; do
         if [[ "${item}" == "-u" ]] || [[ "${item}" == "-D" ]] ; then
@@ -541,7 +541,7 @@ if [[ -n "${BUILD_DEPS}" ]] ; then
 fi
 
 if [[ -n "${BUILD_ORCA}" ]] || [[ -n "${BUILD_TESTS}" ]] ; then
-    echo "Configuring OrcaSlicer..."
+    echo "Configuring Backstage.IL..."
     if [[ -n "${CLEAN_BUILD}" ]] ; then
         print_and_run rm -fr $BUILD_DIR
     fi
@@ -563,10 +563,10 @@ if [[ -n "${BUILD_ORCA}" ]] || [[ -n "${BUILD_TESTS}" ]] ; then
 "${BUILD_ARGS[@]}"
     echo "done"
     if [[ -n "${BUILD_ORCA}" ]]; then
-	echo "Building OrcaSlicer ..."
-	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target OrcaSlicer
-	echo "Building OrcaSlicer_profile_validator .."
-	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target OrcaSlicer_profile_validator
+	echo "Building Backstage.IL ..."
+	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target Backstage.IL
+	echo "Building Backstage.IL_profile_validator .."
+	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target Backstage.IL_profile_validator
 	echo "Building generate_system_cache ..."
 	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target generate_system_cache
 	./scripts/run_gettext.sh

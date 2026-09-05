@@ -148,7 +148,7 @@ function build_deps() {
 
             PROJECT_BUILD_DIR="$PROJECT_DIR/build/$_ARCH"
             DEPS_BUILD_DIR="$DEPS_DIR/build/$_ARCH"
-            DEPS="$DEPS_BUILD_DIR/OrcaSlicer_dep"
+            DEPS="$DEPS_BUILD_DIR/Backstage.IL_dep"
 
             echo "Building deps..."
             (
@@ -175,7 +175,7 @@ function pack_deps() {
     (
         set -x
         cd "$DEPS_DIR"
-        tar -zcvf "OrcaSlicer_dep_mac_${ARCH}_$(date +"%Y%m%d").tar.gz" "build"
+        tar -zcvf "Backstage.IL_dep_mac_${ARCH}_$(date +"%Y%m%d").tar.gz" "build"
     )
 }
 
@@ -220,7 +220,7 @@ function verify_python_runtime() {
     fi
     echo "  Verifying bundled Python runtime in $(basename "$app")..."
     local bad
-    bad=$(otool -arch all -L "$pybin" "$app/Contents/MacOS/OrcaSlicer" | grep "libpython" | grep -v "@rpath/" || true)
+    bad=$(otool -arch all -L "$pybin" "$app/Contents/MacOS/Backstage.IL" | grep "libpython" | grep -v "@rpath/" || true)
     if [ -n "$bad" ]; then
         echo "ERROR: a bundled binary references libpython by absolute path (relocation regression):" >&2
         echo "$bad" >&2
@@ -228,8 +228,8 @@ function verify_python_runtime() {
     fi
     # otool -L shows load commands only; assert the consumer rpath separately.
     # Its loss is masked on the build host by CMake's absolute build-tree rpath.
-    if ! otool -arch all -l "$app/Contents/MacOS/OrcaSlicer" | grep -q "path @executable_path/python/lib "; then
-        echo "ERROR: OrcaSlicer lacks the @executable_path/python/lib rpath (relocation regression)" >&2
+    if ! otool -arch all -l "$app/Contents/MacOS/Backstage.IL" | grep -q "path @executable_path/python/lib "; then
+        echo "ERROR: Backstage.IL lacks the @executable_path/python/lib rpath (relocation regression)" >&2
         exit 1
     fi
     if ! "$pybin" -c "import ssl"; then
@@ -247,7 +247,7 @@ function build_slicer() {
 
             PROJECT_BUILD_DIR="$PROJECT_DIR/build/$_ARCH"
             DEPS_BUILD_DIR="$DEPS_DIR/build/$_ARCH"
-            DEPS="$DEPS_BUILD_DIR/OrcaSlicer_dep"
+            DEPS="$DEPS_BUILD_DIR/Backstage.IL_dep"
 
             echo "Building slicer for $_ARCH..."
             (
@@ -284,30 +284,30 @@ function build_slicer() {
         echo "Fix macOS app package..."
         (
             cd "$PROJECT_BUILD_DIR"
-            mkdir -p OrcaSlicer
-            cd OrcaSlicer
+            mkdir -p Backstage.IL
+            cd Backstage.IL
             # remove previously built app
-            rm -rf ./OrcaSlicer.app
+            rm -rf ./Backstage.IL.app
             # fully copy newly built app
-            cp -pR "../src$BUILD_DIR_CONFIG_SUBDIR/OrcaSlicer.app" ./OrcaSlicer.app
+            cp -pR "../src$BUILD_DIR_CONFIG_SUBDIR/Backstage.IL.app" ./Backstage.IL.app
             # fix resources
-            resources_path=$(readlink ./OrcaSlicer.app/Contents/Resources)
-            rm ./OrcaSlicer.app/Contents/Resources
-            cp -R "$resources_path" ./OrcaSlicer.app/Contents/Resources
-            relocate_python_runtime ./OrcaSlicer.app
+            resources_path=$(readlink ./Backstage.IL.app/Contents/Resources)
+            rm ./Backstage.IL.app/Contents/Resources
+            cp -R "$resources_path" ./Backstage.IL.app/Contents/Resources
+            relocate_python_runtime ./Backstage.IL.app
             # delete .DS_Store file
-            find ./OrcaSlicer.app/ -name '.DS_Store' -delete
+            find ./Backstage.IL.app/ -name '.DS_Store' -delete
 
-            verify_python_runtime ./OrcaSlicer.app
+            verify_python_runtime ./Backstage.IL.app
             
-            # Copy OrcaSlicer_profile_validator.app if it exists
-            if [ -f "../src$BUILD_DIR_CONFIG_SUBDIR/OrcaSlicer_profile_validator.app/Contents/MacOS/OrcaSlicer_profile_validator" ]; then
-                echo "Copying OrcaSlicer_profile_validator.app..."
-                rm -rf ./OrcaSlicer_profile_validator.app
-                cp -pR "../src$BUILD_DIR_CONFIG_SUBDIR/OrcaSlicer_profile_validator.app" ./OrcaSlicer_profile_validator.app
+            # Copy Backstage.IL_profile_validator.app if it exists
+            if [ -f "../src$BUILD_DIR_CONFIG_SUBDIR/Backstage.IL_profile_validator.app/Contents/MacOS/Backstage.IL_profile_validator" ]; then
+                echo "Copying Backstage.IL_profile_validator.app..."
+                rm -rf ./Backstage.IL_profile_validator.app
+                cp -pR "../src$BUILD_DIR_CONFIG_SUBDIR/Backstage.IL_profile_validator.app" ./Backstage.IL_profile_validator.app
                 # delete .DS_Store file
-                find ./OrcaSlicer_profile_validator.app/ -name '.DS_Store' -delete
-                verify_python_runtime ./OrcaSlicer_profile_validator.app
+                find ./Backstage.IL_profile_validator.app/ -name '.DS_Store' -delete
+                verify_python_runtime ./Backstage.IL_profile_validator.app
             fi
         )
 
@@ -320,7 +320,7 @@ function build_slicer() {
         #     ver=${ver}_dev
         # fi
 
-        # zip -FSr OrcaSlicer${ver}_Mac_${_ARCH}.zip OrcaSlicer.app
+        # zip -FSr Backstage.IL${ver}_Mac_${_ARCH}.zip Backstage.IL.app
 
     fi
     done
@@ -352,29 +352,29 @@ function build_universal() {
     echo "Building universal binary..."
 
     PROJECT_BUILD_DIR="$PROJECT_DIR/build/$ARCH"
-    ARM64_APP="$PROJECT_DIR/build/arm64/OrcaSlicer/OrcaSlicer.app"
-    X86_64_APP="$PROJECT_DIR/build/x86_64/OrcaSlicer/OrcaSlicer.app"
+    ARM64_APP="$PROJECT_DIR/build/arm64/Backstage.IL/Backstage.IL.app"
+    X86_64_APP="$PROJECT_DIR/build/x86_64/Backstage.IL/Backstage.IL.app"
 
-    mkdir -p "$PROJECT_BUILD_DIR/OrcaSlicer"
-    UNIVERSAL_APP="$PROJECT_BUILD_DIR/OrcaSlicer/OrcaSlicer.app"
+    mkdir -p "$PROJECT_BUILD_DIR/Backstage.IL"
+    UNIVERSAL_APP="$PROJECT_BUILD_DIR/Backstage.IL/Backstage.IL.app"
     rm -rf "$UNIVERSAL_APP"
     cp -R "$ARM64_APP" "$UNIVERSAL_APP"
 
-    echo "Creating universal binaries for OrcaSlicer.app..."
+    echo "Creating universal binaries for Backstage.IL.app..."
     lipo_dir "$UNIVERSAL_APP" "$X86_64_APP"
-    echo "Universal OrcaSlicer.app created at $UNIVERSAL_APP"
+    echo "Universal Backstage.IL.app created at $UNIVERSAL_APP"
     verify_python_runtime "$UNIVERSAL_APP"
 
     # Create universal binary for profile validator if it exists
-    ARM64_VALIDATOR="$PROJECT_DIR/build/arm64/OrcaSlicer/OrcaSlicer_profile_validator.app"
-    X86_64_VALIDATOR="$PROJECT_DIR/build/x86_64/OrcaSlicer/OrcaSlicer_profile_validator.app"
+    ARM64_VALIDATOR="$PROJECT_DIR/build/arm64/Backstage.IL/Backstage.IL_profile_validator.app"
+    X86_64_VALIDATOR="$PROJECT_DIR/build/x86_64/Backstage.IL/Backstage.IL_profile_validator.app"
     if [ -d "$ARM64_VALIDATOR" ] && [ -d "$X86_64_VALIDATOR" ]; then
-        echo "Creating universal binaries for OrcaSlicer_profile_validator.app..."
-        UNIVERSAL_VALIDATOR_APP="$PROJECT_BUILD_DIR/OrcaSlicer/OrcaSlicer_profile_validator.app"
+        echo "Creating universal binaries for Backstage.IL_profile_validator.app..."
+        UNIVERSAL_VALIDATOR_APP="$PROJECT_BUILD_DIR/Backstage.IL/Backstage.IL_profile_validator.app"
         rm -rf "$UNIVERSAL_VALIDATOR_APP"
         cp -R "$ARM64_VALIDATOR" "$UNIVERSAL_VALIDATOR_APP"
         lipo_dir "$UNIVERSAL_VALIDATOR_APP" "$X86_64_VALIDATOR"
-        echo "Universal OrcaSlicer_profile_validator.app created at $UNIVERSAL_VALIDATOR_APP"
+        echo "Universal Backstage.IL_profile_validator.app created at $UNIVERSAL_VALIDATOR_APP"
     fi
 }
 

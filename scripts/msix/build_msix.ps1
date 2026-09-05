@@ -8,15 +8,15 @@ Developer Mode loose-layout registration instead:
 Requires the Windows SDK (makeappx.exe) unless -StageOnly is used.
 #>
 param(
-    [string]$InstallDir = "build/OrcaSlicer",
-    [string]$OutputPath = "build/OrcaSlicer_Windows_MSIX.msix",
+    [string]$InstallDir = "build/Backstage.IL",
+    [string]$OutputPath = "build/Backstage.IL_Windows_MSIX.msix",
     [ValidateSet("x64", "arm64")]
     [string]$Architecture = "x64",
     [string]$StagingDir = "",
     [switch]$StageOnly,
-    [string]$IdentityName = "OrcaSlicer.OrcaSlicer",
+    [string]$IdentityName = "Backstage.IL.Backstage.IL",
     [string]$Publisher = "CN=38F7EA55-C73B-4072-B3B2-C8E0EA15BB82",
-    [string]$PublisherDisplayName = "OrcaSlicer"
+    [string]$PublisherDisplayName = "Backstage.IL"
 )
 $ErrorActionPreference = 'Stop'
 

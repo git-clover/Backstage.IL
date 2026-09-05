@@ -7,7 +7,7 @@ verifying multi-nozzle (H2C carousel) and multi-extruder slicing correctness.
 
 ### `compare_slices.py` — Slice Comparison Analyzer
 
-Deep comparison of two `.3mf` files (OrcaSlicer, BambuStudio, or any compatible slicer).
+Deep comparison of two `.3mf` files (Backstage.IL, BambuStudio, or any compatible slicer).
 Generates a comprehensive Markdown report covering:
 
 - **Filament usage** — per-filament weight/length with color mapping
@@ -36,7 +36,7 @@ Markdown report saved to `mp_reports/compare_report_YYYYMMDD_HHMMSS.md`
 #### Example: Detecting H2C purge regression
 ```
 ⚠️ CRITICAL DISCREPANCY: Huge difference in part weight:
-  OrcaSlicer 60.90 g vs BambuStudio 17.47 g (difference 43.43 g or 71.3%).
+  Backstage.IL 60.90 g vs BambuStudio 17.47 g (difference 43.43 g or 71.3%).
   The reason is incorrect nozzle mapping, causing huge AMS flushing.
 ```
 
@@ -80,7 +80,7 @@ Interactive HTML report saved to Desktop as `temp_plot_v3.html`
 
 1. **Regression testing** — compare slices before/after code changes to verify
    no unintended differences in purge volumes, tool ordering, or temperature timing
-2. **BBS compatibility verification** — compare OrcaSlicer output against BambuStudio
+2. **BBS compatibility verification** — compare Backstage.IL output against BambuStudio
    reference slices to ensure behavioral parity
 3. **H2C carousel validation** — verify per-slot nozzle tracking produces correct
    purge volumes (not collapsed per-extruder)

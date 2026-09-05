@@ -4,7 +4,7 @@
 # [tool.orcaslicer.plugin]
 # name = "Inset Every Slice"
 # description = "Insets every layer's slices by 1mm at the Slice boundary (demo)."
-# author = "OrcaSlicer"
+# author = "Backstage.IL"
 # version = "0.02"
 # type = "slicing-pipeline"
 # ///

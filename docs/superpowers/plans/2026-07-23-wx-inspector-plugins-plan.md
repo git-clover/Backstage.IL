@@ -1,12 +1,12 @@
-# wxInspector Plugins for OrcaSlicer — Implementation Plan
+# wxInspector Plugins for Backstage.IL — Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build two wxInspector plugins (DPIAware + CustomWidgets) that expose OrcaSlicer custom control properties in the inspector's property grid.
+**Goal:** Build two wxInspector plugins (DPIAware + CustomWidgets) that expose Backstage.IL custom control properties in the inspector's property grid.
 
 **Architecture:** Two plugins in a shared folder under `src/slic3r/Utils/wxInspectorPlugins/`. DPIAwarePlugin uses `dynamic_cast<DPIFrame*>/<DPIDialog*>` for detection; CustomWidgetsPlugin uses per-type `dynamic_cast`. Both registered as static singletons via a single inline function in `Registration.hpp`, called from `MainFrame` constructor.
 
-**Tech Stack:** C++17, wxWidgets, wxInspector plugin API (`wx/inspector/plugin.h`, `wx/inspector/inspector.h`), OrcaSlicer custom widget headers
+**Tech Stack:** C++17, wxWidgets, wxInspector plugin API (`wx/inspector/plugin.h`, `wx/inspector/inspector.h`), Backstage.IL custom widget headers
 
 ## Global Constraints
 
@@ -735,9 +735,9 @@ If the build fails:
 - Check that `LabeledStaticBox::GetBorderColor()` returns by value (StateColor copy is fine)
 - On macOS: static box margin removal call needs `#ifdef __WXOSX__` guard
 
-- [ ] **Step 3: Launch OrcaSlicer and verify inspector**
+- [ ] **Step 3: Launch Backstage.IL and verify inspector**
 
-Launch the built OrcaSlicer, press Ctrl+Shift+I to open the inspector:
+Launch the built Backstage.IL, press Ctrl+Shift+I to open the inspector:
 1. Select the MainFrame in the tree — verify "DPI Scaling" category appears with Scale Factor, Prev Scale Factor, EM Unit, Normal Font, Force Rescale
 2. Select an Orca Button — verify "Orca Button" category appears
 3. Select an Orca CheckBox — verify "Orca CheckBox" category appears

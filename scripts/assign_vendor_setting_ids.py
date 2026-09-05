@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Assign deterministic, globally-unique setting_id to OrcaSlicer system profiles.
+Assign deterministic, globally-unique setting_id to Backstage.IL system profiles.
 
 Policy (see AGENTS.md "Critical Constraints"):
   * A preset's setting_id is a pure function of its identity:

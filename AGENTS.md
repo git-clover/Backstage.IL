@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-OrcaSlicer — open-source C++17 3D slicer. wxWidgets GUI, CMake build system.
+Backstage.IL — open-source C++17 3D slicer. wxWidgets GUI, CMake build system.
 
 ## Build Commands
 
@@ -34,7 +34,7 @@ ctest --test-dir ./tests/fff_print
 
 ## Key Entry Points
 
-- App startup: `src/OrcaSlicer.cpp`
+- App startup: `src/Backstage.IL.cpp`
 - Slicing pipeline: `src/libslic3r/Print.cpp`
 - All print/printer/material settings: `src/libslic3r/PrintConfig.cpp`
 - GUI: `src/slic3r/GUI/`
@@ -57,16 +57,16 @@ ctest --test-dir ./tests/fff_print
 - Keep code concise and clear. Manually simplify AI generated bloated codes before review.
 - Include targeted tests or documented verification for behavior changes, especially in slicing logic, profiles, formats, and GUI defaults.
 - For profile changes (`resources/profiles/<Vendor>/**`), check that `version` in the sibling `resources/profiles/<Vendor>.json` was bumped.
-- For translation changes (`localization/i18n/**/*.po`), check that recurring terms match the [Localization glossary](https://github.com/OrcaSlicer/OrcaSlicer_WIKI/blob/main/guides/localization_glossary.md) for that language.
+- For translation changes (`localization/i18n/**/*.po`), check that recurring terms match the [Localization glossary](https://github.com/Backstage.IL/Backstage.IL_WIKI/blob/main/guides/localization_glossary.md) for that language.
 
 ## Localization & translations
 
-Catalogs live in `localization/i18n/<lang>/OrcaSlicer_<lang>.po`; the template is `OrcaSlicer.pot`.
-See the [Localization guide](https://github.com/OrcaSlicer/OrcaSlicer_WIKI/blob/main/guides/localization_guide.md) for the human-facing version of these principles.
+Catalogs live in `localization/i18n/<lang>/Backstage.IL_<lang>.po`; the template is `Backstage.IL.pot`.
+See the [Localization guide](https://github.com/Backstage.IL/Backstage.IL_WIKI/blob/main/guides/localization_guide.md) for the human-facing version of these principles.
 
 ### Terminology
 
-- Use the [Localization glossary](https://github.com/OrcaSlicer/OrcaSlicer_WIKI/blob/main/guides/localization_glossary.md) as the source of truth for recurring terms, so the same English term is always rendered the same way within a language, and terms that must stay in English (brand/product names, acronyms, materials, file formats, G-code tokens, macros/variables/identifiers) are not translated.
+- Use the [Localization glossary](https://github.com/Backstage.IL/Backstage.IL_WIKI/blob/main/guides/localization_glossary.md) as the source of truth for recurring terms, so the same English term is always rendered the same way within a language, and terms that must stay in English (brand/product names, acronyms, materials, file formats, G-code tokens, macros/variables/identifiers) are not translated.
 - If a term's established translation changes, update both the affected `.po` files and the glossary (`localization_glossary.tsv`, then regenerate) so they stay in sync.
 - Translate the *meaning*, not the words. Check what the string actually controls before translating it — English reuses one word for different things. `Flow ratio` (multiplier), `Flow Rate` (throughput) and `Flow Dynamics` (pressure compensation) are three different terms; `extruder` may mean the toolhead, the feeder motor, or the nozzle depending on the string.
 - Reuse one template per recurring message shape (`Failed to connect to …`, `Are you sure you want to …?`), even where the English wording varies.
@@ -87,5 +87,5 @@ See the [Localization guide](https://github.com/OrcaSlicer/OrcaSlicer_WIKI/blob/
 ### Verifying
 
 - `scripts/run_gettext.bat --full` (Windows) regenerates the template, merges every catalog and compiles the `.mo` files. It must exit 0.
-- Or check a single catalog with `msgfmt --check-format -o <out>.mo localization/i18n/<lang>/OrcaSlicer_<lang>.po`.
+- Or check a single catalog with `msgfmt --check-format -o <out>.mo localization/i18n/<lang>/Backstage.IL_<lang>.po`.
 - Fuzzy entries are not shown to users. If you correct one, clear its `fuzzy` flag, otherwise the fix never ships.

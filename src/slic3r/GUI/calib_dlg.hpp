@@ -195,7 +195,7 @@ protected:
     virtual void on_start(wxCommandEvent& event);
 
     RadioGroup* m_rbType;
-    // ORCA: use standard OrcaSlicer ComboBox instead of BitmapComboBox
+    // ORCA: use standard Backstage.IL ComboBox instead of BitmapComboBox
     ComboBox* m_rbPattern;
     Plater* m_plater;
 };

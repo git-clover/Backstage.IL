@@ -50,7 +50,7 @@ inline void sort_plugin_changelog(std::vector<PluginChangelog>& changelog)
 // Canonical plugin runtime/catalog representation used by Orca.
 struct PluginDescriptor
 {
-    std::string plugin_key;                             // OrcaSlicer-generated operational identity
+    std::string plugin_key;                             // Backstage.IL-generated operational identity
     std::string name;                                   // Display name
     std::string description;                            // Plugin description
     std::string author;                                 // Plugin author from manifest, if available

@@ -39,7 +39,7 @@ bool has_visible_base_preset(const PresetCollection& filaments, const std::strin
 //   generic presets inherit a generic filament_id from their parent, so
 //   preferring the user copy can collapse a brand-specific match back to
 //   "Generic PLA" via the inherited id. Plus: this code targets upstream
-//   OrcaSlicer where shipping the user's local tuning would be wrong.
+//   Backstage.IL where shipping the user's local tuning would be wrong.
 // Requires the preset's declared filament_type to equal the spool's base type
 // (PLA/PETG/ABS/...) so we never auto-pick a PETG preset for a PLA spool.
 // Falls back to filaments.filament_id_by_type(base_type) when nothing scores.

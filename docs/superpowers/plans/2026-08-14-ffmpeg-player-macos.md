@@ -17,7 +17,7 @@
 - No changes to `StatusPanel.cpp`, `MediaPlayCtrl.*`, or the BambuTunnel interface — the app already creates `wxMediaCtrl3` and uses only its public interface.
 - The player cannot be unit-tested (hardware/plugin-dependent GUI code); verification is build-level, link-level, and manual runtime on a Mac.
 - `localization/i18n/list.txt` references only `wxMediaCtrl2.cpp` (Win/Linux, stays) — no translation-list changes needed.
-- Build dirs on the dev machine: main app = `build_arm64/` (Xcode generator, multi-config), deps = `deps/build/arm64/` (Unix Makefiles). App target name: `OrcaSlicer`. Substitute your own configured build dirs where noted.
+- Build dirs on the dev machine: main app = `build_arm64/` (Xcode generator, multi-config), deps = `deps/build/arm64/` (Unix Makefiles). App target name: `Backstage.IL`. Substitute your own configured build dirs where noted.
 
 ---
 
@@ -148,7 +148,7 @@ The deps install (`${CMAKE_PREFIX_PATH}/lib`) already contains the three `.a` fi
 Run (Xcode generator; `cmake` re-runs automatically on build):
 
 ```bash
-cmake --build build_arm64 --config RelWithDebInfo --target OrcaSlicer
+cmake --build build_arm64 --config RelWithDebInfo --target Backstage.IL
 ```
 
 Expected: configure succeeds (no `pkg_check_modules` errors on macOS, `find_library` finds all three `.a` files), compile succeeds (`wxMediaCtrl3.cpp` and `AVVideoDecoder.cpp` compile on macOS without changes), link succeeds.
@@ -158,7 +158,7 @@ If CMake complains that `wxMediaCtrl3.h` is included but not in the source list 
 - [ ] **Step 6: Verify no dynamic FFmpeg dependency**
 
 ```bash
-otool -L build_arm64/src/RelWithDebInfo/OrcaSlicer.app/Contents/MacOS/OrcaSlicer | grep -i "libav" || echo "OK: no dynamic FFmpeg"
+otool -L build_arm64/src/RelWithDebInfo/Backstage.IL.app/Contents/MacOS/Backstage.IL | grep -i "libav" || echo "OK: no dynamic FFmpeg"
 ```
 
 Expected: prints `OK: no dynamic FFmpeg` (empty grep output). This is the whole point of static linking — nothing to bundle into the `.app`.
@@ -265,8 +265,8 @@ Expected: `libavcodec.a` present, second command prints `OK: no dylibs`. Check `
 - [ ] **Step 5: Verify the app still links against the static libs**
 
 ```bash
-cmake --build build_arm64 --config RelWithDebInfo --target OrcaSlicer
-otool -L build_arm64/src/RelWithDebInfo/OrcaSlicer.app/Contents/MacOS/OrcaSlicer | grep -i "libav" || echo "OK: no dynamic FFmpeg"
+cmake --build build_arm64 --config RelWithDebInfo --target Backstage.IL
+otool -L build_arm64/src/RelWithDebInfo/Backstage.IL.app/Contents/MacOS/Backstage.IL | grep -i "libav" || echo "OK: no dynamic FFmpeg"
 ```
 
 Expected: build succeeds, `OK: no dynamic FFmpeg`.
@@ -316,7 +316,7 @@ Expected: no hits in `src/slic3r/GUI` (ignore `localization/i18n/list.txt:196`, 
 - [ ] **Step 4: Rebuild the app**
 
 ```bash
-cmake --build build_arm64 --config RelWithDebInfo --target OrcaSlicer
+cmake --build build_arm64 --config RelWithDebInfo --target Backstage.IL
 ```
 
 Expected: configure + compile + link succeed with the deleted files gone.
@@ -339,7 +339,7 @@ git commit -m "refactor: remove old BambuPlayer-based media player from macOS"
 - [ ] **Step 1: Launch the freshly built app**
 
 ```bash
-open build_arm64/src/RelWithDebInfo/OrcaSlicer.app
+open build_arm64/src/RelWithDebInfo/Backstage.IL.app
 ```
 
 Expected: app launches normally; no crash in the network/device subsystem.

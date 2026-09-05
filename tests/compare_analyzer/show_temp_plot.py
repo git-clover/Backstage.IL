@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 H2C Temperature Timeline Comparison Tool.
-Generates interactive HTML with temperature plots for analyzing and comparing OrcaSlicer vs BambuStudio G-code.
+Generates interactive HTML with temperature plots for analyzing and comparing Backstage.IL vs BambuStudio G-code.
 
 ================================================================================
 ARCHITECTURE & MAPPING LOGIC:
@@ -23,7 +23,7 @@ EXECUTION & RUN RULES:
      python3 show_temp_plot.py <path_to_file.3mf>
 
 2. Comparison Mode (Two Files):
-   Renders a side-by-side alignment of temperature panels for both files (e.g. OrcaSlicer vs BambuStudio).
+   Renders a side-by-side alignment of temperature panels for both files (e.g. Backstage.IL vs BambuStudio).
    Usage:
      python3 show_temp_plot.py <path_to_file1.3mf> <path_to_file2.3mf>
 
@@ -554,7 +554,7 @@ def parse_file_data(filepath):
         toolchange_zones = [zone_to_time(s, e) for s, e in toolchange_zones_raw]
 
 
-        slicer_name = "OrcaSlicer" if "orca" in os.path.basename(filepath).lower() else (
+        slicer_name = "Backstage.IL" if "orca" in os.path.basename(filepath).lower() else (
             "BambuStudio" if "bbl" in os.path.basename(filepath).lower() else "Slicer"
         )
 

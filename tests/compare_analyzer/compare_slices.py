@@ -1,9 +1,9 @@
 """
-Slicing G-code Comparison Tool: OrcaSlicer vs BambuStudio (BBL)
+Slicing G-code Comparison Tool: Backstage.IL vs BambuStudio (BBL)
 ====================================================================
 
 The script performs a deep comparison of two `.3mf` slicing project files 
-(the first one from OrcaSlicer, the second from Bambu Studio) for debugging the Vortek H2C nozzle changer.
+(the first one from Backstage.IL, the second from Bambu Studio) for debugging the Vortek H2C nozzle changer.
 
 Default behavior (file paths):
 ------------------------------------
@@ -365,13 +365,13 @@ def parse_critical_gcode(zip_file, filament_maps_str=None):
 
 def get_slicer_name(meta):
     version_info = meta.get("version_info", {})
-    if "OrcaSlicer-Version" in version_info:
-        return "OrcaSlicer"
+    if "Backstage.IL-Version" in version_info:
+        return "Backstage.IL"
     elif "X-BBL-Client-Version" in version_info:
         return "BambuStudio"
     for k in version_info.keys():
         if "orcaslicer" in k.lower():
-            return "OrcaSlicer"
+            return "Backstage.IL"
         if "bambu" in k.lower() or "bbl" in k.lower():
             return "BambuStudio"
     return "UnknownSlicer"
@@ -895,8 +895,8 @@ def build_comparison_report(f1_name, f1_meta, f1_settings, f1_events, f1_lines, 
     hdr1 = f"File 1 ({slicer1})"
     hdr2 = f"File 2 ({slicer2})"
     
-    v1_val = f1_meta["version_info"].get("OrcaSlicer-Version") or f1_meta["version_info"].get("X-BBL-Client-Version") or "Unknown"
-    v2_val = f2_meta["version_info"].get("OrcaSlicer-Version") or f2_meta["version_info"].get("X-BBL-Client-Version") or "Unknown"
+    v1_val = f1_meta["version_info"].get("Backstage.IL-Version") or f1_meta["version_info"].get("X-BBL-Client-Version") or "Unknown"
+    v2_val = f2_meta["version_info"].get("Backstage.IL-Version") or f2_meta["version_info"].get("X-BBL-Client-Version") or "Unknown"
     
     report = []
     report.append(f"# Slicing G-code Comparison (3MF): {f1_name} vs {f2_name}\n")

@@ -4,7 +4,7 @@
 # [tool.orcaslicer.plugin]
 # name = "G-code Stamp"
 # description = "Stamps a comment line into the exported G-code at the post-process step (demo)."
-# author = "OrcaSlicer"
+# author = "Backstage.IL"
 # version = "0.01"
 # type = "slicing-pipeline"
 # ///
@@ -30,7 +30,7 @@ import orca
 import json
 
 _DEFAULTS = {
-    "stamp_text": "processed by the OrcaSlicer G-code Stamp plugin",
+    "stamp_text": "processed by the Backstage.IL G-code Stamp plugin",
 }
 
 

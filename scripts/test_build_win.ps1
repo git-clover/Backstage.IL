@@ -101,7 +101,7 @@ New-Item -ItemType Directory -Force -Path $noVs | Out-Null
 # what is on disk disagrees with what the generator would write.
 $slnDir = Join-Path $fixtures 'sln'
 New-Item -ItemType Directory -Force -Path $slnDir | Out-Null
-Set-Content -Path (Join-Path $slnDir 'OrcaSlicer.sln') -Value '' -Encoding ascii
+Set-Content -Path (Join-Path $slnDir 'Backstage.IL.sln') -Value '' -Encoding ascii
 
 # The pack stamp is checked against real dates, so a locale-dependent parse
 # in the script cannot pass by looking date-shaped. Yesterday is accepted too,
@@ -300,21 +300,21 @@ $cases = @(
     # so the pack falls back to the bsdtar Windows ships. Either is correct;
     # what matters is that one is chosen and handed the right names.
     @{ Name = '-p packs the deps tree with whichever archiver is usable'; Args = @('-d', '-p')
-       Match = @('^\+ .*(7z\.exe a|tar\.exe -a -c -f) OrcaSlicer_dep_win-\S+\.zip OrcaSlicer_dep$') }
+       Match = @('^\+ .*(7z\.exe a|tar\.exe -a -c -f) Backstage.IL_dep_win-\S+\.zip Backstage.IL_dep$') }
     # The bundle is only good for what built it, so it carries the same three
     # axes as the tree. Release x64 on cl keeps the historical plain name.
     @{ Name = 'the bundle name carries compiler and deps flavour'; Args = @('-p', '-l', '--config', 'debug', '--arch', 'arm64')
-       Contains = @('OrcaSlicer_dep_win-ARM64-clang-dbg_') }
+       Contains = @('Backstage.IL_dep_win-ARM64-clang-dbg_') }
     @{ Name = 'a relwithdebinfo pack is the release bundle'; Args = @('-p', '--config', 'relwithdebinfo')
-       Contains = @('OrcaSlicer_dep_win-x64_')
+       Contains = @('Backstage.IL_dep_win-x64_')
        NotContains = @('-dbg', 'dbginfo') }
     @{ Name = 'a plain release bundle keeps its old name'; Args = @('-p')
-       Contains = @('OrcaSlicer_dep_win-x64_')
+       Contains = @('Backstage.IL_dep_win-x64_')
        NotContains = @('-clang', '-Release') }
     @{ Name = 'the bundle is stamped with today, not a shuffled date'; Args = @('-p')
        Match = @($stampPattern) }
     # powershell.exe is not in System32 itself, so a trimmed PATH used to
-    # leave the stamp empty and the bundle named OrcaSlicer_dep_win-x64_.zip.
+    # leave the stamp empty and the bundle named Backstage.IL_dep_win-x64_.zip.
     @{ Name = 'the bundle is stamped even with a bare PATH'; Args = @('-p')
        Env = @{ PATH = 'C:\Windows\system32;C:\Windows' }
        Match = @($stampPattern) }
@@ -343,7 +343,7 @@ $cases = @(
        NotContains = @('--target install') }
     @{ Name = '-i adds the install step'; Args = @('-s', '-i')
        Contains = @('--target install') }
-    # install(TARGETS OrcaSlicer) has no OPTIONAL, so this would fail partway
+    # install(TARGETS Backstage.IL) has no OPTIONAL, so this would fail partway
     # through a build instead of before it.
     @{ Name = 'installing a tree with no executable is refused'; Args = @('-s', '-i', '--slicer-target', 'glad'); ExpectExit = 1
        Contains = @('--install needs the executable')
@@ -352,7 +352,7 @@ $cases = @(
     @{ Name = 'the same flags without a slicer build are left alone'; Args = @('-d', '-i', '--slicer-target', 'glad')
        Contains = @('cmake -S deps')
        NotContains = @('--install needs the executable') }
-    @{ Name = 'naming the executable target is allowed'; Args = @('-s', '-i', '--slicer-target', 'OrcaSlicer')
+    @{ Name = 'naming the executable target is allowed'; Args = @('-s', '-i', '--slicer-target', 'Backstage.IL')
        Contains = @('--target install') }
     # Ninja counts compilers, so -j goes on the command line. MSBuild's -j
     # counts projects while /MP still runs one cl per core inside each, so the
@@ -691,7 +691,7 @@ $cases = @(
        Contains = @('Rebuild after edits   build_win.bat -s -l -x --no-configure', 'Rebuild one target')
        NotContains = @('Solution', 'Open in Visual Studio') }
     @{ Name = 'a visual studio build names the solution instead'; Args = @('-s')
-       Contains = @('Solution      ', 'Open in Visual Studio build\OrcaSlicer.sln',
+       Contains = @('Solution      ', 'Open in Visual Studio build\Backstage.IL.sln',
                     'Rebuild after edits   build_win.bat -s --no-configure')
        NotContains = @('Rebuild one target') }
     @{ Name = 'the configuration and architecture come back'; Args = @('-s', '-l', '-x', '--config', 'debug', '--arch', 'arm64')
@@ -707,7 +707,7 @@ $cases = @(
     @{ Name = 'the binary is named in the build tree it was built in'; Args = @('-s', '-l', '-x')
        Contains = @('build-clang\src\Release\orca-slicer.exe') }
     @{ Name = 'installing names the installed copy instead'; Args = @('-s', '-l', '-x', '-i')
-       Contains = @('build-clang\OrcaSlicer\orca-slicer.exe') }
+       Contains = @('build-clang\Backstage.IL\orca-slicer.exe') }
     # -i changes where the binary lands, so a rebuild that dropped it would
     # leave the path above pointing at a stale copy.
     @{ Name = 'the rebuild suggestion keeps -i'; Args = @('-s', '-l', '-x', '-i')
@@ -723,9 +723,9 @@ $cases = @(
        Contains = @('Target        glad', 'Relink the binary     build_win.bat -s -l -x --no-configure')
        NotContains = @('Run it', 'orca-slicer.exe', 'Rebuild after edits') }
     # The executable has a target of its own, and naming that one does relink.
-    @{ Name = 'naming the executable target still claims the binary'; Args = @('-s', '-l', '-x', '--slicer-target', 'OrcaSlicer')
+    @{ Name = 'naming the executable target still claims the binary'; Args = @('-s', '-l', '-x', '--slicer-target', 'Backstage.IL')
        Contains = @('Run it', 'orca-slicer.exe', 'Rebuild after edits')
-       NotContains = @('Target        OrcaSlicer', 'Relink the binary') }
+       NotContains = @('Target        Backstage.IL', 'Relink the binary') }
     @{ Name = '--run-tests offers the ctest line'; Args = @('-s', '-l', '-x', '--run-tests')
        Contains = @('Re-run the tests      ctest --test-dir build-clang/tests -C Release') }
     @{ Name = 'packing names the bundle and how to use it'; Args = @('-p', '-l')
@@ -752,25 +752,25 @@ $cases = @(
     # The extension follows the generator, so these two pin the release and a
     # build directory that cannot already hold a solution of either kind.
     @{ Name = 'the 2026 generator gets the XML solution'; Args = @('-s', '--vs', '2026', '--build-dir', 'D:\tree')
-       Contains = @('Solution      D:\tree\OrcaSlicer.slnx', 'Open in Visual Studio D:\tree\OrcaSlicer.slnx') }
+       Contains = @('Solution      D:\tree\Backstage.IL.slnx', 'Open in Visual Studio D:\tree\Backstage.IL.slnx') }
     @{ Name = 'the releases before it get the classic one'; Args = @('-s', '--vs', '2022', '--build-dir', 'D:\tree')
-       Contains = @('Solution      D:\tree\OrcaSlicer.sln', 'Open in Visual Studio D:\tree\OrcaSlicer.sln') }
+       Contains = @('Solution      D:\tree\Backstage.IL.sln', 'Open in Visual Studio D:\tree\Backstage.IL.sln') }
     @{ Name = 'a solution already on disk wins over the generator'; Args = @('-s', '--vs', '2026', '--build-dir', $slnDir)
-       Match = @('^  Solution      .*\\OrcaSlicer\.sln$') }
+       Match = @('^  Solution      .*\\Backstage.IL\.sln$') }
     # Extension-agnostic from here: these cases are about the directory, and
     # the release is whatever is installed.
     @{ Name = 'the VS generator says where the solution is'; Args = @('-s')
-       Match = @('^  Solution      .*\\build\\OrcaSlicer\.slnx?$') }
+       Match = @('^  Solution      .*\\build\\Backstage.IL\.slnx?$') }
     @{ Name = 'the solution path follows the configuration'; Args = @('-s', '--config', 'debug')
-       Match = @('^  Solution      .*\\build-dbg\\OrcaSlicer\.slnx?$') }
+       Match = @('^  Solution      .*\\build-dbg\\Backstage.IL\.slnx?$') }
     @{ Name = 'the solution line survives an install'; Args = @('-s', '-i')
        Contains = @('  Solution      ') }
     # The path is resolved, not pasted onto the repository root, so it is
     # right whether --build-dir came absolute or with forward slashes.
     @{ Name = 'a moved build still prints one real path'; Args = @('-s', '--build-dir', 'out/build/x64-clang')
-       Match = @('^  Solution      [A-Za-z]:\\[^/]+\\OrcaSlicer\.slnx?$') }
+       Match = @('^  Solution      [A-Za-z]:\\[^/]+\\Backstage.IL\.slnx?$') }
     @{ Name = 'an absolute --build-dir is not glued onto the repo root'; Args = @('-s', '--build-dir', 'D:\tree')
-       Match = @('^  Solution      D:\\tree\\OrcaSlicer\.slnx?$') }
+       Match = @('^  Solution      D:\\tree\\Backstage.IL\.slnx?$') }
 )
 
 function Invoke-BuildScript {

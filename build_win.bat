@@ -1,6 +1,6 @@
 @echo off
 
-REM OrcaSlicer build script for Windows. Run with -h for the options.
+REM Backstage.IL build script for Windows. Run with -h for the options.
 
 REM ===========================================================================
 REM  Script setup
@@ -39,7 +39,7 @@ REM ===========================================================================
 
 call :add_section "Actions"
 call :add_arg build_deps bool d deps "Download and build the dependencies, needed before -s"
-call :add_arg build_slicer bool s slicer "Build OrcaSlicer"
+call :add_arg build_slicer bool s slicer "Build Backstage.IL"
 call :add_arg build_tests bool "" tests "Build the unit tests"
 call :add_arg run_tests bool "" run-tests "Build the unit tests and run them"
 call :add_arg pack_deps bool p pack "Bundle the built dependencies into a zip file"
@@ -66,7 +66,7 @@ call :add_arg slicer_target string "" slicer-target "Build one slicer target ins
 call :add_arg deps_target string t deps-target "Build one dependency instead of all, e.g. dep_Boost"
 call :add_arg no_configure bool "" no-configure "Build the existing tree without configuring"
 call :add_arg no_gettext bool "" no-gettext "Skip regenerating the translations"
-call :add_arg install_slicer bool i install "Install into the build tree's OrcaSlicer folder"
+call :add_arg install_slicer bool i install "Install into the build tree's Backstage.IL folder"
 call :add_arg jobs string j jobs "Limit the build to N parallel jobs"
 call :add_arg clean bool c clean "Remove the trees this run builds, deps with -d, slicer with -s"
 
@@ -214,9 +214,9 @@ if not "%vs_version%" == "" if "%use_ninja%" == "ON" (
     echo --vs and --ninja select different generators.
     exit /b 1
 )
-REM install(TARGETS OrcaSlicer) carries no OPTIONAL, so installing a tree
+REM install(TARGETS Backstage.IL) carries no OPTIONAL, so installing a tree
 REM whose executable was never built fails. Say so before the build starts.
-if "%build_slicer%" == "ON" if "%install_slicer%" == "ON" if not "%slicer_target%" == "" if /I not "%slicer_target%" == "OrcaSlicer" (
+if "%build_slicer%" == "ON" if "%install_slicer%" == "ON" if not "%slicer_target%" == "" if /I not "%slicer_target%" == "Backstage.IL" (
     echo --install needs the executable, but --slicer-target names "%slicer_target%".
     exit /b 1
 )
@@ -605,7 +605,7 @@ if "%pack_deps%" == "ON" (
     set "dep_variant=%arch%"
     if "%use_clang_cl%" == "ON" set "dep_variant=!dep_variant!-clang"
     set "dep_variant=!dep_variant!!dep_flavour!"
-    echo Packing the dependencies: OrcaSlicer_dep_win-!dep_variant!_!build_date!.zip
+    echo Packing the dependencies: Backstage.IL_dep_win-!dep_variant!_!build_date!.zip
 
     REM tools\7z.exe loads its codecs from a 7z.dll, and the repo does not
     REM carry one, so it can only archive on a machine that has 7-Zip
@@ -622,15 +622,15 @@ if "%pack_deps%" == "ON" (
         goto :die
     )
 
-    call :print_and_run !zipper! OrcaSlicer_dep_win-!dep_variant!_!build_date!.zip OrcaSlicer_dep
+    call :print_and_run !zipper! Backstage.IL_dep_win-!dep_variant!_!build_date!.zip Backstage.IL_dep
     %error_check%
     REM endlocal is about to discard the name, so carry the path out with it.
-    for %%z in ("!DEP_TREE_PACK!\OrcaSlicer_dep_win-!dep_variant!_!build_date!.zip") do endlocal & set "bundle=%%~fz"
+    for %%z in ("!DEP_TREE_PACK!\Backstage.IL_dep_win-!dep_variant!_!build_date!.zip") do endlocal & set "bundle=%%~fz"
 )
 
 if "%build_slicer%" == "ON" (
     set "stage=s"
-    echo Building OrcaSlicer...
+    echo Building Backstage.IL...
 
     if "%clean%" == "ON" (
         call :clean_tree "%build_dir%"
@@ -645,7 +645,7 @@ if "%build_slicer%" == "ON" (
     REM package resolution. Name it here instead. Skipped when -d is about to
     REM build it in this same run, and under a dry run, which configures
     REM nothing and must not depend on what happens to be on the machine.
-    if not "%dry_run%" == "ON" if not "%no_configure%" == "ON" if not "%build_deps%" == "ON" if not exist "!DEP_TREE!\OrcaSlicer_dep\usr\local\" (
+    if not "%dry_run%" == "ON" if not "%no_configure%" == "ON" if not "%build_deps%" == "ON" if not exist "!DEP_TREE!\Backstage.IL_dep\usr\local\" (
         for %%p in ("!DEP_TREE!") do set "die_reason=Dependencies not found at %%~fp"
         set "die_hint=Build them with build_win.bat -d!recall!."
         REM Only worth suggesting to someone who did not name a tree.
@@ -733,21 +733,21 @@ REM worked out the same way in either run.
     for %%p in ("!DEP_TREE!") do set "dep_full=%%~fp"
     REM The binary only leaves the build tree when it is installed.
     set "slicer_exe=%build_dir%\src\%build_type%\orca-slicer.exe"
-    if "%install_slicer%" == "ON" set "slicer_exe=%build_dir%\OrcaSlicer\orca-slicer.exe"
+    if "%install_slicer%" == "ON" set "slicer_exe=%build_dir%\Backstage.IL\orca-slicer.exe"
     for %%p in ("!slicer_exe!") do set "slicer_full=%%~fp"
-    REM The 2026 generator writes OrcaSlicer.slnx, the releases before it
-    REM OrcaSlicer.sln. A file already there wins, in case an older CMake
+    REM The 2026 generator writes Backstage.IL.slnx, the releases before it
+    REM Backstage.IL.sln. A file already there wins, in case an older CMake
     REM configured the build.
-    set "solution=OrcaSlicer.sln"
-    if "%vs_version%" == "2026" set "solution=OrcaSlicer.slnx"
-    if exist "!build_full!\OrcaSlicer.sln" set "solution=OrcaSlicer.sln"
-    if exist "!build_full!\OrcaSlicer.slnx" set "solution=OrcaSlicer.slnx"
+    set "solution=Backstage.IL.sln"
+    if "%vs_version%" == "2026" set "solution=Backstage.IL.slnx"
+    if exist "!build_full!\Backstage.IL.sln" set "solution=Backstage.IL.sln"
+    if exist "!build_full!\Backstage.IL.slnx" set "solution=Backstage.IL.slnx"
 
     REM Naming a target builds it and its dependencies, not its dependents,
     REM so only a full build or the executable's own target relinks.
     set "linked=ON"
     if not "%slicer_target%" == "" set "linked="
-    if /I "%slicer_target%" == "OrcaSlicer" set "linked=ON"
+    if /I "%slicer_target%" == "Backstage.IL" set "linked=ON"
 
     echo.
     echo -------------------------------------------------------------
@@ -758,7 +758,7 @@ REM worked out the same way in either run.
     )
 
     if "%build_deps%" == "ON" echo   Dependencies  !dep_full!
-    if "%build_slicer%" == "ON" if "%linked%" == "ON" echo   OrcaSlicer    !slicer_full!
+    if "%build_slicer%" == "ON" if "%linked%" == "ON" echo   Backstage.IL    !slicer_full!
     if "%build_slicer%" == "ON" if not "%linked%" == "ON" echo   Target        %slicer_target%
     if "%build_slicer%" == "ON" if not "%using_ninja%" == "ON" echo   Solution      %build_full%\!solution!
     if "%pack_deps%" == "ON" if defined bundle echo   Bundle        !bundle!
@@ -849,7 +849,7 @@ REM get_str_len <string> -> length in %ret%
     set padding=
     for /L %%i in (0, 1, %max_len%) do set "padding=!padding! "
 
-    echo Builds OrcaSlicer and its dependencies on Windows.
+    echo Builds Backstage.IL and its dependencies on Windows.
     echo.
     echo Usage: %script_name% [options]
     set /A range_end = %argdefn% - 1
