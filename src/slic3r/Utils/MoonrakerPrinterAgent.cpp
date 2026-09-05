@@ -1499,7 +1499,7 @@ void MoonrakerPrinterAgent::run_status_stream(std::string dev_id, std::string ba
             identify["params"]["client_name"] = "Backstage.IL";
             identify["params"]["version"]     = MoonrakerPrinterAgent_VERSION;
             identify["params"]["type"]        = "agent";
-            identify["params"]["url"]         = "https://github.com/SoftFever/Backstage.IL";
+            identify["params"]["url"]         = "https://github.com/SoftFever/OrcaSlicer";
             identify["id"]                    = 0;
             ws.write(net::buffer(identify.dump()));
 

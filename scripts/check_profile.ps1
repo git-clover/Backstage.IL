@@ -80,8 +80,8 @@ $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol =
     [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-$ValidatorReleaseUrl = 'https://github.com/Backstage.IL/Backstage.IL/releases/download/nightly-builds'
-$FixtureReleaseUrl = 'https://github.com/Backstage.IL/Backstage.IL-profile-validator/releases/download/fixture-archive'
+$ValidatorReleaseUrl = 'https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds'
+$FixtureReleaseUrl = 'https://github.com/OrcaSlicer/OrcaSlicer-profile-validator/releases/download/fixture-archive'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 

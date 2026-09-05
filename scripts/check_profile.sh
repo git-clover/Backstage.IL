@@ -22,8 +22,8 @@
 
 set -uo pipefail
 
-VALIDATOR_RELEASE_URL="https://github.com/Backstage.IL/Backstage.IL/releases/download/nightly-builds"
-FIXTURE_RELEASE_URL="https://github.com/Backstage.IL/Backstage.IL-profile-validator/releases/download/fixture-archive"
+VALIDATOR_RELEASE_URL="https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds"
+FIXTURE_RELEASE_URL="https://github.com/OrcaSlicer/OrcaSlicer-profile-validator/releases/download/fixture-archive"
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd -- "${SCRIPT_DIR}/.." && pwd)"

@@ -902,7 +902,7 @@ void Sidebar::priv::layout_printer(bool isBBL, bool isDual)
     PresetBundle &preset_bundle = *wxGetApp().preset_bundle;
     const auto& cfg = preset_bundle.printers.get_edited_preset().config;
     // Orca: we use preset_bundle.is_bbl_vendor() instead of isBBL to determine if the plate type combo box should be shown
-    // ref: https://github.com/Backstage.IL/Backstage.IL/pull/11610#discussion_r2607411847
+    // ref: https://github.com/OrcaSlicer/OrcaSlicer/pull/11610#discussion_r2607411847
     panel_printer_bed->Show(preset_bundle.is_bbl_vendor() || cfg.opt_bool("support_multi_bed_types"));
 
     extruder_dual_sizer->Show(isDual);

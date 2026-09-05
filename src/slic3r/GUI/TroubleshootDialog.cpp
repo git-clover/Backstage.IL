@@ -139,7 +139,7 @@ TroubleshootDialog::TroubleshootDialog()
 
     auto build = new Button(this, wxString(GIT_COMMIT_HASH));
     build->SetStyle(ButtonStyle::Regular, ButtonType::Window);
-    auto hash_url = "https://github.com/Backstage.IL/Backstage.IL/commit/" + wxString(GIT_COMMIT_HASH);
+    auto hash_url = "https://github.com/OrcaSlicer/OrcaSlicer/commit/" + wxString(GIT_COMMIT_HASH);
     build->SetToolTip(hash_url);
     build->Bind(wxEVT_BUTTON, [hash_url](wxCommandEvent &e) {
          wxLaunchDefaultBrowser(hash_url);
@@ -248,7 +248,7 @@ TroubleshootDialog::TroubleshootDialog()
             return out;
         };
 
-        wxString url = "https://github.com/Backstage.IL/Backstage.IL/issues/new?template=bug_report.yml";
+        wxString url = "https://github.com/OrcaSlicer/OrcaSlicer/issues/new?template=bug_report.yml";
         wxString os = GetOStype();
         if(!os.IsEmpty())
             url += "&os_type=%22" + os +"%22";

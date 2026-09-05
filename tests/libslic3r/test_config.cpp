@@ -285,7 +285,7 @@ TEST_CASE("Flush-volume warning predicate respects used filament transitions", "
     }
 }
 
-// TODO: https://github.com/SoftFever/Backstage.IL/issues/11269 - Is this test still relevant? Delete if not.
+// TODO: https://github.com/SoftFever/OrcaSlicer/issues/11269 - Is this test still relevant? Delete if not.
 // It was failing so at least "nozzle_type" and "extruder_printable_area" could not be serialized
 // and an exception was thrown, but "nozzle_type" has been around for at least 3 months now.
 // So maybe this test and the serialization logic in Config.?pp should be deleted if it doesn't get used.
