@@ -281,7 +281,7 @@ jobs:
       shell: bash
     - name: Compute the flatpak-builder cache key
       id: fp_cache_key
-      run: echo "key=flatpak-builder-${{ matrix.variant.arch }}-${{ hashFiles('deps/**', 'scripts/flatpak/com.orcaslicer.OrcaSlicer.yml', 'scripts/flatpak/make_deps_tar.sh') }}" >> "$GITHUB_OUTPUT"
+      run: echo "key=flatpak-builder-${{ matrix.variant.arch }}-${{ hashFiles('deps/**', 'scripts/flatpak/com.idolabs.Backstage.IL.yml', 'scripts/flatpak/make_deps_tar.sh') }}" >> "$GITHUB_OUTPUT"
       shell: bash
     # Manage flatpak-builder cache externally so PRs restore but never upload
     - name: Restore flatpak-builder cache
@@ -301,12 +301,12 @@ jobs:
     - name: Disable debug info for faster CI builds
       run: |
         sed -i '/^build-options:/a\  no-debuginfo: true\n  strip: true' \
-          scripts/flatpak/com.orcaslicer.OrcaSlicer.yml
+          scripts/flatpak/com.idolabs.Backstage.IL.yml
       shell: bash
     - name: Inject git commit hash into Flatpak manifest
       run: |
         sed -i "/name: OrcaSlicer/{n;s|buildsystem: simple|buildsystem: simple\n    build-options:\n      env:\n        git_commit_hash: \"$git_commit_hash\"|}" \
-          scripts/flatpak/com.orcaslicer.OrcaSlicer.yml
+          scripts/flatpak/com.idolabs.Backstage.IL.yml
       shell: bash
     - name: Check the manifest keeps orca_deps cacheable
       run: ./scripts/flatpak/check_manifest_cacheable.sh
@@ -317,7 +317,7 @@ jobs:
     - uses: flatpak/flatpak-github-actions/flatpak-builder@master
       with:
         bundle: OrcaSlicer-Linux-flatpak_${{ env.ver }}_${{ matrix.variant.arch }}.flatpak
-        manifest-path: scripts/flatpak/com.orcaslicer.OrcaSlicer.yml
+        manifest-path: scripts/flatpak/com.idolabs.Backstage.IL.yml
         cache: false
         arch: ${{ matrix.variant.arch }}
         upload-artifact: false
