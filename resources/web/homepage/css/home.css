@@ -1,3 +1,5 @@
+/* CHINESE COMMENTS AHEAD! Prepare your translator */
+
 *
 {
 	padding:0px;
@@ -94,7 +96,7 @@ body
 	--account-meta         : #7C8282;
 	--account-border       : #DBDBDB;
 	--account-divider      : #E2E4E4;
-	--account-action       : #00796B;
+	--account-action       : #004FBD;
 	--account-danger       : #D33B3B;
 	--account-danger-bg    : rgba(211, 59, 59, 0.10);
 	--account-warn-bg      : rgba(240, 126, 74, 0.12);  /*----var(--warn-color) at 12%----*/
