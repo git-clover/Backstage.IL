@@ -25,7 +25,7 @@ ButtonsListCtrl::ButtonsListCtrl(wxWindow *parent, wxBoxSizer* side_tools) :
 #ifdef __APPLE__
     default_btn_bg = wxColour("#3B485B"); // Gradient #414B4E
 #else
-    default_btn_bg = wxColour("#2D2D30"); // Gradient #414B4E
+    default_btn_bg = wxColour("#3B485A"); // Gradient #414B4E
 #endif
 
    
