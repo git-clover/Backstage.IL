@@ -1133,7 +1133,7 @@ msgid "Show wireframe"
 msgstr "와이어프레임 보기"
 
 msgid "Unable to apply when processing preview"
-msgstr "미리 보기 진행 시 적용할 수 없습니다."
+msgstr "리허설 진행 시 적용할 수 없습니다."
 
 msgid "Operation already cancelling. Please wait a few seconds."
 msgstr "작업이 이미 취소중입니다. 몇 초만 기다려 주십시오."
@@ -6198,16 +6198,16 @@ msgid "Logging"
 msgstr "로깅"
 
 msgid "Prepare"
-msgstr "준비 하기"
+msgstr "준비"
 
 msgid "Preview"
-msgstr "미리 보기"
+msgstr "리허설"
 
 msgid "Device"
-msgstr "장치"
+msgstr "현장 라이브"
 
 msgid "Multi-device"
-msgstr "멀티 디바이스"
+msgstr "멀티버스"
 
 msgid "Project"
 msgstr "프로젝트"
@@ -6226,29 +6226,29 @@ msgid "will be closed before creating a new model. Do you want to continue?"
 msgstr "새 모델을 생성하기 전에 닫힙니다. 계속하시겠습니까?"
 
 msgid "Slice plate"
-msgstr "플레이트 슬라이스"
+msgstr "슬라이스!"
 
 msgid "Print plate"
-msgstr "플레이트 출력"
+msgstr "공연 시작!"
 
 msgid "Export G-code file"
 msgstr "Gcode 파일 내보내기"
 
 msgctxt "Verb"
 msgid "Print"
-msgstr "출력"
+msgstr "공연 시작!"
 
 msgid "Export plate sliced file"
-msgstr "플레이트 슬라이스 파일 내보내기"
+msgstr "외부 디스크로 내보내기"
 
 msgid "Send"
 msgstr "전송"
 
 msgid "Export all sliced file"
-msgstr "모든 슬라이스 파일 내보내기"
+msgstr "모두 내보내기"
 
 msgid "Print all"
-msgstr "모두 출력"
+msgstr "모두 시작"
 
 msgid "Send all"
 msgstr "모두 전송"
@@ -8465,7 +8465,7 @@ msgid ""
 "Preview only mode:\n"
 "The loaded file contains G-code only, cannot enter the Prepare page."
 msgstr ""
-"미리 보기 전용 모드:\n"
+"리허설 전용 모드:\n"
 "불러온 파일에 Gcode만 포함되어 있습니다. 준비 페이지에 들어갈 수 없습니다."
 
 # AI Translated
@@ -12080,7 +12080,7 @@ msgid "Tab"
 msgstr "Tab"
 
 msgid "Switch between Prepare/Preview"
-msgstr "준비 하기/미리 보기 전환"
+msgstr "준비/리허설 전환"
 
 # AI Translated
 msgctxt "Keyboard Shortcut"
@@ -22128,7 +22128,7 @@ msgid ""
 "You can switch between <b>Prepare</b> and <b>Preview</b> workspaces by pressing the <b>Tab</b> key."
 msgstr ""
 "작업 공간 전환\n"
-"<b>Tab</b> 키를 눌러 <b>준비</b> 작업 공간과 <b>미리 보기</b> 작업 공간 사이를 전환할 수 있습니다."
+"<b>Tab</b> 키를 눌러 <b>준비</b> 작업 공간과 <b>리허설</b> 작업 공간 사이를 전환할 수 있습니다."
 
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
