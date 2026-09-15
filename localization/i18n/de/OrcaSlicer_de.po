@@ -22378,12 +22378,12 @@ msgstr ""
 #~ msgstr "Anzeigen/Verstecken erweiterte Parameter"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "linke Düse: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "linke Düse: %s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "rechte Düse: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "rechte Düse: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "Die Funktion \"Modell reparieren\" ist derzeit nur unter Windows verfügbar. Bitte reparieren Sie das Modell in Orca Slicer (Windows) oder CAD-Software."

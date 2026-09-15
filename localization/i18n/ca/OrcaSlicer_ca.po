@@ -22760,12 +22760,12 @@ msgstr ""
 #~ msgstr "Mostra/Amaga paràmetres avançats"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "Broquet esquerre: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "Broquet esquerre: %s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "Broquet dret: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "Broquet dret: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "Actualment, la funció \"Reparar el model\" només es troba a Windows. Repareu el model a l'Orca Slicer ( windows ) o programes de CAD."

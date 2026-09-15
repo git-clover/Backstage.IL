@@ -22699,11 +22699,11 @@ msgstr ""
 #~ msgid "Show/Hide advanced parameters"
 #~ msgstr "Gelişmiş parametreleri Göster/Gizle"
 
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "Sol püskürtme ucu: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "Sol püskürtme ucu: %s mm"
 
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "Sağ nozul: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "Sağ nozul: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "\"Modeli Onar\" özelliği şu anda yalnızca Windows'ta bulunmaktadır. Lütfen modeli Orca Slicer (windows) veya CAD yazılımlarında onarın."

@@ -3112,15 +3112,15 @@ void GCode::_do_export(Print& print, GCodeOutputStream &file, ThumbnailsGenerato
     const double       initial_layer_print_height   = print.config().initial_layer_print_height.value;
     for (size_t region_id = 0; region_id < print.num_print_regions(); ++ region_id) {
         const PrintRegion &region = print.get_print_region(region_id);
-        file.write_format("; external perimeters extrusion width = %.2fmm\n", region.flow(*first_object, frExternalPerimeter, layer_height).width());
-        file.write_format("; perimeters extrusion width = %.2fmm\n",          region.flow(*first_object, frPerimeter,         layer_height).width());
-        file.write_format("; infill extrusion width = %.2fmm\n",              region.flow(*first_object, frInfill,            layer_height).width());
-        file.write_format("; solid infill extrusion width = %.2fmm\n",        region.flow(*first_object, frSolidInfill,       layer_height).width());
-        file.write_format("; top infill extrusion width = %.2fmm\n",          region.flow(*first_object, frTopSolidInfill,    layer_height).width());
+        file.write_format("; external perimeters extrusion width = %.2f mm\n", region.flow(*first_object, frExternalPerimeter, layer_height).width());
+        file.write_format("; perimeters extrusion width = %.2f mm\n",          region.flow(*first_object, frPerimeter,         layer_height).width());
+        file.write_format("; infill extrusion width = %.2f mm\n",              region.flow(*first_object, frInfill,            layer_height).width());
+        file.write_format("; solid infill extrusion width = %.2f mm\n",        region.flow(*first_object, frSolidInfill,       layer_height).width());
+        file.write_format("; top infill extrusion width = %.2f mm\n",          region.flow(*first_object, frTopSolidInfill,    layer_height).width());
         if (print.has_support_material())
-            file.write_format("; support material extrusion width = %.2fmm\n", support_material_flow(first_object).width());
+            file.write_format("; support material extrusion width = %.2f mm\n", support_material_flow(first_object).width());
         if (print.config().initial_layer_line_width.value > 0)
-            file.write_format("; first layer extrusion width = %.2fmm\n",   region.flow(*first_object, frPerimeter, initial_layer_print_height, true).width());
+            file.write_format("; first layer extrusion width = %.2f mm\n",   region.flow(*first_object, frPerimeter, initial_layer_print_height, true).width());
         file.write_format("\n");
     }
 

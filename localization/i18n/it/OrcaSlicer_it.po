@@ -22525,12 +22525,12 @@ msgstr ""
 #~ msgstr "Mostra/Nascondi parametri avanzati"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "Ugello sinistro: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "Ugello sinistro: %s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "Ugello destro: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "Ugello destro: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "La funzione \"Correggi modello\" è attualmente disponibile solo su Windows. Si prega di riparare il modello su OrcaSlicer (Windows) o software CAD."

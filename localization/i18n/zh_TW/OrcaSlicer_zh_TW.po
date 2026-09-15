@@ -22313,12 +22313,12 @@ msgstr ""
 #~ msgstr "顯示/隱藏進階參數"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "左噴嘴：%smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "左噴嘴：%s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "右噴嘴：%smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "右噴嘴：%s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "「模型修復」功能目前僅適用於 Windows。請在 Orca Slicer（Windows）或 CAD 軟體中修復模型。"

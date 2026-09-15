@@ -22529,12 +22529,12 @@ msgstr ""
 #~ msgstr "Speciális paraméterek megjelenítése/elrejtése"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "Bal fúvóka: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "Bal fúvóka: %s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "Jobb fúvóka: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "Jobb fúvóka: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "A \"Modell javítása\" funkció jelenleg csak Windows alatt érhető el. Javítsd a modellt Orca Slicerben (Windows) vagy valamelyik CAD szoftverben."

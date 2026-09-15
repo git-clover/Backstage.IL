@@ -22897,11 +22897,11 @@ msgstr ""
 #~ msgstr "Расширенные настройки"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
+#~ msgid "Left nozzle: %s mm"
 #~ msgstr "Левый экструдер: %s мм"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
+#~ msgid "Right nozzle: %s mm"
 #~ msgstr "Правый экструдер: %s мм"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."

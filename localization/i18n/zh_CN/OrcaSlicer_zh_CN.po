@@ -22161,12 +22161,12 @@ msgstr ""
 #~ msgstr "显示/隐藏高级参数"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "左喷嘴：%smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "左喷嘴：%s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "右喷嘴：%smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "右喷嘴：%s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "\"修复模型\"功能目前仅适用于Windows。请在逆戟鲸切片器(windows)或CAD软件上修复模型。"

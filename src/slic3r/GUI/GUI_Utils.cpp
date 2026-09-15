@@ -44,7 +44,7 @@ wxString format_nozzle_diameter(float diameter)
         return _L("Unknown");
     }
 
-    return wxString::Format("%smm", wxString::FromDouble(diameter));
+    return wxString::Format("%s mm", wxString::FromDouble(diameter));
 }
 
 CopyFileResult copy_file_gui(const std::string &from, const std::string &to, std::string& error_message, const bool with_check)

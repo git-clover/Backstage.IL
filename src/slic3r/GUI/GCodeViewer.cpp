@@ -3473,7 +3473,7 @@ void GCodeViewer::render_legend(float &legend_height, int canvas_width, int canv
         } else if (std::fabs(distance_mm) < 1000.0f) {
             ::sprintf(buffer, "%.0fmm", distance_mm);
         } else {
-            ::sprintf(buffer, "%.2fm", distance_mm / 1000.0f);
+            ::sprintf(buffer, "%.2f m", distance_mm / 1000.0f);
         }
         return std::string(buffer);
     };
@@ -3699,7 +3699,7 @@ void GCodeViewer::render_legend(float &legend_height, int canvas_width, int canv
                 percents.push_back(buffer);
 
                 auto [model_used_filament_m, model_used_filament_g] = used_filament_per_role(convert(role));
-                ::sprintf(buffer, imperial_units ? "%.2fin" : "%.2fm", model_used_filament_m); // ORCA dont use spacing between value and unit
+                ::sprintf(buffer, imperial_units ? "%.2fin" : "%.2f m", model_used_filament_m); // ORCA dont use spacing between value and unit
                 used_filaments_length.push_back(buffer);
                 used_filaments_weight.push_back(format_compact_weight(model_used_filament_g, imperial_units));
             }

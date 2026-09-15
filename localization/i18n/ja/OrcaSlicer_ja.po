@@ -22962,12 +22962,12 @@ msgstr ""
 #~ msgstr "詳細パラメータの表示/非表示"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "左ノズル: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "左ノズル: %s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "右ノズル: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "右ノズル: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "「モデル修復」はWindowsのみご利用できます。Orca Slicer (Windows)か他のCADソフトウェアで修復してください。"

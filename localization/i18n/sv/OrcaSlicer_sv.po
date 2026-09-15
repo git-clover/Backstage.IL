@@ -24855,12 +24855,12 @@ msgstr ""
 #~ msgstr "Show/Hide advanced parameters"
 
 #, c-format, boost-format
-#~ msgid "Left nozzle: %smm"
-#~ msgstr "Left nozzle: %smm"
+#~ msgid "Left nozzle: %s mm"
+#~ msgstr "Left nozzle: %s mm"
 
 #, c-format, boost-format
-#~ msgid "Right nozzle: %smm"
-#~ msgstr "Right nozzle: %smm"
+#~ msgid "Right nozzle: %s mm"
+#~ msgstr "Right nozzle: %s mm"
 
 #~ msgid "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
 #~ msgstr "\"Fix Model\" feature is currently only on Windows. Please repair the model on Orca Slicer(windows) or CAD softwares."
