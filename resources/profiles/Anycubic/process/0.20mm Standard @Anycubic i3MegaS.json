@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Anycubic i3MegaS",
+	"name": "0.20 mm Standard @Anycubic i3MegaS",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "lI7dHvKmsEmoSw1k",

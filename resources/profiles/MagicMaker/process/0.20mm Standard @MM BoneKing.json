@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @MM BoneKing",
+	"name": "0.20 mm Standard @MM BoneKing",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "ON1x9dQTQTgGNLCw",

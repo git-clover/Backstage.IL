@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "48QrtoSmDHWLbuck",
-	"name": "0.20mm Standard @Tiertime UP310 Pro",
+	"name": "0.20 mm Standard @Tiertime UP310 Pro",
 	"from": "system",
 	"inherits": "fdm_process_tiertime_common",
 	"instantiation": "true",

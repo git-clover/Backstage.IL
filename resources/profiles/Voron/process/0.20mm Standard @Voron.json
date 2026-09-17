@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Voron",
+	"name": "0.20 mm Standard @Voron",
 	"inherits": "fdm_process_voron_common",
 	"from": "system",
 	"setting_id": "woKQ9fsFs3B9vQCS",

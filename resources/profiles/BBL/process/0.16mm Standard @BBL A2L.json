@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @BBL A2L",
+	"name": "0.16 mm Standard @BBL A2L",
 	"inherits": "fdm_process_single_0.16",
 	"from": "system",
 	"setting_id": "GP188",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @InfiMech TX HSN",
+	"name": "0.16 mm Optimal @InfiMech TX HSN",
 	"inherits": "fdm_process_common_HSN",
 	"from": "system",
 	"setting_id": "CvcMTqcs64jEvpTU",

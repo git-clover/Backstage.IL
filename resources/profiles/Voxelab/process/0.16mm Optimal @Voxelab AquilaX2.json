@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Voxelab AquilaX2",
+	"name": "0.16 mm Optimal @Voxelab AquilaX2",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "xCSbqEmBX0IB51ZS",

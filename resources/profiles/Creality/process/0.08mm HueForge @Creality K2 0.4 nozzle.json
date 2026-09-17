@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "rWpJRnZscjXyKngw",
-	"name": "0.08mm HueForge @Creality K2 0.4 nozzle",
+	"name": "0.08 mm HueForge @Creality K2 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

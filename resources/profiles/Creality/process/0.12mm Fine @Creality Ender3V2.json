@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Creality Ender3V2",
+	"name": "0.12 mm Fine @Creality Ender3V2",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "BYotUlZcqUXYiUJD",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @SecKit",
+	"name": "0.24 mm Draft @SecKit",
 	"inherits": "fdm_process_seckit_common",
 	"from": "system",
 	"setting_id": "5ga86b5bk6nh508d",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Detail @Anycubic Kobra 3 0.4 nozzle",
+	"name": "0.12 mm Detail @Anycubic Kobra 3 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "AWLEg4FRuO88XinK",

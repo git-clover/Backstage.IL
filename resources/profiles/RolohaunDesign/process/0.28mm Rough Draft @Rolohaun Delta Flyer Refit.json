@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.28mm Rough Draft @Delta Flyer Refit",
+	"name": "0.28 mm Rough Draft @Delta Flyer Refit",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
 	"setting_id": "NuhxjJV8xicvogSR",

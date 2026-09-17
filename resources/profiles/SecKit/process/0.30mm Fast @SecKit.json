@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Fast @SecKit",
+	"name": "0.30 mm Fast @SecKit",
 	"inherits": "fdm_process_seckit_common",
 	"from": "system",
 	"setting_id": "rQBlAmuWJckqJJPS",

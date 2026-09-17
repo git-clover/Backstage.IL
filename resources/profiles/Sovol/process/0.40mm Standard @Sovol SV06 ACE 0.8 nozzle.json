@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @Sovol SV06 ACE 0.8 nozzle",
+	"name": "0.40 mm Standard @Sovol SV06 ACE 0.8 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "hkA5BT13eWBp5BKQ",

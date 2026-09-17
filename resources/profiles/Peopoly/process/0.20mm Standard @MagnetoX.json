@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Magneto X",
+	"name": "0.20 mm Standard @Magneto X",
 	"inherits": "fdm_process_pply_0.20",
 	"from": "system",
 	"setting_id": "qVan2trPK4Nkyet7",

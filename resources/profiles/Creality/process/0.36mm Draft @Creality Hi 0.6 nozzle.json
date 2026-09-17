@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.36mm Draft @Creality Hi",
+	"name": "0.36 mm Draft @Creality Hi",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "lD86ZxmhqaFLOXs7",

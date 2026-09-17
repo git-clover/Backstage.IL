@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 0.8",
+	"name": "0.25 mm Speed @RatRig V-Core 4 HYBRID 0.8",
 	"inherits": "fdm_process_ratrig_common",
 	"from": "system",
 	"setting_id": "H184xduBA87wa2nV",

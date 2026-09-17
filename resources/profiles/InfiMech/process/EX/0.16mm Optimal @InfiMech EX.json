@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @InfiMech EX",
+	"name": "0.16 mm Optimal @InfiMech EX",
 	"inherits": "fdm_process_common_EX",
 	"from": "system",
 	"setting_id": "2QMczcvFGi3AM0Jv",

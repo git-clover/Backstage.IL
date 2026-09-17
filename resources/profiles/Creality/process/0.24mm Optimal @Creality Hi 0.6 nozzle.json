@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Optimal @Creality Hi",
+	"name": "0.24 mm Optimal @Creality Hi",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "7uxCpPqUS9Lz1TK8",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.32mm Chunky @Creality CR-6 0.6",
+	"name": "0.32 mm Chunky @Creality CR-6 0.6",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "i2NGg5j1cOMUg3dV",

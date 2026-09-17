@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Creality CR10Max",
+	"name": "0.12 mm Fine @Creality CR10Max",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "eeiPSOyL4ergqQ07",

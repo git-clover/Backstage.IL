@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Sovol SV06Plus",
+	"name": "0.20 mm Standard @Sovol SV06Plus",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "bku5PsptBdjUrbQ6",

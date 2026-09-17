@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Draft Fast @MM hqs SF",
+	"name": "0.30 mm Draft Fast @MM hqs SF",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "G2b2NRdM3geucH0v",

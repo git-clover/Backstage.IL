@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Comgrow T500",
+	"name": "0.20 mm Standard @Comgrow T500",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "D15fxV5mACh2XWMT",

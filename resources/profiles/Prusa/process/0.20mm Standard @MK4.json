@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @MK4",
+	"name": "0.20 mm Standard @MK4",
 	"inherits": "process_common_mk4",
 	"from": "system",
 	"setting_id": "zRE35Z5rfEnie6Io",

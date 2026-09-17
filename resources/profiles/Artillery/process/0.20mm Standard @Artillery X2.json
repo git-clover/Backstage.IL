@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "Uuco1eKObqt1aypG",
-	"name": "0.20mm Standard @Artillery X2",
+	"name": "0.20 mm Standard @Artillery X2",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_common",

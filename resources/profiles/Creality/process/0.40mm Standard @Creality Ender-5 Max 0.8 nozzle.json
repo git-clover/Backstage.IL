@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "7HQvsdltfdC8N5Hw",
-	"name": "0.40mm Standard @Creality Ender-5 Max 0.8 nozzle",
+	"name": "0.40 mm Standard @Creality Ender-5 Max 0.8 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

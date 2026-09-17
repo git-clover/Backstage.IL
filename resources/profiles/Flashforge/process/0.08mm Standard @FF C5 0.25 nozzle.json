@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Standard @FF C5 0.25 nozzle",
+	"name": "0.08 mm Standard @FF C5 0.25 nozzle",
 	"inherits": "0.10mm Standard @FF AD5X 0.25 nozzle",
 	"from": "system",
 	"setting_id": "KrOSCGKyvNy9v08u",

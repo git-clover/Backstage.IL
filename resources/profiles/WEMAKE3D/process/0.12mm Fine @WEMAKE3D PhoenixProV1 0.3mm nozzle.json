@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+	"name": "0.12 mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
 	"setting_id": "wAsOQFNNDiluP4fB",
 	"instantiation": "true",

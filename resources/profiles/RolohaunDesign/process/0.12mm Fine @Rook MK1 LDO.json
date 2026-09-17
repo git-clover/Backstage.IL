@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Rook MK1 LDO",
+	"name": "0.12 mm Fine @Rook MK1 LDO",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
 	"setting_id": "uKLOmFBVxZVJ4GKa",

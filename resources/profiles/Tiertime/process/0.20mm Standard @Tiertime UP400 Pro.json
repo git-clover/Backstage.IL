@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "QotYAumKUh7h5cBH",
-	"name": "0.20mm Standard @Tiertime UP400 Pro",
+	"name": "0.20 mm Standard @Tiertime UP400 Pro",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_tiertime_common",

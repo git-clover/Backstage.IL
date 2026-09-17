@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.48mm Standard @Z-Bolt S400 0.8 nozzle",
+	"name": "0.48 mm Standard @Z-Bolt S400 0.8 nozzle",
 	"inherits": "fdm_process_zbolt_0.48_nozzle_0.8",
 	"from": "system",
 	"setting_id": "9WxhJWzZzlIc9PWh",

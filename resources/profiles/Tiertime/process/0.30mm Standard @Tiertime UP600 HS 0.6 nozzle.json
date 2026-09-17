@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Standard @Tiertime UP600 HS 0.6 nozzle",
+	"name": "0.30 mm Standard @Tiertime UP600 HS 0.6 nozzle",
 	"inherits": "fdm_process_tiertime_0.30_nozzle_0.6_HS",
 	"from": "system",
 	"setting_id": "feDmukIZ41HO21a6",

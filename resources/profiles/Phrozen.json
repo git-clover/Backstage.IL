@@ -15,7 +15,7 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.20mm Standard @Phrozen Arco 0.4 nozzle",
+			"name": "0.20 mm Standard @Phrozen Arco 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Phrozen Arco 0.4 nozzle.json"
 		}
 	],

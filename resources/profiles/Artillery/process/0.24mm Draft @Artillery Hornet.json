@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "vK3z8VB7eFi5wSEy",
-	"name": "0.24mm Draft @Artillery Hornet",
+	"name": "0.24 mm Draft @Artillery Hornet",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_common",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm SuperDetail @Creality K2 0.2 nozzle",
+	"name": "0.08 mm SuperDetail @Creality K2 0.2 nozzle",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "EnApHkeVPFdim9oX",

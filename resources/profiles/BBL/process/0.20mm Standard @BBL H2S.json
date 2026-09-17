@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @BBL H2S",
+	"name": "0.20 mm Standard @BBL H2S",
 	"inherits": "fdm_process_single_0.20",
 	"from": "system",
 	"setting_id": "GP158",

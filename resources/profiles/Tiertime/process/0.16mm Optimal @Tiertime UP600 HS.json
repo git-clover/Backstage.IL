@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "BfOJljkGUCnVJ0zM",
-	"name": "0.16mm Optimal @Tiertime UP600 HS",
+	"name": "0.16 mm Optimal @Tiertime UP600 HS",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_tiertime_HS_common",

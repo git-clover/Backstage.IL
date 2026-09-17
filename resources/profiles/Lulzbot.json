@@ -28,35 +28,35 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.25mm Standard @Lulzbot Taz 4 or 5",
+			"name": "0.25 mm Standard @Lulzbot Taz 4 or 5",
 			"sub_path": "process/0.25mm Standard @Lulzbot Taz 4 or 5.json"
 		},
 		{
-			"name": "0.25mm Standard @Lulzbot Taz 6",
+			"name": "0.25 mm Standard @Lulzbot Taz 6",
 			"sub_path": "process/0.25mm Standard @Lulzbot Taz 6.json"
 		},
 		{
-			"name": "0.25mm Standard @Lulzbot Taz Pro Dual",
+			"name": "0.25 mm Standard @Lulzbot Taz Pro Dual",
 			"sub_path": "process/0.25mm Standard @Lulzbot Taz Pro Dual.json"
 		},
 		{
-			"name": "0.25mm Standard @Lulzbot Taz Pro S",
+			"name": "0.25 mm Standard @Lulzbot Taz Pro S",
 			"sub_path": "process/0.25mm Standard @Lulzbot Taz Pro S.json"
 		},
 		{
-			"name": "0.18mm High Detail @Lulzbot Taz 4 or 5",
+			"name": "0.18 mm High Detail @Lulzbot Taz 4 or 5",
 			"sub_path": "process/0.18mm High Detail @Lulzbot Taz 4 or 5.json"
 		},
 		{
-			"name": "0.18mm High Detail @Lulzbot Taz 6",
+			"name": "0.18 mm High Detail @Lulzbot Taz 6",
 			"sub_path": "process/0.18mm High Detail @Lulzbot Taz 6.json"
 		},
 		{
-			"name": "0.18mm High Detail @Lulzbot Taz Pro Dual",
+			"name": "0.18 mm High Detail @Lulzbot Taz Pro Dual",
 			"sub_path": "process/0.18mm High Detail @Lulzbot Taz Pro Dual.json"
 		},
 		{
-			"name": "0.18mm High Detail @Lulzbot Taz Pro S",
+			"name": "0.18 mm High Detail @Lulzbot Taz Pro S",
 			"sub_path": "process/0.18mm High Detail @Lulzbot Taz Pro S.json"
 		}
 	],

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Industrial @Construct 1 XL",
+	"name": "0.30 mm Industrial @Construct 1 XL",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "ZX8HUIuCKtl4M2Oi",

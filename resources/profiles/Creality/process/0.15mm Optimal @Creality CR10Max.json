@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Creality CR10Max",
+	"name": "0.15 mm Optimal @Creality CR10Max",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "AhVlBBKSgNv8gtzF",

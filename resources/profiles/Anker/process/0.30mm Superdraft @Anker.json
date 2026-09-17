@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Superdraft @Anker",
+	"name": "0.30 mm Superdraft @Anker",
 	"inherits": "fdm_process_anker_common",
 	"from": "system",
 	"setting_id": "ilmQ7GegvVeH9AxA",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @MyRepetier",
+	"name": "0.20 mm Standard @MyRepetier",
 	"inherits": "fdm_process_repetier_common",
 	"from": "system",
 	"setting_id": "Ny9kvyQ0UjkVAUiY",

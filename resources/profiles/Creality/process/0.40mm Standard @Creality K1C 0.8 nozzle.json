@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @Creality K1C",
+	"name": "0.40 mm Standard @Creality K1C",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "caYmVSsFmtESzLNF",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Qidi XCFPro",
+	"name": "0.20 mm Standard @Qidi XCFPro",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
 	"setting_id": "WqYCTn83Ln11dpYC",

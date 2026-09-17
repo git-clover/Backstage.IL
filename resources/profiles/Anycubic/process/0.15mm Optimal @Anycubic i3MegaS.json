@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Anycubic i3MegaS",
+	"name": "0.15 mm Optimal @Anycubic i3MegaS",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "zKGotAmWJTB14cT8",

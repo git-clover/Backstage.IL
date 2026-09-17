@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "5FeO8mZypv8CHDpj",
-	"name": "0.06mm SuperDetail @Creality K2 Plus 0.2 nozzle",
+	"name": "0.06 mm SuperDetail @Creality K2 Plus 0.2 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

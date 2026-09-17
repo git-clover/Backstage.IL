@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Voron",
+	"name": "0.15 mm Optimal @Voron",
 	"inherits": "fdm_process_voron_common",
 	"from": "system",
 	"setting_id": "JYeXOs4NWhpFBNwj",

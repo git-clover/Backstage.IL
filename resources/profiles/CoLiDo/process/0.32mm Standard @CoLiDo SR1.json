@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.32mm Standard @CoLiDo SR1",
+	"name": "0.32 mm Standard @CoLiDo SR1",
 	"inherits": "fdm_process_colidosr1_common",
 	"from": "system",
 	"setting_id": "O0n8xZZEVHtDubqp",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @Elegoo CC 0.8 nozzle",
+	"name": "0.40 mm Standard @Elegoo CC 0.8 nozzle",
 	"inherits": "fdm_process_elegoo_08040",
 	"from": "system",
 	"setting_id": "sBpv5SSB4LkMosJG",

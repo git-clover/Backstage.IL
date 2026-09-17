@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Creality CR10SE 0.6",
+	"name": "0.24 mm Draft @Creality CR10SE 0.6",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "g0NQSWW3BZbgAMRl",

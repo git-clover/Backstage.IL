@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Strength @FT 0.6 nozzle",
+	"name": "0.30 mm Strength @FT 0.6 nozzle",
 	"inherits": "fdm_process_folgertech_common",
 	"from": "system",
 	"setting_id": "hw5cYiRtLaVrVKhE",

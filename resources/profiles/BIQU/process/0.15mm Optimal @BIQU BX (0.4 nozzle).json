@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @BIQU BX (0.4 nozzle)",
+	"name": "0.15 mm Optimal @BIQU BX (0.4 nozzle)",
 	"inherits": "fdm_process_biqu_common",
 	"from": "system",
 	"setting_id": "oKvCk7bS0INwdkVG",

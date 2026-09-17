@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard Fast @MM hqs sf",
+	"name": "0.20 mm Standard Fast @MM hqs sf",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "TkBYOyBebm3pMHrl",

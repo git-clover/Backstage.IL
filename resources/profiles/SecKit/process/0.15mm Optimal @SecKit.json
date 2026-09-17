@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @SecKit",
+	"name": "0.15 mm Optimal @SecKit",
 	"inherits": "fdm_process_seckit_common",
 	"from": "system",
 	"setting_id": "vmlaA0Yl7JdiHglT",

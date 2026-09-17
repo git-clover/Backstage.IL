@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.60mm Standard",
+	"name": "0.60 mm Standard",
 	"inherits": "fdm_process_common",
 	"from": "User",
 	"setting_id": "DjZUwrFvdniWLKLX",

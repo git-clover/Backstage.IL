@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @SecKit",
+	"name": "0.20 mm Standard @SecKit",
 	"inherits": "fdm_process_seckit_common",
 	"from": "system",
 	"setting_id": "Swsol0Fii1Io8I6P",

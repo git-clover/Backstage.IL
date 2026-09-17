@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Troodon2",
+	"name": "0.12 mm Fine @Troodon2",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
 	"setting_id": "PYPvyaYS2DKua3mo",

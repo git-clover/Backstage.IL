@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "1.80mm Vasemode",
+	"name": "1.80 mm Vasemode",
 	"inherits": "fdm_process_common",
 	"from": "User",
 	"setting_id": "J6eZDCuu5egRTMlY",

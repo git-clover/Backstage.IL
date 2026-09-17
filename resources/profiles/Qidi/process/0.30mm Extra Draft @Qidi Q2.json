@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Extra Draft @Qidi Q2",
+	"name": "0.30 mm Extra Draft @Qidi Q2",
 	"inherits": "fdm_process_qidi_x3_common",
 	"from": "system",
 	"setting_id": "xV59wYWbrstGW5c5",

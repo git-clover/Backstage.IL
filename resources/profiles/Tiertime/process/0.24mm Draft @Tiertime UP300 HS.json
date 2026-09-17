@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "clvHKafqg81lxC4s",
-	"name": "0.24mm Draft @Tiertime UP300 HS",
+	"name": "0.24 mm Draft @Tiertime UP300 HS",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_tiertime_HS_common",

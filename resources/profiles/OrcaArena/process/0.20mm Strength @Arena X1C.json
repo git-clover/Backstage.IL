@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Strength @Arena X1C",
+	"name": "0.20 mm Strength @Arena X1C",
 	"inherits": "fdm_process_arena_0.20",
 	"from": "system",
 	"setting_id": "FjVoPLBVhhfkZcti",

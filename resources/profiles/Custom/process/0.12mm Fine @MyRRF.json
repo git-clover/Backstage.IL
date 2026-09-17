@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @MyRRF",
+	"name": "0.12 mm Fine @MyRRF",
 	"inherits": "fdm_process_rrf_common",
 	"from": "system",
 	"setting_id": "Zj9uGAyf8yYuHwRQ",

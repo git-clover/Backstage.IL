@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Delta Flyer Refit",
+	"name": "0.20 mm Standard @Delta Flyer Refit",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
 	"setting_id": "6s26EDFbCGrKKXR1",

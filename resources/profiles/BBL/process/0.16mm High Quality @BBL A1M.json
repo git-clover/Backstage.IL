@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm High Quality @BBL A1M",
+	"name": "0.16 mm High Quality @BBL A1M",
 	"inherits": "fdm_process_single_0.16",
 	"from": "system",
 	"setting_id": "GP109",

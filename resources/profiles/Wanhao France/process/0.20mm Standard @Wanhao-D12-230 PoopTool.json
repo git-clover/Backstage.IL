@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Wanhao-D12-230 PoopTool",
+	"name": "0.20 mm Standard @Wanhao-D12-230 PoopTool",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "mm5XTn07Si47K9JF",

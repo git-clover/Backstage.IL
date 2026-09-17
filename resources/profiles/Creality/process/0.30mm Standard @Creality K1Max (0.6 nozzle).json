@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Standard @Creality K1Max (0.6 nozzle)",
+	"name": "0.30 mm Standard @Creality K1Max (0.6 nozzle)",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "uVKIDPK3qutnmyAh",

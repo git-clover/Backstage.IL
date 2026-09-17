@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Fine @WEMAKE3D TinyBotV1 0.2mm nozzle",
+	"name": "0.08 mm Fine @WEMAKE3D TinyBotV1 0.2mm nozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"from": "system",
 	"setting_id": "KJHOVcfIXsr31KvN",

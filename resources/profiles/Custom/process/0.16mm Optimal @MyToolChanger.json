@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @MyToolChanger",
+	"name": "0.16 mm Optimal @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
 	"setting_id": "99y1EZwxDuKQwzv3",

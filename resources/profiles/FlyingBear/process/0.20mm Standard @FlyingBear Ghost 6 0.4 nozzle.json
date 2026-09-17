@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @FlyingBear Ghost 6 0.4 nozzle",
+	"name": "0.20 mm Standard @FlyingBear Ghost 6 0.4 nozzle",
 	"inherits": "fdm_process_ghost_6",
 	"from": "system",
 	"setting_id": "X2GZ8IKYLrs3qVId",

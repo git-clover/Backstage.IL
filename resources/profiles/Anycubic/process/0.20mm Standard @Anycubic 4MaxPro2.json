@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Anycubic 4MaxPro2",
+	"name": "0.20 mm Standard @Anycubic 4MaxPro2",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "4fNa2Y66ms9j0vdh",

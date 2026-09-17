@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Balanced Strength @X-Max 4",
+	"name": "0.20 mm Balanced Strength @X-Max 4",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
 	"setting_id": "oM72sw3mW85qL45A",

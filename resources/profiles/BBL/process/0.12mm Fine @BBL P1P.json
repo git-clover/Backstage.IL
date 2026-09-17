@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @BBL P1P",
+	"name": "0.12 mm Fine @BBL P1P",
 	"inherits": "fdm_process_single_0.12",
 	"from": "system",
 	"setting_id": "GP019",

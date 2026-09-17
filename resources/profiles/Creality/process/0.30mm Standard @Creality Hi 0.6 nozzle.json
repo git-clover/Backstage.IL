@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Standard @Creality Hi",
+	"name": "0.30 mm Standard @Creality Hi",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "lr1fzkgfsPpuA0Zf",

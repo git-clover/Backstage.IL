@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm High Flow @MINIIS",
+	"name": "0.25 mm High Flow @MINIIS",
 	"inherits": "process_highflow_miniis",
 	"from": "system",
 	"setting_id": "NStQbUF9Il7AGEe7",

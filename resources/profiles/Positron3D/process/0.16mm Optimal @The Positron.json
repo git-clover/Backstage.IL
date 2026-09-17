@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @The Positron",
+	"name": "0.16 mm Optimal @The Positron",
 	"inherits": "fdm_process_the_positron_common",
 	"from": "system",
 	"setting_id": "oFGyinsnnFtqnBYJ",

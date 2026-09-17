@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @CoLiDo SR1",
+	"name": "0.15 mm Optimal @CoLiDo SR1",
 	"inherits": "fdm_process_colidosr1_common",
 	"from": "system",
 	"setting_id": "cMdAhAv4nI6H2IkD",

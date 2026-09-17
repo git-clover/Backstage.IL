@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Standard @Magneto X 0.6 nozzle",
+	"name": "0.30 mm Standard @Magneto X 0.6 nozzle",
 	"inherits": "fdm_process_pply_0.30_nozzle_0.6",
 	"from": "system",
 	"setting_id": "7bb0lWykeIerjXX0",

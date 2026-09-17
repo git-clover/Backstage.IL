@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Fine @FLSun Q5",
+	"name": "0.08 mm Fine @FLSun Q5",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "pIcVuwwQ8EWmPKgZ",

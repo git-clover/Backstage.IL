@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.28mm Extra Draft @Magneto X",
+	"name": "0.28 mm Extra Draft @Magneto X",
 	"inherits": "fdm_process_pply_0.28",
 	"from": "system",
 	"setting_id": "Mi4H9dh97BV2SnOc",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @TwoTrees",
+	"name": "0.08 mm Extra Fine @TwoTrees",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "RsV0aGJKSXIq0F2G",

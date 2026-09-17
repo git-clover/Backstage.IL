@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "1E0byJ2cjuoubstC",
-	"name": "0.24mm Draft @Creality SPARKX i7 0.4 nozzle",
+	"name": "0.24 mm Draft @Creality SPARKX i7 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

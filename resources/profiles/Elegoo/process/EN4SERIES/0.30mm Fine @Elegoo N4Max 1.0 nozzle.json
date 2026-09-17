@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Fine @Elegoo N4Max 1.0 nozzle",
+	"name": "0.30 mm Fine @Elegoo N4Max 1.0 nozzle",
 	"from": "system",
 	"inherits": "0.50mm Standard @Elegoo N4Max 1.0 nozzle",
 	"setting_id": "Usm5LQIdEG5qte0Z",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "Ntf0ZMcETTPz7EY1",
-	"name": "0.16mm Optimal @Afinia H+1(HS)",
+	"name": "0.16 mm Optimal @Afinia H+1(HS)",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_afinia_HS_common",
