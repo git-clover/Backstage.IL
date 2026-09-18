@@ -3474,7 +3474,7 @@ void GCodeViewer::render_legend(float &legend_height, int canvas_width, int canv
         if (imperial_units) {
             ::sprintf(buffer, "%.2fin", distance_mm / GizmoObjectManipulation::in_to_mm);
         } else if (std::fabs(distance_mm) < 1000.0f) {
-            ::sprintf(buffer, "%.0fmm", distance_mm);
+            ::sprintf(buffer, "%.0f mm", distance_mm);
         } else {
             ::sprintf(buffer, "%.2f m", distance_mm / 1000.0f);
         }

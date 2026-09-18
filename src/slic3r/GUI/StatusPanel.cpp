@@ -3639,7 +3639,7 @@ void StatusPanel::update_basic_print_data(bool def)
         if (!obj) return;
         if (!obj->slice_info) return;
         wxString prediction = wxString::Format("%s", get_bbl_time_dhms(obj->slice_info->prediction));
-        wxString weight = wxString::Format("%.2fg", obj->slice_info->weight);
+        wxString weight = wxString::Format("%.2f g", obj->slice_info->weight);
 
         m_project_task_panel->show_priting_use_info(true, prediction, weight);
     }

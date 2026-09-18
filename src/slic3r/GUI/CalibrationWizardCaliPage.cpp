@@ -423,7 +423,7 @@ void CalibrationCaliPage::update_basic_print_data(bool def, float weight, int pr
 {
     if (def) {
         wxString str_prediction = wxString::Format("%s", get_bbl_time_dhms(prediction));
-        wxString str_weight = wxString::Format("%.2fg", weight);
+        wxString str_weight = wxString::Format("%.2f g", weight);
 
         m_printing_panel->show_priting_use_info(true, str_prediction, str_weight);
     }

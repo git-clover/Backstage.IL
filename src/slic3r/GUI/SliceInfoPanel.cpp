@@ -73,7 +73,7 @@ SliceInfoPopup::SliceInfoPopup(wxWindow *parent, wxBitmap bmp, BBLSliceInfo *inf
     wxString cost_text;
     if (info) {
         if (info->weight > 0) {
-            cost_text = wxString::Format("%.2fg", info->weight);
+            cost_text = wxString::Format("%.2f g", info->weight);
         } else {
             cost_text = "0g";
         }
@@ -308,7 +308,7 @@ void SliceInfoPanel::update(BBLSliceInfo *info)
     wxString prediction = wxString::Format("%s", get_bbl_time_dhms(info->prediction));
     m_text_item_prediction->SetLabelText(prediction);
 
-    wxString weight = wxString::Format("%.2fg", info->weight);
+    wxString weight = wxString::Format("%.2f g", info->weight);
     m_text_item_cost->SetLabelText(weight);
 
     m_text_plate_index->SetLabelText(info->index);
