@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "6VM4QhgvHUmyf2um",
 	"instantiation": "true",
-	"description": "Standard 0.2 mm layer height profile for the Snapmaker U1 with 0.6 mm nozzles. Balances print speed and surface quality for everyday prints.",
+	"description": "Standard 0.2mm layer height profile for the Snapmaker U1 with 0.6mm nozzles. Balances print speed and surface quality for everyday prints.",
 	"layer_height": "0.20",
 	"compatible_printers": [
 		"Snapmaker U1 (0.6 nozzle)"

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30 mm Standard @Flashforge G3U 0.6 Nozzle",
+	"name": "0.30mm Standard @Flashforge G3U 0.6 Nozzle",
 	"inherits": "fdm_process_flashforge_0.30",
 	"from": "system",
 	"setting_id": "QhXlZPQdK5K6aKpC",

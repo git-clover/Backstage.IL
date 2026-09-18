@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.08 mm Extra Fine @BBL A1",
+	"name": "0.08mm Extra Fine @BBL A1",
 	"inherits": "fdm_process_single_0.08",
 	"from": "system",
 	"setting_id": "GP076",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height, and results in almost negligible layer lines and longer printing time.",
+	"description": "Compared with the default profile of a 0.4mm nozzle, it has a smaller layer height, and results in almost negligible layer lines and longer printing time.",
 	"default_acceleration": [
 		"6000"
 	],

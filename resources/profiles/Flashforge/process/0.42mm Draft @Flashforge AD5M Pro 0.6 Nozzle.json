@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.42 mm Draft @Flashforge AD5M Pro 0.6 Nozzle",
+	"name": "0.42mm Draft @Flashforge AD5M Pro 0.6 Nozzle",
 	"inherits": "0.30mm Standard @Flashforge AD5M Pro 0.6 Nozzle",
 	"from": "system",
 	"setting_id": "TWLGiPjsuVTPg8rz",

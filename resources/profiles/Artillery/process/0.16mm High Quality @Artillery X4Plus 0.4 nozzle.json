@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16 mm High Quality @Artillery X4Plus 0.4 nozzle",
+	"name": "0.16mm High Quality @Artillery X4Plus 0.4 nozzle",
 	"inherits": "0.20mm Standard @Artillery X4Plus 0.4 nozzle",
 	"from": "system",
 	"setting_id": "jBHKTmqFc3PVi59U",

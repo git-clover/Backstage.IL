@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "iVRz2B0VBIBL1xVd",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.8 mm nozzle, it has a slightly smaller layer height, and results in slightly less but still apparent layer lines and slightly higher printing quality, but longer printing time in some printing cases.",
+	"description": "Compared with the default profile of a 0.8mm nozzle, it has a slightly smaller layer height, and results in slightly less but still apparent layer lines and slightly higher printing quality, but longer printing time in some printing cases.",
 	"elefant_foot_compensation": "0.15",
 	"compatible_printers": [
 		"Snapmaker U1 (0.8 nozzle)"

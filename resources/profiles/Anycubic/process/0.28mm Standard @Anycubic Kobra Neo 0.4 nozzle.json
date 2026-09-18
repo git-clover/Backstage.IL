@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.28 mm Standard @Anycubic Kobra Neo 0.4 nozzle",
+	"name": "0.28mm Standard @Anycubic Kobra Neo 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "6hlVHetcYAirKbOG",

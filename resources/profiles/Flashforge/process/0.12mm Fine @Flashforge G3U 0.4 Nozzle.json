@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12 mm Fine @Flashforge G3U 0.4 Nozzle",
+	"name": "0.12mm Fine @Flashforge G3U 0.4 Nozzle",
 	"inherits": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "XRInSfrQCATmZl6F",

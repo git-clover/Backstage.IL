@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24 mm Draft @InfiMech EX+APS",
+	"name": "0.24mm Draft @InfiMech EX+APS",
 	"inherits": "fdm_process_common_EX+APS",
 	"from": "system",
 	"setting_id": "DVI9tXz54QGawSh0",

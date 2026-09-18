@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.08 mm Extra Fine @WonderMaker ZR Ultra",
+	"name": "0.08mm Extra Fine @WonderMaker ZR Ultra",
 	"inherits": "fdm_process_wm_0.08",
 	"from": "system",
 	"setting_id": "S9bZmEeAYQKyQW6v",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height, and results in almost negligible layer lines and longer printing time.",
+	"description": "Compared with the default profile of a 0.4mm nozzle, it has a smaller layer height, and results in almost negligible layer lines and longer printing time.",
 	"ooze_prevention": "1",
 	"preheat_time": "30",
 	"standby_temperature_delta": "-80",

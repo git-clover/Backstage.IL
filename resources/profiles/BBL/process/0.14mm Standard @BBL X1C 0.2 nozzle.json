@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.14 mm Standard @BBL X1C 0.2 nozzle",
+	"name": "0.14mm Standard @BBL X1C 0.2 nozzle",
 	"inherits": "fdm_process_single_0.14_nozzle_0.2",
 	"from": "system",
 	"setting_id": "GP027",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.2 mm nozzle, it has a bigger layer height, and results in slightly visible layer lines, but shorter printing time.",
+	"description": "Compared with the default profile of a 0.2mm nozzle, it has a bigger layer height, and results in slightly visible layer lines, but shorter printing time.",
 	"bridge_speed": [
 		"50",
 		"50"

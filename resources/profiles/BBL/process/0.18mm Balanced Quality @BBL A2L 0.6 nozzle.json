@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.18 mm Balanced Quality @BBL A2L 0.6 nozzle",
+	"name": "0.18mm Balanced Quality @BBL A2L 0.6 nozzle",
 	"inherits": "fdm_process_single_0.18_nozzle_0.6",
 	"from": "system",
 	"setting_id": "GP189",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.6 mm nozzle, it has a smaller layer height, and results in less apparent layer lines and higher printing quality, but longer printing time.",
+	"description": "Compared with the default profile of a 0.6mm nozzle, it has a smaller layer height, and results in less apparent layer lines and higher printing quality, but longer printing time.",
 	"default_acceleration": [
 		"6000"
 	],

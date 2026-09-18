@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.50 mm Standard @SeeMeCNC BOSSdelta 500 0521 1.0",
+	"name": "0.50mm Standard @SeeMeCNC BOSSdelta 500 0521 1.0",
 	"inherits": "SeeMeCNC process base 1.0mm",
 	"from": "System",
 	"setting_id": "7pr3leoFJIjdcgmi",

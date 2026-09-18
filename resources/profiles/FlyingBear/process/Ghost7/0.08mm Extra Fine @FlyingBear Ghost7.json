@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08 mm Extra Fine @FlyingBear Ghost7",
+	"name": "0.08mm Extra Fine @FlyingBear Ghost7",
 	"inherits": "fdm_process_common_Ghost7",
 	"from": "system",
 	"setting_id": "MgVBCShfLwCDXcK7",

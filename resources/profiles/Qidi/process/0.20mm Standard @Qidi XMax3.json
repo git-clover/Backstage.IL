@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20 mm Standard @Qidi XMax3",
+	"name": "0.20mm Standard @Qidi XMax3",
 	"inherits": "0.20mm Standard @Qidi X3",
 	"from": "system",
 	"setting_id": "sIfFEkAzwFYJgKNl",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.48 mm Draft @Elegoo N4Pro 0.8 nozzle",
+	"name": "0.48mm Draft @Elegoo N4Pro 0.8 nozzle",
 	"from": "system",
 	"inherits": "0.40mm Standard @Elegoo N4Pro 0.8 nozzle",
 	"setting_id": "GYMUhWOFDMRwYdxY",

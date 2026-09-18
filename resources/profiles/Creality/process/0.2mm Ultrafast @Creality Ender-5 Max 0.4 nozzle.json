@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "7i9DCEZHvxgrYciY",
-	"name": "0.2 mm Ultrafast @Creality Ender-5 Max 0.4 nozzle",
+	"name": "0.2mm Ultrafast @Creality Ender-5 Max 0.4 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

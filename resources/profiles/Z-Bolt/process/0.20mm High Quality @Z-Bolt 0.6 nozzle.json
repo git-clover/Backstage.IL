@@ -1,11 +1,11 @@
 {
 	"type": "process",
-	"name": "0.20 mm High Quality @Z-Bolt 0.6 nozzle",
+	"name": "0.20mm High Quality @Z-Bolt 0.6 nozzle",
 	"inherits": "fdm_process_zbolt_0.20_nozzle_0.6",
 	"from": "system",
 	"setting_id": "6kKt7MQNZiERohDf",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.6 mm nozzle, it has a smaller layer height, and results in less apparent layer lines and slight higher printing quality, but longer printing time.",
+	"description": "Compared with the default profile of a 0.6mm nozzle, it has a smaller layer height, and results in less apparent layer lines and slight higher printing quality, but longer printing time.",
 	"elefant_foot_compensation": "0.15",
 	"outer_wall_speed": "40",
 	"inner_wall_speed": "100",

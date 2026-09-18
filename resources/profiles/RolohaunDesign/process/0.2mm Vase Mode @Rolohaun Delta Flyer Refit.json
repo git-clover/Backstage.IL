@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.2 mm Vase Mode @Delta Flyer Refit",
+	"name": "0.2mm Vase Mode @Delta Flyer Refit",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
 	"setting_id": "V5m4C9uPTfM2RE32",
