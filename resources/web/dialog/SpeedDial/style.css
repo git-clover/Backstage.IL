@@ -511,7 +511,7 @@ body {
     background: transparent;
     font: inherit;
     font-size: 11px;
-    color: var(--main-color, var(--orca-accent, #009688));
+    color: var(--main-color, var(--orca-accent, #004fbd));
     cursor: pointer;
     white-space: nowrap;
 }
