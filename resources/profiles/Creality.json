@@ -247,51 +247,51 @@
 			"sub_path": "process/0.06mm SuperDetail @Creality K2 Plus 0.2 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality CR-10 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality CR-10 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality CR-10 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality CR-10 Smart 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality CR-10 Smart 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality CR-10 Smart 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality CR-10 Smart Pro 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality CR-10 Smart Pro 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality CR-10 Smart Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality CR-10S Pro V2 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality CR-10S Pro V2 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality CR-10S Pro V2 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality CR-20 Pro 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality CR-20 Pro 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality CR-20 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality Ender-2 Pro 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality Ender-2 Pro 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality Ender-2 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality Ender-3 Max 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality Ender-3 Max 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality Ender-3 Max 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality Ender-3 Max Neo 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality Ender-3 Max Neo 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality Ender-3 Max Neo 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality Ender-3 Neo 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality Ender-3 Neo 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality Ender-3 Neo 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality Sermoon D3 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality Sermoon D3 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality Sermoon D3 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Creality Sermoon V1 Pro 0.4 nozzle",
+			"name": "0.08 mm Extra Fine @Creality Sermoon V1 Pro 0.4 nozzle",
 			"sub_path": "process/0.08mm Extra Fine @Creality Sermoon V1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm HueForge @Creality Hi 0.4 nozzle",
+			"name": "0.08 mm HueForge @Creality Hi 0.4 nozzle",
 			"sub_path": "process/0.08mm HueForge @Creality Hi 0.4 nozzle.json"
 		},
 		{
@@ -475,11 +475,11 @@
 			"sub_path": "process/0.12mm Fine @Creality SPARKX i7 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm Standard @Creality Sermoon M300 0.4 nozzle",
+			"name": "0.12 mm Standard @Creality Sermoon M300 0.4 nozzle",
 			"sub_path": "process/0.12mm Standard @Creality Sermoon M300 0.4 nozzle.json"
 		},
 		{
-			"name": "0.14mm Optimal @Creality K2 Plus 0.2 nozzle",
+			"name": "0.14 mm Optimal @Creality K2 Plus 0.2 nozzle",
 			"sub_path": "process/0.14mm Optimal @Creality K2 Plus 0.2 nozzle.json"
 		},
 		{
@@ -503,27 +503,27 @@
 			"sub_path": "process/0.16mm Fine @Creality Ender-3 V4 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality CR-10 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality CR-10 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality CR-10 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality CR-10 Smart 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality CR-10 Smart 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality CR-10 Smart 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality CR-10 Smart Pro 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality CR-10 Smart Pro 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality CR-10 Smart Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality CR-10S Pro V2 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality CR-10S Pro V2 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality CR-10S Pro V2 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality CR-20 Pro 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality CR-20 Pro 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality CR-20 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality CR-6 0.2",
+			"name": "0.16 mm Optimal @Creality CR-6 0.2",
 			"sub_path": "process/0.16mm Optimal @Creality CR-6 0.2.json"
 		},
 		{
@@ -539,23 +539,23 @@
 			"sub_path": "process/0.16mm Optimal @Creality CR10V2.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Ender-2 Pro 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality Ender-2 Pro 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality Ender-2 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Ender-3 Max 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality Ender-3 Max 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality Ender-3 Max 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Ender-3 Max Neo 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality Ender-3 Max Neo 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality Ender-3 Max Neo 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Ender-3 Neo 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality Ender-3 Neo 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality Ender-3 Neo 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Ender3 0.2",
+			"name": "0.16 mm Optimal @Creality Ender3 0.2",
 			"sub_path": "process/0.16mm Optimal @Creality Ender3 0.2.json"
 		},
 		{
@@ -703,35 +703,35 @@
 			"sub_path": "process/0.16mm Optimal @Creality SPARKX i7 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Sermoon D3 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality Sermoon D3 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality Sermoon D3 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Sermoon V1",
+			"name": "0.16 mm Optimal @Creality Sermoon V1",
 			"sub_path": "process/0.16mm Optimal @Creality Sermoon V1.json"
 		},
 		{
-			"name": "0.16mm Optimal @Creality Sermoon V1 Pro 0.4 nozzle",
+			"name": "0.16 mm Optimal @Creality Sermoon V1 Pro 0.4 nozzle",
 			"sub_path": "process/0.16mm Optimal @Creality Sermoon V1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Standard @Creality K2 SE 0.4 nozzle",
+			"name": "0.16 mm Standard @Creality K2 SE 0.4 nozzle",
 			"sub_path": "process/0.16mm Standard @Creality K2 SE 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Standard @Creality Sermoon M300 0.4 nozzle",
+			"name": "0.16 mm Standard @Creality Sermoon M300 0.4 nozzle",
 			"sub_path": "process/0.16mm Standard @Creality Sermoon M300 0.4 nozzle.json"
 		},
 		{
-			"name": "0.18mm Detail @Creality K2 Plus 0.6 nozzle",
+			"name": "0.18 mm Detail @Creality K2 Plus 0.6 nozzle",
 			"sub_path": "process/0.18mm Detail @Creality K2 Plus 0.6 nozzle.json"
 		},
 		{
-			"name": "0.1mm Standard @Creality CR-M4 SE 0.4 nozzle",
+			"name": "0.1 mm Standard @Creality CR-M4 SE 0.4 nozzle",
 			"sub_path": "process/0.1mm Standard @Creality CR-M4 SE 0.4 nozzle.json"
 		},
 		{
-			"name": "0.1mm Standard @Creality Hi 0.2 nozzle",
+			"name": "0.1 mm Standard @Creality Hi 0.2 nozzle",
 			"sub_path": "process/0.1mm Standard @Creality Hi 0.2 nozzle.json"
 		},
 		{
@@ -739,27 +739,27 @@
 			"sub_path": "process/0.20mm High Quality @Creality K2 Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-10 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality CR-10 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality CR-10 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-10 Smart 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality CR-10 Smart 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality CR-10 Smart 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-10 Smart Pro 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality CR-10 Smart Pro 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality CR-10 Smart Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-10S Pro V2 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality CR-10S Pro V2 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality CR-10S Pro V2 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-20 Pro 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality CR-20 Pro 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality CR-20 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-6 0.4",
+			"name": "0.20 mm Standard @Creality CR-6 0.4",
 			"sub_path": "process/0.20mm Standard @Creality CR-6 0.4.json"
 		},
 		{
@@ -771,11 +771,11 @@
 			"sub_path": "process/0.20mm Standard @Creality CR-M4.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR-M4 SE 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality CR-M4 SE 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality CR-M4 SE 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality CR10Max",
+			"name": "0.20 mm Standard @Creality CR10Max",
 			"sub_path": "process/0.20mm Standard @Creality CR10Max.json"
 		},
 		{
@@ -791,35 +791,35 @@
 			"sub_path": "process/0.20mm Standard @Creality CR10V3 0.6.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-2 Pro 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-2 Pro 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-2 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-3 Max 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-3 Max 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-3 Max 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-3 Max Neo 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-3 Max Neo 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-3 Max Neo 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-3 Neo 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-3 Neo 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-3 Neo 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-3 S1 Sonic 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-3 S1 Sonic 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-3 S1 Sonic 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-3 V4 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-3 V4 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-3 V4 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender-5 S1 Sonic 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Ender-5 S1 Sonic 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Ender-5 S1 Sonic 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Ender3",
+			"name": "0.20 mm Standard @Creality Ender3",
 			"sub_path": "process/0.20mm Standard @Creality Ender3.json"
 		},
 		{
@@ -983,35 +983,35 @@
 			"sub_path": "process/0.20mm Standard @Creality SPARKX i7 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Sermoon D3 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Sermoon D3 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Sermoon D3 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Sermoon D3 Pro 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Sermoon D3 Pro 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Sermoon D3 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Sermoon M300 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Sermoon M300 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Sermoon M300 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Sermoon V1",
+			"name": "0.20 mm Standard @Creality Sermoon V1",
 			"sub_path": "process/0.20mm Standard @Creality Sermoon V1.json"
 		},
 		{
-			"name": "0.20mm Standard @Creality Sermoon V1 Pro 0.4 nozzle",
+			"name": "0.20 mm Standard @Creality Sermoon V1 Pro 0.4 nozzle",
 			"sub_path": "process/0.20mm Standard @Creality Sermoon V1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Strength @Creality K2 Plus 0.4 nozzle",
+			"name": "0.20 mm Strength @Creality K2 Plus 0.4 nozzle",
 			"sub_path": "process/0.20mm Strength @Creality K2 Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Ultrafast @Creality CR-M4 SE 0.4 nozzle",
+			"name": "0.20 mm Ultrafast @Creality CR-M4 SE 0.4 nozzle",
 			"sub_path": "process/0.20mm Ultrafast @Creality CR-M4 SE 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Detail @Creality K2 Plus 0.8 nozzle",
+			"name": "0.24 mm Detail @Creality K2 Plus 0.8 nozzle",
 			"sub_path": "process/0.24mm Detail @Creality K2 Plus 0.8 nozzle.json"
 		},
 		{
@@ -1167,19 +1167,19 @@
 			"sub_path": "process/0.24mm Optimal @Creality K2 Plus 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Creality Ender-3 V3 0.8 nozzle",
+			"name": "0.24 mm Standard @Creality Ender-3 V3 0.8 nozzle",
 			"sub_path": "process/0.24mm Standard @Creality Ender-3 V3 0.8 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Creality K2 SE 0.4 nozzle",
+			"name": "0.24 mm Standard @Creality K2 SE 0.4 nozzle",
 			"sub_path": "process/0.24mm Standard @Creality K2 SE 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Creality Sermoon M300 0.4 nozzle",
+			"name": "0.24 mm Standard @Creality Sermoon M300 0.4 nozzle",
 			"sub_path": "process/0.24mm Standard @Creality Sermoon M300 0.4 nozzle.json"
 		},
 		{
-			"name": "0.28mm Draft @Creality Ender3 0.2",
+			"name": "0.28 mm Draft @Creality Ender3 0.2",
 			"sub_path": "process/0.28mm SuperDraft @Creality Ender3 0.2.json"
 		},
 		{
@@ -1211,11 +1211,11 @@
 			"sub_path": "process/0.28mm SuperDraft @Creality Ender3 Pro 0.8.json"
 		},
 		{
-			"name": "0.28mm Standard @Creality Sermoon M300 0.4 nozzle",
+			"name": "0.28 mm Standard @Creality Sermoon M300 0.4 nozzle",
 			"sub_path": "process/0.28mm Standard @Creality Sermoon M300 0.4 nozzle.json"
 		},
 		{
-			"name": "0.28mm Standard @Creality Sermoon V1",
+			"name": "0.28 mm Standard @Creality Sermoon V1",
 			"sub_path": "process/0.28mm Standard @Creality Sermoon V1.json"
 		},
 		{
@@ -1299,11 +1299,11 @@
 			"sub_path": "process/0.30mm Standard @Creality SPARKX i7 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Standard @Creality Sermoon M300 0.6 nozzle",
+			"name": "0.30 mm Standard @Creality Sermoon M300 0.6 nozzle",
 			"sub_path": "process/0.30mm Standard @Creality Sermoon M300 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Strength @Creality K2 Plus 0.6 nozzle",
+			"name": "0.30 mm Strength @Creality K2 Plus 0.6 nozzle",
 			"sub_path": "process/0.30mm Strength @Creality K2 Plus 0.6 nozzle.json"
 		},
 		{
@@ -1319,11 +1319,11 @@
 			"sub_path": "process/0.32mm Standard @Creality CR-6 0.8.json"
 		},
 		{
-			"name": "0.32mm Standard @Creality Ender-3 V3 0.8 nozzle",
+			"name": "0.32 mm Standard @Creality Ender-3 V3 0.8 nozzle",
 			"sub_path": "process/0.32mm Standard @Creality Ender-3 V3 0.8 nozzle.json"
 		},
 		{
-			"name": "0.36mm Draft @Creality K2 Plus 0.6 nozzle",
+			"name": "0.36 mm Draft @Creality K2 Plus 0.6 nozzle",
 			"sub_path": "process/0.36mm Draft @Creality K2 Plus 0.6 nozzle.json"
 		},
 		{
@@ -1335,15 +1335,15 @@
 			"sub_path": "process/0.40mm Draft @Creality CR-6 0.8.json"
 		},
 		{
-			"name": "0.40mm Standard @Creality Ender-3 V3 0.8 nozzle",
+			"name": "0.40 mm Standard @Creality Ender-3 V3 0.8 nozzle",
 			"sub_path": "process/0.40mm Standard @Creality Ender-3 V3 0.8 nozzle.json"
 		},
 		{
-			"name": "0.40mm Standard @Creality Ender-3 V3 Plus 0.8 nozzle",
+			"name": "0.40 mm Standard @Creality Ender-3 V3 Plus 0.8 nozzle",
 			"sub_path": "process/0.40mm Standard @Creality Ender-3 V3 Plus 0.8 nozzle.json"
 		},
 		{
-			"name": "0.40mm Standard @Creality Ender-5 Max 0.8 nozzle",
+			"name": "0.40 mm Standard @Creality Ender-5 Max 0.8 nozzle",
 			"sub_path": "process/0.40mm Standard @Creality Ender-5 Max 0.8 nozzle.json"
 		},
 		{
@@ -1383,11 +1383,11 @@
 			"sub_path": "process/0.40mm Standard @Creality SPARKX i7 0.8 nozzle.json"
 		},
 		{
-			"name": "0.40mm Standard @Creality Sermoon M300 0.8 nozzle",
+			"name": "0.40 mm Standard @Creality Sermoon M300 0.8 nozzle",
 			"sub_path": "process/0.40mm Standard @Creality Sermoon M300 0.8 nozzle.json"
 		},
 		{
-			"name": "0.40mm Strength @Creality K2 Plus 0.8 nozzle",
+			"name": "0.40 mm Strength @Creality K2 Plus 0.8 nozzle",
 			"sub_path": "process/0.40mm Strength @Creality K2 Plus 0.8 nozzle.json"
 		},
 		{
@@ -1411,15 +1411,15 @@
 			"sub_path": "process/0.48mm Draft @Creality K2 Plus 0.8 nozzle.json"
 		},
 		{
-			"name": "0.48mm Standard @Creality Ender-3 V3 0.8 nozzle",
+			"name": "0.48 mm Standard @Creality Ender-3 V3 0.8 nozzle",
 			"sub_path": "process/0.48mm Standard @Creality Ender-3 V3 0.8 nozzle.json"
 		},
 		{
-			"name": "0.56mm Standard @Creality Ender-3 V3 0.8 nozzle",
+			"name": "0.56 mm Standard @Creality Ender-3 V3 0.8 nozzle",
 			"sub_path": "process/0.56mm Standard @Creality Ender-3 V3 0.8 nozzle.json"
 		},
 		{
-			"name": "0.56mm SuperChunky @Creality CR-6 0.8",
+			"name": "0.56 mm SuperChunky @Creality CR-6 0.8",
 			"sub_path": "process/0.56mm SuperChunky @Creality CR-6 0.8.json"
 		},
 		{
