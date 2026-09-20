@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @FT 0.4 nozzle",
+	"name": "\. mm Standard @FT 0.4 nozzle",
 	"inherits": "fdm_process_folgertech_common",
 	"from": "system",
 	"setting_id": "WKICuro95QxmuNhM",

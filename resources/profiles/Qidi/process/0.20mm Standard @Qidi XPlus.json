@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Qidi XPlus",
+	"name": "\. mm Standard @Qidi XPlus",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
 	"setting_id": "MDu610revkMyZze1",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Quality @MK3S 0.6",
+	"name": "\. mm Quality @MK3S 0.6",
 	"inherits": "process_common_mk3",
 	"from": "system",
 	"setting_id": "NG2KbUeHRUSPXrk1",

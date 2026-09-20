@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Magneto X",
+	"name": "\. mm Optimal @Magneto X",
 	"inherits": "fdm_process_pply_0.16",
 	"from": "system",
 	"setting_id": "z8gx4LyAjquxYgBn",

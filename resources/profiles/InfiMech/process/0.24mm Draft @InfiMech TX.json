@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @InfiMech TX",
+	"name": "\. mm Draft @InfiMech TX",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "JGkiYAwTWxn8PRc4",

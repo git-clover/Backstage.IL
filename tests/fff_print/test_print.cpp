@@ -410,7 +410,7 @@ TEST_CASE("Custom G-code placeholders are substituted", "[Print]")
     CHECK(slice({ cube(20) }, { { "machine_start_gcode", "; Extruder [current_extruder]" } })
               .find("; Extruder 0") != std::string::npos);
 
-    // [layer_num] / [layer_z] in the end G-code (a 20mm cube at 0.1mm is 200 layers).
+    // [layer_num] / [layer_z] in the end G-code (a 20mm cube at 0.1 mm is 200 layers).
     const std::string end_gcode = slice({ cube(20) }, {
         { "machine_end_gcode",          "; Layer_num [layer_num]\n; Layer_z [layer_z]" },
         { "layer_height",               0.1 },

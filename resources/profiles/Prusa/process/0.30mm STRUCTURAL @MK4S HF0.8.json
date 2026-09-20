@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm STRUCTURAL @MK4S HF0.8",
+	"name": "\. mm STRUCTURAL @MK4S HF0.8",
 	"inherits": "0.30mm DETAIL @MK4S 0.8",
 	"from": "system",
 	"setting_id": "hfqkdmwibTRyrfXY",

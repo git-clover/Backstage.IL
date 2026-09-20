@@ -46,9 +46,9 @@ void write_vendor_tree(const fs::path& dir, const std::string& vendor, const std
     fs::create_directories(dir / vendor / "process");
     std::ofstream((dir / (vendor + ".json")).string())
         << R"({"version":")" << version << R"(","name":")" << vendor
-        << R"(","process_list":[{"name":"0.20mm Standard @)" << vendor << R"(","sub_path":"process/standard.json"}]})";
+        << R"(","process_list":[{"name":"0.20 mm Standard @)" << vendor << R"(","sub_path":"process/standard.json"}]})";
     std::ofstream((dir / vendor / "process" / "standard.json").string())
-        << R"({"type":"process","name":"0.20mm Standard @)" << vendor
+        << R"({"type":"process","name":"0.20 mm Standard @)" << vendor
         << R"(","from":"system","instantiation":"true","layer_height":"0.2"})";
 }
 
@@ -64,7 +64,7 @@ void write_full_vendor_tree(const fs::path& dir, const std::string& vendor, cons
     std::ofstream((dir / (vendor + ".json")).string())
         << R"({"version":")" << version << R"(","name":")" << vendor << R"(",)"
         << R"("machine_model_list":[{"name":"Test Model","sub_path":"machine/model.json"}],)"
-        << R"("process_list":[{"name":"0.20mm Standard @)" << vendor << R"(","sub_path":"process/standard.json"}],)"
+        << R"("process_list":[{"name":"0.20 mm Standard @)" << vendor << R"(","sub_path":"process/standard.json"}],)"
         << R"("filament_list":[)"
         << R"({"name":")" << vendor << R"( Base PLA","sub_path":"filament/base.json"},)"
         << R"({"name":")" << vendor << R"( PLA @0.4","sub_path":"filament/pla.json"},)"
@@ -73,7 +73,7 @@ void write_full_vendor_tree(const fs::path& dir, const std::string& vendor, cons
     std::ofstream((dir / vendor / "machine" / "model.json").string())
         << R"({"type":"machine_model","name":"Test Model","nozzle_diameter":"0.4"})";
     std::ofstream((dir / vendor / "process" / "standard.json").string())
-        << R"({"type":"process","name":"0.20mm Standard @)" << vendor
+        << R"({"type":"process","name":"0.20 mm Standard @)" << vendor
         << R"(","from":"system","instantiation":"true","layer_height":"0.2"})";
     std::ofstream((dir / vendor / "filament" / "base.json").string())
         << R"({"type":"filament","name":")" << vendor
@@ -611,9 +611,9 @@ TEST_CASE("a cache-served vendor reports the errors its parse counted", "[Vendor
     // error the load survives, so it must reach the cache's parse_errors stamp.
     fs::create_directories(user / "Acme" / "process");
     std::ofstream((user / "Acme.json").string())
-        << R"({"version":"1.0.0","name":"Acme","process_list":[{"name":"0.20mm Standard @Acme","sub_path":"process/standard.json"}]})";
+        << R"({"version":"1.0.0","name":"Acme","process_list":[{"name":"0.20 mm Standard @Acme","sub_path":"process/standard.json"}]})";
     std::ofstream((user / "Acme" / "process" / "standard.json").string())
-        << R"({"type":"process","name":"0.20mm Standard @Acme","from":"system","layer_height":"0.2"})";
+        << R"({"type":"process","name":"0.20 mm Standard @Acme","from":"system","layer_height":"0.2"})";
 
     ScopedDirs dirs(tmp.path / "data", tmp.path / "resources");
 

@@ -63,7 +63,7 @@ enum class ArcDirection : unsigned char {
 };
 
 #define DEFAULT_SCALED_MAX_RADIUS scale_(2000)        // 2000mm
-#define DEFAULT_SCALED_RESOLUTION scale_(0.05)        // 0.05mm
+#define DEFAULT_SCALED_RESOLUTION scale_(0.05)        // 0.05 mm
 #define DEFAULT_ARC_LENGTH_PERCENT_TOLERANCE  0.05    // 5 percent
 
 class ArcSegment: public Circle {

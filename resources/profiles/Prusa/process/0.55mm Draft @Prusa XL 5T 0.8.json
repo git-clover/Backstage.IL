@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.55mm Draft @Prusa XL 5T 0.8",
+	"name": "\. mm Draft @Prusa XL 5T 0.8",
 	"inherits": "process_common_xl_5t",
 	"from": "system",
 	"setting_id": "uQMlAQBEj5Rf1gBW",

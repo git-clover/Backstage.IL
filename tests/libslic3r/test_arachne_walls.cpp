@@ -6,13 +6,13 @@
 // segments at certain min_bead_width settings. The test uses a polygon with
 // an outer rectangle (0,0)-(20,20) and an inner cutout (0.5,0.5)-(19.5,19.5).
 //
-// With precise_outer_wall enabled and min_bead_width at 50% (0.20mm), Arachne
+// With precise_outer_wall enabled and min_bead_width at 50% (0.20 mm), Arachne
 // generates two separate closed contours that share a coinciding edge at y=19.75.
-// At 60% (0.24mm), Arachne handles this differently and avoids the duplicate.
+// At 60% (0.24 mm), Arachne handles this differently and avoids the duplicate.
 //
-// Parameters are based on "0.28mm Extra Draft @BBL X1C" profile with:
-// - 0.4mm nozzle, 0.28mm layer height
-// - outer_wall_line_width: 0.42mm, inner_wall_line_width: 0.45mm
+// Parameters are based on "0.28 mm Extra Draft @BBL X1C" profile with:
+// - 0.4 mm nozzle, 0.28 mm layer height
+// - outer_wall_line_width: 0.42 mm, inner_wall_line_width: 0.45 mm
 // - wall_loops: 2, precise_outer_wall: enabled
 
 #include <catch2/catch_all.hpp>
@@ -123,7 +123,7 @@ std::vector<std::pair<Segment, Segment>> find_duplicate_segments(
     return duplicates;
 }
 
-// Create params matching "0.28mm Extra Draft @BBL X1C" profile
+// Create params matching "0.28 mm Extra Draft @BBL X1C" profile
 WallToolPathsParams make_bbl_x1c_028_params(int min_bead_width_percent) {
     constexpr double nozzle_diameter = 0.4;
     
@@ -165,7 +165,7 @@ size_t run_arachne_test(int min_bead_width_percent) {
     
     auto params = make_bbl_x1c_028_params(min_bead_width_percent);
     
-    // Test polygon: outer rectangle with inner cutout creating 0.5mm frame
+    // Test polygon: outer rectangle with inner cutout creating 0.5 mm frame
     Polygon outer_raw;
     outer_raw.points.emplace_back(Point::new_scale(0.0, 0.0));
     outer_raw.points.emplace_back(Point::new_scale(20.0, 0.0));
@@ -223,22 +223,22 @@ TEST_CASE("Arachne wall generation - 60% min_bead_width", "[Arachne]") {
 // getTransitionThickness(1)), the request was collapsed into one over-wide bead — an
 // over-extruded line that shows up as a bulge on curved surfaces at a deterministic height.
 //
-// Profile mirrors the reporter's project ("0.20mm Standard @BBL X1C", 0.4mm nozzle):
-//   outer 0.42mm / inner 0.45mm, min_bead_width 85% (0.34mm), 2 walls (max_bead_count 4).
+// Profile mirrors the reporter's project ("0.20 mm Standard @BBL X1C", 0.4 mm nozzle):
+//   outer 0.42 mm / inner 0.45 mm, min_bead_width 85% (0.34 mm), 2 walls (max_bead_count 4).
 // For these numbers wall_split_middle_threshold = 2*0.34/0.42 - 1 = 0.619, so
-// getTransitionThickness(1) = (1 + 0.619) * 0.42 = 0.68mm. A 0.5mm-thick wall therefore sits
+// getTransitionThickness(1) = (1 + 0.619) * 0.42 = 0.68 mm. A 0.5 mm-thick wall therefore sits
 // in the transition band: alpha produced 2 beads here, beta collapses it to 1 fat bead.
 TEST_CASE("Arachne widening keeps two beads in transition band (#14376)", "[Arachne]") {
     using namespace Slic3r::Arachne;
 
     // Widths in mm; the scaled coord_t values and the thresholds below are both derived from
     // these so a width change cannot silently desync the transition-band math.
-    const double outer_mm = 0.42, inner_mm = 0.45, min_bead_mm = 0.34; // min_bead = 85% of 0.4mm nozzle
+    const double outer_mm = 0.42, inner_mm = 0.45, min_bead_mm = 0.34; // min_bead = 85% of 0.4 mm nozzle
 
     const coord_t outer_width = scaled<coord_t>(outer_mm);
     const coord_t inner_width = scaled<coord_t>(inner_mm);
     const coord_t min_bead_width = scaled<coord_t>(min_bead_mm);
-    const coord_t min_feature_size = scaled<coord_t>(0.10); // 25% of 0.4mm nozzle
+    const coord_t min_feature_size = scaled<coord_t>(0.10); // 25% of 0.4 mm nozzle
     const coord_t transition_length = scaled<coord_t>(0.40);
     const coord_t max_bead_count = 4; // 2 * wall_loops
 
@@ -263,7 +263,7 @@ TEST_CASE("Arachne widening keeps two beads in transition band (#14376)", "[Arac
     const BeadingStrategy::Beading beading = strategy->compute(thickness, 2);
     REQUIRE(beading.bead_widths.size() == 2);
 
-    // And neither bead may be over-wide: a single collapsed bead would be ~0.5mm (the full
+    // And neither bead may be over-wide: a single collapsed bead would be ~0.5 mm (the full
     // thickness), well above the configured wall widths.
     for (const coord_t w : beading.bead_widths)
         CHECK(w <= inner_width);

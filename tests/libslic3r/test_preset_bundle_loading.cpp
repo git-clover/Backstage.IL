@@ -192,10 +192,10 @@ TEST_CASE("A malformed entry in a vendor's preset list is counted, not thrown", 
     // not a parse_error, and escapes the catch around the vendor profile parse.
     std::ofstream((dir.path() / "Acme.json").string())
         << R"({"version":"1.0.0","name":"Acme","process_list":[123,)"
-        << R"({"name":"0.20mm Standard @Acme","sub_path":"process/standard.json"}]})";
+        << R"({"name":"0.20 mm Standard @Acme","sub_path":"process/standard.json"}]})";
     fs::create_directories(dir.path() / "Acme" / "process");
     std::ofstream((dir.path() / "Acme" / "process" / "standard.json").string())
-        << R"({"type":"process","name":"0.20mm Standard @Acme","from":"system",)"
+        << R"({"type":"process","name":"0.20 mm Standard @Acme","from":"system",)"
         << R"("instantiation":"true","layer_height":"0.2"})";
 
     PresetBundle bundle;

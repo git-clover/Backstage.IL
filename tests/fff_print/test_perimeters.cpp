@@ -502,9 +502,9 @@ namespace {
 // support comes from the rib rather than from the slab below it.
 const double slab_first_layer_z = 5.2;
 
-// Rib widths either side of what the wall generators can print. At a 0.4mm nozzle the classic generator
-// builds nothing thinner than nozzle/3 = 0.133mm and Arachne drops anything below min_feature_size, 25%
-// of the nozzle = 0.1mm. 0.08mm is under both thresholds, 0.3mm over both.
+// Rib widths either side of what the wall generators can print. At a 0.4 mm nozzle the classic generator
+// builds nothing thinner than nozzle/3 = 0.133 mm and Arachne drops anything below min_feature_size, 25%
+// of the nozzle = 0.1 mm. 0.08 mm is under both thresholds, 0.3 mm over both.
 const double unprintable_rib = 0.08;
 const double printable_rib   = 0.3;
 
@@ -512,7 +512,7 @@ const double printable_rib   = 0.3;
 // length of the slab beneath its y=0 edge; a `rib_width` of 0 leaves the rib out. Nothing else is under
 // that edge, so whether the wall along it is an overhang rests entirely on the rib. Overhang detection
 // grows the lower slices by half the nozzle diameter before it asks, which carries either rib past the
-// 0.21mm from the slab edge to that wall - the unprintable one only fails to reach it once it is filtered
+// 0.21 mm from the slab edge to that wall - the unprintable one only fails to reach it once it is filtered
 // out for being unprintable.
 Print &slab_over_rib(Print &print, Model &model, double rib_width, const DynamicPrintConfig &config)
 {

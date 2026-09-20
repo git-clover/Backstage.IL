@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Qidi XCFPro",
+	"name": "\. mm Fine @Qidi XCFPro",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
 	"setting_id": "iQXhsvqnRSjNDxK1",

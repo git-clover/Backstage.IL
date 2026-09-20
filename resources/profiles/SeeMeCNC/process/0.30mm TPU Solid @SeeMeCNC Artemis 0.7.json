@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm TPU Solid @SeeMeCNC Artemis 0.7",
+	"name": "\. mm TPU Solid @SeeMeCNC Artemis 0.7",
 	"inherits": "SeeMeCNC process base 0.7mm",
 	"from": "System",
 	"setting_id": "w5A5ehucWjJ9o3SK",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @InfiMech EX+APS",
+	"name": "\. mm Standard @InfiMech EX+APS",
 	"inherits": "fdm_process_common_EX+APS",
 	"from": "system",
 	"setting_id": "bmQfzjvJVFT6Uu8i",

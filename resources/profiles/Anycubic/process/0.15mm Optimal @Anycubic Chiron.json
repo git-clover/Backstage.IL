@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Anycubic Chiron",
+	"name": "\. mm Optimal @Anycubic Chiron",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "fcqsKbEsGbAs6rUU",

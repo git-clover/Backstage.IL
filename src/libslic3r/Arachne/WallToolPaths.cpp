@@ -133,7 +133,7 @@ void simplify(Polygon &thiss, const int64_t smallest_line_segment_squared, const
         const int64_t length2 = (current - previous).cast<int64_t>().squaredNorm();
 
         // Orca:
-        // Checking if the segment's length is smaller than 5 microns (0.005mm).
+        // Checking if the segment's length is smaller than 5 microns (0.005 mm).
         // The value of `length2` is scaled and squared, so we need to compare it with the squared value of 5 microns
         if (length2 < Slic3r::sqr(scaled<coord_t>(0.005))) {
             // We're allowed to always delete segments of less than 5 micron.

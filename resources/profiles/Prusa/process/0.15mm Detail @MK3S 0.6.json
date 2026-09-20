@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Detail @MK3S 0.6",
+	"name": "\. mm Detail @MK3S 0.6",
 	"inherits": "process_common_mk3",
 	"from": "system",
 	"setting_id": "ruMTxbUbjXJKQsJI",

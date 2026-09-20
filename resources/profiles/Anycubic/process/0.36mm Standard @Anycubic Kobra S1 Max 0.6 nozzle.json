@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.36mm Standard @Anycubic Kobra S1 Max 0.6 nozzle",
+	"name": "\. mm Standard @Anycubic Kobra S1 Max 0.6 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "ii1Ycsf3xI93uZy9",

@@ -53,7 +53,7 @@ static constexpr double EPSILON = 1e-4;
 // Scaling factor for a conversion from coord_t to coordf_t: 10e-6
 // This scaling generates a following fixed point representation with for a 32bit integer:
 // 0..4294mm with 1nm resolution
-// int32_t fits an interval of (-2147.48mm, +2147.48mm)
+// int32_t fits an interval of (-2147.48 mm, +2147.48 mm)
 // with int64_t we don't have to worry anymore about the size of the int.
 
 // Orca todo: might be better to use 1e-5 for all, namometer resolution is not needed for 3D printing

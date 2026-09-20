@@ -529,8 +529,8 @@ TEST_CASE("Klipper corners are planned with junction deviation derived from the 
     }
 
     SECTION("a shallow corner is taken far faster than the per-axis jerk model allows") {
-        // 6 degrees: sin(t/2) = cos(3 deg), so v = 5 * sqrt((sqrt(2) - 1) * 728.68) = 86.9mm/s. Per-axis
-        // jerk ignores the angle and caps the velocity *change* (2v*sin(3 deg)), giving 47.8mm/s.
+        // 6 degrees: sin(t/2) = cos(3 deg), so v = 5 * sqrt((sqrt(2) - 1) * 728.68) = 86.9 mm/s. Per-axis
+        // jerk ignores the angle and caps the velocity *change* (2v*sin(3 deg)), giving 47.8 mm/s.
         const double jd_speed     = planned_corner_speed(gcfKlipper, scv, 0.0, 6.0);
         const double jerk_speed   = planned_corner_speed(gcfMarlinLegacy, scv, 0.0, 6.0);
         REQUIRE_THAT(jd_speed, Catch::Matchers::WithinRel(86.87, 0.02));
@@ -575,7 +575,7 @@ TEST_CASE("Junction deviation is only used where the firmware actually plans wit
     }
 
     SECTION("Marlin 2 with M205 J enabled switches to junction deviation") {
-        // sqrt(1000 * 0.05 * 2.4142136) = 11.0mm/s, independent of the jerk values it no longer reads.
+        // sqrt(1000 * 0.05 * 2.4142136) = 11.0 mm/s, independent of the jerk values it no longer reads.
         REQUIRE_THAT(planned_corner_speed(gcfMarlinFirmware, jerk, 0.05, 90.0),
                      Catch::Matchers::WithinRel(10.99, 0.02));
     }
@@ -601,8 +601,8 @@ TEST_CASE("How fast a corner is taken does not depend on how much is extruded th
     const double geometric = planned_corner_speed(gcfKlipper, scv, 0.0, turn);
     REQUIRE(geometric > 0.0);
 
-    // 0.029mm/mm is an ordinary 0.42 x 0.2 line on 1.75mm filament; 0.1 is a fat large-nozzle one.
-    // Unnormalized these came out at 94.4 and 150.0mm/s against a geometric 86.9.
+    // 0.029 mm/mm is an ordinary 0.42 x 0.2 line on 1.75 mm filament; 0.1 is a fat large-nozzle one.
+    // Unnormalized these came out at 94.4 and 150.0 mm/s against a geometric 86.9.
     for (double e_per_mm : {0.029, 0.1})
         REQUIRE_THAT(planned_corner_speed(gcfKlipper, scv, 0.0, turn, 0.0, e_per_mm),
                      Catch::Matchers::WithinRel(geometric, 0.02));

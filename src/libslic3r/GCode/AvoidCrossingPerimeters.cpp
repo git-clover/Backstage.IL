@@ -1033,7 +1033,7 @@ static ExPolygons inner_offset(const ExPolygons &ex_polygons, double offset_dis)
         BoundingBox bbox(get_extents(ex_poly));
         bbox.offset(SCALED_EPSILON);
 
-        // Filter out expolygons smaller than 0.1mm^2
+        // Filter out expolygons smaller than 0.1 mm^2
         if (Vec2d bbox_size = bbox.size().cast<double>(); bbox_size.x() * bbox_size.y() < Slic3r::sqr(scale_(0.1f))) continue;
 
         for (const double &min_contour_width : min_contour_width_values) {

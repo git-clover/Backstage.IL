@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.35mm TPU Vase @SeeMeCNC RostockMAX v3.2 0.7",
+	"name": "\. mm TPU Vase @SeeMeCNC RostockMAX v3.2 0.7",
 	"inherits": "SeeMeCNC process base 0.7mm",
 	"from": "System",
 	"setting_id": "h1QHjkEgu2BXzQEi",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Standard @FF G4 0.25 nozzle",
+	"name": "\. mm Standard @FF G4 0.25 nozzle",
 	"inherits": "0.12mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
 	"from": "system",
 	"setting_id": "lmoOQqYi9swkfzCm",

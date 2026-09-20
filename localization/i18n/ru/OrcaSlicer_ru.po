@@ -209,15 +209,15 @@ msgid "Default settings may affect print quality. Adjust as needed for best resu
 msgstr "Стандартные настройки могут повлиять на качество печати. Для улучшения результата рекомендуется тонкая настройка параметров."
 
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "%s может привести к затору в высокопроизводительном сопле диаметром 0,4 мм. Используйте его с осторожностью."
 
 #, c-format, boost-format
-msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "Материалы %s жёсткие и ломкие, их использование может привести к поломке внутри AMS и затору в высокопроизводительном сопле диаметром 0,4 мм. Используйте его с осторожностью."
 
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mm high-flow nozzles. Use with caution."
 msgstr "%s может привести к затору в высокопроизводительных соплах диаметром 0,4, 0,6 или 0,8 мм. Используйте его с осторожностью."
 
 # Ошибка во втором предложении; вероятно, подразумевался вопрос. В таком случае в окне будет кнопка подтверждения, и его можно опустить. Сам Filament Track Switch можно перевести общим "переключатель AMS".
@@ -8183,7 +8183,7 @@ msgstr "Печать материала смешанного цвета на п�
 msgid "Mixing %1% with %2% in printing is not recommended.\n"
 msgstr "Совмещение %1% с %2% при печати не рекомендуется.\n"
 
-# подстановка в составные уведомления (напр.: "0.2mm Стандартный nozzle").
+# подстановка в составные уведомления (напр.: "0.2 mm Стандартный nozzle").
 # Часто речь идёт именно об экструдере, а не о сопле, плюс "экструдер" лучше
 # согласуется.
 msgid " nozzle"
@@ -8191,7 +8191,7 @@ msgstr " экструдер"
 
 # Очень кривая подстановка (nozzle_diameter, volume_type), поэтому такой
 # вариант. Например, сейчас получается: "Не рекомендуется одновременно
-# использовать сопло 0.2mm Стандартный экструдер и Bambu PETG Transparent"
+# использовать сопло 0.2 mm Стандартный экструдер и Bambu PETG Transparent"
 #, boost-format
 msgid "It is not recommended to print the following filament(s) with %1%: %2%\n"
 msgstr "Не рекомендуется одновременно использовать сопло %1% и %2%\n"
@@ -15636,7 +15636,7 @@ msgid ""
 "Extrusion: The mode when the pattern formed by the amount of extruded plastic. This is the fast and straight algorithm without unnecessary nozzle shake that gives a smooth pattern. But it is more useful for forming loose walls in the entire they array.\n"
 "Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the perimeters.\n"
 "\n"
-"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
+"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35 mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
 msgstr ""
 "Выбор способа создания нечёткой оболочки.\n"
 "\n"
@@ -16105,7 +16105,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mm for a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Максимальная высота объединённого слоя заполнения.\n"
 "\n"
@@ -17865,7 +17865,7 @@ msgstr "Закрытие отверстий"
 msgid "Z offset"
 msgstr "Смещение координат оси Z"
 
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
+msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mm far from the print bed, set this to -0.3 (or fix your endstop)."
 msgstr "Это значение будет прибавлено ко всем координатам оси Z в выходном G-код файле, тем самым смещая всю печатаемую деталь выше (если значение положительное, например 0.3) или ниже (если значение отрицательное, например -0.3) относительно стола 3D принтера. Используется для компенсации слишком малого или слишком большого расстояния от сопла до стола на первом слое, вне зависимости от причины."
 
 msgid "Enable support"
@@ -21228,7 +21228,7 @@ msgstr "Количество экструдеров принтера не сов
 
 # подставляется "левый " или "правый " (с пробелами)
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
 msgstr "В данный момент %sэкструдер не поддерживает калибровку динамики потока, так как в нём установлено сопло с диаметром 0.2 мм."
 
 #, c-format, boost-format
@@ -21743,37 +21743,37 @@ msgstr "Хрупкий нерастворимый материал для печ
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Общие профили (Generic) настроены усреднённо для максимальной совместимости с широким спектром материалов. Для наилучшего качества и скорости печати рекомендуется использовать материалы и профили Bambu."
 
-msgid "High quality profile for 0.2mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Профиль для сопла 0.2 мм с упором на качество печати."
 
-msgid "High quality profile for 0.16mm layer height, prioritizing print quality and strength."
+msgid "High quality profile for 0.16 mm layer height, prioritizing print quality and strength."
 msgstr "Профиль для печати слоем 0.16 мм с упором на качество и прочность."
 
-msgid "Standard profile for 0.16mm layer height, prioritizing speed."
+msgid "Standard profile for 0.16 mm layer height, prioritizing speed."
 msgstr "Обычный профиль для печати слоем 0.16 мм с упором на скорость."
 
-msgid "High quality profile for 0.2mm layer height, prioritizing strength and print quality."
+msgid "High quality profile for 0.2 mm layer height, prioritizing strength and print quality."
 msgstr "Профиль для печати слоем 0.2 мм с упором на качество и прочность."
 
-msgid "Standard profile for 0.4mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Обычный профиль для сопла 0.2 мм с упором на скорость."
 
-msgid "High quality profile for 0.6mm nozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Профиль для сопла 0.6 мм с упором на качество и прочность."
 
-msgid "Strength profile for 0.6mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Профиль для сопла 0.6 мм с упором на прочность."
 
-msgid "Standard profile for 0.6mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Обычный профиль для сопла 0.6 мм с упором на скорость."
 
-msgid "High quality profile for 0.8mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Профиль для сопла 0.8 мм с упором на качество."
 
-msgid "Strength profile for 0.8mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Профиль для сопла 0.8 мм с упором на прочность."
 
-msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Обычный профиль для сопла 0.6 мм с упором на скорость."
 
 msgid "No AMS"

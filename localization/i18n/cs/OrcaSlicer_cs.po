@@ -241,17 +241,17 @@ msgstr "Výchozí nastavení může ovlivnit kvalitu tisku. Pro nejlepší výsl
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "U %s hrozí riziko ucpání trysky při použití vysokoprůtokových trysek 0,4 mm. Používejte opatrně."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "Filamenty %s jsou tvrdé a křehké a mohou se v AMS zlomit; při použití vysokoprůtokových trysek 0,4 mm navíc hrozí riziko ucpání trysky. Používejte opatrně."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mm high-flow nozzles. Use with caution."
 msgstr "U %s hrozí riziko ucpání trysky při použití vysokoprůtokových trysek 0,4, 0,6 a 0,8 mm. Používejte opatrně."
 
 # AI Translated
@@ -15617,7 +15617,7 @@ msgid ""
 "Extrusion: The mode when the pattern formed by the amount of extruded plastic. This is the fast and straight algorithm without unnecessary nozzle shake that gives a smooth pattern. But it is more useful for forming loose walls in the entire they array.\n"
 "Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the perimeters.\n"
 "\n"
-"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
+"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35 mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
 msgstr ""
 "Režim generování Fuzzy Skin. Funguje pouze s Arachne!\n"
 "Vyosení: Klasický režim, kdy se vzor tvoří posunutím trysky do strany od původní dráhy.\n"
@@ -16049,7 +16049,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mm for a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Maximální výška vrstvy pro kombinovanou řídkou výplň.\n"
 "\n"
@@ -17678,7 +17678,7 @@ msgstr "Zavřít díry"
 msgid "Z offset"
 msgstr "Odsazení Z"
 
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
+msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mm far from the print bed, set this to -0.3 (or fix your endstop)."
 msgstr "Tato hodnota bude přičtena (nebo odečtena) ke všem Z souřadnicím ve výstupním G-code. Slouží k vyrovnání nesprávné polohy Z endstopu: například, pokud vaše nulová poloha endstopu skutečně nechává trysku 0,3 mm nad tiskovou podložkou, nastavte zde -0,3 (nebo opravte endstop)."
 
 msgid "Enable support"
@@ -20897,7 +20897,7 @@ msgid "The number of printer extruders and the printer selected for calibration 
 msgstr "Počet extruderů tiskárny neodpovídá tiskárně vybrané pro kalibraci."
 
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
 msgstr "Průměr trysky extruderu %s je 0,2 mm, což nepodporuje automatickou kalibraci Flow Dynamics."
 
 #, c-format, boost-format
@@ -21462,37 +21462,37 @@ msgstr "Toto je ve vodě nerozpustný podpůrný filament, který se obvykle pou
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Obecné předvolby jsou nastaveny konzervativně pro kompatibilitu s širší škálou filamentů. Pro vyšší kvalitu a rychlost tisku používejte filamenty Bambu s předvolbami Bambu."
 
-msgid "High quality profile for 0.2mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Profil vysoké kvality pro trysku 0,2 mm s důrazem na kvalitu tisku."
 
-msgid "High quality profile for 0.16mm layer height, prioritizing print quality and strength."
+msgid "High quality profile for 0.16 mm layer height, prioritizing print quality and strength."
 msgstr "Profil vysoké kvality pro výšku vrstvy 0,16 mm s důrazem na kvalitu a pevnost tisku."
 
-msgid "Standard profile for 0.16mm layer height, prioritizing speed."
+msgid "Standard profile for 0.16 mm layer height, prioritizing speed."
 msgstr "Standardní profil pro výšku vrstvy 0,16 mm s důrazem na rychlost."
 
-msgid "High quality profile for 0.2mm layer height, prioritizing strength and print quality."
+msgid "High quality profile for 0.2 mm layer height, prioritizing strength and print quality."
 msgstr "Profil vysoké kvality pro výšku vrstvy 0,2 mm s důrazem na pevnost a kvalitu tisku."
 
-msgid "Standard profile for 0.4mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Standardní profil pro trysku 0,4 mm s důrazem na rychlost."
 
-msgid "High quality profile for 0.6mm nozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Profil vysoké kvality pro trysku 0,6 mm s důrazem na kvalitu a pevnost tisku."
 
-msgid "Strength profile for 0.6mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Pevnostní profil pro trysku 0,6 mm s důrazem na pevnost."
 
-msgid "Standard profile for 0.6mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Standardní profil pro trysku 0,6 mm s důrazem na rychlost."
 
-msgid "High quality profile for 0.8mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Profil vysoké kvality pro trysku 0,8 mm s důrazem na kvalitu tisku."
 
-msgid "Strength profile for 0.8mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Pevnostní profil pro trysku 0,8 mm s důrazem na pevnost."
 
-msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Standardní profil pro trysku 0,8 mm s důrazem na rychlost."
 
 msgid "No AMS"

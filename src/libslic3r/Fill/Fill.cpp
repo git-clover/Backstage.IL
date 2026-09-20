@@ -1671,7 +1671,7 @@ void Layer::make_ironing()
 
 		// Cura:
 		// Pattern (zig-zag / concentric)
-		// line spacing (0.1mm)
+		// line spacing (0.1 mm)
 		// flow: from normal layer height. 10%
 		// speed: 20 mm/sec
 	};

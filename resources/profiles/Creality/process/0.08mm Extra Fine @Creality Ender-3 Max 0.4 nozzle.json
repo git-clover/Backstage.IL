@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Creality Ender-3 Max 0.4 nozzle",
+	"name": "\. mm Extra Fine @Creality Ender-3 Max 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "oaCT7YTo6y4UFStp",

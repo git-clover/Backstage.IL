@@ -242,17 +242,17 @@ msgstr "Numatytieji nustatymai gali paveikti spausdinimo kokybę. Prireikus pako
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "%s kelia purkštuko užsikimšimo riziką naudojant 0,4 mm didelio srauto purkštukus. Naudokite atsargiai."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "%s gijos yra kietos ir trapios, gali lūžti AMS, be to, kyla purkštuko užsikimšimo rizika naudojant 0,4 mm didelio srauto purkštukus. Naudokite atsargiai."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mm high-flow nozzles. Use with caution."
 msgstr "%s kelia purkštuko užsikimšimo riziką naudojant 0,4, 0,6, 0,8 mm didelio srauto purkštukus. Naudokite atsargiai."
 
 # AI Translated
@@ -15344,7 +15344,7 @@ msgid ""
 "Extrusion: The mode when the pattern formed by the amount of extruded plastic. This is the fast and straight algorithm without unnecessary nozzle shake that gives a smooth pattern. But it is more useful for forming loose walls in the entire they array.\n"
 "Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the perimeters.\n"
 "\n"
-"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
+"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35 mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
 msgstr ""
 "Grublėto paviršiaus (fuzzy skin) generavimo režimas. Veikia tik naudojant „Arachne“ sienelių generatorių!\n"
 "Poslinkis (Displacement): Klasikinis režimas, kai raštas formuojamas stumiant purkštuką į šoną nuo pradinės trajektorijos.\n"
@@ -15771,7 +15771,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mm for a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Maksimalus sluoksnio aukštis derinamam (apjungtam) retam užpildui.\n"
 "\n"
@@ -17364,7 +17364,7 @@ msgstr "Uždaryti kiaurymes"
 msgid "Z offset"
 msgstr "Z poslinkis"
 
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
+msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mm far from the print bed, set this to -0.3 (or fix your endstop)."
 msgstr "Ši vertė bus pridėta (arba atimta) prie visų išvesties G kodo Z koordinačių. Ji naudojama blogai Z galinio ribotuvo padėčiai kompensuoti: pavyzdžiui, jei jūsų nulinis ribotuvas iš tikrųjų palieka purkštuką 0,3 mm atstumu nuo spausdinimo pagrindo, nustatykite šią reikšmę -0,3 (arba pataisykite galinį ribotuvą)."
 
 msgid "Enable support"
@@ -20562,7 +20562,7 @@ msgid "The number of printer extruders and the printer selected for calibration 
 msgstr "Spausdintuvo ekstruderių skaičius neatitinka kalibravimui pasirinkto spausdintuvo parametrų."
 
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
 msgstr "%s ekstruderio purkštuko skersmuo yra 0,2 mm, o toks skersmuo nepalaiko automatinio srauto dinamikos kalibravimo."
 
 #, c-format, boost-format
@@ -21068,37 +21068,37 @@ msgstr "Tai vandenyje netirpi gija palaikančioms konstrukcijoms (supports), pap
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Generiniai (bendrieji) profiliai yra suderinti konservatyviai, kad tiktų kuo platesniam gijų asortimentui. Norėdami pasiekti geresnės spausdinimo kokybės ir didesnio greičio, naudokite „Bambu“ gijas su joms skirtais „Bambu“ profiliais."
 
-msgid "High quality profile for 0.2mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Aukštos kokybės profilis 0,2 mm purkštukui, teikiantis pirmenybę spausdinimo kokybei."
 
-msgid "High quality profile for 0.16mm layer height, prioritizing print quality and strength."
+msgid "High quality profile for 0.16 mm layer height, prioritizing print quality and strength."
 msgstr "Aukštos kokybės profilis 0,16 mm sluoksnio aukščiui, teikiantis pirmenybę spausdinimo kokybei ir tvirtumui."
 
-msgid "Standard profile for 0.16mm layer height, prioritizing speed."
+msgid "Standard profile for 0.16 mm layer height, prioritizing speed."
 msgstr "Standartinis profilis 0,16 mm sluoksnio aukščiui, teikiantis pirmenybę greičiui."
 
-msgid "High quality profile for 0.2mm layer height, prioritizing strength and print quality."
+msgid "High quality profile for 0.2 mm layer height, prioritizing strength and print quality."
 msgstr "Aukštos kokybės profilis 0,2 mm sluoksnio aukščiui, teikiantis pirmenybę tvirtumui ir spausdinimo kokybei."
 
-msgid "Standard profile for 0.4mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Standartinis profilis 0,4 mm purkštukui, teikiantis pirmenybę greičiui."
 
-msgid "High quality profile for 0.6mm nozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Aukštos kokybės profilis 0,6 mm purkštukui, teikiantis pirmenybę spausdinimo kokybei ir tvirtumui."
 
-msgid "Strength profile for 0.6mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Tvirtumo profilis 0,6 mm purkštukui, teikiantis pirmenybę konstrukcijos tvirtumui."
 
-msgid "Standard profile for 0.6mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Standartinis profilis 0,6 mm purkštukui, teikiantis pirmenybę greičiui."
 
-msgid "High quality profile for 0.8mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Aukštos kokybės profilis 0,8 mm purkštukui, teikiantis pirmenybę spausdinimo kokybei."
 
-msgid "Strength profile for 0.8mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Tvirtumo profilis 0,8 mm purkštukui, teikiantis pirmenybę konstrukcijos tvirtumui."
 
-msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Standartinis profilis 0,8 mm purkštukui, teikiantis pirmenybę greičiui."
 
 msgid "No AMS"

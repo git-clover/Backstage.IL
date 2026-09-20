@@ -1464,7 +1464,7 @@ bool CalibUtils::check_printable_status_before_cali(const MachineObject *obj, co
 
 
         if (is_approx(double(cali_info.nozzle_diameter), 0.2) && !obj->is_series_x()) {
-            error_message = wxString::Format(_L("The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."), name);
+            error_message = wxString::Format(_L("The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."), name);
             return false;
         }
 
@@ -1523,7 +1523,7 @@ bool CalibUtils::check_printable_status_before_cali(const MachineObject *obj, co
 
 
         if (is_approx(double(cali_info.nozzle_diameter), 0.2) && !obj->is_series_x()) {
-            error_message = wxString::Format(_L("The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."), name);
+            error_message = wxString::Format(_L("The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."), name);
             return false;
         }
 

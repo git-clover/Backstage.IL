@@ -3221,7 +3221,7 @@ void PrintObjectSupportMaterial::clip_by_pillars(
     // A regular grid of pillars, filling the 2D bounding box.
     Polygons grid;
     {
-        // Rectangle with a side of 2.5x2.5mm.
+        // Rectangle with a side of 2.5x2.5 mm.
         Polygon pillar;
         pillar.points.push_back(Point(0, 0));
         pillar.points.push_back(Point(pillar_size, 0));

@@ -242,18 +242,18 @@ msgstr "기본 설정은 출력 품질에 영향을 줄 수 있습니다. 최상
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
-msgstr "%s은(는) 0.4mm 고유량 노즐 사용 시 노즐 막힘 위험이 있습니다. 주의해서 사용하십시오."
+msgid "%s has a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
+msgstr "%s은(는) 0.4 mm 고유량 노즐 사용 시 노즐 막힘 위험이 있습니다. 주의해서 사용하십시오."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
-msgstr "%s 필라멘트는 단단하고 잘 부러져 AMS 안에서 끊어질 수 있으며, 0.4mm 고유량 노즐 사용 시 노즐 막힘 위험도 있습니다. 주의해서 사용하십시오."
+msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
+msgstr "%s 필라멘트는 단단하고 잘 부러져 AMS 안에서 끊어질 수 있으며, 0.4 mm 고유량 노즐 사용 시 노즐 막힘 위험도 있습니다. 주의해서 사용하십시오."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution."
-msgstr "%s은(는) 0.4, 0.6, 0.8mm 고유량 노즐 사용 시 노즐 막힘 위험이 있습니다. 주의해서 사용하십시오."
+msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mm high-flow nozzles. Use with caution."
+msgstr "%s은(는) 0.4, 0.6, 0.8 mm 고유량 노즐 사용 시 노즐 막힘 위험이 있습니다. 주의해서 사용하십시오."
 
 # AI Translated
 #, c-format, boost-format
@@ -15710,14 +15710,14 @@ msgid ""
 "Extrusion: The mode when the pattern formed by the amount of extruded plastic. This is the fast and straight algorithm without unnecessary nozzle shake that gives a smooth pattern. But it is more useful for forming loose walls in the entire they array.\n"
 "Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the perimeters.\n"
 "\n"
-"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
+"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35 mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
 msgstr ""
 "퍼지 스킨 생성 모드입니다. Arachne에서만 작동합니다!\n"
 "변위: 원래 경로에서 노즐을 옆으로 이동시켜 패턴을 만드는 고전적인 모드입니다.\n"
 "압출: 압출되는 플라스틱의 양으로 패턴을 만드는 모드입니다. 불필요한 노즐 흔들림 없이 빠르고 직선적인 알고리즘으로 매끄러운 패턴을 만듭니다. 다만 벽 전체를 느슨하게 형성하는 데 더 적합합니다.\n"
 "결합: [변위] + [압출]의 혼합 모드입니다. 벽의 외관은 [변위] 모드와 비슷하지만 둘레 사이에 구멍이 남지 않습니다.\n"
 "\n"
-"주의! [압출] 및 [결합] 모드는 fuzzy_skin_thickness 매개변수가 출력되는 루프의 두께를 넘지 않을 때만 작동합니다. 동시에 특정 레이어의 압출 너비도 일정 수준 아래로 내려가서는 안 되며, 이는 일반적으로 레이어 높이의 15-25%%에 해당합니다. 따라서 둘레 너비가 0.4 mm이고 레이어 높이가 0.2 mm인 경우 최대 퍼지 스킨 두께는 0.4-(0.2*0.25)=±0.35mm가 됩니다! 이보다 큰 값을 입력하면 Flow::spacing() 오류가 표시되고 모델이 슬라이스되지 않습니다. 이 오류가 반복되지 않을 때까지 값을 조정할 수 있습니다."
+"주의! [압출] 및 [결합] 모드는 fuzzy_skin_thickness 매개변수가 출력되는 루프의 두께를 넘지 않을 때만 작동합니다. 동시에 특정 레이어의 압출 너비도 일정 수준 아래로 내려가서는 안 되며, 이는 일반적으로 레이어 높이의 15-25%%에 해당합니다. 따라서 둘레 너비가 0.4 mm이고 레이어 높이가 0.2 mm인 경우 최대 퍼지 스킨 두께는 0.4-(0.2*0.25)=±0.35 mm가 됩니다! 이보다 큰 값을 입력하면 Flow::spacing() 오류가 표시되고 모델이 슬라이스되지 않습니다. 이 오류가 반복되지 않을 때까지 값을 조정할 수 있습니다."
 
 msgid "Displacement"
 msgstr "배수량"
@@ -16158,7 +16158,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mm for a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "결합된 희소 채우기의 최대 레이어 높이입니다.\n"
 "\n"
@@ -16166,7 +16166,7 @@ msgstr ""
 "\n"
 "채우기가 결합되는 레이어 수는 이 값을 레이어 높이로 나누고 가장 가까운 소수점 이하 자릿수로 반내림하여 파생됩니다.\n"
 "\n"
-"절대 mm 값(예: 0.4mm 노즐의 경우 0.32mm) 또는 % 값(예: 80%)을 사용합니다. 이 값은 노즐 직경보다 커서는 안 됩니다."
+"절대 mm 값(예: 0.4 mm 노즐의 경우 0.32 mm) 또는 % 값(예: 80%)을 사용합니다. 이 값은 노즐 직경보다 커서는 안 됩니다."
 
 msgid "Enable clumping detection"
 msgstr "뭉침 감지 활성화"
@@ -17824,8 +17824,8 @@ msgstr "구멍 닫기"
 msgid "Z offset"
 msgstr "Z 옵셋"
 
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
-msgstr "이 값은 출력 Gcode의 모든 Z 좌표에 더해지거나 뺍니다. 이는 잘못된 Z 엔드스톱 위치를 보정하는 데 사용됩니다. 예를 들어 엔드스톱 제로가 실제로 출력 베드에서 노즐을 0.3mm 멀리 벗어나는 경우 이 값을 -0.3으로 설정합니다 (또는 엔드스톱을 직접 수정하세요)."
+msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mm far from the print bed, set this to -0.3 (or fix your endstop)."
+msgstr "이 값은 출력 Gcode의 모든 Z 좌표에 더해지거나 뺍니다. 이는 잘못된 Z 엔드스톱 위치를 보정하는 데 사용됩니다. 예를 들어 엔드스톱 제로가 실제로 출력 베드에서 노즐을 0.3 mm 멀리 벗어나는 경우 이 값을 -0.3으로 설정합니다 (또는 엔드스톱을 직접 수정하세요)."
 
 msgid "Enable support"
 msgstr "서포트 사용"
@@ -21119,8 +21119,8 @@ msgid "The number of printer extruders and the printer selected for calibration 
 msgstr "프린터 압출기 수와 보정을 위해 선택한 프린터가 일치하지 않습니다."
 
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s 압출기의 노즐 직경은 0.2mm이며 자동 유동 역학 보정을 지원하지 않습니다."
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "%s 압출기의 노즐 직경은 0.2 mm이며 자동 유동 역학 보정을 지원하지 않습니다."
 
 #, c-format, boost-format
 msgid ""
@@ -21565,72 +21565,72 @@ msgid "It has a small layer height. This results in almost negligible layer line
 msgstr "레이어 높이가 작기 때문에 레이어 라인이 거의 무시할 수 있고 출력 품질이 높습니다. 대부분의 일반적인 출력 케이스에 적합합니다."
 
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has lower speeds and acceleration, and the sparse infill pattern is Gyroid. This results in much higher print quality but a much longer print time."
-msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 속도와 가속도가 낮고 성긴 채우기 패턴은 자이로이드입니다. 따라서 출력 품질은 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
+msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 속도와 가속도가 낮고 성긴 채우기 패턴은 자이로이드입니다. 따라서 출력 품질은 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
 
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has a slightly bigger layer height. This results in almost negligible layer lines and slightly shorter print time."
-msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 약간 더 크고 레이어 라인이 거의 무시할 수 있으며 출력 시간이 약간 짧아집니다."
+msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 약간 더 크고 레이어 라인이 거의 무시할 수 있으며 출력 시간이 약간 짧아집니다."
 
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has a bigger layer height. This results in slightly visible layer lines but shorter print time."
-msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 선이 약간 눈에 띄지만 출력 시간은 더 짧아집니다."
+msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 선이 약간 눈에 띄지만 출력 시간은 더 짧아집니다."
 
 # AI Translated
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has a smaller layer height. This results in almost invisible layer lines and higher print quality but longer print time."
 msgstr "0.2 mm 노즐의 기본 프로필과 비교하여 레이어 높이가 더 작습니다. 그 결과 레이어 선이 거의 보이지 않고 출력 품질이 높아지지만 출력 시간은 길어집니다."
 
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has a smaller layer lines, lower speeds and acceleration, and the sparse infill pattern is Gyroid. This results in almost invisible layer lines and much higher print quality but much longer print time."
-msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 레이어 라인이 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 선이 거의 보이지 않고 출력 품질이 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
+msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 레이어 라인이 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 선이 거의 보이지 않고 출력 품질이 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
 
 # AI Translated
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has a smaller layer height. This results in minimal layer lines and higher print quality but longer print time."
 msgstr "0.2 mm 노즐의 기본 프로필과 비교하여 레이어 높이가 더 작습니다. 그 결과 레이어 선이 최소화되고 출력 품질이 높아지지만 출력 시간은 길어집니다."
 
 msgid "Compared with the default profile of a 0.2 mm nozzle, it has a smaller layer lines, lower speeds and acceleration, and the sparse infill pattern is Gyroid. This results in minimal layer lines and much higher print quality but much longer print time."
-msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 레이어 라인이 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 라인이 최소화되고 출력 품질이 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
+msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 레이어 라인이 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 라인이 최소화되고 출력 품질이 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
 
 msgid "It has a normal layer height. This results in average layer lines and print quality. It is suitable for most printing cases."
 msgstr "이는 일반적인 레이어 높이를 가지며 일반적인 레이어 선과 출력 품질을 가져옵니다. 대부분의 일반적인 출력 케이스에 적합합니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has more wall loops and a higher sparse infill density. This results in higher print strength but more filament consumption and longer print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하여 더 많은 벽 루프와 더 높은 성긴 채우기 밀도를 갖습니다. 따라서 출력 강도는 높아지지만 필라멘트 소비가 늘어나고 출력 시간이 길어집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하여 더 많은 벽 루프와 더 높은 성긴 채우기 밀도를 갖습니다. 따라서 출력 강도는 높아지지만 필라멘트 소비가 늘어나고 출력 시간이 길어집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a bigger layer height. This results in more apparent layer lines and lower print quality, but slightly shorter print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 더 뚜렷해지고 출력 품질이 낮아지지만 출력 시간은 약간 짧아집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 더 뚜렷해지고 출력 품질이 낮아지지만 출력 시간은 약간 짧아집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a bigger layer height. This results in more apparent layer lines and lower print quality, but shorter print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 더 뚜렷해지고 출력 품질이 낮아지지만 출력 시간은 짧아집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 더 뚜렷해지고 출력 품질이 낮아지지만 출력 시간은 짧아집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height. This results in less apparent layer lines and higher print quality but longer print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선이 덜 뚜렷하고 출력 품질이 높아지지만 출력 시간은 길어집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선이 덜 뚜렷하고 출력 품질이 높아지지만 출력 시간은 길어집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height, lower speeds and acceleration, and the sparse infill pattern is Gyroid. This results in less apparent layer lines and much higher print quality but much longer print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 선이 덜 뚜렷해지고 출력 품질이 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 선이 덜 뚜렷해지고 출력 품질이 훨씬 높아지지만 출력 시간은 훨씬 길어집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height. This results in almost negligible layer lines and higher print quality but longer print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아 레이어 라인이 거의 무시할 수 있고 출력 품질이 높아지지만 출력 시간은 길어집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아 레이어 라인이 거의 무시할 수 있고 출력 품질이 높아지지만 출력 시간은 길어집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height, lower speeds and acceleration, and the sparse infill pattern is Gyroid. This results in almost negligible layer lines and much higher print quality but much longer print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 라인은 거의 무시할 수 있고 출력 품질은 훨씬 높지만 출력 시간은 훨씬 길어집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작고 속도와 가속도가 낮으며 성긴 채우기 패턴은 자이로이드입니다. 따라서 레이어 라인은 거의 무시할 수 있고 출력 품질은 훨씬 높지만 출력 시간은 훨씬 길어집니다."
 
 msgid "Compared with the default profile of a 0.4 mm nozzle, it has a smaller layer height. This results in almost negligible layer lines and longer print time."
-msgstr "0.4mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 라인을 거의 무시할 수 있고 출력 시간이 길어집니다."
+msgstr "0.4 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 라인을 거의 무시할 수 있고 출력 시간이 길어집니다."
 
 msgid "It has a big layer height. This results in apparent layer lines and ordinary print quality and print time."
 msgstr "레이어 높이가 커서 레이어 선이 뚜렷이 보이고 출력 품질과 출력 시간이 보통입니다."
 
 msgid "Compared with the default profile of a 0.6 mm nozzle, it has more wall loops and a higher sparse infill density. This results in higher print strength but more filament consumption and longer print time."
-msgstr "0.6mm 노즐의 기본 프로파일과 비교하여 더 많은 벽 루프와 더 높은 성긴 채우기 밀도를 갖습니다. 따라서 출력 강도는 높아지지만 필라멘트 소비가 늘어나고 출력 시간이 길어집니다."
+msgstr "0.6 mm 노즐의 기본 프로파일과 비교하여 더 많은 벽 루프와 더 높은 성긴 채우기 밀도를 갖습니다. 따라서 출력 강도는 높아지지만 필라멘트 소비가 늘어나고 출력 시간이 길어집니다."
 
 msgid "Compared with the default profile of a 0.6 mm nozzle, it has a bigger layer height. This results in more apparent layer lines and lower print quality, but shorter print time in some cases."
-msgstr "0.6mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 더 뚜렷해지고 출력 품질이 낮아지지만 일부 출력의 경우 출력 시간이 짧아집니다."
+msgstr "0.6 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 더 뚜렷해지고 출력 품질이 낮아지지만 일부 출력의 경우 출력 시간이 짧아집니다."
 
 msgid "Compared with the default profile of a 0.6 mm nozzle, it has a bigger layer height. This results in much more apparent layer lines and much lower print quality, but shorter print time in some cases."
-msgstr "0.6mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 훨씬 더 뚜렷해지고 출력 품질이 훨씬 낮아지지만 일부 출력의 경우 출력 시간이 짧아집니다."
+msgstr "0.6 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 훨씬 더 뚜렷해지고 출력 품질이 훨씬 낮아지지만 일부 출력의 경우 출력 시간이 짧아집니다."
 
 msgid "Compared with the default profile of a 0.6 mm nozzle, it has a smaller layer height. This results in less apparent layer lines and slight higher print quality but longer print time."
-msgstr "0.6mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선이 덜 뚜렷해지고 출력 품질이 약간 높아지지만 출력 시간은 길어집니다."
+msgstr "0.6 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선이 덜 뚜렷해지고 출력 품질이 약간 높아지지만 출력 시간은 길어집니다."
 
 msgid "Compared with the default profile of a 0.6 mm nozzle, it has a smaller layer height. This results in less apparent layer lines and higher print quality but longer print time."
-msgstr "0.6mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선이 덜 뚜렷하고 출력 품질이 높아지지만 출력 시간이 길어집니다."
+msgstr "0.6 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선이 덜 뚜렷하고 출력 품질이 높아지지만 출력 시간이 길어집니다."
 
 # AI Translated
 msgid "It has a very big layer height. This results in very apparent layer lines, low print quality and shorter print time."
@@ -21645,7 +21645,7 @@ msgid "Compared with the default profile of a 0.8 mm nozzle, it has a much bigge
 msgstr "0.8 mm 노즐의 기본 프로필과 비교하여 레이어 높이가 훨씬 큽니다. 그 결과 레이어 선이 극도로 뚜렷해지고 출력 품질이 크게 낮아지지만, 경우에 따라 출력 시간은 훨씬 짧아집니다."
 
 msgid "Compared with the default profile of a 0.8 mm nozzle, it has a slightly smaller layer height. This results in slightly less but still apparent layer lines and slightly higher print quality but longer print time in some cases."
-msgstr "0.8mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 약간 더 작아서 약간 적지만 여전히 뚜렷한 레이어 라인이 나타나고 출력 품질이 약간 높아지지만 일부 출력의 경우 출력 시간이 길어집니다."
+msgstr "0.8 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 약간 더 작아서 약간 적지만 여전히 뚜렷한 레이어 라인이 나타나고 출력 품질이 약간 높아지지만 일부 출력의 경우 출력 시간이 길어집니다."
 
 # AI Translated
 msgid "Compared with the default profile of a 0.8 mm nozzle, it has a smaller layer height. This results in less but still apparent layer lines and slightly higher print quality but longer print time in some cases."
@@ -21690,38 +21690,38 @@ msgstr "이것은 수용성이 아닌 서포트 필라멘트로, 일반적으로
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "일반 사전 설정은 더 다양한 필라멘트와의 호환성을 위해 보수적으로 조정되었습니다. 출력 품질과 속도를 높이려면 Bambu 사전 설정과 함께 Bambu 필라멘트를 사용하세요."
 
-msgid "High quality profile for 0.2mm nozzle, prioritizing print quality."
-msgstr "출력 품질을 우선시하는 0.2mm 노즐에 대한 고품질 프로필."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
+msgstr "출력 품질을 우선시하는 0.2 mm 노즐에 대한 고품질 프로필."
 
-msgid "High quality profile for 0.16mm layer height, prioritizing print quality and strength."
-msgstr "출력 품질과 강도를 우선시하는 0.16mm 레이어 높이의 고품질 프로필."
+msgid "High quality profile for 0.16 mm layer height, prioritizing print quality and strength."
+msgstr "출력 품질과 강도를 우선시하는 0.16 mm 레이어 높이의 고품질 프로필."
 
-msgid "Standard profile for 0.16mm layer height, prioritizing speed."
-msgstr "속도를 우선시하는 0.16mm 레이어 높이의 표준 프로필."
+msgid "Standard profile for 0.16 mm layer height, prioritizing speed."
+msgstr "속도를 우선시하는 0.16 mm 레이어 높이의 표준 프로필."
 
-msgid "High quality profile for 0.2mm layer height, prioritizing strength and print quality."
-msgstr "강도 및 출력 품질을 우선시하는 0.2mm 레이어 높이의 고품질 프로필."
+msgid "High quality profile for 0.2 mm layer height, prioritizing strength and print quality."
+msgstr "강도 및 출력 품질을 우선시하는 0.2 mm 레이어 높이의 고품질 프로필."
 
-msgid "Standard profile for 0.4mm nozzle, prioritizing speed."
-msgstr "속도를 우선시하는 0.4mm 노즐의 표준 프로필."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
+msgstr "속도를 우선시하는 0.4 mm 노즐의 표준 프로필."
 
-msgid "High quality profile for 0.6mm nozzle, prioritizing print quality and strength."
-msgstr "출력 품질과 강도를 우선시하는 0.6mm 노즐용 고품질 프로필."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
+msgstr "출력 품질과 강도를 우선시하는 0.6 mm 노즐용 고품질 프로필."
 
-msgid "Strength profile for 0.6mm nozzle, prioritizing strength."
-msgstr "강도를 우선시하는 0.6mm 노즐의 강도 프로필"
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
+msgstr "강도를 우선시하는 0.6 mm 노즐의 강도 프로필"
 
-msgid "Standard profile for 0.6mm nozzle, prioritizing speed."
-msgstr "속도를 우선시하는 0.6mm 노즐의 표준 프로필."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
+msgstr "속도를 우선시하는 0.6 mm 노즐의 표준 프로필."
 
-msgid "High quality profile for 0.8mm nozzle, prioritizing print quality."
-msgstr "출력 품질을 우선시하는 0.8mm 노즐용 고품질 프로필."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
+msgstr "출력 품질을 우선시하는 0.8 mm 노즐용 고품질 프로필."
 
-msgid "Strength profile for 0.8mm nozzle, prioritizing strength."
-msgstr "강도를 우선시하는 0.8mm 노즐의 강도 프로필."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
+msgstr "강도를 우선시하는 0.8 mm 노즐의 강도 프로필."
 
-msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
-msgstr "속도를 우선시하는 0.8mm 노즐의 표준 프로필."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
+msgstr "속도를 우선시하는 0.8 mm 노즐의 표준 프로필."
 
 msgid "No AMS"
 msgstr "AMS 없음"
@@ -26743,22 +26743,22 @@ msgstr ""
 #~ msgstr "프린터 새로 고침"
 
 #~ msgid "Compared with the default profile of a 0.2 mm nozzle, it has a smaller layer height. This results in almost invisible layer lines and higher print quality but shorter print time."
-#~ msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 라인이 거의 보이지 않고 출력 품질이 높아지지만 출력 시간은 단축됩니다."
+#~ msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 라인이 거의 보이지 않고 출력 품질이 높아지지만 출력 시간은 단축됩니다."
 
 #~ msgid "Compared with the default profile of a 0.2 mm nozzle, it has a smaller layer height. This results in minimal layer lines and higher print quality, but shorter print time."
-#~ msgstr "0.2mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 라인이 최소화되고 출력 품질이 높아지지만 출력 시간은 단축됩니다."
+#~ msgstr "0.2 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 라인이 최소화되고 출력 품질이 높아지지만 출력 시간은 단축됩니다."
 
 #~ msgid "It has a very big layer height. This results in very apparent layer lines, low print quality and general print time."
 #~ msgstr "레이어 높이가 매우 커서 레이어 선이 매우 뚜렷하고 출력 품질이 낮으며 일반적인 출력 시간이 소요됩니다."
 
 #~ msgid "Compared with the default profile of a 0.8 mm nozzle, it has a bigger layer height. This results in very apparent layer lines and much lower print quality but shorter print time in some cases."
-#~ msgstr "0.8mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 매우 뚜렷해지고 출력 품질이 훨씬 낮아지지만 일부 출력의 경우 출력 시간이 짧아집니다."
+#~ msgstr "0.8 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 크고 레이어 라인이 매우 뚜렷해지고 출력 품질이 훨씬 낮아지지만 일부 출력의 경우 출력 시간이 짧아집니다."
 
 #~ msgid "Compared with the default profile of a 0.8 mm nozzle, it has a much bigger layer height. This results in extremely apparent layer lines and much lower print quality but much shorter print time in some cases."
-#~ msgstr "0.8mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 훨씬 더 크고 레이어 라인이 매우 뚜렷해지고 출력 품질이 훨씬 낮아지지만 일부 출력의 경우 출력 시간이 훨씬 짧아집니다."
+#~ msgstr "0.8 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 훨씬 더 크고 레이어 라인이 매우 뚜렷해지고 출력 품질이 훨씬 낮아지지만 일부 출력의 경우 출력 시간이 훨씬 짧아집니다."
 
 #~ msgid "Compared with the default profile of a 0.8 mm nozzle, it has a smaller layer height. This results in less but still apparent layer lines and slightly higher print quality, but longer print time in some cases."
-#~ msgstr "0.8mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선은 적지만 여전히 뚜렷하고 출력 품질은 약간 높지만 일부 출력의 경우 출력 시간이 길어집니다."
+#~ msgstr "0.8 mm 노즐의 기본 프로파일과 비교하면 레이어 높이가 더 작아서 레이어 선은 적지만 여전히 뚜렷하고 출력 품질은 약간 높지만 일부 출력의 경우 출력 시간이 길어집니다."
 
 #~ msgid "Connection to Flashforge is working correctly."
 #~ msgstr "플래시포지 연결이 정상적으로 작동합니다."
@@ -26776,7 +26776,7 @@ msgstr ""
 #~ "서포트 부피는 작지만 강도는 약한 것이 특징인 실험적 모양 \"얇은 트리\"를 추가했습니다.\n"
 #~ "접점 레이어 0, 상단 Z 거리 0, 벽 루프 2 와 함께 사용하는 것이 좋습니다."
 
-#~ msgid "For \"Tree Strong\" and \"Tree Hybrid\" styles, we recommend the following settings: at least 2 interface layers, at least 0.1mm top z distance or using support materials on interface."
+#~ msgid "For \"Tree Strong\" and \"Tree Hybrid\" styles, we recommend the following settings: at least 2 interface layers, at least 0.1 mm top z distance or using support materials on interface."
 #~ msgstr "\"강한 트리\" 및 \"혼합 트리\" 모양의 경우 최소 접점 레이어 2, 상단 Z 거리 0.1 또는 접점에서 서포트 재료를 사용하는 설정을 권장합니다."
 
 #~ msgid "Branch Diameter with double walls"

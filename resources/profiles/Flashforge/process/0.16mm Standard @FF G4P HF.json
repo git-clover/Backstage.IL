@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Standard @FF G4P HF",
+	"name": "\. mm Standard @FF G4P HF",
 	"inherits": "0.20mm Standard @Flashforge G3U 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "OldLqTbxDSL1VKQm",

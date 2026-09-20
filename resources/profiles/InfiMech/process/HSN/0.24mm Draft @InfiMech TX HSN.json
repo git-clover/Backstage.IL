@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @InfiMech TX HSN",
+	"name": "\. mm Draft @InfiMech TX HSN",
 	"inherits": "fdm_process_common_HSN",
 	"from": "system",
 	"setting_id": "T9uHAqamT2bXL0LV",

@@ -239,17 +239,17 @@ msgstr "Ustawienia domyślne mogą wpływać na jakość druku. Dostosuj je, aby
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "%s stwarza ryzyko zatkania dyszy przy użyciu dysz wysokoprzepływowych 0,4 mm. Zachowaj ostrożność."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "Filamenty %s są twarde i kruche, mogą pękać w AMS, a przy użyciu dysz wysokoprzepływowych 0,4 mm istnieje również ryzyko zatkania dyszy. Zachowaj ostrożność."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mm high-flow nozzles. Use with caution."
 msgstr "%s stwarza ryzyko zatkania dyszy przy użyciu dysz wysokoprzepływowych 0,4, 0,6 i 0,8 mm. Zachowaj ostrożność."
 
 # AI Translated
@@ -15874,7 +15874,7 @@ msgid ""
 "Extrusion: The mode when the pattern formed by the amount of extruded plastic. This is the fast and straight algorithm without unnecessary nozzle shake that gives a smooth pattern. But it is more useful for forming loose walls in the entire they array.\n"
 "Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the perimeters.\n"
 "\n"
-"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
+"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35 mm! If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated."
 msgstr ""
 "Tryb generowania skóry fuzzy. Działa tylko z Arachne!\n"
 "Przesunięcie: klasyczny tryb, w którym wzór powstaje przez przesuwanie dyszy w bok od pierwotnej ścieżki.\n"
@@ -16323,7 +16323,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mm for a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Maksymalna wysokość warstwy dla kombinacji łączenia rzadkiego wypełnienia.\n"
 "\n"
@@ -18001,7 +18001,7 @@ msgstr "Zamknięcie otworów"
 msgid "Z offset"
 msgstr "Przesunięcie w osi Z"
 
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
+msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mm far from the print bed, set this to -0.3 (or fix your endstop)."
 msgstr "Wartość tego ustawienia zostanie dodana (lub odjęta) od wszystkich koordynat w osi Z w pliku wyjściowym G-code. Jest używana dla korekcji złego położenia wyłącznika krańcowego osi Z. Np. jeśli końcówka dyszy znajduje się 0.3 mm ponad położeniem zerowym, ustaw tutaj -0.3 (lub napraw krańcówkę)."
 
 msgid "Enable support"
@@ -21303,7 +21303,7 @@ msgid "The number of printer extruders and the printer selected for calibration 
 msgstr "Liczba ekstruderów i wybrana drukarka do kalibracji nie są zgodne."
 
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
 msgstr "Średnica dyszy ekstrudera %s wynosi 0.2 mm i nie obsługuje automatycznej kalibracji dynamiki przepływu."
 
 #, c-format, boost-format
@@ -21874,38 +21874,38 @@ msgstr "Jest to filament podporowy nierozpuszczalny w wodzie, który zazwyczaj u
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Profile ogólne zostały zoptymalizowane pod kątem kompatybilności z różnorodnymi filamentami. Aby uzyskać lepszą jakość druku i wyższe prędkości, prosimy używać filamentów Bambu z odpowiednimi profilami Bambu."
 
-msgid "High quality profile for 0.2mm nozzle, prioritizing print quality."
-msgstr "Profil wysokiej jakości dla dyszy 0.2mm. Priorytetem jest jakość."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
+msgstr "Profil wysokiej jakości dla dyszy 0.2 mm. Priorytetem jest jakość."
 
-msgid "High quality profile for 0.16mm layer height, prioritizing print quality and strength."
-msgstr "Profil wysokiej jakości dla wysokości warstwy 0.16mm. Priorytetem jest jakość i wytrzymałość."
+msgid "High quality profile for 0.16 mm layer height, prioritizing print quality and strength."
+msgstr "Profil wysokiej jakości dla wysokości warstwy 0.16 mm. Priorytetem jest jakość i wytrzymałość."
 
-msgid "Standard profile for 0.16mm layer height, prioritizing speed."
-msgstr "Profil standardowy dla wysokości warstwy 0.16mm. Priorytetem jest szybkość."
+msgid "Standard profile for 0.16 mm layer height, prioritizing speed."
+msgstr "Profil standardowy dla wysokości warstwy 0.16 mm. Priorytetem jest szybkość."
 
-msgid "High quality profile for 0.2mm layer height, prioritizing strength and print quality."
-msgstr "Profil wysokiej jakości dla wysokości warstwy 0.2mm. Priorytetem jest jakość i wytrzymałość."
+msgid "High quality profile for 0.2 mm layer height, prioritizing strength and print quality."
+msgstr "Profil wysokiej jakości dla wysokości warstwy 0.2 mm. Priorytetem jest jakość i wytrzymałość."
 
-msgid "Standard profile for 0.4mm nozzle, prioritizing speed."
-msgstr "Profil standardowy dla dyszy 0.4mm. Priorytetem jest szybkość."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
+msgstr "Profil standardowy dla dyszy 0.4 mm. Priorytetem jest szybkość."
 
-msgid "High quality profile for 0.6mm nozzle, prioritizing print quality and strength."
-msgstr "Profil wysokiej jakości dla dyszy 0.6mm. Priorytetem jest jakość i wytrzymałość."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
+msgstr "Profil wysokiej jakości dla dyszy 0.6 mm. Priorytetem jest jakość i wytrzymałość."
 
-msgid "Strength profile for 0.6mm nozzle, prioritizing strength."
-msgstr "Profil wytrzymałości dla dyszy 0.6mm. Priorytetem jest wytrzymałość."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
+msgstr "Profil wytrzymałości dla dyszy 0.6 mm. Priorytetem jest wytrzymałość."
 
-msgid "Standard profile for 0.6mm nozzle, prioritizing speed."
-msgstr "Profil standardowy dla dyszy 0.6mm. Priorytetem jest szybkość."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
+msgstr "Profil standardowy dla dyszy 0.6 mm. Priorytetem jest szybkość."
 
-msgid "High quality profile for 0.8mm nozzle, prioritizing print quality."
-msgstr "Profil wysokiej jakości dla dyszy 0.8mm. Priorytetem jest jakość."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
+msgstr "Profil wysokiej jakości dla dyszy 0.8 mm. Priorytetem jest jakość."
 
-msgid "Strength profile for 0.8mm nozzle, prioritizing strength."
-msgstr "Profil wytrzymałości dla dyszy 0.8mm. Priorytetem jest wytrzymałość."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
+msgstr "Profil wytrzymałości dla dyszy 0.8 mm. Priorytetem jest wytrzymałość."
 
-msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
-msgstr "Profil standardowy dla dyszy 0.8mm. Priorytetem jest szybkość."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
+msgstr "Profil standardowy dla dyszy 0.8 mm. Priorytetem jest szybkość."
 
 msgid "No AMS"
 msgstr "Brak AMS"
@@ -26929,7 +26929,7 @@ msgstr ""
 #~ "Dodaliśmy eksperymentalny styl \"Cienkie Drzewo\", który charakteryzuje się mniejszą objętością podpór, ale i słabszą wytrzymałością.\n"
 #~ "Zalecamy używanie go z: 0 warstw łączących, 0 odległością od góry, 2 ścianami."
 
-#~ msgid "For \"Tree Strong\" and \"Tree Hybrid\" styles, we recommend the following settings: at least 2 interface layers, at least 0.1mm top z distance or using support materials on interface."
+#~ msgid "For \"Tree Strong\" and \"Tree Hybrid\" styles, we recommend the following settings: at least 2 interface layers, at least 0.1 mm top z distance or using support materials on interface."
 #~ msgstr "Dla stylów \"Drzewo Grube\" i \"Drzewo Hybrydowe\" zalecamy następujące ustawienia: co najmniej 2 warstwy łączące, co najmniej 0,1 mm odległości od góry lub używanie materiałów podporowych na łączeniach."
 
 #~ msgid "Branch Diameter with double walls"
@@ -27626,7 +27626,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Start height of the scarf.\n"
-#~ "This amount can be specified in millimeters or as a percentage of the current layer height. The default value for this parameter is 0.05mm."
+#~ "This amount can be specified in millimeters or as a percentage of the current layer height. The default value for this parameter is 0.05 mm."
 #~ msgstr ""
 #~ "Początkowa wysokość szwu szalikowego.\n"
 #~ "\n"

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Fine @Raise3D Pro3Plus",
+	"name": "\. mm Fine @Raise3D Pro3Plus",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "u9vhB9uigwzA2mli",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Creality CR10Max",
+	"name": "\. mm Draft @Creality CR10Max",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "5RGkaM3sTHAC90DK",

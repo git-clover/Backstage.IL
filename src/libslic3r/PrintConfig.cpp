@@ -3964,7 +3964,7 @@ void PrintConfigDef::init_fff_params()
                      "Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the perimeters.\n\n"
                      "Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. "
                      "At the same time, the width of the extrusion for a particular layer should also not be below a certain level. "
-                     "It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! "
+                     "It is usually equal 15-25%% of a layer height. Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35 mm! "
                      "If you enter a higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is repeated." );
     def->enum_keys_map = &ConfigOptionEnum<FuzzySkinMode>::get_enum_values();
     def->enum_values.push_back("displacement");
@@ -4498,7 +4498,7 @@ void PrintConfigDef::init_fff_params()
     def->tooltip = L("Maximum layer height for the combined sparse infill.\n\n"
                      "Set it to 0 or 100% to use the nozzle diameter (for maximum reduction in print time) or a value of ~80% to maximize sparse infill strength.\n\n"
                      "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n\n"
-                     "Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger "
+                     "Use either absolute mm values (eg. 0.32 mm for a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger "
                      "than the nozzle diameter.");
     def->sidetext = L("mm or %");
     def->min = 0;
@@ -6779,7 +6779,7 @@ void PrintConfigDef::init_fff_params()
     def->label = L("Z offset");
     def->tooltip = L("This value will be added (or subtracted) from all the Z coordinates "
                    "in the output G-code. It is used to compensate for bad Z endstop position: "
-                   "for example, if your endstop zero actually leaves the nozzle 0.3mm far "
+                   "for example, if your endstop zero actually leaves the nozzle 0.3 mm far "
                    "from the print bed, set this to -0.3 (or fix your endstop).");
     def->sidetext = L("mm");	// millimeters, CIS languages need translation
     def->mode = comAdvanced;

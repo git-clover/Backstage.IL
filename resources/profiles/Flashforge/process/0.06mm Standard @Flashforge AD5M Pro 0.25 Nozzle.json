@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.06mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
+	"name": "\. mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
 	"inherits": "0.12mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
 	"from": "system",
 	"setting_id": "TbERLagoTx6NV7tK",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Quality @Construct 1 XL",
+	"name": "\. mm Quality @Construct 1 XL",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "0Zi6gVzskJeRMPlW",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.50mm Standard @SeeMeCNC Artemis 1.0",
+	"name": "\. mm Standard @SeeMeCNC Artemis 1.0",
 	"inherits": "SeeMeCNC process base 1.0mm",
 	"from": "System",
 	"setting_id": "JWsU3ZnahCagqfF4",

@@ -629,7 +629,7 @@ TEST_CASE("Z anti-aliasing keeps the infill rotation template's step", "[Fill]")
                                          {"zaa_min_z", 0.05},
                                          {"layer_height", 0.2}});
 
-    // Z contouring varies the layer heights, so the layer count is not 10mm / 0.2mm here.
+    // Z contouring varies the layer heights, so the layer count is not 10mm / 0.2 mm here.
     const std::vector<int> angles = angles_per_layer(print, solid_role);
     REQUIRE(angles.size() > 10);
     REQUIRE(std::count(angles.begin(), angles.end(), -1) == 0);
@@ -1226,7 +1226,7 @@ TEST_CASE("Smoothed concentric infill stays inside the fill region", "[Fill][Reg
     const bool  thin_region = GENERATE(false, true);
     ExPolygon   region;
     if (thin_region) {
-        // An L of two 1.2mm wide arms: cutting the corner they meet at crosses both of them.
+        // An L of two 1.2 mm wide arms: cutting the corner they meet at crosses both of them.
         region = ExPolygon{ Slic3r::Points{
             Point::new_scale(0., 0.), Point::new_scale(20., 0.), Point::new_scale(20., 1.2),
             Point::new_scale(1.2, 1.2), Point::new_scale(1.2, 20.), Point::new_scale(0., 20.) } };

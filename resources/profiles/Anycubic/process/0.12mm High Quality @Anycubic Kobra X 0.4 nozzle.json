@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm High Quality @Anycubic Kobra X",
+	"name": "\. mm High Quality @Anycubic Kobra X",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "d4hdmBF6NJ4fWyQv",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Anycubic Kobra 2 Pro 0.4 nozzle",
+	"name": "\. mm Optimal @Anycubic Kobra 2 Pro 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "goHFyZFYHFEqoSy7",

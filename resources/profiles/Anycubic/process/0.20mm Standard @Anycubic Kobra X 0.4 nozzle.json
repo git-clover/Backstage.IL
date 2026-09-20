@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Anycubic Kobra X",
+	"name": "\. mm Standard @Anycubic Kobra X",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "wvvWF1n9xUOyohpn",

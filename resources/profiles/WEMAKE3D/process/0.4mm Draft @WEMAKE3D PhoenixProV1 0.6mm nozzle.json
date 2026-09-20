@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.4mm Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+	"name": "\. mm Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
 	"setting_id": "5JXwah0qXXmMA89e",
 	"instantiation": "true",

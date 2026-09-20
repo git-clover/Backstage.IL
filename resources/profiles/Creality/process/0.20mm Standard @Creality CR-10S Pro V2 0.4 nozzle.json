@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Creality CR-10S Pro V2 0.4 nozzle",
+	"name": "\. mm Standard @Creality CR-10S Pro V2 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "ogGlQxeRdyP26VID",

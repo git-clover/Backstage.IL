@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Standard @Lulzbot Taz Pro Dual",
+	"name": "\. mm Standard @Lulzbot Taz Pro Dual",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "jEDhBnfwOyj5oEO8",
