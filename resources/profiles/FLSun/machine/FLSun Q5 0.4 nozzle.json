@@ -6,7 +6,7 @@
 	"setting_id": "LKmuanzzJdFhP8fy",
 	"instantiation": "true",
 	"printer_model": "FLSun Q5",
-	"default_print_profile": "0.20mm Standard @FLSun Q5",
+	"default_print_profile": "0.20 mm Standard @FLSun Q5",
 	"gcode_flavor": "marlin",
 	"thumbnails": [
 		"260x260"

@@ -6,7 +6,7 @@
 	"setting_id": "ShWzWhKWa9JASGUz",
 	"instantiation": "true",
 	"printer_model": "Sovol SV06",
-	"default_print_profile": "0.20mm High-Speed @Sovol SV06",
+	"default_print_profile": "0.20 mm High-Speed @Sovol SV06",
 	"nozzle_diameter": [
 		"0.4"
 	],

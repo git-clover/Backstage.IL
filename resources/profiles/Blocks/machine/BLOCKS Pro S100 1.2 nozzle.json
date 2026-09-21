@@ -6,7 +6,7 @@
 	"setting_id": "xtsGSJ4JkbHTPi44",
 	"instantiation": "true",
 	"printer_model": "BLOCKS Pro S100",
-	"default_print_profile": "0.60mm Standard 1.2 nozzle @Blocks",
+	"default_print_profile": "0.60 mm Standard 1.2 nozzle @Blocks",
 	"max_layer_height": [
 		"0.8"
 	],

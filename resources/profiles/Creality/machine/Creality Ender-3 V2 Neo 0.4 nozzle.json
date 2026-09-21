@@ -10,7 +10,7 @@
 	"default_filament_profile": [
 		"CR-PLA @Ender-3 V2-all"
 	],
-	"default_print_profile": "0.20mm Standard @Creality Ender3V2 Neo",
+	"default_print_profile": "0.20 mm Standard @Creality Ender3V2 Neo",
 	"nozzle_diameter": [
 		"0.4"
 	],

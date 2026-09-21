@@ -6,7 +6,7 @@
 	"setting_id": "MwdK4pzPlNcVU3eW",
 	"instantiation": "true",
 	"printer_model": "Anycubic Predator",
-	"default_print_profile": "0.20mm Standard @Anycubic Predator",
+	"default_print_profile": "0.20 mm Standard @Anycubic Predator",
 	"gcode_flavor": "marlin",
 	"nozzle_diameter": [
 		"0.4"

@@ -9,7 +9,7 @@
 	"printer_variant": "0.8",
 	"printer_structure": "i3",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @Creality CR10SE 0.8",
+	"default_print_profile": "0.20 mm Standard @Creality CR10SE 0.8",
 	"nozzle_diameter": [
 		"0.8"
 	],

@@ -16,7 +16,7 @@
 		"18x28",
 		"0x28"
 	],
-	"default_print_profile": "0.20mm Standard @BBL X1C",
+	"default_print_profile": "0.20 mm Standard @BBL X1C",
 	"deretraction_speed": [
 		"30",
 		"30"

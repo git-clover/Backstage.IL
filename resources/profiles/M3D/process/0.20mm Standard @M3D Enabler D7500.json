@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @M3D Enabler D7500",
+	"name": "0.20 mm Standard @M3D Enabler D7500",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "7vI60Hrdn6S3UyjQ",

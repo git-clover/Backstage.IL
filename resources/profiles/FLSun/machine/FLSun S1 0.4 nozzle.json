@@ -6,7 +6,7 @@
 	"setting_id": "49LTtJSqi4OEiaC4",
 	"instantiation": "true",
 	"printer_model": "FLSun S1",
-	"default_print_profile": "0.20mm Standard @FLSun S1",
+	"default_print_profile": "0.20 mm Standard @FLSun S1",
 	"gcode_flavor": "klipper",
 	"printer_structure": "delta",
 	"nozzle_diameter": [

@@ -6,7 +6,7 @@
 	"setting_id": "wlYxOL7g5BrpCXHH",
 	"instantiation": "true",
 	"printer_model": "Flashforge Adventurer 4 Series",
-	"default_print_profile": "0.30mm Standard @Flashforge AD4 0.6 Nozzle",
+	"default_print_profile": "0.30 mm Standard @Flashforge AD4 0.6 Nozzle",
 	"nozzle_diameter": [
 		"0.6"
 	],

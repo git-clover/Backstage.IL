@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "Qidi X-Plus 3",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @Qidi XPlus3",
+	"default_print_profile": "0.20 mm Standard @Qidi XPlus3",
 	"nozzle_diameter": [
 		"0.4"
 	],

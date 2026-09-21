@@ -6,7 +6,7 @@
 	"instantiation": "true",
 	"inherits": "fdm_machine_common",
 	"printer_model": "Sovol SV08 MAX",
-	"default_print_profile": "0.40mm Standard @Sovol SV08 MAX 0.8 nozzle",
+	"default_print_profile": "0.40 mm Standard @Sovol SV08 MAX 0.8 nozzle",
 	"printer_variant": "0.8",
 	"nozzle_diameter": [
 		"0.8"

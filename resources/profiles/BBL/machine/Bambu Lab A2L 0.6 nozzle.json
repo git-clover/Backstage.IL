@@ -13,7 +13,7 @@
 	"default_filament_profile": [
 		"Bambu PLA Basic @BBL A2L 0.6 nozzle"
 	],
-	"default_print_profile": "0.30mm Standard @BBL A2L 0.6 nozzle",
+	"default_print_profile": "0.30 mm Standard @BBL A2L 0.6 nozzle",
 	"machine_max_speed_x": [
 		"500",
 		"200"

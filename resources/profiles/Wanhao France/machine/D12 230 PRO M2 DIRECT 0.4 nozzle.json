@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "D12 230 PRO M2 DIRECT",
 	"gcode_flavor": "marlin2",
-	"default_print_profile": "0.20mm Standard @Wanhao-D12-230",
+	"default_print_profile": "0.20 mm Standard @Wanhao-D12-230",
 	"nozzle_diameter": [
 		"0.4"
 	],

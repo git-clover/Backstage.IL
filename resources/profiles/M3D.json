@@ -33,19 +33,19 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.15mm Standard @M3D Enabler D7500",
+			"name": "0.15 mm Standard @M3D Enabler D7500",
 			"sub_path": "process/0.15mm Standard @M3D Enabler D7500.json"
 		},
 		{
-			"name": "0.15mm Standard @M3D Enabler D8500",
+			"name": "0.15 mm Standard @M3D Enabler D8500",
 			"sub_path": "process/0.15mm Standard @M3D Enabler D8500.json"
 		},
 		{
-			"name": "0.20mm Standard @M3D Enabler D7500",
+			"name": "0.20 mm Standard @M3D Enabler D7500",
 			"sub_path": "process/0.20mm Standard @M3D Enabler D7500.json"
 		},
 		{
-			"name": "0.20mm Standard @M3D Enabler D8500",
+			"name": "0.20 mm Standard @M3D Enabler D8500",
 			"sub_path": "process/0.20mm Standard @M3D Enabler D8500.json"
 		},
 		{

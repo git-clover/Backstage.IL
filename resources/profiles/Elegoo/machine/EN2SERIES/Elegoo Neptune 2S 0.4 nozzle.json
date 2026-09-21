@@ -7,7 +7,7 @@
 	"inherits": "fdm_elegoo_common",
 	"host_type": "elegoolink",
 	"printer_model": "Elegoo Neptune 2S",
-	"default_print_profile": "0.20mm Standard @Elegoo Neptune 0.4 nozzle",
+	"default_print_profile": "0.20 mm Standard @Elegoo Neptune 0.4 nozzle",
 	"nozzle_diameter": [
 		"0.4"
 	],

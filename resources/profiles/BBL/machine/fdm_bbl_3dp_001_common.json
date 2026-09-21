@@ -24,7 +24,7 @@
 	"default_nozzle_volume_type": [
 		"Standard"
 	],
-	"default_print_profile": "0.16mm Optimal @BBL X1C",
+	"default_print_profile": "0.16 mm Optimal @BBL X1C",
 	"deretraction_speed": [
 		"30"
 	],

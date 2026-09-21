@@ -8,7 +8,7 @@
 	"box_id": "1",
 	"printer_model": "Qidi Q2C",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @Qidi Q2C",
+	"default_print_profile": "0.20 mm Standard @Qidi Q2C",
 	"printer_settings_id": "Qidi",
 	"bed_exclude_area": [
 		"0x0,11x0,11x16,0x16"

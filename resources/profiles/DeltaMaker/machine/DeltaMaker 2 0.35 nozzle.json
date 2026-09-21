@@ -6,7 +6,7 @@
 	"setting_id": "NTiJoA5DUUwU1CZj",
 	"instantiation": "true",
 	"printer_model": "DeltaMaker 2",
-	"default_print_profile": "0.18mm Standard @DeltaMaker",
+	"default_print_profile": "0.18 mm Standard @DeltaMaker",
 	"nozzle_diameter": [
 		"0.35"
 	],

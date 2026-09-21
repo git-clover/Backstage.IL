@@ -6,7 +6,7 @@
 	"setting_id": "RxJHQLLqwjINiocE",
 	"instantiation": "true",
 	"printer_model": "Chuanying X1",
-	"default_print_profile": "0.12mm Standard @Chuanying X1 0.25 Nozzle",
+	"default_print_profile": "0.12 mm Standard @Chuanying X1 0.25 Nozzle",
 	"nozzle_diameter": [
 		"0.25"
 	],

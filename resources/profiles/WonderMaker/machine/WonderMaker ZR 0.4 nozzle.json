@@ -6,7 +6,7 @@
 	"setting_id": "c1cVpgV1r1CphIJV",
 	"instantiation": "true",
 	"printer_model": "WonderMaker ZR",
-	"default_print_profile": "0.20mm Standard @WonderMaker ZR",
+	"default_print_profile": "0.20 mm Standard @WonderMaker ZR",
 	"default_bed_type": "4",
 	"nozzle_diameter": [
 		"0.4"

@@ -6,7 +6,7 @@
 	"setting_id": "X0rYP2JyEqdNbTDt",
 	"instantiation": "true",
 	"printer_model": "Creality Ender-5",
-	"default_print_profile": "0.20mm Standard @Creality Ender5",
+	"default_print_profile": "0.20 mm Standard @Creality Ender5",
 	"nozzle_diameter": [
 		"0.4"
 	],

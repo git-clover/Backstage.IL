@@ -10,7 +10,7 @@
 		"Generic PLA @System"
 	],
 	"printer_variant": "0.4",
-	"default_print_profile": "0.20mm Standard @Geeetech M1",
+	"default_print_profile": "0.20 mm Standard @Geeetech M1",
 	"nozzle_diameter": [
 		"0.4"
 	],
