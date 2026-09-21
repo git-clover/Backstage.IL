@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Vase Mode @LH Stinger",
+	"name": "0.25 mm Vase Mode @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "tfGhpXLVB51jD4SA",

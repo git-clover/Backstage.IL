@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Detail @Creality K2 0.8 nozzle",
+	"name": "0.24 mm Detail @Creality K2 0.8 nozzle",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "qeRmEOFZkFm80rgB",

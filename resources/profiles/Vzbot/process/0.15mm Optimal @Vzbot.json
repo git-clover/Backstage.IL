@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Vzbot",
+	"name": "0.15 mm Optimal @Vzbot",
 	"inherits": "fdm_process_Vzbot_common",
 	"from": "system",
 	"setting_id": "EJM4jDs5VAoDZ2Ck",

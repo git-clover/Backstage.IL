@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "Vl4hMKR69J1JcquX",
-	"name": "0.32mm Balanced Quality @X-Plus 5 0.8 nozzle",
+	"name": "0.32 mm Balanced Quality @X-Plus 5 0.8 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_n_common",

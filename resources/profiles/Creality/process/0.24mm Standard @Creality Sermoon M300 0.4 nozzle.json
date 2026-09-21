@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Standard @Creality Sermoon M300 0.4 nozzle",
+	"name": "0.24 mm Standard @Creality Sermoon M300 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "aMb2KnBA5Bge7QK5",

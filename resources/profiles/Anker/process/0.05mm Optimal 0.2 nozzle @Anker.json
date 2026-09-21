@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.05mm Optimal 0.2 nozzle @Anker",
+	"name": "0.05 mm Optimal 0.2 nozzle @Anker",
 	"inherits": "fdm_process_anker_common_0_2",
 	"from": "system",
 	"setting_id": "ue2qhXydEN7TC2g8",

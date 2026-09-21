@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @CoLiDo DIY 4.0",
+	"name": "0.15 mm Optimal @CoLiDo DIY 4.0",
 	"inherits": "fdm_process_colidodiy40_common",
 	"from": "system",
 	"setting_id": "EGHL1ds0tqG9oty2",

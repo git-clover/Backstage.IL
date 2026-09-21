@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.50mm Standard @Elegoo N3Max 1.0 nozzle",
+	"name": "0.50 mm Standard @Elegoo N3Max 1.0 nozzle",
 	"inherits": "fdm_process_elegoo_10050",
 	"from": "system",
 	"setting_id": "ebSwXa3yYyDzIDrI",

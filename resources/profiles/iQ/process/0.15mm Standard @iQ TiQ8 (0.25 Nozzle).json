@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Standard @iQ TiQ8 (0.25 Nozzle)",
+	"name": "0.15 mm Standard @iQ TiQ8 (0.25 Nozzle)",
 	"inherits": "fdm_process_tiq_common",
 	"from": "system",
 	"setting_id": "K0Ybw0qUqEIL05PY",

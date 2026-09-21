@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @MyKlipper",
+	"name": "0.24 mm Draft @MyKlipper",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
 	"setting_id": "E5SAhAOy240BOYOB",

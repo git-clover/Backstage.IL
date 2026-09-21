@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Fast @Flashforge AD4 0.4 Nozzle",
+	"name": "0.30 mm Fast @Flashforge AD4 0.4 Nozzle",
 	"inherits": "fdm_process_flashforge_common",
 	"from": "system",
 	"setting_id": "HbCSfTDq9CDodIgH",

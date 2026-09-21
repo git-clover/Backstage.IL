@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Draft @Comgrow T500 0.8",
+	"name": "0.40 mm Draft @Comgrow T500 0.8",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
 	"setting_id": "67PM6ka97wMVLSJV",

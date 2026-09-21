@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @BIQU BX (0.4 nozzle)",
+	"name": "0.20 mm Standard @BIQU BX (0.4 nozzle)",
 	"inherits": "fdm_process_biqu_common",
 	"from": "system",
 	"setting_id": "dtgvV4cqDwI9nLUq",

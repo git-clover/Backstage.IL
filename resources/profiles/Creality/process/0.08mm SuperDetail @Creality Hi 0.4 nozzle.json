@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "Gzis5yvHXQD9PnSf",
-	"name": "0.08mm SuperDetail @Creality Hi",
+	"name": "0.08 mm SuperDetail @Creality Hi",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

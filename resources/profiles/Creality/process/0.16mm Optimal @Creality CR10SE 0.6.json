@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Creality CR10SE 0.6",
+	"name": "0.16 mm Optimal @Creality CR10SE 0.6",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "N8cFrOUSa1yfMrv0",

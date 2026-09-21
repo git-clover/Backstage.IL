@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @RatRig",
+	"name": "0.15 mm Optimal @RatRig",
 	"inherits": "fdm_process_ratrig_common",
 	"from": "system",
 	"setting_id": "YgZV4bv6TCuFhWtu",

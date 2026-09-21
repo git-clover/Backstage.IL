@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @MyToolChanger",
+	"name": "0.08 mm Extra Fine @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
 	"setting_id": "Xt1tNqoffQCMWaDF",

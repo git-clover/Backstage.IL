@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Superdraft 0.6mm nozzle @Anker",
+	"name": "0.40 mm Superdraft 0.6mm nozzle @Anker",
 	"inherits": "fdm_process_anker_common_0_6",
 	"from": "system",
 	"setting_id": "pZ1lqDq7UEaKzUAb",

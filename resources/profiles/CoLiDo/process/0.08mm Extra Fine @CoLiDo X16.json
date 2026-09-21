@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @CoLiDo X16",
+	"name": "0.08 mm Extra Fine @CoLiDo X16",
 	"inherits": "fdm_process_colidox16_common",
 	"from": "system",
 	"setting_id": "yYx1cLWMbbJjfPTr",

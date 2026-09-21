@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Artillery X4Plus 0.4 nozzle",
-	"inherits": "0.20mm Standard @Artillery X4Plus 0.4 nozzle",
+	"name": "0.08 mm Extra Fine @Artillery X4Plus 0.4 nozzle",
+	"inherits": "0.20 mm Standard @Artillery X4Plus 0.4 nozzle",
 	"from": "system",
 	"setting_id": "OmUulk4l2blPQkQ6",
 	"instantiation": "true",

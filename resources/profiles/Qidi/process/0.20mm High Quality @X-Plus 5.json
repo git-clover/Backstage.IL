@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "azERQAEOdeNEo2z7",
-	"name": "0.20mm High Quality @X-Plus 5",
+	"name": "0.20 mm High Quality @X-Plus 5",
 	"from": "system",
 	"inherits": "fdm_process_n_common",
 	"instantiation": "true",

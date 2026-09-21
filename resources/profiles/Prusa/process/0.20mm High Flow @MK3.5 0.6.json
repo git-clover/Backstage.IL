@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm High Flow @MK3.5 0.6",
+	"name": "0.20 mm High Flow @MK3.5 0.6",
 	"inherits": "process_highflow_MK3.5",
 	"from": "system",
 	"setting_id": "k8vkbDmFmhTFGjg0",

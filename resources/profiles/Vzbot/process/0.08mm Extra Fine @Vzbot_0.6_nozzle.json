@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Vzbot 0.6nozzle",
+	"name": "0.08 mm Extra Fine @Vzbot 0.6nozzle",
 	"inherits": "fdm_process_Vzbot_common_0.6_nozzle",
 	"from": "system",
 	"setting_id": "nH8Qe9FH8KAyug2D",

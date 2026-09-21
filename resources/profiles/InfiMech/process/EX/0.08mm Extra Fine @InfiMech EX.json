@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @InfiMech EX",
+	"name": "0.08 mm Extra Fine @InfiMech EX",
 	"inherits": "fdm_process_common_EX",
 	"from": "system",
 	"setting_id": "2GzaC1bnTxIjUURE",

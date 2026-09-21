@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Geeetech Thunder",
+	"name": "0.16 mm Optimal @Geeetech Thunder",
 	"inherits": "fdm_process_Geeetech_HS_0.16",
 	"from": "system",
 	"setting_id": "QW9Fovxf237jeqvS",

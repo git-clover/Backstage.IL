@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.20mm SOLUBLE FULL @CORE One L 0.4",
-	"inherits": "0.20mm SOLUBLE FULL @MK4S 0.4",
+	"name": "0.20 mm SOLUBLE FULL @CORE One L 0.4",
+	"inherits": "0.20 mm SOLUBLE FULL @MK4S 0.4",
 	"from": "system",
 	"setting_id": "7TWALkI3BHW6hP4s",
 	"instantiation": "true",

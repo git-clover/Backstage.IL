@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @OpenEYE Peacock V2",
+	"name": "0.08 mm Extra Fine @OpenEYE Peacock V2",
 	"inherits": "fdm_process_openeye_0.08_nozzle_0.4",
 	"from": "system",
 	"setting_id": "xwKLqiFWCrUGldma",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @MINIIS",
+	"name": "0.40 mm Standard @MINIIS",
 	"inherits": "process_detail_miniis",
 	"from": "system",
 	"setting_id": "dP964UNjH7vgPB6E",

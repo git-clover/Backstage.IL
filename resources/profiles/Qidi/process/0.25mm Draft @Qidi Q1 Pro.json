@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25mm Draft @Qidi Q1 Pro",
+	"name": "0.25 mm Draft @Qidi Q1 Pro",
 	"inherits": "fdm_process_qidi_x3_common",
 	"from": "system",
 	"setting_id": "o9SQqZdG3BoviCAx",

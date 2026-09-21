@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @BBL A1",
+	"name": "0.08 mm Extra Fine @BBL A1",
 	"inherits": "fdm_process_single_0.08",
 	"from": "system",
 	"setting_id": "GP076",

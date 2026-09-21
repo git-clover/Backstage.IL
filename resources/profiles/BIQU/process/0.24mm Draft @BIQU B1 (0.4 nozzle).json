@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @BIQU B1 (0.4 nozzle)",
+	"name": "0.24 mm Draft @BIQU B1 (0.4 nozzle)",
 	"inherits": "fdm_process_biqu_common",
 	"from": "system",
 	"setting_id": "dEngYdlxzbLKNHtc",

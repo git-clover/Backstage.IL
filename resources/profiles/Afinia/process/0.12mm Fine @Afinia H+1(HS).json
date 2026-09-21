@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "FueWYijuvLNWzNmL",
-	"name": "0.12mm Fine @Afinia H+1(HS)",
+	"name": "0.12 mm Fine @Afinia H+1(HS)",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_afinia_HS_common",

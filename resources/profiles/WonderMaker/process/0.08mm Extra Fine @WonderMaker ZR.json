@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @WonderMaker ZR",
+	"name": "0.08 mm Extra Fine @WonderMaker ZR",
 	"inherits": "fdm_process_wm_0.08",
 	"from": "system",
 	"setting_id": "MDzBBVuT9evcSDUx",

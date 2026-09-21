@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Speed @MINIIS",
+	"name": "0.15 mm Speed @MINIIS",
 	"inherits": "process_detail_miniis",
 	"from": "system",
 	"setting_id": "CFEud5GPN2iXshnt",

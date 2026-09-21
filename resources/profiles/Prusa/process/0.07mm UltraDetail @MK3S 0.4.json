@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.07mm UltraDetail @MK3S 0.4",
+	"name": "0.07 mm UltraDetail @MK3S 0.4",
 	"inherits": "process_common_mk3",
 	"from": "system",
 	"setting_id": "oKYwlkPJGx85pMmB",

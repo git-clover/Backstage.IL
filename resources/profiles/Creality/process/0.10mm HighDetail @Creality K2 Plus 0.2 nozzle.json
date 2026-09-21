@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "V2oWbmagKmmoxbv3",
-	"name": "0.10mm HighDetail @Creality K2 Plus 0.2 nozzle",
+	"name": "0.10 mm HighDetail @Creality K2 Plus 0.2 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

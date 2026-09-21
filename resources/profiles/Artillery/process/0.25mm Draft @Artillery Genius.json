@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "UditC85gTRgxvpSp",
-	"name": "0.25mm Draft @Artillery Genius",
+	"name": "0.25 mm Draft @Artillery Genius",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_common",

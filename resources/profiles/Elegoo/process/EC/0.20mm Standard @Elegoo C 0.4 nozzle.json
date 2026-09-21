@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Elegoo C 0.4 nozzle",
+	"name": "0.20 mm Standard @Elegoo C 0.4 nozzle",
 	"inherits": "fdm_process_elegoo_04020",
 	"from": "system",
 	"setting_id": "GbYgIqQbql8QF0lX",

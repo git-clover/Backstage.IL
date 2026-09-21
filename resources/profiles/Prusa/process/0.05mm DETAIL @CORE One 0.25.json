@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.05mm DETAIL @CORE One 0.25",
-	"inherits": "0.05mm DETAIL @MK4S 0.25",
+	"name": "0.05 mm DETAIL @CORE One 0.25",
+	"inherits": "0.05 mm DETAIL @MK4S 0.25",
 	"from": "system",
 	"setting_id": "qOFL01RilvzHLLpF",
 	"instantiation": "true",

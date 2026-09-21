@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.18mm Balanced Quality @OpenEYE Peacock V2 0.6 nozzle",
+	"name": "0.18 mm Balanced Quality @OpenEYE Peacock V2 0.6 nozzle",
 	"inherits": "fdm_process_openeye_0.18_nozzle_0.6",
 	"from": "system",
 	"setting_id": "EITxuIXk5oMAUbWS",

@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "AgwKETM82R6PNW8u",
-	"name": "0.14mm Optimal @Creality K2 Plus 0.2 nozzle",
+	"name": "0.14 mm Optimal @Creality K2 Plus 0.2 nozzle",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_creality_common",

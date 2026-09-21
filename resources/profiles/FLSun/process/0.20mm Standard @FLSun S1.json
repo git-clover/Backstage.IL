@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @FLSun S1",
+	"name": "0.20 mm Standard @FLSun S1",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "zBLlyEYKKWmqXdEa",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Optimal 1.0 nozzle @Blocks",
+	"name": "0.30 mm Optimal 1.0 nozzle @Blocks",
 	"inherits": "fdm_process_common 1.0 nozzle",
 	"from": "system",
 	"setting_id": "8pBawPScHkyQu0SW",

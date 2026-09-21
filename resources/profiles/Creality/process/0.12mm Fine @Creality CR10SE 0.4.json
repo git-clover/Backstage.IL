@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Creality CR10SE 0.4",
+	"name": "0.12 mm Fine @Creality CR10SE 0.4",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "cDZYl2hgnh7Cc99L",

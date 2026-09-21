@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @WonderMaker ZR 0.8 nozzle",
+	"name": "0.40 mm Standard @WonderMaker ZR 0.8 nozzle",
 	"inherits": "fdm_process_wm_0.40_nozzle_0.8",
 	"from": "system",
 	"setting_id": "fFeU1UUieMxYsNI3",

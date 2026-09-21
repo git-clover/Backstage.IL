@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @LONGER LK10 (0.2 nozzle)",
+	"name": "0.08 mm Extra Fine @LONGER LK10 (0.2 nozzle)",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "4rewUDpVDckN1RBz",

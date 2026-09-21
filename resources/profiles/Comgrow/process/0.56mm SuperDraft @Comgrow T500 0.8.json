@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.56mm SuperChunky @Comgrow T500 0.8",
+	"name": "0.56 mm SuperChunky @Comgrow T500 0.8",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
 	"setting_id": "407WH0SRTXRCg7Gz",

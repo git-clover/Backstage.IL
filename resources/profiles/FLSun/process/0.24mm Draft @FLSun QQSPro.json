@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @FLSun QQSPro",
+	"name": "0.24 mm Draft @FLSun QQSPro",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "9mHQwwo6UoNaD07z",

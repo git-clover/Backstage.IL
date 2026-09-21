@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.24mm Draft @Qidi Q2",
-	"inherits": "0.24mm Draft @Qidi X3",
+	"name": "0.24 mm Draft @Qidi Q2",
+	"inherits": "0.24 mm Draft @Qidi X3",
 	"from": "system",
 	"setting_id": "TlZRosXmpNb1uKfA",
 	"instantiation": "true",

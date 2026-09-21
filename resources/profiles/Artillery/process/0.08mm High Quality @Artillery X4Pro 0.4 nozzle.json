@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.08mm High Quality @Artillery X4Pro 0.4 nozzle",
-	"inherits": "0.20mm Standard @Artillery X4Pro 0.4 nozzle",
+	"name": "0.08 mm High Quality @Artillery X4Pro 0.4 nozzle",
+	"inherits": "0.20 mm Standard @Artillery X4Pro 0.4 nozzle",
 	"from": "system",
 	"setting_id": "bvdtnW6gJqWSXpgx",
 	"instantiation": "true",

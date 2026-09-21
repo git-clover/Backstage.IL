@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @BIQU Hurakan (0.4 nozzle)",
+	"name": "0.12 mm Fine @BIQU Hurakan (0.4 nozzle)",
 	"inherits": "fdm_process_biqu_common",
 	"from": "system",
 	"setting_id": "j3UlRzemuXhuMN2x",

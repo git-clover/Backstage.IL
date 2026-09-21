@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.18mm Standard @DeltaMaker",
+	"name": "0.18 mm Standard @DeltaMaker",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "li5wp7qybRMu46nM",

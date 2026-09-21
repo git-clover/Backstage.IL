@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm MM @D8500",
+	"name": "0.15 mm MM @D8500",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "vVl13K18loFa1fgv",

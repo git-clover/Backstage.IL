@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "zr1zPgeqxJog1iO6",
-	"name": "0.24mm Draft @Tiertime UP310 Pro",
+	"name": "0.24 mm Draft @Tiertime UP310 Pro",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_tiertime_common",

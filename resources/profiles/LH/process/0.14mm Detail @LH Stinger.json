@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.14mm Detail @LH Stinger",
+	"name": "0.14 mm Detail @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
 	"setting_id": "UDQOskW5wNQrbT7G",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @MM slb",
+	"name": "0.20 mm Standard @MM slb",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "Ivz7U0RTrX558HQ4",

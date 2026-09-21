@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Optimal @Creality K1C",
+	"name": "0.24 mm Optimal @Creality K1C",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
 	"setting_id": "eF3su8pOiDbEHiOy",

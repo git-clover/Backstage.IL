@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.60mm Draft @SeeMeCNC RostockMAX v4 1.0",
+	"name": "0.60 mm Draft @SeeMeCNC RostockMAX v4 1.0",
 	"inherits": "SeeMeCNC process base 1.0mm",
 	"from": "System",
 	"setting_id": "jfHMqNVeo05C0emy",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Draft Fast @MM BoneKing",
+	"name": "0.30 mm Draft Fast @MM BoneKing",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "g2unBNIOfILyLrLQ",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Standard @X-Max 4 0.2 nozzle",
+	"name": "0.10 mm Standard @X-Max 4 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
 	"setting_id": "ABeYedxpPRk7Mv4k",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.24mm Balanced Quality @BBL H2DP 0.8 nozzle",
+	"name": "0.24 mm Balanced Quality @BBL H2DP 0.8 nozzle",
 	"inherits": "fdm_process_dual_0.24_nozzle_0.8",
 	"from": "system",
 	"setting_id": "GP141",

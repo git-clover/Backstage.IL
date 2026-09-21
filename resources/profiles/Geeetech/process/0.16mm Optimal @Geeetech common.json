@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.16mm Optimal @Geeetech common",
+	"name": "0.16 mm Optimal @Geeetech common",
 	"inherits": "fdm_process_geeetech_0.16",
 	"from": "system",
 	"setting_id": "MD7y5RFFIpuz2J5T",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Detail 0.6 nozzle @Anker",
+	"name": "0.15 mm Detail 0.6 nozzle @Anker",
 	"inherits": "fdm_process_anker_common_0_6",
 	"from": "system",
 	"setting_id": "G86FJ5HcZrezkPiL",

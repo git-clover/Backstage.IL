@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.05mm Fine 0.15 nozzle @Voron",
+	"name": "0.05 mm Fine 0.15 nozzle @Voron",
 	"inherits": "fdm_process_voron_common_0_1_5",
 	"from": "system",
 	"setting_id": "jtt0gO87jzVyOD6s",

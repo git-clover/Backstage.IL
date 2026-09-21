@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @CoLiDo DIY 4.0",
+	"name": "0.20 mm Standard @CoLiDo DIY 4.0",
 	"inherits": "fdm_process_colidodiy40_common",
 	"from": "system",
 	"setting_id": "JDfKJOdY57PYOvKu",

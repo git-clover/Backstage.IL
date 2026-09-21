@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Creality Sermoon D3 0.4 nozzle",
+	"name": "0.08 mm Extra Fine @Creality Sermoon D3 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "hgzLcDIojpLI4XXw",

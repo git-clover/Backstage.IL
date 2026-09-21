@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm Fine @Tronxy",
+	"name": "0.12 mm Fine @Tronxy",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "CfBTVOD882EmgOn8",

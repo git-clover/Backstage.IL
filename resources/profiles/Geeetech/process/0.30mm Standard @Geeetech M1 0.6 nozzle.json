@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.30mm Standard @Geeetech M1 0.6 nozzle",
+	"name": "0.30 mm Standard @Geeetech M1 0.6 nozzle",
 	"inherits": "fdm_process_Geeetech_HS_0.30_nozzle_0.6",
 	"from": "system",
 	"setting_id": "r0yCFNbEdiV6uGeI",

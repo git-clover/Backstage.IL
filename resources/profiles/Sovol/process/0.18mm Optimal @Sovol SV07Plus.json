@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.18mm Optimal @Sovol SV07 Plus",
+	"name": "0.18 mm Optimal @Sovol SV07 Plus",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "Y7BQqmsJc3sCg5M4",

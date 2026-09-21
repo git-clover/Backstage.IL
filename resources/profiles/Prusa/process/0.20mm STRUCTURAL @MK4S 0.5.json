@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.20mm STRUCTURAL @MK4S 0.5",
-	"inherits": "0.20mm SPEED @MK4S 0.5",
+	"name": "0.20 mm STRUCTURAL @MK4S 0.5",
+	"inherits": "0.20 mm SPEED @MK4S 0.5",
 	"from": "system",
 	"setting_id": "UMpHyWw24UuZweBB",
 	"instantiation": "true",

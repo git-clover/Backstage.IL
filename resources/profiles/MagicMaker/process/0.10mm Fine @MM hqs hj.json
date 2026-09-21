@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.10mm Fine @MM hqs hj",
+	"name": "0.10 mm Fine @MM hqs hj",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "vCIBhcj3X7d07y9G",

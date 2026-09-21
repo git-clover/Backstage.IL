@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @Geeetech M1",
+	"name": "0.08 mm Extra Fine @Geeetech M1",
 	"inherits": "fdm_process_Geeetech_HS_0.08",
 	"from": "system",
 	"setting_id": "NaLK6UGsmP7nI9Qk",

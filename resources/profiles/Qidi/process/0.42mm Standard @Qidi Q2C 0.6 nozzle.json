@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.42mm Standard @Qidi Q2C 0.6 nozzle",
+	"name": "0.42 mm Standard @Qidi Q2C 0.6 nozzle",
 	"inherits": "fdm_process_QIDI_0.42_nozzle_0.6",
 	"from": "system",
 	"setting_id": "MVF9jg2lGipnPD2S",

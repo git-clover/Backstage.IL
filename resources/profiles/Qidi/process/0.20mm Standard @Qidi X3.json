@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20mm Standard @Qidi X3",
+	"name": "0.20 mm Standard @Qidi X3",
 	"inherits": "fdm_process_qidi_x3_common",
 	"from": "system",
 	"instantiation": "false",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Anycubic Kobra2",
+	"name": "0.15 mm Optimal @Anycubic Kobra2",
 	"inherits": "fdm_process_common",
 	"from": "system",
 	"setting_id": "7H2BzvHgy0o9nc1g",

@@ -28,15 +28,15 @@
 			"sub_path": "process/0.18mm Standard @UltiMaker 2.json"
 		},
 		{
-			"name": "0.18mm Standard @UltiMaker S5",
+			"name": "0.18 mm Standard @UltiMaker S5",
 			"sub_path": "process/0.18mm Standard @UltiMaker S5.json"
 		},
 		{
-			"name": "0.25mm Draft @UltiMaker 2",
+			"name": "0.25 mm Draft @UltiMaker 2",
 			"sub_path": "process/0.25mm Darft @UltiMaker 2.json"
 		},
 		{
-			"name": "0.2mm Fast @UltiMaker S5",
+			"name": "0.2 mm Fast @UltiMaker S5",
 			"sub_path": "process/0.2mm Fast @UltiMaker S5.json"
 		}
 	],

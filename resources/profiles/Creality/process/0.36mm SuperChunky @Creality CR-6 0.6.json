@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.36mm SuperChunky @Creality CR-6 0.6",
+	"name": "0.36 mm SuperChunky @Creality CR-6 0.6",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "HjaKqX7JvptQVfBK",

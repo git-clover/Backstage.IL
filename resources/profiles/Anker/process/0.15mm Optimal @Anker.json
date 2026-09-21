@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15mm Optimal @Anker",
+	"name": "0.15 mm Optimal @Anker",
 	"inherits": "fdm_process_anker_common",
 	"from": "system",
 	"setting_id": "B60G1FrfJwUViHQb",

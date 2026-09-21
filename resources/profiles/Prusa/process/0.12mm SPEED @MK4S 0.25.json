@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.12mm SPEED @MK4S 0.25",
+	"name": "0.12 mm SPEED @MK4S 0.25",
 	"inherits": "process_common_mk4s",
 	"from": "system",
 	"setting_id": "MSqpYhW6mD1MMp3i",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.08mm Extra Fine @InfiMech TX HSN",
+	"name": "0.08 mm Extra Fine @InfiMech TX HSN",
 	"inherits": "fdm_process_common_HSN",
 	"from": "system",
 	"setting_id": "7q3pv13ASbe2Iad0",

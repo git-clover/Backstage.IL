@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.2mm Fast @UltiMaker S5",
-	"inherits": "0.18mm Standard @UltiMaker S5",
+	"name": "0.2 mm Fast @UltiMaker S5",
+	"inherits": "0.18 mm Standard @UltiMaker S5",
 	"from": "system",
 	"setting_id": "Ai0I1drAIYiCbydj",
 	"instantiation": "true",
