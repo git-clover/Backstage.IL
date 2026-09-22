@@ -20,11 +20,11 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.12 mm Fine @UltiMaker 2",
+			"name": "0.12mm Fine @UltiMaker 2",
 			"sub_path": "process/0.12mm Fine @UltiMaker 2.json"
 		},
 		{
-			"name": "0.18 mm Standard @UltiMaker 2",
+			"name": "0.18mm Standard @UltiMaker 2",
 			"sub_path": "process/0.18mm Standard @UltiMaker 2.json"
 		},
 		{

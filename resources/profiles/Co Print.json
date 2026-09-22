@@ -19,11 +19,11 @@
 			"sub_path": "process/fdm_process_coprint_common.json"
 		},
 		{
-			"name": "0.2 mm Fast @Co Print ChromaSet 0.4",
+			"name": "0.2mm Fast @Co Print ChromaSet 0.4",
 			"sub_path": "process/0.2mm Fast @Co Print ChromaSet 0.4.json"
 		},
 		{
-			"name": "0.2 mm Standard @Co Print ChromaSet 0.4",
+			"name": "0.2mm Standard @Co Print ChromaSet 0.4",
 			"sub_path": "process/0.2mm Standard @Co Print ChromaSet 0.4.json"
 		}
 	],
