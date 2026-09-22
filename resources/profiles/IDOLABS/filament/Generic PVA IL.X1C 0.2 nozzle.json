@@ -1,0 +1,15 @@
+{
+	"type": "filament",
+	"name": "Generic PVA @IDOLABS 0.2 nozzle",
+	"inherits": "Generic PVA @IDOLABS base",
+	"renamed_from": "IDOLABS Generic PVA @0.2 nozzle;IDOLABS Generic PVA 0.2 nozzle",
+	"from": "system",
+	"setting_id": "jX00tEZaqsJvpoBT",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"0.5"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}
