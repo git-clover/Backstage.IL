@@ -12176,7 +12176,7 @@ msgstr "덮어쓰기 후"
 
 msgctxt "Sync_AMS"
 msgid "Plate"
-msgstr "접시"
+msgstr "스테이지"
 
 msgid "The connected printer does not match the currently selected printer. Please change the selected printer."
 msgstr "연결된 프린터가 현재 선택한 프린터와 일치하지 않습니다. 선택한 프린터를 변경하세요."
@@ -12340,7 +12340,7 @@ msgid "Re-calculate"
 msgstr "다시 계산"
 
 msgid "Multiplier"
-msgstr "승수"
+msgstr "배율"
 
 msgid "Flushing volumes for filament change"
 msgstr "필라멘트 교체를 위한 버리기 볼륨"
@@ -12642,11 +12642,12 @@ msgstr "이 버전 건너뛰기"
 # AI Translated
 #, c-format, boost-format
 msgid "New version available: %s. Please update OrcaSlicer from the Microsoft Store."
-msgstr "새 버전을 사용할 수 있습니다: %s. Microsoft Store에서 OrcaSlicer를 업데이트하십시오."
+msgstr "Backstage.IL 컴백! 새로워진 %s 버전을 만나보세요."
 
 msgid "Confirm and Update Nozzle"
 msgstr "노즐 확인 및 업데이트"
 
+# 여휴 ㅅ1ㅂ
 msgid "Connect the printer using IP and access code"
 msgstr "IP 및 액세스 코드를 사용하여 프린터 연결"
 
@@ -12813,13 +12814,13 @@ msgstr "구성 패키지: %1%이(가) %2%(으)로 업데이트되었습니다"
 
 # AI Translated
 msgid "Failed to download vendor profile(s): "
-msgstr "제조사 프로파일을 다운로드하지 못했습니다: "
+msgstr "공식 프로필을 다운로드하지 못했습니다: "
 
 msgid "Please check any unsaved changes before updating the configuration."
 msgstr "구성 업데이트 전에 저장되지 않은 변경 사항을 확인해야 합니다."
 
 msgid "Open G-code file:"
-msgstr "Gcode 파일 열기:"
+msgstr "스테이지 데이터 열기:"
 
 msgid "One object has an empty first layer and can't be printed. Please Cut the bottom or enable supports."
 msgstr "객체 하나에 초기 레이어가 비어 있어 출력할 수 없습니다. 바닥을 자르거나 서포트를 활성화하세요."
@@ -12830,7 +12831,7 @@ msgstr "%1%에서 %2% 사이의 빈 레이어에 대해 객체를 출력할 수 
 
 #, boost-format
 msgid "Object: %1%"
-msgstr "객체: %1%"
+msgstr "멤버: %1%"
 
 msgid "Parts of the object at these heights may be too thin or the object may have a faulty mesh."
 msgstr "이 높이에 있는 객체의 일부가 너무 얇거나 객체에 결함이 있는 메시가 있을 수 있습니다"
@@ -12847,7 +12848,7 @@ msgid "No object can be printed. It may be too small."
 msgstr "객체를 출력할 수 없습니다. 너무 작을 수 있습니다"
 
 msgid "Your print is very close to the priming regions. Make sure there is no collision."
-msgstr "출력물이 프라이밍 영역에 매우 가깝습니다. 충돌이 없는지 확인합니다."
+msgstr "출력물이 프라임 영역에 매우 가깝습니다. 충돌이 없는지 확인합니다."
 
 msgid ""
 "Failed to generate G-code for invalid custom G-code.\n"
@@ -12861,7 +12862,7 @@ msgstr "사용자 정의 Gcode를 확인하거나 기본 사용자 정의 Gcode�
 
 #, boost-format
 msgid "Generating G-code: layer %1%"
-msgstr "Gcode 생성 중: 레이어 %1%"
+msgstr "스테이지 준비 중 | 레이어 %1%"
 
 msgid "Flush volumes matrix do not match to the correct size!"
 msgstr "플러시 볼륨 매트릭스가 올바른 크기와 일치하지 않습니다!"
@@ -12995,15 +12996,15 @@ msgstr "쓰기 호출 실패"
 
 #, boost-format
 msgid "%1% is too close to exclusion area. There may be collisions when printing."
-msgstr "%1% 이(가) 제외 영역에 너무 가깝습니다. 출력 시 충돌이 발생 할 수 있습니다."
+msgstr "멤버 %1%이(가) 스테이지 경계에 지나치게 가깝습니다."
 
 #, boost-format
 msgid "%1% is too close to others, and collisions may be caused."
-msgstr "%1% 이(가) 다른 객체와 너무 가까워 출력 시 충돌이 발생 할 수 있습니다."
+msgstr "일부 멤버가 가까이 배치되어 있습니다. %1%이(가) 다른 멤버와 충돌할 수 있습니다."
 
 #, boost-format
 msgid "%1% is too tall, and collisions will be caused."
-msgstr "%1% 이(가) 너무 높아서 충돌이 출력 시 발생할 수 있습니다."
+msgstr "스테이지가 지나치게 낮습니다. 멤버 %1%을 확인하세요."
 
 # AI Translated
 msgid "The relative position of the model and the prime tower does not meet the requirements of the \"No sparse layers\" feature. Please adjust their relative positions, lower the model height, or turn off \"No sparse layers\"."
@@ -13019,17 +13020,18 @@ msgid "Prime Tower"
 msgstr "프라임 타워"
 
 msgid " is too close to others, and collisions may be caused.\n"
-msgstr " 이(가) 다른 객체와 너무 가까워 출력 시 충돌이 발생 할 수 있습니다.\n"
+msgstr "이(가) 다른 멤버와 충돌할 수 있습니다.\n"
 
 msgid " is too close to an exclusion area, and collisions will be caused.\n"
-msgstr " 이(가) 제외 영역에 너무 가깝습니다. 출력 시 충돌이 발생 할 수 있습니다.\n"
+msgstr "이(가) 스테이지 경계에 지나치게 가깝습니다.\n"
 
+# For Bambu Lab A2L!!!
 msgid " is too close to clumping detection area, and collisions will be caused.\n"
-msgstr " 뭉침 감지 영역에 너무 가까워 충돌이 발생할 수 있습니다.\n"
+msgstr "이(가) 노즐 확인 영역과 충돌할 수 있습니다.\n"
 
 # AI Translated
 msgid " is partially outside the printable area, and it cannot be printed.\n"
-msgstr " 이(가) 출력 가능 영역을 일부 벗어나 출력할 수 없습니다.\n"
+msgstr "의 일부가 스테이지를 벗어났습니다.\n"
 
 # AI Translated
 msgid "Selected nozzle temperatures are incompatible. Each filament's nozzle temperature must fall within the recommended nozzle temperature range of the other filaments. Otherwise, nozzle clogging or printer damage may occur."
@@ -13072,7 +13074,7 @@ msgstr "객체에 둘 이상의 재료가 포함된 경우 나선형 꽃병 모�
 
 #, boost-format
 msgid "While the object %1% itself fits the build volume, it exceeds the maximum build volume height because of material shrinkage compensation."
-msgstr "객체 %1% 자체는 빌드 볼륨에 맞지만, 머티리얼 수축 보정 때문에 최대 빌드 볼륨 높이를 초과합니다."
+msgstr "객체 %1% 자체는 빌드 볼륨에 맞지만, 수축 보정 때문에 최대 빌드 볼륨 높이를 초과합니다."
 
 #, boost-format
 msgid "The object %1% exceeds the maximum build volume height."
@@ -13195,7 +13197,7 @@ msgstr "layer_change_gcode에서 \"G92 E0\"을 찾았습니다. 이는 절대 �
 
 #, c-format, boost-format
 msgid "Plate %d: %s does not support filament %s"
-msgstr "%d: %s 플레이트는 %s 필라멘트를 지원하지 않습니다"
+msgstr "스테이지 %d: %s가 %s 필라멘트를 지원하지 않습니다."
 
 msgid "Setting the jerk speed too low could lead to artifacts on curved surfaces"
 msgstr "저크 속도를 너무 낮게 설정하면 곡면에 아티팩트가 생길 수 있습니다"
@@ -13263,10 +13265,10 @@ msgstr ""
 "객체 사이를 더 벌리거나, 브림/스커트 크기를 줄이거나, 스커트 유형을 통합으로 변경하거나, 출력 순서를 레이어별로 변경하십시오."
 
 msgid "Exporting G-code"
-msgstr "Gcode 내보내는 중"
+msgstr "스테이지 데이터 내보내는 중"
 
 msgid "Generating G-code"
-msgstr "Gcode 생성 중"
+msgstr "스테이지 준비 중"
 
 # AI Translated
 msgid "Processing of the filename_format template failed."
