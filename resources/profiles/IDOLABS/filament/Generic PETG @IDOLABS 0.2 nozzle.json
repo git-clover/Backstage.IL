@@ -1,0 +1,15 @@
+{
+	"type": "filament",
+	"name": "Generic PETG @IDOLABS 0.2 nozzle",
+	"inherits": "Generic PETG @IDOLABS base",
+	"renamed_from": "IDOLABS Generic PETG @0.2 nozzle;IDOLABS Generic PETG 0.2 nozzle",
+	"from": "system",
+	"setting_id": "ZstQ3h8DGCpRWQJN",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"1"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}

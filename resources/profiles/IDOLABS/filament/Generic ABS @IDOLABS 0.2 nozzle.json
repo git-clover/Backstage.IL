@@ -1,0 +1,15 @@
+{
+	"type": "filament",
+	"name": "Generic ABS @IDOLABS 0.2 nozzle",
+	"inherits": "Generic ABS @IDOLABS base",
+	"renamed_from": "IDOLABS Generic ABS @0.2 nozzle;IDOLABS Generic ABS 0.2 nozzle",
+	"from": "system",
+	"setting_id": "mzx0hG9Xe9fIrkrW",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"2"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}

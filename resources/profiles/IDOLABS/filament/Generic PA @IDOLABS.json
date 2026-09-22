@@ -1,0 +1,27 @@
+{
+	"type": "filament",
+	"name": "Generic PA @IDOLABS",
+	"inherits": "fdm_filament_pa",
+	"renamed_from": "IDOLABS Generic PA",
+	"from": "system",
+	"setting_id": "KScdeqdB3UR6uvxs",
+	"filament_id": "OFg8ndtj",
+	"instantiation": "true",
+	"required_nozzle_HRC": [
+		"3"
+	],
+	"nozzle_temperature_initial_layer": [
+		"280"
+	],
+	"nozzle_temperature": [
+		"280"
+	],
+	"filament_max_volumetric_speed": [
+		"16"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.4 nozzle",
+		"IL.X1C 0.6 nozzle",
+		"IL.X1C 0.8 nozzle"
+	]
+}

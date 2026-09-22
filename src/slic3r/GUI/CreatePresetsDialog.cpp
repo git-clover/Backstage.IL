@@ -124,7 +124,7 @@ static const std::unordered_map<std::string, std::vector<std::string>> printer_m
      {"Lulzbot",           {"Lulzbot Taz 6",        "Lulzbot Taz 4 or 5",   "Lulzbot Taz Pro Dual", "Lulzbot Taz Pro S"}},
      {"MagicMaker",        {"MM hqs hj",   "MM hqs SF",   "MM hj SK",    "MM BoneKing", "MM slb"}},
      {"Mellow",            {"M1"}},
-     {"Orca Arena Printer",{"Orca Arena X1 Carbon"}},
+     {"Orca Arena Printer",{"IL.X1C"}},
      {"Peopoly",           {"Peopoly Magneto X"}},
      {"Positron 3D",       {"The Positron"}},
      {"Prusa",             {"Prusa CORE One", "Prusa CORE One HF", "Prusa CORE One L", "Prusa CORE One L HF", "MK4IS", "MK4S", "MK4S HF",

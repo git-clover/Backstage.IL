@@ -1,0 +1,13 @@
+{
+	"type": "filament",
+	"name": "Arena PLA Sparkle @IL.X1C",
+	"inherits": "Arena PLA Sparkle @base",
+	"from": "system",
+	"setting_id": "mAZuRQdAzLNFTf0w",
+	"instantiation": "true",
+	"compatible_printers": [
+		"IL.X1C 0.4 nozzle",
+		"IL.X1C 0.6 nozzle",
+		"IL.X1C 0.8 nozzle"
+	]
+}

@@ -17,7 +17,7 @@ same for that product in every bundle, in every PR, on every machine. For exampl
 PolyLite PLA presets (`PolyLite PLA @base`, `PolyLite PLA@Q2-Series`, …) resolve
 `filament_vendor` `Polymaker`, `filament_type` `PLA`, and filament name `PolyLite PLA`; hashing
 `filament_product/Polymaker/PLA/PolyLite PLA` yields `OF5CgdDq`, and that is the id the
-OrcaFilamentLibrary, OrcaArena, Qidi, and Snapmaker bundles all arrive at independently
+OrcaFilamentLibrary, IDOLABS, Qidi, and Snapmaker bundles all arrive at independently
 (derivation details in the Minting section).
 
 **How it is used:** at runtime the id is the join key between hardware and profiles.
@@ -187,7 +187,7 @@ Content-addressing on that triple is what makes the whole system converge. The k
 bundle name, so the same product mints the same id in every bundle — moving a filament into
 OrcaFilamentLibrary never changes its id, and two vendors independently shipping the same
 product arrive at the same id without coordinating. `Polymaker/PLA/PolyLite PLA` mints
-`OF5CgdDq`, and that one id is declared by the OrcaFilamentLibrary, OrcaArena, Qidi, and
+`OF5CgdDq`, and that one id is declared by the OrcaFilamentLibrary, IDOLABS, Qidi, and
 Snapmaker bundles alike; the OFL generic `Generic/PLA/Generic PLA` mints `OFDSrzZ8`, claimed
 by 35 bundles — most by independent declarations converging on the same mint, the rest
 purely through inheritance from the OFL preset.

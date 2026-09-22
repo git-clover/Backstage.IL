@@ -1,0 +1,14 @@
+{
+	"type": "filament",
+	"name": "Arena PLA Silk @IL.X1C 0.2 nozzle",
+	"inherits": "Arena PLA Silk @base",
+	"from": "system",
+	"setting_id": "Ey8IICwCrqLfYxdQ",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"2"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}

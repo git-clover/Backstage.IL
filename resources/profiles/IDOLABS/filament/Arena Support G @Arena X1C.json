@@ -1,0 +1,13 @@
+{
+	"type": "filament",
+	"name": "Arena Support G @IL.X1C",
+	"inherits": "Arena Support G @base",
+	"from": "system",
+	"setting_id": "XZT2nAJHs6F4QIeo",
+	"instantiation": "true",
+	"compatible_printers": [
+		"IL.X1C 0.4 nozzle",
+		"IL.X1C 0.6 nozzle",
+		"IL.X1C 0.8 nozzle"
+	]
+}

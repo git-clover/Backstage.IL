@@ -1,0 +1,14 @@
+{
+	"type": "filament",
+	"name": "Generic PETG @IDOLABS",
+	"inherits": "Generic PETG @IDOLABS base",
+	"renamed_from": "IDOLABS Generic PETG",
+	"from": "system",
+	"setting_id": "3puaC0EwFLvEnGH2",
+	"instantiation": "true",
+	"compatible_printers": [
+		"IL.X1C 0.4 nozzle",
+		"IL.X1C 0.6 nozzle",
+		"IL.X1C 0.8 nozzle"
+	]
+}

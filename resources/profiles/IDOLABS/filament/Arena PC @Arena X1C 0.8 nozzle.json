@@ -1,0 +1,14 @@
+{
+	"type": "filament",
+	"name": "Arena PC @IL.X1C 0.8 nozzle",
+	"inherits": "Arena PC @base",
+	"from": "system",
+	"setting_id": "wjNXBZ089sWoa8Bq",
+	"instantiation": "true",
+	"nozzle_temperature": [
+		"260"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.8 nozzle"
+	]
+}

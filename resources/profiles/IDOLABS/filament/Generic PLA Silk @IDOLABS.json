@@ -1,0 +1,20 @@
+{
+	"type": "filament",
+	"name": "Generic PLA Silk @IDOLABS",
+	"inherits": "Generic PLA Silk @IDOLABS base",
+	"renamed_from": "IDOLABS Generic PLA Silk",
+	"from": "system",
+	"setting_id": "rvJjX9QsHM1O1CGD",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"7.5"
+	],
+	"filament_retraction_length": [
+		"0.5"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.4 nozzle",
+		"IL.X1C 0.6 nozzle",
+		"IL.X1C 0.8 nozzle"
+	]
+}

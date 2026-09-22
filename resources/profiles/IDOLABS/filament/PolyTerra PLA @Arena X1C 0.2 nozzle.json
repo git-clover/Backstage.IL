@@ -1,0 +1,14 @@
+{
+	"type": "filament",
+	"name": "PolyTerra PLA @IL.X1C 0.2 nozzle",
+	"inherits": "PolyTerra PLA @IL.X1C",
+	"from": "system",
+	"setting_id": "IAZOaMNJd9httELA",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"1"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}

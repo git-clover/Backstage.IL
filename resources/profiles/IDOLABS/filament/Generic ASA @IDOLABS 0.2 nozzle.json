@@ -1,0 +1,15 @@
+{
+	"type": "filament",
+	"name": "Generic ASA @IDOLABS 0.2 nozzle",
+	"inherits": "Generic ASA @IDOLABS base",
+	"renamed_from": "IDOLABS Generic ASA @0.2 nozzle;IDOLABS Generic ASA 0.2 nozzle",
+	"from": "system",
+	"setting_id": "rtFj6gFceWHdzTmO",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"2"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}
