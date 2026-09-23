@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Sparkle @IL.X1C",
-	"inherits": "Arena PLA Sparkle @base",
+	"name": "IDOLABS PLA Sparkle @IL.X1C",
+	"inherits": "IDOLABS PLA Sparkle @base",
 	"from": "system",
 	"setting_id": "mAZuRQdAzLNFTf0w",
 	"instantiation": "true",

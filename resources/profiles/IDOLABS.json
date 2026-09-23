@@ -1,9 +1,9 @@
 {
-	"name": "Orca Arena Printer",
+	"name": "IDOLABS Printer",
 	"url": "",
 	"version": "02.04.00.07",
 	"force_update": "0",
-	"description": "Orca Arena configuration files",
+	"description": "IDOLABS configuration files",
 	"machine_model_list": [
 		{
 			"name": "IL.X1C",
@@ -140,7 +140,7 @@
 			"sub_path": "process/0.18mm Standard @IL.X1C 0.6 nozzle.json"
 		},
 		{
-			"name": "0.20mm Arena Support W @IL.X1C",
+			"name": "0.20mm IDOLABS Support W @IL.X1C",
 			"sub_path": "process/0.20mm Bambu Support W @IL.X1C.json"
 		},
 		{
@@ -238,8 +238,8 @@
 			"sub_path": "filament/fdm_filament_tpu.json"
 		},
 		{
-			"name": "Arena ABS @base",
-			"sub_path": "filament/Arena ABS @base.json"
+			"name": "IDOLABS ABS @base",
+			"sub_path": "filament/IDOLABS ABS @base.json"
 		},
 		{
 			"name": "Generic ABS @IDOLABS base",
@@ -250,16 +250,16 @@
 			"sub_path": "filament/Generic ASA @IDOLABS base.json"
 		},
 		{
-			"name": "Arena PA-CF @base",
-			"sub_path": "filament/Arena PA-CF @base.json"
+			"name": "IDOLABS PA-CF @base",
+			"sub_path": "filament/IDOLABS PA-CF @base.json"
 		},
 		{
-			"name": "Arena PAHT-CF @base",
-			"sub_path": "filament/Arena PAHT-CF @base.json"
+			"name": "IDOLABS PAHT-CF @base",
+			"sub_path": "filament/IDOLABS PAHT-CF @base.json"
 		},
 		{
-			"name": "Arena Support G @base",
-			"sub_path": "filament/Arena Support G @base.json"
+			"name": "IDOLABS Support G @base",
+			"sub_path": "filament/IDOLABS Support G @base.json"
 		},
 		{
 			"name": "Generic PA @IDOLABS",
@@ -270,24 +270,24 @@
 			"sub_path": "filament/Generic PA-CF @IDOLABS.json"
 		},
 		{
-			"name": "Arena PC @base",
-			"sub_path": "filament/Arena PC @base.json"
+			"name": "IDOLABS PC @base",
+			"sub_path": "filament/IDOLABS PC @base.json"
 		},
 		{
 			"name": "Generic PC @IDOLABS base",
 			"sub_path": "filament/Generic PC @IDOLABS base.json"
 		},
 		{
-			"name": "Arena PET-CF @base",
-			"sub_path": "filament/Arena PET-CF @base.json"
+			"name": "IDOLABS PET-CF @base",
+			"sub_path": "filament/IDOLABS PET-CF @base.json"
 		},
 		{
-			"name": "Arena PETG Basic @base",
-			"sub_path": "filament/Arena PETG Basic @base.json"
+			"name": "IDOLABS PETG Basic @base",
+			"sub_path": "filament/IDOLABS PETG Basic @base.json"
 		},
 		{
-			"name": "Arena PETG-CF @base",
-			"sub_path": "filament/Arena PETG-CF @base.json"
+			"name": "IDOLABS PETG-CF @base",
+			"sub_path": "filament/IDOLABS PETG-CF @base.json"
 		},
 		{
 			"name": "Generic PETG @IDOLABS base",
@@ -298,44 +298,44 @@
 			"sub_path": "filament/Generic PETG-CF @IDOLABS base.json"
 		},
 		{
-			"name": "Arena PLA Basic @base",
-			"sub_path": "filament/Arena PLA Basic @base.json"
+			"name": "IDOLABS PLA Basic @base",
+			"sub_path": "filament/IDOLABS PLA Basic @base.json"
 		},
 		{
-			"name": "Arena PLA Impact @base",
-			"sub_path": "filament/Arena PLA Impact @base.json"
+			"name": "IDOLABS PLA Impact @base",
+			"sub_path": "filament/IDOLABS PLA Impact @base.json"
 		},
 		{
-			"name": "Arena PLA Marble @base",
-			"sub_path": "filament/Arena PLA Marble @base.json"
+			"name": "IDOLABS PLA Marble @base",
+			"sub_path": "filament/IDOLABS PLA Marble @base.json"
 		},
 		{
-			"name": "Arena PLA Matte @base",
-			"sub_path": "filament/Arena PLA Matte @base.json"
+			"name": "IDOLABS PLA Matte @base",
+			"sub_path": "filament/IDOLABS PLA Matte @base.json"
 		},
 		{
-			"name": "Arena PLA Metal @base",
-			"sub_path": "filament/Arena PLA Metal @base.json"
+			"name": "IDOLABS PLA Metal @base",
+			"sub_path": "filament/IDOLABS PLA Metal @base.json"
 		},
 		{
-			"name": "Arena PLA Silk @base",
-			"sub_path": "filament/Arena PLA Silk @base.json"
+			"name": "IDOLABS PLA Silk @base",
+			"sub_path": "filament/IDOLABS PLA Silk @base.json"
 		},
 		{
-			"name": "Arena PLA Sparkle @base",
-			"sub_path": "filament/Arena PLA Sparkle @base.json"
+			"name": "IDOLABS PLA Sparkle @base",
+			"sub_path": "filament/IDOLABS PLA Sparkle @base.json"
 		},
 		{
-			"name": "Arena PLA Tough @base",
-			"sub_path": "filament/Arena PLA Tough @base.json"
+			"name": "IDOLABS PLA Tough @base",
+			"sub_path": "filament/IDOLABS PLA Tough @base.json"
 		},
 		{
-			"name": "Arena PLA-CF @base",
-			"sub_path": "filament/Arena PLA-CF @base.json"
+			"name": "IDOLABS PLA-CF @base",
+			"sub_path": "filament/IDOLABS PLA-CF @base.json"
 		},
 		{
-			"name": "Arena Support W @base",
-			"sub_path": "filament/Arena Support W @base.json"
+			"name": "IDOLABS Support W @base",
+			"sub_path": "filament/IDOLABS Support W @base.json"
 		},
 		{
 			"name": "Generic PLA @IDOLABS base",
@@ -362,24 +362,24 @@
 			"sub_path": "filament/Generic PVA @IDOLABS base.json"
 		},
 		{
-			"name": "Arena TPU 95A @base",
-			"sub_path": "filament/Arena TPU 95A @base.json"
+			"name": "IDOLABS TPU 95A @base",
+			"sub_path": "filament/IDOLABS TPU 95A @base.json"
 		},
 		{
 			"name": "Generic TPU @IDOLABS",
 			"sub_path": "filament/Generic TPU @IDOLABS.json"
 		},
 		{
-			"name": "Arena ABS @IL.X1C",
-			"sub_path": "filament/Arena ABS @IL.X1C.json"
+			"name": "IDOLABS ABS @IL.X1C",
+			"sub_path": "filament/IDOLABS ABS @IL.X1C.json"
 		},
 		{
-			"name": "Arena ABS @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena ABS @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS ABS @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS ABS @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena ABS @IL.X1C 0.8 nozzle",
-			"sub_path": "filament/Arena ABS @IL.X1C 0.8 nozzle.json"
+			"name": "IDOLABS ABS @IL.X1C 0.8 nozzle",
+			"sub_path": "filament/IDOLABS ABS @IL.X1C 0.8 nozzle.json"
 		},
 		{
 			"name": "Generic ABS @IDOLABS",
@@ -398,32 +398,32 @@
 			"sub_path": "filament/Generic ASA @IDOLABS 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PA-CF @IL.X1C",
-			"sub_path": "filament/Arena PA-CF @IL.X1C.json"
+			"name": "IDOLABS PA-CF @IL.X1C",
+			"sub_path": "filament/IDOLABS PA-CF @IL.X1C.json"
 		},
 		{
-			"name": "Arena PAHT-CF @IL.X1C",
-			"sub_path": "filament/Arena PAHT-CF @IL.X1C.json"
+			"name": "IDOLABS PAHT-CF @IL.X1C",
+			"sub_path": "filament/IDOLABS PAHT-CF @IL.X1C.json"
 		},
 		{
-			"name": "Arena Support G @IL.X1C",
-			"sub_path": "filament/Arena Support G @IL.X1C.json"
+			"name": "IDOLABS Support G @IL.X1C",
+			"sub_path": "filament/IDOLABS Support G @IL.X1C.json"
 		},
 		{
-			"name": "Arena PC @IL.X1C",
-			"sub_path": "filament/Arena PC @IL.X1C.json"
+			"name": "IDOLABS PC @IL.X1C",
+			"sub_path": "filament/IDOLABS PC @IL.X1C.json"
 		},
 		{
-			"name": "Arena PC @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PC @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PC @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PC @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PC @IL.X1C 0.6 nozzle",
-			"sub_path": "filament/Arena PC @IL.X1C 0.6 nozzle.json"
+			"name": "IDOLABS PC @IL.X1C 0.6 nozzle",
+			"sub_path": "filament/IDOLABS PC @IL.X1C 0.6 nozzle.json"
 		},
 		{
-			"name": "Arena PC @IL.X1C 0.8 nozzle",
-			"sub_path": "filament/Arena PC @IL.X1C 0.8 nozzle.json"
+			"name": "IDOLABS PC @IL.X1C 0.8 nozzle",
+			"sub_path": "filament/IDOLABS PC @IL.X1C 0.8 nozzle.json"
 		},
 		{
 			"name": "Generic PC @IDOLABS",
@@ -434,24 +434,24 @@
 			"sub_path": "filament/Generic PC @IDOLABS 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PET-CF @IL.X1C",
-			"sub_path": "filament/Arena PET-CF @IL.X1C.json"
+			"name": "IDOLABS PET-CF @IL.X1C",
+			"sub_path": "filament/IDOLABS PET-CF @IL.X1C.json"
 		},
 		{
-			"name": "Arena PETG Basic @IL.X1C",
-			"sub_path": "filament/Arena PETG Basic @IL.X1C.json"
+			"name": "IDOLABS PETG Basic @IL.X1C",
+			"sub_path": "filament/IDOLABS PETG Basic @IL.X1C.json"
 		},
 		{
-			"name": "Arena PETG Basic @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PETG Basic @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PETG Basic @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PETG Basic @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PETG Basic @IL.X1C 0.8 nozzle",
-			"sub_path": "filament/Arena PETG Basic @IL.X1C 0.8 nozzle.json"
+			"name": "IDOLABS PETG Basic @IL.X1C 0.8 nozzle",
+			"sub_path": "filament/IDOLABS PETG Basic @IL.X1C 0.8 nozzle.json"
 		},
 		{
-			"name": "Arena PETG-CF @IL.X1C",
-			"sub_path": "filament/Arena PETG-CF @IL.X1C.json"
+			"name": "IDOLABS PETG-CF @IL.X1C",
+			"sub_path": "filament/IDOLABS PETG-CF @IL.X1C.json"
 		},
 		{
 			"name": "Generic PETG @IDOLABS",
@@ -466,80 +466,80 @@
 			"sub_path": "filament/Generic PETG-CF @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Basic @IL.X1C",
-			"sub_path": "filament/Arena PLA Basic @IL.X1C.json"
+			"name": "IDOLABS PLA Basic @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Basic @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Basic @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PLA Basic @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PLA Basic @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PLA Basic @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PLA Basic @IL.X1C 0.8 nozzle",
-			"sub_path": "filament/Arena PLA Basic @IL.X1C 0.8 nozzle.json"
+			"name": "IDOLABS PLA Basic @IL.X1C 0.8 nozzle",
+			"sub_path": "filament/IDOLABS PLA Basic @IL.X1C 0.8 nozzle.json"
 		},
 		{
-			"name": "Arena PLA Impact @IL.X1C",
-			"sub_path": "filament/Arena PLA Impact @IL.X1C.json"
+			"name": "IDOLABS PLA Impact @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Impact @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Marble @IL.X1C",
-			"sub_path": "filament/Arena PLA Marble @IL.X1C.json"
+			"name": "IDOLABS PLA Marble @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Marble @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Matte @IL.X1C",
-			"sub_path": "filament/Arena PLA Matte @IL.X1C.json"
+			"name": "IDOLABS PLA Matte @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Matte @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Matte @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PLA Matte @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PLA Matte @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PLA Matte @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PLA Matte @IL.X1C 0.8 nozzle",
-			"sub_path": "filament/Arena PLA Matte @IL.X1C 0.8 nozzle.json"
+			"name": "IDOLABS PLA Matte @IL.X1C 0.8 nozzle",
+			"sub_path": "filament/IDOLABS PLA Matte @IL.X1C 0.8 nozzle.json"
 		},
 		{
-			"name": "Arena PLA Metal @IL.X1C",
-			"sub_path": "filament/Arena PLA Metal @IL.X1C.json"
+			"name": "IDOLABS PLA Metal @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Metal @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Metal @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PLA Metal @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PLA Metal @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PLA Metal @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PLA Silk @IL.X1C",
-			"sub_path": "filament/Arena PLA Silk @IL.X1C.json"
+			"name": "IDOLABS PLA Silk @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Silk @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Silk @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PLA Silk @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PLA Silk @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PLA Silk @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PLA Sparkle @IL.X1C",
-			"sub_path": "filament/Arena PLA Sparkle @IL.X1C.json"
+			"name": "IDOLABS PLA Sparkle @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Sparkle @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Tough @IL.X1C",
-			"sub_path": "filament/Arena PLA Tough @IL.X1C.json"
+			"name": "IDOLABS PLA Tough @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA Tough @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA Tough @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena PLA Tough @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS PLA Tough @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS PLA Tough @IL.X1C 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena PLA-CF @IL.X1C",
-			"sub_path": "filament/Arena PLA-CF @IL.X1C.json"
+			"name": "IDOLABS PLA-CF @IL.X1C",
+			"sub_path": "filament/IDOLABS PLA-CF @IL.X1C.json"
 		},
 		{
-			"name": "Arena PLA-CF @IL.X1C 0.8 nozzle",
-			"sub_path": "filament/Arena PLA-CF @IL.X1C 0.8 nozzle.json"
+			"name": "IDOLABS PLA-CF @IL.X1C 0.8 nozzle",
+			"sub_path": "filament/IDOLABS PLA-CF @IL.X1C 0.8 nozzle.json"
 		},
 		{
-			"name": "Arena Support W @IL.X1C",
-			"sub_path": "filament/Arena Support W @IL.X1C.json"
+			"name": "IDOLABS Support W @IL.X1C",
+			"sub_path": "filament/IDOLABS Support W @IL.X1C.json"
 		},
 		{
-			"name": "Arena Support W @IL.X1C 0.2 nozzle",
-			"sub_path": "filament/Arena Support W @IL.X1C 0.2 nozzle.json"
+			"name": "IDOLABS Support W @IL.X1C 0.2 nozzle",
+			"sub_path": "filament/IDOLABS Support W @IL.X1C 0.2 nozzle.json"
 		},
 		{
 			"name": "Generic PLA @IDOLABS",
@@ -574,8 +574,8 @@
 			"sub_path": "filament/Generic PVA @IDOLABS 0.2 nozzle.json"
 		},
 		{
-			"name": "Arena TPU 95A @IL.X1C",
-			"sub_path": "filament/Arena TPU 95A @IL.X1C.json"
+			"name": "IDOLABS TPU 95A @IL.X1C",
+			"sub_path": "filament/IDOLABS TPU 95A @IL.X1C.json"
 		},
 		{
 			"name": "PolyLite PLA @IL.X1C 0.2 nozzle",

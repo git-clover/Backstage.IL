@@ -11,7 +11,7 @@
 	"printer_variant": "0.6",
 	"printer_model": "IL.X1C",
 	"default_filament_profile": [
-		"Arena PLA Basic @IL.X1C"
+		"IDOLABS PLA Basic @IL.X1C"
 	],
 	"default_print_profile": "0.30mm Standard @IL.X1C 0.6 nozzle",
 	"max_layer_height": [

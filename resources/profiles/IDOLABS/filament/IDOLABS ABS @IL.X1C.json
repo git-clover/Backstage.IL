@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena ABS @IL.X1C",
-	"inherits": "Arena ABS @base",
+	"name": "IDOLABS ABS @IL.X1C",
+	"inherits": "IDOLABS ABS @base",
 	"from": "system",
 	"setting_id": "25fcPM16xLDCkzr9",
 	"instantiation": "true",

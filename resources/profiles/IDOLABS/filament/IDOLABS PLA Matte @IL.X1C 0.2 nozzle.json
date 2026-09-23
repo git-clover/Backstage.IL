@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Matte @IL.X1C 0.2 nozzle",
-	"inherits": "Arena PLA Matte @base",
+	"name": "IDOLABS PLA Matte @IL.X1C 0.2 nozzle",
+	"inherits": "IDOLABS PLA Matte @base",
 	"from": "system",
 	"setting_id": "O9zpg6YuyCcpMus8",
 	"instantiation": "true",

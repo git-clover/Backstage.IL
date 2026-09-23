@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena Support G @IL.X1C",
-	"inherits": "Arena Support G @base",
+	"name": "IDOLABS Support G @IL.X1C",
+	"inherits": "IDOLABS Support G @base",
 	"from": "system",
 	"setting_id": "XZT2nAJHs6F4QIeo",
 	"instantiation": "true",

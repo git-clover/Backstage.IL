@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA-CF @IL.X1C",
-	"inherits": "Arena PLA-CF @base",
+	"name": "IDOLABS PLA-CF @IL.X1C",
+	"inherits": "IDOLABS PLA-CF @base",
 	"from": "system",
 	"setting_id": "imDeceOg0WvrRwKo",
 	"instantiation": "true",

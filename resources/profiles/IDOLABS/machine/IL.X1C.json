@@ -9,5 +9,5 @@
 	"bed_model": "",
 	"bed_texture": "",
 	"hotend_model": "",
-	"default_materials": "Generic PLA Silk @IDOLABS;Generic PLA @IDOLABS;Arena PLA Matte @IL.X1C;Arena PLA Basic @IL.X1C;Arena ABS @IL.X1C;Arena PC @IL.X1C;Arena Support W @IL.X1C;Arena TPU 95A @IL.X1C;PolyTerra PLA @IL.X1C;PolyLite PLA @IL.X1C;Generic PLA @IDOLABS 0.2 nozzle"
+	"default_materials": "Generic PLA Silk @IDOLABS;Generic PLA @IDOLABS;IDOLABS PLA Matte @IL.X1C;IDOLABS PLA Basic @IL.X1C;IDOLABS ABS @IL.X1C;IDOLABS PC @IL.X1C;IDOLABS Support W @IL.X1C;IDOLABS TPU 95A @IL.X1C;PolyTerra PLA @IL.X1C;PolyLite PLA @IL.X1C;Generic PLA @IDOLABS 0.2 nozzle"
 }

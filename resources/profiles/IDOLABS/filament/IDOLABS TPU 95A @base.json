@@ -1,12 +1,12 @@
 {
 	"type": "filament",
-	"name": "Arena TPU 95A @base",
+	"name": "IDOLABS TPU 95A @base",
 	"inherits": "fdm_filament_tpu",
 	"from": "system",
 	"filament_id": "OFQGvU2G",
 	"instantiation": "false",
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_density": [
 		"1.22"

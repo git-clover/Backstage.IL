@@ -1,12 +1,12 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Impact @base",
+	"name": "IDOLABS PLA Impact @base",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
 	"filament_id": "OFjXrKFO",
 	"instantiation": "false",
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_cost": [
 		"25.4"

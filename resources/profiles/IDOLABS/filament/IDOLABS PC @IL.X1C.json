@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PC @IL.X1C",
-	"inherits": "Arena PC @base",
+	"name": "IDOLABS PC @IL.X1C",
+	"inherits": "IDOLABS PC @base",
 	"from": "system",
 	"setting_id": "jKE8fewlDCfLj8hK",
 	"instantiation": "true",

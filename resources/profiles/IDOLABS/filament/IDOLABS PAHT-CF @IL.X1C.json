@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PAHT-CF @IL.X1C",
-	"inherits": "Arena PAHT-CF @base",
+	"name": "IDOLABS PAHT-CF @IL.X1C",
+	"inherits": "IDOLABS PAHT-CF @base",
 	"from": "system",
 	"setting_id": "J9pZk6FWEksKLUB5",
 	"instantiation": "true",

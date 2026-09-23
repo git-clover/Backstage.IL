@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PETG Basic @IL.X1C 0.8 nozzle",
-	"inherits": "Arena PETG Basic @base",
+	"name": "IDOLABS PETG Basic @IL.X1C 0.8 nozzle",
+	"inherits": "IDOLABS PETG Basic @base",
 	"from": "system",
 	"setting_id": "vBx9KPtRfLbcUlTQ",
 	"instantiation": "true",

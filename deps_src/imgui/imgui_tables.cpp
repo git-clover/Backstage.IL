@@ -580,9 +580,9 @@ void ImGui::TableBeginInitMemory(ImGuiTable* table, int columns_count)
     span_allocator.Reserve(0, columns_count * sizeof(ImGuiTableColumn));
     span_allocator.Reserve(1, columns_count * sizeof(ImGuiTableColumnIdx));
     span_allocator.Reserve(2, columns_count * sizeof(ImGuiTableCellData), 4);
-    table->RawData = IM_ALLOC(span_allocator.GetArenaSizeInBytes());
-    memset(table->RawData, 0, span_allocator.GetArenaSizeInBytes());
-    span_allocator.SetArenaBasePtr(table->RawData);
+    table->RawData = IM_ALLOC(span_allocator.GetIDOLABSSizeInBytes());
+    memset(table->RawData, 0, span_allocator.GetIDOLABSSizeInBytes());
+    span_allocator.SetIDOLABSBasePtr(table->RawData);
     span_allocator.GetSpan(0, &table->Columns);
     span_allocator.GetSpan(1, &table->DisplayOrderToIndex);
     span_allocator.GetSpan(2, &table->RowCellData);

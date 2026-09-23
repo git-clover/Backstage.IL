@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Silk @IL.X1C",
-	"inherits": "Arena PLA Silk @base",
+	"name": "IDOLABS PLA Silk @IL.X1C",
+	"inherits": "IDOLABS PLA Silk @base",
 	"from": "system",
 	"setting_id": "MtrNeG05EHC47Wn1",
 	"instantiation": "true",

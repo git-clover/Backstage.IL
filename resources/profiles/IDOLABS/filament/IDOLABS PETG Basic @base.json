@@ -1,6 +1,6 @@
 {
 	"type": "filament",
-	"name": "Arena PETG Basic @base",
+	"name": "IDOLABS PETG Basic @base",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
 	"filament_id": "OFNBlAPT",
@@ -57,7 +57,7 @@
 		"70"
 	],
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_type": [
 		"PETG"

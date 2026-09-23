@@ -1,6 +1,6 @@
 {
 	"type": "filament",
-	"name": "Arena PET-CF @base",
+	"name": "IDOLABS PET-CF @base",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
 	"filament_id": "OFc87pL3",
@@ -57,7 +57,7 @@
 		"40"
 	],
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_type": [
 		"PET-CF"

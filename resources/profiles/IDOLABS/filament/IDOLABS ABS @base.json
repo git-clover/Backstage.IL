@@ -1,6 +1,6 @@
 {
 	"type": "filament",
-	"name": "Arena ABS @base",
+	"name": "IDOLABS ABS @base",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
 	"filament_id": "OFJ3HRsR",
@@ -12,6 +12,6 @@
 		"24.99"
 	],
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	]
 }

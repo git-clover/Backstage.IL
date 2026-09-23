@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena Support W @IL.X1C 0.2 nozzle",
-	"inherits": "Arena Support W @base",
+	"name": "IDOLABS Support W @IL.X1C 0.2 nozzle",
+	"inherits": "IDOLABS Support W @base",
 	"from": "system",
 	"setting_id": "5pMWRVIJS8vOcR4S",
 	"instantiation": "true",

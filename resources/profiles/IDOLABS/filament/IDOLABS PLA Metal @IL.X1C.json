@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Metal @IL.X1C",
-	"inherits": "Arena PLA Metal @base",
+	"name": "IDOLABS PLA Metal @IL.X1C",
+	"inherits": "IDOLABS PLA Metal @base",
 	"from": "system",
 	"setting_id": "OOesW9LPen32issX",
 	"instantiation": "true",

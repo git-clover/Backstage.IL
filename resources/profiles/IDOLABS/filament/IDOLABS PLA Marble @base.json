@@ -1,12 +1,12 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Marble @base",
+	"name": "IDOLABS PLA Marble @base",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
 	"filament_id": "OFuehn62",
 	"instantiation": "false",
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_cost": [
 		"29.99"

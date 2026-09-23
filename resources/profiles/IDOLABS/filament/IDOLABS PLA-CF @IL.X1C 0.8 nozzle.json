@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA-CF @IL.X1C 0.8 nozzle",
-	"inherits": "Arena PLA-CF @base",
+	"name": "IDOLABS PLA-CF @IL.X1C 0.8 nozzle",
+	"inherits": "IDOLABS PLA-CF @base",
 	"from": "system",
 	"setting_id": "kCQ3oHXlyrHr3Kax",
 	"instantiation": "true",

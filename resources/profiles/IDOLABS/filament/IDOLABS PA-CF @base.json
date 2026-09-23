@@ -1,6 +1,6 @@
 {
 	"type": "filament",
-	"name": "Arena PA-CF @base",
+	"name": "IDOLABS PA-CF @base",
 	"inherits": "fdm_filament_pa",
 	"from": "system",
 	"filament_id": "OFA026vt",
@@ -9,7 +9,7 @@
 		"40"
 	],
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_density": [
 		"1.09"

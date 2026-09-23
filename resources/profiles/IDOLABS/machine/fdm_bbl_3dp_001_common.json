@@ -16,7 +16,7 @@
 		"0x0"
 	],
 	"default_filament_profile": [
-		"Arena PLA Basic @IL.X1C"
+		"IDOLABS PLA Basic @IL.X1C"
 	],
 	"default_print_profile": "0.16mm Optimal @IL.X1C",
 	"extruder_colour": [

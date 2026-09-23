@@ -1,12 +1,12 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Basic @base",
+	"name": "IDOLABS PLA Basic @base",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
 	"filament_id": "OFSbGfsz",
 	"instantiation": "false",
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_cost": [
 		"24.99"

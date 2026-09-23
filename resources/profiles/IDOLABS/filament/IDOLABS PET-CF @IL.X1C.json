@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PET-CF @IL.X1C",
-	"inherits": "Arena PET-CF @base",
+	"name": "IDOLABS PET-CF @IL.X1C",
+	"inherits": "IDOLABS PET-CF @base",
 	"from": "system",
 	"setting_id": "vvn0qtZmexMRlvSa",
 	"instantiation": "true",

@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Tough @IL.X1C 0.2 nozzle",
-	"inherits": "Arena PLA Tough @base",
+	"name": "IDOLABS PLA Tough @IL.X1C 0.2 nozzle",
+	"inherits": "IDOLABS PLA Tough @base",
 	"from": "system",
 	"setting_id": "mQik38fn05zlMAWl",
 	"instantiation": "true",

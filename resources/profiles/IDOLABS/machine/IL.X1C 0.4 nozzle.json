@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "IL.X1C",
 	"default_filament_profile": [
-		"Arena PLA Basic @IL.X1C"
+		"IDOLABS PLA Basic @IL.X1C"
 	],
 	"default_print_profile": "0.20mm Standard @IL.X1C",
 	"nozzle_diameter": [

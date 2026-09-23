@@ -1,6 +1,6 @@
 {
 	"type": "filament",
-	"name": "Arena Support G @base",
+	"name": "IDOLABS Support G @base",
 	"inherits": "fdm_filament_pa",
 	"from": "system",
 	"filament_id": "OFIPjqHt",
@@ -9,7 +9,7 @@
 		"3"
 	],
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_density": [
 		"1.22"

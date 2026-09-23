@@ -1,12 +1,12 @@
 {
 	"type": "filament",
-	"name": "Arena PC @base",
+	"name": "IDOLABS PC @base",
 	"inherits": "fdm_filament_pc",
 	"from": "system",
 	"filament_id": "OFrr67nG",
 	"instantiation": "false",
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"filament_cost": [
 		"39.99"

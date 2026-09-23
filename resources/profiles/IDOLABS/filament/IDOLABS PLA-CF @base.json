@@ -1,12 +1,12 @@
 {
 	"type": "filament",
-	"name": "Arena PLA-CF @base",
+	"name": "IDOLABS PLA-CF @base",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
 	"filament_id": "OF2hfMcG",
 	"instantiation": "false",
 	"filament_vendor": [
-		"Orca Arena"
+		"IDOLABS"
 	],
 	"cool_plate_temp": [
 		"45"

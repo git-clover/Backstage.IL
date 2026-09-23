@@ -1,7 +1,7 @@
 {
 	"type": "filament",
-	"name": "Arena PLA Basic @IL.X1C 0.2 nozzle",
-	"inherits": "Arena PLA Basic @base",
+	"name": "IDOLABS PLA Basic @IL.X1C 0.2 nozzle",
+	"inherits": "IDOLABS PLA Basic @base",
 	"from": "system",
 	"setting_id": "BWfmscHWlV8kxaNX",
 	"instantiation": "true",

@@ -305,7 +305,7 @@ function CreatePrinterBlock(OneModel)
 	else if (vendor == "MagicMaker" && modelName.startsWith("MM"))
 		modelName = modelName.slice(("MM").length);
 	else if (vendor == "IDOLABS")
-		modelName = modelName.slice(("Orca Arena").length);
+		modelName = modelName.slice(("IDOLABS").length);
 	else if (vendor == "RolohaunDesign" && modelName.startsWith("Rolohaun"))
 		modelName = modelName.slice(("Rolohaun").length);
 
