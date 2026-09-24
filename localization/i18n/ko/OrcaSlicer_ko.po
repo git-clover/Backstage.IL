@@ -5977,7 +5977,7 @@ msgid "Select Plate"
 msgstr "플레이트 선택"
 
 msgid "Slicing"
-msgstr "슬라이싱"
+msgstr "슬라이스 중: "
 
 msgid "Slice all"
 msgstr "모두 슬라이스"
@@ -8184,7 +8184,7 @@ msgstr "%1%와 %2%\n"
 
 #, boost-format
 msgid " plate %1%:"
-msgstr " 플레이트 %1%:"
+msgstr "스테이지 %1% >> "
 
 msgid "Invalid name, the following characters are not allowed:"
 msgstr "잘못된 이름입니다. 다음 문자는 사용할 수 없습니다:"
@@ -8311,7 +8311,7 @@ msgid "Mixed filament has invalid or mismatched components. Please re-edit affec
 msgstr "혼합 필라멘트의 구성 요소가 잘못되었거나 일치하지 않습니다. 해당 항목을 다시 편집하세요."
 
 msgid "Search plate, object and part."
-msgstr "플레이트, 객체 및 부품을 검색합니다."
+msgstr "스테이지 또는 멤버 찾기"
 
 msgid "Pellets"
 msgstr "펠릿"
