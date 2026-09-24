@@ -9065,7 +9065,7 @@ msgstr "부품 이름: %1%\n"
 
 #, boost-format
 msgid "Object name: %1%\n"
-msgstr "객체 이름: %1%\n"
+msgstr "멤버  %1%\n"
 
 #, boost-format
 msgid "Size: %1% x %2% x %3% in\n"
