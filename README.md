@@ -21,5 +21,7 @@ It'll include:
 
 ## I'm in the Bambu Drama!
 - This fork omits Bambu Lab's cloud module because I'm too lazy.
+- I wanted them initially, but now I just don't want my machine to be always spied on someone else's computer.
+- I AM NOT SORRY FOR THIS. I'm a solo dev, and I keep it identical to upstream. Don't stress me out.
 - But it's still got the network plugin, which you can use to slice files in LAN mode.
 - The plugin is completely optional, and STRICTLY for Bambu machines.
