@@ -1,0 +1,10 @@
+{
+	"type": "process",
+	"from": "system",
+	"inherits": "0.40 mmStandard @Elegoo Giga 0.8 nozzle",
+	"layer_height": "0.48",
+	"setting_id": "lqJRn5QLgMp5i2dr",
+	"instantiation": "true",
+	"renamed_from": "0.48 mmDraft @EOS Giga 0.8 nozzle",
+	"name": "0.48 mmDraft @Elegoo Giga 0.8 nozzle"
+}

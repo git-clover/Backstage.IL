@@ -1,0 +1,9 @@
+{
+	"type": "process",
+	"name": "0.36 mmDraft @Elegoo N3Pro 0.6 nozzle",
+	"from": "system",
+	"inherits": "0.30 mmStandard @Elegoo N3Pro 0.6 nozzle",
+	"layer_height": "0.36",
+	"setting_id": "y577AyAVfQm2t7MC",
+	"instantiation": "true"
+}

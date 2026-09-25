@@ -1,0 +1,11 @@
+{
+	"type": "process",
+	"name": "0.28 mmExtra Draft @IL.X1C",
+	"inherits": "fdm_process_arena_0.28",
+	"from": "system",
+	"setting_id": "Q03WAuYXUC4h4Vyk",
+	"instantiation": "true",
+	"compatible_printers": [
+		"IL.X1C 0.4 nozzle"
+	]
+}
