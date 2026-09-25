@@ -1,7 +1,7 @@
 {
   "type": "process",
-  "name": "0.10 mmFine @UltiMaker 2 extended+",
-  "inherits": "0.10 mmFine @UltiMaker 2+",
+  "name": "0.10 mm Fine @UltiMaker 2 extended+",
+  "inherits": "0.10 mm Fine @UltiMaker 2+",
   "from": "system",
   "setting_id": "unx8qKjXQzjX8IL1",
   "instantiation": "true",

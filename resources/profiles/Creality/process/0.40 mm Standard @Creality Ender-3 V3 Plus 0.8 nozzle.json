@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.40 mmStandard @Creality Ender-3 V3 Plus 0.8 nozzle",
+	"name": "0.40 mm Standard @Creality Ender-3 V3 Plus 0.8 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "2FbOTrX2tEcmbpzg",

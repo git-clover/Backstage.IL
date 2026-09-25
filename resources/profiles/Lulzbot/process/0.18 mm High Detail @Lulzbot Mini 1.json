@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.18 mmHigh Detail @Lulzbot Mini 1",
-	"inherits": "0.25 mmStandard @Lulzbot Mini 1",
+	"name": "0.18 mm High Detail @Lulzbot Mini 1",
+	"inherits": "0.25 mm Standard @Lulzbot Mini 1",
 	"from": "system",
 	"setting_id": "2FKMCpTJ1Ptv1wLD",
 	"instantiation": "true",

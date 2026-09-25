@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.24 mmFine @FF Adventurer A5 0.8 nozzle",
-	"inherits": "0.24 mmFine @Flashforge AD5M Pro 0.8 Nozzle",
+	"name": "0.24 mm Fine @FF Adventurer A5 0.8 nozzle",
+	"inherits": "0.24 mm Fine @Flashforge AD5M Pro 0.8 Nozzle",
 	"from": "system",
 	"setting_id": "INfUgOlQBMZLYrfu",
 	"instantiation": "true",
@@ -13,7 +13,7 @@
 	"infill_wall_overlap": "15%",
 	"initial_layer_print_height": "0.3",
 	"only_one_wall_top": "1",
-	"print_settings_id": "0.24 mmFine @FF Adventurer A5 0.8 nozzle",
+	"print_settings_id": "0.24 mm Fine @FF Adventurer A5 0.8 nozzle",
 	"slowdown_for_curled_perimeters": "0",
 	"sparse_infill_pattern": "grid"
 }

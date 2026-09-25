@@ -6,7 +6,7 @@
 	"setting_id": "l7eK78cq6VEaMYfb",
 	"instantiation": "true",
 	"printer_model": "Anycubic Chiron",
-	"default_print_profile": "0.20 mmStandard @Anycubic Chiron",
+	"default_print_profile": "0.20 mm Standard @Anycubic Chiron",
 	"nozzle_diameter": [
 		"0.4"
 	],

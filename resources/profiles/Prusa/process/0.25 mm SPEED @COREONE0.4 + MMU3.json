@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"name": "0.25 mmSPEED @COREONE0.4 + MMU3",
-	"inherits": "0.20 mmStandard @MK4",
+	"inherits": "0.20 mm Standard @MK4",
 	"from": "system",
 	"setting_id": "oVLlJtwPINArAb0Y",
 	"instantiation": "true",

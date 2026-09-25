@@ -6,7 +6,7 @@
 	"setting_id": "A5NqCueiXvqICdAN",
 	"instantiation": "true",
 	"printer_model": "Anycubic Kobra 2",
-	"default_print_profile": "0.20 mmStandard @Anycubic Kobra2",
+	"default_print_profile": "0.20 mm Standard @Anycubic Kobra2",
 	"nozzle_diameter": [
 		"0.4"
 	],

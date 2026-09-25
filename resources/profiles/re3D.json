@@ -45,31 +45,31 @@
 		},
 		{
 			"name": "0.2 Fine",
-			"sub_path": "process/0.2 mmFine @re3D fdm 0.4.json"
+			"sub_path": "process/0.2 mm Fine @re3D fdm 0.4.json"
 		},
 		{
 			"name": "0.26 Standard",
-			"sub_path": "process/0.26 mmStandard @re3D fdm 0.4.json"
+			"sub_path": "process/0.26 mm Standard @re3D fdm 0.4.json"
 		},
 		{
 			"name": "0.3 Fine",
-			"sub_path": "process/0.3 mmFine @re3D fdm 0.8.json"
+			"sub_path": "process/0.3 mm Fine @re3D fdm 0.8.json"
 		},
 		{
 			"name": "0.32 Draft",
-			"sub_path": "process/0.32 mmDraft @re3D fdm 0.4.json"
+			"sub_path": "process/0.32 mm Draft @re3D fdm 0.4.json"
 		},
 		{
 			"name": "0.4 Standard",
-			"sub_path": "process/0.4 mmDraft @re3D fdm 0.8.json"
+			"sub_path": "process/0.4 mm Draft @re3D fdm 0.8.json"
 		},
 		{
 			"name": "0.6 Standard",
-			"sub_path": "process/0.6 mmStandard @re3D fgf 0.8.json"
+			"sub_path": "process/0.6 mm Standard @re3D fgf 0.8.json"
 		},
 		{
 			"name": "1.0 Standard",
-			"sub_path": "process/1.0 mmStandard @re3D fgf 1.75.json"
+			"sub_path": "process/1.0 mm Standard @re3D fgf 1.75.json"
 		}
 	],
 	"filament_list": [

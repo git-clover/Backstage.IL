@@ -25,7 +25,7 @@
     "default_filament_profile": [
         "Bambu PLA Basic @BBL A2L 0.4 nozzle"
     ],
-    "default_print_profile": "0.20 mmStandard @BBL A2L",
+    "default_print_profile": "0.20 mm Standard @BBL A2L",
     "default_wipe_tower_pos": "0.0x1.0",
     "deretract_speed_extruder_change": [
         "30"

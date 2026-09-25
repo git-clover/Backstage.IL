@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.08 mmStandard @FF C5 0.25 nozzle",
-	"inherits": "0.10 mmStandard @FF AD5X 0.25 nozzle",
+	"name": "0.08 mm Standard @FF C5 0.25 nozzle",
+	"inherits": "0.10 mm Standard @FF AD5X 0.25 nozzle",
 	"from": "system",
 	"setting_id": "KrOSCGKyvNy9v08u",
 	"instantiation": "true",
@@ -21,7 +21,7 @@
 	"print_extruder_variant": [
 		"Direct Drive Standard"
 	],
-	"print_settings_id": "0.08 mmStandard @FF C5 0.25 nozzle",
+	"print_settings_id": "0.08 mm Standard @FF C5 0.25 nozzle",
 	"small_perimeter_speed": "30",
 	"standby_temperature_delta": "-100",
 	"top_solid_infill_flow_ratio": "1"

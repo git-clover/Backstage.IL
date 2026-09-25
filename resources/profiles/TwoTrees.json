@@ -19,60 +19,60 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.08 mmExtra Fine @SK1",
-			"sub_path": "process/0.08 mmExtra Fine @SK1.json"
+			"name": "0.08 mm Extra Fine @SK1",
+			"sub_path": "process/0.08 mm Extra Fine @SK1.json"
 		},
 		{
-			"name": "0.08 mmExtra Fine @TwoTrees",
-			"sub_path": "process/0.08 mmExtra Fine @TwoTrees.json"
+			"name": "0.08 mm Extra Fine @TwoTrees",
+			"sub_path": "process/0.08 mm Extra Fine @TwoTrees.json"
 		},
 		{
-			"name": "0.12 mmFine @SK1",
-			"sub_path": "process/0.12 mmFine @SK1.json"
+			"name": "0.12 mm Fine @SK1",
+			"sub_path": "process/0.12 mm Fine @SK1.json"
 		},
 		{
-			"name": "0.12 mmFine @TwoTrees",
-			"sub_path": "process/0.12 mmFine @TwoTrees.json"
+			"name": "0.12 mm Fine @TwoTrees",
+			"sub_path": "process/0.12 mm Fine @TwoTrees.json"
 		},
 		{
-			"name": "0.15 mmOptimal @TwoTrees",
-			"sub_path": "process/0.15 mmOptimal @TwoTrees.json"
+			"name": "0.15 mm Optimal @TwoTrees",
+			"sub_path": "process/0.15 mm Optimal @TwoTrees.json"
 		},
 		{
-			"name": "0.16 mmOptimal @SK1",
-			"sub_path": "process/0.16 mmOptimal @SK1.json"
+			"name": "0.16 mm Optimal @SK1",
+			"sub_path": "process/0.16 mm Optimal @SK1.json"
 		},
 		{
-			"name": "0.20 mmQuality @SK1",
-			"sub_path": "process/0.20 mmQuality @SK1.json"
+			"name": "0.20 mm Quality @SK1",
+			"sub_path": "process/0.20 mm Quality @SK1.json"
 		},
 		{
-			"name": "0.20 mmStandard @SK1",
-			"sub_path": "process/0.20 mmStandard @SK1.json"
+			"name": "0.20 mm Standard @SK1",
+			"sub_path": "process/0.20 mm Standard @SK1.json"
 		},
 		{
-			"name": "0.20 mmStandard @TwoTrees",
-			"sub_path": "process/0.20 mmStandard @TwoTrees.json"
+			"name": "0.20 mm Standard @TwoTrees",
+			"sub_path": "process/0.20 mm Standard @TwoTrees.json"
 		},
 		{
-			"name": "0.24 mmDraft @SK1",
-			"sub_path": "process/0.24 mmDraft @SK1.json"
+			"name": "0.24 mm Draft @SK1",
+			"sub_path": "process/0.24 mm Draft @SK1.json"
 		},
 		{
-			"name": "0.24 mmDraft @TwoTrees",
-			"sub_path": "process/0.24 mmDraft @TwoTrees.json"
+			"name": "0.24 mm Draft @TwoTrees",
+			"sub_path": "process/0.24 mm Draft @TwoTrees.json"
 		},
 		{
 			"name": "0.24 mmHSpeed @SK1",
 			"sub_path": "process/0.24 mmHSpeed @SK1.json"
 		},
 		{
-			"name": "0.28 mmExtra Draft @SK1",
-			"sub_path": "process/0.28 mmExtra Draft @SK1.json"
+			"name": "0.28 mm Extra Draft @SK1",
+			"sub_path": "process/0.28 mm Extra Draft @SK1.json"
 		},
 		{
-			"name": "0.28 mmExtra Draft @TwoTrees",
-			"sub_path": "process/0.28 mmExtra Draft @TwoTrees.json"
+			"name": "0.28 mm Extra Draft @TwoTrees",
+			"sub_path": "process/0.28 mm Extra Draft @TwoTrees.json"
 		},
 		{
 			"name": "fdm_process_TwoTrees_common",

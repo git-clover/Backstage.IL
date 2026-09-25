@@ -10,7 +10,7 @@
     ],
     "printer_model": "Bambu Lab X1",
     "printer_variant": "0.6",
-    "default_print_profile": "0.30 mmStandard @BBL X1 0.6 nozzle",
+    "default_print_profile": "0.30 mm Standard @BBL X1 0.6 nozzle",
     "include": [
         "Bambu Lab X1 0.6 nozzle template machine_start_gcode"
     ],

@@ -2,7 +2,7 @@
 	"type": "process",
 	"setting_id": "hiBgnEuKo4yjK3wp",
 	"name": "0.4 Standard",
-	"renamed_from": "0.4 mmDraft @re3D fdm 0.8",
+	"renamed_from": "0.4 mm Draft @re3D fdm 0.8",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_re3D_common",

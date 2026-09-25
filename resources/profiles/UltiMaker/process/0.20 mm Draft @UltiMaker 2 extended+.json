@@ -1,7 +1,7 @@
 {
   "type": "process",
-  "name": "0.20 mmDraft @UltiMaker 2 extended+",
-  "inherits": "0.20 mmDraft @UltiMaker 2+",
+  "name": "0.20 mm Draft @UltiMaker 2 extended+",
+  "inherits": "0.20 mm Draft @UltiMaker 2+",
   "from": "system",
   "setting_id": "WOioHgeBkOd6k8xv",
   "instantiation": "true",

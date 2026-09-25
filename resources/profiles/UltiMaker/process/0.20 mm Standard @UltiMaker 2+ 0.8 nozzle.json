@@ -1,7 +1,7 @@
 {
   "type": "process",
-  "name": "0.20 mmStandard @UltiMaker 2+ 0.8 nozzle",
-  "inherits": "0.20 mmStandard @UltiMaker 2 0.8 nozzle",
+  "name": "0.20 mm Standard @UltiMaker 2+ 0.8 nozzle",
+  "inherits": "0.20 mm Standard @UltiMaker 2 0.8 nozzle",
   "from": "system",
   "setting_id": "DPdijbiqpZNuZr58",
   "instantiation": "true",

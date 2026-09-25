@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "lzsTJzIBChXesgUG",
-	"name": "0.20 mmStandard @Artillery Genius",
+	"name": "0.20 mm Standard @Artillery Genius",
 	"from": "system",
 	"instantiation": "true",
 	"inherits": "fdm_process_common",

@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.38 mmStandard 0.8 nozzle @Meltingplot MBL",
+	"name": "0.38 mm Standard 0.8 nozzle @Meltingplot MBL",
 	"inherits": "fdm_process_meltingplot_mbl_08_nozzle",
 	"from": "system",
 	"setting_id": "IMZxMsLnd5IfiDFQ",

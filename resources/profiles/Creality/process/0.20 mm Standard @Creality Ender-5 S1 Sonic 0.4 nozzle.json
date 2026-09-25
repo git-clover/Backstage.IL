@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.20 mmStandard @Creality Ender-5 S1 Sonic 0.4 nozzle",
+	"name": "0.20 mm Standard @Creality Ender-5 S1 Sonic 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "0d7La3peCCBKSGE3",

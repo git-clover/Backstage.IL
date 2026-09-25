@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.1 mmStandard @Creality CR-M4 SE 0.4 nozzle",
+	"name": "0.1 mm Standard @Creality CR-M4 SE 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
 	"setting_id": "z5rc7aZHBPNSx4II",

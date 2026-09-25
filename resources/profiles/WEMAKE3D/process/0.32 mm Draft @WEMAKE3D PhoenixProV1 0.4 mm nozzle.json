@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.32 mmDraft @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+	"name": "0.32 mm Draft @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
 	"setting_id": "aQzgJDz6SgKP22qD",
 	"instantiation": "true",
@@ -15,7 +15,7 @@
 	"top_surface_line_width": "0.42",
 	"support_line_width": "0.5",
 	"thick_bridges": "0",
-	"print_settings_id": "0.32 mmDraft @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+	"print_settings_id": "0.32 mm Draft @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
 	"wall_sequence": "inner-outer-inner wall",
 	"compatible_printers": [
 		"WEMAKE3D PhoenixProV1 0.4 mmnozzle"

@@ -8,7 +8,7 @@
 	"instantiation": "true",
 	"printer_model": "M3D Enabler D8500",
 	"printer_variant": "0.4",
-	"default_print_profile": "0.20 mmStandard @M3D Enabler D8500",
+	"default_print_profile": "0.20 mm Standard @M3D Enabler D8500",
 	"default_filament_profile": [
 		"Enabler PLA @M3D"
 	],

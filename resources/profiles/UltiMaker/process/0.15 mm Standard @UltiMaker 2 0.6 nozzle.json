@@ -1,6 +1,6 @@
 {
   "type": "process",
-  "name": "0.15 mmStandard @UltiMaker 2 0.6 nozzle",
+  "name": "0.15 mm Standard @UltiMaker 2 0.6 nozzle",
   "inherits": "fdm_process_common",
   "from": "system",
   "setting_id": "MDKnppk0uwm6HnKz",

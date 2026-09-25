@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.15 mmStandard @M3D Enabler D8500",
+	"name": "0.15 mm Standard @M3D Enabler D8500",
 	"inherits": "fdm_process_common",
 	"renamed_from": "0.15 mmMM @D8500",
 	"from": "system",

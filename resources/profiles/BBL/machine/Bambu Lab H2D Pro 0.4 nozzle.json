@@ -15,7 +15,7 @@
 	"default_filament_profile": [
 		"Bambu PLA Basic @BBL H2DP"
 	],
-	"default_print_profile": "0.20 mmStandard @BBL H2DP",
+	"default_print_profile": "0.20 mm Standard @BBL H2DP",
 	"deretraction_speed": [
 		"30",
 		"30",

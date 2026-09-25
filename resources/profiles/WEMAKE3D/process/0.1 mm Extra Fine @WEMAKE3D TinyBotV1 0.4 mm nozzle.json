@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.1 mmExtra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+	"name": "0.1 mm Extra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"from": "system",
 	"setting_id": "EYwYFmo7JV2eyNwY",
@@ -22,7 +22,7 @@
 	"outer_wall_acceleration": "2000",
 	"outer_wall_line_width": "0.42",
 	"outer_wall_speed": "150",
-	"print_settings_id": "0.1 mmExtra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+	"print_settings_id": "0.1 mm Extra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle",
 	"slow_down_layers": "2",
 	"sparse_infill_pattern": "rectilinear",
 	"sparse_infill_speed": "200",

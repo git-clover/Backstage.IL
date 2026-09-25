@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.36 mmOptimal 0.8 nozzle @Meltingplot MBL",
+	"name": "0.36 mm Optimal 0.8 nozzle @Meltingplot MBL",
 	"inherits": "fdm_process_meltingplot_mbl_08_nozzle",
 	"from": "system",
 	"setting_id": "WpPpQuf0jWaXQaPU",

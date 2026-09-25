@@ -8,7 +8,7 @@
 	"default_filament_profile": [
 		"Generic PLA @Ginger"
 	],
-	"default_print_profile": "1.50 mmStandard @Ginger G1",
+	"default_print_profile": "1.50 mm Standard @Ginger G1",
 	"deretraction_speed": [
 		"200"
 	],

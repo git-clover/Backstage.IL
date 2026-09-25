@@ -10,7 +10,7 @@
 // generates two separate closed contours that share a coinciding edge at y=19.75.
 // At 60% (0.24mm), Arachne handles this differently and avoids the duplicate.
 //
-// Parameters are based on "0.28 mmExtra Draft @BBL X1C" profile with:
+// Parameters are based on "0.28 mm Extra Draft @BBL X1C" profile with:
 // - 0.4 mmnozzle, 0.28 mmlayer height
 // - outer_wall_line_width: 0.42mm, inner_wall_line_width: 0.45mm
 // - wall_loops: 2, precise_outer_wall: enabled
@@ -123,7 +123,7 @@ std::vector<std::pair<Segment, Segment>> find_duplicate_segments(
     return duplicates;
 }
 
-// Create params matching "0.28 mmExtra Draft @BBL X1C" profile
+// Create params matching "0.28 mm Extra Draft @BBL X1C" profile
 WallToolPathsParams make_bbl_x1c_028_params(int min_bead_width_percent) {
     constexpr double nozzle_diameter = 0.4;
     
@@ -223,7 +223,7 @@ TEST_CASE("Arachne wall generation - 60% min_bead_width", "[Arachne]") {
 // getTransitionThickness(1)), the request was collapsed into one over-wide bead — an
 // over-extruded line that shows up as a bulge on curved surfaces at a deterministic height.
 //
-// Profile mirrors the reporter's project ("0.20 mmStandard @BBL X1C", 0.4 mmnozzle):
+// Profile mirrors the reporter's project ("0.20 mm Standard @BBL X1C", 0.4 mmnozzle):
 //   outer 0.42 mm/ inner 0.45mm, min_bead_width 85% (0.34mm), 2 walls (max_bead_count 4).
 // For these numbers wall_split_middle_threshold = 2*0.34/0.42 - 1 = 0.619, so
 // getTransitionThickness(1) = (1 + 0.619) * 0.42 = 0.68mm. A 0.5mm-thick wall therefore sits

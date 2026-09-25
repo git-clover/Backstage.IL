@@ -1,7 +1,7 @@
 {
 	"type": "process",
-	"name": "0.24 mmDraft @FF Adventurer A5 0.4 nozzle",
-	"inherits": "0.24 mmDraft @Flashforge AD5M Pro 0.4 Nozzle",
+	"name": "0.24 mm Draft @FF Adventurer A5 0.4 nozzle",
+	"inherits": "0.24 mm Draft @Flashforge AD5M Pro 0.4 Nozzle",
 	"from": "system",
 	"setting_id": "nniAHPVQxmVlEZqp",
 	"instantiation": "true",
@@ -13,7 +13,7 @@
 	"infill_wall_overlap": "15%",
 	"initial_layer_print_height": "0.25",
 	"only_one_wall_top": "1",
-	"print_settings_id": "0.24 mmDraft @FF Adventurer A5 0.4 nozzle",
+	"print_settings_id": "0.24 mm Draft @FF Adventurer A5 0.4 nozzle",
 	"seam_slope_conditional": "1",
 	"seam_slope_inner_walls": "1",
 	"slowdown_for_curled_perimeters": "0",

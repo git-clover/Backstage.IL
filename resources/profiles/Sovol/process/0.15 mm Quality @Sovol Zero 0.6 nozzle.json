@@ -1,7 +1,7 @@
 {
 	"type": "process",
 	"setting_id": "IfDpa3vM99D4ytny",
-	"name": "0.15 mmQuality @Sovol Zero 0.6 nozzle",
+	"name": "0.15 mm Quality @Sovol Zero 0.6 nozzle",
 	"from": "system",
 	"inherits": "fdm_process_zero",
 	"instantiation": "true",

@@ -6,7 +6,7 @@
   "setting_id": "p3SYqB6dpxEMo1pb",
   "instantiation": "true",
   "printer_model": "UltiMaker 2",
-  "default_print_profile": "0.15 mmStandard @UltiMaker 2 0.6 nozzle",
+  "default_print_profile": "0.15 mm Standard @UltiMaker 2 0.6 nozzle",
   "nozzle_diameter": [
     "0.6"
   ],

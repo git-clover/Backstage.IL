@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.25 mmSlow @E3NG v1.2S",
+	"name": "0.25 mm Slow @E3NG v1.2S",
 	"inherits": "process_Slow_E3NG v1.2S",
 	"from": "system",
 	"setting_id": "7sr967Tgq1J3qxTG",

@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "Creality Hi",
 	"printer_structure": "i3",
-	"default_print_profile": "0.1 mmStandard @Creality Hi 0.2 nozzle",
+	"default_print_profile": "0.1 mm Standard @Creality Hi 0.2 nozzle",
 	"adaptive_bed_mesh_margin": "0",
 	"auxiliary_fan": "0",
 	"bbl_use_printhost": "0",

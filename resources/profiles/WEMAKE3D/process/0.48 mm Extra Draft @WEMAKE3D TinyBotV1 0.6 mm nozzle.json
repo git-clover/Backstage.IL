@@ -1,6 +1,6 @@
 {
 	"type": "process",
-	"name": "0.48 mmExtra Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+	"name": "0.48 mm Extra Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"from": "system",
 	"setting_id": "QKSZ5T6peyXMfqZE",
@@ -16,7 +16,7 @@
 	"top_surface_line_width": "0.62",
 	"support_line_width": "0.7",
 	"thick_bridges": "0",
-	"print_settings_id": "0.48 mmExtra Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+	"print_settings_id": "0.48 mm Extra Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
 	"compatible_printers": [
 		"WEMAKE3D TinyBotV1 0.6 mmnozzle"
 	]

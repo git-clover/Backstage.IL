@@ -24,20 +24,20 @@
 			"sub_path": "process/fdm_process_lh_common.json"
 		},
 		{
-			"name": "0.10 mmHueForge @LH Stinger",
-			"sub_path": "process/0.10 mmHueForge @LH Stinger.json"
+			"name": "0.10 mm HueForge @LH Stinger",
+			"sub_path": "process/0.10 mm HueForge @LH Stinger.json"
 		},
 		{
-			"name": "0.14 mmDetail @LH Stinger",
-			"sub_path": "process/0.14 mmDetail @LH Stinger.json"
+			"name": "0.14 mm Detail @LH Stinger",
+			"sub_path": "process/0.14 mm Detail @LH Stinger.json"
 		},
 		{
-			"name": "0.14 mmDetail Strength @LH Stinger",
-			"sub_path": "process/0.14 mmDetail Strength @LH Stinger.json"
+			"name": "0.14 mm Detail Strength @LH Stinger",
+			"sub_path": "process/0.14 mm Detail Strength @LH Stinger.json"
 		},
 		{
-			"name": "0.20 mmDaily @LH Stinger",
-			"sub_path": "process/0.20 mmDaily @LH Stinger.json"
+			"name": "0.20 mm Daily @LH Stinger",
+			"sub_path": "process/0.20 mm Daily @LH Stinger.json"
 		},
 		{
 			"name": "0.20 mmMMU @LH Stinger",
@@ -48,28 +48,28 @@
 			"sub_path": "process/0.20 mmPETG @LH Stinger.json"
 		},
 		{
-			"name": "0.20 mmQuiet @LH Stinger",
-			"sub_path": "process/0.20 mmQuiet @LH Stinger.json"
+			"name": "0.20 mm Quiet @LH Stinger",
+			"sub_path": "process/0.20 mm Quiet @LH Stinger.json"
 		},
 		{
-			"name": "0.20 mmSolid @LH Stinger",
-			"sub_path": "process/0.20 mmSolid @LH Stinger.json"
+			"name": "0.20 mm Solid @LH Stinger",
+			"sub_path": "process/0.20 mm Solid @LH Stinger.json"
 		},
 		{
-			"name": "0.20 mmSpeed @LH Stinger",
-			"sub_path": "process/0.20 mmSpeed @LH Stinger.json"
+			"name": "0.20 mm Speed @LH Stinger",
+			"sub_path": "process/0.20 mm Speed @LH Stinger.json"
 		},
 		{
-			"name": "0.20 mmStrength @LH Stinger",
-			"sub_path": "process/0.20 mmStrength @LH Stinger.json"
+			"name": "0.20 mm Strength @LH Stinger",
+			"sub_path": "process/0.20 mm Strength @LH Stinger.json"
 		},
 		{
 			"name": "0.20 mmTPU @LH Stinger",
 			"sub_path": "process/0.20 mmTPU @LH Stinger.json"
 		},
 		{
-			"name": "0.25 mmVase Mode @LH Stinger",
-			"sub_path": "process/0.25 mmVase Mode @LH Stinger.json"
+			"name": "0.25 mm Vase Mode @LH Stinger",
+			"sub_path": "process/0.25 mm Vase Mode @LH Stinger.json"
 		}
 	],
 	"filament_list": [
