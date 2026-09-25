@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "u12WUH0jDnm5Rn3x",
 	"instantiation": "true",
-	"description": "Compared with the default profile of 0.2 mmnozzle, it has a smaller layer height, and results in minimal layer lines and higher printing quality, but shorter printing time.",
+	"description": "Compared with the default profile of 0.2 mm nozzle, it has a smaller layer height, and results in minimal layer lines and higher printing quality, but shorter printing time.",
 	"elefant_foot_compensation": "0.15",
 	"compatible_printers": [
 		"WonderMaker ZR 0.2 nozzle"

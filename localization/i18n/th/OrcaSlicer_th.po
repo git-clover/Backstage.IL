@@ -15673,7 +15673,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "ความสูงสูงสุดของชั้นสำหรับไส้ในแบบกระจายแบบรวม\n"
 "\n"
@@ -21041,7 +21041,7 @@ msgstr "นี่คือเส้นพลาสติกรองรับท
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "ค่าที่ตั้งไว้ล่วงหน้าทั่วไปได้รับการปรับแต่งอย่างระมัดระวังเพื่อให้เข้ากันได้กับเส้นพลาสติกที่หลากหลายมากขึ้น เพื่อคุณภาพการพิมพ์และความเร็วที่สูงขึ้น โปรดใช้เส้นพลาสติก Bambu กับการตั้งค่าล่วงหน้าของ Bambu"
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "โปรไฟล์คุณภาพสูงสำหรับหัวฉีดขนาด 0.2 มม. โดยให้ความสำคัญกับคุณภาพการพิมพ์"
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -21053,25 +21053,25 @@ msgstr "โปรไฟล์มาตรฐานสำหรับความ
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "โปรไฟล์คุณภาพสูงสำหรับความสูงของชั้น 0.2 มม. โดยให้ความสำคัญกับความแข็งแกร่งและคุณภาพการพิมพ์"
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "โปรไฟล์มาตรฐานสำหรับหัวฉีดขนาด 0.4 มม. โดยให้ความสำคัญกับความเร็ว"
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "โปรไฟล์คุณภาพสูงสำหรับหัวฉีดขนาด 0.6 มม. ให้ความสำคัญกับคุณภาพและความแข็งแรงในการพิมพ์"
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "โปรไฟล์ความแข็งแกร่งสำหรับหัวฉีดขนาด 0.6 มม. โดยให้ความสำคัญกับความแข็งแรง"
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "โปรไฟล์มาตรฐานสำหรับหัวฉีดขนาด 0.6 มม. โดยให้ความสำคัญกับความเร็ว"
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "โปรไฟล์คุณภาพสูงสำหรับหัวฉีดขนาด 0.8 มม. โดยให้ความสำคัญกับคุณภาพการพิมพ์"
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "โปรไฟล์ความแข็งแกร่งสำหรับหัวฉีด 0.8 มม. โดยจัดลำดับความสำคัญของความแข็งแกร่ง"
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "โปรไฟล์มาตรฐานสำหรับหัวฉีด 0.8 มม. โดยให้ความสำคัญกับความเร็ว"
 
 msgid "No AMS"

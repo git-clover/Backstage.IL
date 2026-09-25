@@ -1595,16 +1595,16 @@
 			"sub_path": "process/0.20 mm Standard @Creality Ender3V3Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20 mm Standard @Creality Ender-5 Max 0.4 mmnozzle",
-			"sub_path": "process/0.20 mm Standard @Creality Ender-5 Max 0.4 mmnozzle.json"
+			"name": "0.20 mm Standard @Creality Ender-5 Max 0.4 mm nozzle",
+			"sub_path": "process/0.20 mm Standard @Creality Ender-5 Max 0.4 mm nozzle.json"
 		},
 		{
 			"name": "0.20 mm Standard @Creality Ender3V3KE",
 			"sub_path": "process/0.20 mm Standard @Creality Ender3V3KE.json"
 		},
 		{
-			"name": "0.20 mm Ultrafast @Creality Ender-5 Max 0.4 mmnozzle",
-			"sub_path": "process/0.20 mm Ultrafast @Creality Ender-5 Max 0.4 mmnozzle.json"
+			"name": "0.20 mm Ultrafast @Creality Ender-5 Max 0.4 mm nozzle",
+			"sub_path": "process/0.20 mm Ultrafast @Creality Ender-5 Max 0.4 mm nozzle.json"
 		},
 		{
 			"name": "0.24 mm Detail @Creality K2 0.8 nozzle",

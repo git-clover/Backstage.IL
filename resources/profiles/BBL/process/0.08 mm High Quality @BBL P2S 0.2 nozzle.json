@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP204",
 	"instantiation": "true",
-	"description": "High quality profile for 0.2 mmnozzle, prioritizing print quality.",
+	"description": "High quality profile for 0.2 mm nozzle, prioritizing print quality.",
 	"bridge_speed": [
 		"50",
 		"50"

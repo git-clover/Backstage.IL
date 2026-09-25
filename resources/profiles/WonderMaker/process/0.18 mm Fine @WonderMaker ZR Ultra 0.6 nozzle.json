@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "0y9QaQRP3vLt7QYx",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.6 mmnozzle, it has a smaller layer height, and results in less apparent layer lines and higher printing quality, but longer printing time.",
+	"description": "Compared with the default profile of a 0.6 mm nozzle, it has a smaller layer height, and results in less apparent layer lines and higher printing quality, but longer printing time.",
 	"elefant_foot_compensation": "0.15",
 	"ooze_prevention": "1",
 	"preheat_time": "30",

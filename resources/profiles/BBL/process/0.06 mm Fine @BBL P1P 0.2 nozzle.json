@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP063",
 	"instantiation": "true",
-	"description": "Compared with the default profile of 0.2 mmnozzle, it has a smaller layer height, and results in minimal layer lines and higher printing quality, but shorter printing time.",
+	"description": "Compared with the default profile of 0.2 mm nozzle, it has a smaller layer height, and results in minimal layer lines and higher printing quality, but shorter printing time.",
 	"bridge_speed": [
 		"50",
 		"50"

@@ -1,6 +1,6 @@
 {
 	"type": "machine",
-	"name": "WEMAKE3D TinyBotV1 0.6 mmnozzle",
+	"name": "WEMAKE3D TinyBotV1 0.6 mm nozzle",
 	"inherits": "fdm_machine_tinybotv1_common",
 	"from": "system",
 	"setting_id": "dxguOcKUGzTHj76q",

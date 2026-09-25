@@ -6,7 +6,7 @@
 	"from": "system",
 	"setting_id": "NDWJp1Shr9glm0Pz",
 	"instantiation": "true",
-	"description": "Compared with the default profile of a 0.6 mmnozzle, it has a smaller layer height, and results in less apparent layer lines and slight higher printing quality, but longer printing time.",
+	"description": "Compared with the default profile of a 0.6 mm nozzle, it has a smaller layer height, and results in less apparent layer lines and slight higher printing quality, but longer printing time.",
 	"elefant_foot_compensation": "0.15",
 	"compatible_printers": [
 		"Z-Bolt S300 0.6 nozzle",

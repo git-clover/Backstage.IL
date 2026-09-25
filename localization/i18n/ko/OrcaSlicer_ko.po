@@ -16151,7 +16151,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "결합된 희소 채우기의 최대 레이어 높이입니다.\n"
 "\n"
@@ -21708,7 +21708,7 @@ msgstr "이것은 수용성이 아닌 서포트 필라멘트로, 일반적으로
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "일반 사전 설정은 더 다양한 필라멘트와의 호환성을 위해 보수적으로 조정되었습니다. 출력 품질과 속도를 높이려면 Bambu 사전 설정과 함께 Bambu 필라멘트를 사용하세요."
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "출력 품질을 우선시하는 0.2 mm노즐에 대한 고품질 프로필."
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -21720,25 +21720,25 @@ msgstr "속도를 우선시하는 0.16 mm레이어 높이의 표준 프로필."
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "강도 및 출력 품질을 우선시하는 0.2 mm레이어 높이의 고품질 프로필."
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "속도를 우선시하는 0.4 mm노즐의 표준 프로필."
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "출력 품질과 강도를 우선시하는 0.6 mm노즐용 고품질 프로필."
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "강도를 우선시하는 0.6 mm노즐의 강도 프로필"
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "속도를 우선시하는 0.6 mm노즐의 표준 프로필."
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "출력 품질을 우선시하는 0.8 mm노즐용 고품질 프로필."
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "강도를 우선시하는 0.8 mm노즐의 강도 프로필."
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "속도를 우선시하는 0.8 mm노즐의 표준 프로필."
 
 msgid "No AMS"

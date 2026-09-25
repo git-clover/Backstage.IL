@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "o3HerJQnqHZDinoN",
 	"instantiation": "true",
-	"description": "Standard profile for 0.6 mmnozzle, prioritizing speed.",
+	"description": "Standard profile for 0.6 mm nozzle, prioritizing speed.",
 	"bridge_speed": "50",
 	"default_acceleration": "8000",
 	"gap_infill_speed": "250",

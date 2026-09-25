@@ -15461,7 +15461,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Konbinatutako dentsitate baxuko betegarriaren gehieneko geruza-altuera.\n"
 "\n"
@@ -20755,7 +20755,7 @@ msgstr "Uretan disolbagarria ez den euskarri-filamentua da, eta normalean euskar
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Aurrezarpen generikoak modu kontserbadorean doituta daude filamentuen aukera zabalagoarekin bateragarriak izateko. Inprimaketa-kalitate eta abiadura handiagoak lortzeko, erabili Bambu filamentuak Bambu aurrezarpenekin."
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "0,2 mm-ko pitarako kalitate handiko profila, inprimaketa-kalitatea lehenesten duena."
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -20767,25 +20767,25 @@ msgstr "0,16 mm-ko geruza-altuerarako profil estandarra, abiadura lehenesten due
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "0,2 mm-ko geruza-altuerarako kalitate handiko profila, erresistentzia eta inprimaketa-kalitatea lehenesten dituena."
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "0,4 mm-ko pitarako profil estandarra, abiadura lehenesten duena."
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "0,6 mm-ko pitarako kalitate handiko profila, inprimaketa-kalitatea eta erresistentzia lehenesten dituena."
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "0,6 mm-ko pitarako erresistentzia-profila, erresistentzia lehenesten duena."
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "0,6 mm-ko pitarako profil estandarra, abiadura lehenesten duena."
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "0,8 mm-ko pitarako kalitate handiko profila, inprimaketa-kalitatea lehenesten duena."
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "0,8 mm-ko pitarako erresistentzia-profila, erresistentzia lehenesten duena."
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "0,8 mm-ko pitarako profil estandarra, abiadura lehenesten duena."
 
 msgid "No AMS"

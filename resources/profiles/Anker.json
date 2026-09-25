@@ -99,16 +99,16 @@
 			"sub_path": "process/0.20 mm Optimal 0.6 nozzle @Anker.json"
 		},
 		{
-			"name": "0.30 mm Standard 0.6 mmnozzle @Anker",
-			"sub_path": "process/0.30 mm Standard 0.6 mmnozzle @Anker.json"
+			"name": "0.30 mm Standard 0.6 mm nozzle @Anker",
+			"sub_path": "process/0.30 mm Standard 0.6 mm nozzle @Anker.json"
 		},
 		{
-			"name": "0.35 mm Draft 0.6 mmnozzle @Anker",
-			"sub_path": "process/0.35 mm Draft 0.6 mmnozzle @Anker.json"
+			"name": "0.35 mm Draft 0.6 mm nozzle @Anker",
+			"sub_path": "process/0.35 mm Draft 0.6 mm nozzle @Anker.json"
 		},
 		{
-			"name": "0.40 mm Superdraft 0.6 mmnozzle @Anker",
-			"sub_path": "process/0.40 mm Superdraft 0.6 mmnozzle @Anker.json"
+			"name": "0.40 mm Superdraft 0.6 mm nozzle @Anker",
+			"sub_path": "process/0.40 mm Superdraft 0.6 mm nozzle @Anker.json"
 		},
 		{
 			"name": "0.15 mm Fast @Anker",

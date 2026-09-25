@@ -16097,7 +16097,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Максимальна висота шару для обʼєднаного розрідженого заповнення.\n"
 "\n"
@@ -21629,7 +21629,7 @@ msgid "The generic presets are conservatively tuned for compatibility with a wid
 msgstr "Загальні пресети налаштовані консервативно для сумісності з більш широким спектром філаментів. Для досягнення вищої якості друку та швидкості, будь ласка, використовуйте філаменти Bambu з пресетами Bambu."
 
 # AI Translated
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Профіль високої якості для сопла 0.2 мм, з пріоритетом якості друку."
 
 # AI Translated
@@ -21645,31 +21645,31 @@ msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and pr
 msgstr "Профіль високої якості для висоти шару 0.2 мм, з пріоритетом міцності та якості друку."
 
 # AI Translated
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Стандартний профіль для сопла 0.4 мм, з пріоритетом швидкості."
 
 # AI Translated
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Профіль високої якості для сопла 0.6 мм, з пріоритетом якості друку та міцності."
 
 # AI Translated
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Профіль міцності для сопла 0.6 мм, з пріоритетом міцності."
 
 # AI Translated
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Стандартний профіль для сопла 0.6 мм, з пріоритетом швидкості."
 
 # AI Translated
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Профіль високої якості для сопла 0.8 мм, з пріоритетом якості друку."
 
 # AI Translated
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Профіль міцності для сопла 0.8 мм, з пріоритетом міцності."
 
 # AI Translated
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Стандартний профіль для сопла 0.8 мм, з пріоритетом швидкості."
 
 msgid "No AMS"

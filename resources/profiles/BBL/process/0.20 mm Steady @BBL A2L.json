@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP195",
 	"instantiation": "true",
-	"description": "Lower-acceleration profile for the 0.4 mmnozzle. Use it when the printer sits on a wobbly desk or shelf",
+	"description": "Lower-acceleration profile for the 0.4 mm nozzle. Use it when the printer sits on a wobbly desk or shelf",
 	"bridge_speed": [
 		"50",
 		"50"

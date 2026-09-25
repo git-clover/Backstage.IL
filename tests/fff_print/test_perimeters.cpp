@@ -502,7 +502,7 @@ namespace {
 // support comes from the rib rather than from the slab below it.
 const double slab_first_layer_z = 5.2;
 
-// Rib widths either side of what the wall generators can print. At a 0.4 mmnozzle the classic generator
+// Rib widths either side of what the wall generators can print. At a 0.4 mm nozzle the classic generator
 // builds nothing thinner than nozzle/3 = 0.133 mmand Arachne drops anything below min_feature_size, 25%
 // of the nozzle = 0.1mm. 0.08 mmis under both thresholds, 0.3 mmover both.
 const double unprintable_rib = 0.08;

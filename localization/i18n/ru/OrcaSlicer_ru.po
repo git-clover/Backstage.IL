@@ -16029,7 +16029,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Максимальная высота объединённого слоя заполнения.\n"
 "\n"
@@ -21694,7 +21694,7 @@ msgstr "Хрупкий нерастворимый материал для печ
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Общие профили (Generic) настроены усреднённо для максимальной совместимости с широким спектром материалов. Для наилучшего качества и скорости печати рекомендуется использовать материалы и профили Bambu."
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Профиль для сопла 0.2 мм с упором на качество печати."
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -21706,25 +21706,25 @@ msgstr "Обычный профиль для печати слоем 0.16 мм �
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "Профиль для печати слоем 0.2 мм с упором на качество и прочность."
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Обычный профиль для сопла 0.2 мм с упором на скорость."
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Профиль для сопла 0.6 мм с упором на качество и прочность."
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Профиль для сопла 0.6 мм с упором на прочность."
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Обычный профиль для сопла 0.6 мм с упором на скорость."
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Профиль для сопла 0.8 мм с упором на качество."
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Профиль для сопла 0.8 мм с упором на прочность."
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Обычный профиль для сопла 0.6 мм с упором на скорость."
 
 msgid "No AMS"

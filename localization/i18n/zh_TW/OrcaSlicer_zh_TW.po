@@ -15632,7 +15632,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "設定稀疏填充合併列印最大層高。\n"
 "\n"
@@ -20977,7 +20977,7 @@ msgstr "這是一種非水溶性支撐絲，通常僅用於支撐結構，不用
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "通用預設經過保守調整，以與更廣泛的線材相容。為了獲得更高的列印品質和速度，請使用帶有 Bambu 預設的 Bambu 線材。"
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "0.2 mm噴嘴的高品質設定檔，優先考慮列印品質。"
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -20989,25 +20989,25 @@ msgstr "0.16 mm層高的標準設定檔，優先考慮速度。"
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "層高為 0.2 毫米的高品質設定檔，優先考慮強度和列印品質。"
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "0.4 mm噴嘴的標準設定檔，速度優先。"
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "0.6 mm噴嘴的高品質設定檔，優先考慮列印品質和強度。"
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "0.6 mm噴嘴的強度設定檔，強度優先。"
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "0.6 mm噴嘴的標準設定檔，速度優先。"
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "0.8 mm噴嘴的高品質設定檔，優先考慮列印品質。"
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "0.8 mm噴嘴的強度設定檔，強度優先。"
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "0.8 mm噴嘴的標準設定檔，速度優先。"
 
 msgid "No AMS"

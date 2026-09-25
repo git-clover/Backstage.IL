@@ -16006,7 +16006,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Alçada màxima de la capa per a l'ompliment dispers combinat.\n"
 "\n"
@@ -21489,7 +21489,7 @@ msgstr "Aquest és un filament de suport no soluble en aigua, i normalment és n
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Els perfils genèrics estan ajustats de manera conservadora per a la compatibilitat amb una gamma més àmplia de filaments. Per a una qualitat i velocitat d'impressió superior, utilitzeu filaments Bambu amb perfils Bambu."
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Perfil d'alta qualitat per a broquet de 0.2mm, prioritzant la qualitat d'impressió."
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -21501,25 +21501,25 @@ msgstr "Perfil estàndard per a alçada de capa de 0.16mm, prioritzant la veloci
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "Perfil d'alta qualitat per a alçada de capa de 0.2mm, prioritzant la resistència i la qualitat d'impressió."
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Perfil estàndard per a broquet de 0.4mm, prioritzant la velocitat."
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Perfil d'alta qualitat per a broquet de 0.6mm, prioritzant la qualitat d'impressió i la resistència."
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Perfil de resistència per a broquet de 0.6mm, prioritzant la resistència."
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Perfil estàndard per a broquet de 0.6mm, prioritzant la velocitat."
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Perfil d'alta qualitat per a broquet de 0.8mm, prioritzant la qualitat d'impressió."
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Perfil de resistència per a broquet de 0.8mm, prioritzant la resistència."
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Perfil estàndard per a broquet de 0.8mm, prioritzant la velocitat."
 
 msgid "No AMS"

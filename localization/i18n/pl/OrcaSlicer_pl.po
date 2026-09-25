@@ -16243,7 +16243,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Maksymalna wysokość warstwy dla kombinacji łączenia rzadkiego wypełnienia.\n"
 "\n"
@@ -21819,7 +21819,7 @@ msgstr "Jest to filament podporowy nierozpuszczalny w wodzie, który zazwyczaj u
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Profile ogólne zostały zoptymalizowane pod kątem kompatybilności z różnorodnymi filamentami. Aby uzyskać lepszą jakość druku i wyższe prędkości, prosimy używać filamentów Bambu z odpowiednimi profilami Bambu."
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Profil wysokiej jakości dla dyszy 0.2mm. Priorytetem jest jakość."
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -21831,25 +21831,25 @@ msgstr "Profil standardowy dla wysokości warstwy 0.16mm. Priorytetem jest szybk
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "Profil wysokiej jakości dla wysokości warstwy 0.2mm. Priorytetem jest jakość i wytrzymałość."
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Profil standardowy dla dyszy 0.4mm. Priorytetem jest szybkość."
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Profil wysokiej jakości dla dyszy 0.6mm. Priorytetem jest jakość i wytrzymałość."
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Profil wytrzymałości dla dyszy 0.6mm. Priorytetem jest wytrzymałość."
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Profil standardowy dla dyszy 0.6mm. Priorytetem jest szybkość."
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Profil wysokiej jakości dla dyszy 0.8mm. Priorytetem jest jakość."
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Profil wytrzymałości dla dyszy 0.8mm. Priorytetem jest wytrzymałość."
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Profil standardowy dla dyszy 0.8mm. Priorytetem jest szybkość."
 
 msgid "No AMS"

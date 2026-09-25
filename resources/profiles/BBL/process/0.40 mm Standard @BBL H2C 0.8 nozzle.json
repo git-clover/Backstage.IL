@@ -5,7 +5,7 @@
     "from": "system",
     "setting_id": "GP258",
     "instantiation": "true",
-    "description": "Standard profile for 0.8 mmnozzle, prioritizing speed.",
+    "description": "Standard profile for 0.8 mm nozzle, prioritizing speed.",
     "default_acceleration": [
         "8000",
         "8000",

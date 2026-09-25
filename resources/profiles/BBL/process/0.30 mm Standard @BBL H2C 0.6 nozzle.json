@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP256",
 	"instantiation": "true",
-	"description": "Standard profile for 0.6 mmnozzle, prioritizing speed.",
+	"description": "Standard profile for 0.6 mm nozzle, prioritizing speed.",
 	"default_acceleration": [
 		"8000",
 		"8000",

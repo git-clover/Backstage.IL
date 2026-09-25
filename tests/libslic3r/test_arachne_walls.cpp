@@ -11,7 +11,7 @@
 // At 60% (0.24mm), Arachne handles this differently and avoids the duplicate.
 //
 // Parameters are based on "0.28 mm Extra Draft @BBL X1C" profile with:
-// - 0.4 mmnozzle, 0.28 mmlayer height
+// - 0.4 mm nozzle, 0.28 mmlayer height
 // - outer_wall_line_width: 0.42mm, inner_wall_line_width: 0.45mm
 // - wall_loops: 2, precise_outer_wall: enabled
 
@@ -223,7 +223,7 @@ TEST_CASE("Arachne wall generation - 60% min_bead_width", "[Arachne]") {
 // getTransitionThickness(1)), the request was collapsed into one over-wide bead — an
 // over-extruded line that shows up as a bulge on curved surfaces at a deterministic height.
 //
-// Profile mirrors the reporter's project ("0.20 mm Standard @BBL X1C", 0.4 mmnozzle):
+// Profile mirrors the reporter's project ("0.20 mm Standard @BBL X1C", 0.4 mm nozzle):
 //   outer 0.42 mm/ inner 0.45mm, min_bead_width 85% (0.34mm), 2 walls (max_bead_count 4).
 // For these numbers wall_split_middle_threshold = 2*0.34/0.42 - 1 = 0.619, so
 // getTransitionThickness(1) = (1 + 0.619) * 0.42 = 0.68mm. A 0.5mm-thick wall therefore sits
@@ -233,12 +233,12 @@ TEST_CASE("Arachne widening keeps two beads in transition band (#14376)", "[Arac
 
     // Widths in mm; the scaled coord_t values and the thresholds below are both derived from
     // these so a width change cannot silently desync the transition-band math.
-    const double outer_mm = 0.42, inner_mm = 0.45, min_bead_mm = 0.34; // min_bead = 85% of 0.4 mmnozzle
+    const double outer_mm = 0.42, inner_mm = 0.45, min_bead_mm = 0.34; // min_bead = 85% of 0.4 mm nozzle
 
     const coord_t outer_width = scaled<coord_t>(outer_mm);
     const coord_t inner_width = scaled<coord_t>(inner_mm);
     const coord_t min_bead_width = scaled<coord_t>(min_bead_mm);
-    const coord_t min_feature_size = scaled<coord_t>(0.10); // 25% of 0.4 mmnozzle
+    const coord_t min_feature_size = scaled<coord_t>(0.10); // 25% of 0.4 mm nozzle
     const coord_t transition_length = scaled<coord_t>(0.40);
     const coord_t max_bead_count = 4; // 2 * wall_loops
 

@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "U3qj2P5b6g0bo2MV",
 	"instantiation": "true",
-	"description": "Strength profile for 0.6 mmnozzle, prioritizing strength.",
+	"description": "Strength profile for 0.6 mm nozzle, prioritizing strength.",
 	"bridge_speed": "50",
 	"default_acceleration": "8000",
 	"gap_infill_speed": "250",

@@ -192,7 +192,7 @@
 		"7"
 	],
 	"filament_notes": [
-		"Pressure Advance starting values by machine and nozzle size:\nArtemis / BOSSdelta 300:\n  0.4 mmnozzle: 0.4500\n  0.5 mmnozzle: 0.3600\n  0.7 mmnozzle: 0.2571\n  1.0 mmnozzle: 0.1800\n\nRostockMAX v3.2 / v4:\n  0.4 mmnozzle: 0.5387\n  0.5 mmnozzle: 0.4310\n  0.7 mmnozzle: 0.3078\n  1.0 mmnozzle: 0.2155\n\nBOSSdelta 0505:\n  0.4 mmnozzle: 0.6021\n  0.5 mmnozzle: 0.4817\n  0.7 mmnozzle: 0.3441\n  1.0 mmnozzle: 0.2408\n\nBOSSdelta 0510:\n  0.4 mmnozzle: 0.8873\n  0.5 mmnozzle: 0.7099\n  0.7 mmnozzle: 0.5070\n  1.0 mmnozzle: 0.3549\n\nBOSSdelta 0521:\n  0.4 mmnozzle: 1.4894\n  0.5 mmnozzle: 1.1915\n  0.7 mmnozzle: 0.8511\n  1.0 mmnozzle: 0.5958\n\nRun OrcaSlicer PA calibration to fine-tune for your setup."
+		"Pressure Advance starting values by machine and nozzle size:\nArtemis / BOSSdelta 300:\n  0.4 mm nozzle: 0.4500\n  0.5 mm nozzle: 0.3600\n  0.7 mm nozzle: 0.2571\n  1.0 mm nozzle: 0.1800\n\nRostockMAX v3.2 / v4:\n  0.4 mm nozzle: 0.5387\n  0.5 mm nozzle: 0.4310\n  0.7 mm nozzle: 0.3078\n  1.0 mm nozzle: 0.2155\n\nBOSSdelta 0505:\n  0.4 mm nozzle: 0.6021\n  0.5 mm nozzle: 0.4817\n  0.7 mm nozzle: 0.3441\n  1.0 mm nozzle: 0.2408\n\nBOSSdelta 0510:\n  0.4 mm nozzle: 0.8873\n  0.5 mm nozzle: 0.7099\n  0.7 mm nozzle: 0.5070\n  1.0 mm nozzle: 0.3549\n\nBOSSdelta 0521:\n  0.4 mm nozzle: 1.4894\n  0.5 mm nozzle: 1.1915\n  0.7 mm nozzle: 0.8511\n  1.0 mm nozzle: 0.5958\n\nRun OrcaSlicer PA calibration to fine-tune for your setup."
 	],
 	"filament_type": [
 		"PETG-CF"

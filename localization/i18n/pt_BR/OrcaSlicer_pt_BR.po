@@ -15373,7 +15373,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Altura máxima da camada para o preenchimento esparso combinado.\n"
 "\n"
@@ -20628,7 +20628,7 @@ msgstr "Este é um filamento de suporte não solúvel em água, geralmente usado
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "As configurações genéricas são ajustadas de forma conservadora para compatibilidade com uma gama mais ampla de filamentos. Para obter maior qualidade e velocidade de impressão, use filamentos Bambu com as configurações Bambu."
 
-msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mm nozzle, prioritizing print quality."
 msgstr "Perfil de alta qualidade para bico de 0,2 mm, priorizando a qualidade de impressão."
 
 msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
@@ -20640,25 +20640,25 @@ msgstr "Perfil padrão para altura de camada de 0,16 mm, priorizando a velocidad
 msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "Perfil de alta qualidade para altura de camada de 0,2 mm, priorizando resistência e qualidade de impressão."
 
-msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mm nozzle, prioritizing speed."
 msgstr "Perfil padrão para bico de 0,4 mm, priorizando a velocidade."
 
-msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mm nozzle, prioritizing print quality and strength."
 msgstr "Perfil de alta qualidade para bico de 0,6 mm, priorizando a qualidade de impressão e a resistência."
 
-msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mm nozzle, prioritizing strength."
 msgstr "Perfil de resistência para bico de 0,6 mm, priorizando a resistência."
 
-msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mm nozzle, prioritizing speed."
 msgstr "Perfil padrão para bico de 0,6 mm, priorizando a velocidade."
 
-msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mm nozzle, prioritizing print quality."
 msgstr "Perfil de alta qualidade para bico de 0,8 mm, priorizando a qualidade de impressão."
 
-msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mm nozzle, prioritizing strength."
 msgstr "Perfil de resistência para bico de 0,8 mm, priorizando a resistência."
 
-msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mm nozzle, prioritizing speed."
 msgstr "Perfil padrão para bico de 0,8 mm, priorizando a velocidade."
 
 msgid "No AMS"

@@ -1,6 +1,6 @@
 {
 	"type": "machine",
-	"name": "WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+	"name": "WEMAKE3D PhoenixProV1 0.4 mm nozzle",
 	"inherits": "fdm_machine_phoenixprov1_common",
 	"from": "system",
 	"setting_id": "XJntkwRAhQqQVQ7k",

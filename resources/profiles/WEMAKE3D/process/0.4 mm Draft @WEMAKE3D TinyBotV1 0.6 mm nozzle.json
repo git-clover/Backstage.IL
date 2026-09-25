@@ -1,10 +1,10 @@
 {
 	"type": "process",
-	"name": "0.4 mm Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+	"name": "0.4 mm Draft @WEMAKE3D TinyBotV1 0.6 mm nozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"setting_id": "hqBED1cY7X1cXHk2",
 	"instantiation": "true",
-	"print_settings_id": "0.4 mm Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+	"print_settings_id": "0.4 mm Draft @WEMAKE3D TinyBotV1 0.6 mm nozzle",
 	"layer_height": "0.4",
 	"initial_layer_print_height": "0.48",
 	"initial_layer_line_width": "0.7",
@@ -17,6 +17,6 @@
 	"support_line_width": "0.7",
 	"thick_bridges": "0",
 	"compatible_printers": [
-		"WEMAKE3D TinyBotV1 0.6 mmnozzle"
+		"WEMAKE3D TinyBotV1 0.6 mm nozzle"
 	]
 }

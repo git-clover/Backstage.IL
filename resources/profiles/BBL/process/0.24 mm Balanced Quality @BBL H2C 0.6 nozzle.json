@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP163",
 	"instantiation": "true",
-	"description": "Strength profile for 0.6 mmnozzle, prioritizing strength.",
+	"description": "Strength profile for 0.6 mm nozzle, prioritizing strength.",
 	"default_acceleration": [
 		"8000",
 		"8000",

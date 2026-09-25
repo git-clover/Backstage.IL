@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP146",
 	"instantiation": "true",
-	"description": "Strength profile for 0.6 mmnozzle, prioritizing strength.",
+	"description": "Strength profile for 0.6 mm nozzle, prioritizing strength.",
 	"bridge_speed": [
 		"50",
 		"50",

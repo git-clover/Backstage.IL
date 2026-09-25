@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "GP155",
 	"instantiation": "true",
-	"description": "Standard profile for 0.4 mmnozzle, prioritizing speed.",
+	"description": "Standard profile for 0.4 mm nozzle, prioritizing speed.",
 	"bridge_speed": [
 		"50",
 		"50",
