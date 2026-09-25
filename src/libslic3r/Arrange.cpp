@@ -108,7 +108,7 @@ void update_selected_items_inflation(ArrangePolygons& selected, const DynamicPri
             params.min_obj_distance = std::max(params.min_obj_distance, scaled(std::max(MAX_OUTER_NOZZLE_DIAMETER/2.f, params.object_skirt_offset*2)+0.001));
         }
         else
-            params.min_obj_distance = std::max(params.min_obj_distance, scaled(params.clearance_radius + 0.001)); // +0.001mm to avoid clearance check fail due to rounding error
+            params.min_obj_distance = std::max(params.min_obj_distance, scaled(params.clearance_radius + 0.001)); // +0.001 mmto avoid clearance check fail due to rounding error
     }
     double brim_max = 0;
     bool plate_has_tree_support = false;

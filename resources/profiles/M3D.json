@@ -33,20 +33,20 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.15mm Standard @M3D Enabler D7500",
-			"sub_path": "process/0.15mm Standard @M3D Enabler D7500.json"
+			"name": "0.15 mmStandard @M3D Enabler D7500",
+			"sub_path": "process/0.15 mmStandard @M3D Enabler D7500.json"
 		},
 		{
-			"name": "0.15mm Standard @M3D Enabler D8500",
-			"sub_path": "process/0.15mm Standard @M3D Enabler D8500.json"
+			"name": "0.15 mmStandard @M3D Enabler D8500",
+			"sub_path": "process/0.15 mmStandard @M3D Enabler D8500.json"
 		},
 		{
-			"name": "0.20mm Standard @M3D Enabler D7500",
-			"sub_path": "process/0.20mm Standard @M3D Enabler D7500.json"
+			"name": "0.20 mmStandard @M3D Enabler D7500",
+			"sub_path": "process/0.20 mmStandard @M3D Enabler D7500.json"
 		},
 		{
-			"name": "0.20mm Standard @M3D Enabler D8500",
-			"sub_path": "process/0.20mm Standard @M3D Enabler D8500.json"
+			"name": "0.20 mmStandard @M3D Enabler D8500",
+			"sub_path": "process/0.20 mmStandard @M3D Enabler D8500.json"
 		},
 		{
 			"name": "Fuzzy Skin @M3D Enabler D8500",

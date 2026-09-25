@@ -10,7 +10,7 @@
     ],
     "printer_model": "Bambu Lab P1P",
     "printer_variant": "0.8",
-    "default_print_profile": "0.40mm Standard @BBL P1P 0.8 nozzle",
+    "default_print_profile": "0.40 mmStandard @BBL P1P 0.8 nozzle",
     "include": [
         "Bambu Lab P1P 0.8 nozzle template machine_start_gcode"
     ],

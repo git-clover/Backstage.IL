@@ -47,272 +47,272 @@
 	],
 	"process_list": [
 		{
-			"name": "0.08mm High Quality @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.08mm High Quality @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.08 mmHigh Quality @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.08 mmHigh Quality @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.24mm Draft @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.24 mmDraft @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.24 mmDraft @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery M1 Pro 0.8 nozzle",
-			"sub_path": "process/0.24mm Draft @Artillery M1 Pro 0.8 nozzle.json"
+			"name": "0.24 mmDraft @Artillery M1 Pro 0.8 nozzle",
+			"sub_path": "process/0.24 mmDraft @Artillery M1 Pro 0.8 nozzle.json"
 		},
 		{
 			"name": "fdm_process_common",
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.06mm High Quality @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.06mm High Quality @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.06 mmHigh Quality @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.06 mmHigh Quality @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.06mm Standard @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.06mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.06 mmStandard @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.06 mmStandard @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.08mm Standard @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.08mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.08 mmStandard @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.08 mmStandard @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.10mm High Quality @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.10mm High Quality @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.10 mmHigh Quality @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.10 mmHigh Quality @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.10mm Standard @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.10mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.10 mmStandard @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.10 mmStandard @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.12mm Standard @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.12mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.12 mmStandard @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.12 mmStandard @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.14mm Standard @Artillery M1 Pro 0.2 nozzle",
-			"sub_path": "process/0.14mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+			"name": "0.14 mmStandard @Artillery M1 Pro 0.2 nozzle",
+			"sub_path": "process/0.14 mmStandard @Artillery M1 Pro 0.2 nozzle.json"
 		},
 		{
-			"name": "0.18mm Standard @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.18mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.18 mmStandard @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.18 mmStandard @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.24mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.24 mmStandard @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.24 mmStandard @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Standard @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.30mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.30 mmStandard @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.30 mmStandard @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Strength @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.30mm Strength @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.30 mmStrength @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.30 mmStrength @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.36mm Standard @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.36mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.36 mmStandard @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.36 mmStandard @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.42mm Standard @Artillery M1 Pro 0.6 nozzle",
-			"sub_path": "process/0.42mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+			"name": "0.42 mmStandard @Artillery M1 Pro 0.6 nozzle",
+			"sub_path": "process/0.42 mmStandard @Artillery M1 Pro 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Artillery M1 Pro 0.8 nozzle",
-			"sub_path": "process/0.24mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+			"name": "0.24 mmStandard @Artillery M1 Pro 0.8 nozzle",
+			"sub_path": "process/0.24 mmStandard @Artillery M1 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.32mm Standard @Artillery M1 Pro 0.8 nozzle",
-			"sub_path": "process/0.32mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+			"name": "0.32 mmStandard @Artillery M1 Pro 0.8 nozzle",
+			"sub_path": "process/0.32 mmStandard @Artillery M1 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.40mm Standard @Artillery M1 Pro 0.8 nozzle",
-			"sub_path": "process/0.40mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+			"name": "0.40 mmStandard @Artillery M1 Pro 0.8 nozzle",
+			"sub_path": "process/0.40 mmStandard @Artillery M1 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.48mm Standard @Artillery M1 Pro 0.8 nozzle",
-			"sub_path": "process/0.48mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+			"name": "0.48 mmStandard @Artillery M1 Pro 0.8 nozzle",
+			"sub_path": "process/0.48 mmStandard @Artillery M1 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.56mm Standard @Artillery M1 Pro 0.8 nozzle",
-			"sub_path": "process/0.56mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+			"name": "0.56 mmStandard @Artillery M1 Pro 0.8 nozzle",
+			"sub_path": "process/0.56 mmStandard @Artillery M1 Pro 0.8 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.08 mmExtra Fine @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.08 mmExtra Fine @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm High Quality @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.08mm High Quality @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.08 mmHigh Quality @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.08 mmHigh Quality @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.12mm Fine @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.12 mmFine @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.12 mmFine @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm High Quality @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.12mm High Quality @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.12 mmHigh Quality @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.12 mmHigh Quality @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.15mm Optimal @Artillery Genius",
-			"sub_path": "process/0.15mm Optimal @Artillery Genius.json"
+			"name": "0.15 mmOptimal @Artillery Genius",
+			"sub_path": "process/0.15 mmOptimal @Artillery Genius.json"
 		},
 		{
-			"name": "0.15mm Optimal @Artillery Genius Pro",
-			"sub_path": "process/0.15mm Optimal @Artillery Genius Pro.json"
+			"name": "0.15 mmOptimal @Artillery Genius Pro",
+			"sub_path": "process/0.15 mmOptimal @Artillery Genius Pro.json"
 		},
 		{
-			"name": "0.16mm High Quality @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.16mm High Quality @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.16 mmHigh Quality @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.16 mmHigh Quality @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Artillery Hornet",
-			"sub_path": "process/0.16mm Optimal @Artillery Hornet.json"
+			"name": "0.16 mmOptimal @Artillery Hornet",
+			"sub_path": "process/0.16 mmOptimal @Artillery Hornet.json"
 		},
 		{
-			"name": "0.16mm Optimal @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.16mm Optimal @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.16 mmOptimal @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.16 mmOptimal @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Artillery X1",
-			"sub_path": "process/0.16mm Optimal @Artillery X1.json"
+			"name": "0.16 mmOptimal @Artillery X1",
+			"sub_path": "process/0.16 mmOptimal @Artillery X1.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery Genius",
-			"sub_path": "process/0.20mm Standard @Artillery Genius.json"
+			"name": "0.20 mmStandard @Artillery Genius",
+			"sub_path": "process/0.20 mmStandard @Artillery Genius.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery Genius Pro",
-			"sub_path": "process/0.20mm Standard @Artillery Genius Pro.json"
+			"name": "0.20 mmStandard @Artillery Genius Pro",
+			"sub_path": "process/0.20 mmStandard @Artillery Genius Pro.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery Hornet",
-			"sub_path": "process/0.20mm Standard @Artillery Hornet.json"
+			"name": "0.20 mmStandard @Artillery Hornet",
+			"sub_path": "process/0.20 mmStandard @Artillery Hornet.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.20mm Standard @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.20 mmStandard @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.20 mmStandard @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery X1",
-			"sub_path": "process/0.20mm Standard @Artillery X1.json"
+			"name": "0.20 mmStandard @Artillery X1",
+			"sub_path": "process/0.20 mmStandard @Artillery X1.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery X2",
-			"sub_path": "process/0.20mm Standard @Artillery X2.json"
+			"name": "0.20 mmStandard @Artillery X2",
+			"sub_path": "process/0.20 mmStandard @Artillery X2.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery X3Plus 0.4 nozzle",
-			"sub_path": "process/0.20mm Standard @Artillery X3Plus 0.4 nozzle.json"
+			"name": "0.20 mmStandard @Artillery X3Plus 0.4 nozzle",
+			"sub_path": "process/0.20 mmStandard @Artillery X3Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery X3Pro 0.4 nozzle",
-			"sub_path": "process/0.20mm Standard @Artillery X3Pro 0.4 nozzle.json"
+			"name": "0.20 mmStandard @Artillery X3Pro 0.4 nozzle",
+			"sub_path": "process/0.20 mmStandard @Artillery X3Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.20mm Standard @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.20 mmStandard @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.20 mmStandard @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.20mm Standard @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.20 mmStandard @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.20 mmStandard @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Strength @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.20mm Strength @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.20 mmStrength @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.20 mmStrength @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery Hornet",
-			"sub_path": "process/0.24mm Draft @Artillery Hornet.json"
+			"name": "0.24 mmDraft @Artillery Hornet",
+			"sub_path": "process/0.24 mmDraft @Artillery Hornet.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.24mm Draft @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.24 mmDraft @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.24 mmDraft @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery X1",
-			"sub_path": "process/0.24mm Draft @Artillery X1.json"
+			"name": "0.24 mmDraft @Artillery X1",
+			"sub_path": "process/0.24 mmDraft @Artillery X1.json"
 		},
 		{
-			"name": "0.25mm Draft @Artillery Genius",
-			"sub_path": "process/0.25mm Draft @Artillery Genius.json"
+			"name": "0.25 mmDraft @Artillery Genius",
+			"sub_path": "process/0.25 mmDraft @Artillery Genius.json"
 		},
 		{
-			"name": "0.25mm Draft @Artillery Genius Pro",
-			"sub_path": "process/0.25mm Draft @Artillery Genius Pro.json"
+			"name": "0.25 mmDraft @Artillery Genius Pro",
+			"sub_path": "process/0.25 mmDraft @Artillery Genius Pro.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Artillery M1 Pro 0.4 nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Artillery M1 Pro 0.4 nozzle.json"
+			"name": "0.28 mmExtra Draft @Artillery M1 Pro 0.4 nozzle",
+			"sub_path": "process/0.28 mmExtra Draft @Artillery M1 Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.08 mmExtra Fine @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.08 mmExtra Fine @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm High Quality @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.08mm High Quality @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.08 mmHigh Quality @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.08 mmHigh Quality @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.12mm Fine @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.12 mmFine @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.12 mmFine @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm High Quality @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.12mm High Quality @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.12 mmHigh Quality @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.12 mmHigh Quality @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm High Quality @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.16mm High Quality @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.16 mmHigh Quality @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.16 mmHigh Quality @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.16mm Optimal @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.16 mmOptimal @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.16 mmOptimal @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Strength @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.20mm Strength @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.20 mmStrength @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.20 mmStrength @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.24mm Draft @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.24 mmDraft @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.24 mmDraft @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Artillery X4Plus 0.4 nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Artillery X4Plus 0.4 nozzle.json"
+			"name": "0.28 mmExtra Draft @Artillery X4Plus 0.4 nozzle",
+			"sub_path": "process/0.28 mmExtra Draft @Artillery X4Plus 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.08 mmExtra Fine @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.08 mmExtra Fine @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.08mm High Quality @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.08mm High Quality @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.08 mmHigh Quality @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.08 mmHigh Quality @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.12mm Fine @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.12 mmFine @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.12 mmFine @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.12mm High Quality @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.12mm High Quality @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.12 mmHigh Quality @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.12 mmHigh Quality @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm High Quality @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.16mm High Quality @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.16 mmHigh Quality @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.16 mmHigh Quality @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.16mm Optimal @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.16mm Optimal @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.16 mmOptimal @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.16 mmOptimal @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.20mm Strength @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.20mm Strength @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.20 mmStrength @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.20 mmStrength @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.24mm Draft @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.24 mmDraft @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.24 mmDraft @Artillery X4Pro 0.4 nozzle.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Artillery X4Pro 0.4 nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Artillery X4Pro 0.4 nozzle.json"
+			"name": "0.28 mmExtra Draft @Artillery X4Pro 0.4 nozzle",
+			"sub_path": "process/0.28 mmExtra Draft @Artillery X4Pro 0.4 nozzle.json"
 		}
 	],
 	"filament_list": [

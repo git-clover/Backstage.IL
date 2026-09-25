@@ -325,7 +325,7 @@ ConflictComputeOpt ConflictChecker::line_intersect(const LineWithID &l1, const L
         bool          both_support = r1 == ExtrusionRole::erSupportMaterial || r1 == ExtrusionRole::erSupportMaterialInterface || r1 == ExtrusionRole::erSupportTransition;
         both_support = both_support && ( r2 == ExtrusionRole::erSupportMaterial || r2 == ExtrusionRole::erSupportMaterialInterface || r2 == ExtrusionRole::erSupportTransition);
         if (dist > (both_support ? SUPPORT_THRESHOLD:OTHER_THRESHOLD)) {
-            // the two lines intersects if dist>0.01mm for regular lines, and if dist>1mm for both supports
+            // the two lines intersects if dist>0.01 mmfor regular lines, and if dist>1mm for both supports
             return std::make_optional<ConflictComputeResult>(l1._id, l2._id);
         }
     }

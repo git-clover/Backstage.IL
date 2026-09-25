@@ -6,7 +6,7 @@
 	"setting_id": "6P8w81ez1853W0NK",
 	"instantiation": "true",
 	"printer_model": "Anycubic Kobra Plus",
-	"default_print_profile": "0.20mm Standard @Anycubic KobraPlus",
+	"default_print_profile": "0.20 mmStandard @Anycubic KobraPlus",
 	"nozzle_diameter": [
 		"0.4"
 	],

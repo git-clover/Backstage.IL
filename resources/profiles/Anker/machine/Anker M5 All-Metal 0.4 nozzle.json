@@ -15,7 +15,7 @@
 	"default_filament_profile": [
 		"Generic PLA+ @Anker"
 	],
-	"default_print_profile": "0.20mm Standard @Anker",
+	"default_print_profile": "0.20 mmStandard @Anker",
 	"extruder_clearance_height_to_lid": "250",
 	"extruder_clearance_height_to_rod": "30",
 	"extruder_clearance_radius": "45",

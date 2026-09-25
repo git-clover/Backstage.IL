@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "Generic PLA @Lulzbot",
 	"inherits": "Generic PLA @System",
-	"renamed_from": "Lulzbot 2.85mm PLA",
+	"renamed_from": "Lulzbot 2.85 mmPLA",
 	"from": "system",
 	"setting_id": "3evRjso1wNxd9nV3",
 	"instantiation": "true",

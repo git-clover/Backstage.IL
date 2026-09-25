@@ -226,7 +226,7 @@ public:
     GCodeFormatter(const GCodeFormatter&) = delete;
     GCodeFormatter& operator=(const GCodeFormatter&) = delete;
 
-    // At layer height 0.15mm, extrusion width 0.2mm and filament diameter 1.75mm,
+    // At layer height 0.15mm, extrusion width 0.2 mmand filament diameter 1.75mm,
     // the crossection of extrusion is 0.4 * 0.15 = 0.06mm2
     // and the filament crossection is 1.75^2 = 3.063mm2
     // thus the filament moves 3.063 / 0.6 = 51x slower than the XY axes

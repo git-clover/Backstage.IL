@@ -35,108 +35,108 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.08mm Fine @FLSun Q5",
-			"sub_path": "process/0.08mm Fine @FLSun Q5.json"
+			"name": "0.08 mmFine @FLSun Q5",
+			"sub_path": "process/0.08 mmFine @FLSun Q5.json"
 		},
 		{
-			"name": "0.08mm Fine @FLSun QQSPro",
-			"sub_path": "process/0.08mm Fine @FLSun QQSPro.json"
+			"name": "0.08 mmFine @FLSun QQSPro",
+			"sub_path": "process/0.08 mmFine @FLSun QQSPro.json"
 		},
 		{
-			"name": "0.08mm Fine @FLSun SR",
-			"sub_path": "process/0.08mm Fine @FLSun SR.json"
+			"name": "0.08 mmFine @FLSun SR",
+			"sub_path": "process/0.08 mmFine @FLSun SR.json"
 		},
 		{
-			"name": "0.12mm Fine @FLSun S1",
-			"sub_path": "process/0.12mm Fine @FLSun S1.json"
+			"name": "0.12 mmFine @FLSun S1",
+			"sub_path": "process/0.12 mmFine @FLSun S1.json"
 		},
 		{
-			"name": "0.12mm Fine @FLSun T1",
-			"sub_path": "process/0.12mm Fine @FLSun T1.json"
+			"name": "0.12 mmFine @FLSun T1",
+			"sub_path": "process/0.12 mmFine @FLSun T1.json"
 		},
 		{
-			"name": "0.16mm Optimal @FLSun Q5",
-			"sub_path": "process/0.16mm Optimal @FLSun Q5.json"
+			"name": "0.16 mmOptimal @FLSun Q5",
+			"sub_path": "process/0.16 mmOptimal @FLSun Q5.json"
 		},
 		{
-			"name": "0.16mm Optimal @FLSun QQSPro",
-			"sub_path": "process/0.16mm Optimal @FLSun QQSPro.json"
+			"name": "0.16 mmOptimal @FLSun QQSPro",
+			"sub_path": "process/0.16 mmOptimal @FLSun QQSPro.json"
 		},
 		{
-			"name": "0.16mm Optimal @FLSun S1",
-			"sub_path": "process/0.16mm Optimal @FLSun S1.json"
+			"name": "0.16 mmOptimal @FLSun S1",
+			"sub_path": "process/0.16 mmOptimal @FLSun S1.json"
 		},
 		{
-			"name": "0.16mm Optimal @FLSun SR",
-			"sub_path": "process/0.16mm Optimal @FLSun SR.json"
+			"name": "0.16 mmOptimal @FLSun SR",
+			"sub_path": "process/0.16 mmOptimal @FLSun SR.json"
 		},
 		{
-			"name": "0.16mm Optimal @FLSun T1",
-			"sub_path": "process/0.16mm Optimal @FLSun T1.json"
+			"name": "0.16 mmOptimal @FLSun T1",
+			"sub_path": "process/0.16 mmOptimal @FLSun T1.json"
 		},
 		{
-			"name": "0.20mm Standard @FLSun Q5",
-			"sub_path": "process/0.20mm Standard @FLSun Q5.json"
+			"name": "0.20 mmStandard @FLSun Q5",
+			"sub_path": "process/0.20 mmStandard @FLSun Q5.json"
 		},
 		{
-			"name": "0.20mm Standard @FLSun QQSPro",
-			"sub_path": "process/0.20mm Standard @FLSun QQSPro.json"
+			"name": "0.20 mmStandard @FLSun QQSPro",
+			"sub_path": "process/0.20 mmStandard @FLSun QQSPro.json"
 		},
 		{
-			"name": "0.20mm Standard @FLSun S1",
-			"sub_path": "process/0.20mm Standard @FLSun S1.json"
+			"name": "0.20 mmStandard @FLSun S1",
+			"sub_path": "process/0.20 mmStandard @FLSun S1.json"
 		},
 		{
-			"name": "0.20mm Standard @FLSun SR",
-			"sub_path": "process/0.20mm Standard @FLSun SR.json"
+			"name": "0.20 mmStandard @FLSun SR",
+			"sub_path": "process/0.20 mmStandard @FLSun SR.json"
 		},
 		{
-			"name": "0.20mm Standard @FLSun T1",
-			"sub_path": "process/0.20mm Standard @FLSun T1.json"
+			"name": "0.20 mmStandard @FLSun T1",
+			"sub_path": "process/0.20 mmStandard @FLSun T1.json"
 		},
 		{
-			"name": "0.20mm Standard @FLSun V400",
-			"sub_path": "process/0.20mm Standard @FLSun V400.json"
+			"name": "0.20 mmStandard @FLSun V400",
+			"sub_path": "process/0.20 mmStandard @FLSun V400.json"
 		},
 		{
-			"name": "0.24mm Draft @FLSun Q5",
-			"sub_path": "process/0.24mm Draft @FLSun Q5.json"
+			"name": "0.24 mmDraft @FLSun Q5",
+			"sub_path": "process/0.24 mmDraft @FLSun Q5.json"
 		},
 		{
-			"name": "0.24mm Draft @FLSun QQSPro",
-			"sub_path": "process/0.24mm Draft @FLSun QQSPro.json"
+			"name": "0.24 mmDraft @FLSun QQSPro",
+			"sub_path": "process/0.24 mmDraft @FLSun QQSPro.json"
 		},
 		{
-			"name": "0.24mm Draft @FLSun S1",
-			"sub_path": "process/0.24mm Draft @FLSun S1.json"
+			"name": "0.24 mmDraft @FLSun S1",
+			"sub_path": "process/0.24 mmDraft @FLSun S1.json"
 		},
 		{
-			"name": "0.24mm Draft @FLSun SR",
-			"sub_path": "process/0.24mm Draft @FLSun SR.json"
+			"name": "0.24 mmDraft @FLSun SR",
+			"sub_path": "process/0.24 mmDraft @FLSun SR.json"
 		},
 		{
-			"name": "0.24mm Draft @FLSun T1",
-			"sub_path": "process/0.24mm Draft @FLSun T1.json"
+			"name": "0.24 mmDraft @FLSun T1",
+			"sub_path": "process/0.24 mmDraft @FLSun T1.json"
 		},
 		{
-			"name": "0.30mm Extra Draft @FLSun Q5",
-			"sub_path": "process/0.30mm Extra Draft @FLSun Q5.json"
+			"name": "0.30 mmExtra Draft @FLSun Q5",
+			"sub_path": "process/0.30 mmExtra Draft @FLSun Q5.json"
 		},
 		{
-			"name": "0.30mm Extra Draft @FLSun QQSPro",
-			"sub_path": "process/0.30mm Extra Draft @FLSun QQSPro.json"
+			"name": "0.30 mmExtra Draft @FLSun QQSPro",
+			"sub_path": "process/0.30 mmExtra Draft @FLSun QQSPro.json"
 		},
 		{
-			"name": "0.30mm Extra Draft @FLSun S1",
-			"sub_path": "process/0.30mm Extra Draft @FLSun S1.json"
+			"name": "0.30 mmExtra Draft @FLSun S1",
+			"sub_path": "process/0.30 mmExtra Draft @FLSun S1.json"
 		},
 		{
-			"name": "0.30mm Extra Draft @FLSun SR",
-			"sub_path": "process/0.30mm Extra Draft @FLSun SR.json"
+			"name": "0.30 mmExtra Draft @FLSun SR",
+			"sub_path": "process/0.30 mmExtra Draft @FLSun SR.json"
 		},
 		{
-			"name": "0.30mm Extra Draft @FLSun T1",
-			"sub_path": "process/0.30mm Extra Draft @FLSun T1.json"
+			"name": "0.30 mmExtra Draft @FLSun T1",
+			"sub_path": "process/0.30 mmExtra Draft @FLSun T1.json"
 		}
 	],
 	"filament_list": [

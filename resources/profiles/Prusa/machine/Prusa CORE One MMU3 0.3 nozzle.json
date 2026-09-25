@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "EiPXZjRoFcw95gWA",
 	"instantiation": "true",
-	"default_print_profile": "0.16mm STRUCTURAL @COREONE0.3 + MMU3",
+	"default_print_profile": "0.16 mmSTRUCTURAL @COREONE0.3 + MMU3",
 	"max_layer_height": "0.22",
 	"min_layer_height": "0.05",
 	"nozzle_diameter": [

@@ -10,7 +10,7 @@
 	"default_filament_profile": [
 		"Generic PLA @Prusa MK4"
 	],
-	"default_print_profile": "0.08mm Standard @MK4",
+	"default_print_profile": "0.08 mmStandard @MK4",
 	"nozzle_diameter": [
 		"0.25"
 	],

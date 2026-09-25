@@ -2,7 +2,7 @@
 	"type": "filament",
 	"name": "Generic PETG @Lulzbot",
 	"inherits": "Generic PETG @System",
-	"renamed_from": "Lulzbot 2.85mm PETG",
+	"renamed_from": "Lulzbot 2.85 mmPETG",
 	"from": "system",
 	"setting_id": "dqj6O9NIPAaq8wWz",
 	"instantiation": "true",

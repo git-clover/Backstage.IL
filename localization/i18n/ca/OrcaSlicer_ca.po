@@ -243,17 +243,17 @@ msgstr "La configuració per defecte pot afectar la qualitat d'impressió. Ajust
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4 mmhigh-flow nozzles. Use with caution."
 msgstr "%s té risc d'obturació del broquet quan s'utilitzen broquets d'alt flux de 0,4 mm. Utilitzeu-lo amb precaució."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution."
+msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mmhigh-flow nozzles. Use with caution."
 msgstr "Els filaments %s són durs i fràgils i es poden trencar a l'AMS; a més, hi ha risc d'obturació del broquet quan s'utilitzen broquets d'alt flux de 0,4 mm. Utilitzeu-los amb precaució."
 
 # AI Translated
 #, c-format, boost-format
-msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution."
+msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mmhigh-flow nozzles. Use with caution."
 msgstr "%s té risc d'obturació del broquet quan s'utilitzen broquets d'alt flux de 0,4, 0,6 i 0,8 mm. Utilitzeu-lo amb precaució."
 
 # AI Translated
@@ -16006,7 +16006,7 @@ msgid ""
 "\n"
 "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
 "\n"
-"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+"Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
 msgstr ""
 "Alçada màxima de la capa per a l'ompliment dispers combinat.\n"
 "\n"
@@ -17655,8 +17655,8 @@ msgstr "Tancar els forats"
 msgid "Z offset"
 msgstr "Separació Z"
 
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
-msgstr "Aquest valor serà sumat ( o restat ) de totes les coordenades Z al Codi-G de sortida. S'usa per compensar una mala posició del final de carrera Z: per exemple, si el teu final de carrera deixa el broquet a 0.3mm de la placa d'impressió, ajusta'l a -0.3 ( o repara el final de carrera )."
+msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mmfar from the print bed, set this to -0.3 (or fix your endstop)."
+msgstr "Aquest valor serà sumat ( o restat ) de totes les coordenades Z al Codi-G de sortida. S'usa per compensar una mala posició del final de carrera Z: per exemple, si el teu final de carrera deixa el broquet a 0.3 mmde la placa d'impressió, ajusta'l a -0.3 ( o repara el final de carrera )."
 
 msgid "Enable support"
 msgstr "Habilitar suports"
@@ -20921,8 +20921,8 @@ msgid "The number of printer extruders and the printer selected for calibration 
 msgstr "El nombre d'extrusors de la impressora i la impressora seleccionada per al calibratge no coincideixen."
 
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
-msgstr "El diàmetre del broquet de l'extrusor %s és 0.2mm i no admet el calibratge automàtic de la dinàmica de flux."
+msgid "The nozzle diameter of %s extruder is 0.2 mmwhich does not support automatic Flow Dynamics calibration."
+msgstr "El diàmetre del broquet de l'extrusor %s és 0.2 mmi no admet el calibratge automàtic de la dinàmica de flux."
 
 #, c-format, boost-format
 msgid ""
@@ -21489,37 +21489,37 @@ msgstr "Aquest és un filament de suport no soluble en aigua, i normalment és n
 msgid "The generic presets are conservatively tuned for compatibility with a wider range of filaments. For higher printing quality and speeds, please use Bambu filaments with Bambu presets."
 msgstr "Els perfils genèrics estan ajustats de manera conservadora per a la compatibilitat amb una gamma més àmplia de filaments. Per a una qualitat i velocitat d'impressió superior, utilitzeu filaments Bambu amb perfils Bambu."
 
-msgid "High quality profile for 0.2mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.2 mmnozzle, prioritizing print quality."
 msgstr "Perfil d'alta qualitat per a broquet de 0.2mm, prioritzant la qualitat d'impressió."
 
-msgid "High quality profile for 0.16mm layer height, prioritizing print quality and strength."
+msgid "High quality profile for 0.16 mmlayer height, prioritizing print quality and strength."
 msgstr "Perfil d'alta qualitat per a alçada de capa de 0.16mm, prioritzant la qualitat d'impressió i la resistència."
 
-msgid "Standard profile for 0.16mm layer height, prioritizing speed."
+msgid "Standard profile for 0.16 mmlayer height, prioritizing speed."
 msgstr "Perfil estàndard per a alçada de capa de 0.16mm, prioritzant la velocitat."
 
-msgid "High quality profile for 0.2mm layer height, prioritizing strength and print quality."
+msgid "High quality profile for 0.2 mmlayer height, prioritizing strength and print quality."
 msgstr "Perfil d'alta qualitat per a alçada de capa de 0.2mm, prioritzant la resistència i la qualitat d'impressió."
 
-msgid "Standard profile for 0.4mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.4 mmnozzle, prioritizing speed."
 msgstr "Perfil estàndard per a broquet de 0.4mm, prioritzant la velocitat."
 
-msgid "High quality profile for 0.6mm nozzle, prioritizing print quality and strength."
+msgid "High quality profile for 0.6 mmnozzle, prioritizing print quality and strength."
 msgstr "Perfil d'alta qualitat per a broquet de 0.6mm, prioritzant la qualitat d'impressió i la resistència."
 
-msgid "Strength profile for 0.6mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.6 mmnozzle, prioritizing strength."
 msgstr "Perfil de resistència per a broquet de 0.6mm, prioritzant la resistència."
 
-msgid "Standard profile for 0.6mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.6 mmnozzle, prioritizing speed."
 msgstr "Perfil estàndard per a broquet de 0.6mm, prioritzant la velocitat."
 
-msgid "High quality profile for 0.8mm nozzle, prioritizing print quality."
+msgid "High quality profile for 0.8 mmnozzle, prioritizing print quality."
 msgstr "Perfil d'alta qualitat per a broquet de 0.8mm, prioritzant la qualitat d'impressió."
 
-msgid "Strength profile for 0.8mm nozzle, prioritizing strength."
+msgid "Strength profile for 0.8 mmnozzle, prioritizing strength."
 msgstr "Perfil de resistència per a broquet de 0.8mm, prioritzant la resistència."
 
-msgid "Standard profile for 0.8mm nozzle, prioritizing speed."
+msgid "Standard profile for 0.8 mmnozzle, prioritizing speed."
 msgstr "Perfil estàndard per a broquet de 0.8mm, prioritzant la velocitat."
 
 msgid "No AMS"
@@ -26876,7 +26876,7 @@ msgstr ""
 #~ "Hem afegit l'estil experimental \"Arbres Prims\" que presenta un volum de suport més petit però una resistència més feble.\n"
 #~ "Recomanem utilitzar-lo amb: 0 capes d'interfície, 0 distància superior, 2 perímetres."
 
-#~ msgid "For \"Tree Strong\" and \"Tree Hybrid\" styles, we recommend the following settings: at least 2 interface layers, at least 0.1mm top z distance or using support materials on interface."
+#~ msgid "For \"Tree Strong\" and \"Tree Hybrid\" styles, we recommend the following settings: at least 2 interface layers, at least 0.1 mmtop z distance or using support materials on interface."
 #~ msgstr "Per als estils \"Arbres Forts\" i \"Arbres Híbrids\", recomanem la configuració següent: almenys 2 capes d'interfície, almenys 0.1 mm de distància z superior o utilitzar materials de suport a la interfície."
 
 #~ msgid "Branch Diameter with double walls"

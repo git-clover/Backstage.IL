@@ -97,100 +97,100 @@
 			"sub_path": "process/process_Standard_VIRTU E3.json"
 		},
 		{
-			"name": "0.10mm Fast @E3NG v1.2S",
-			"sub_path": "process/0.10mm Fast @E3NG v1.2S.json"
+			"name": "0.10 mmFast @E3NG v1.2S",
+			"sub_path": "process/0.10 mmFast @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.15mm Fast @E3NG v1.2S",
-			"sub_path": "process/0.15mm Fast @E3NG v1.2S.json"
+			"name": "0.15 mmFast @E3NG v1.2S",
+			"sub_path": "process/0.15 mmFast @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.20mm Fast @E3NG v1.2S",
-			"sub_path": "process/0.20mm Fast @E3NG v1.2S.json"
+			"name": "0.20 mmFast @E3NG v1.2S",
+			"sub_path": "process/0.20 mmFast @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.25mm Fast @E3NG v1.2S",
-			"sub_path": "process/0.25mm Fast @E3NG v1.2S.json"
+			"name": "0.25 mmFast @E3NG v1.2S",
+			"sub_path": "process/0.25 mmFast @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.10mm Fast @VIRTU E3",
-			"sub_path": "process/0.10mm Fast @VIRTU E3.json"
+			"name": "0.10 mmFast @VIRTU E3",
+			"sub_path": "process/0.10 mmFast @VIRTU E3.json"
 		},
 		{
-			"name": "0.15mm Fast @VIRTU E3",
-			"sub_path": "process/0.15mm Fast @VIRTU E3.json"
+			"name": "0.15 mmFast @VIRTU E3",
+			"sub_path": "process/0.15 mmFast @VIRTU E3.json"
 		},
 		{
-			"name": "0.20mm Fast @VIRTU E3",
-			"sub_path": "process/0.20mm Fast @VIRTU E3.json"
+			"name": "0.20 mmFast @VIRTU E3",
+			"sub_path": "process/0.20 mmFast @VIRTU E3.json"
 		},
 		{
-			"name": "0.25mm Fast @VIRTU E3",
-			"sub_path": "process/0.25mm Fast @VIRTU E3.json"
+			"name": "0.25 mmFast @VIRTU E3",
+			"sub_path": "process/0.25 mmFast @VIRTU E3.json"
 		},
 		{
-			"name": "0.10mm Slow @E3NG v1.2S",
-			"sub_path": "process/0.10mm Slow @E3NG v1.2S.json"
+			"name": "0.10 mmSlow @E3NG v1.2S",
+			"sub_path": "process/0.10 mmSlow @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.15mm Slow @E3NG v1.2S",
-			"sub_path": "process/0.15mm Slow @E3NG v1.2S.json"
+			"name": "0.15 mmSlow @E3NG v1.2S",
+			"sub_path": "process/0.15 mmSlow @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.20mm Slow @E3NG v1.2S",
-			"sub_path": "process/0.20mm Slow @E3NG v1.2S.json"
+			"name": "0.20 mmSlow @E3NG v1.2S",
+			"sub_path": "process/0.20 mmSlow @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.25mm Slow @E3NG v1.2S",
-			"sub_path": "process/0.25mm Slow @E3NG v1.2S.json"
+			"name": "0.25 mmSlow @E3NG v1.2S",
+			"sub_path": "process/0.25 mmSlow @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.10mm Slow @VIRTU E3",
-			"sub_path": "process/0.10mm Slow @VIRTU E3.json"
+			"name": "0.10 mmSlow @VIRTU E3",
+			"sub_path": "process/0.10 mmSlow @VIRTU E3.json"
 		},
 		{
-			"name": "0.15mm Slow @VIRTU E3",
-			"sub_path": "process/0.15mm Slow @VIRTU E3.json"
+			"name": "0.15 mmSlow @VIRTU E3",
+			"sub_path": "process/0.15 mmSlow @VIRTU E3.json"
 		},
 		{
-			"name": "0.20mm Slow @VIRTU E3",
-			"sub_path": "process/0.20mm Slow @VIRTU E3.json"
+			"name": "0.20 mmSlow @VIRTU E3",
+			"sub_path": "process/0.20 mmSlow @VIRTU E3.json"
 		},
 		{
-			"name": "0.25mm Slow @VIRTU E3",
-			"sub_path": "process/0.25mm Slow @VIRTU E3.json"
+			"name": "0.25 mmSlow @VIRTU E3",
+			"sub_path": "process/0.25 mmSlow @VIRTU E3.json"
 		},
 		{
-			"name": "0.10mm Standard @E3NG v1.2S",
-			"sub_path": "process/0.10mm Standard @E3NG v1.2S.json"
+			"name": "0.10 mmStandard @E3NG v1.2S",
+			"sub_path": "process/0.10 mmStandard @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.15mm Standard @E3NG v1.2S",
-			"sub_path": "process/0.15mm Standard @E3NG v1.2S.json"
+			"name": "0.15 mmStandard @E3NG v1.2S",
+			"sub_path": "process/0.15 mmStandard @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.20mm Standard @E3NG v1.2S",
-			"sub_path": "process/0.20mm Standard @E3NG v1.2S.json"
+			"name": "0.20 mmStandard @E3NG v1.2S",
+			"sub_path": "process/0.20 mmStandard @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.25mm Standard @E3NG v1.2S",
-			"sub_path": "process/0.25mm Standard @E3NG v1.2S.json"
+			"name": "0.25 mmStandard @E3NG v1.2S",
+			"sub_path": "process/0.25 mmStandard @E3NG v1.2S.json"
 		},
 		{
-			"name": "0.10mm Standard @VIRTU E3",
-			"sub_path": "process/0.10mm Standard @VIRTU E3.json"
+			"name": "0.10 mmStandard @VIRTU E3",
+			"sub_path": "process/0.10 mmStandard @VIRTU E3.json"
 		},
 		{
-			"name": "0.15mm Standard @VIRTU E3",
-			"sub_path": "process/0.15mm Standard @VIRTU E3.json"
+			"name": "0.15 mmStandard @VIRTU E3",
+			"sub_path": "process/0.15 mmStandard @VIRTU E3.json"
 		},
 		{
-			"name": "0.20mm Standard @VIRTU E3",
-			"sub_path": "process/0.20mm Standard @VIRTU E3.json"
+			"name": "0.20 mmStandard @VIRTU E3",
+			"sub_path": "process/0.20 mmStandard @VIRTU E3.json"
 		},
 		{
-			"name": "0.25mm Standard @VIRTU E3",
-			"sub_path": "process/0.25mm Standard @VIRTU E3.json"
+			"name": "0.25 mmStandard @VIRTU E3",
+			"sub_path": "process/0.25 mmStandard @VIRTU E3.json"
 		}
 	],
 	"filament_list": [

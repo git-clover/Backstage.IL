@@ -61,7 +61,7 @@ static bool brim_enters_first_layer_hole(Print &print)
 // height 0); per-object skirts are rejected in By object printing (no room between objects).
 TEST_CASE("Skirt is emitted once per layer it spans", "[SkirtBrim]")
 {
-    const int object_layers = 100; // 20mm cube at 0.2mm layers
+    const int object_layers = 100; // 20mm cube at 0.2 mmlayers
     const char *skirt_type   = GENERATE("combined", "perobject");
     const char *print_seq    = GENERATE("by layer", "by object");
     const char *draft_shield = GENERATE("disabled", "enabled");

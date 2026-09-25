@@ -23,7 +23,7 @@ constexpr double caged_wall_width       = 0.42; // mm, outer wall line width
 constexpr double caged_outer_wall_speed = 200.; // mm/s
 constexpr double caged_slow_speed       = 100.; // mm/s, between every configured overhang speed (<= 50) and the wall speed
 
-// A wall running 0.2mm out over a previous layer whose edge dishes 0.03mm away from it in the middle,
+// A wall running 0.2 mmout over a previous layer whose edge dishes 0.03 mmaway from it in the middle,
 // standing in for the endpoint readings a caged overhang perimeter takes: enough of a difference to
 // print at another speed, but only a fraction of the distance at which slowdown begins.
 constexpr double dished_wall_gap     = 0.2;   // mm, how far the wall runs out past the previous layer's edge
@@ -153,7 +153,7 @@ std::vector<double> cage_shoulder_feed_rates(const std::string& gcode)
     });
 }
 
-// The readings a 40mm wall takes over a previous layer whose edge falls away by 0.03mm towards the
+// The readings a 40mm wall takes over a previous layer whose edge falls away by 0.03 mmtowards the
 // middle: both ends read the same, and the middle reads slightly further out over air. Whether that
 // middle reading survives is what decides the speed the wall is printed at.
 std::vector<ExtendedPoint<2>> sampled_wall_over_dished_layer(const std::function<float(float)>& distance_to_speed)
@@ -336,7 +336,7 @@ TEST_CASE("Supported vertical walls keep their normal speed", "[ExtrusionProcess
     REQUIRE(slowest >= caged_slow_speed * MM_PER_MIN);
 }
 
-// The slope's top edge falls mid layer, so the first layer above it still stands 0.179mm proud of the layer
+// The slope's top edge falls mid layer, so the first layer above it still stands 0.179 mmproud of the layer
 // below wherever that layer was still on the slope. That is a real overhang and is slowed, but it ends with the
 // slope: outside the slope's x range the box runs full height, so the same wall stands on a contour identical to
 // its own. Sampling the interior of that wall at a single point reported one support reading for all of it and

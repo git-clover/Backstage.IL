@@ -27,156 +27,156 @@
 			"sub_path": "process/fdm_process_tinyBotV1_common.json"
 		},
 		{
-			"name": "0.06mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.06mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.06 mmExtra Fine @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.06 mmExtra Fine @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.08mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.08 mmExtra Fine @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.08 mmExtra Fine @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.08mm Fine @WEMAKE3D PhoenixProV1 0.2mm nozzle",
-			"sub_path": "process/0.08mm Fine @WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+			"name": "0.08 mmFine @WEMAKE3D PhoenixProV1 0.2 mmnozzle",
+			"sub_path": "process/0.08 mmFine @WEMAKE3D PhoenixProV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle",
-			"sub_path": "process/0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+			"name": "0.12 mmExtra Fine @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+			"sub_path": "process/0.12 mmExtra Fine @WEMAKE3D PhoenixProV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
-			"sub_path": "process/0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+			"name": "0.12 mmExtra Fine @WEMAKE3D PhoenixProV1 0.6 mmnozzle",
+			"sub_path": "process/0.12 mmExtra Fine @WEMAKE3D PhoenixProV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.12mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.12 mmFine @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.12 mmFine @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.15mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle",
-			"sub_path": "process/0.15mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+			"name": "0.15 mmDraft @WEMAKE3D PhoenixProV1 0.2 mmnozzle",
+			"sub_path": "process/0.15 mmDraft @WEMAKE3D PhoenixProV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "0.15mm Standard @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.15mm Standard @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.15 mmStandard @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.15 mmStandard @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.16mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle",
-			"sub_path": "process/0.16mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+			"name": "0.16 mmDraft @WEMAKE3D PhoenixProV1 0.2 mmnozzle",
+			"sub_path": "process/0.16 mmDraft @WEMAKE3D PhoenixProV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "0.1mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle",
-			"sub_path": "process/0.1mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+			"name": "0.1 mmExtra Fine @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+			"sub_path": "process/0.1 mmExtra Fine @WEMAKE3D PhoenixProV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.1mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.1mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.1 mmFine @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.1 mmFine @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.24mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.24 mmDraft @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.24 mmDraft @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.25mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "process/0.25mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "0.25 mmDraft @WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "process/0.25 mmDraft @WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.25mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
-			"sub_path": "process/0.25mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+			"name": "0.25 mmFine @WEMAKE3D PhoenixProV1 0.6 mmnozzle",
+			"sub_path": "process/0.25 mmFine @WEMAKE3D PhoenixProV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.2mm Standard @WEMAKE3D PhoenixProV1 0.4mm nozzle",
-			"sub_path": "process/0.2mm Standard @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+			"name": "0.2 mmStandard @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+			"sub_path": "process/0.2 mmStandard @WEMAKE3D PhoenixProV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.32mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle",
-			"sub_path": "process/0.32mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+			"name": "0.32 mmDraft @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+			"sub_path": "process/0.32 mmDraft @WEMAKE3D PhoenixProV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.3mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle",
-			"sub_path": "process/0.3mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+			"name": "0.3 mmDraft @WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+			"sub_path": "process/0.3 mmDraft @WEMAKE3D PhoenixProV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.48mm Extra Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle",
-			"sub_path": "process/0.48mm Extra Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+			"name": "0.48 mmExtra Draft @WEMAKE3D PhoenixProV1 0.6 mmnozzle",
+			"sub_path": "process/0.48 mmExtra Draft @WEMAKE3D PhoenixProV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.4mm Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle",
-			"sub_path": "process/0.4mm Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+			"name": "0.4 mmDraft @WEMAKE3D PhoenixProV1 0.6 mmnozzle",
+			"sub_path": "process/0.4 mmDraft @WEMAKE3D PhoenixProV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.06mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.06mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.06 mmExtra Fine @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.06 mmExtra Fine @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.08mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.08 mmExtra Fine @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.08 mmExtra Fine @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.08mm Fine @WEMAKE3D TinyBotV1 0.2mm nozzle",
-			"sub_path": "process/0.08mm Fine @WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+			"name": "0.08 mmFine @WEMAKE3D TinyBotV1 0.2 mmnozzle",
+			"sub_path": "process/0.08 mmFine @WEMAKE3D TinyBotV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle",
-			"sub_path": "process/0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+			"name": "0.12 mmExtra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+			"sub_path": "process/0.12 mmExtra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.6mm nozzle",
-			"sub_path": "process/0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+			"name": "0.12 mmExtra Fine @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+			"sub_path": "process/0.12 mmExtra Fine @WEMAKE3D TinyBotV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.12mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.12 mmFine @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.12 mmFine @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.15mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
-			"sub_path": "process/0.15mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+			"name": "0.15 mmDraft @WEMAKE3D TinyBotV1 0.2 mmnozzle",
+			"sub_path": "process/0.15 mmDraft @WEMAKE3D TinyBotV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "0.15mm Standard @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.15mm Standard @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.15 mmStandard @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.15 mmStandard @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.16mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
-			"sub_path": "process/0.16mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+			"name": "0.16 mmDraft @WEMAKE3D TinyBotV1 0.2 mmnozzle",
+			"sub_path": "process/0.16 mmDraft @WEMAKE3D TinyBotV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "0.1mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle",
-			"sub_path": "process/0.1mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+			"name": "0.1 mmExtra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+			"sub_path": "process/0.1 mmExtra Fine @WEMAKE3D TinyBotV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.1mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.1mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.1 mmFine @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.1 mmFine @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.24mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.24 mmDraft @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.24 mmDraft @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.25mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "process/0.25mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "0.25 mmDraft @WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "process/0.25 mmDraft @WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "0.25mm Fine @WEMAKE3D TinyBotV1 0.6mm nozzle",
-			"sub_path": "process/0.25mm Fine @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+			"name": "0.25 mmFine @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+			"sub_path": "process/0.25 mmFine @WEMAKE3D TinyBotV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.2mm Standard @WEMAKE3D TinyBotV1 0.4mm nozzle",
-			"sub_path": "process/0.2mm Standard @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+			"name": "0.2 mmStandard @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+			"sub_path": "process/0.2 mmStandard @WEMAKE3D TinyBotV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.32mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle",
-			"sub_path": "process/0.32mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+			"name": "0.32 mmDraft @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+			"sub_path": "process/0.32 mmDraft @WEMAKE3D TinyBotV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.3mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle",
-			"sub_path": "process/0.3mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+			"name": "0.3 mmDraft @WEMAKE3D TinyBotV1 0.4 mmnozzle",
+			"sub_path": "process/0.3 mmDraft @WEMAKE3D TinyBotV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "0.48mm Extra Draft @WEMAKE3D TinyBotV1 0.6mm nozzle",
-			"sub_path": "process/0.48mm Extra Draft @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+			"name": "0.48 mmExtra Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+			"sub_path": "process/0.48 mmExtra Draft @WEMAKE3D TinyBotV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "0.4mm Draft @WEMAKE3D TinyBotV1 0.6mm nozzle",
-			"sub_path": "process/0.4mm Draft @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+			"name": "0.4 mmDraft @WEMAKE3D TinyBotV1 0.6 mmnozzle",
+			"sub_path": "process/0.4 mmDraft @WEMAKE3D TinyBotV1 0.6 mmnozzle.json"
 		}
 	],
 	"filament_list": [],
@@ -194,36 +194,36 @@
 			"sub_path": "machine/fdm_machine_tinybotv1_common.json"
 		},
 		{
-			"name": "WEMAKE3D PhoenixProV1 0.2mm nozzle",
-			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+			"name": "WEMAKE3D PhoenixProV1 0.2 mmnozzle",
+			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D PhoenixProV1 0.3mm nozzle",
-			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+			"name": "WEMAKE3D PhoenixProV1 0.3 mmnozzle",
+			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D PhoenixProV1 0.4mm nozzle",
-			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+			"name": "WEMAKE3D PhoenixProV1 0.4 mmnozzle",
+			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D PhoenixProV1 0.6mm nozzle",
-			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+			"name": "WEMAKE3D PhoenixProV1 0.6 mmnozzle",
+			"sub_path": "machine/WEMAKE3D PhoenixProV1 0.6 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D TinyBotV1 0.2mm nozzle",
-			"sub_path": "machine/WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+			"name": "WEMAKE3D TinyBotV1 0.2 mmnozzle",
+			"sub_path": "machine/WEMAKE3D TinyBotV1 0.2 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D TinyBotV1 0.3mm nozzle",
-			"sub_path": "machine/WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+			"name": "WEMAKE3D TinyBotV1 0.3 mmnozzle",
+			"sub_path": "machine/WEMAKE3D TinyBotV1 0.3 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D TinyBotV1 0.4mm nozzle",
-			"sub_path": "machine/WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+			"name": "WEMAKE3D TinyBotV1 0.4 mmnozzle",
+			"sub_path": "machine/WEMAKE3D TinyBotV1 0.4 mmnozzle.json"
 		},
 		{
-			"name": "WEMAKE3D TinyBotV1 0.6mm nozzle",
-			"sub_path": "machine/WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+			"name": "WEMAKE3D TinyBotV1 0.6 mmnozzle",
+			"sub_path": "machine/WEMAKE3D TinyBotV1 0.6 mmnozzle.json"
 		}
 	]
 }

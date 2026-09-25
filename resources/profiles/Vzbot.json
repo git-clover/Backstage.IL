@@ -39,76 +39,76 @@
 			"sub_path": "process/fdm_process_Vzbot_common_0.6_nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Vzbot",
-			"sub_path": "process/0.08mm Extra Fine @Vzbot.json"
+			"name": "0.08 mmExtra Fine @Vzbot",
+			"sub_path": "process/0.08 mmExtra Fine @Vzbot.json"
 		},
 		{
-			"name": "0.12mm Fine @Vzbot",
-			"sub_path": "process/0.12mm Fine @Vzbot.json"
+			"name": "0.12 mmFine @Vzbot",
+			"sub_path": "process/0.12 mmFine @Vzbot.json"
 		},
 		{
-			"name": "0.15mm Optimal @Vzbot",
-			"sub_path": "process/0.15mm Optimal @Vzbot.json"
+			"name": "0.15 mmOptimal @Vzbot",
+			"sub_path": "process/0.15 mmOptimal @Vzbot.json"
 		},
 		{
-			"name": "0.20mm Standard @Vzbot",
-			"sub_path": "process/0.20mm Standard @Vzbot.json"
+			"name": "0.20 mmStandard @Vzbot",
+			"sub_path": "process/0.20 mmStandard @Vzbot.json"
 		},
 		{
-			"name": "0.24mm Draft @Vzbot",
-			"sub_path": "process/0.24mm Draft @Vzbot.json"
+			"name": "0.24 mmDraft @Vzbot",
+			"sub_path": "process/0.24 mmDraft @Vzbot.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Vzbot",
-			"sub_path": "process/0.28mm Extra Draft @Vzbot.json"
+			"name": "0.28 mmExtra Draft @Vzbot",
+			"sub_path": "process/0.28 mmExtra Draft @Vzbot.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Vzbot 0.5nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Vzbot_0.5_nozzle.json"
+			"name": "0.28 mmExtra Draft @Vzbot 0.5nozzle",
+			"sub_path": "process/0.28 mmExtra Draft @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Vzbot 0.6nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Vzbot_0.6_nozzle.json"
+			"name": "0.28 mmExtra Draft @Vzbot 0.6nozzle",
+			"sub_path": "process/0.28 mmExtra Draft @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Vzbot 0.5nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Vzbot_0.5_nozzle.json"
+			"name": "0.08 mmExtra Fine @Vzbot 0.5nozzle",
+			"sub_path": "process/0.08 mmExtra Fine @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Vzbot 0.5nozzle",
-			"sub_path": "process/0.12mm Fine @Vzbot_0.5_nozzle.json"
+			"name": "0.12 mmFine @Vzbot 0.5nozzle",
+			"sub_path": "process/0.12 mmFine @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.15mm Optimal @Vzbot 0.5nozzle",
-			"sub_path": "process/0.15mm Optimal @Vzbot_0.5_nozzle.json"
+			"name": "0.15 mmOptimal @Vzbot 0.5nozzle",
+			"sub_path": "process/0.15 mmOptimal @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Vzbot 0.5nozzle",
-			"sub_path": "process/0.20mm Standard @Vzbot_0.5_nozzle.json"
+			"name": "0.20 mmStandard @Vzbot 0.5nozzle",
+			"sub_path": "process/0.20 mmStandard @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Vzbot 0.5nozzle",
-			"sub_path": "process/0.24mm Draft @Vzbot_0.5_nozzle.json"
+			"name": "0.24 mmDraft @Vzbot 0.5nozzle",
+			"sub_path": "process/0.24 mmDraft @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Vzbot 0.6nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Vzbot_0.6_nozzle.json"
+			"name": "0.08 mmExtra Fine @Vzbot 0.6nozzle",
+			"sub_path": "process/0.08 mmExtra Fine @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Vzbot 0.6nozzle",
-			"sub_path": "process/0.12mm Fine @Vzbot_0.6_nozzle.json"
+			"name": "0.12 mmFine @Vzbot 0.6nozzle",
+			"sub_path": "process/0.12 mmFine @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.15mm Optimal @Vzbot 0.6nozzle",
-			"sub_path": "process/0.15mm Optimal @Vzbot_0.6_nozzle.json"
+			"name": "0.15 mmOptimal @Vzbot 0.6nozzle",
+			"sub_path": "process/0.15 mmOptimal @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Vzbot 0.6nozzle",
-			"sub_path": "process/0.20mm Standard @Vzbot_0.6_nozzle.json"
+			"name": "0.20 mmStandard @Vzbot 0.6nozzle",
+			"sub_path": "process/0.20 mmStandard @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Vzbot 0.6nozzle",
-			"sub_path": "process/0.24mm Draft @Vzbot_0.6_nozzle.json"
+			"name": "0.24 mmDraft @Vzbot 0.6nozzle",
+			"sub_path": "process/0.24 mmDraft @Vzbot_0.6_nozzle.json"
 		}
 	],
 	"filament_list": [

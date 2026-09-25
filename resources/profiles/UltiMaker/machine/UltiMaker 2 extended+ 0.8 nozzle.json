@@ -7,7 +7,7 @@
   "instantiation": "true",
   "printer_model": "UltiMaker 2 extended+",
   "printable_height": "305",
-  "default_print_profile": "0.20mm Standard @UltiMaker 2 extended+ 0.8 nozzle",
+  "default_print_profile": "0.20 mmStandard @UltiMaker 2 extended+ 0.8 nozzle",
   "default_filament_profile": ["Generic PLA @UltiMaker 2 extended+ 0.8 nozzle"],
   "printer_variant": "0.8"
 }

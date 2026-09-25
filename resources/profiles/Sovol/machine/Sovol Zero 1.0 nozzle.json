@@ -6,7 +6,7 @@
 	"instantiation": "true",
 	"inherits": "fdm_machine_common",
 	"printer_model": "Sovol Zero",
-	"default_print_profile": "0.50mm Standard @Sovol Zero 1.0 nozzle",
+	"default_print_profile": "0.50 mmStandard @Sovol Zero 1.0 nozzle",
 	"printer_variant": "1.0",
 	"nozzle_diameter": [
 		"1.0"

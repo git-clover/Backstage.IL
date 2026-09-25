@@ -123,7 +123,7 @@
 		"1"
 	],
 	"default_filament_profile": [],
-	"default_print_profile": "0.20mm Standard @Afinia H+1(HS)",
+	"default_print_profile": "0.20 mmStandard @Afinia H+1(HS)",
 	"bed_exclude_area": [
 		"0x0"
 	],

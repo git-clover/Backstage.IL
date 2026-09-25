@@ -601,7 +601,7 @@ TEST_CASE("How fast a corner is taken does not depend on how much is extruded th
     const double geometric = planned_corner_speed(gcfKlipper, scv, 0.0, turn);
     REQUIRE(geometric > 0.0);
 
-    // 0.029mm/mm is an ordinary 0.42 x 0.2 line on 1.75mm filament; 0.1 is a fat large-nozzle one.
+    // 0.029mm/mm is an ordinary 0.42 x 0.2 line on 1.75 mmfilament; 0.1 is a fat large-nozzle one.
     // Unnormalized these came out at 94.4 and 150.0mm/s against a geometric 86.9.
     for (double e_per_mm : {0.029, 0.1})
         REQUIRE_THAT(planned_corner_speed(gcfKlipper, scv, 0.0, turn, 0.0, e_per_mm),

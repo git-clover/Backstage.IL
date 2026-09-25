@@ -23,32 +23,32 @@
 			"sub_path": "process/fdm_process_seckit_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @SecKit",
-			"sub_path": "process/0.08mm Extra Fine @SecKit.json"
+			"name": "0.08 mmExtra Fine @SecKit",
+			"sub_path": "process/0.08 mmExtra Fine @SecKit.json"
 		},
 		{
-			"name": "0.12mm Fine @SecKit",
-			"sub_path": "process/0.12mm Fine @SecKit.json"
+			"name": "0.12 mmFine @SecKit",
+			"sub_path": "process/0.12 mmFine @SecKit.json"
 		},
 		{
-			"name": "0.15mm Optimal @SecKit",
-			"sub_path": "process/0.15mm Optimal @SecKit.json"
+			"name": "0.15 mmOptimal @SecKit",
+			"sub_path": "process/0.15 mmOptimal @SecKit.json"
 		},
 		{
-			"name": "0.20mm Standard @SecKit",
-			"sub_path": "process/0.20mm Standard @SecKit.json"
+			"name": "0.20 mmStandard @SecKit",
+			"sub_path": "process/0.20 mmStandard @SecKit.json"
 		},
 		{
-			"name": "0.24mm Draft @SecKit",
-			"sub_path": "process/0.24mm Draft @SecKit.json"
+			"name": "0.24 mmDraft @SecKit",
+			"sub_path": "process/0.24 mmDraft @SecKit.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @SecKit",
-			"sub_path": "process/0.28mm Extra Draft @SecKit.json"
+			"name": "0.28 mmExtra Draft @SecKit",
+			"sub_path": "process/0.28 mmExtra Draft @SecKit.json"
 		},
 		{
-			"name": "0.30mm Fast @SecKit",
-			"sub_path": "process/0.30mm Fast @SecKit.json"
+			"name": "0.30 mmFast @SecKit",
+			"sub_path": "process/0.30 mmFast @SecKit.json"
 		}
 	],
 	"filament_list": [

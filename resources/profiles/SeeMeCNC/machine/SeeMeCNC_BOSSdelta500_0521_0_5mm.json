@@ -27,7 +27,7 @@
 	"default_nozzle_volume_type": [
 		"Standard"
 	],
-	"default_print_profile": "0.25mm Standard @SeeMeCNC BOSSdelta 500 0521 0.5",
+	"default_print_profile": "0.25 mmStandard @SeeMeCNC BOSSdelta 500 0521 0.5",
 	"deretraction_speed": [
 		"60"
 	],

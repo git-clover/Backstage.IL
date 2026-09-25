@@ -258,11 +258,11 @@ void check_filaments(const DevFilaBlacklist::CheckFilamentInfo& check_info, DevF
             result_item.action = action;
             result_item.wiki_url = filament_item.contains("wiki") ? filament_item["wiki"].get<std::string>() : "";
 
-            if (description == "%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution.") {
+            if (description == "%s has a risk of nozzle clogging when using 0.4 mmhigh-flow nozzles. Use with caution.") {
                 result_item.info_msg = wxString::Format(_L(description), check_info.fila_name);
-            } else if (description == "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution.") {
+            } else if (description == "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mmhigh-flow nozzles. Use with caution.") {
                 result_item.info_msg = wxString::Format(_L(description), check_info.fila_type);
-            } else if (description == "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution.") {
+            } else if (description == "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mmhigh-flow nozzles. Use with caution.") {
                 result_item.info_msg = wxString::Format(_L(description), check_info.fila_name);
             } else if (description == "%s may fail to load or unload due to the Filament Track Switch. If you wish to continue.") {
                 result_item.info_msg = wxString::Format(_L(description), check_info.fila_name);
@@ -293,9 +293,9 @@ void check_filaments(const DevFilaBlacklist::CheckFilamentInfo& check_info, DevF
             L("PPS-CF is brittle and could break in bended PTFE tube above Toolhead.");
             L("PPA-CF is brittle and could break in bended PTFE tube above Toolhead.");
             L("Default settings may affect print quality. Adjust as needed for best results.");
-            L("%s has a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution.");
-            L("%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4mm high-flow nozzles. Use with caution.");
-            L("%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8mm high-flow nozzles. Use with caution.");
+            L("%s has a risk of nozzle clogging when using 0.4 mmhigh-flow nozzles. Use with caution.");
+            L("%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mmhigh-flow nozzles. Use with caution.");
+            L("%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mmhigh-flow nozzles. Use with caution.");
             L("%s may fail to load or unload due to the Filament Track Switch. If you wish to continue.");
         }
     }

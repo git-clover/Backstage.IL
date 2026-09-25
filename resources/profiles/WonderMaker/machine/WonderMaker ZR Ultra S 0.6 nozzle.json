@@ -12,7 +12,7 @@
 		"0.6",
 		"0.6"
 	],
-	"default_print_profile": "0.30mm Standard @WonderMaker ZR Ultra 0.6 nozzle",
+	"default_print_profile": "0.30 mmStandard @WonderMaker ZR Ultra 0.6 nozzle",
 	"printer_variant": "0.6",
 	"support_air_filtration": "1",
 	"support_chamber_temp_control": "1"

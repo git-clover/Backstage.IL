@@ -67,52 +67,52 @@
 			"sub_path": "process/fdm_process_wanhao_common.json"
 		},
 		{
-			"name": "0.12mm Fine @Wanhao D12-400",
-			"sub_path": "process/0.12mm Fine @Wanhao D12-300.json"
+			"name": "0.12 mmFine @Wanhao D12-400",
+			"sub_path": "process/0.12 mmFine @Wanhao D12-300.json"
 		},
 		{
-			"name": "0.15mm Optimal @Wanhao D12-300",
-			"sub_path": "process/0.15mm Optimal @Wanhao D12-300.json"
+			"name": "0.15 mmOptimal @Wanhao D12-300",
+			"sub_path": "process/0.15 mmOptimal @Wanhao D12-300.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao D12-300",
-			"sub_path": "process/0.20mm Standard @Wanhao D12-300.json"
+			"name": "0.20 mmStandard @Wanhao D12-300",
+			"sub_path": "process/0.20 mmStandard @Wanhao D12-300.json"
 		},
 		{
-			"name": "0.24mm Draft @Wanhao D12-300",
-			"sub_path": "process/0.24mm Draft @Wanhao D12-300.json"
+			"name": "0.24 mmDraft @Wanhao D12-300",
+			"sub_path": "process/0.24 mmDraft @Wanhao D12-300.json"
 		},
 		{
 			"name": "fdm_process_wanhao_d9_common",
 			"sub_path": "process/fdm_process_wanhao_d9_common.json"
 		},
 		{
-			"name": "0.12mm Fine @Wanhao D9",
-			"sub_path": "process/0.12mm Fine @Wanhao D9.json"
+			"name": "0.12 mmFine @Wanhao D9",
+			"sub_path": "process/0.12 mmFine @Wanhao D9.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao D9",
-			"sub_path": "process/0.20mm Standard @Wanhao D9.json"
+			"name": "0.20 mmStandard @Wanhao D9",
+			"sub_path": "process/0.20 mmStandard @Wanhao D9.json"
 		},
 		{
-			"name": "0.28mm Draft @Wanhao D9",
-			"sub_path": "process/0.28mm Draft @Wanhao D9.json"
+			"name": "0.28 mmDraft @Wanhao D9",
+			"sub_path": "process/0.28 mmDraft @Wanhao D9.json"
 		},
 		{
 			"name": "fdm_process_wanhao_d9_mk1_common",
 			"sub_path": "process/fdm_process_wanhao_d9_mk1_common.json"
 		},
 		{
-			"name": "0.12mm Fine @Wanhao D9 MK1",
-			"sub_path": "process/0.12mm Fine @Wanhao D9 MK1.json"
+			"name": "0.12 mmFine @Wanhao D9 MK1",
+			"sub_path": "process/0.12 mmFine @Wanhao D9 MK1.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao D9 MK1",
-			"sub_path": "process/0.20mm Standard @Wanhao D9 MK1.json"
+			"name": "0.20 mmStandard @Wanhao D9 MK1",
+			"sub_path": "process/0.20 mmStandard @Wanhao D9 MK1.json"
 		},
 		{
-			"name": "0.28mm Draft @Wanhao D9 MK1",
-			"sub_path": "process/0.28mm Draft @Wanhao D9 MK1.json"
+			"name": "0.28 mmDraft @Wanhao D9 MK1",
+			"sub_path": "process/0.28 mmDraft @Wanhao D9 MK1.json"
 		}
 	],
 	"filament_list": [],

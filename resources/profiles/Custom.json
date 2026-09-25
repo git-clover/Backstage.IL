@@ -47,140 +47,140 @@
 			"sub_path": "process/fdm_process_rrf_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @MyKlipper",
-			"sub_path": "process/0.08mm Extra Fine @MyKlipper.json"
+			"name": "0.08 mmExtra Fine @MyKlipper",
+			"sub_path": "process/0.08 mmExtra Fine @MyKlipper.json"
 		},
 		{
-			"name": "0.12mm Fine @MyKlipper",
-			"sub_path": "process/0.12mm Fine @MyKlipper.json"
+			"name": "0.12 mmFine @MyKlipper",
+			"sub_path": "process/0.12 mmFine @MyKlipper.json"
 		},
 		{
-			"name": "0.15mm Optimal @MyKlipper",
-			"sub_path": "process/0.15mm Optimal @MyKlipper.json"
+			"name": "0.15 mmOptimal @MyKlipper",
+			"sub_path": "process/0.15 mmOptimal @MyKlipper.json"
 		},
 		{
-			"name": "0.16mm Optimal @MyKlipper",
-			"sub_path": "process/0.16mm Optimal @MyKlipper.json"
+			"name": "0.16 mmOptimal @MyKlipper",
+			"sub_path": "process/0.16 mmOptimal @MyKlipper.json"
 		},
 		{
-			"name": "0.20mm Standard @MyKlipper",
-			"sub_path": "process/0.20mm Standard @MyKlipper.json"
+			"name": "0.20 mmStandard @MyKlipper",
+			"sub_path": "process/0.20 mmStandard @MyKlipper.json"
 		},
 		{
-			"name": "0.24mm Draft @MyKlipper",
-			"sub_path": "process/0.24mm Draft @MyKlipper.json"
+			"name": "0.24 mmDraft @MyKlipper",
+			"sub_path": "process/0.24 mmDraft @MyKlipper.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @MyKlipper",
-			"sub_path": "process/0.28mm Extra Draft @MyKlipper.json"
+			"name": "0.28 mmExtra Draft @MyKlipper",
+			"sub_path": "process/0.28 mmExtra Draft @MyKlipper.json"
 		},
 		{
-			"name": "0.32mm Standard @MyKlipper",
-			"sub_path": "process/0.32mm Extra Draft @MyKlipper.json"
+			"name": "0.32 mmStandard @MyKlipper",
+			"sub_path": "process/0.32 mmExtra Draft @MyKlipper.json"
 		},
 		{
-			"name": "0.40mm Standard @MyKlipper",
-			"sub_path": "process/0.40mm Extra Draft @MyKlipper.json"
+			"name": "0.40 mmStandard @MyKlipper",
+			"sub_path": "process/0.40 mmExtra Draft @MyKlipper.json"
 		},
 		{
-			"name": "0.56mm Standard @MyKlipper",
-			"sub_path": "process/0.56mm Extra Draft @MyKlipper.json"
+			"name": "0.56 mmStandard @MyKlipper",
+			"sub_path": "process/0.56 mmExtra Draft @MyKlipper.json"
 		},
 		{
 			"name": "fdm_process_mytoolchanger_common",
 			"sub_path": "process/fdm_process_mytoolchanger_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @MyMarlin",
-			"sub_path": "process/0.08mm Extra Fine @MyMarlin.json"
+			"name": "0.08 mmExtra Fine @MyMarlin",
+			"sub_path": "process/0.08 mmExtra Fine @MyMarlin.json"
 		},
 		{
-			"name": "0.12mm Fine @MyMarlin",
-			"sub_path": "process/0.12mm Fine @MyMarlin.json"
+			"name": "0.12 mmFine @MyMarlin",
+			"sub_path": "process/0.12 mmFine @MyMarlin.json"
 		},
 		{
-			"name": "0.15mm Optimal @MyMarlin",
-			"sub_path": "process/0.15mm Optimal @MyMarlin.json"
+			"name": "0.15 mmOptimal @MyMarlin",
+			"sub_path": "process/0.15 mmOptimal @MyMarlin.json"
 		},
 		{
-			"name": "0.20mm Standard @MyMarlin",
-			"sub_path": "process/0.20mm Standard @MyMarlin.json"
+			"name": "0.20 mmStandard @MyMarlin",
+			"sub_path": "process/0.20 mmStandard @MyMarlin.json"
 		},
 		{
-			"name": "0.24mm Draft @MyMarlin",
-			"sub_path": "process/0.24mm Draft @MyMarlin.json"
+			"name": "0.24 mmDraft @MyMarlin",
+			"sub_path": "process/0.24 mmDraft @MyMarlin.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @MyMarlin",
-			"sub_path": "process/0.28mm Extra Draft @MyMarlin.json"
+			"name": "0.28 mmExtra Draft @MyMarlin",
+			"sub_path": "process/0.28 mmExtra Draft @MyMarlin.json"
 		},
 		{
-			"name": "0.20mm Standard @MyRepetier",
-			"sub_path": "process/0.20mm Standard @MyRepetier.json"
+			"name": "0.20 mmStandard @MyRepetier",
+			"sub_path": "process/0.20 mmStandard @MyRepetier.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @MyRRF",
-			"sub_path": "process/0.08mm Extra Fine @MyRRF.json"
+			"name": "0.08 mmExtra Fine @MyRRF",
+			"sub_path": "process/0.08 mmExtra Fine @MyRRF.json"
 		},
 		{
-			"name": "0.12mm Fine @MyRRF",
-			"sub_path": "process/0.12mm Fine @MyRRF.json"
+			"name": "0.12 mmFine @MyRRF",
+			"sub_path": "process/0.12 mmFine @MyRRF.json"
 		},
 		{
-			"name": "0.15mm Optimal @MyRRF",
-			"sub_path": "process/0.15mm Optimal @MyRRF.json"
+			"name": "0.15 mmOptimal @MyRRF",
+			"sub_path": "process/0.15 mmOptimal @MyRRF.json"
 		},
 		{
-			"name": "0.20mm Standard @MyRRF",
-			"sub_path": "process/0.20mm Standard @MyRRF.json"
+			"name": "0.20 mmStandard @MyRRF",
+			"sub_path": "process/0.20 mmStandard @MyRRF.json"
 		},
 		{
-			"name": "0.24mm Draft @MyRRF",
-			"sub_path": "process/0.24mm Draft @MyRRF.json"
+			"name": "0.24 mmDraft @MyRRF",
+			"sub_path": "process/0.24 mmDraft @MyRRF.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @MyRRF",
-			"sub_path": "process/0.28mm Extra Draft @MyRRF.json"
+			"name": "0.28 mmExtra Draft @MyRRF",
+			"sub_path": "process/0.28 mmExtra Draft @MyRRF.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @MyToolChanger",
-			"sub_path": "process/0.08mm Extra Fine @MyToolChanger.json"
+			"name": "0.08 mmExtra Fine @MyToolChanger",
+			"sub_path": "process/0.08 mmExtra Fine @MyToolChanger.json"
 		},
 		{
-			"name": "0.12mm Fine @MyToolChanger",
-			"sub_path": "process/0.12mm Fine @MyToolChanger.json"
+			"name": "0.12 mmFine @MyToolChanger",
+			"sub_path": "process/0.12 mmFine @MyToolChanger.json"
 		},
 		{
-			"name": "0.15mm Optimal @MyToolChanger",
-			"sub_path": "process/0.15mm Optimal @MyToolChanger.json"
+			"name": "0.15 mmOptimal @MyToolChanger",
+			"sub_path": "process/0.15 mmOptimal @MyToolChanger.json"
 		},
 		{
-			"name": "0.16mm Optimal @MyToolChanger",
-			"sub_path": "process/0.16mm Optimal @MyToolChanger.json"
+			"name": "0.16 mmOptimal @MyToolChanger",
+			"sub_path": "process/0.16 mmOptimal @MyToolChanger.json"
 		},
 		{
-			"name": "0.20mm Standard @MyToolChanger",
-			"sub_path": "process/0.20mm Standard @MyToolChanger.json"
+			"name": "0.20 mmStandard @MyToolChanger",
+			"sub_path": "process/0.20 mmStandard @MyToolChanger.json"
 		},
 		{
-			"name": "0.24mm Draft @MyToolChanger",
-			"sub_path": "process/0.24mm Draft @MyToolChanger.json"
+			"name": "0.24 mmDraft @MyToolChanger",
+			"sub_path": "process/0.24 mmDraft @MyToolChanger.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @MyToolChanger",
-			"sub_path": "process/0.28mm Extra Draft @MyToolChanger.json"
+			"name": "0.28 mmExtra Draft @MyToolChanger",
+			"sub_path": "process/0.28 mmExtra Draft @MyToolChanger.json"
 		},
 		{
-			"name": "0.32mm Extra Draft @MyToolChanger",
-			"sub_path": "process/0.32mm Extra Draft @MyToolChanger.json"
+			"name": "0.32 mmExtra Draft @MyToolChanger",
+			"sub_path": "process/0.32 mmExtra Draft @MyToolChanger.json"
 		},
 		{
-			"name": "0.40mm Standard @MyToolChanger",
-			"sub_path": "process/0.40mm Extra Draft @MyToolChanger.json"
+			"name": "0.40 mmStandard @MyToolChanger",
+			"sub_path": "process/0.40 mmExtra Draft @MyToolChanger.json"
 		},
 		{
-			"name": "0.56mm Standard @MyToolChanger",
-			"sub_path": "process/0.56mm Extra Draft @MyToolChanger.json"
+			"name": "0.56 mmStandard @MyToolChanger",
+			"sub_path": "process/0.56 mmExtra Draft @MyToolChanger.json"
 		}
 	],
 	"filament_list": [

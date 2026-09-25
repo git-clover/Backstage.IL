@@ -4500,7 +4500,7 @@ void PrintConfigDef::init_fff_params()
     def->tooltip = L("Maximum layer height for the combined sparse infill.\n\n"
                      "Set it to 0 or 100% to use the nozzle diameter (for maximum reduction in print time) or a value of ~80% to maximize sparse infill strength.\n\n"
                      "The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n\n"
-                     "Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger "
+                     "Use either absolute mm values (eg. 0.32 mmfor a 0.4 mmnozzle) or % values (eg 80%). This value must not be larger "
                      "than the nozzle diameter.");
     def->sidetext = L("mm or %");
     def->min = 0;
@@ -6783,7 +6783,7 @@ void PrintConfigDef::init_fff_params()
     def->label = L("Z offset");
     def->tooltip = L("This value will be added (or subtracted) from all the Z coordinates "
                    "in the output G-code. It is used to compensate for bad Z endstop position: "
-                   "for example, if your endstop zero actually leaves the nozzle 0.3mm far "
+                   "for example, if your endstop zero actually leaves the nozzle 0.3 mmfar "
                    "from the print bed, set this to -0.3 (or fix your endstop).");
     def->sidetext = L("mm");	// millimeters, CIS languages need translation
     def->mode = comAdvanced;

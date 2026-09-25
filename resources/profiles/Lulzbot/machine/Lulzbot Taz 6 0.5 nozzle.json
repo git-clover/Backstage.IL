@@ -6,7 +6,7 @@
 	"setting_id": "xwPUM4RYNg01eOO6",
 	"instantiation": "true",
 	"printer_model": "Lulzbot Taz 6",
-	"default_print_profile": "0.25mm Standard @Lulzbot Taz 6",
+	"default_print_profile": "0.25 mmStandard @Lulzbot Taz 6",
 	"nozzle_diameter": [
 		"0.5"
 	],

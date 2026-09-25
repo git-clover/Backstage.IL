@@ -6,7 +6,7 @@
 	"setting_id": "Jhc8WqYmrK3y65fQ",
 	"instantiation": "true",
 	"printer_model": "Lulzbot Mini 1",
-	"default_print_profile": "0.25mm Standard @Lulzbot Mini 1",
+	"default_print_profile": "0.25 mmStandard @Lulzbot Mini 1",
 	"nozzle_diameter": [
 		"0.5"
 	],

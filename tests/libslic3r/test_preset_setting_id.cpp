@@ -13,10 +13,10 @@ TEST_CASE("preset setting_id matches the Python reference", "[Preset][setting_id
     struct Vec { const char* vendor; const char* type; const char* name; const char* expected; };
     const Vec vectors[] = {
         {"Afinia",   "filament", "Afinia ABS @Afinia H400",                  "TL34qSVkppBvMvgH"},
-        {"Afinia",   "process",  "0.20mm Standard @Afinia H400",             "FzmtNsy7XQvpd7w0"},
+        {"Afinia",   "process",  "0.20 mmStandard @Afinia H400",             "FzmtNsy7XQvpd7w0"},
         {"Afinia",   "machine",  "Afinia H400 0.4 nozzle",                   "r4FZagW0S8uoaJPd"},
         {"Anycubic", "filament", "Generic PLA @Anycubic Kobra 2",            "YIWGGLQ8Oepd30Fv"},
-        {"Creality", "process",  "0.16mm Optimal @Creality Ender-3 V3",      "2Nrbq8PxssUPBLza"},
+        {"Creality", "process",  "0.16 mmOptimal @Creality Ender-3 V3",      "2Nrbq8PxssUPBLza"},
         {"Elegoo",   "machine",  "Elegoo Neptune 4 0.4 nozzle",              "69QdWuRQwAZk9rFu"},
     };
 

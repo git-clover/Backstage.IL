@@ -27,7 +27,7 @@
 	"default_nozzle_volume_type": [
 		"Standard"
 	],
-	"default_print_profile": "0.25mm Standard @SeeMeCNC RostockMAX v4 0.5",
+	"default_print_profile": "0.25 mmStandard @SeeMeCNC RostockMAX v4 0.5",
 	"deretraction_speed": [
 		"60"
 	],
