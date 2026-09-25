@@ -39,11 +39,7 @@ body
 .BtnItem:hover
 {
 	color: #efeff0;
-<<<<<<< HEAD
-	background-color: #223654;
-=======
 	background-color: var(--row-hover);
->>>>>>> upstream
 }
 
 .BtnItem:hover .LeftIcon
