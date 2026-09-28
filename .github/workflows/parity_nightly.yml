@@ -141,7 +141,7 @@ jobs:
         run: |
           set -euo pipefail
           gh run download "${{ needs.build.outputs.run_id }}" --dir appimage \
-            --pattern "OrcaSlicer_Linux_ubuntu_2404*"
+            --pattern "Backstage.IL_ubuntu2404*"
           appimage=$(find appimage -name "*.AppImage" ! -name "*aarch64*" | head -1)
           [ -n "$appimage" ] || { echo "no x86_64 AppImage in run ${{ needs.build.outputs.run_id }}"; exit 1; }
           chmod +x "$appimage"
