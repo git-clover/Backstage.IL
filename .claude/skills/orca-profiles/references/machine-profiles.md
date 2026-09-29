@@ -70,7 +70,7 @@ Every model also has a `<Model>_cover.png` in the vendor folder; treat it as req
     "printer_model": "Phrozen Arco",
     "printer_variant": "0.4",
     "nozzle_diameter": ["0.4"],
-    "default_print_profile": "0.20mm Standard @Phrozen Arco 0.4 nozzle",
+    "default_print_profile": "0.20 mm Standard @Phrozen Arco 0.4 nozzle",
     "default_filament_profile": ["Generic PLA @Phrozen Arco 0.4 nozzle"],
     "printable_area": ["0x0", "300x0", "300x300", "0x300"],
     "printable_height": "300"

@@ -23,7 +23,7 @@ layer height / nozzle ratio; it is a naming convention, not a loader constraint:
 This is the `fdm_process_single_<lh>_nozzle_<n>` ladder; 0.4 is commonly the unsuffixed nozzle default.
 Newer BBL printers add High Quality, Balanced Quality and Strength tiers. Match neighbouring names rather
 than renaming shipped tiers to fit the table. On a model with several nozzles, processes for the other
-nozzles usually carry the nozzle in the label (`0.30mm Standard @BBL X1C 0.6 nozzle`); follow the bundle.
+nozzles usually carry the nozzle in the label (`0.30 mm Standard @BBL X1C 0.6 nozzle`); follow the bundle.
 
 The `@target` is a human label, not a reference: it need not equal any printer variant name.
 Compatibility comes from the resolved list or condition, not this label.
