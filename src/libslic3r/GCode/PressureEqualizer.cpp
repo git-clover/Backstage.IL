@@ -54,8 +54,8 @@ PressureEqualizer::PressureEqualizer(const Slic3r::GCodeConfig &config) : m_use_
         m_filament_crossections.push_back(float(a));
     }
 
-    // Volumetric rate of a 0.45mm x 0.2mm extrusion at 60mm/s XY movement: 0.45*0.2*60*60=5.4*60 = 324 mm^3/min
-    // Volumetric rate of a 0.45mm x 0.2mm extrusion at 20mm/s XY movement: 0.45*0.2*20*60=1.8*60 = 108 mm^3/min
+    // Volumetric rate of a 0.45 mm x 0.2 mm extrusion at 60mm/s XY movement: 0.45*0.2*60*60=5.4*60 = 324 mm^3/min
+    // Volumetric rate of a 0.45 mm x 0.2 mm extrusion at 20mm/s XY movement: 0.45*0.2*20*60=1.8*60 = 108 mm^3/min
     // Slope of the volumetric rate, changing from 20mm/s to 60mm/s over 2 seconds: (5.4-1.8)*60*60/2=60*60*1.8 = 6480 mm^3/min^2 = 1.8 mm^3/s^2
     
     if(config.max_volumetric_extrusion_rate_slope.value > 0){
@@ -490,7 +490,7 @@ void PressureEqualizer::output_gcode_line(const size_t line_idx)
     
     // Orca:
     // Calculate the absolute difference in volumetric extrusion rate between the start and end point of the line.
-    // Quantize it to 1mm3/min (0.016mm3/sec).
+    // Quantize it to 1mm3/min (0.016 mm3/sec).
     int delta_volumetric_rate = std::round(std::max({
         fabs(line.volumetric_extrusion_rate_end - line.volumetric_extrusion_rate_start),
         // For line with accel-then-decel, we also calc the max difference to the peak
@@ -500,7 +500,7 @@ void PressureEqualizer::output_gcode_line(const size_t line_idx)
     
     // Emit the line with lowered extrusion rates.
     // Orca:
-    // First, check if the change in volumetric extrusion rate is trivial (less than 10mm3/min -> 0.16mm3/sec (5mm/sec speed for a 0.25 mm nozzle).
+    // First, check if the change in volumetric extrusion rate is trivial (less than 10mm3/min -> 0.16 mm3/sec (5mm/sec speed for a 0.25 mm nozzle).
     // Or if the line size is equal in length with the smallest segment.
     // If so, then emit the line as a single extrusion, i.e. dont split into segments.
     constexpr int NON_TRIVIAL_RATE_DELTA = 10;

@@ -6,7 +6,7 @@
 	"setting_id": "IZzmiYZXK5UBri4z",
 	"instantiation": "true",
 	"printer_model": "VS30ULTRA",
-	"default_print_profile": "Normal speed - 0.15mm",
+	"default_print_profile": "Normal speed - 0.15 mm",
 	"nozzle_diameter": [
 		"0.4"
 	],

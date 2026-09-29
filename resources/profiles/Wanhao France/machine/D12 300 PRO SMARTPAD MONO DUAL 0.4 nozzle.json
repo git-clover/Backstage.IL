@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "D12 300 PRO SMARTPAD MONO DUAL",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @Wanhao-D12-300",
+	"default_print_profile": "0.20 mm Standard @Wanhao-D12-300",
 	"nozzle_diameter": [
 		"0.4"
 	],

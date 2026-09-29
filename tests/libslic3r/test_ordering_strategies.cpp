@@ -151,7 +151,7 @@ TEST_CASE("tsp_cycle_path_length is correct for triangle", "[TSPPostProcessing]"
     Points pts;
     pts.emplace_back(0, 0);
     pts.emplace_back(100000, 0);
-    pts.emplace_back(50000, 86602); // equilateral ~100mm sides
+    pts.emplace_back(50000, 86602); // equilateral ~1.0 mm sides
 
     std::vector<size_t> path = {0, 1, 2};
     double len = tsp_cycle_path_length(path, pts);

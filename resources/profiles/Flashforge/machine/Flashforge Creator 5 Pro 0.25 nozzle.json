@@ -26,7 +26,7 @@
 	"default_filament_profile": [
 		"Generic PLA @Flashforge"
 	],
-	"default_print_profile": "0.12mm Standard @FF C5 0.25 nozzle",
+	"default_print_profile": "0.12 mm Standard @FF C5 0.25 nozzle",
 	"deretraction_speed": [
 		"30",
 		"30",

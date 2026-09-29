@@ -6,7 +6,7 @@
 	"setting_id": "Gtfgaixnuy5sZZED",
 	"instantiation": "true",
 	"printer_model": "Anycubic Kobra Max",
-	"default_print_profile": "0.20mm Standard @Anycubic KobraMax",
+	"default_print_profile": "0.20 mm Standard @Anycubic KobraMax",
 	"nozzle_diameter": [
 		"0.4"
 	],

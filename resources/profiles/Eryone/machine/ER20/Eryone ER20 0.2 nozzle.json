@@ -6,7 +6,7 @@
 	"setting_id": "mN66BkXzUCaGGkZ5",
 	"instantiation": "true",
 	"default_filament_profile": [],
-	"default_print_profile": "0.10mm Standard @Eryone ER20 0.2 nozzle",
+	"default_print_profile": "0.10 mm Standard @Eryone ER20 0.2 nozzle",
 	"max_layer_height": [
 		"0.14"
 	],

@@ -6,7 +6,7 @@
 	"setting_id": "lqwfkkjWuhZa5W1i",
 	"instantiation": "true",
 	"printer_model": "MM hj SK",
-	"default_print_profile": "0.10mm Fine @MM hj SK",
+	"default_print_profile": "0.10 mm Fine @MM hj SK",
 	"nozzle_diameter": [
 		"0.4"
 	],

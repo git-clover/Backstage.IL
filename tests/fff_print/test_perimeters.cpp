@@ -502,17 +502,17 @@ namespace {
 // support comes from the rib rather than from the slab below it.
 const double slab_first_layer_z = 5.2;
 
-// Rib widths either side of what the wall generators can print. At a 0.4mm nozzle the classic generator
-// builds nothing thinner than nozzle/3 = 0.133mm and Arachne drops anything below min_feature_size, 25%
-// of the nozzle = 0.1mm. 0.08mm is under both thresholds, 0.3mm over both.
+// Rib widths either side of what the wall generators can print. At a 0.4 mm nozzle the classic generator
+// builds nothing thinner than nozzle/3 = 0.133 mm and Arachne drops anything below min_feature_size, 25%
+// of the nozzle = 0.1 mm. 0.08 mm is under both thresholds, 0.3 mm over both.
 const double unprintable_rib = 0.08;
 const double printable_rib   = 0.3;
 
-// A 4x5mm anchor tower carrying a 20x5mm slab at z=[5,6], with a rib `rib_width` wide running the whole
+// A 4.5 mm anchor tower carrying a 20.5 mm slab at z=[5,6], with a rib `rib_width` wide running the whole
 // length of the slab beneath its y=0 edge; a `rib_width` of 0 leaves the rib out. Nothing else is under
 // that edge, so whether the wall along it is an overhang rests entirely on the rib. Overhang detection
 // grows the lower slices by half the nozzle diameter before it asks, which carries either rib past the
-// 0.21mm from the slab edge to that wall - the unprintable one only fails to reach it once it is filtered
+// 0.21 mm from the slab edge to that wall - the unprintable one only fails to reach it once it is filtered
 // out for being unprintable.
 Print &slab_over_rib(Print &print, Model &model, double rib_width, const DynamicPrintConfig &config)
 {
@@ -681,7 +681,7 @@ double mid_span_wall_spread(const Print &print, double print_z)
 
 } // namespace
 
-// TestMesh::bridge is a 50x10mm deck from z=5 to z=8 on two 5mm-wide pillars, leaving a 40mm span. The deck's
+// TestMesh::bridge is a 50.10 mm deck from z=5 to z=8 on two 5mm-wide pillars, leaving a 40mm span. The deck's
 // first layer (print_z 5.2) crosses the span unsupported; the layers above it rest on the deck.
 TEST_CASE("Fuzzy skin leaves the walls of a bridge smooth", "[Perimeters]")
 {
@@ -700,7 +700,7 @@ TEST_CASE("Fuzzy skin leaves the walls of a bridge smooth", "[Perimeters]")
     CHECK(bridged < 0.001);
 }
 
-// One object: a 20x20x3mm block on the bed and a second one floating above it from z=5 to z=8. The layers in
+// One object: a 20x20.3 mm block on the bed and a second one floating above it from z=5 to z=8. The layers in
 // the gap are empty, so the floating block's first layer (print_z 5.2) has a layer below it with nothing
 // printed on it; the layers above rest on the floating block.
 TEST_CASE("Fuzzy skin leaves the walls over an empty layer smooth", "[Perimeters]")

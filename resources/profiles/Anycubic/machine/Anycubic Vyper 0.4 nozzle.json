@@ -6,7 +6,7 @@
 	"setting_id": "4dZHITQQJ9IB8MHj",
 	"instantiation": "true",
 	"printer_model": "Anycubic Vyper",
-	"default_print_profile": "0.20mm Standard @Anycubic Vyper",
+	"default_print_profile": "0.20 mm Standard @Anycubic Vyper",
 	"nozzle_diameter": [
 		"0.4"
 	],

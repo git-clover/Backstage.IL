@@ -162,7 +162,7 @@ std::vector<std::reference_wrapper<const PrintRegion>> PrintObject::all_regions(
 
 Polygons create_polyholes(const Point center, const coord_t radius, const coord_t nozzle_diameter, bool multiple, int max_edges)
 {
-    // n = max(round(2 * d), 3); // for 0.4mm nozzle
+    // n = max(round(2 * d), 3); // for 0.4 mm nozzle
     size_t nb_edges = (int)std::min(max_edges, std::max(3, (int)std::round(4.0 * unscaled(radius) * 0.4 / unscaled(nozzle_diameter))));
     // cylinder(h = h, r = d / cos (180 / n), $fn = n);
     //create x polyholes by rotation if multiple

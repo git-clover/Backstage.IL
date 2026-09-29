@@ -328,10 +328,10 @@ function LoadDemoProfile()
             { id: "filament_esun_pla_plus", name: "eSUN PLA+", selected: 1 }
         ],
         presets: [
-            { id: "preset_quality_020", name: "Quality 0.20mm", selected: 1 },
-            { id: "preset_quality_012", name: "Quality 0.12mm", selected: 0 },
-            { id: "preset_speed_024", name: "Speed 0.24mm", selected: 1 },
-            { id: "preset_draft_028", name: "Draft 0.28mm", selected: 0 }
+            { id: "preset_quality_020", name: "Quality 0.20 mm", selected: 1 },
+            { id: "preset_quality_012", name: "Quality 0.12 mm", selected: 0 },
+            { id: "preset_speed_024", name: "Speed 0.24 mm", selected: 1 },
+            { id: "preset_draft_028", name: "Draft 0.28 mm", selected: 0 }
         ]
     });
 }

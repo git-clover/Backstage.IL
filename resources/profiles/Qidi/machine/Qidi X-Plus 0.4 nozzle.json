@@ -6,7 +6,7 @@
 	"setting_id": "PNGBV9xF2DA17fi9",
 	"instantiation": "true",
 	"printer_model": "Qidi X-Plus",
-	"default_print_profile": "0.20mm Standard @Qidi XPlus",
+	"default_print_profile": "0.20 mm Standard @Qidi XPlus",
 	"nozzle_diameter": [
 		"0.4"
 	],

@@ -6,7 +6,7 @@
 	"setting_id": "YtSG91vPZicYwY78",
 	"instantiation": "true",
 	"printer_model": "Co Print ChromaSet",
-	"default_print_profile": "0.2mm Standard @Co Print ChromaSet 0.4",
+	"default_print_profile": "0.2 mm Standard @Co Print ChromaSet 0.4",
 	"printer_variant": "0.4",
 	"nozzle_diameter": [
 		"0.4"

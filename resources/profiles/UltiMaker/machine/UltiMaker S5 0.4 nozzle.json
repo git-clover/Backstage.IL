@@ -6,7 +6,7 @@
 	"setting_id": "hmkJtw7J1KXbiYfj",
 	"instantiation": "true",
 	"printer_model": "UltiMaker S5",
-	"default_print_profile": "0.18mm Standard @UltiMaker S5",
+	"default_print_profile": "0.18 mm Standard @UltiMaker S5",
 	"nozzle_diameter": [
 		"0.4",
 		"0.4"

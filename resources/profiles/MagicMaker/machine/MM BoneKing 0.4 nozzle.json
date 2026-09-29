@@ -6,7 +6,7 @@
 	"setting_id": "iZNIPSUR3fQERgnv",
 	"instantiation": "true",
 	"printer_model": "MM BoneKing",
-	"default_print_profile": "0.10mm Fine @MM BoneKing",
+	"default_print_profile": "0.10 mm Fine @MM BoneKing",
 	"nozzle_diameter": [
 		"0.4"
 	],

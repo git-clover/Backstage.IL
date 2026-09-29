@@ -6,7 +6,7 @@
 	"setting_id": "CGunT3KHnCqEAlrN",
 	"instantiation": "true",
 	"printer_model": "Sovol Zero",
-	"default_print_profile": "0.50mm Standard @Sovol Zero 1.0 nozzle",
+	"default_print_profile": "0.50 mm Standard @Sovol Zero 1.0 nozzle",
 	"printer_variant": "1.0",
 	"nozzle_diameter": [
 		"1.0"

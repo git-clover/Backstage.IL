@@ -29,10 +29,10 @@ int Bed_2D::calculate_grid_step(const BoundingBox& bb, const double& scale)
     // Orca: use 500 x 500 bed size as baseline.
     int min_edge = (bb.size() * (1 / scale)).minCoeff(); // Get short edge 
                                            // if the grid is too dense, we increase the step
-    return   min_edge >= 6000 ? 100        // Short edge >= 6000mm  Main Grid: 5 x 100 = 500mm
-           : min_edge >= 1200 ? 50         // Short edge >= 1200mm  Main Grid: 5 x 50  = 250mm
-           : min_edge >= 600  ? 20         // Short edge >= 600mm   Main Grid: 5 x 20  = 100mm
-           : 10;                           // Short edge <  600mm   Main Grid: 5 x 10  =  50mm
+    return   min_edge >= 6000 ? 100        // Short edge >= 60.0 mm  Main Grid: 5 x 100 = 5.0 mm
+           : min_edge >= 1200 ? 50         // Short edge >= 12.0 mm  Main Grid: 5 x 50  = 2.0 mm
+           : min_edge >= 600  ? 20         // Short edge >= 6.0 mm   Main Grid: 5 x 20  = 1.0 mm
+           : 10;                           // Short edge <  6.0 mm   Main Grid: 5 x 10  =  50mm
 }
 
 std::vector<Polylines> Bed_2D::generate_grid(const ExPolygon& poly, const BoundingBox& bb, const Vec2d& origin, const double& step, const double& scale)

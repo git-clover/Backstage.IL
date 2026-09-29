@@ -559,6 +559,6 @@ void benchmark_gyroid(float period)
     REQUIRE(marchsq::layer_n > 0);
 }
 
-TEST_CASE("Benchmark gyroid cube period 10.0mm", "[MarchingSquares]") { benchmark_gyroid(10.0); }
+TEST_CASE("Benchmark gyroid cube period 10.0 mm", "[MarchingSquares]") { benchmark_gyroid(10.0); }
 
-TEST_CASE("Benchmark gyroid cube period 5.0mm", "[MarchingSquares]") { benchmark_gyroid(5.0); }
+TEST_CASE("Benchmark gyroid cube period 5.0 mm", "[MarchingSquares]") { benchmark_gyroid(5.0); }

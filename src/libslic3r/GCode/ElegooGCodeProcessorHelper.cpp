@@ -69,7 +69,7 @@ float estimate_M6211_time_for_centauri_carbon(const GCodeReader::GCodeLine& line
         const float segment_length = std::min(remaining_flush_length, max_segment_length);
         remaining_flush_length -= segment_length;
         if (segment_length >= max_segment_length) {
-            // Full segment: 3-phase extrusion (30+35+10=75mm) + retract
+            // Full segment: 3-phase extrusion (30+35+10.75 mm) + retract
             m6211_time += extrusion_time(30.0f, main_feedrate) + extrusion_time(35.0f, main_feedrate) +
                           extrusion_time(10.0f, tail_feedrate) + extrusion_time(2.0f, tail_feedrate) + cool_time +
                           wipe_after_flush_time;

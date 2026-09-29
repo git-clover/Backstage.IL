@@ -31,108 +31,108 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.10mm Fine @MM BoneKing",
-			"sub_path": "process/0.10mm Fine @MM BoneKing.json"
+			"name": "0.10 mm Fine @MM BoneKing",
+			"sub_path": "process/0.10 mm Fine @MM BoneKing.json"
 		},
 		{
-			"name": "0.10mm Fine @MM hj SK",
-			"sub_path": "process/0.10mm Fine @MM hj SK.json"
+			"name": "0.10 mm Fine @MM hj SK",
+			"sub_path": "process/0.10 mm Fine @MM hj SK.json"
 		},
 		{
-			"name": "0.10mm Fine @MM hqs SF",
-			"sub_path": "process/0.10mm Fine @MM hqs SF.json"
+			"name": "0.10 mm Fine @MM hqs SF",
+			"sub_path": "process/0.10 mm Fine @MM hqs SF.json"
 		},
 		{
-			"name": "0.10mm Fine @MM hqs hj",
-			"sub_path": "process/0.10mm Fine @MM hqs hj.json"
+			"name": "0.10 mm Fine @MM hqs hj",
+			"sub_path": "process/0.10 mm Fine @MM hqs hj.json"
 		},
 		{
-			"name": "0.10mm Fine @MM slb",
-			"sub_path": "process/0.10mm Fine @MM slb.json"
+			"name": "0.10 mm Fine @MM slb",
+			"sub_path": "process/0.10 mm Fine @MM slb.json"
 		},
 		{
-			"name": "0.10mm Fine Fast @MM BoneKing",
-			"sub_path": "process/0.10mm Fine Fast @MM BoneKing.json"
+			"name": "0.10 mm Fine Fast @MM BoneKing",
+			"sub_path": "process/0.10 mm Fine Fast @MM BoneKing.json"
 		},
 		{
-			"name": "0.10mm Fine Fast @MM hj SK",
-			"sub_path": "process/0.10mm Fine Fast @MM hj SK.json"
+			"name": "0.10 mm Fine Fast @MM hj SK",
+			"sub_path": "process/0.10 mm Fine Fast @MM hj SK.json"
 		},
 		{
-			"name": "0.10mm Fine Fast @MM hqs SF",
-			"sub_path": "process/0.10mm Fine Fast @MM hqs SF.json"
+			"name": "0.10 mm Fine Fast @MM hqs SF",
+			"sub_path": "process/0.10 mm Fine Fast @MM hqs SF.json"
 		},
 		{
-			"name": "0.12mm Fine BestFast @MM BoneKing",
-			"sub_path": "process/0.12mm Fine BestFast @MM BoneKing.json"
+			"name": "0.12 mm Fine BestFast @MM BoneKing",
+			"sub_path": "process/0.12 mm Fine BestFast @MM BoneKing.json"
 		},
 		{
-			"name": "0.12mm Fine SuperFast @MM BoneKing",
-			"sub_path": "process/0.12mm Fine SuperFast @MM BoneKing.json"
+			"name": "0.12 mm Fine SuperFast @MM BoneKing",
+			"sub_path": "process/0.12 mm Fine SuperFast @MM BoneKing.json"
 		},
 		{
-			"name": "0.20mm Standard @MM BoneKing",
-			"sub_path": "process/0.20mm Standard @MM BoneKing.json"
+			"name": "0.20 mm Standard @MM BoneKing",
+			"sub_path": "process/0.20 mm Standard @MM BoneKing.json"
 		},
 		{
-			"name": "0.20mm Standard @MM hj SK",
-			"sub_path": "process/0.20mm Standard @MM hj SK.json"
+			"name": "0.20 mm Standard @MM hj SK",
+			"sub_path": "process/0.20 mm Standard @MM hj SK.json"
 		},
 		{
-			"name": "0.20mm Standard @MM hqs SF",
-			"sub_path": "process/0.20mm Standard @MM hqs SF.json"
+			"name": "0.20 mm Standard @MM hqs SF",
+			"sub_path": "process/0.20 mm Standard @MM hqs SF.json"
 		},
 		{
-			"name": "0.20mm Standard @MM hqs hj",
-			"sub_path": "process/0.20mm Standard @MM hqs hj.json"
+			"name": "0.20 mm Standard @MM hqs hj",
+			"sub_path": "process/0.20 mm Standard @MM hqs hj.json"
 		},
 		{
-			"name": "0.20mm Standard @MM slb",
-			"sub_path": "process/0.20mm Standard @MM slb.json"
+			"name": "0.20 mm Standard @MM slb",
+			"sub_path": "process/0.20 mm Standard @MM slb.json"
 		},
 		{
-			"name": "0.20mm Standard Fast @MM BoneKing",
-			"sub_path": "process/0.20mm Standard Fast @MM BoneKing.json"
+			"name": "0.20 mm Standard Fast @MM BoneKing",
+			"sub_path": "process/0.20 mm Standard Fast @MM BoneKing.json"
 		},
 		{
-			"name": "0.20mm Standard Fast @MM hj SK",
-			"sub_path": "process/0.20mm Standard Fast @MM hj SK.json"
+			"name": "0.20 mm Standard Fast @MM hj SK",
+			"sub_path": "process/0.20 mm Standard Fast @MM hj SK.json"
 		},
 		{
-			"name": "0.20mm Standard Fast @MM hqs sf",
-			"sub_path": "process/0.20mm Standard Fast @MM hqs SF.json"
+			"name": "0.20 mm Standard Fast @MM hqs sf",
+			"sub_path": "process/0.20 mm Standard Fast @MM hqs SF.json"
 		},
 		{
-			"name": "0.30mm Draft @MM BoneKing",
-			"sub_path": "process/0.30mm Draft @MM BoneKing.json"
+			"name": "0.30 mm Draft @MM BoneKing",
+			"sub_path": "process/0.30 mm Draft @MM BoneKing.json"
 		},
 		{
-			"name": "0.30mm Draft @MM hj SK",
-			"sub_path": "process/0.30mm Draft @MM hj SK.json"
+			"name": "0.30 mm Draft @MM hj SK",
+			"sub_path": "process/0.30 mm Draft @MM hj SK.json"
 		},
 		{
-			"name": "0.30mm Draft @MM hqs SF",
-			"sub_path": "process/0.30mm Draft @MM hqs SF.json"
+			"name": "0.30 mm Draft @MM hqs SF",
+			"sub_path": "process/0.30 mm Draft @MM hqs SF.json"
 		},
 		{
-			"name": "0.30mm Draft @MM hqs hj",
-			"sub_path": "process/0.30mm Draft @MM hqs hj.json"
+			"name": "0.30 mm Draft @MM hqs hj",
+			"sub_path": "process/0.30 mm Draft @MM hqs hj.json"
 		},
 		{
-			"name": "0.30mm Draft @MM slb",
-			"sub_path": "process/0.30mm Draft @MM slb.json"
+			"name": "0.30 mm Draft @MM slb",
+			"sub_path": "process/0.30 mm Draft @MM slb.json"
 		},
 		{
-			"name": "0.30mm Draft Fast @MM BoneKing",
-			"sub_path": "process/0.30mm Draft Fast @MM BoneKing.json"
+			"name": "0.30 mm Draft Fast @MM BoneKing",
+			"sub_path": "process/0.30 mm Draft Fast @MM BoneKing.json"
 		},
 		{
-			"name": "0.30mm Draft Fast @MM hj SK",
-			"sub_path": "process/0.30mm Draft Fast @MM hj SK.json"
+			"name": "0.30 mm Draft Fast @MM hj SK",
+			"sub_path": "process/0.30 mm Draft Fast @MM hj SK.json"
 		},
 		{
-			"name": "0.30mm Draft Fast @MM hqs SF",
-			"sub_path": "process/0.30mm Draft Fast @MM hqs SF.json"
+			"name": "0.30 mm Draft Fast @MM hqs SF",
+			"sub_path": "process/0.30 mm Draft Fast @MM hqs SF.json"
 		}
 	],
 	"filament_list": [

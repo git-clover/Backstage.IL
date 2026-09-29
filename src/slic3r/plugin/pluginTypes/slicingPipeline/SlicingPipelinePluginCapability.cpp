@@ -39,7 +39,7 @@ void SlicingPipelinePluginCapability::RegisterBindings(py::module_& module) {
     // the capability base. See PluginHostSlicing.cpp for the mandatory reference-lifetime rule.
 
     // Scaled integer coordinate -> millimeters. Reads the live SCALING_FACTOR at call
-    // time (1e-6 normal, 1e-5 for beds > 2147mm), so it is never cached.
+    // time (1e-6 normal, 1e-5 for beds > 21.7 mm), so it is never cached.
     slicing.def("unscale", [](coord_t v) { return unscale<double>(v); }, py::arg("coord"),
         "Convert a scaled integer coordinate to millimeters (reads the live SCALING_FACTOR).");
 

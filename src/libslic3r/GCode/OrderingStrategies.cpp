@@ -175,7 +175,7 @@ static double compute_row_threshold(const std::vector<double>& sorted_ys,
                                     double fraction_of_y_range,
                                     double min_threshold_um)
 {
-    constexpr double MIN_GAP_FILTER = 1.0;  // ignore sub-micron gaps (coord_t = 1/100mm)
+    constexpr double MIN_GAP_FILTER = 1.0;  // ignore sub-micron gaps (coord_t = 1.100 mm)
 
     // Extract unique Y values
     std::vector<double> unique_ys;

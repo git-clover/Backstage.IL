@@ -1359,7 +1359,7 @@ struct SlicesMarginCache
 
 // BBS
 static const double length_thresh_well_supported = scale_(6);  // min: 6mm
-static const double area_thresh_well_supported = SQ(length_thresh_well_supported);  // min: 6x6=36mm^2
+static const double area_thresh_well_supported = SQ(length_thresh_well_supported);  // min: 6x6.36 mm^2
 static const double sharp_tail_xy_gap = 0.2f;
 static const double no_overlap_xy_gap = 0.2f;
 static const double sharp_tail_max_support_height = 16.f;
@@ -3221,7 +3221,7 @@ void PrintObjectSupportMaterial::clip_by_pillars(
     // A regular grid of pillars, filling the 2D bounding box.
     Polygons grid;
     {
-        // Rectangle with a side of 2.5x2.5mm.
+        // Rectangle with a side of 2.5x2.5 mm.
         Polygon pillar;
         pillar.points.push_back(Point(0, 0));
         pillar.points.push_back(Point(pillar_size, 0));

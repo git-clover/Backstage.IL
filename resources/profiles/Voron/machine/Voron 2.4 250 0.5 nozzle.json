@@ -6,7 +6,7 @@
 	"setting_id": "jO3B7JrN7mIqU22S",
 	"instantiation": "true",
 	"printer_model": "Voron 2.4 250",
-	"default_print_profile": "0.25mm Standard 0.5 nozzle @Voron",
+	"default_print_profile": "0.25 mm Standard 0.5 nozzle @Voron",
 	"max_layer_height": [
 		"0.4"
 	],

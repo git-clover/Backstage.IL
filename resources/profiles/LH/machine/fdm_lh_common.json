@@ -138,7 +138,7 @@
 		"LHS PLA"
 	],
 	"enable_filament_ramming": "0",
-	"default_print_profile": "0.20mm Daily @LH Stinger",
+	"default_print_profile": "0.20 mm Daily @LH Stinger",
 	"bed_exclude_area": [
 		"0x0"
 	],

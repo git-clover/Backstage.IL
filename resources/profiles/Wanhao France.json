@@ -83,64 +83,64 @@
 			"sub_path": "process/fdm_process_common.json"
 		},
 		{
-			"name": "0.10mm Standard @Wanhao-D12-230",
-			"sub_path": "process/0.10mm Standard @Wanhao-D12-230.json"
+			"name": "0.10 mm Standard @Wanhao-D12-230",
+			"sub_path": "process/0.10 mm Standard @Wanhao-D12-230.json"
 		},
 		{
-			"name": "0.10mm Standard @Wanhao-D12-300",
-			"sub_path": "process/0.10mm Standard @Wanhao-D12-300.json"
+			"name": "0.10 mm Standard @Wanhao-D12-300",
+			"sub_path": "process/0.10 mm Standard @Wanhao-D12-300.json"
 		},
 		{
-			"name": "0.10mm Standard @Wanhao-D12-500",
-			"sub_path": "process/0.10mm Standard @Wanhao-D12-500.json"
+			"name": "0.10 mm Standard @Wanhao-D12-500",
+			"sub_path": "process/0.10 mm Standard @Wanhao-D12-500.json"
 		},
 		{
-			"name": "0.15mm Standard @Wanhao-D12-230",
-			"sub_path": "process/0.15mm Standard @Wanhao-D12-230.json"
+			"name": "0.15 mm Standard @Wanhao-D12-230",
+			"sub_path": "process/0.15 mm Standard @Wanhao-D12-230.json"
 		},
 		{
-			"name": "0.15mm Standard @Wanhao-D12-300",
-			"sub_path": "process/0.15mm Standard @Wanhao-D12-300.json"
+			"name": "0.15 mm Standard @Wanhao-D12-300",
+			"sub_path": "process/0.15 mm Standard @Wanhao-D12-300.json"
 		},
 		{
-			"name": "0.15mm Standard @Wanhao-D12-500",
-			"sub_path": "process/0.15mm Standard @Wanhao-D12-500.json"
+			"name": "0.15 mm Standard @Wanhao-D12-500",
+			"sub_path": "process/0.15 mm Standard @Wanhao-D12-500.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao-D12-230",
-			"sub_path": "process/0.20mm Standard @Wanhao-D12-230.json"
+			"name": "0.20 mm Standard @Wanhao-D12-230",
+			"sub_path": "process/0.20 mm Standard @Wanhao-D12-230.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao-D12-230 PoopTool",
-			"sub_path": "process/0.20mm Standard @Wanhao-D12-230 PoopTool.json"
+			"name": "0.20 mm Standard @Wanhao-D12-230 PoopTool",
+			"sub_path": "process/0.20 mm Standard @Wanhao-D12-230 PoopTool.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao-D12-300",
-			"sub_path": "process/0.20mm Standard @Wanhao-D12-300.json"
+			"name": "0.20 mm Standard @Wanhao-D12-300",
+			"sub_path": "process/0.20 mm Standard @Wanhao-D12-300.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao-D12-300 PoopTool",
-			"sub_path": "process/0.20mm Standard @Wanhao-D12-300 PoopTool.json"
+			"name": "0.20 mm Standard @Wanhao-D12-300 PoopTool",
+			"sub_path": "process/0.20 mm Standard @Wanhao-D12-300 PoopTool.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao-D12-500",
-			"sub_path": "process/0.20mm Standard @Wanhao-D12-500.json"
+			"name": "0.20 mm Standard @Wanhao-D12-500",
+			"sub_path": "process/0.20 mm Standard @Wanhao-D12-500.json"
 		},
 		{
-			"name": "0.20mm Standard @Wanhao-D12-500 PoopTool",
-			"sub_path": "process/0.20mm Standard @Wanhao-D12-500 PoopTool.json"
+			"name": "0.20 mm Standard @Wanhao-D12-500 PoopTool",
+			"sub_path": "process/0.20 mm Standard @Wanhao-D12-500 PoopTool.json"
 		},
 		{
-			"name": "0.24mm Standard @Wanhao-D12-230",
-			"sub_path": "process/0.24mm Standard @Wanhao-D12-230.json"
+			"name": "0.24 mm Standard @Wanhao-D12-230",
+			"sub_path": "process/0.24 mm Standard @Wanhao-D12-230.json"
 		},
 		{
-			"name": "0.24mm Standard @Wanhao-D12-300",
-			"sub_path": "process/0.24mm Standard @Wanhao-D12-300.json"
+			"name": "0.24 mm Standard @Wanhao-D12-300",
+			"sub_path": "process/0.24 mm Standard @Wanhao-D12-300.json"
 		},
 		{
-			"name": "0.24mm Standard @Wanhao-D12-500",
-			"sub_path": "process/0.24mm Standard @Wanhao-D12-500.json"
+			"name": "0.24 mm Standard @Wanhao-D12-500",
+			"sub_path": "process/0.24 mm Standard @Wanhao-D12-500.json"
 		}
 	],
 	"filament_list": [

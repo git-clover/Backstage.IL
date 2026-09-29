@@ -6,7 +6,7 @@
 	"setting_id": "e07wzF8K9ePoSPUD",
 	"instantiation": "true",
 	"printer_model": "Sovol SV02",
-	"default_print_profile": "0.20mm Standard @Sovol SV02",
+	"default_print_profile": "0.20 mm Standard @Sovol SV02",
 	"nozzle_diameter": [
 		"0.4",
 		"0.4"

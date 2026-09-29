@@ -70,7 +70,7 @@ TEST_CASE("Corner smoothing consumes at most half of the shorter leg", "[FillCor
 {
     // The curve must not reach beyond the middle of either adjoining segment, otherwise the curves of
     // two adjacent corners would overlap. The shorter leg is 10mm long, so the corner at (10, 0) is
-    // left 5mm before it and rejoined 5mm past it, even though the other leg is 100mm long.
+    // left 5mm before it and rejoined 5mm past it, even though the other leg is 1.0 mm long.
     Polyline smooth = asymmetric_corner();
     smooth_polyline_corners(smooth, 1., tolerance);
 

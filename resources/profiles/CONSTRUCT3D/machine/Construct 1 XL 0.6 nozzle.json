@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_settings_id": "CONSTRUCT3D",
 	"printer_model": "Construct 1 XL",
-	"default_print_profile": "0.20mm Quality @Construct 1 XL",
+	"default_print_profile": "0.20 mm Quality @Construct 1 XL",
 	"nozzle_diameter": [
 		"0.6"
 	],

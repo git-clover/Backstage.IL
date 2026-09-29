@@ -4,7 +4,7 @@
 	"inherits": "fdm_machine_common",
 	"from": "system",
 	"instantiation": "false",
-	"default_print_profile": "0.20mm Standard @Co Print ChromaSet 0.4",
+	"default_print_profile": "0.20 mm Standard @Co Print ChromaSet 0.4",
 	"printer_variant": "0.4",
 	"nozzle_diameter": [
 		"0.4"

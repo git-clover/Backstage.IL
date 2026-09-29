@@ -1283,7 +1283,7 @@ static inline std::vector<std::vector<ExPolygons>> segmentation_top_and_bottom_l
                         remove_small(raw_surfaces[extruder_idx][layer_idx], min_area);
     };
 
-    // Filter out polygons less than 0.1mm^2, because they are unprintable and causing dimples on outer primers (#7104)
+    // Filter out polygons less than 0.1 mm^2, because they are unprintable and causing dimples on outer primers (#7104)
     filter_out_small_polygons(top_raw, Slic3r::sqr(scale_(0.1f)));
     filter_out_small_polygons(bottom_raw, Slic3r::sqr(scale_(0.1f)));
 
@@ -1999,7 +1999,7 @@ std::vector<std::vector<ExPolygons>> segmentation_by_painting(const PrintObject 
             // All expolygons are expanded by SCALED_EPSILON, merged, and then shrunk again by SCALED_EPSILON
             // to ensure that very close polygons will be merged.
             ex_polygons = union_ex(ex_polygons);
-            // Remove all expolygons and holes with an area less than 0.1mm^2
+            // Remove all expolygons and holes with an area less than 0.1 mm^2
             remove_small_and_small_holes(ex_polygons, Slic3r::sqr(scale_(0.1f)));
             // Occasionally, some input polygons contained self-intersections that caused problems with Voronoi diagrams
             // and consequently with the extraction of colored segments by function extract_colored_segments.

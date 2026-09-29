@@ -6,7 +6,7 @@
 	"setting_id": "LCVtRqmtH6YySurQ",
 	"instantiation": "true",
 	"default_filament_profile": [],
-	"default_print_profile": "0.30mm Standard @Eryone ER20 Klipper 0.6 nozzle",
+	"default_print_profile": "0.30 mm Standard @Eryone ER20 Klipper 0.6 nozzle",
 	"max_layer_height": [
 		"0.42"
 	],

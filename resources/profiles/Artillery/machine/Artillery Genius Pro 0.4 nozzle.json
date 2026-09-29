@@ -6,7 +6,7 @@
 	"setting_id": "afpW4NvrOWzQvHbB",
 	"instantiation": "true",
 	"printer_model": "Artillery Genius Pro",
-	"default_print_profile": "0.20mm Standard @Artillery Genius Pro",
+	"default_print_profile": "0.20 mm Standard @Artillery Genius Pro",
 	"nozzle_diameter": [
 		"0.4"
 	],

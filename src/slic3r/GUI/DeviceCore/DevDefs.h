@@ -117,7 +117,7 @@ enum NozzleFlowType : int
     U_FLOW, // TPU 1.75 High Flow
     E_FLOW, // E3D High Flow
 };
-/* 0.2mm  0.4mm  0.6mm 0.8mm */
+/* 0.2 mm  0.4 mm  0.6 mm 0.8 mm */
 enum NozzleDiameterType : int
 {
     NONE_DIAMETER_TYPE,

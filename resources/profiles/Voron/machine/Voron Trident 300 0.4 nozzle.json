@@ -6,7 +6,7 @@
 	"setting_id": "movln7KnLdZZVJSJ",
 	"instantiation": "true",
 	"printer_model": "Voron Trident 300",
-	"default_print_profile": "0.20mm Standard @Voron",
+	"default_print_profile": "0.20 mm Standard @Voron",
 	"max_layer_height": [
 		"0.32"
 	],

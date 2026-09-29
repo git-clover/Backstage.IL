@@ -6,7 +6,7 @@
 	"setting_id": "RS3RvOaBqXvjPRl9",
 	"instantiation": "true",
 	"printer_model": "WonderMaker ZR",
-	"default_print_profile": "0.40mm Standard @WonderMaker ZR 0.8 nozzle",
+	"default_print_profile": "0.40 mm Standard @WonderMaker ZR 0.8 nozzle",
 	"printer_variant": "0.8",
 	"nozzle_diameter": [
 		"0.8"

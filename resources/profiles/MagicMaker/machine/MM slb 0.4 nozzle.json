@@ -6,7 +6,7 @@
 	"setting_id": "A0I3dDAbwNC059c6",
 	"instantiation": "true",
 	"printer_model": "MM slb",
-	"default_print_profile": "0.10mm Fine @MM slb",
+	"default_print_profile": "0.10 mm Fine @MM slb",
 	"nozzle_diameter": [
 		"0.4"
 	],

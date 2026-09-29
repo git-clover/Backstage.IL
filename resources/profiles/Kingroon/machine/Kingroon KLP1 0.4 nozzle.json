@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "Kingroon KLP1",
 	"default_filament_profile": "Generic PLA @System",
-	"default_print_profile": "0.20mm Standard @Kingroon KLP1",
+	"default_print_profile": "0.20 mm Standard @Kingroon KLP1",
 	"thumbnails": [
 		"100x100"
 	],

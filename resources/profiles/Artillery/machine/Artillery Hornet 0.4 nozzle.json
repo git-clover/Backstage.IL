@@ -6,7 +6,7 @@
 	"setting_id": "02YSChoFQuBRQ8vf",
 	"instantiation": "true",
 	"printer_model": "Artillery Hornet",
-	"default_print_profile": "0.20mm Standard @Artillery Hornet",
+	"default_print_profile": "0.20 mm Standard @Artillery Hornet",
 	"nozzle_diameter": [
 		"0.4"
 	],

@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "D12 500 PRO SMARTPAD DIRECT",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @Wanhao-D12-500",
+	"default_print_profile": "0.20 mm Standard @Wanhao-D12-500",
 	"nozzle_diameter": [
 		"0.4"
 	],

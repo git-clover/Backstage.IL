@@ -6,7 +6,7 @@
 	"setting_id": "saCGEstG7DaiYhZY",
 	"instantiation": "true",
 	"printer_model": "Flashforge Adventurer 5M",
-	"default_print_profile": "0.30mm Standard @Flashforge AD5M 0.6 Nozzle",
+	"default_print_profile": "0.30 mm Standard @Flashforge AD5M 0.6 Nozzle",
 	"nozzle_diameter": [
 		"0.6"
 	],

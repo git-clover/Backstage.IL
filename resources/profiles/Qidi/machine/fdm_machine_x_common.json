@@ -10,7 +10,7 @@
 	"before_layer_change_gcode": "",
 	"change_filament_gcode": "",
 	"cooling_filter_enabled": "0",
-	"default_print_profile": "0.20mm Standard @XPlus4",
+	"default_print_profile": "0.20 mm Standard @XPlus4",
 	"deretraction_speed": [
 		"30"
 	],

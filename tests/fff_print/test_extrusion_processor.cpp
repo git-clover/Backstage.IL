@@ -23,7 +23,7 @@ constexpr double caged_wall_width       = 0.42; // mm, outer wall line width
 constexpr double caged_outer_wall_speed = 200.; // mm/s
 constexpr double caged_slow_speed       = 100.; // mm/s, between every configured overhang speed (<= 50) and the wall speed
 
-// A wall running 0.2mm out over a previous layer whose edge dishes 0.03mm away from it in the middle,
+// A wall running 0.2 mm out over a previous layer whose edge dishes 0.03 mm away from it in the middle,
 // standing in for the endpoint readings a caged overhang perimeter takes: enough of a difference to
 // print at another speed, but only a fraction of the distance at which slowdown begins.
 constexpr double dished_wall_gap     = 0.2;   // mm, how far the wall runs out past the previous layer's edge
@@ -153,7 +153,7 @@ std::vector<double> cage_shoulder_feed_rates(const std::string& gcode)
     });
 }
 
-// The readings a 40mm wall takes over a previous layer whose edge falls away by 0.03mm towards the
+// The readings a 40mm wall takes over a previous layer whose edge falls away by 0.03 mm towards the
 // middle: both ends read the same, and the middle reads slightly further out over air. Whether that
 // middle reading survives is what decides the speed the wall is printed at.
 std::vector<ExtendedPoint<2>> sampled_wall_over_dished_layer(const std::function<float(float)>& distance_to_speed)
@@ -250,7 +250,7 @@ constexpr double edge_run_length = 64.;   // mm, wall start, measured from the e
 constexpr double edge_step       = 0.384; // mm, how far this layer's contour extends past the previous layer's end
 // The centreline is inset half a line width from the contour.
 constexpr double edge_wall_end_past  = edge_step - 0.5 * caged_wall_width;
-constexpr double edge_wall_end_short = 0.05; // mm short of the edge, reading 0.21 - 0.05 = 0.16mm out
+constexpr double edge_wall_end_short = 0.05; // mm short of the edge, reading 0.21 - 0.05 = 0.16 mm out
 // Segmentation splits 1.5 line widths plus the end's reading from an end, so an end's slowdown and cooling stay within this.
 constexpr double edge_affected_length = 3. * caged_wall_width;
 
@@ -374,7 +374,7 @@ TEST_CASE("Supported vertical walls keep their normal speed", "[ExtrusionProcess
     REQUIRE(slowest >= caged_slow_speed * MM_PER_MIN);
 }
 
-// The slope's top edge falls mid layer, so the first layer above it still stands 0.179mm proud of the layer
+// The slope's top edge falls mid layer, so the first layer above it still stands 0.179 mm proud of the layer
 // below wherever that layer was still on the slope. That is a real overhang and is slowed, but it ends with the
 // slope: outside the slope's x range the box runs full height, so the same wall stands on a contour identical to
 // its own. Sampling the interior of that wall at a single point reported one support reading for all of it and
@@ -499,7 +499,7 @@ TEST_CASE("A wall is split where only the overhang fan changes", "[ExtrusionProc
     const std::function<float(float)> distance_to_speed = [crossing_reading](float distance) {
         return distance < crossing_reading ? 70.f : 15.f;
     };
-    // The end reads 0.16mm out (overlap 0.62): cooled at a 25% threshold, but not slowed.
+    // The end reads 0.16 mm out (overlap 0.62): cooled at a 25% threshold, but not slowed.
     const float fan_overlap_threshold = 0.75f;
 
     const std::vector<ExtendedPoint<2>> points = sampled_wall_along_edge(edge_wall_end_short, distance_to_speed, crossing_reading,
@@ -515,7 +515,7 @@ TEST_CASE("A wall is split where only the overhang fan changes", "[ExtrusionProc
 TEST_CASE("A wall is left whole where neither its speed nor its cooling changes", "[ExtrusionProcessor]")
 {
     const std::function<float(float)> distance_to_speed = [](float) { return 70.f; };
-    // 95% overhang; the step reads 0.384mm out (overlap 0.09).
+    // 95% overhang; the step reads 0.384 mm out (overlap 0.09).
     const float fan_overlap_threshold = 0.05f;
 
     const std::vector<ExtendedPoint<2>> points = sampled_wall_along_edge(-edge_wall_end_past, distance_to_speed, -1.f,

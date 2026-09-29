@@ -30,7 +30,7 @@
 		"280"
 	],
 	"filament_notes": [
-		"Inslogic Nylon PA6/66 TDS (20.01.2025). Nozzle sizes 0.2/0.4/0.6mm. Nozzle 250-280C. Bed 30-50C. Printing speed 50-150mm/s. Cooling fan 100%. Textured PEI Sheet. Drying 80C for 48h or 110C for 3h. TDS linear speed is not converted to filament_max_volumetric_speed."
+		"Inslogic Nylon PA6/66 TDS (20.01.2025). Nozzle sizes 0.2/0.4/0.6 mm. Nozzle 250-280C. Bed 30-50C. Printing speed 50.150 mm/s. Cooling fan 100%. Textured PEI Sheet. Drying 80C for 48h or 110C for 3h. TDS linear speed is not converted to filament_max_volumetric_speed."
 	],
 	"compatible_printers": []
 }

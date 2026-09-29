@@ -6,7 +6,7 @@
 	"setting_id": "xn5DRJ8PySGduKjg",
 	"instantiation": "true",
 	"printer_model": "Qidi X-Max",
-	"default_print_profile": "0.20mm Standard @Qidi XMax",
+	"default_print_profile": "0.20 mm Standard @Qidi XMax",
 	"nozzle_diameter": [
 		"0.4"
 	],

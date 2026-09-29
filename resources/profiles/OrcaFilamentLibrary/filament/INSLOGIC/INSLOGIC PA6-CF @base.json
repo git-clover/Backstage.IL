@@ -30,7 +30,7 @@
 		"290"
 	],
 	"filament_notes": [
-		"Inslogic PA6-CF TDS (20.01.2025). Nozzle sizes 0.4/0.6mm. Nozzle 270-290C at 50-100mm/s. Bed 50-70C. Cooling fan 30%. Textured PEI Sheet. Drying 90C for 12h or 110C for 4h. Carbon-fiber reinforced; abrasive filament. TDS linear speed is not converted to filament_max_volumetric_speed."
+		"Inslogic PA6-CF TDS (20.01.2025). Nozzle sizes 0.4/0.6 mm. Nozzle 270-290C at 50.100 mm/s. Bed 50-70C. Cooling fan 30%. Textured PEI Sheet. Drying 90C for 12h or 110C for 4h. Carbon-fiber reinforced; abrasive filament. TDS linear speed is not converted to filament_max_volumetric_speed."
 	],
 	"compatible_printers": [],
 	"required_nozzle_HRC": [

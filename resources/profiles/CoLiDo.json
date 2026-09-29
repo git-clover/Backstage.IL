@@ -51,116 +51,116 @@
 			"sub_path": "process/fdm_process_colidox16_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @CoLiDo DIY 4.0",
-			"sub_path": "process/0.08mm Extra Fine @CoLiDo DIY 4.0.json"
+			"name": "0.08 mm Extra Fine @CoLiDo DIY 4.0",
+			"sub_path": "process/0.08 mm Extra Fine @CoLiDo DIY 4.0.json"
 		},
 		{
-			"name": "0.12mm Fine @CoLiDo DIY 4.0",
-			"sub_path": "process/0.12mm Fine @CoLiDo DIY 4.0.json"
+			"name": "0.12 mm Fine @CoLiDo DIY 4.0",
+			"sub_path": "process/0.12 mm Fine @CoLiDo DIY 4.0.json"
 		},
 		{
-			"name": "0.15mm Optimal @CoLiDo DIY 4.0",
-			"sub_path": "process/0.15mm Optimal @CoLiDo DIY 4.0.json"
+			"name": "0.15 mm Optimal @CoLiDo DIY 4.0",
+			"sub_path": "process/0.15 mm Optimal @CoLiDo DIY 4.0.json"
 		},
 		{
-			"name": "0.20mm Standard @CoLiDo DIY 4.0",
-			"sub_path": "process/0.20mm Standard @CoLiDo DIY 4.0.json"
+			"name": "0.20 mm Standard @CoLiDo DIY 4.0",
+			"sub_path": "process/0.20 mm Standard @CoLiDo DIY 4.0.json"
 		},
 		{
-			"name": "0.24mm Draft @CoLiDo DIY 4.0",
-			"sub_path": "process/0.24mm Draft @CoLiDo DIY 4.0.json"
+			"name": "0.24 mm Draft @CoLiDo DIY 4.0",
+			"sub_path": "process/0.24 mm Draft @CoLiDo DIY 4.0.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @CoLiDo DIY 4.0",
-			"sub_path": "process/0.28mm Extra Draft @CoLiDo DIY 4.0.json"
+			"name": "0.28 mm Extra Draft @CoLiDo DIY 4.0",
+			"sub_path": "process/0.28 mm Extra Draft @CoLiDo DIY 4.0.json"
 		},
 		{
-			"name": "0.20mm Standard @CoLiDo DIY 4.0 V2",
-			"sub_path": "process/0.20mm Standard @CoLiDo DIY 4.0 V2.json"
+			"name": "0.20 mm Standard @CoLiDo DIY 4.0 V2",
+			"sub_path": "process/0.20 mm Standard @CoLiDo DIY 4.0 V2.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @CoLiDo SR1",
-			"sub_path": "process/0.08mm Extra Fine @CoLiDo SR1.json"
+			"name": "0.08 mm Extra Fine @CoLiDo SR1",
+			"sub_path": "process/0.08 mm Extra Fine @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.12mm Fine @CoLiDo SR1",
-			"sub_path": "process/0.12mm Fine @CoLiDo SR1.json"
+			"name": "0.12 mm Fine @CoLiDo SR1",
+			"sub_path": "process/0.12 mm Fine @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.15mm Optimal @CoLiDo SR1",
-			"sub_path": "process/0.15mm Optimal @CoLiDo SR1.json"
+			"name": "0.15 mm Optimal @CoLiDo SR1",
+			"sub_path": "process/0.15 mm Optimal @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.16mm Optimal @CoLiDo SR1",
-			"sub_path": "process/0.16mm Optimal @CoLiDo SR1.json"
+			"name": "0.16 mm Optimal @CoLiDo SR1",
+			"sub_path": "process/0.16 mm Optimal @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.20mm Standard @CoLiDo SR1",
-			"sub_path": "process/0.20mm Standard @CoLiDo SR1.json"
+			"name": "0.20 mm Standard @CoLiDo SR1",
+			"sub_path": "process/0.20 mm Standard @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.24mm Draft @CoLiDo SR1",
-			"sub_path": "process/0.24mm Draft @CoLiDo SR1.json"
+			"name": "0.24 mm Draft @CoLiDo SR1",
+			"sub_path": "process/0.24 mm Draft @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @CoLiDo SR1",
-			"sub_path": "process/0.28mm Extra Draft @CoLiDo SR1.json"
+			"name": "0.28 mm Extra Draft @CoLiDo SR1",
+			"sub_path": "process/0.28 mm Extra Draft @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.32mm Standard @CoLiDo SR1",
-			"sub_path": "process/0.32mm Standard @CoLiDo SR1.json"
+			"name": "0.32 mm Standard @CoLiDo SR1",
+			"sub_path": "process/0.32 mm Standard @CoLiDo SR1.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @CoLiDo X16",
-			"sub_path": "process/0.08mm Extra Fine @CoLiDo X16.json"
+			"name": "0.08 mm Extra Fine @CoLiDo X16",
+			"sub_path": "process/0.08 mm Extra Fine @CoLiDo X16.json"
 		},
 		{
-			"name": "0.12mm Fine @CoLiDo X16",
-			"sub_path": "process/0.12mm Fine @CoLiDo X16.json"
+			"name": "0.12 mm Fine @CoLiDo X16",
+			"sub_path": "process/0.12 mm Fine @CoLiDo X16.json"
 		},
 		{
-			"name": "0.15mm Optimal @CoLiDo X16",
-			"sub_path": "process/0.15mm Optimal @CoLiDo X16.json"
+			"name": "0.15 mm Optimal @CoLiDo X16",
+			"sub_path": "process/0.15 mm Optimal @CoLiDo X16.json"
 		},
 		{
-			"name": "0.20mm Standard @CoLiDo X16",
-			"sub_path": "process/0.20mm Standard @CoLiDo X16.json"
+			"name": "0.20 mm Standard @CoLiDo X16",
+			"sub_path": "process/0.20 mm Standard @CoLiDo X16.json"
 		},
 		{
-			"name": "0.24mm Draft @CoLiDo X16",
-			"sub_path": "process/0.24mm Draft @CoLiDo X16.json"
+			"name": "0.24 mm Draft @CoLiDo X16",
+			"sub_path": "process/0.24 mm Draft @CoLiDo X16.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @CoLiDo X16",
-			"sub_path": "process/0.28mm Extra Draft @CoLiDo X16.json"
+			"name": "0.28 mm Extra Draft @CoLiDo X16",
+			"sub_path": "process/0.28 mm Extra Draft @CoLiDo X16.json"
 		},
 		{
 			"name": "fdm_process_colido160v2_common",
 			"sub_path": "process/fdm_process_colido160v2_common.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @CoLiDo 160 V2",
-			"sub_path": "process/0.08mm Extra Fine @CoLiDo 160 V2.json"
+			"name": "0.08 mm Extra Fine @CoLiDo 160 V2",
+			"sub_path": "process/0.08 mm Extra Fine @CoLiDo 160 V2.json"
 		},
 		{
-			"name": "0.12mm Fine @CoLiDo 160 V2",
-			"sub_path": "process/0.12mm Fine @CoLiDo 160 V2.json"
+			"name": "0.12 mm Fine @CoLiDo 160 V2",
+			"sub_path": "process/0.12 mm Fine @CoLiDo 160 V2.json"
 		},
 		{
-			"name": "0.15mm Optimal @CoLiDo 160 V2",
-			"sub_path": "process/0.15mm Optimal @CoLiDo 160 V2.json"
+			"name": "0.15 mm Optimal @CoLiDo 160 V2",
+			"sub_path": "process/0.15 mm Optimal @CoLiDo 160 V2.json"
 		},
 		{
-			"name": "0.20mm Standard @CoLiDo 160 V2",
-			"sub_path": "process/0.20mm Standard @CoLiDo 160 V2.json"
+			"name": "0.20 mm Standard @CoLiDo 160 V2",
+			"sub_path": "process/0.20 mm Standard @CoLiDo 160 V2.json"
 		},
 		{
-			"name": "0.24mm Draft @CoLiDo 160 V2",
-			"sub_path": "process/0.24mm Draft @CoLiDo 160 V2.json"
+			"name": "0.24 mm Draft @CoLiDo 160 V2",
+			"sub_path": "process/0.24 mm Draft @CoLiDo 160 V2.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @CoLiDo 160 V2",
-			"sub_path": "process/0.28mm Extra Draft @CoLiDo 160 V2.json"
+			"name": "0.28 mm Extra Draft @CoLiDo 160 V2",
+			"sub_path": "process/0.28 mm Extra Draft @CoLiDo 160 V2.json"
 		}
 	],
 	"filament_list": [

@@ -304,7 +304,7 @@ function CreatePrinterBlock(OneModel)
 	// these not matches. have to fix in profiles to reduce conditions in here;
 	else if (vendor == "MagicMaker" && modelName.startsWith("MM"))
 		modelName = modelName.slice(("MM").length);
-	else if (vendor == "IDOLABS")
+	else if (vendor == "IDOLABS") // 태극기 펄----럭
 		modelName = modelName.slice(("IDOLABS").length);
 	else if (vendor == "RolohaunDesign" && modelName.startsWith("Rolohaun"))
 		modelName = modelName.slice(("Rolohaun").length);

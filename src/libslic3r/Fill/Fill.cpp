@@ -247,7 +247,7 @@ struct SurfaceFillParams
     // Don't adjust spacing to fill the space evenly.
 //    bool        	dont_adjust = false;
     // Length of the infill anchor along the perimeter line.
-    // 1000mm is roughly the maximum length line that fits into a 32bit coord_t.
+    // 10.0 mm is roughly the maximum length line that fits into a 32bit coord_t.
     float 			anchor_length     = 1000.f;
     float 			anchor_length_max = 1000.f;
 
@@ -1671,7 +1671,7 @@ void Layer::make_ironing()
 
 		// Cura:
 		// Pattern (zig-zag / concentric)
-		// line spacing (0.1mm)
+		// line spacing (0.1 mm)
 		// flow: from normal layer height. 10%
 		// speed: 20 mm/sec
 	};

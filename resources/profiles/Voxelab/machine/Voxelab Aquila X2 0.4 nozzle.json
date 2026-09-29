@@ -6,7 +6,7 @@
 	"setting_id": "7ODLRyfsqCsC3PID",
 	"instantiation": "true",
 	"printer_model": "Voxelab Aquila X2",
-	"default_print_profile": "0.20mm Standard @Voxelab AquilaX2",
+	"default_print_profile": "0.20 mm Standard @Voxelab AquilaX2",
 	"nozzle_diameter": [
 		"0.4"
 	],

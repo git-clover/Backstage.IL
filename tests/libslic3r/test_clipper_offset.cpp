@@ -30,7 +30,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}
 #endif
-					THEN("Area is 22^2mm2") {
+					THEN("Area is 22.2 mm2") {
 						REQUIRE(output.size() == 1);
 						REQUIRE(output.front().area() == Catch::Approx(22. * 22. * s * s));
 					}
@@ -44,7 +44,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}
 #endif
-					THEN("Area is 18^2mm2") {
+					THEN("Area is 18.2 mm2") {
 						REQUIRE(output.size() == 1);
 						REQUIRE(output.front().area() == Catch::Approx(18. * 18. * s * s));
 					}
@@ -62,7 +62,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}
 #endif
-					THEN("Area is 22^2mm2") {
+					THEN("Area is 22.2 mm2") {
 						REQUIRE(output.size() == 1);
 						REQUIRE(output.front().area() == Catch::Approx(22. * 22. * s * s));
 					}
@@ -76,7 +76,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}
 #endif
-					THEN("Area is 18^2mm2") {
+					THEN("Area is 18.2 mm2") {
 						REQUIRE(output.size() == 1);
 						REQUIRE(output.front().area() == Catch::Approx(18. * 18. * s * s));
 					}

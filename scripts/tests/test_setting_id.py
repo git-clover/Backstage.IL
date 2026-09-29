@@ -164,10 +164,10 @@ class TestSettingIdMint(unittest.TestCase):
     # implementations must stay byte-identical.
     GOLDEN = [
         ("Afinia",   "filament", "Afinia ABS @Afinia H400",             "TL34qSVkppBvMvgH"),
-        ("Afinia",   "process",  "0.20mm Standard @Afinia H400",        "FzmtNsy7XQvpd7w0"),
+        ("Afinia",   "process",  "0.20 mm Standard @Afinia H400",        "FzmtNsy7XQvpd7w0"),
         ("Afinia",   "machine",  "Afinia H400 0.4 nozzle",              "r4FZagW0S8uoaJPd"),
         ("Anycubic", "filament", "Generic PLA @Anycubic Kobra 2",       "YIWGGLQ8Oepd30Fv"),
-        ("Creality", "process",  "0.16mm Optimal @Creality Ender-3 V3", "2Nrbq8PxssUPBLza"),
+        ("Creality", "process",  "0.16 mm Optimal @Creality Ender-3 V3", "2Nrbq8PxssUPBLza"),
         ("Elegoo",   "machine",  "Elegoo Neptune 4 0.4 nozzle",         "69QdWuRQwAZk9rFu"),
     ]
 
@@ -283,7 +283,7 @@ class TestAssignment(SettingTreeCase):
     def test_assigns_across_every_profile_subdir(self):
         self.t.write("VendorA", "filament", preset("A PLA @P1"))
         self.t.write("VendorA", "process",
-                     preset("0.20mm Standard @P1", type_name="process"))
+                     preset("0.20 mm Standard @P1", type_name="process"))
         self.t.write("VendorA", "machine",
                      preset("P1 0.4 nozzle", type_name="machine"))
         # os.walk recursion: a preset in a nested directory is walked too.
@@ -295,7 +295,7 @@ class TestAssignment(SettingTreeCase):
         self.assertEqual((changed, errors), (4, 0), out)
         for subdir, type_name, name in [
                 ("filament", "filament", "A PLA @P1"),
-                ("process", "process", "0.20mm Standard @P1"),
+                ("process", "process", "0.20 mm Standard @P1"),
                 ("machine", "machine", "P1 0.4 nozzle"),
                 (os.path.join("filament", "nested"), "filament", "A PETG @P1")]:
             self.assertEqual(
@@ -315,7 +315,7 @@ class TestAssignment(SettingTreeCase):
     def test_idempotent(self):
         self.t.write("VendorA", "filament", preset("A PLA @P1"))
         self.t.write("VendorA", "process",
-                     preset("0.20mm Standard @P1", type_name="process"))
+                     preset("0.20 mm Standard @P1", type_name="process"))
         self.t.write("VendorA", "filament", preset("A PLA @base", instantiation=False,
                                                    setting_id="LEFTOVER00000000"))
         changed, errors, out = self.t.run()
@@ -508,7 +508,7 @@ class TestDryRun(SettingTreeCase):
     def test_writes_nothing_and_previews_the_real_run(self):
         self.t.write("VendorA", "filament", preset("A PLA @P1"))
         self.t.write("VendorA", "process",
-                     preset("0.20mm Standard @P1", type_name="process"))
+                     preset("0.20 mm Standard @P1", type_name="process"))
         self.t.write("VendorA", "filament",
                      preset("A PLA @base", instantiation=False,
                             setting_id="0000000000000000"))

@@ -5,7 +5,7 @@
 	"from": "system",
 	"setting_id": "iJqPJqKBFJvagyMn",
 	"instantiation": "true",
-	"default_print_profile": "0.20mm Standard @OpenEYE Peacock V2",
+	"default_print_profile": "0.20 mm Standard @OpenEYE Peacock V2",
 	"default_bed_type": "Textured PEI Plate",
 	"adaptive_bed_mesh_margin": "10",
 	"bed_mesh_max": "211,211",

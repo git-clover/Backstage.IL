@@ -6,7 +6,7 @@
 	"setting_id": "cUhse9TrF7ElM5dh",
 	"instantiation": "true",
 	"printer_model": "Artillery Sidewinder X2",
-	"default_print_profile": "0.20mm Standard @Artillery X2",
+	"default_print_profile": "0.20 mm Standard @Artillery X2",
 	"nozzle_diameter": [
 		"0.4"
 	],

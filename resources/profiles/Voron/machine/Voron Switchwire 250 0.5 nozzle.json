@@ -6,7 +6,7 @@
 	"setting_id": "tjek5U0AkXTYI7cn",
 	"instantiation": "true",
 	"printer_model": "Voron Switchwire 250",
-	"default_print_profile": "0.25mm Standard 0.5 nozzle @Voron",
+	"default_print_profile": "0.25 mm Standard 0.5 nozzle @Voron",
 	"max_layer_height": [
 		"0.4"
 	],

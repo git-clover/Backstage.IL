@@ -164,7 +164,7 @@ static double calc_max_layer_height(const PrintConfig &config, double max_object
             mlh = 0.75 * config.nozzle_diameter.values[i];
         max_layer_height = std::min(max_layer_height, mlh);
     }
-    // The Prusa3D Fast (0.35mm layer height) print profile sets a higher layer height than what is normally allowed
+    // The Prusa3D Fast (0.35 mm layer height) print profile sets a higher layer height than what is normally allowed
     // by the nozzle. This is a hack and it works by increasing extrusion width. See GH #3919.
     return std::max(max_layer_height, max_object_layer_height);
 }
@@ -2409,7 +2409,7 @@ void ToolOrdering::resolve_mixed_filaments(const PrintConfig &config)
                 base_z = std::max(base_z, rel_pz_it->second);
         }
         double lh = print_z - base_z;
-        return (lh > 0.) ? lh : 0.2;  // 0.2mm safety fallback; should not trigger in normal operation
+        return (lh > 0.) ? lh : 0.2;  // 0.2 mm safety fallback; should not trigger in normal operation
     };
 
     for (LayerTools &lt : m_layer_tools) {

@@ -56,7 +56,7 @@ TEST_CASE("Other flavors wait in the wipe tower with a seconds dwell", "[WipeTow
 }
 
 // The prime tower is validated against the real printable outline, so the placement clamps have to
-// agree with it wherever that outline is not a rectangle. A regular hexagon inscribed in a 200mm
+// agree with it wherever that outline is not a rectangle. A regular hexagon inscribed in a 2.0 mm
 // circle stands in for the shipped delta beds.
 TEST_CASE("The wipe tower placement clamp follows a non-rectangular bed outline", "[WipeTower]")
 {

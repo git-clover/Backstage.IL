@@ -552,7 +552,7 @@ TEST_CASE("Wipe tower temperature-wait park is regenerated when the tower moves"
     const std::vector<double> at_edge_parks = wait_park_xs(at_edge);
     REQUIRE(!at_edge_parks.empty()); // the feature under test is active
     for (double x : at_edge_parks) {
-        INFO("wait park X " << x << " with the tower at x=0 on a 200mm bed");
+        INFO("wait park X " << x << " with the tower at x=0 on a 2.0 mm bed");
         CHECK(x >= -0.05);
         CHECK(x <= 200.05);
     }
@@ -578,7 +578,7 @@ TEST_CASE("Wipe tower temperature-wait park is regenerated when the tower moves"
     const std::vector<double> moved_parks = wait_park_xs(moved);
     REQUIRE(!moved_parks.empty()); // the waits must survive the re-slice
     for (double x : moved_parks) {
-        INFO("wait park X " << x << " with the tower at x=164 on a 200mm bed");
+        INFO("wait park X " << x << " with the tower at x=164 on a 2.0 mm bed");
         CHECK(x >= -0.05);
         CHECK(x <= 200.05);
     }
@@ -598,7 +598,7 @@ TEST_CASE("Wipe tower temperature-wait park is regenerated when the tower moves"
 // of preheating. The lead times below are what pin that placement.
 TEST_CASE("Toolchange temperature commands are unchanged when the wipe tower wait is off", "[MultiFilament][Regression]")
 {
-    // 20x20x5 cubes at the default 0.2mm layer height are 25 layers, one filament each, so there is
+    // 20x20x5 cubes at the default 0.2 mm layer height are 25 layers, one filament each, so there is
     // a toolchange -- and a preheat ahead of it -- on every layer.
     const std::string gcode = slice_with_object_overrides(
         { make_cube(20., 20., 5.), make_cube(20., 20., 5.) },

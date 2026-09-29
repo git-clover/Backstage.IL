@@ -6,7 +6,7 @@
 	"setting_id": "oY7vk6130jo4CbGr",
 	"instantiation": "true",
 	"printer_model": "Raise3D Pro3",
-	"default_print_profile": "0.20mm Standard @Raise3D Pro3",
+	"default_print_profile": "0.20 mm Standard @Raise3D Pro3",
 	"nozzle_diameter": [
 		"0.4",
 		"0.4"

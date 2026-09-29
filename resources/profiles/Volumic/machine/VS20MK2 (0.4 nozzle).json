@@ -6,7 +6,7 @@
 	"setting_id": "xV2JznZ0imfZku62",
 	"instantiation": "true",
 	"printer_model": "VS20MK2",
-	"default_print_profile": "Compatible speed - 0.15mm",
+	"default_print_profile": "Compatible speed - 0.15 mm",
 	"nozzle_diameter": [
 		"0.4"
 	],

@@ -43,7 +43,7 @@ static Polygons calculateMachineBorderCollision(Polygon machine_border)
     //FIXME just returning no border will let tree support legs collide with print bed boundary
     return {};
 #else
-    //FIXME offsetting by 1000mm easily overflows int32_tr coordinate.
+    //FIXME offsetting by 10.0 mm easily overflows int32_tr coordinate.
     Polygons out = offset(machine_border, scaled<float>(1000.), jtMiter, 1.2);
     machine_border.reverse(); // Makes the polygon negative so that we subtract the actual volume from the collision area.
     out.emplace_back(std::move(machine_border));

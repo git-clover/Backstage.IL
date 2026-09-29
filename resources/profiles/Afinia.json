@@ -43,24 +43,24 @@
 			"sub_path": "process/fdm_process_afinia_HS_common.json"
 		},
 		{
-			"name": "0.12mm Fine @Afinia H+1(HS)",
-			"sub_path": "process/0.12mm Fine @Afinia H+1(HS).json"
+			"name": "0.12 mm Fine @Afinia H+1(HS)",
+			"sub_path": "process/0.12 mm Fine @Afinia H+1(HS).json"
 		},
 		{
-			"name": "0.16mm Optimal @Afinia H+1(HS)",
-			"sub_path": "process/0.16mm Optimal @Afinia H+1(HS).json"
+			"name": "0.16 mm Optimal @Afinia H+1(HS)",
+			"sub_path": "process/0.16 mm Optimal @Afinia H+1(HS).json"
 		},
 		{
-			"name": "0.20mm Standard @Afinia H+1(HS)",
-			"sub_path": "process/0.20mm Standard @Afinia H+1(HS).json"
+			"name": "0.20 mm Standard @Afinia H+1(HS)",
+			"sub_path": "process/0.20 mm Standard @Afinia H+1(HS).json"
 		},
 		{
-			"name": "0.24mm Draft @Afinia H+1(HS)",
-			"sub_path": "process/0.24mm Draft @Afinia H+1(HS).json"
+			"name": "0.24 mm Draft @Afinia H+1(HS)",
+			"sub_path": "process/0.24 mm Draft @Afinia H+1(HS).json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Afinia H+1(HS)",
-			"sub_path": "process/0.28mm Extra Draft @Afinia H+1(HS).json"
+			"name": "0.28 mm Extra Draft @Afinia H+1(HS)",
+			"sub_path": "process/0.28 mm Extra Draft @Afinia H+1(HS).json"
 		},
 		{
 			"name": "fdm_process_afinia_0.18_nozzle_0.6_HS",
@@ -83,28 +83,28 @@
 			"sub_path": "process/fdm_process_afinia_0.42_nozzle_0.6_HS.json"
 		},
 		{
-			"name": "0.18mm Fine @Afinia H+1(HS) 0.6 nozzle",
-			"sub_path": "process/0.18mm Fine @Afinia H+1(HS) 0.6 nozzle.json"
+			"name": "0.18 mm Fine @Afinia H+1(HS) 0.6 nozzle",
+			"sub_path": "process/0.18 mm Fine @Afinia H+1(HS) 0.6 nozzle.json"
 		},
 		{
-			"name": "0.24mm Standard @Afinia H+1(HS) 0.6 nozzle",
-			"sub_path": "process/0.24mm Standard @Afinia H+1(HS) 0.6 nozzle.json"
+			"name": "0.24 mm Standard @Afinia H+1(HS) 0.6 nozzle",
+			"sub_path": "process/0.24 mm Standard @Afinia H+1(HS) 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Standard @Afinia H+1(HS) 0.6 nozzle",
-			"sub_path": "process/0.30mm Standard @Afinia H+1(HS) 0.6 nozzle.json"
+			"name": "0.30 mm Standard @Afinia H+1(HS) 0.6 nozzle",
+			"sub_path": "process/0.30 mm Standard @Afinia H+1(HS) 0.6 nozzle.json"
 		},
 		{
-			"name": "0.30mm Strength @Afinia H+1(HS) 0.6 nozzle",
-			"sub_path": "process/0.30mm Strength @Afinia H+1(HS) 0.6 nozzle.json"
+			"name": "0.30 mm Strength @Afinia H+1(HS) 0.6 nozzle",
+			"sub_path": "process/0.30 mm Strength @Afinia H+1(HS) 0.6 nozzle.json"
 		},
 		{
-			"name": "0.36mm Draft @Afinia H+1(HS) 0.6 nozzle",
-			"sub_path": "process/0.36mm Draft @Afinia H+1(HS) 0.6 nozzle.json"
+			"name": "0.36 mm Draft @Afinia H+1(HS) 0.6 nozzle",
+			"sub_path": "process/0.36 mm Draft @Afinia H+1(HS) 0.6 nozzle.json"
 		},
 		{
-			"name": "0.42mm Extra Draft @Afinia H+1(HS) 0.6 nozzle",
-			"sub_path": "process/0.42mm Extra Draft @Afinia H+1(HS) 0.6 nozzle.json"
+			"name": "0.42 mm Extra Draft @Afinia H+1(HS) 0.6 nozzle",
+			"sub_path": "process/0.42 mm Extra Draft @Afinia H+1(HS) 0.6 nozzle.json"
 		}
 	],
 	"filament_list": [

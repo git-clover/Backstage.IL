@@ -7,7 +7,7 @@
 	"instantiation": "true",
 	"printer_model": "Qidi Q1 Pro",
 	"gcode_flavor": "klipper",
-	"default_print_profile": "0.20mm Standard @Qidi Q1 Pro",
+	"default_print_profile": "0.20 mm Standard @Qidi Q1 Pro",
 	"nozzle_diameter": [
 		"0.4"
 	],

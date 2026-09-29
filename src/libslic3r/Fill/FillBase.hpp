@@ -56,7 +56,7 @@ struct FillParams
     int   multiline{1};
 
     // Length of an infill anchor along the perimeter.
-    // 1000mm is roughly the maximum length line that fits into a 32bit coord_t.
+    // 10.0 mm is roughly the maximum length line that fits into a 32bit coord_t.
     float       anchor_length       { 1000.f };
     float       anchor_length_max   { 1000.f };
 

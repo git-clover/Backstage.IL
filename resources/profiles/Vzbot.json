@@ -39,76 +39,76 @@
 			"sub_path": "process/fdm_process_Vzbot_common_0.6_nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Vzbot",
-			"sub_path": "process/0.08mm Extra Fine @Vzbot.json"
+			"name": "0.08 mm Extra Fine @Vzbot",
+			"sub_path": "process/0.08 mm Extra Fine @Vzbot.json"
 		},
 		{
-			"name": "0.12mm Fine @Vzbot",
-			"sub_path": "process/0.12mm Fine @Vzbot.json"
+			"name": "0.12 mm Fine @Vzbot",
+			"sub_path": "process/0.12 mm Fine @Vzbot.json"
 		},
 		{
-			"name": "0.15mm Optimal @Vzbot",
-			"sub_path": "process/0.15mm Optimal @Vzbot.json"
+			"name": "0.15 mm Optimal @Vzbot",
+			"sub_path": "process/0.15 mm Optimal @Vzbot.json"
 		},
 		{
-			"name": "0.20mm Standard @Vzbot",
-			"sub_path": "process/0.20mm Standard @Vzbot.json"
+			"name": "0.20 mm Standard @Vzbot",
+			"sub_path": "process/0.20 mm Standard @Vzbot.json"
 		},
 		{
-			"name": "0.24mm Draft @Vzbot",
-			"sub_path": "process/0.24mm Draft @Vzbot.json"
+			"name": "0.24 mm Draft @Vzbot",
+			"sub_path": "process/0.24 mm Draft @Vzbot.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Vzbot",
-			"sub_path": "process/0.28mm Extra Draft @Vzbot.json"
+			"name": "0.28 mm Extra Draft @Vzbot",
+			"sub_path": "process/0.28 mm Extra Draft @Vzbot.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Vzbot 0.5nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Vzbot_0.5_nozzle.json"
+			"name": "0.28 mm Extra Draft @Vzbot 0.5nozzle",
+			"sub_path": "process/0.28 mm Extra Draft @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.28mm Extra Draft @Vzbot 0.6nozzle",
-			"sub_path": "process/0.28mm Extra Draft @Vzbot_0.6_nozzle.json"
+			"name": "0.28 mm Extra Draft @Vzbot 0.6nozzle",
+			"sub_path": "process/0.28 mm Extra Draft @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Vzbot 0.5nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Vzbot_0.5_nozzle.json"
+			"name": "0.08 mm Extra Fine @Vzbot 0.5nozzle",
+			"sub_path": "process/0.08 mm Extra Fine @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Vzbot 0.5nozzle",
-			"sub_path": "process/0.12mm Fine @Vzbot_0.5_nozzle.json"
+			"name": "0.12 mm Fine @Vzbot 0.5nozzle",
+			"sub_path": "process/0.12 mm Fine @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.15mm Optimal @Vzbot 0.5nozzle",
-			"sub_path": "process/0.15mm Optimal @Vzbot_0.5_nozzle.json"
+			"name": "0.15 mm Optimal @Vzbot 0.5nozzle",
+			"sub_path": "process/0.15 mm Optimal @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Vzbot 0.5nozzle",
-			"sub_path": "process/0.20mm Standard @Vzbot_0.5_nozzle.json"
+			"name": "0.20 mm Standard @Vzbot 0.5nozzle",
+			"sub_path": "process/0.20 mm Standard @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Vzbot 0.5nozzle",
-			"sub_path": "process/0.24mm Draft @Vzbot_0.5_nozzle.json"
+			"name": "0.24 mm Draft @Vzbot 0.5nozzle",
+			"sub_path": "process/0.24 mm Draft @Vzbot_0.5_nozzle.json"
 		},
 		{
-			"name": "0.08mm Extra Fine @Vzbot 0.6nozzle",
-			"sub_path": "process/0.08mm Extra Fine @Vzbot_0.6_nozzle.json"
+			"name": "0.08 mm Extra Fine @Vzbot 0.6nozzle",
+			"sub_path": "process/0.08 mm Extra Fine @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.12mm Fine @Vzbot 0.6nozzle",
-			"sub_path": "process/0.12mm Fine @Vzbot_0.6_nozzle.json"
+			"name": "0.12 mm Fine @Vzbot 0.6nozzle",
+			"sub_path": "process/0.12 mm Fine @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.15mm Optimal @Vzbot 0.6nozzle",
-			"sub_path": "process/0.15mm Optimal @Vzbot_0.6_nozzle.json"
+			"name": "0.15 mm Optimal @Vzbot 0.6nozzle",
+			"sub_path": "process/0.15 mm Optimal @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.20mm Standard @Vzbot 0.6nozzle",
-			"sub_path": "process/0.20mm Standard @Vzbot_0.6_nozzle.json"
+			"name": "0.20 mm Standard @Vzbot 0.6nozzle",
+			"sub_path": "process/0.20 mm Standard @Vzbot_0.6_nozzle.json"
 		},
 		{
-			"name": "0.24mm Draft @Vzbot 0.6nozzle",
-			"sub_path": "process/0.24mm Draft @Vzbot_0.6_nozzle.json"
+			"name": "0.24 mm Draft @Vzbot 0.6nozzle",
+			"sub_path": "process/0.24 mm Draft @Vzbot_0.6_nozzle.json"
 		}
 	],
 	"filament_list": [
