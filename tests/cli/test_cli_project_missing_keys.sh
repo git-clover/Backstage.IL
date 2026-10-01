@@ -44,7 +44,7 @@ slice() {
 }
 
 slice base "$WORK/cube.stl" \
-    --load-settings "$PROFILES/machine/Bambu Lab P1S 0.4 nozzle.json;$PROFILES/process/0.20mm Standard @BBL X1C.json" \
+    --load-settings "$PROFILES/machine/Bambu Lab P1S 0.4 nozzle.json;$PROFILES/process/0.20 mm Standard @BBL X1C.json" \
     --load-filaments "$PROFILES/filament/Bambu PLA Basic @BBL P1S 0.4 nozzle.json"
 
 # The removed keys, with their option defaults from PrintConfig.cpp; stale keys changed without being
