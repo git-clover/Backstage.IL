@@ -799,14 +799,14 @@ TEST_CASE("a key misplaced into a vendor preset is reported and removed", "[Vend
     write_process_vendor(dirs.system, "Acme", {
         { "Acme template", R"({"type":"process","name":"Acme template","from":"system","instantiation":"false","wall_loops":"5","filament_density":"1.2"})" },
         { "Acme base", R"({"type":"process","name":"Acme base","from":"system","instantiation":"false","filament_cost":"5"})" },
-        { "0.20mm Standard @Acme", process_json("0.20mm Standard @Acme",
+        { "0.20 mm Standard @Acme", process_json("0.20 mm Standard @Acme",
             R"("instantiation":"true","inherits":"Acme base","include":["Acme template"],"nozzle_temperature":["210"],)") } });
     PresetBundle bundle;
     bundle.load_vendor_configs_from_json(dirs.system.string(), "Acme", PresetBundle::LoadSystem,
                                          ForwardCompatibilitySubstitutionRule::EnableSilent);
 
     CHECK(bundle.error_count() == 3);
-    const Preset* preset = bundle.prints.find_preset("0.20mm Standard @Acme", false);
+    const Preset* preset = bundle.prints.find_preset("0.20 mm Standard @Acme", false);
     REQUIRE(preset != nullptr);
     CHECK_FALSE(preset->config.has("filament_cost"));
     CHECK_FALSE(preset->config.has("filament_density"));
@@ -825,8 +825,8 @@ TEST_CASE("each vendor loads from the directory it is listed with", "[VendorCach
 
     CHECK(bundle.vendors.count("Acme") == 1);
     CHECK(bundle.vendors.count("Zeta") == 1);
-    CHECK(bundle.prints.find_preset("0.20mm Standard @Acme", false) != nullptr);
-    CHECK(bundle.prints.find_preset("0.20mm Standard @Zeta", false) != nullptr);
+    CHECK(bundle.prints.find_preset("0.20 mm Standard @Acme", false) != nullptr);
+    CHECK(bundle.prints.find_preset("0.20 mm Standard @Zeta", false) != nullptr);
 }
 
 TEST_CASE("a vendor that fails to load is left out, reported, and the others still load", "[VendorCache]")
@@ -842,7 +842,7 @@ TEST_CASE("a vendor that fails to load is left out, reported, and the others sti
 
     CHECK(bundle.vendors.count("Acme") == 1);
     CHECK(bundle.vendors.count("Broken") == 0);
-    CHECK(bundle.prints.find_preset("0.20mm Standard @Acme", false) != nullptr);
+    CHECK(bundle.prints.find_preset("0.20 mm Standard @Acme", false) != nullptr);
     CHECK(errors.find("Broken") != std::string::npos);
     CHECK(failed == std::vector<std::string>{ "Broken" });
 }
@@ -872,7 +872,7 @@ TEST_CASE("a filament library that fails partway is reported, and vendors inheri
     CHECK(bundle.vendors.count("Acme") == 0);
     CHECK(bundle.filaments.find_preset("Acme PLA @0.4", false) == nullptr);
     CHECK(bundle.vendors.count("Zeta") == 1);
-    CHECK(bundle.prints.find_preset("0.20mm Standard @Zeta", false) != nullptr);
+    CHECK(bundle.prints.find_preset("0.20 mm Standard @Zeta", false) != nullptr);
 }
 
 TEST_CASE("a vendor whose profile cannot be read is left out, reported, and the others still load", "[VendorCache]")
@@ -887,7 +887,7 @@ TEST_CASE("a vendor whose profile cannot be read is left out, reported, and the 
 
     CHECK(bundle.vendors.count("Acme") == 1);
     CHECK(bundle.vendors.count("Broken") == 0);
-    CHECK(bundle.prints.find_preset("0.20mm Standard @Acme", false) != nullptr);
+    CHECK(bundle.prints.find_preset("0.20 mm Standard @Acme", false) != nullptr);
     CHECK(errors.find("Broken.json") != std::string::npos);
 }
 
@@ -902,7 +902,7 @@ TEST_CASE("a canceled vendor load starts no vendor", "[VendorCache]")
                         ForwardCompatibilitySubstitutionRule::EnableSilent, /*allow_cache=*/false, &cancel);
 
     CHECK(bundle.vendors.empty());
-    CHECK(bundle.prints.find_preset("0.20mm Standard @Acme", false) == nullptr);
+    CHECK(bundle.prints.find_preset("0.20 mm Standard @Acme", false) == nullptr);
 }
 
 TEST_CASE("a preset two vendors both define is kept from the first listed and reported under the others", "[VendorCache]")
@@ -1316,7 +1316,7 @@ TEST_CASE("a cache entry whose parent is missing falls back to the vendor's JSON
     PresetBundle several;
     several.load_vendors({ { "Acme", user } }, ForwardCompatibilitySubstitutionRule::EnableSilent, /*allow_cache=*/true);
     CHECK(several.vendors.at("Acme").name == "Acme");
-    CHECK(several.prints.find_preset("0.20mm Standard @Acme", false) != nullptr);
+    CHECK(several.prints.find_preset("0.20 mm Standard @Acme", false) != nullptr);
 }
 
 TEST_CASE("a profile with no usable version is never served from cache", "[VendorCache]")
