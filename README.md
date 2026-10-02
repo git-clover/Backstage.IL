@@ -11,12 +11,12 @@ This is actually just a powerful, permanent excuse for me to buy or build **EVEN
 I'm only 21% joking. I didn't make this to develop profiles for niche machines, but it happened to turn out this way. Thanks.<br>
 
 ## Confirmed to be ADDED
-It'll include:
-- (Almost) all Annex Engineering printers
+It'll soon include:
+- Annex Engineering printers (Phase 1 - K2-Chhogori, K3-Gasherbrum)
 - Matt's T100 and T250
 - Doron Velta ([I have my own Velta!](https://github.com/git-clover/IL.Velta))
 - Micron and Salad Fork
-- Frisky stuff (It's basically a box of mystery)
+- Fraxinus 00tw
 
 ## Trying (mostly not) to build
 - Volumetric MP4 files (Easiest out of all four)
