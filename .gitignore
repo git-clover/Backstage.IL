@@ -1,7 +1,6 @@
 Build
 Build.bat
-autoupdate.sh
-autosd.sh
+reunit.sh
 /build*/
 /out/
 CMakeLists.txt.user
