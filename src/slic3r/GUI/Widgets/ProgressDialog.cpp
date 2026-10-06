@@ -247,7 +247,7 @@ bool ProgressDialog::Create(const wxString &title, const wxString &message, int 
         m_gauge = new wxGauge(this, wxID_ANY, maximum, wxDefaultPosition, PROGRESSDIALOG_GAUGE_SIZE, gauge_style);
 #ifdef __WXGTK__
         SetGaugeColor(m_gauge, 
-            StateColor::darkModeColorFor(wxColour("#009688")).GetAsString(), 
+            StateColor::darkModeColorFor(wxColour("#004fbd")).GetAsString(), 
             StateColor::darkModeColorFor(wxColour("#D9D9D9")).GetAsString()
         );
         m_gauge->SetValue(0);

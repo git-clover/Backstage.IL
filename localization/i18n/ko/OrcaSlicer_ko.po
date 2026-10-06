@@ -6485,9 +6485,6 @@ msgstr "모두 전송"
 msgid "Send to Multi-device"
 msgstr "멀티버스에 업로드"
 
-msgid "Slice plate"
-msgstr "스테이지 생성"
-
 msgid "Keyboard Shortcuts"
 msgstr "키보드 단축키"
 
