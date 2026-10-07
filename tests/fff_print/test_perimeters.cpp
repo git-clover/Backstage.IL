@@ -280,10 +280,10 @@ namespace {
 // The last layer of the tab, whose top surface shares an island with the tube walls rising past it.
 const double tab_top_z = 5.0;
 
-// With the widths below the tube walls are 1.10mm wide once the precise outer wall offset (0.043mm a side) is
-// taken off. That is narrower than 3 outer wall spacings (3 x 0.377 = 1.131mm), so an Arachne pass limited to a
+// With the widths below the tube walls are 1.10 mm wide once the precise outer wall offset (0.043 mm a side) is
+// taken off. That is narrower than 3 outer wall spacings (3 x 0.377 = 1.131 mm), so an Arachne pass limited to a
 // single wall fills it by widening its 2 beads, yet wide enough for the full 2 wall pass to add a middle wall
-// (from 1.062mm).
+// (from 1.062 mm).
 const double narrow_wall = 1.186;
 
 // A 20x30x10 tube with narrow_wall thick walls, and a 20x8x5 tab against its -Y side.
@@ -292,7 +292,7 @@ Print &tube_with_tab(Print &print, Model &model, const DynamicPrintConfig &confi
     ModelObject *object = model.add_object();
     object->name = "tube_with_tab.stl";
     object->add_volume(make_cube(20., 30., 10.), ModelVolumeType::MODEL_PART, false);
-    // Overlaps the tube wall by 0.5mm so the two parts slice as one island.
+    // Overlaps the tube wall by 0.5 mm so the two parts slice as one island.
     TriangleMesh tab = make_cube(20., 8.5, 5.);
     tab.translate(0.f, -8.f, 0.f);
     object->add_volume(std::move(tab), ModelVolumeType::MODEL_PART, false);
@@ -859,7 +859,7 @@ TEST_CASE("Fuzzy skin leaves the walls over an empty layer smooth", "[Perimeters
 
 namespace {
 
-// A 20x20x5mm square tube whose walls are `wall` mm thick, except the far one at `far_wall` mm.
+// A 20x20.5 mm square tube whose walls are `wall` mm thick, except the far one at `far_wall` mm.
 Print &square_tube(Print &print, Model &model, const DynamicPrintConfig &config, double wall, double far_wall)
 {
     ModelObject *object = model.add_object();
@@ -880,7 +880,7 @@ Print &square_tube(Print &print, Model &model, const DynamicPrintConfig &config,
 }
 
 // Every setting the wall thicknesses below are measured against. With these widths the two outer walls of
-// a 0.8mm wall touch, a 1mm wall leaves a gap between them for gap fill, and an inner wall needs about 1.5mm.
+// a 0.8 mm wall touch, a 1mm wall leaves a gap between them for gap fill, and an inner wall needs about 1.5 mm.
 // Both one wall options are on, so the first and the last layer have a single wall whatever wall_loops asks.
 DynamicPrintConfig hole_direction_config(int wall_loops, const char *wall_direction)
 {
@@ -952,7 +952,7 @@ TEST_CASE("Holes run against the wall direction", "[Perimeters]")
     Model model;
     square_tube(print, model, hole_direction_config(wall_loops, wall_direction), wall, far_wall);
     const std::vector<WallDirections> layers = wall_directions(print);
-    // 5mm at 0.2mm layers.
+    // 5mm at 0.2 mm layers.
     REQUIRE(layers.size() == 25);
     // Without gap fill between the outer walls the thin tubes would test the case below instead.
     if (wall < 2.)
