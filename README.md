@@ -7,8 +7,8 @@ Welcome to the backstage!
 <a href="https://twitter.com/real_OrcaSlicer"><img src="https://img.shields.io/badge/real__OrcaSlicer-000000?style=flat&logo=x&logoColor=white" width="200" alt="X Logo"/> </a><br>  
 
 ## But WHY this one?
-This is actually just a powerful, permanent excuse for me to buy or build **EVEN MORE MACHINES! HAHA!**<br>
-I'm only 21% joking. I didn't make this to develop profiles for niche machines, but it happened to turn out this way. Thanks.<br>
+I just cranked up a number and it suddenly supports 100 plates.<br>
+So I guess you could enjoy your 50-plate projects while watching your CNC comedy.
 
 ## Confirmed to be ADDED
 It'll soon include:
