@@ -6360,32 +6360,32 @@ msgstr "Den aktuella grupperingen i beredningsresultatet är inte optimal."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr "Ökar med %1% g filament och %2% byten jämfört med optimal gruppering."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr "Ökar med %1% g filament men sparar %2% byten jämfört med optimal gruppering."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr "Sparar %1% g filament men ökar med %2% byten jämfört med optimal gruppering."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr "Sparar %1% g filament och %2% byten jämfört med en skrivare med en nozzel."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr "Sparar %1% g filament men ökar med %2% byten jämfört med en skrivare med en nozzel."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr "Ökar med %1% g filament men sparar %2% byten jämfört med en skrivare med en nozzel."
 
 # AI Translated

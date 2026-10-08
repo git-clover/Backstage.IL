@@ -159,7 +159,7 @@ void TrayListModel::update(MachineObject* obj)
                     m_colorColValues.push_back(color_text);
                     wxString meterial_text = wxString::Format("%s", tray->m_fila_type);
                     m_meterialColValues.push_back(meterial_text);
-                    wxString weight_text = wxString::Format("%sg", tray->weight);
+                    wxString weight_text = wxString::Format("%s g", tray->weight);
                     m_weightColValues.push_back(weight_text);
                     wxString diameter_text = wxString::Format("%0.2f", tray->diameter);
                     m_diameterColValues.push_back(diameter_text);

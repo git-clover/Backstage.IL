@@ -5758,32 +5758,32 @@ msgstr "Поточне групування результату нарізан�
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr "Збільшує витрату філаменту на %1%г та кількість змін на %2% порівняно з оптимальним групуванням."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr "Збільшує витрату філаменту на %1%г та економить %2% змін порівняно з оптимальним групуванням."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr "Економить %1%г філаменту та збільшує кількість змін на %2% порівняно з оптимальним групуванням."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr "Економить %1%г філаменту та %2% змін порівняно з принтером з одним соплом."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr "Економить %1%г філаменту та збільшує кількість змін на %2% порівняно з принтером з одним соплом."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr "Збільшує витрату філаменту на %1%г та економить %2% змін порівняно з принтером з одним соплом."
 
 msgid "Set to Optimal"

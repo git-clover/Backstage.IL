@@ -5818,28 +5818,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "현재 슬라이스 결과의 그룹핑이 최적이 아닙니다."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "최적 그룹핑 대비 %1%g 필라멘트와 %2%회 변경이 증가합니다."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "최적 그룹핑 대비 %1% g 필라멘트와 %2%회 변경이 증가합니다."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "최적 그룹핑 대비 %1%g 필라멘트가 증가하고 %2%회 변경이 절감됩니다."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "최적 그룹핑 대비 %1% g 필라멘트가 증가하고 %2%회 변경이 절감됩니다."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "최적 그룹핑 대비 %1%g 필라멘트가 절감되고 %2%회 변경이 증가합니다."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "최적 그룹핑 대비 %1% g 필라멘트가 절감되고 %2%회 변경이 증가합니다."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "단일 노즐 프린터 대비 %1%g 필라멘트와 %2%회 변경이 절감됩니다."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "단일 노즐 프린터 대비 %1% g 필라멘트와 %2%회 변경이 절감됩니다."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "단일 노즐 프린터 대비 %1%g 필라멘트가 절감되고 %2%회 변경이 증가합니다."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "단일 노즐 프린터 대비 %1% g 필라멘트가 절감되고 %2%회 변경이 증가합니다."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "단일 노즐 프린터 대비 %1%g 필라멘트가 증가하고 %2%회 변경이 절감됩니다."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "단일 노즐 프린터 대비 %1% g 필라멘트가 증가하고 %2%회 변경이 절감됩니다."
 
 msgid "Set to Optimal"
 msgstr "최적으로 설정"

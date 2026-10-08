@@ -5774,27 +5774,27 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Dabartinis pjaustymo rezultatų grupavimas nėra optimalus."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr "Sunaudojama %1% g daugiau gijos ir atliekama %2% keitimų daugiau, lyginant su optimaliu grupavimu."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr "Sunaudojama %1% g daugiau gijos ir sutaupoma %2% keitimų, lyginant su optimaliu grupavimu."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr "Sutaupoma %1% g gijos ir atliekama %2% keitimų daugiau, lyginant su optimaliu grupavimu."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr "Sutaupoma %1% g gijos ir %2% keitimų, lyginant su vieno purkštuko spausdintuvu."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr "Sutaupoma %1% g gijos ir atliekama %2% keitimų daugiau, lyginant su vieno purkštuko spausdintuvu."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr "Sunaudojama %1% g daugiau gijos ir sutaupoma %2% keitimų, lyginant su vieno purkštuko spausdintuvu."
 
 msgid "Set to Optimal"

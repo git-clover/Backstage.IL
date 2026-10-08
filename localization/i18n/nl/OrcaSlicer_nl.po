@@ -6270,33 +6270,33 @@ msgstr "De huidige groepering van het sliceresultaat is niet optimaal."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "%1%g meer filament en %2% meer wissels ten opzichte van de optimale groepering."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "%1% g meer filament en %2% meer wissels ten opzichte van de optimale groepering."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "%1%g meer filament en %2% wissels minder ten opzichte van de optimale groepering."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "%1% g meer filament en %2% wissels minder ten opzichte van de optimale groepering."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "%1%g minder filament en %2% wissels meer ten opzichte van de optimale groepering."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "%1% g minder filament en %2% wissels meer ten opzichte van de optimale groepering."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "%1%g filament en %2% wissels minder ten opzichte van een printer met één mondstuk."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "%1% g filament en %2% wissels minder ten opzichte van een printer met één mondstuk."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "%1%g minder filament en %2% wissels meer ten opzichte van een printer met één mondstuk."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "%1% g minder filament en %2% wissels meer ten opzichte van een printer met één mondstuk."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "%1%g meer filament en %2% wissels minder ten opzichte van een printer met één mondstuk."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "%1% g meer filament en %2% wissels minder ten opzichte van een printer met één mondstuk."
 
 # AI Translated
 msgid "Set to Optimal"

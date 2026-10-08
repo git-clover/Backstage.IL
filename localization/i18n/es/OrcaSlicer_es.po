@@ -5570,28 +5570,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "La agrupación actual del resultado del laminado no es óptima."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Aumenta %1%g de filamento y %2% cambios en comparación con la agrupación óptima."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Aumenta %1% g de filamento y %2% cambios en comparación con la agrupación óptima."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Aumenta %1%g de filamento y ahorra %2% cambios en comparación con la agrupación óptima."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Aumenta %1% g de filamento y ahorra %2% cambios en comparación con la agrupación óptima."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Ahorra %1%g de filamento y aumenta %2% cambios en comparación con la agrupación óptima."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Ahorra %1% g de filamento y aumenta %2% cambios en comparación con la agrupación óptima."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Ahorra %1%g de filamento y %2% cambios en comparación con una impresora con una boquilla."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Ahorra %1% g de filamento y %2% cambios en comparación con una impresora con una boquilla."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Ahorra %1%g de filamento y aumenta %2% cambios en comparación con una impresora con una boquilla."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Ahorra %1% g de filamento y aumenta %2% cambios en comparación con una impresora con una boquilla."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Aumenta %1%g de filamento y ahorra %2% cambios en comparación con una impresora con una boquilla."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Aumenta %1% g de filamento y ahorra %2% cambios en comparación con una impresora con una boquilla."
 
 msgid "Set to Optimal"
 msgstr "Ajustar a óptimo"

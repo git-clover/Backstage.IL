@@ -5580,28 +5580,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "O agrupamento atual do resultado do fatiamento não é o ideal."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Aumento de %1%g no filamento e %2% nas trocas em comparação com o agrupamento ideal."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Aumento de %1% g no filamento e %2% nas trocas em comparação com o agrupamento ideal."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Aumento de %1%g no filamento e economia de %2% nas trocas em comparação com o agrupamento ideal."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Aumento de %1% g no filamento e economia de %2% nas trocas em comparação com o agrupamento ideal."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Economia de %1%g no filamento e aumento de %2% nas trocas em comparação com o agrupamento ideal."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Economia de %1% g no filamento e aumento de %2% nas trocas em comparação com o agrupamento ideal."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Economia de %1%g no filamento e %2% nas trocas em comparação com uma impressora com um bico."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Economia de %1% g no filamento e %2% nas trocas em comparação com uma impressora com um bico."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Economia de %1%g no filamento e aumento de %2% nas trocas em comparação com uma impressora com um bico."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Economia de %1% g no filamento e aumento de %2% nas trocas em comparação com uma impressora com um bico."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Aumento de %1%g no filamento e economia de %2% nas trocas em comparação com uma impressora com um bico."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Aumento de %1% g no filamento e economia de %2% nas trocas em comparação com uma impressora com um bico."
 
 msgid "Set to Optimal"
 msgstr "Definir para Ideal"

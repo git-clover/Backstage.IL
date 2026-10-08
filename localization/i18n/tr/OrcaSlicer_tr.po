@@ -5809,28 +5809,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Dilim sonucunun mevcut gruplaması optimal değil."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Optimum gruplamaya kıyasla %1%g filament ve %2% değişimi artırın."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Optimum gruplamaya kıyasla %1% g filament ve %2% değişimi artırın."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Optimum gruplamaya kıyasla %1%g filamenti artırın ve %2% değişiklikten tasarruf edin."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Optimum gruplamaya kıyasla %1% g filamenti artırın ve %2% değişiklikten tasarruf edin."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Optimum gruplamaya kıyasla %1%g filamentten tasarruf edin ve değişiklikleri %2% artırın."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Optimum gruplamaya kıyasla %1% g filamentten tasarruf edin ve değişiklikleri %2% artırın."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Tek nozullu bir yazıcıya kıyasla %1%g filament ve %2% değişiklikten tasarruf edin."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Tek nozullu bir yazıcıya kıyasla %1% g filament ve %2% değişiklikten tasarruf edin."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Tek nozullu yazıcıya kıyasla %1%g filamentten tasarruf edin ve değişiklikleri %2% artırın."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Tek nozullu yazıcıya kıyasla %1% g filamentten tasarruf edin ve değişiklikleri %2% artırın."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Tek nozullu yazıcıya kıyasla %1%g filamenti artırın ve %2% değişiklikten tasarruf edin."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Tek nozullu yazıcıya kıyasla %1% g filamenti artırın ve %2% değişiklikten tasarruf edin."
 
 msgid "Set to Optimal"
 msgstr "Optimum'a Ayarla"

@@ -5624,27 +5624,27 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Xerratzearen emaitzaren uneko taldekatzea ez da optimoa."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr "Filamentua %1% g eta aldaketak %2% handitzen ditu taldekatze optimoarekin alderatuta."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr "Filamentua %1% g handitzen du eta %2% aldaketa aurrezten ditu taldekatze optimoarekin alderatuta."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr "Aurreztu %1% g filamentua eta handitu %2% aldaketa taldekatze optimoarekin alderatuta."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr "Aurreztu %1% g filamentua eta %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr "Aurreztu %1% g filamentua eta handitu %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr "Handitu %1% g filamentua eta aurreztu %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 
 msgid "Set to Optimal"

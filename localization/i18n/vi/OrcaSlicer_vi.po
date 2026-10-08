@@ -6090,33 +6090,33 @@ msgstr "Cách nhóm hiện tại của kết quả slice chưa tối ưu."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Tăng %1%g filament và %2% lần đổi so với cách nhóm tối ưu."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Tăng %1% g filament và %2% lần đổi so với cách nhóm tối ưu."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Tăng %1%g filament và giảm %2% lần đổi so với cách nhóm tối ưu."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Tăng %1% g filament và giảm %2% lần đổi so với cách nhóm tối ưu."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Tiết kiệm %1%g filament và tăng %2% lần đổi so với cách nhóm tối ưu."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Tiết kiệm %1% g filament và tăng %2% lần đổi so với cách nhóm tối ưu."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Tiết kiệm %1%g filament và %2% lần đổi so với máy in một đầu phun."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Tiết kiệm %1% g filament và %2% lần đổi so với máy in một đầu phun."
 
 # AI Translated
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Tiết kiệm %1%g filament và tăng %2% lần đổi so với máy in một đầu phun."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Tiết kiệm %1% g filament và tăng %2% lần đổi so với máy in một đầu phun."
 
 # AI Translated
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Tăng %1%g filament và giảm %2% lần đổi so với máy in một đầu phun."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Tăng %1% g filament và giảm %2% lần đổi so với máy in một đầu phun."
 
 # AI Translated
 msgid "Set to Optimal"

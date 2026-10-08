@@ -5359,27 +5359,27 @@ msgid "Current grouping of slice result is not optimal."
 msgstr ""
 
 #, possible-boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr ""
 
 #, possible-boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr ""
 
 #, possible-boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr ""
 
 #, possible-boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr ""
 
 #, possible-boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr ""
 
 #, possible-boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr ""
 
 msgid "Set to Optimal"

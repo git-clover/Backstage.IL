@@ -5659,28 +5659,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Le regroupement actuel du résultat de tranchage n'est pas optimal."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Augmentation de %1%g de filament et %2% changements par rapport au regroupement optimal."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Augmentation de %1% g de filament et %2% changements par rapport au regroupement optimal."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Augmentation de %1%g de filament et économie de %2% changements par rapport au regroupement optimal."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Augmentation de %1% g de filament et économie de %2% changements par rapport au regroupement optimal."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Économie de %1%g de filament et augmentation de %2% changements par rapport au regroupement optimal."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Économie de %1% g de filament et augmentation de %2% changements par rapport au regroupement optimal."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Économie de %1%g de filament et %2% changements par rapport à une imprimante à une seule buse."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Économie de %1% g de filament et %2% changements par rapport à une imprimante à une seule buse."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Économie de %1%g de filament et augmentation de %2% changements par rapport à une imprimante à une seule buse."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Économie de %1% g de filament et augmentation de %2% changements par rapport à une imprimante à une seule buse."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Augmentation de %1%g de filament et économie de %2% changements par rapport à une imprimante à une seule buse."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Augmentation de %1% g de filament et économie de %2% changements par rapport à une imprimante à une seule buse."
 
 msgid "Set to Optimal"
 msgstr "Définir comme optimal"

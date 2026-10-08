@@ -5785,28 +5785,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "現在のスライス結果のグルーピングは最適ではありません。"
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "最適なグルーピングと比較して%1%gのフィラメントと%2%回の変更が増加します。"
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "最適なグルーピングと比較して%1% gのフィラメントと%2%回の変更が増加します。"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "最適なグルーピングと比較して%1%gのフィラメントが増加し、%2%回の変更が節約されます。"
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "最適なグルーピングと比較して%1% gのフィラメントが増加し、%2%回の変更が節約されます。"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "最適なグルーピングと比較して%1%gのフィラメントが節約され、%2%回の変更が増加します。"
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "最適なグルーピングと比較して%1% gのフィラメントが節約され、%2%回の変更が増加します。"
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "シングルノズルプリンターと比較して%1%gのフィラメントと%2%回の変更が節約されます。"
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "シングルノズルプリンターと比較して%1% gのフィラメントと%2%回の変更が節約されます。"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "シングルノズルプリンターと比較して%1%gのフィラメントが節約され、%2%回の変更が増加します。"
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "シングルノズルプリンターと比較して%1% gのフィラメントが節約され、%2%回の変更が増加します。"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "シングルノズルプリンターと比較して%1%gのフィラメントが増加し、%2%回の変更が節約されます。"
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "シングルノズルプリンターと比較して%1% gのフィラメントが増加し、%2%回の変更が節約されます。"
 
 msgid "Set to Optimal"
 msgstr "最適に設定"

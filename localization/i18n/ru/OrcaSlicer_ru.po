@@ -5775,37 +5775,37 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Текущая группировка материалов не оптимальна."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr ""
 "Сравнение с оптимальной:\n"
 "потери материала: %1% г, лишние смены прутка: %2%"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr ""
 "Сравнение с оптимальной:\n"
 "потери материала: %1% г, экономия смен прутка: %2%"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr ""
 "Сравнение с оптимальной:\n"
 "экономия материала: %1% г, лишние смены прутка: %2%"
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr ""
 "Сравнение с печатью одним соплом:\n"
 "экономия материала: %1% г, экономия смен прутка: %2%"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr ""
 "Сравнение с печатью одним соплом:\n"
 "экономия материала: %1% г, лишние смены прутка: %2%"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr ""
 "Сравнение с печатью одним соплом:\n"
 "потери материала: %1% г, экономия смен прутка: %2%"

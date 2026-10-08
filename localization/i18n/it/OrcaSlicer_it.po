@@ -5763,28 +5763,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Il raggruppamento attuale del risultato di slicing non è ottimale."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Aumento di %1%g di filamento e %2% cambi rispetto al raggruppamento ottimale."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Aumento di %1% g di filamento e %2% cambi rispetto al raggruppamento ottimale."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Aumento di %1%g di filamento e risparmio di %2% cambi rispetto al raggruppamento ottimale."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Aumento di %1% g di filamento e risparmio di %2% cambi rispetto al raggruppamento ottimale."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Risparmio di %1%g di filamento e aumento di %2% cambi rispetto al raggruppamento ottimale."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Risparmio di %1% g di filamento e aumento di %2% cambi rispetto al raggruppamento ottimale."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Risparmio di %1%g di filamento e %2% cambi rispetto a una stampante con un ugello."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Risparmio di %1% g di filamento e %2% cambi rispetto a una stampante con un ugello."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Risparmio di %1%g di filamento e aumento di %2% cambi rispetto a una stampante con un ugello."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Risparmio di %1% g di filamento e aumento di %2% cambi rispetto a una stampante con un ugello."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Aumento di %1%g di filamento e risparmio di %2% cambi rispetto a una stampante con un ugello."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Aumento di %1% g di filamento e risparmio di %2% cambi rispetto a una stampante con un ugello."
 
 msgid "Set to Optimal"
 msgstr "Imposta al valore ottimale"

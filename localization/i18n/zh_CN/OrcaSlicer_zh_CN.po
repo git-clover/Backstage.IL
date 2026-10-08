@@ -5598,28 +5598,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "当前切片结果的分组不是最佳的。"
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "与最佳分组相比，增加 %1%g 耗材丝和 %2% 变化。"
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "与最佳分组相比，增加 %1% g 耗材丝和 %2% 变化。"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "与最佳分组相比，增加 %1%g 耗材丝并节省 %2% 变化。"
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "与最佳分组相比，增加 %1% g 耗材丝并节省 %2% 变化。"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "与最佳分组相比，节省 %1%g 耗材丝并增加 %2% 变化。"
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "与最佳分组相比，节省 %1% g 耗材丝并增加 %2% 变化。"
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "与具有一个喷嘴的打印机相比，可节省 %1%g 耗材和 %2% 变化。"
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "与具有一个喷嘴的打印机相比，可节省 %1% g 耗材和 %2% 变化。"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "与具有一个喷嘴的打印机相比，节省 %1%g 耗材并增加 %2% 变化。"
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "与具有一个喷嘴的打印机相比，节省 %1% g 耗材并增加 %2% 变化。"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "与具有一个喷嘴的打印机相比，增加 %1%g 耗材并节省 %2% 变化。"
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "与具有一个喷嘴的打印机相比，增加 %1% g 耗材并节省 %2% 变化。"
 
 msgid "Set to Optimal"
 msgstr "设置为最佳"

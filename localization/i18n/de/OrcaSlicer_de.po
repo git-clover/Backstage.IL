@@ -5714,28 +5714,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Die aktuelle Gruppierung des Slicergebnisses ist nicht optimal."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Erhöhe %1%g Filament und %2% Änderungen im Vergleich zur optimalen Gruppierung."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Erhöhe %1% g Filament und %2% Änderungen im Vergleich zur optimalen Gruppierung."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Erhöhe %1%g Filament und sparen %2% Änderungen im Vergleich zur optimalen Gruppierung."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Erhöhe %1% g Filament und sparen %2% Änderungen im Vergleich zur optimalen Gruppierung."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Spare %1%g Filament und erhöhen %2% Änderungen im Vergleich zur optimalen Gruppierung."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Spare %1% g Filament und erhöhen %2% Änderungen im Vergleich zur optimalen Gruppierung."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Spare %1%g Filament und %2% Änderungen im Vergleich zu einem Drucker mit einer Düse."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Spare %1% g Filament und %2% Änderungen im Vergleich zu einem Drucker mit einer Düse."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Spare %1%g Filament und erhöhe %2% Änderungen im Vergleich zu einem Drucker mit einer Düse."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Spare %1% g Filament und erhöhe %2% Änderungen im Vergleich zu einem Drucker mit einer Düse."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Erhöhe %1%g Filament und spare %2% Änderungen im Vergleich zu einem Drucker mit einer Düse."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Erhöhe %1% g Filament und spare %2% Änderungen im Vergleich zu einem Drucker mit einer Düse."
 
 msgid "Set to Optimal"
 msgstr "Auf optimal setzen"

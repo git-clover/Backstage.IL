@@ -5746,28 +5746,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "การจัดกลุ่มผลการสไลซ์ปัจจุบันยังไม่เหมาะสม"
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "เพิ่ม %1%g เส้นพลาสติกและ %2% การเปลี่ยนแปลงเมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "เพิ่ม %1% g เส้นพลาสติกและ %2% การเปลี่ยนแปลงเมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "เพิ่มเส้นพลาสติก %1%g และบันทึกการเปลี่ยนแปลง %2% เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "เพิ่มเส้นพลาสติก %1% g และบันทึกการเปลี่ยนแปลง %2% เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "ประหยัดเส้นพลาสติก %1%g และเพิ่มการเปลี่ยนแปลง %2% เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "ประหยัดเส้นพลาสติก %1% g และเพิ่มการเปลี่ยนแปลง %2% เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "บันทึก %1%g เส้นพลาสติกและ %2% การเปลี่ยนแปลง เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเดียว"
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "บันทึก %1% g เส้นพลาสติกและ %2% การเปลี่ยนแปลง เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเดียว"
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "ประหยัดเส้นพลาสติก %1%g และเพิ่มการเปลี่ยนแปลง %2% เมื่อเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเพียงอันเดียว"
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "ประหยัดเส้นพลาสติก %1% g และเพิ่มการเปลี่ยนแปลง %2% เมื่อเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเพียงอันเดียว"
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "เพิ่มเส้นพลาสติก %1%g และประหยัดการเปลี่ยนแปลง %2% เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเพียงอันเดียว"
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "เพิ่มเส้นพลาสติก %1% g และประหยัดการเปลี่ยนแปลง %2% เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเพียงอันเดียว"
 
 msgid "Set to Optimal"
 msgstr "ตั้งค่าให้เหมาะสมที่สุด"

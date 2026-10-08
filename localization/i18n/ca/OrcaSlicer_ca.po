@@ -5852,28 +5852,28 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "L'agrupació actual del resultat de tall no és òptima."
 
 #, boost-format
-msgid "Increase %1%g filament and %2% changes compared to optimal grouping."
-msgstr "Augment de %1%g de filament i %2% canvis respecte a l'agrupació òptima."
+msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
+msgstr "Augment de %1% g de filament i %2% canvis respecte a l'agrupació òptima."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to optimal grouping."
-msgstr "Augment de %1%g de filament i estalvi de %2% canvis respecte a l'agrupació òptima."
+msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
+msgstr "Augment de %1% g de filament i estalvi de %2% canvis respecte a l'agrupació òptima."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to optimal grouping."
-msgstr "Estalvi de %1%g de filament i augment de %2% canvis respecte a l'agrupació òptima."
+msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
+msgstr "Estalvi de %1% g de filament i augment de %2% canvis respecte a l'agrupació òptima."
 
 #, boost-format
-msgid "Save %1%g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Estalvi de %1%g de filament i %2% canvis respecte a una impressora amb un broquet."
+msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
+msgstr "Estalvi de %1% g de filament i %2% canvis respecte a una impressora amb un broquet."
 
 #, boost-format
-msgid "Save %1%g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Estalvi de %1%g de filament i augment de %2% canvis respecte a una impressora amb un broquet."
+msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
+msgstr "Estalvi de %1% g de filament i augment de %2% canvis respecte a una impressora amb un broquet."
 
 #, boost-format
-msgid "Increase %1%g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Augment de %1%g de filament i estalvi de %2% canvis respecte a una impressora amb un broquet."
+msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
+msgstr "Augment de %1% g de filament i estalvi de %2% canvis respecte a una impressora amb un broquet."
 
 msgid "Set to Optimal"
 msgstr "Estableix a l'òptim"
