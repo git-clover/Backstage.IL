@@ -394,13 +394,8 @@ jobs:
         with:
           upload_url: https://uploads.github.com/repos/OrcaSlicer/OrcaSlicer/releases/137995723/assets{?name,label}
           release_id: 137995723
-<<<<<<< HEAD
           asset_path: ${{ github.workspace }}/Backstage.IL_macOS_universal_${{ env.ver }}.dmg
           asset_name: Backstage.IL_macOS_universal_nightly${{ env.nightly_suffix }}.dmg
-=======
-          asset_path: ${{ github.workspace }}/OrcaSlicer_Mac_universal_${{ env.ver }}.dmg
-          asset_name: OrcaSlicer_Mac_universal_nightly.dmg
->>>>>>> upstream
           asset_content_type: application/octet-stream
           max_releases: 1 # optional, if there are more releases than this matching the asset_name, the oldest ones are going to be deleted
 
@@ -548,13 +543,8 @@ jobs:
         with:
           upload_url: https://uploads.github.com/repos/OrcaSlicer/OrcaSlicer/releases/137995723/assets{?name,label}
           release_id: 137995723
-<<<<<<< HEAD
           asset_path: ${{ github.workspace }}/${{ env.BUILD_DIR }}/Backstage.IL_Windows_${{ env.ver }}${{ env.ARCH_SUFFIX }}_portable.zip
           asset_name: OrcaSlicer_Windows${{ env.ARCH_SUFFIX }}_nightly${{ env.nightly_suffix }}_portable.zip
-=======
-          asset_path: ${{ github.workspace }}/${{ env.BUILD_DIR }}/OrcaSlicer_Windows_${{ env.ver }}${{ env.ARCH_SUFFIX }}_portable.zip
-          asset_name: OrcaSlicer_Windows${{ env.ARCH_SUFFIX }}_nightly_portable.zip
->>>>>>> upstream
           asset_content_type: application/x-zip-compressed
           max_releases: 1
 
@@ -564,13 +554,8 @@ jobs:
         with:
           upload_url: https://uploads.github.com/repos/OrcaSlicer/OrcaSlicer/releases/137995723/assets{?name,label}
           release_id: 137995723
-<<<<<<< HEAD
           asset_path: ${{ github.workspace }}/${{ env.BUILD_DIR }}/Backstage.IL_Windows_Installer_${{ env.ver }}${{ env.ARCH_SUFFIX }}.exe
           asset_name: Backstage.IL_Windows_Installer${{ env.ARCH_SUFFIX }}_nightly${{ env.nightly_suffix }}.exe
-=======
-          asset_path: ${{ github.workspace }}/${{ env.BUILD_DIR }}/OrcaSlicer_Windows_Installer_${{ env.ver }}${{ env.ARCH_SUFFIX }}.exe
-          asset_name: OrcaSlicer_Windows_Installer${{ env.ARCH_SUFFIX }}_nightly.exe
->>>>>>> upstream
           asset_content_type: application/x-msdownload
           max_releases: 1
 

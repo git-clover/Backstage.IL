@@ -6142,7 +6142,7 @@ msgid "Select Plate"
 msgstr "플레이트 선택"
 
 msgid "Slicing"
-msgstr "슬라이스 중: "
+msgstr ""
 
 msgid "Slice all"
 msgstr "한 번에 생성"
@@ -8489,7 +8489,7 @@ msgstr "%1%와 %2%\n"
 
 #, boost-format
 msgid " plate %1%:"
-msgstr "스테이지 %1% >> "
+msgstr "스테이지 %1%: "
 
 msgid "Invalid name, the following characters are not allowed:"
 msgstr "잘못된 이름입니다. 다음 문자는 사용할 수 없습니다:"
