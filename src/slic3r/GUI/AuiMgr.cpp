@@ -45,7 +45,7 @@ void AuiMgr::init(wxWindow* window)
 void AuiMgr::apply_color_mode()
 {
     const bool     is_dark    = wxGetApp().dark_mode();
-    const wxColour sash_color = is_dark ? wxColour(38, 46, 48) : wxColour(206, 206, 206);
+    const wxColour sash_color = is_dark ? wxColour(38, 51, 69) : wxColour(206, 206, 206);
     GetArtProvider()->SetColour(wxAUI_DOCKART_INACTIVE_CAPTION_COLOUR, sash_color);
     GetArtProvider()->SetColour(wxAUI_DOCKART_INACTIVE_CAPTION_TEXT_COLOUR, *wxWHITE);
     GetArtProvider()->SetColour(wxAUI_DOCKART_SASH_COLOUR, sash_color);

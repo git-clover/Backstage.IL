@@ -81,7 +81,7 @@ static bool is_dark() { return Slic3r::GUI::wxGetApp().dark_mode(); }
 
 static wxColour texture_import_gray9000()
 {
-    return wxColour(38, 46, 48);
+    return wxColour(38, 51, 69);
 }
 
 static wxColour texture_import_text_colour()

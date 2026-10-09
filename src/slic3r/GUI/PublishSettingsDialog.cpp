@@ -1506,7 +1506,7 @@ void PublishSettingsDialog::add_mixed_visual(size_t category_index, const MixedV
                                                 StateColor::darkModeColorFor(wxColour(238, 238, 238)),
                                                 StateColor::darkModeColorFor(wxColour(107, 107, 107)),
                                                 StateColor::darkModeColorFor(wxColour(107, 107, 107)),
-                                                StateColor::darkModeColorFor(wxColour(38, 46, 48)),
+                                                StateColor::darkModeColorFor(wxColour(38, 51, 69)),
                                                 StateColor::darkModeColorFor(wxColour(172, 172, 172)),
                                                 StateColor::darkModeColorFor(*wxWHITE)};
             std::vector<MixedGradientCurve> curves;
