@@ -6179,7 +6179,7 @@ msgid "Select Plate"
 msgstr "플레이트 선택"
 
 msgid "Slicing"
-msgstr ""
+msgstr "[슬라이스 중] "
 
 msgid "Slice all"
 msgstr "한 번에 생성"
@@ -11752,7 +11752,7 @@ msgid "Sending failed, please try again!"
 msgstr "전송에 실패했습니다. 다시 시도하십시오!"
 
 msgid "Slice complete"
-msgstr "슬라이스 완료."
+msgstr "스테이지 이용 가능!"
 
 msgid "View all Daily tips"
 msgstr "모든 일일 팁 보기"
