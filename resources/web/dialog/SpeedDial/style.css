@@ -213,7 +213,7 @@ body {
 
 .plugin-search:focus-within {
     border-color: var(--main-color, var(--orca-accent, #004fbd));
-    box-shadow: 0 0 0 2px rgba(0, 150, 136, .25);
+    box-shadow: 0 0 0 2px rgba(0, 79, 189, .25);
 }
 
 .plugin-search-icon {
