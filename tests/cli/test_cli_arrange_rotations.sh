@@ -49,7 +49,7 @@ slice() {
     local out="$WORK/$1" input="$2"; shift 2
     mkdir -p "$out"
     timeout 300 "$BIN" --datadir "$out/datadir" \
-        --load-settings "$PROFILES/machine/Bambu Lab X1 Carbon 0.4 nozzle.json;$PROFILES/process/0.20mm Standard @BBL X1C.json" \
+        --load-settings "$PROFILES/machine/Bambu Lab X1 Carbon 0.4 nozzle.json;$PROFILES/process/0.20 mm Standard @BBL X1C.json" \
         --load-defaultfila "$@" --slice 0 --outputdir "$out" "$input" \
         > "$out/stdout" 2> "$out/stderr"
     echo "$?" > "$out/rc"
