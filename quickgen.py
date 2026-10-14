@@ -9,12 +9,17 @@ fullname = input("DON'T MAKE A TYPO! Name your new profile: ")
 '''
 
 print("CAUTION! Do not make a typo. You cannot go back once done.")
-print("Vendor: ")
-vendor = sys.stdin.readline().strip('\n')
-print("\nProfile type: ")
-ptype = sys.stdin.readline().strip('\n')
-print("\nName: ")
-pname = sys.stdin.readline().strip('\n')
+if sys.argv[1] == "autopilot":
+    vendor = sys.argv[2]
+    ptype = sys.argv[3]
+    pname = sys.argv[4]
+else:
+    print("Vendor: ")
+    vendor = sys.stdin.readline().split('\n')[0]
+    print("\nProfile type: ")
+    ptype = sys.stdin.readline().split('\n')[0]
+    print("\nName: ")
+    pname = sys.stdin.readline().split('\n')[0]
 print()
-print(vendor, ptype, pname)
+#print(vendor, ptype, pname)
 print("\"setting_id\": \"%s\"" % (quickgen(vendor, ptype, pname)))                                                           

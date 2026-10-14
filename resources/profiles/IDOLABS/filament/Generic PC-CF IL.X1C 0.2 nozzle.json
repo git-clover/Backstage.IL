@@ -1,0 +1,15 @@
+{
+	"type": "filament",
+	"name": "Generic PC @IDOLABS 0.2 nozzle",
+	"inherits": "Generic PC @IDOLABS base",
+	"renamed_from": "IDOLABS Generic PC @0.2 nozzle;IDOLABS Generic PC 0.2 nozzle",
+	"from": "system",
+	"setting_id": "AEKvB4RVBo2zOkdg",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"1"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}

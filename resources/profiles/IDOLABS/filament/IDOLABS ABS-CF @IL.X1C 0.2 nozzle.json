@@ -1,0 +1,14 @@
+{
+	"type": "filament",
+	"name": "IDOLABS ABS @IL.X1C 0.2 nozzle",
+	"inherits": "IDOLABS ABS @base",
+	"from": "system",
+	"setting_id": "kFPuOcy1vVSJ2mta",
+	"instantiation": "true",
+	"filament_max_volumetric_speed": [
+		"2"
+	],
+	"compatible_printers": [
+		"IL.X1C 0.2 nozzle"
+	]
+}
