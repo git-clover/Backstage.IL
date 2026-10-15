@@ -5993,8 +5993,7 @@ msgstr "L'agrupació actual del resultat de tall no és òptima."
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr "Augment de %1% g de filament i %2% canvis respecte a l'agrupació òptima."
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
@@ -6005,8 +6004,7 @@ msgstr[1] "Augment de %1% g de filament i %2% canvis respecte a l'agrupació òp
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr "Augment de %1% g de filament i estalvi de %2% canvis respecte a l'agrupació òptima."
+
 
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
@@ -6017,8 +6015,7 @@ msgstr[1] "Augment de %1% g de filament i estalvi de %2% canvis respecte a l'agr
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr "Estalvi de %1% g de filament i augment de %2% canvis respecte a l'agrupació òptima."
+
 
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
@@ -6029,8 +6026,7 @@ msgstr[1] "Estalvi de %1% g de filament i augment de %2% canvis respecte a l'agr
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Estalvi de %1% g de filament i %2% canvis respecte a una impressora amb un broquet."
+
 
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
@@ -6041,8 +6037,7 @@ msgstr[1] "Estalvi de %1% g de filament i %2% canvis respecte a una impressora a
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Estalvi de %1% g de filament i augment de %2% canvis respecte a una impressora amb un broquet."
+
 
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
@@ -6053,8 +6048,7 @@ msgstr[1] "Estalvi de %1% g de filament i augment de %2% canvis respecte a una i
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Augment de %1% g de filament i estalvi de %2% canvis respecte a una impressora amb un broquet."
+
 
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."

@@ -5930,8 +5930,7 @@ msgstr "A szeletelési eredmény jelenlegi csoportosítása nem optimális."
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr "%1% g-mal több filament és %2%-kal több váltás az optimális csoportosításhoz képest."
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
@@ -5942,8 +5941,7 @@ msgstr[1] "Az optimális csoportosításhoz képest %1% g-mal több filament és
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr "%1% g-mal több filament, de %2%-kal kevesebb váltás az optimális csoportosításhoz képest."
+
 
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
@@ -5954,8 +5952,7 @@ msgstr[1] "Az optimális csoportosításhoz képest %1% g-mal több filament, de
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr "%1% g filament megtakarítás, de %2%-kal több váltás az optimális csoportosításhoz képest."
+
 
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
@@ -5966,8 +5963,7 @@ msgstr[1] "Az optimális csoportosításhoz képest %1% g-mal kevesebb filament,
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr "%1% g filament és %2% váltás megtakarítás egy egyfúvókás nyomtatóhoz képest."
+
 
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
@@ -5978,8 +5974,7 @@ msgstr[1] "Az egyfúvókás nyomtatóhoz képest %1% g-mal kevesebb filament és
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "%1% g filament megtakarítás, de %2%-kal több váltás egy egyfúvókás nyomtatóhoz képest."
+
 
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
@@ -5990,8 +5985,7 @@ msgstr[1] "Az egyfúvókás nyomtatóhoz képest %1% g-mal kevesebb filament, de
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "%1% g-mal több filament, de %2% váltás megtakarítás egy egyfúvókás nyomtatóhoz képest."
+
 
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."

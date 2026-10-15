@@ -6023,8 +6023,7 @@ msgstr "Aktualne grupowanie wyników cięcia nie jest optymalne."
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr "W porównaniu do optymalnego grupowania, zużycie filamentu wzrośnie o %1% g, a liczba jego zmian o %2%."
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
@@ -6036,8 +6035,7 @@ msgstr[2] "W porównaniu do optymalnego grupowania zużycie filamentu wzrośnie 
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr "W porównaniu do optymalnego grupowania, zużycie filamentu wzrośnie o %1% g, a liczba jego zmian spadnie o %2%."
+
 
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
@@ -6049,8 +6047,7 @@ msgstr[2] "W porównaniu do optymalnego grupowania zużycie filamentu wzrośnie 
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr "W porównaniu do optymalnego grupowania, zużycie filamentu spadnie o %1% g, a liczba jego zmian wzrośnie o %2%."
+
 
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
@@ -6062,8 +6059,7 @@ msgstr[2] "W porównaniu do optymalnego grupowania zużycie filamentu spadnie o 
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr "W porównaniu do drukarki z jedną dyszą, zużycie filamentu spadnie o %1% g, a liczba jego zmian o %2%."
+
 
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
@@ -6075,8 +6071,7 @@ msgstr[2] "W porównaniu do drukarki z jedną dyszą zużycie filamentu spadnie 
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "W porównaniu do drukarki z jedną dyszą, zużycie filamentu spadnie o %1% g, a liczba jego zmian wzrośnie o %2%."
+
 
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
@@ -6088,8 +6083,7 @@ msgstr[2] "W porównaniu do drukarki z jedną dyszą zużycie filamentu spadnie 
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "W porównaniu do drukarki z jedną dyszą, zużycie filamentu wzrośnie o %1% g, a liczba jego zmian spadnie o %2%."
+
 
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."

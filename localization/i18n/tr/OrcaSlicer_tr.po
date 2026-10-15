@@ -5948,8 +5948,7 @@ msgstr "Dilim sonucunun mevcut gruplaması optimal değil."
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr "Optimum gruplamaya kıyasla %1% g filament ve %2% değişimi artırın."
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
@@ -5960,8 +5959,7 @@ msgstr[1] "Optimum gruplamaya kıyasla %1% g filament ve %2% değişim artışı
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr "Optimum gruplamaya kıyasla %1% g filamenti artırın ve %2% değişiklikten tasarruf edin."
+
 
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
@@ -5972,8 +5970,7 @@ msgstr[1] "Optimum gruplamaya kıyasla %1% g filament artışı ve %2% değişim
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr "Optimum gruplamaya kıyasla %1% g filamentten tasarruf edin ve değişiklikleri %2% artırın."
+
 
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
@@ -5984,8 +5981,7 @@ msgstr[1] "Optimum gruplamaya kıyasla %1% g filament tasarrufu ve %2% değişim
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Tek nozullu bir yazıcıya kıyasla %1% g filament ve %2% değişiklikten tasarruf edin."
+
 
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
@@ -5996,8 +5992,7 @@ msgstr[1] "Tek nozullu yazıcıya kıyasla %1% g filament ve %2% değişim tasar
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Tek nozullu yazıcıya kıyasla %1% g filamentten tasarruf edin ve değişiklikleri %2% artırın."
+
 
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
@@ -6008,8 +6003,7 @@ msgstr[1] "Tek nozullu yazıcıya kıyasla %1% g filament tasarrufu ve %2% deği
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Tek nozullu yazıcıya kıyasla %1% g filamenti artırın ve %2% değişiklikten tasarruf edin."
+
 
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."

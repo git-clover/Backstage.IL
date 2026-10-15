@@ -5458,28 +5458,22 @@ msgstr ""
 
 #, possible-boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr ""
+
 
 #, possible-boost-format
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr ""
+
 
 #, possible-boost-format
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr ""
+
 
 #, possible-boost-format
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr ""
+
 
 #, possible-boost-format
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr ""
+
 
 #, possible-boost-format
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr ""
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."

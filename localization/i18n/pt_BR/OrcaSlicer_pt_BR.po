@@ -5714,8 +5714,7 @@ msgstr "O agrupamento atual do resultado do fatiamento não é o ideal."
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr "Aumento de %1% g no filamento e %2% nas trocas em comparação com o agrupamento ideal."
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
@@ -5726,8 +5725,7 @@ msgstr[1] "Aumento de %1% g no filamento e %2% trocas em comparação com o agru
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr "Aumento de %1% g no filamento e economia de %2% nas trocas em comparação com o agrupamento ideal."
+
 
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
@@ -5738,8 +5736,7 @@ msgstr[1] "Aumento de %1% g no filamento e economia de %2% trocas em comparaçã
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr "Economia de %1% g no filamento e aumento de %2% nas trocas em comparação com o agrupamento ideal."
+
 
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
@@ -5750,8 +5747,7 @@ msgstr[1] "Economia de %1% g no filamento e aumento de %2% trocas em comparaçã
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Economia de %1% g no filamento e %2% nas trocas em comparação com uma impressora com um bico."
+
 
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
@@ -5762,8 +5758,7 @@ msgstr[1] "Economia de %1% g no filamento e %2% trocas em comparação com uma i
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Economia de %1% g no filamento e aumento de %2% nas trocas em comparação com uma impressora com um bico."
+
 
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
@@ -5774,8 +5769,7 @@ msgstr[1] "Economia de %1% g no filamento e aumento de %2% trocas em comparaçã
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Aumento de %1% g no filamento e economia de %2% nas trocas em comparação com uma impressora com um bico."
+
 
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."

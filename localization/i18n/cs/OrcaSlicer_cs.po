@@ -5965,8 +5965,7 @@ msgstr "Aktuální seskupení výsledku slicování není optimální."
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a počet změn o %2%."
+
 
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
@@ -5978,8 +5977,7 @@ msgstr[2] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1%
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a ušetří se %2% změn."
+
 
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
@@ -5991,8 +5989,7 @@ msgstr[2] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1%
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr "Oproti optimálnímu seskupení se ušetří %1% g filamentu a zvýší počet změn o %2%."
+
 
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
@@ -6004,8 +6001,7 @@ msgstr[2] "Oproti optimálnímu seskupení se ušetří %1% g filamentu, ale př
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu a %2% změn."
+
 
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
@@ -6017,8 +6013,7 @@ msgstr[2] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filame
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu a zvýší počet změn o %2%."
+
 
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
@@ -6030,8 +6025,7 @@ msgstr[2] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filame
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr "Ve srovnání s tiskárnou s jednou tryskou se zvýší spotřeba filamentu o %1% g a ušetří se %2% změn."
+
 
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."

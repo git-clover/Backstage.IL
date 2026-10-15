@@ -5928,8 +5928,7 @@ msgstr "Текущая группировка материалов не опти
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and %2% changes compared to optimal grouping."
-msgstr ""
+
 "Сравнение с оптимальной:\n"
 "потери материала: %1% г, лишние смены прутка: %2%"
 
@@ -5943,8 +5942,7 @@ msgstr[2] "Больше на %1% г материала и на %2% смен по
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to optimal grouping."
-msgstr ""
+
 "Сравнение с оптимальной:\n"
 "потери материала: %1% г, экономия смен прутка: %2%"
 
@@ -5958,8 +5956,7 @@ msgstr[2] "Больше на %1% г материала, но на %2% смен �
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to optimal grouping."
-msgstr ""
+
 "Сравнение с оптимальной:\n"
 "экономия материала: %1% г, лишние смены прутка: %2%"
 
@@ -5973,8 +5970,7 @@ msgstr[2] "Меньше на %1% г материала, но на %2% смен �
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and %2% changes compared to a printer with one nozzle."
-msgstr ""
+
 "Сравнение с печатью одним соплом:\n"
 "экономия материала: %1% г, экономия смен прутка: %2%"
 
@@ -5988,8 +5984,7 @@ msgstr[2] "Меньше на %1% г материала и на %2% смен по
 # AI Translated
 #, boost-format
 
-msgid "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
-msgstr ""
+
 "Сравнение с печатью одним соплом:\n"
 "экономия материала: %1% г, лишние смены прутка: %2%"
 
@@ -6003,8 +5998,7 @@ msgstr[2] "Меньше на %1% г материала, но на %2% смен �
 # AI Translated
 #, boost-format
 
-msgid "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
-msgstr ""
+
 "Сравнение с печатью одним соплом:\n"
 "потери материала: %1% г, экономия смен прутка: %2%"
 
