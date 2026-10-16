@@ -4587,15 +4587,9 @@ msgstr "최근 프로젝트"
 msgid "Go to Plate"
 msgstr "이동: 스테이지"
 
-msgid "Device"
-msgstr "장치"
-
 # AI Translated
 msgid "Device (Web)"
 msgstr "장치 (웹)"
-
-msgid "Multi-device"
-msgstr "멀티 디바이스"
 
 msgid "AMS Materials Setting"
 msgstr "AMS 재료 설정"
@@ -6817,8 +6811,6 @@ msgstr "현장 라이브"
 
 msgid "Multi-device"
 msgstr "멀티버스"
-
-
 
 msgid "Project"
 msgstr "프로젝트"
@@ -37135,10 +37127,6 @@ msgstr ""
 #~ msgid "It is not recommended to print the following filament(s) with %1%: %2%\n"
 #~ msgstr "다음 필라멘트로 출력하지 않는 것이 좋습니다: %1%%2%\n"
 
-#, boost-format
-#~ msgid " plate %1%:"
-#~ msgstr " 플레이트 %1%:"
-
 # AI Translated
 #, boost-format
 #~ msgid "Remove all %1% mixed filaments?"
@@ -37215,9 +37203,6 @@ msgstr ""
 #~ msgid "Downloading new vendor profile(s): "
 #~ msgstr "새 제조사 프로파일 다운로드 중: "
 
-# AI Translated
-#~ msgid "Failed to download vendor profile(s): "
-#~ msgstr "제조사 프로파일을 다운로드하지 못했습니다: "
 
 # AI Translated
 #, boost-format
@@ -37229,30 +37214,9 @@ msgstr ""
 #~ msgid "In this Span mode only %1% print colors, but filament %2% is routed to T%3%. Use filaments routed to %1%, or switch this plate to Primary mode."
 #~ msgstr "이 Span 모드에서는 %1%만 색상을 출력하지만, 필라멘트 %2%은(는) T%3%에 연결되어 있습니다. %1%에 연결된 필라멘트를 사용하거나, 이 플레이트를 주(Primary) 모드로 전환하세요."
 
-#~ msgid " is too close to exclusion area, there may be collisions when printing."
-#~ msgstr " 이(가) 제외 영역에 너무 가깝습니다. 출력 시 충돌이 발생 할 수 있습니다."
-
-#~ msgid " is too close to clumping detection area, there may be collisions when printing."
-#~ msgstr " 뭉침 감지 영역에 너무 가까워 출력 시 충돌이 발생할 수 있습니다."
-
-#~ msgid "Prime Tower"
-#~ msgstr "프라임 타워"
-
-#~ msgid " is too close to others, and collisions may be caused.\n"
-#~ msgstr " 이(가) 다른 객체와 너무 가까워 출력 시 충돌이 발생 할 수 있습니다.\n"
-
-#~ msgid " is too close to an exclusion area, and collisions will be caused.\n"
-#~ msgstr " 이(가) 제외 영역에 너무 가깝습니다. 출력 시 충돌이 발생 할 수 있습니다.\n"
-
-#~ msgid " is too close to clumping detection area, and collisions will be caused.\n"
-#~ msgstr " 뭉침 감지 영역에 너무 가까워 충돌이 발생할 수 있습니다.\n"
-
-# AI Translated
-#~ msgid " is partially outside the printable area, and it cannot be printed.\n"
-#~ msgstr " 이(가) 출력 가능 영역을 일부 벗어나 출력할 수 없습니다.\n"
-
 # AI Translated
 # Needs human review: Substituted for %3% in "IDEX/IQEX mode "%1%" prints with T%2%, but this plate's filaments are on %3%" when no tool is mapped; check the sentence reads right with it.
+
 #~ msgid "no configured tool"
 #~ msgstr "구성되지 않은 도구"
 
