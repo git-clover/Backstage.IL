@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @OpenEYE Peacock V2",
 	"inherits": "fdm_process_openeye_0.12_nozzle_0.4",
 	"from": "system",
-	"setting_id": "U8RMnKyefKwyyEqs",
+	"setting_id": "EjBnNy3DWyUG465Y",
 	"instantiation": "true",
 	"bottom_shell_layers": "7",
 	"default_acceleration": "4000",

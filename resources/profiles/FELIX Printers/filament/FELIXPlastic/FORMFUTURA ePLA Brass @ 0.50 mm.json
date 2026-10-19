@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA ePLA Brass @ 0.50 mm",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"setting_id": "5cMXaBCDQDehP8PI",
+	"setting_id": "A3lkOx5rYIywqtzh",
 	"filament_id": "OFxrIB3K",
 	"instantiation": "true",
 	"compatible_printers": [

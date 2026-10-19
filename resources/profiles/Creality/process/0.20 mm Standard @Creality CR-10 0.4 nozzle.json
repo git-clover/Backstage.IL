@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Creality CR-10 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "yvb1ouVlo339IFEQ",
+	"setting_id": "8QYHHCeaBTSi09ig",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

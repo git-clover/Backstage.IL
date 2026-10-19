@@ -3,7 +3,7 @@
 	"name": "0.32 mm Balanced Strength @X-Max 4 0.8 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "U4yjBHhJwsHTIDHc",
+	"setting_id": "1geAamfyXtX1gyhv",
 	"instantiation": "true",
 	"bridge_flow": "1",
 	"bridge_speed": [

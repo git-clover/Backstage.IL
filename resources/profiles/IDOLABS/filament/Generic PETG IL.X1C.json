@@ -4,7 +4,7 @@
 	"inherits": "Generic PETG @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PETG",
 	"from": "system",
-	"setting_id": "3puaC0EwFLvEnGH2",
+	"setting_id": "6wasCrIESScvmPEQ",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

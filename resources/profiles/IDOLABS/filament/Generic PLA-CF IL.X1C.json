@@ -4,7 +4,7 @@
 	"inherits": "Generic PLA-CF @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PLA-CF",
 	"from": "system",
-	"setting_id": "vexlQFuvVzpsYT0Z",
+	"setting_id": "RL3x66nvGfOg2s4R",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

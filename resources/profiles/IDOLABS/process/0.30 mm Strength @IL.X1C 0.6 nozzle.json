@@ -3,7 +3,7 @@
 	"name": "0.30 mm Strength @IL.X1C 0.6 nozzle",
 	"inherits": "fdm_process_arena_0.30_nozzle_0.6",
 	"from": "system",
-	"setting_id": "Fta7TXvjXtW72vf2",
+	"setting_id": "pVep0gVIvyM21lpK",
 	"instantiation": "true",
 	"wall_loops": "4",
 	"sparse_infill_density": "25%",

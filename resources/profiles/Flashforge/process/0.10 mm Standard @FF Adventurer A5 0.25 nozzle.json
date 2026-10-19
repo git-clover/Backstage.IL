@@ -3,7 +3,7 @@
 	"name": "0.10 mm Standard @FF Adventurer A5 0.25 nozzle",
 	"inherits": "0.10 mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
 	"from": "system",
-	"setting_id": "H74U0yaiNgyQpdbc",
+	"setting_id": "X83YUOp94plai7hB",
 	"instantiation": "true",
 	"elefant_foot_compensation": "0.15",
 	"enable_arc_fitting": "1",

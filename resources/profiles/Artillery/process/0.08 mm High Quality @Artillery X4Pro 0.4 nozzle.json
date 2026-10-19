@@ -3,7 +3,7 @@
 	"name": "0.08 mm High Quality @Artillery X4Pro 0.4 nozzle",
 	"inherits": "0.20 mm Standard @Artillery X4Pro 0.4 nozzle",
 	"from": "system",
-	"setting_id": "bvdtnW6gJqWSXpgx",
+	"setting_id": "Q7Zux9aVvAIb1a1O",
 	"instantiation": "true",
 	"default_acceleration": "3000",
 	"initial_layer_print_height": "0.2",

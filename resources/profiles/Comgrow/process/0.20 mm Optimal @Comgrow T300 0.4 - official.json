@@ -3,7 +3,7 @@
 	"name": "0.20 mm Optimal @Comgrow T300 0.4 - official",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
-	"setting_id": "VFKy39bkuifq4aEz",
+	"setting_id": "QHA5wy75gbIpJ5jX",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.2",

@@ -3,7 +3,7 @@
 	"name": "0.25 mm SPEED @MK4 MMU3 0.6",
 	"inherits": "fdm_process_mk4_mmu3",
 	"from": "system",
-	"setting_id": "GEwr30K7NOtNyl2L",
+	"setting_id": "KkgNNUBgptTYUpeA",
 	"instantiation": "true",
 	"bridge_speed": [
 		"40"

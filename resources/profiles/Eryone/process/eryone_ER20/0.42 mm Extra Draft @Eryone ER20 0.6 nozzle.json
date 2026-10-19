@@ -3,7 +3,7 @@
 	"name": "0.42 mm Extra Draft @Eryone ER20 0.6 nozzle",
 	"inherits": "fdm_process_ER20_0.42_nozzle_0.6",
 	"from": "system",
-	"setting_id": "q6PozBOTtWU7CMb0",
+	"setting_id": "VmDyPQU3w5KMVVUX",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Eryone ER20 0.6 nozzle"

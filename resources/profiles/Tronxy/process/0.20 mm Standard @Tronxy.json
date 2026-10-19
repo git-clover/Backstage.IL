@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Tronxy",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "kZ09yTsbcxBl8Cys",
+	"setting_id": "TOE0UxptE9AXy3Rr",
 	"instantiation": "true",
 	"layer_height": "0.2",
 	"bottom_shell_layers": "3",

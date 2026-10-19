@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @MyKlipper",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
-	"setting_id": "qC4SXEgZNVB9eWNQ",
+	"setting_id": "VvMQnoY414yQd5DN",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

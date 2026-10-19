@@ -3,7 +3,7 @@
 	"name": "0.30 mm Extra Draft @Qidi XPlus",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
-	"setting_id": "jjrl5R7LpUXnxA8d",
+	"setting_id": "PIfkBD4RPwMEFc6m",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.3",

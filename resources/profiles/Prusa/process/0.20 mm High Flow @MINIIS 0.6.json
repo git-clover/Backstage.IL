@@ -3,7 +3,7 @@
 	"name": "0.20 mm High Flow @MINIIS 0.6",
 	"inherits": "process_highflow_miniis",
 	"from": "system",
-	"setting_id": "6OaVdTR4lLVSBCtN",
+	"setting_id": "PkD98HERswlx55se",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa MINIIS 0.6 nozzle"

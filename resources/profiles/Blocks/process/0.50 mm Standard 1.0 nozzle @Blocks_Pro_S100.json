@@ -4,7 +4,7 @@
 	"renamed_from": "0.50 mm Standard 1.0 nozzle @Blocks",
 	"inherits": "fdm_process_common 1.0 nozzle",
 	"from": "system",
-	"setting_id": "z1qCW1cEMc4QvBbV",
+	"setting_id": "bPbzpetQFhrIpeXE",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"top_shell_layers": "3",

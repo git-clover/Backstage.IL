@@ -3,7 +3,7 @@
 	"name": "0.10 mm Standard @X-Plus 5 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "3k8N3voNC9Kp0Ov6",
+	"setting_id": "Qai5RbzQosESV2TX",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "5",
 	"bottom_shell_layers": "5",

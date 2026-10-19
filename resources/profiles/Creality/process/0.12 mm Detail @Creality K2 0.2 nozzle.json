@@ -3,7 +3,7 @@
 	"name": "0.12 mm Detail @Creality K2 0.2 nozzle",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "CgyrqwevLHW5VJCz",
+	"setting_id": "sUdRoCxTJFDyeZ8T",
 	"instantiation": "true",
 	"max_travel_detour_distance": "0",
 	"bottom_surface_pattern": "monotonic",

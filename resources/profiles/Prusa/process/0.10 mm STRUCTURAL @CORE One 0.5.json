@@ -3,7 +3,7 @@
 	"name": "0.10 mm STRUCTURAL @CORE One 0.5",
 	"inherits": "0.10 mm STRUCTURAL @MK4S 0.5",
 	"from": "system",
-	"setting_id": "PK9yKRRPyX3BsA4s",
+	"setting_id": "17g24TP4zeLgkK83",
 	"instantiation": "true",
 	"inner_wall_speed": "70",
 	"small_perimeter_speed": "50",

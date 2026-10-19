@@ -3,7 +3,7 @@
 	"name": "0.42 mm Extra Draft @Elegoo N3Plus 0.6 nozzle",
 	"inherits": "0.30 mm Standard @Elegoo N3Plus 0.6 nozzle",
 	"from": "system",
-	"setting_id": "S3XpelIawW7YF0tp",
+	"setting_id": "iRXq04pUDn7OdzA6",
 	"instantiation": "true",
 	"layer_height": "0.42"
 }

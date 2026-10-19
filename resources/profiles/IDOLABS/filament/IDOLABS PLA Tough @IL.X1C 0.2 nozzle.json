@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Tough @IL.X1C 0.2 nozzle",
 	"inherits": "IDOLABS PLA Tough @base",
 	"from": "system",
-	"setting_id": "mQik38fn05zlMAWl",
+	"setting_id": "r30qxq76BMIjevsV",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"2"

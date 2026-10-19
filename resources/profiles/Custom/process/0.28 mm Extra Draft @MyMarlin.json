@@ -3,7 +3,7 @@
 	"name": "0.28 mm Extra Draft @MyMarlin",
 	"inherits": "fdm_process_marlin_common",
 	"from": "system",
-	"setting_id": "FPRthCpiEQtZgF7W",
+	"setting_id": "VfnE2T4e3kuz4jKs",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

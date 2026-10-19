@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Creality Ender3V3KE",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "EJAHGtrssuw5Z6ul",
+	"setting_id": "oOaX8hj7eYSzmP0g",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.12",

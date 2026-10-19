@@ -4,7 +4,7 @@
 	"inherits": "Generic ASA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic ASA @0.2 nozzle;IDOLABS Generic ASA 0.2 nozzle",
 	"from": "system",
-	"setting_id": "rtFj6gFceWHdzTmO",
+	"setting_id": "nA6Vt1BIWKQO6ALx",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"2"

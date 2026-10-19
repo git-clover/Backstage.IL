@@ -3,7 +3,7 @@
   "name": "FELIX Food Double 4.00 mm nozzle",
   "inherits": "fdm_felix_food_double_common",
   "from": "system",
-  "setting_id": "tc84MbMEkFNI2VVq",
+  "setting_id": "3VQ7PodEYpnN3b6W",
   "instantiation": "true",
   "printer_model": "FELIX Food Double",
   "printer_variant": "4.0",

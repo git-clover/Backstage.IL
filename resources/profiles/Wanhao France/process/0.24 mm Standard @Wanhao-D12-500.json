@@ -3,7 +3,7 @@
 	"name": "0.24 mm Standard @Wanhao-D12-500",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "O6OfxmRxpZPOmU50",
+	"setting_id": "ujy6wTsniJT3q7d6",
 	"instantiation": "true",
 	"layer_height": "0.24",
 	"bottom_shell_layers": "4",

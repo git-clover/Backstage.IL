@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Qidi Q2C",
 	"inherits": "0.12 mm Fine @Qidi X3",
 	"from": "system",
-	"setting_id": "qo9ZoXKCpbUaCp1w",
+	"setting_id": "yQLpuee2nG46TxDv",
 	"instantiation": "true",
 	"enable_arc_fitting": "0",
 	"compatible_printers": [

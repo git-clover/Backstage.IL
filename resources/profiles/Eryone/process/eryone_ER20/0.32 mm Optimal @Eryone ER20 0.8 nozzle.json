@@ -3,7 +3,7 @@
 	"name": "0.32 mm Optimal @Eryone ER20 0.8 nozzle",
 	"inherits": "fdm_process_ER20_0.32_nozzle_0.8",
 	"from": "system",
-	"setting_id": "5lYVYrlEfVVl2n0F",
+	"setting_id": "22Hmf1VAgkTUkt9o",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Eryone ER20 0.8 nozzle"

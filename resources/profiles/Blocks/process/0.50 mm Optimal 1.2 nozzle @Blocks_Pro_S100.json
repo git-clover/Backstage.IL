@@ -4,7 +4,7 @@
 	"renamed_from": "0.50 mm Optimal 1.2 nozzle @Blocks",
 	"inherits": "fdm_process_common 1.2 nozzle",
 	"from": "system",
-	"setting_id": "0eqNgX26jemsBfV5",
+	"setting_id": "dltWRldCcxVpH7nE",
 	"instantiation": "true",
 	"bottom_shell_layers": "2",
 	"top_shell_layers": "3",

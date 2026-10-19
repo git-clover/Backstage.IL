@@ -3,7 +3,7 @@
   "name": "FELIX Food Switch 4.00 mm nozzle",
   "inherits": "fdm_felix_food_switch_common",
   "from": "system",
-  "setting_id": "IBtU2dTE1EI3oSkf",
+  "setting_id": "Yz113Y8giq4CGqKX",
   "instantiation": "true",
   "printer_model": "FELIX Food Switch",
   "printer_variant": "4.0",

@@ -3,7 +3,7 @@
 	"name": "0.05 mm DETAIL @CORE One 0.25",
 	"inherits": "0.05 mm DETAIL @MK4S 0.25",
 	"from": "system",
-	"setting_id": "qOFL01RilvzHLLpF",
+	"setting_id": "zRXUic1J6CH3sRKM",
 	"instantiation": "true",
 	"travel_speed": "350",
 	"travel_acceleration": "4000",

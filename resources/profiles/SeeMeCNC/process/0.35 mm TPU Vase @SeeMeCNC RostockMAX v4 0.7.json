@@ -3,7 +3,7 @@
 	"name": "0.35 mm TPU Vase @SeeMeCNC RostockMAX v4 0.7",
 	"inherits": "SeeMeCNC process base 0.7 mm",
 	"from": "System",
-	"setting_id": "lv1TOoKBJd8IXOcn",
+	"setting_id": "dBhofVg2e2MNgVNG",
 	"instantiation": "true",
 	"print_settings_id": "0.35 mm TPU Vase @SeeMeCNC RostockMAX v4 0.7",
 	"compatible_printers": [

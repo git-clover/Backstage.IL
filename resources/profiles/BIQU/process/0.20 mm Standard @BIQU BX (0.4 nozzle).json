@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @BIQU BX (0.4 nozzle)",
 	"inherits": "fdm_process_biqu_common",
 	"from": "system",
-	"setting_id": "dtgvV4cqDwI9nLUq",
+	"setting_id": "DtJKyE5zkPXMy4q3",
 	"instantiation": "true",
 	"layer_height": "0.2",
 	"bottom_shell_layers": "3",

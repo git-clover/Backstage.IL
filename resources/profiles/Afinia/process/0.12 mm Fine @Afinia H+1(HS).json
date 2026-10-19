@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Afinia H+1(HS)",
 	"inherits": "fdm_process_afinia_HS_common",
 	"from": "system",
-	"setting_id": "FueWYijuvLNWzNmL",
+	"setting_id": "iK2gNwnPzwentQDh",
 	"instantiation": "true",
 	"layer_height": "0.12",
 	"bottom_shell_layers": "5",

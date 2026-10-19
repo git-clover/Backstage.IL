@@ -3,7 +3,7 @@
     "name": "0.8 mm Draft @Pragostroj 1.6",
     "inherits": "process_common_kinarb",
     "from": "system",
-    "setting_id": "seGh6lE18Y6Sx9mL",
+    "setting_id": "iGVlzM0vnh5lkoaO",
     "instantiation": "true",
     "layer_height": "0.8",
     "initial_layer_print_height": "0.8",

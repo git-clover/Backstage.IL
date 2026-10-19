@@ -3,7 +3,7 @@
 	"name": "0.20 mm STRUCTURAL @COREONE0.6 + MMU3",
 	"inherits": "0.20 mm STRUCTURAL @CORE One 0.6",
 	"from": "system",
-	"setting_id": "uvQ25wBWKEFdqMVl",
+	"setting_id": "hZN8IygUaqTIy2oL",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa CORE One MMU3 0.6 nozzle"

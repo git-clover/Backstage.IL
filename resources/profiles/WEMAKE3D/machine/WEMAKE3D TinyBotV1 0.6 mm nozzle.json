@@ -3,7 +3,7 @@
 	"name": "WEMAKE3D TinyBotV1 0.6 mm nozzle",
 	"inherits": "fdm_machine_tinybotv1_common",
 	"from": "system",
-	"setting_id": "dxguOcKUGzTHj76q",
+	"setting_id": "6KVo8xAjIYDOo6IN",
 	"instantiation": "true",
 	"printer_model": "WEMAKE3D TinyBotV1",
 	"nozzle_diameter": [

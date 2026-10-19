@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Qidi XPlus3",
 	"inherits": "0.16 mm Optimal @Qidi X3",
 	"from": "system",
-	"setting_id": "yU6LdytjdYq3zLxp",
+	"setting_id": "a1KeC0ri4fuWWRTG",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Qidi X-Plus 3 0.4 nozzle"

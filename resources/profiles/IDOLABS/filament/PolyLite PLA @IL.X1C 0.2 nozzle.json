@@ -3,7 +3,7 @@
 	"name": "PolyLite PLA @IL.X1C 0.2 nozzle",
 	"inherits": "PolyLite PLA @IL.X1C",
 	"from": "system",
-	"setting_id": "6Mw8tOe4xZHhhwmm",
+	"setting_id": "b5t0m8wQogLGGqAX",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"1"

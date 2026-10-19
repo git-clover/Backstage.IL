@@ -3,7 +3,7 @@
 	"name": "QIDI Support For PET/PA @Qidi X-Plus 5 0.8 nozzle",
 	"inherits": "QIDI Support For PET/PA@X-Plus 5-Series",
 	"from": "system",
-	"setting_id": "hFYahJkYIgmjcuPb",
+	"setting_id": "3KU1X0VKH5NMPcRf",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Qidi X-Plus 5 0.8 nozzle"

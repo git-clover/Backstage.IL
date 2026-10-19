@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Magneto X",
 	"inherits": "fdm_process_pply_0.16",
 	"from": "system",
-	"setting_id": "z8gx4LyAjquxYgBn",
+	"setting_id": "ziH7hMI5hA8rr4KI",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Peopoly Magneto X 0.4 nozzle"

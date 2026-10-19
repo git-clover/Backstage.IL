@@ -4,7 +4,7 @@
 	"renamed_from": "0.20 mm Optimal 0.6 nozzle @Anker.json",
 	"inherits": "fdm_process_anker_common_0_6",
 	"from": "system",
-	"setting_id": "re5qmcOFJ1OJP3Ip",
+	"setting_id": "ovDN4eXzUcTS7Mhj",
 	"instantiation": "true",
 	"layer_height": "0.20",
 	"initial_layer_print_height": "0.20",

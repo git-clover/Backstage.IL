@@ -3,7 +3,7 @@
 	"name": "0.20 mm Quality @SK1",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "p2c8ePTvQGBCzOKY",
+	"setting_id": "cQLDjAkbSAh4eHib",
 	"instantiation": "true",
 	"compatible_printers": [
 		"TwoTrees SK1 0.4 nozzle"

@@ -3,7 +3,7 @@
 	"name": "Eryone ER20 Klipper 0.6 nozzle",
 	"inherits": "fdm_machine_eryone_ER20_Klipper_common",
 	"from": "system",
-	"setting_id": "LCVtRqmtH6YySurQ",
+	"setting_id": "Xxvn6K3iaPYpRFIZ",
 	"instantiation": "true",
 	"default_filament_profile": [],
 	"default_print_profile": "0.30 mm Standard @Eryone ER20 Klipper 0.6 nozzle",

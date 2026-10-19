@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA AppoloX ASA Hardened Steel @ 0.70 mm",
 	"inherits": "fdm_filament_asa",
 	"from": "system",
-	"setting_id": "pc50UjGaC3hGbzLo",
+	"setting_id": "ZvxsrrhzNsh3MdRI",
 	"filament_id": "OFguQdOr",
 	"instantiation": "true",
 	"compatible_printers": [

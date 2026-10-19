@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Eryone ER20 Klipper",
 	"inherits": "fdm_process_ER20_Klipper_0.20",
 	"from": "system",
-	"setting_id": "08wgu9MP0trL3JBg",
+	"setting_id": "m5ohryXTYS43YTRP",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Eryone ER20 Klipper 0.4 nozzle"

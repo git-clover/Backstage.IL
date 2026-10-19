@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @X-Max 4 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "9aEE4QRwpA84OcRn",
+	"setting_id": "yAsMjj72LSqkoFbv",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "5",
 	"bottom_shell_layers": "5",

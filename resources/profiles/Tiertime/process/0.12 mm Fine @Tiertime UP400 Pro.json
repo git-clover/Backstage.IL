@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Tiertime UP400 Pro",
 	"inherits": "fdm_process_tiertime_common",
 	"from": "system",
-	"setting_id": "LiT2jc5HHSsxdPOY",
+	"setting_id": "oqJfK19i0vOZeh3F",
 	"instantiation": "true",
 	"layer_height": "0.12",
 	"bottom_shell_layers": "5",

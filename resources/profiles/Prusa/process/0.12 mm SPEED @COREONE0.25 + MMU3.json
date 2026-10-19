@@ -3,7 +3,7 @@
 	"name": "0.12 mm SPEED @COREONE0.25 + MMU3",
 	"inherits": "0.12 mm SPEED @CORE One 0.25",
 	"from": "system",
-	"setting_id": "YjbMEvZ8ALzK2qHf",
+	"setting_id": "CRL50FBEWXWdSqV2",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa CORE One MMU3 0.25 nozzle"

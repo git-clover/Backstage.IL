@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @LONGER LK10 (0.8 nozzle)",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "IspkL6JDGiT3nUzD",
+	"setting_id": "nKjxeIgGZf5YPS9Q",
 	"instantiation": "true",
 	"layer_height": "0.24",
 	"bottom_shell_layers": "3",

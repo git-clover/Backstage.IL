@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @MyKlipper",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
-	"setting_id": "UkxcnbdZ2LeRvO4x",
+	"setting_id": "ATaHOya4uvfZYtOp",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

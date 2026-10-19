@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @MyKlipper",
 	"inherits": "fdm_process_klipper_common",
 	"from": "system",
-	"setting_id": "qMjBH8WRooCfhtTP",
+	"setting_id": "9VWt1OfZjml2P031",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

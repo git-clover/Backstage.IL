@@ -3,7 +3,7 @@
 	"name": "0.25 mm STRUCTURAL @MK4S HF0.4",
 	"inherits": "0.20 mm STRUCTURAL @MK4S 0.4",
 	"from": "system",
-	"setting_id": "krbZAdSGpwpMoVa6",
+	"setting_id": "P8UbYe68beQ41lui",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"compatible_printers_condition": "printer_notes=~/.*MK4S.*/ and nozzle_diameter[0]==0.4 and printer_notes=~/.*HF_NOZZLE.*/",

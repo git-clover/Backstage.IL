@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @FLSun T1",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "MvInpEja0HniYPwn",
+	"setting_id": "q1ibLzG1ps6pJNHo",
 	"instantiation": "true",
 	"bottom_shell_layers": "5",
 	"bottom_shell_thickness": "0.8",

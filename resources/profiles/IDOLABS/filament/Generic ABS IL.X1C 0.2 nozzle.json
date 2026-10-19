@@ -4,7 +4,7 @@
 	"inherits": "Generic ABS @IDOLABS base",
 	"renamed_from": "IDOLABS Generic ABS @0.2 nozzle;IDOLABS Generic ABS 0.2 nozzle",
 	"from": "system",
-	"setting_id": "mzx0hG9Xe9fIrkrW",
+	"setting_id": "htHdy5iG1JWaNynI",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"2"

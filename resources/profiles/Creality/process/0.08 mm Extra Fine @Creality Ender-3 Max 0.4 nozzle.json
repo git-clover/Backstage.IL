@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @Creality Ender-3 Max 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "oaCT7YTo6y4UFStp",
+	"setting_id": "beKYC5Hiha9aKHJJ",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

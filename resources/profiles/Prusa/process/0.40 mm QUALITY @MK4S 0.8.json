@@ -3,7 +3,7 @@
 	"name": "0.40 mm QUALITY @MK4S 0.8",
 	"inherits": "process_common_mk4s",
 	"from": "system",
-	"setting_id": "MRHeqHymBP1gBtub",
+	"setting_id": "JZ7Ul8jLQqyTOfnp",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"bottom_shell_thickness": "0.8",

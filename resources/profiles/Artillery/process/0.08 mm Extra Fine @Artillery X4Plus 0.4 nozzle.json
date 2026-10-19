@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @Artillery X4Plus 0.4 nozzle",
 	"inherits": "0.20 mm Standard @Artillery X4Plus 0.4 nozzle",
 	"from": "system",
-	"setting_id": "OmUulk4l2blPQkQ6",
+	"setting_id": "MTtizT1zA9PJSnzr",
 	"instantiation": "true",
 	"initial_layer_print_height": "0.2",
 	"internal_solid_infill_line_width": "0.42",

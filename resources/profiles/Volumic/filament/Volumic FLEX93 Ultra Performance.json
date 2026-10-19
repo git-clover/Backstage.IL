@@ -3,7 +3,7 @@
 	"name": "Volumic FLEX93 Ultra (Performance)",
 	"inherits": "fdm_filament_tpu",
 	"from": "system",
-	"setting_id": "k5V3bjZrtr7t8zl0",
+	"setting_id": "sZD8NdgFwdebFHuF",
 	"filament_id": "OFUH1aee",
 	"instantiation": "true",
 	"filament_flow_ratio": [

@@ -3,7 +3,7 @@
 	"name": "0.20 mm Strength @Artillery M1 Pro 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "KswPAAYezpKlVDY4",
+	"setting_id": "G1oif7vcNwbu8GKy",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"default_acceleration": "10000",

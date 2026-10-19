@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Metal @IL.X1C",
 	"inherits": "IDOLABS PLA Metal @base",
 	"from": "system",
-	"setting_id": "OOesW9LPen32issX",
+	"setting_id": "SV5PZ4PpHjXvS195",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"21"

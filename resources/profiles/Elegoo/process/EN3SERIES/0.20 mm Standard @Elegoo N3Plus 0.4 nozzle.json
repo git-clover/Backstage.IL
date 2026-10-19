@@ -4,7 +4,7 @@
 	"renamed_from": "0.20 mm Standard @Elegoo Neptune3Plus",
 	"inherits": "fdm_process_elegoo_04020",
 	"from": "system",
-	"setting_id": "t2QdKzmUAoGrZTl2",
+	"setting_id": "exTDsN3oZobI5GxH",
 	"instantiation": "true",
 	"filename_format": "EN3Plus_{nozzle_diameter[0]}_{input_filename_base}_{filament_name}_{layer_height}_{print_time}.gcode",
 	"default_acceleration": "1000",

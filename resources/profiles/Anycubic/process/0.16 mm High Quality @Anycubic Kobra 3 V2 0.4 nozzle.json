@@ -3,7 +3,7 @@
 	"name": "0.16 mm High Quality @Anycubic Kobra 3 V2 0.4 nozzle",
 	"inherits": "0.16 mm Standard @Anycubic Kobra 3 V2 0.4 nozzle",
 	"from": "system",
-	"setting_id": "mVDCX89vYKfBA57g",
+	"setting_id": "l3AsaRzvhsb3ktU7",
 	"instantiation": "true",
 	"print_settings_id": "0.16 mm High Quality @Anycubic Kobra 3 V2 0.4 nozzle",
 	"layer_height": "0.16",

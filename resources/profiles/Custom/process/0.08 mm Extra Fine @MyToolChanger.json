@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
-	"setting_id": "Xt1tNqoffQCMWaDF",
+	"setting_id": "lShD8t5Izm1StIaO",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

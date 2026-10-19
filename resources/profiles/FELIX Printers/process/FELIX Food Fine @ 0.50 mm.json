@@ -3,7 +3,7 @@
   "name": "FELIX Food Fine @ 0.50 mm",
   "inherits": "fdm_process_felix_food_common",
   "from": "system",
-  "setting_id": "6aQk1qmNjb77jkOB",
+  "setting_id": "HY6hDuDKw4tSjCQ4",
   "instantiation": "true",
   "compatible_printers": [
     "FELIX Food Single 0.50 mm nozzle",

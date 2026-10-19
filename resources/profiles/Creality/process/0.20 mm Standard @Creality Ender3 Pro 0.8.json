@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Creality Ender3 Pro 0.8",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "l6niLUptIm4MfRTB",
+	"setting_id": "vT3oxtfaHy6ceq8e",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.2",

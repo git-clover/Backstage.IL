@@ -3,7 +3,7 @@
 	"name": "Eolas Prints TPU D60 UV Resistant @System",
 	"inherits": "fdm_filament_tpu",
 	"from": "system",
-	"setting_id": "rJmsm0zjvsk9Dy0G",
+	"setting_id": "Et27GN7uvgi5viNU",
 	"filament_id": "OFvVy7yo",
 	"instantiation": "true",
 	"filament_color": [

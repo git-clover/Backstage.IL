@@ -3,7 +3,7 @@
 	"name": "Full performance - 0.25 mm",
 	"inherits": "fdm_process_volumic_common",
 	"from": "system",
-	"setting_id": "q3EqyOZ87HZpBzvO",
+	"setting_id": "kUpZwqbDSOxwz0k6",
 	"instantiation": "true",
 	"layer_height": "0.25",
 	"initial_layer_print_height": "0.25",

@@ -2,7 +2,7 @@
 	"type": "process",
 	"name": "0.12 mm Extra Fine @WEMAKE3D PhoenixProV1 0.6 mm nozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
-	"setting_id": "2VQgdFkpCRMTA03y",
+	"setting_id": "TcNcBz4iOL00MoQc",
 	"instantiation": "true",
 	"print_settings_id": "0.12 mm Fine @WEMAKE3D PhoenixProV1 0.6 mm nozzle",
 	"layer_height": "0.12",

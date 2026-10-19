@@ -3,7 +3,7 @@
 	"name": "Food Thick Stainless Steel Syringe @3.00 mm",
 	"inherits": "fdm_filament_food",
 	"from": "system",
-	"setting_id": "0BbaSUre1bztrKB0",
+	"setting_id": "WCJ32b4Enzvp2YMg",
 	"filament_id": "OFjXHG0Z",
 	"instantiation": "true",
 	"compatible_printers": [

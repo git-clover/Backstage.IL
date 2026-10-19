@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Tiertime UP600 HS",
 	"inherits": "fdm_process_tiertime_HS_common",
 	"from": "system",
-	"setting_id": "BfOJljkGUCnVJ0zM",
+	"setting_id": "229DjTFoz3xanTg1",
 	"instantiation": "true",
 	"layer_height": "0.16",
 	"elefant_foot_compensation": "0.15",

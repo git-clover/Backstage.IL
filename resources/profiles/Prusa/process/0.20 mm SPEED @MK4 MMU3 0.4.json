@@ -3,7 +3,7 @@
 	"name": "0.20 mm SPEED @MK4 MMU3 0.4",
 	"inherits": "fdm_process_mk4_mmu3",
 	"from": "system",
-	"setting_id": "pnuf4N5o7Voc1c7K",
+	"setting_id": "b0lHYmXI0TZUdq2x",
 	"instantiation": "true",
 	"bridge_speed": [
 		"50"

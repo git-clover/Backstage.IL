@@ -4,7 +4,7 @@
 	"renamed_from": "0.40 mm Standard @EOS Giga 0.8 nozzle",
 	"inherits": "fdm_process_elegoo_08040",
 	"from": "system",
-	"setting_id": "oiMWJMGC2aW2v4wg",
+	"setting_id": "uIsr52LgoACOpEH9",
 	"instantiation": "true",
 	"default_acceleration": "3000",
 	"filename_format": "EOGiga1_{nozzle_diameter[0]}_{input_filename_base}_{filament_name}_{layer_height}_{print_time}.gcode",

@@ -3,7 +3,7 @@
 	"name": "0.16 mm Fine @SeeMeCNC BOSSdelta 500 0510 0.4",
 	"inherits": "SeeMeCNC process base 0.4 mm",
 	"from": "System",
-	"setting_id": "aw8wmD40IkOSueRa",
+	"setting_id": "GW3xBmiCy7JqnX15",
 	"instantiation": "true",
 	"print_settings_id": "0.16 mm Fine @SeeMeCNC BOSSdelta 500 0510 0.4",
 	"compatible_printers": [

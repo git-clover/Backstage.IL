@@ -3,7 +3,7 @@
 	"name": "0.15 mm Optimal @Voron",
 	"inherits": "fdm_process_voron_common",
 	"from": "system",
-	"setting_id": "JYeXOs4NWhpFBNwj",
+	"setting_id": "ddHl2cM9VKQ69LKs",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"top_shell_layers": "5",

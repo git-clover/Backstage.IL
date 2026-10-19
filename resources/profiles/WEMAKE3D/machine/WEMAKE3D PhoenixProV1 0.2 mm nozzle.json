@@ -3,7 +3,7 @@
 	"name": "WEMAKE3D PhoenixProV1 0.2 mm nozzle",
 	"inherits": "fdm_machine_phoenixprov1_common",
 	"from": "system",
-	"setting_id": "XHK731uBkstR3hRp",
+	"setting_id": "Up6ExMfMXvFJ8JIl",
 	"instantiation": "true",
 	"printer_model": "WEMAKE3D PhoenixProV1",
 	"nozzle_diameter": [

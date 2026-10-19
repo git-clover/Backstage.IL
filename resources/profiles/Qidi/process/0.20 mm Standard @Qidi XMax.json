@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Qidi XMax",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
-	"setting_id": "2lJE6tuEIL22NBc2",
+	"setting_id": "UOE9zIeOgfVUBLv1",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.2",

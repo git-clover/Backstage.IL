@@ -3,7 +3,7 @@
 	"name": "0.08 mm Optimal @Elegoo CC2 0.2 nozzle",
 	"inherits": "0.10 mm Standard @Elegoo CC2 0.2 nozzle",
 	"from": "system",
-	"setting_id": "uD5gceL1thOzkzGo",
+	"setting_id": "FJn0NLlcpsfD3kBU",
 	"instantiation": "true",
 	"elefant_foot_compensation": "0.05",
 	"layer_height": "0.08"

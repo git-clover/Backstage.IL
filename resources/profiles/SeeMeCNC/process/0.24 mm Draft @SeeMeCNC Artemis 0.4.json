@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @SeeMeCNC Artemis 0.4",
 	"inherits": "SeeMeCNC process base 0.4 mm",
 	"from": "System",
-	"setting_id": "YDcjk60OSZ86WXWs",
+	"setting_id": "Mg8D4aPAWgHxlpqH",
 	"instantiation": "true",
 	"print_settings_id": "0.24 mm Draft @SeeMeCNC Artemis 0.4",
 	"compatible_printers": [

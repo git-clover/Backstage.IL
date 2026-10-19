@@ -3,7 +3,7 @@
 	"name": "0.20 mm SOLUBLE INTERFACE @COREONE0.4 + MMU3",
 	"inherits": "0.20 mm SOLUBLE INTERFACE @CORE One 0.4",
 	"from": "system",
-	"setting_id": "hrh6ZS8cMrp6Fput",
+	"setting_id": "JJ9QHAUhfPpHc96r",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa CORE One MMU3 0.4 nozzle"

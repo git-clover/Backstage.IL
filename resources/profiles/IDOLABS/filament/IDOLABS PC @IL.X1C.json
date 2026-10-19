@@ -3,7 +3,7 @@
 	"name": "IDOLABS PC @IL.X1C",
 	"inherits": "IDOLABS PC @base",
 	"from": "system",
-	"setting_id": "jKE8fewlDCfLj8hK",
+	"setting_id": "HDyFd8jUj6PpNfXa",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle"

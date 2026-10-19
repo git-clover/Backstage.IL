@@ -4,7 +4,7 @@
 	"renamed_from": "0.2 mm Standard @re3D fdm 0.8",
 	"inherits": "fdm_process_re3D_common",
 	"from": "system",
-	"setting_id": "ChglxET1YwzVuD6a",
+	"setting_id": "1IaP6SVnhEzcw3lg",
 	"instantiation": "true",
 	"compatible_printers": [
 		"re3D Gigabot 4 0.8 nozzle",

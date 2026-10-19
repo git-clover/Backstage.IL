@@ -4,7 +4,7 @@
 	"renamed_from": "0.16 mm Optimal @Creality Ender3V3SE",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "jvnrh3jh6Btbs1Ja",
+	"setting_id": "NYL4cvXFAgdKlfKp",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.16",

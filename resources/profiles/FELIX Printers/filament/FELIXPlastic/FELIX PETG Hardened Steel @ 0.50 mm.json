@@ -3,7 +3,7 @@
 	"name": "FELIX PETG Hardened Steel @ 0.50 mm",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
-	"setting_id": "1xOwhrqAqJVO48d0",
+	"setting_id": "sQurIjCFbsYa76zJ",
 	"filament_id": "OFQo5ZHk",
 	"instantiation": "true",
 	"compatible_printers": [

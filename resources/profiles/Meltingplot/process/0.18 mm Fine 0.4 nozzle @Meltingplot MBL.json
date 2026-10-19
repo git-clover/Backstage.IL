@@ -3,7 +3,7 @@
 	"name": "0.18 mm Fine 0.4 nozzle @Meltingplot MBL",
 	"inherits": "fdm_process_meltingplot_mbl_04_nozzle",
 	"from": "system",
-	"setting_id": "WF0wYUMc1HUHPyVQ",
+	"setting_id": "QyK1q9Oyj5ZbFKYP",
 	"instantiation": "true",
 	"layer_height": "0.18",
 	"compatible_printers": [

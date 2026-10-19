@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA Aquasolve PVA Brass @ 0.35 mm",
 	"inherits": "fdm_filament_pva",
 	"from": "system",
-	"setting_id": "BJplNxEdFo9WucQi",
+	"setting_id": "FcPzbsgeMn7xiRum",
 	"filament_id": "OFumEwBr",
 	"instantiation": "true",
 	"compatible_printers": [

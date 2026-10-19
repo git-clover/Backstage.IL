@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Impact @IL.X1C",
 	"inherits": "IDOLABS PLA Impact @base",
 	"from": "system",
-	"setting_id": "o2s2ESxiXnPZgTZF",
+	"setting_id": "eso4K0CQNCVFgnKW",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"23.2"

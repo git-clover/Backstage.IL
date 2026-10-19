@@ -3,7 +3,7 @@
 	"name": "0.10 mm FAST DETAIL @COREONE0.4 + MMU3",
 	"inherits": "0.10 mm FAST DETAIL @CORE One 0.4",
 	"from": "system",
-	"setting_id": "5l28K1bE8lfuaXF1",
+	"setting_id": "9GprzbX616W71GmC",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa CORE One MMU3 0.4 nozzle"

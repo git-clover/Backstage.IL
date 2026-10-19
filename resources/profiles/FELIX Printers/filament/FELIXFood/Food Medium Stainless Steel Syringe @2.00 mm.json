@@ -3,7 +3,7 @@
 	"name": "Food Medium Stainless Steel Syringe @2.00 mm",
 	"inherits": "fdm_filament_food",
 	"from": "system",
-	"setting_id": "4MhgYDnGFKLfurhc",
+	"setting_id": "HoKJ0x2eKcDoCtLi",
 	"filament_id": "OFqZSD1S",
 	"instantiation": "true",
 	"compatible_printers": [

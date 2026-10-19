@@ -4,7 +4,7 @@
 	"renamed_from": "0.2 mm Fine @re3D fdm 0.4",
 	"inherits": "fdm_process_re3D_common",
 	"from": "system",
-	"setting_id": "u9PNexqDf7jWUnnH",
+	"setting_id": "4A1yo8OdZjAy04Rk",
 	"instantiation": "true",
 	"compatible_printers": [
 		"re3D Gigabot 4 0.4 nozzle",

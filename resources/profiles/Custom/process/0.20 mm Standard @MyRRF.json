@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @MyRRF",
 	"inherits": "fdm_process_rrf_common",
 	"from": "system",
-	"setting_id": "UFkBAddrcwXsuoVt",
+	"setting_id": "JDLIINjPgQEgtIKy",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

@@ -3,7 +3,7 @@
 	"name": "0.12 mm High Quality @X-Plus 5",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "xWoxLO8XiKAOEvPO",
+	"setting_id": "bcYhHAwbv9otR5Bs",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "5",
 	"bottom_shell_layers": "5",

@@ -3,7 +3,7 @@
 	"name": "0.56 mm Standard @Creality Ender-3 V3 0.8 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "OHaFzyRDGPTe34TZ",
+	"setting_id": "GuFZCMzgic6ra27c",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "80",

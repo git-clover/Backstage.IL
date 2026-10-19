@@ -3,7 +3,7 @@
 	"name": "0.20 mm Solid @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
-	"setting_id": "nV3S6yVyd68DnTX6",
+	"setting_id": "fKEFqe7Ose47jQcW",
 	"instantiation": "true",
 	"compatible_printers": [
 		"LH Stinger 0.4 nozzle",

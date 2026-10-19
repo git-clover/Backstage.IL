@@ -3,7 +3,7 @@
 	"name": "0.24 mm Fine @Elegoo Neptune 0.8 nozzle",
 	"inherits": "0.40 mm Standard @Elegoo Neptune 0.8 nozzle",
 	"from": "system",
-	"setting_id": "58PjDN7iOw2uuKCa",
+	"setting_id": "P0dGbrHAR3U5lLGw",
 	"instantiation": "true",
 	"layer_height": "0.24"
 }

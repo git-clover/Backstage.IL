@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Rook MK1 LDO",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
-	"setting_id": "lHNZvPBX9GpKHQbP",
+	"setting_id": "tXinIN0t7opnwZ39",
 	"instantiation": "true",
 	"layer_height": "0.2",
 	"compatible_printers": [

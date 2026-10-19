@@ -3,7 +3,7 @@
   "name": "FELIX Pro XL 3.0 0.70 mm nozzle",
   "inherits": "fdm_felix_pro_xl_3_common",
   "from": "system",
-  "setting_id": "Ovh8Xw4umQw6Qt9w",
+  "setting_id": "3ONjmv7EFc4hdPfW",
   "instantiation": "true",
   "printer_model": "FELIX Pro XL 3.0",
   "printer_variant": "0.7",

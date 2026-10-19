@@ -3,7 +3,7 @@
   "name": "FELIX Food Normal @ 0.50 mm",
   "inherits": "fdm_process_felix_food_common",
   "from": "system",
-  "setting_id": "P37ska93nTzu6uhP",
+  "setting_id": "uIAailEXEdGkNEfs",
   "instantiation": "true",
   "compatible_printers": [
     "FELIX Food Single 0.50 mm nozzle",

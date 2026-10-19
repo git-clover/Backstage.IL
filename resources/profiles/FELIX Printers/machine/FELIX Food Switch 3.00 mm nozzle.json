@@ -3,7 +3,7 @@
   "name": "FELIX Food Switch 3.00 mm nozzle",
   "inherits": "fdm_felix_food_switch_common",
   "from": "system",
-  "setting_id": "BUCq6XvRyYOJdDLW",
+  "setting_id": "xeLaMH8DCg0oeuKe",
   "instantiation": "true",
   "printer_model": "FELIX Food Switch",
   "printer_variant": "3.0",

@@ -3,7 +3,7 @@
 	"name": "Flashforge PETG",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
-	"setting_id": "tYidxo83oreZoecT",
+	"setting_id": "GsItxZSgj7Ihr3YU",
 	"filament_id": "OFMpxamb",
 	"instantiation": "true",
 	"filament_vendor": [

@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Sparkle @IL.X1C",
 	"inherits": "IDOLABS PLA Sparkle @base",
 	"from": "system",
-	"setting_id": "mAZuRQdAzLNFTf0w",
+	"setting_id": "OqXM8ldgC04rRHzH",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

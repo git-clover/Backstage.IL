@@ -3,7 +3,7 @@
 	"name": "0.20 mm Speed @Prusa XL 5T 0.4",
 	"inherits": "process_common_xl_5t",
 	"from": "system",
-	"setting_id": "pwGO2EEQjnIEhyKf",
+	"setting_id": "UBkpIDpiHuc3r2Tu",
 	"instantiation": "true",
 	"inital_layer_height": "0.2",
 	"layer_height": "0.2",

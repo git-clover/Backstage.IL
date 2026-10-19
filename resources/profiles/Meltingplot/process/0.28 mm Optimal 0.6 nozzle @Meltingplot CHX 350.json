@@ -3,7 +3,7 @@
 	"name": "0.28 mm Optimal 0.6 nozzle @Meltingplot CHX 350",
 	"inherits": "fdm_process_meltingplot_chx_small_nozzle",
 	"from": "system",
-	"setting_id": "RrsJ1yXD61T1Sk2u",
+	"setting_id": "AeI0H4JaMhpHlmcM",
 	"instantiation": "true",
 	"layer_height": "0.28",
 	"compatible_printers": [

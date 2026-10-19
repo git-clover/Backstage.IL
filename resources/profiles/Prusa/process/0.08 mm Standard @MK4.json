@@ -3,7 +3,7 @@
 	"name": "0.08 mm Standard @MK4",
 	"inherits": "process_common_mk4",
 	"from": "system",
-	"setting_id": "sknzF1ldqGRv8YGH",
+	"setting_id": "M5n7QQbYs4oWYXXQ",
 	"instantiation": "true",
 	"support_top_z_distance": "0.08",
 	"support_bottom_z_distance": "0.08",

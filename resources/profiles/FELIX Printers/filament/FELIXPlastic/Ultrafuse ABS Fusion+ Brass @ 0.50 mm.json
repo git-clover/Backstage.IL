@@ -3,7 +3,7 @@
 	"name": "Ultrafuse ABS Fusion+ Brass @ 0.50 mm",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
-	"setting_id": "J0sO8YVsUXIwR3mp",
+	"setting_id": "pdrW2700aeEyboDG",
 	"filament_id": "OFyzD9L0",
 	"instantiation": "true",
 	"compatible_printers": [

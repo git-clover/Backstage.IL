@@ -3,7 +3,7 @@
 	"name": "0.40 mm Standard @Creality Sermoon M300 0.8 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "DWhukqzI9XI80fTQ",
+	"setting_id": "vHDbYmLqeMbIyj0o",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "100",

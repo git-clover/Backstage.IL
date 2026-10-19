@@ -3,7 +3,7 @@
 	"name": "IL.X1C 0.8 nozzle",
 	"inherits": "IL.X1C 0.4 nozzle",
 	"from": "system",
-	"setting_id": "cU6agIrtxdHgoA0X",
+	"setting_id": "rgVK663uKoUxAb2q",
 	"instantiation": "true",
 	"nozzle_diameter": [
 		"0.8"

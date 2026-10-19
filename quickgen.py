@@ -20,6 +20,6 @@ else:
     ptype = sys.stdin.readline().split('\n')[0]
     print("\nName: ")
     pname = sys.stdin.readline().split('\n')[0]
-print()
+    print()
 #print(vendor, ptype, pname)
 print("\"setting_id\": \"%s\"" % (quickgen(vendor, ptype, pname)))                                                           

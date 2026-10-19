@@ -4,7 +4,7 @@
 	"inherits": "Generic PLA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PLA",
 	"from": "system",
-	"setting_id": "TfkkCc6rILxDiZhR",
+	"setting_id": "796UGqZZkoQFvq1o",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @FF Adventurer A5 0.4 nozzle",
 	"inherits": "0.12 mm Fine @Flashforge AD5M Pro 0.4 Nozzle",
 	"from": "system",
-	"setting_id": "G5AhxHk95GfXw6ec",
+	"setting_id": "AmDZmEWkD863aW4m",
 	"instantiation": "true",
 	"bridge_flow": "1",
 	"enable_arc_fitting": "1",

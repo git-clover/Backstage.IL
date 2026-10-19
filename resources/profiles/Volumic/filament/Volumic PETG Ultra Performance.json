@@ -3,7 +3,7 @@
 	"name": "Volumic PETG Ultra (Performance)",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
-	"setting_id": "bNcC5kGe9jOm7Ltu",
+	"setting_id": "n0MdIKoauQcMyaQf",
 	"filament_id": "OFsD974q",
 	"instantiation": "true",
 	"filament_flow_ratio": [

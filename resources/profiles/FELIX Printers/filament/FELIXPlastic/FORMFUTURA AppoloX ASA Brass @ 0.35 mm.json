@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA AppoloX ASA Brass @ 0.35 mm",
 	"inherits": "fdm_filament_asa",
 	"from": "system",
-	"setting_id": "gRmosSxV2WFOgLAa",
+	"setting_id": "mlhTwJdPxVhWvG1r",
 	"filament_id": "OFEUX7D3",
 	"instantiation": "true",
 	"compatible_printers": [

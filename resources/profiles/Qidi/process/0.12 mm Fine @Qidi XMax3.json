@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Qidi XMax3",
 	"inherits": "0.12 mm Fine @Qidi X3",
 	"from": "system",
-	"setting_id": "u5bf5vU7uc7kbez0",
+	"setting_id": "WdwslD1e3T3nZaZs",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Qidi X-Max 3 0.4 nozzle"

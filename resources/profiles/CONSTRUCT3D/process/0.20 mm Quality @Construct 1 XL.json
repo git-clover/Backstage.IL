@@ -3,7 +3,7 @@
 	"name": "0.20 mm Quality @Construct 1 XL",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "0Zi6gVzskJeRMPlW",
+	"setting_id": "cxmVBodKsfUjaE0z",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"default_acceleration": "4000",

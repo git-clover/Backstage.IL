@@ -3,7 +3,7 @@
 	"name": "PolyTerra PLA @IL.X1C",
 	"inherits": "PolyTerra PLA @base",
 	"from": "system",
-	"setting_id": "XZzZCDJvw8Ofj1E4",
+	"setting_id": "XcpueDTLtRYPDm4j",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"22"

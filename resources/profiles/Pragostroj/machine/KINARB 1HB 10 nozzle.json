@@ -3,7 +3,7 @@
     "name": "KINARB 1HB 1.0 nozzle",
     "inherits": "kinarb_machine_common",
     "from": "system",
-    "setting_id": "YzDkELvWtxCX8YCV",
+    "setting_id": "ybCRmpDF1nZ0is6E",
     "instantiation": "true",
     "printer_model": "KINARB 1HB",
     "printer_variant": "1.0",

@@ -4,7 +4,7 @@
 	"inherits": "Generic PLA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PLA @0.2 nozzle;IDOLABS Generic PLA 0.2 nozzle",
 	"from": "system",
-	"setting_id": "HjJH9JT9x9sFtVES",
+	"setting_id": "eK24z1GTg44Z9kO5",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"2"

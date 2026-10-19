@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Basic @IL.X1C 0.8 nozzle",
 	"inherits": "IDOLABS PLA Basic @base",
 	"from": "system",
-	"setting_id": "zIaP3iJH2bV6zJ1K",
+	"setting_id": "ZvVO9I3podMH4hAj",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"21"

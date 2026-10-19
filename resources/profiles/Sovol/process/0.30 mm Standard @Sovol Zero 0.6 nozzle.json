@@ -3,7 +3,7 @@
 	"name": "0.30 mm Standard @Sovol Zero 0.6 nozzle",
 	"inherits": "fdm_process_zero",
 	"from": "system",
-	"setting_id": "lTAs2USEP8D749K7",
+	"setting_id": "ImxFMF6c9zwSck68",
 	"instantiation": "true",
 	"layer_height": "0.30",
 	"bottom_shell_layers": "4",

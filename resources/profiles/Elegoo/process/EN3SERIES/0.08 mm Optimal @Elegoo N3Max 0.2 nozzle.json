@@ -3,7 +3,7 @@
 	"name": "0.08 mm Optimal @Elegoo N3Max 0.2 nozzle",
 	"inherits": "0.10 mm Standard @Elegoo N3Max 0.2 nozzle",
 	"from": "system",
-	"setting_id": "XEXWDtkuVN27Z0Ae",
+	"setting_id": "pbAERbA43IC35lEJ",
 	"instantiation": "true",
 	"layer_height": "0.08"
 }

@@ -3,7 +3,7 @@
 	"name": "0.36 mm Draft @Creality K1 (0.6 nozzle)",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "XCDNFQBF7Kx54Z2Y",
+	"setting_id": "eB4LVAN98KY0yRr5",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"max_travel_detour_distance": "0",

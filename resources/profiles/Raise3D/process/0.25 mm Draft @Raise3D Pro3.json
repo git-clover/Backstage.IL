@@ -3,7 +3,7 @@
 	"name": "0.25 mm Draft @Raise3D Pro3",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "p0KdJttce5WMx30N",
+	"setting_id": "4d7qQ69muKabHkRy",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.25",

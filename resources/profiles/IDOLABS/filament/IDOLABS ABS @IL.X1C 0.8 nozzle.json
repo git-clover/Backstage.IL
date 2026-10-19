@@ -3,7 +3,7 @@
 	"name": "IDOLABS ABS @IL.X1C 0.8 nozzle",
 	"inherits": "IDOLABS ABS @base",
 	"from": "system",
-	"setting_id": "RVxzC2TDEBPCExLD",
+	"setting_id": "OXwOt70C8yztNAp2",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"22"

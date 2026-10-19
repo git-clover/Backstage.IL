@@ -3,7 +3,7 @@
 	"name": "0.25 mm Standard @SeeMeCNC RostockMAX v3.2 0.5",
 	"inherits": "SeeMeCNC process base 0.5 mm",
 	"from": "System",
-	"setting_id": "EqQ3HoUv2VJcqAGs",
+	"setting_id": "7FlD2FDFFN4VyhEU",
 	"instantiation": "true",
 	"print_settings_id": "0.25 mm Standard @SeeMeCNC RostockMAX v3.2 0.5",
 	"compatible_printers": [

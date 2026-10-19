@@ -3,7 +3,7 @@
 	"name": "0.25 mm Draft @WEMAKE3D PhoenixProV1 0.3 mm nozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
 	"from": "system",
-	"setting_id": "TFl8vBOxyNLPiX1a",
+	"setting_id": "STaGddzezcawEgSE",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"counterbore_hole_bridging": "partiallybridge",

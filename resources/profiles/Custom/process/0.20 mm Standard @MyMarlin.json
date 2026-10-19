@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @MyMarlin",
 	"inherits": "fdm_process_marlin_common",
 	"from": "system",
-	"setting_id": "zZztMlYzzLA0KiTz",
+	"setting_id": "70ghU6fIHr424Cyj",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

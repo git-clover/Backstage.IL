@@ -3,7 +3,7 @@
 	"name": "0.20 mm Strength @Eryone ER20",
 	"inherits": "fdm_process_ER20_0.20",
 	"from": "system",
-	"setting_id": "GFfpctaMRI4Nuqk9",
+	"setting_id": "FiCcU7T2LNlLxkXs",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Eryone ER20 0.4 nozzle"

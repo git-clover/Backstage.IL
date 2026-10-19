@@ -3,7 +3,7 @@
 	"name": "SeeMeCNC ABS",
 	"inherits": "SeeMeCNC filament base",
 	"from": "System",
-	"setting_id": "jvmDQqgLy8vboFHw",
+	"setting_id": "YjJV61dLuQ4jpnkA",
 	"filament_id": "OFR0gODA",
 	"instantiation": "true",
 	"filament_settings_id": [

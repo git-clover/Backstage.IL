@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Creality CR10SE 0.8",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "cjrvnlS7gkkm0pNy",
+	"setting_id": "QIE2jLUlsNeEXpIq",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.16",

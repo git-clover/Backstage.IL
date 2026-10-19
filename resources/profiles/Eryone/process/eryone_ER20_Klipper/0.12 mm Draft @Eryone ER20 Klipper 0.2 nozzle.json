@@ -3,7 +3,7 @@
 	"name": "0.12 mm Draft @Eryone ER20 Klipper 0.2 nozzle",
 	"inherits": "fdm_process_ER20_Klipper_0.12_nozzle_0.2",
 	"from": "system",
-	"setting_id": "G6ezw9j2ZskBlDcf",
+	"setting_id": "qzxnh3uFIRzMcSwC",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Eryone ER20 Klipper 0.2 nozzle"

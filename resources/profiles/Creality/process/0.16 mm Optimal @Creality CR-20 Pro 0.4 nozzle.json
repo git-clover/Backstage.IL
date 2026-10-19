@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Creality CR-20 Pro 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "IFOZoV3ULJge16uI",
+	"setting_id": "VyqAhxVGbLTtuTKa",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA ePLA Hardened Steel @ 0.50 mm",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"setting_id": "6ZcKggEvaIuB5DZq",
+	"setting_id": "t7LiFcgsK3MVONVN",
 	"filament_id": "OFXW3h11",
 	"instantiation": "true",
 	"compatible_printers": [

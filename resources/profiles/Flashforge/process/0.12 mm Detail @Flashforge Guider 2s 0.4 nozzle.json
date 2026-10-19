@@ -3,7 +3,7 @@
 	"name": "0.12 mm Detail @Flashforge Guider 2s 0.4 nozzle",
 	"inherits": "fdm_process_flashforge_common",
 	"from": "system",
-	"setting_id": "1VeWY2d3H1hYEkzL",
+	"setting_id": "FlEKSo9xpo10JnSW",
 	"instantiation": "true",
 	"bridge_flow": "1",
 	"bridge_speed": "80%",

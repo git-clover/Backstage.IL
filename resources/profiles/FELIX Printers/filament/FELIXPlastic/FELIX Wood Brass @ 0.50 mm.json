@@ -3,7 +3,7 @@
 	"name": "FELIX Wood Brass @ 0.50 mm",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"setting_id": "SF4eGuHqUCtfEAGy",
+	"setting_id": "hzdhuZI7BLE1tYPV",
 	"filament_id": "OFKwdz3w",
 	"instantiation": "true",
 	"compatible_printers": [

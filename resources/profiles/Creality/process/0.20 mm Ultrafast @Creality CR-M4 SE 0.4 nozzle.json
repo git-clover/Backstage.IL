@@ -3,7 +3,7 @@
 	"name": "0.20 mm Ultrafast @Creality CR-M4 SE 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "MdU3VLkLFPl7z0JA",
+	"setting_id": "xJRY4HjFmriuuIVH",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "25%",

@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Elegoo CC 0.4 nozzle",
 	"inherits": "fdm_process_elegoo_04020",
 	"from": "system",
-	"setting_id": "1cOVzUJxmCe20N5r",
+	"setting_id": "1WNJidR5Xt88M4ND",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"bottom_shell_thickness": "0.6",

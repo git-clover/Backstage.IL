@@ -3,7 +3,7 @@
 	"name": "0.20 mm High Quality @X-Plus 5",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "azERQAEOdeNEo2z7",
+	"setting_id": "e4X2CFtCv8fm0dnA",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"bridge_flow": "1",

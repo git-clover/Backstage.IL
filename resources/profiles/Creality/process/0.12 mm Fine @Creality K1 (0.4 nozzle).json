@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Creality K1 (0.4 nozzle)",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "g6zPlZ8mKj4YHC9l",
+	"setting_id": "9OR95lX03ljUo9lY",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"max_travel_detour_distance": "0",

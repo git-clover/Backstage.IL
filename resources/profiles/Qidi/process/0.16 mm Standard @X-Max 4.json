@@ -3,7 +3,7 @@
 	"name": "0.16 mm Standard @X-Max 4",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "JpZoDa8jLalawI6Q",
+	"setting_id": "Y0e0x3nMQroIhhJb",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "4",
 	"bottom_shell_layers": "4",

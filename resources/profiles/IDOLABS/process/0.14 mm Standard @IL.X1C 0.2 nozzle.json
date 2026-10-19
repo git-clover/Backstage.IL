@@ -3,7 +3,7 @@
 	"name": "0.14 mm Standard @IL.X1C 0.2 nozzle",
 	"inherits": "fdm_process_arena_0.14_nozzle_0.2",
 	"from": "system",
-	"setting_id": "MVY5JxFxbdSUWTOW",
+	"setting_id": "YnCrS8SD3nXW4rV8",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.2 nozzle"

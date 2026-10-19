@@ -3,7 +3,7 @@
 	"name": "FELIX FLEX Hardened Steel @ 0.35 mm",
 	"inherits": "fdm_filament_flex",
 	"from": "system",
-	"setting_id": "DJRiMo6Aq0BvhFC9",
+	"setting_id": "HBFaV1VQzoMLG5Rt",
 	"filament_id": "OFSOY4F3",
 	"instantiation": "true",
 	"compatible_printers": [

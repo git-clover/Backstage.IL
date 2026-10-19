@@ -4,7 +4,7 @@
 	"inherits": "Generic ASA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic ASA",
 	"from": "system",
-	"setting_id": "V2Z1rxHqIqIuwP5O",
+	"setting_id": "FfYs1IMfUEZ76T02",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

@@ -3,7 +3,7 @@
 	"name": "0.08 mm Fine @FLSun QQSPro",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "Ypz6DmDfVK0nHsGe",
+	"setting_id": "iHzR8yb80IVXbOFZ",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.08",

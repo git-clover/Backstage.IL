@@ -3,7 +3,7 @@
 	"name": "0.08 mm Optimal @Elegoo N3Pro 0.2 nozzle",
 	"inherits": "0.10 mm Standard @Elegoo N3Pro 0.2 nozzle",
 	"from": "system",
-	"setting_id": "4d4rm5pkuVEpvKUA",
+	"setting_id": "bO8x0Fw4dk5GY2Rn",
 	"instantiation": "true",
 	"layer_height": "0.08"
 }

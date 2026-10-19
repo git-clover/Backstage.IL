@@ -3,7 +3,7 @@
 	"name": "IDOLABS PC @IL.X1C 0.2 nozzle",
 	"inherits": "IDOLABS PC @base",
 	"from": "system",
-	"setting_id": "avNV1IruWQnbpEm8",
+	"setting_id": "oTTKvKD6wrwfFEKx",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"1"

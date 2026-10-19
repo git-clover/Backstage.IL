@@ -3,7 +3,7 @@
 	"name": "High performance VS30 - 0.25 mm",
 	"inherits": "fdm_process_volumic_common",
 	"from": "system",
-	"setting_id": "Co6sQp00KLUD50WN",
+	"setting_id": "oip8ZxYs8Ibi38i8",
 	"instantiation": "true",
 	"layer_height": "0.25",
 	"initial_layer_print_height": "0.25",

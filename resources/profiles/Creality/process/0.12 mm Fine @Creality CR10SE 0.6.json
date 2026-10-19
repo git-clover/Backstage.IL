@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Creality CR10SE 0.6",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "tSCiJ9olpnfuFwwH",
+	"setting_id": "mZXz29f7E7I4ruuZ",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.12",

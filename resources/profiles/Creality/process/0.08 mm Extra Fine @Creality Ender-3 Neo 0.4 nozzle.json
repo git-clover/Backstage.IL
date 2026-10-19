@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @Creality Ender-3 Neo 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "T1a6nt3lzdMsvyDH",
+	"setting_id": "Mx0FuPp3Mz4lHwBa",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

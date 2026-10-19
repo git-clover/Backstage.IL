@@ -3,7 +3,7 @@
 	"name": "0.24 mm Standard @Anycubic Kobra 3 V2 0.6 nozzle",
 	"inherits": "0.30 mm Standard @Anycubic Kobra 3 V2 0.6 nozzle",
 	"from": "system",
-	"setting_id": "DhqKrBJZh4W22xna",
+	"setting_id": "gowM3y3UjLqbB9GS",
 	"instantiation": "true",
 	"filename_format": "{timestamp}-{if plate_name==\"\" then input_filename_base+\"_plate\" else plate_name endif}{\"(\"+plate_number+\")\"}_{filament_type[initial_tool]}_{layer_height}_{print_time}.gcode",
 	"print_settings_id": "0.24 mm Standard @Anycubic Kobra 3 V2 0.6 nozzle",

@@ -3,7 +3,7 @@
 	"name": "Normal performance VS30 - 0.15 mm",
 	"inherits": "fdm_process_volumic_common",
 	"from": "system",
-	"setting_id": "RN31YrQ3X4sAgRji",
+	"setting_id": "qHxOnB2DbFJAwkrd",
 	"instantiation": "true",
 	"layer_height": "0.15",
 	"initial_layer_print_height": "0.15",

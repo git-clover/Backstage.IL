@@ -3,7 +3,7 @@
 	"name": "0.30 mm Standard 0.6 nozzle @Meltingplot CHX 350",
 	"inherits": "fdm_process_meltingplot_chx_small_nozzle",
 	"from": "system",
-	"setting_id": "nHe2gihvCHahJ4Pw",
+	"setting_id": "psTSCqcVF6ESK5Au",
 	"instantiation": "true",
 	"layer_height": "0.30",
 	"compatible_printers": [

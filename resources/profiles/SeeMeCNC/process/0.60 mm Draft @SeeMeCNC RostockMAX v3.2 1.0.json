@@ -3,7 +3,7 @@
 	"name": "0.60 mm Draft @SeeMeCNC RostockMAX v3.2 1.0",
 	"inherits": "SeeMeCNC process base 1.0 mm",
 	"from": "System",
-	"setting_id": "vd8ObV6haBsCRyZM",
+	"setting_id": "i1rGIoFBQIhrhEg3",
 	"instantiation": "true",
 	"print_settings_id": "0.60 mm Draft @SeeMeCNC RostockMAX v3.2 1.0",
 	"compatible_printers": [

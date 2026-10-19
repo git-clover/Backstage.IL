@@ -3,7 +3,7 @@
 	"name": "High performance DUAL - 0.10 mm",
 	"inherits": "fdm_process_volumic_common",
 	"from": "system",
-	"setting_id": "AQxzb91WKNnqyR4m",
+	"setting_id": "u0wt6PM0RwtZxS6o",
 	"instantiation": "true",
 	"layer_height": "0.1",
 	"initial_layer_print_height": "0.1",

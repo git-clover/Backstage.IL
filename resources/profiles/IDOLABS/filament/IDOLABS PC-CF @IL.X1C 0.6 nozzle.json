@@ -3,7 +3,7 @@
 	"name": "IDOLABS PC @IL.X1C 0.6 nozzle",
 	"inherits": "IDOLABS PC @base",
 	"from": "system",
-	"setting_id": "X8makbgEAsBKm4lw",
+	"setting_id": "bYV6INrfwMP6Nh3S",
 	"instantiation": "true",
 	"nozzle_temperature": [
 		"260"

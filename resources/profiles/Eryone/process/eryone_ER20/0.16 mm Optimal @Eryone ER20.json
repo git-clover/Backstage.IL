@@ -4,7 +4,7 @@
 	],
 	"from": "system",
 	"inherits": "fdm_process_ER20_0.16",
-	"setting_id": "T7CLbKpkDxOdqBWk",
+	"setting_id": "hQaHiNcDboNQilhO",
 	"instantiation": "true",
 	"name": "0.16 mm Optimal @Eryone ER20",
 	"sparse_infill_pattern": "gyroid",

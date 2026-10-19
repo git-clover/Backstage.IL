@@ -3,7 +3,7 @@
 	"name": "FELIX FLEX  Brass @ 0.35 mm",
 	"inherits": "fdm_filament_flex",
 	"from": "system",
-	"setting_id": "UXX0sEaoqZvdXwi6",
+	"setting_id": "kJXjbBDeriZ9q7jS",
 	"filament_id": "OFF6vK3j",
 	"instantiation": "true",
 	"compatible_printers": [

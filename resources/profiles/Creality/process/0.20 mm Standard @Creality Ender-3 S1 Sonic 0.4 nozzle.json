@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Creality Ender-3 S1 Sonic 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "xG8sAeaOvK04Eu9T",
+	"setting_id": "Ym2Opxu0mdy6wHeU",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "25%",

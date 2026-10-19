@@ -3,7 +3,7 @@
 	"name": "Food Very Thin Stainless Steel  Syringe  @2.00 mm",
 	"inherits": "fdm_filament_food",
 	"from": "system",
-	"setting_id": "il7EvApOb39ReoAt",
+	"setting_id": "gNSc1M4R9UAVBxd6",
 	"filament_id": "OFJDz9xO",
 	"instantiation": "true",
 	"compatible_printers": [

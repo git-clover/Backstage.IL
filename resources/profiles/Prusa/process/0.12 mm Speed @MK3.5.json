@@ -3,7 +3,7 @@
 	"name": "0.12 mm Speed @MK3.5",
 	"inherits": "process_detail_MK3.5",
 	"from": "system",
-	"setting_id": "KcBmdvGGGHx6CxK6",
+	"setting_id": "n0gN9wn3Ka1G9ALE",
 	"instantiation": "true",
 	"line_width": "0.27",
 	"inner_wall_line_width": "0.27",

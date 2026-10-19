@@ -3,7 +3,7 @@
   "name": "FELIX Pro L 3.0 0.25 mm nozzle",
   "inherits": "fdm_felix_pro_l_3_common",
   "from": "system",
-  "setting_id": "ilTMl98Auu1CuPL6",
+  "setting_id": "JI0PhY9wvcY5ZLqS",
   "instantiation": "true",
   "printer_model": "FELIX Pro L 3.0",
   "printer_variant": "0.25",

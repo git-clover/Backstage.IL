@@ -3,7 +3,7 @@
 	"name": "0.12 mm Balanced Quality @X-Plus 5 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "O20HfmdyTRg2xayA",
+	"setting_id": "bQYT33I3qwtx8uZ3",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "5",
 	"bottom_shell_layers": "5",

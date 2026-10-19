@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @Creality Ender3V3SE 0.6",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "6F8olUrpFz6cSOfX",
+	"setting_id": "JVVjVesJG5Qu1Tqf",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.24",

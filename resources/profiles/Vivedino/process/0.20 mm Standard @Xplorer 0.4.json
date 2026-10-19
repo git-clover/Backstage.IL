@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Xplorer 0.4",
 	"inherits": "fdm_process_xplorer_common",
 	"from": "system",
-	"setting_id": "CiJAkwpq5pR6MfYD",
+	"setting_id": "xbwHS77WSLtaJRDO",
 	"instantiation": "true",
 	"initial_layer_print_height": "0.3",
 	"inner_wall_speed": "190",

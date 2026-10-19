@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Flashforge G3U 0.4 Nozzle",
 	"inherits": "0.20 mm Standard @Flashforge G3U 0.4 Nozzle",
 	"from": "system",
-	"setting_id": "XRInSfrQCATmZl6F",
+	"setting_id": "yJsZvtyp3WCp75Q6",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Flashforge Guider 3 Ultra 0.4 Nozzle"

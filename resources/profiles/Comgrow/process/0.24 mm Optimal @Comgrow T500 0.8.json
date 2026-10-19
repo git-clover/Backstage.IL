@@ -3,7 +3,7 @@
 	"name": "0.24 mm Optimal @Comgrow T500 0.8",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
-	"setting_id": "gHH8QHbtpAr7iSj3",
+	"setting_id": "F6npivmGDIAyEyJb",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.24",

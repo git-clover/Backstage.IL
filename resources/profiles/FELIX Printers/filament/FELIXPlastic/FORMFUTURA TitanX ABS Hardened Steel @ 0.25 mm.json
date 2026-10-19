@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA TitanX ABS Hardened Steel @ 0.25 mm",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
-	"setting_id": "zA2tNH54ew9HLvng",
+	"setting_id": "Y9IV9UHz9TN7sVs4",
 	"filament_id": "OFUG6JEQ",
 	"instantiation": "true",
 	"compatible_printers": [

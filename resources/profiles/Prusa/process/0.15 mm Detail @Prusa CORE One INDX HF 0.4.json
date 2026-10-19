@@ -3,7 +3,7 @@
 	"name": "0.15 mm Detail @Prusa CORE One INDX HF 0.4",
 	"inherits": "fdm_process_coreone_indx",
 	"from": "system",
-	"setting_id": "iU2xgmcbWbMgKORV",
+	"setting_id": "KGtvFxHdheklXnOq",
 	"instantiation": "true",
 	"bridge_speed": [
 		"45"

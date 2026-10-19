@@ -3,7 +3,7 @@
 	"name": "0.32 mm SPEED @CORE One HF 0.5",
 	"inherits": "0.32 mm SPEED @MK4S HF0.5",
 	"from": "system",
-	"setting_id": "gDKE0bH5qPyNewzu",
+	"setting_id": "9KTVzbMNnC0V0PWJ",
 	"instantiation": "true",
 	"overhang_3_4_speed": "50",
 	"support_interface_speed": "50%",

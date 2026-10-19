@@ -3,7 +3,7 @@
   "name": "FELIX Food Double 1.00 mm nozzle",
   "inherits": "fdm_felix_food_double_common",
   "from": "system",
-  "setting_id": "0vKf2d2tP2vE8PDm",
+  "setting_id": "g5RASlAhAoUSuIXu",
   "instantiation": "true",
   "printer_model": "FELIX Food Double",
   "printer_variant": "1.0",

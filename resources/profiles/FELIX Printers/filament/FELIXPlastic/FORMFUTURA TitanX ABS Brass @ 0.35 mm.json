@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA TitanX ABS Brass @ 0.35 mm",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
-	"setting_id": "FVZ4hAQ2BnhoucfC",
+	"setting_id": "met8TUuYiT29gqfb",
 	"filament_id": "OF8FP7CM",
 	"instantiation": "true",
 	"compatible_printers": [

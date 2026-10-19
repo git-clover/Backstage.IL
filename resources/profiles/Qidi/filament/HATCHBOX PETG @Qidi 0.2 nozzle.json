@@ -3,7 +3,7 @@
 	"name": "HATCHBOX PETG @0.2 nozzle",
 	"inherits": "HATCHBOX PETG @Qidi",
 	"from": "system",
-	"setting_id": "Cw3CaLrsjVfJKoWI",
+	"setting_id": "VHsJPTFeLlA4ZGSC",
 	"filament_id": "OFIWMSGX",
 	"instantiation": "true",
 	"reduce_fan_stop_start_freq": [

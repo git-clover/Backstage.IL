@@ -3,7 +3,7 @@
 	"name": "0.30 mm Draft @MM hj SK",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "aXpG4y73oeV4p4by",
+	"setting_id": "cAXPn2j24fzJCE7X",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"max_travel_detour_distance": "0",

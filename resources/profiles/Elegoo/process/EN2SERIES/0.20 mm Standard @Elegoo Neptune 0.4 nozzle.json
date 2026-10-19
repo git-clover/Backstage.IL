@@ -4,7 +4,7 @@
 	"renamed_from": "0.20 mm Standard @Elegoo Neptune;0.20 mm Standard @Elegoo Neptune2;0.20 mm Standard @Elegoo Neptune2D;0.20 mm Standard @Elegoo Neptune2S;0.20 mm Standard @Elegoo NeptuneX",
 	"inherits": "fdm_process_elegoo_04020",
 	"from": "system",
-	"setting_id": "ivuelLxit3DxpCQf",
+	"setting_id": "ty1RoAs2aioWkNnJ",
 	"instantiation": "true",
 	"filename_format": "{nozzle_diameter[0]}{input_filename_base}_{filament_name}_{layer_height}_{print_time}.gcode",
 	"default_acceleration": "1000",

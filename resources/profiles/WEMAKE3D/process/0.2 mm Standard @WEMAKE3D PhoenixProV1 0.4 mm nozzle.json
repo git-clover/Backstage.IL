@@ -2,7 +2,7 @@
 	"type": "process",
 	"name": "0.2 mm Standard @WEMAKE3D PhoenixProV1 0.4 mm nozzle",
 	"inherits": "fdm_process_phoenixProV1_common",
-	"setting_id": "DmlEv80SRpa9pYNt",
+	"setting_id": "2kvEw161b9BJFy2f",
 	"instantiation": "true",
 	"layer_height": "0.2",
 	"initial_layer_print_height": "0.32",

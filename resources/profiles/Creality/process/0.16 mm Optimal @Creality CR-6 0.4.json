@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Creality CR-6 0.4",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "hB2b43wb6zlKNwM7",
+	"setting_id": "jHxf48sBtsdC5peO",
 	"instantiation": "true",
 	"brim_object_gap": "0",
 	"brim_width": "0",

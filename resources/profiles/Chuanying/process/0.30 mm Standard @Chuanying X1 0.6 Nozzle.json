@@ -3,7 +3,7 @@
 	"name": "0.30 mm Standard @Chuanying X1 0.6 Nozzle",
 	"inherits": "fdm_process_chuanying_0.30",
 	"from": "system",
-	"setting_id": "pk0f171o2vhWhbzg",
+	"setting_id": "kRn4s53hniS0uHjM",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Chuanying X1 0.6 Nozzle"

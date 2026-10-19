@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @InfiMech EX",
 	"inherits": "fdm_process_common_EX",
 	"from": "system",
-	"setting_id": "nfn0CFpmsl3yuBXG",
+	"setting_id": "1iRvg1z9uFw6zVUs",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"overhang_1_4_speed": "50",

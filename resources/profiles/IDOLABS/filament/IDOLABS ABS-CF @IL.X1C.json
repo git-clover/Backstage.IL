@@ -3,7 +3,7 @@
 	"name": "IDOLABS ABS @IL.X1C",
 	"inherits": "IDOLABS ABS @base",
 	"from": "system",
-	"setting_id": "25fcPM16xLDCkzr9",
+	"setting_id": "D863ASBxQVCj6FY3",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"22"

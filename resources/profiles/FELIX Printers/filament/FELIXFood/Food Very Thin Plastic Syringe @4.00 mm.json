@@ -3,7 +3,7 @@
 	"name": "Food Very Thin Plastic Syringe @4.00 mm",
 	"inherits": "fdm_filament_food",
 	"from": "system",
-	"setting_id": "q3tLnporrSrlZl6S",
+	"setting_id": "9szD4qPKGTurnsbg",
 	"filament_id": "OF1XcHqz",
 	"instantiation": "true",
 	"compatible_printers": [

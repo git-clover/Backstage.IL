@@ -3,7 +3,7 @@
 	"name": "IL.X1C 0.4 nozzle",
 	"inherits": "fdm_bbl_3dp_001_common",
 	"from": "system",
-	"setting_id": "EXhiG8uJ1EHskisx",
+	"setting_id": "tpRIeExtRaRVJdLF",
 	"instantiation": "true",
 	"printer_model": "IL.X1C",
 	"default_filament_profile": [

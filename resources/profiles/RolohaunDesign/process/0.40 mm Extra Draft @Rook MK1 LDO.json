@@ -3,7 +3,7 @@
 	"name": "0.40 mm Standard @Rook MK1 LDO",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
-	"setting_id": "Nc1bu4Ak29leE5lW",
+	"setting_id": "1dC1tFQ2cErFmQcT",
 	"instantiation": "true",
 	"support_top_z_distance": "0.24",
 	"support_bottom_z_distance": "0.24",

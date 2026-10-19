@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @CoLiDo DIY 4.0",
 	"inherits": "fdm_process_colidodiy40_common",
 	"from": "system",
-	"setting_id": "urM1QpWcCz1rlo4Q",
+	"setting_id": "Dp66cSUgi50g2h1a",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"layer_height": "0.24",

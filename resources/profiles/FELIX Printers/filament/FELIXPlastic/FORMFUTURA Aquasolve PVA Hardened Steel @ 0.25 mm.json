@@ -3,7 +3,7 @@
 	"name": "FORMFUTURA Aquasolve PVA Hardened Steel @ 0.25 mm",
 	"inherits": "fdm_filament_pva",
 	"from": "system",
-	"setting_id": "Dd4dc8lFUOaswJKt",
+	"setting_id": "9iEp39AzedCgBnlZ",
 	"filament_id": "OFQ3GEWL",
 	"instantiation": "true",
 	"compatible_printers": [

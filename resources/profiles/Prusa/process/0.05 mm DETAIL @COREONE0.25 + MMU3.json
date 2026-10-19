@@ -3,7 +3,7 @@
 	"name": "0.05 mm DETAIL @COREONE0.25 + MMU3",
 	"inherits": "0.05 mm DETAIL @CORE One 0.25",
 	"from": "system",
-	"setting_id": "GZ9p7JXzPU3Widdg",
+	"setting_id": "jvQd32xeZa7Xx4t2",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa CORE One MMU3 0.25 nozzle"

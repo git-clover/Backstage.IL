@@ -3,7 +3,7 @@
 	"name": "0.24 mm Fine @Xplorer 0.8",
 	"inherits": "fdm_process_xplorer_common_0_8",
 	"from": "system",
-	"setting_id": "yv9TMduh7bgD1IjO",
+	"setting_id": "5smVU0ukYzo7InYL",
 	"instantiation": "true",
 	"initial_layer_print_height": "0.3",
 	"inner_wall_speed": "190",

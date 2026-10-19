@@ -3,7 +3,7 @@
 	"name": "Volumic ABS Ultra (Performance)",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
-	"setting_id": "466ggy6ydgaZOrSx",
+	"setting_id": "NZZlAi9IZEVlKzHf",
 	"filament_id": "OFyQwdaM",
 	"instantiation": "true",
 	"filament_flow_ratio": [

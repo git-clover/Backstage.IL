@@ -3,7 +3,7 @@
 	"name": "0.20 mm STRUCTURAL @MK4S 0.3",
 	"inherits": "0.16 mm STRUCTURAL @MK4S 0.3",
 	"from": "system",
-	"setting_id": "mrSU54k7z9Hgo1OH",
+	"setting_id": "cvCyE0cs9Y0Y2Ce8",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"layer_height": "0.2",

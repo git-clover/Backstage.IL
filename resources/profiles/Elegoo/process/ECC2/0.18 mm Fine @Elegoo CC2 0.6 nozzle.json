@@ -3,7 +3,7 @@
 	"name": "0.18 mm Fine @Elegoo CC2 0.6 nozzle",
 	"inherits": "0.30 mm Standard @Elegoo CC2 0.6 nozzle",
 	"from": "system",
-	"setting_id": "zpijb8su3jIgrND9",
+	"setting_id": "SkQ1t5hakJfabsNX",
 	"instantiation": "true",
 	"layer_height": "0.18"
 }

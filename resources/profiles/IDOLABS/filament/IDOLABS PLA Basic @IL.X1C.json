@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Basic @IL.X1C",
 	"inherits": "IDOLABS PLA Basic @base",
 	"from": "system",
-	"setting_id": "dNZmk299IbO0lt5Y",
+	"setting_id": "vRRpcIAL0YSBSk46",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"21"

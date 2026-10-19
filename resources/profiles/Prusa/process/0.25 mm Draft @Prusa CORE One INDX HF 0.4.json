@@ -3,7 +3,7 @@
 	"name": "0.25 mm Draft @Prusa CORE One INDX HF 0.4",
 	"inherits": "fdm_process_coreone_indx",
 	"from": "system",
-	"setting_id": "7qwPN6huygzcl8dp",
+	"setting_id": "TgtABs77RvjL8JJT",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Prusa CORE One INDX 4T HF 0.4 nozzle",

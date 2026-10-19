@@ -3,7 +3,7 @@
 	"name": "0.16 mm Balanced Quality @X-Max 4",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "AhcbXuW6Py1OlLEz",
+	"setting_id": "NrauD4G3fuBCErX5",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "4",
 	"bottom_shell_layers": "4",

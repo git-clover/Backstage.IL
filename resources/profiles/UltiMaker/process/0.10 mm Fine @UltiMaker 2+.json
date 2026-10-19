@@ -3,7 +3,7 @@
   "name": "0.10 mm Fine @UltiMaker 2+",
   "inherits": "0.10 mm Fine @UltiMaker 2",
   "from": "system",
-  "setting_id": "NunkyT8BK1PXysFl",
+  "setting_id": "7Iy1HNdbdLk5uJCk",
   "instantiation": "true",
   "compatible_printers": [
     "UltiMaker 2+ 0.4 nozzle"

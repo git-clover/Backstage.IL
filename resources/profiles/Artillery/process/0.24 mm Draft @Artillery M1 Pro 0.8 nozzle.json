@@ -2,7 +2,7 @@
 	"type": "process",
 	"name": "0.24 mm Draft @Artillery M1 Pro 0.8 nozzle",
 	"from": "system",
-	"setting_id": "I4dmTQMzFSL2kRs4",
+	"setting_id": "pap9yrrubOqFO6Nf",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

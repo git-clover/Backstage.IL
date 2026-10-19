@@ -3,7 +3,7 @@
 	"name": "SeeMeCNC PA-CF",
 	"inherits": "SeeMeCNC filament base",
 	"from": "System",
-	"setting_id": "xaySfHS4rdZcWsqA",
+	"setting_id": "UkxcT71FKqNQWDxF",
 	"filament_id": "OF0b7M1z",
 	"instantiation": "true",
 	"filament_settings_id": [

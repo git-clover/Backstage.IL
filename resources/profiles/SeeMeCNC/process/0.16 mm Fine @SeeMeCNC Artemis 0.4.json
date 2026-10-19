@@ -3,7 +3,7 @@
 	"name": "0.16 mm Fine @SeeMeCNC Artemis 0.4",
 	"inherits": "SeeMeCNC process base 0.4 mm",
 	"from": "System",
-	"setting_id": "lRLSXXlhvBZiym5H",
+	"setting_id": "oS3Eirlce61LpeN2",
 	"instantiation": "true",
 	"print_settings_id": "0.16 mm Fine @SeeMeCNC Artemis 0.4",
 	"compatible_printers": [

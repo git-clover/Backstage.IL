@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Matte @IL.X1C 0.2 nozzle",
 	"inherits": "IDOLABS PLA Matte @base",
 	"from": "system",
-	"setting_id": "O9zpg6YuyCcpMus8",
+	"setting_id": "QQ4Jp8wIukTUa1Rs",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"2"

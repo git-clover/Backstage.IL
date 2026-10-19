@@ -3,7 +3,7 @@
 	"name": "0.18 mm High Detail @Lulzbot Taz 4 or 5",
 	"inherits": "0.25 mm Standard @Lulzbot Taz 4 or 5",
 	"from": "system",
-	"setting_id": "N4f0GCg9YjwFjfZu",
+	"setting_id": "wM4myln5YI5WEBba",
 	"instantiation": "true",
 	"layer_height": "0.18",
 	"compatible_printers": [

@@ -3,7 +3,7 @@
 	"name": "0.40 mm Standard @X-Max 4 0.8 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "qT32mSKhstIeb8R2",
+	"setting_id": "wo4arLmcMpGCRHQn",
 	"instantiation": "true",
 	"bridge_flow": "1",
 	"bridge_speed": [

@@ -3,7 +3,7 @@
 	"name": "QIDI Support For PET/PA @Qidi X-Max 4 0.4 nozzle",
 	"inherits": "QIDI Support For PET/PA@X-Max 4-Series",
 	"from": "system",
-	"setting_id": "cG5iURd9NCebOAh9",
+	"setting_id": "ePgVRCn5k4xS4kTk",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Qidi X-Max 4 0.4 nozzle"

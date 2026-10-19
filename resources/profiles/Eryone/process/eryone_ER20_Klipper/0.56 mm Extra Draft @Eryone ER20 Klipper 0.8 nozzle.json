@@ -3,7 +3,7 @@
 	"name": "0.56 mm Extra Draft @Eryone ER20 Klipper 0.8 nozzle",
 	"inherits": "fdm_process_ER20_Klipper_0.56_nozzle_0.8",
 	"from": "system",
-	"setting_id": "yjLp31EgxsGWg3AY",
+	"setting_id": "v7mLYfjEqMtBKIzC",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Eryone ER20 Klipper 0.8 nozzle"

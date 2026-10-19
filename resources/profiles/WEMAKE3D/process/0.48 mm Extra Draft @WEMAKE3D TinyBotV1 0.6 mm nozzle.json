@@ -3,7 +3,7 @@
 	"name": "0.48 mm Extra Draft @WEMAKE3D TinyBotV1 0.6 mm nozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"from": "system",
-	"setting_id": "QKSZ5T6peyXMfqZE",
+	"setting_id": "RfRNlUosOlplvSM3",
 	"instantiation": "true",
 	"layer_height": "0.48",
 	"initial_layer_print_height": "0.48",

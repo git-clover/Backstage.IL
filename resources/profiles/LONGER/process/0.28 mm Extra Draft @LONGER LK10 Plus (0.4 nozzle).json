@@ -3,7 +3,7 @@
 	"name": "0.28 mm Extra Draft @LONGER LK10 Plus (0.4 nozzle)",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "gxDpJ3et9rfFpdb7",
+	"setting_id": "MwlT6FeBXz5FR9tn",
 	"instantiation": "true",
 	"layer_height": "0.28",
 	"bottom_shell_layers": "3",

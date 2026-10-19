@@ -3,7 +3,7 @@
 	"name": "0.06 mm Standard @Artillery M1 Pro 0.2 nozzle",
 	"inherits": "0.08 mm High Quality @Artillery M1 Pro 0.2 nozzle",
 	"from": "system",
-	"setting_id": "GGVrn86YvCTCKZO0",
+	"setting_id": "2K7yB7MUHPVWMHpr",
 	"instantiation": "true",
 	"default_acceleration": "10000",
 	"initial_layer_speed": "30",

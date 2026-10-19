@@ -3,7 +3,7 @@
 	"name": "0.32 mm Standard @Comgrow T500 0.8",
 	"inherits": "fdm_process_comgrow_common",
 	"from": "system",
-	"setting_id": "1IxP6FaNbkCM6bz8",
+	"setting_id": "8ojheE4wpkSwMXQb",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.32",

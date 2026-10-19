@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Qidi XCFPro",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
-	"setting_id": "HLcracgY90tIkYwN",
+	"setting_id": "8CO952T4bhiEb3te",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.16",

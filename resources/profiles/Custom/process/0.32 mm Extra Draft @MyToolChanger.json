@@ -4,7 +4,7 @@
 	"renamed_from": "0.32 mm Standard @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
-	"setting_id": "7cM9iT4GyGhmfwHu",
+	"setting_id": "xhpAWT79OzMv29rQ",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

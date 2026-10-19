@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Creality CR-10 Smart Pro 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "LJbKpfmvGswSJysf",
+	"setting_id": "Ty0mX5IWLuZQeNcQ",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Marble @IL.X1C",
 	"inherits": "IDOLABS PLA Marble @base",
 	"from": "system",
-	"setting_id": "NLvXFDqqD8fkl2DQ",
+	"setting_id": "MiYoCEPN9mhBsBVk",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

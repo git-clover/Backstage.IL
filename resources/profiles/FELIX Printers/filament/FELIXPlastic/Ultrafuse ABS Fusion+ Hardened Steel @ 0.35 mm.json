@@ -3,7 +3,7 @@
 	"name": "Ultrafuse ABS Fusion+ Hardened Steel @ 0.35 mm",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
-	"setting_id": "TYWYaDx8qjNurPzD",
+	"setting_id": "efxMYn0jmnoDbdFg",
 	"filament_id": "OFDCDwNQ",
 	"instantiation": "true",
 	"compatible_printers": [

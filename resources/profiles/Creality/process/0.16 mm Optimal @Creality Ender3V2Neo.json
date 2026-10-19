@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Creality Ender3V2Neo",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "aoBTpFYHhbpg1kuj",
+	"setting_id": "dr2nrdqQ9YdJdiVo",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"max_travel_detour_distance": "0",

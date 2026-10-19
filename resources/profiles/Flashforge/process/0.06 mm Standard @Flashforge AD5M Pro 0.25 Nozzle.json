@@ -3,7 +3,7 @@
 	"name": "0.06 mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
 	"inherits": "0.12 mm Standard @Flashforge AD5M Pro 0.25 Nozzle",
 	"from": "system",
-	"setting_id": "TbERLagoTx6NV7tK",
+	"setting_id": "SDXyGI9JFd08q7mT",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Flashforge Adventurer 5M Pro 0.25 Nozzle"

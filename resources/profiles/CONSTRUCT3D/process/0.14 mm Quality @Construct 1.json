@@ -3,7 +3,7 @@
 	"name": "0.14 mm Quality @Construct 1",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "kDE169rxMES8i1MA",
+	"setting_id": "d7Wl1WzJzI1p2mU6",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"bridge_speed": "60",

@@ -3,7 +3,7 @@
 	"name": "0.18 mm Standard @UltiMaker S5",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "UAhqUBDi1CzMB2Vg",
+	"setting_id": "hWA1nQP9OmwhCSXZ",
 	"instantiation": "true",
 	"ooze_prevention": "1",
 	"preheat_time": "20",

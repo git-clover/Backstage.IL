@@ -3,7 +3,7 @@
 	"name": "Flashforge PLA",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"setting_id": "qnKvMRUvJ7tRJ4dX",
+	"setting_id": "B4f3yXBn2D6dphsS",
 	"filament_id": "OFDKgoqx",
 	"instantiation": "true",
 	"filament_vendor": [

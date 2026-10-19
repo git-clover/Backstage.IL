@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Flashforge Guider 2s 0.4 nozzle",
 	"inherits": "fdm_process_flashforge_common",
 	"from": "system",
-	"setting_id": "VPKIYFY99e6eS9Nd",
+	"setting_id": "nPGknOK8cBuuZNjm",
 	"instantiation": "true",
 	"bridge_flow": "1",
 	"bridge_speed": "25",

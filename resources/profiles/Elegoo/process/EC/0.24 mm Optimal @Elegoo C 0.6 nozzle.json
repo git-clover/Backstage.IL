@@ -3,7 +3,7 @@
 	"name": "0.24 mm Optimal @Elegoo C 0.6 nozzle",
 	"inherits": "0.30 mm Standard @Elegoo C 0.6 nozzle",
 	"from": "system",
-	"setting_id": "2H4qamD9XBTs46M7",
+	"setting_id": "UYlCBzHXzRynUS7M",
 	"instantiation": "true",
 	"layer_height": "0.24"
 }

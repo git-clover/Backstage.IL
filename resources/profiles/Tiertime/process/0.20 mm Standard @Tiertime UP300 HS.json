@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Tiertime UP300 HS",
 	"inherits": "fdm_process_tiertime_HS_common",
 	"from": "system",
-	"setting_id": "4a1IpFohcCPCxI1I",
+	"setting_id": "PjFuEJoUpfwg6NNo",
 	"instantiation": "true",
 	"elefant_foot_compensation": "0.15",
 	"top_shell_thickness": "1.0",

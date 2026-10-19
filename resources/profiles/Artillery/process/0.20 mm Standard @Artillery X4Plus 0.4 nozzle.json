@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Artillery X4Plus 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "mkmduwO5DkaKKmHC",
+	"setting_id": "DAC0YEfRaYVYul0a",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

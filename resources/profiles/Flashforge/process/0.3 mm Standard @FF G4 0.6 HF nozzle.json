@@ -3,7 +3,7 @@
 	"name": "0.3 mm Standard @FF G4 0.6 HF nozzle",
 	"inherits": "0.30 mm Standard @Flashforge G3U 0.6 Nozzle",
 	"from": "system",
-	"setting_id": "ewrFp0DwW5yrzgqd",
+	"setting_id": "6gh1ubQrcIwkbw4D",
 	"instantiation": "true",
 	"bottom_solid_infill_flow_ratio": "0.96",
 	"bridge_acceleration": "3000",

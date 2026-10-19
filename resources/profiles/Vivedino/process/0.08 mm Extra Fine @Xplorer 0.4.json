@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @Xplorer 0.4",
 	"inherits": "fdm_process_xplorer_common",
 	"from": "system",
-	"setting_id": "OvD7mwbTHKOUsgiT",
+	"setting_id": "sSl6XegWXiQSj3Wp",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"initial_layer_print_height": "0.3",

@@ -4,7 +4,7 @@
 	"renamed_from": "0.50 mm Draft 0.8 nozzle @Blocks",
 	"inherits": "fdm_process_common 0.8 nozzle",
 	"from": "system",
-	"setting_id": "oAhgUZdADR7kP87e",
+	"setting_id": "jjjg3Y2emA5gHVdK",
 	"instantiation": "true",
 	"bottom_shell_layers": "3",
 	"top_shell_layers": "4",

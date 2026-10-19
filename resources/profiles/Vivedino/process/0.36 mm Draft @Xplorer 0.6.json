@@ -3,7 +3,7 @@
 	"name": "0.36 mm Draft @Xplorer 0.6",
 	"inherits": "fdm_process_xplorer_common_0_6",
 	"from": "system",
-	"setting_id": "uv3jUBdJRkJ4dWVd",
+	"setting_id": "NAv7Ma81EvzS7gRk",
 	"instantiation": "true",
 	"initial_layer_print_height": "0.32",
 	"inner_wall_speed": "190",

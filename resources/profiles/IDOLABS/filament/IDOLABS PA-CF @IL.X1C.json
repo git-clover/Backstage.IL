@@ -3,7 +3,7 @@
 	"name": "IDOLABS PA-CF @IL.X1C",
 	"inherits": "IDOLABS PA-CF @base",
 	"from": "system",
-	"setting_id": "HNAQ7QxxEkFzVR8R",
+	"setting_id": "FLhBh5rm8uy10huV",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"8"

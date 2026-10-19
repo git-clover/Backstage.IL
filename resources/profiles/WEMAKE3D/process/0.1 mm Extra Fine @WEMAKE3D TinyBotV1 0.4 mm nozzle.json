@@ -3,7 +3,7 @@
 	"name": "0.1 mm Extra Fine @WEMAKE3D TinyBotV1 0.4 mm nozzle",
 	"inherits": "fdm_process_tinyBotV1_common",
 	"from": "system",
-	"setting_id": "EYwYFmo7JV2eyNwY",
+	"setting_id": "uPaLJ9F9uX0QxU9A",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"counterbore_hole_bridging": "partiallybridge",

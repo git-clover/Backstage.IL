@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
-	"setting_id": "MHpNmkShui6fTwVu",
+	"setting_id": "B2t6VM1iokk4Ha2Y",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

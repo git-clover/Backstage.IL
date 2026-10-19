@@ -3,7 +3,7 @@
     "name": "0.40 mm quality @Pragostroj 0.8",
     "inherits": "process_common_kinarb",
     "from": "system",
-    "setting_id": "XLoULnlavbviCcUZ",
+    "setting_id": "GVdkiy26ZmqhP4gW",
     "instantiation": "true",
     "bottom_shell_thickness": "0.8",
     "bridge_acceleration": "1000",

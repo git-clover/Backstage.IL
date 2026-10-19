@@ -3,7 +3,7 @@
   "name": "FELIX Food Single 4.00 mm nozzle",
   "inherits": "fdm_felix_food_common",
   "from": "system",
-  "setting_id": "j9EV60X4togu55Sa",
+  "setting_id": "HbMSNbXFODJigTSe",
   "instantiation": "true",
   "printer_model": "FELIX Food Single",
   "printer_variant": "4.0",

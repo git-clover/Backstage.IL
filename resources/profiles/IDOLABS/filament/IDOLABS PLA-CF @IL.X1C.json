@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA-CF @IL.X1C",
 	"inherits": "IDOLABS PLA-CF @base",
 	"from": "system",
-	"setting_id": "imDeceOg0WvrRwKo",
+	"setting_id": "nTGDkeNBI2XVd7nA",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"15"

@@ -3,7 +3,7 @@
 	"name": "IDOLABS PETG-CF @IL.X1C",
 	"inherits": "IDOLABS PETG-CF @base",
 	"from": "system",
-	"setting_id": "hfQeDi2sXB62WWoA",
+	"setting_id": "evwahvFEhSj1pIBW",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

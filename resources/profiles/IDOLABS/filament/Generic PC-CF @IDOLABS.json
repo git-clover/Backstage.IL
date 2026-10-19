@@ -4,7 +4,7 @@
 	"inherits": "Generic PC @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PC",
 	"from": "system",
-	"setting_id": "He4O4h8oEFsySDIJ",
+	"setting_id": "Ab0rx509bajTOz4r",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

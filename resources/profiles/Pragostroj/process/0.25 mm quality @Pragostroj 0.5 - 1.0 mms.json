@@ -3,7 +3,7 @@
     "name": "0.25 mm quality @Pragostroj 0.5 - 1.0 mms",
     "inherits": "0.25 mm quality @Pragostroj 0.5",
     "from": "system",
-    "setting_id": "nyKu5sqYzWCtSZhD",
+    "setting_id": "KVqO1gklb1KTuN9y",
     "instantiation": "true",
     "brim_type": "outer_only",
     "default_acceleration": "2000",

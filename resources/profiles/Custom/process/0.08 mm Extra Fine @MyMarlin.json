@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @MyMarlin",
 	"inherits": "fdm_process_marlin_common",
 	"from": "system",
-	"setting_id": "F0QIJviBIYDJjJe2",
+	"setting_id": "GkbrdrLj24uJsntg",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

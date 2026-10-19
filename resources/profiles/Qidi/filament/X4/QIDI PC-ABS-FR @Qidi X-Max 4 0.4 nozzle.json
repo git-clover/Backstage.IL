@@ -3,7 +3,7 @@
 	"name": "QIDI PC/ABS-FR @Qidi X-Max 4 0.4 nozzle",
 	"inherits": "QIDI PC/ABS-FR@X-Max 4-Series",
 	"from": "system",
-	"setting_id": "EpS2lRAk9UncJ0Qh",
+	"setting_id": "uD500RuT1yZVusb8",
 	"instantiation": "true",
 	"pressure_advance": [
 		"0.042"

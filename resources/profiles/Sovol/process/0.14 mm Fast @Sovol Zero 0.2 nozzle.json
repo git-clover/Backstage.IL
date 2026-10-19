@@ -3,7 +3,7 @@
 	"name": "0.14 mm Fast @Sovol Zero 0.2 nozzle",
 	"inherits": "fdm_process_zero",
 	"from": "system",
-	"setting_id": "I9yoyCcGGTRrDoKu",
+	"setting_id": "abP7XpQ056nyAIgQ",
 	"instantiation": "true",
 	"layer_height": "0.14",
 	"bottom_shell_layers": "3",

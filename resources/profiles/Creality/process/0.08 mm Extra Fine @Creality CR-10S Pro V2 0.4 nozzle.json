@@ -3,7 +3,7 @@
 	"name": "0.08 mm Extra Fine @Creality CR-10S Pro V2 0.4 nozzle",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "Mig8EoCpkEcf3ziy",
+	"setting_id": "eQxlvXXcBjgbBkkW",
 	"instantiation": "true",
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "50%",

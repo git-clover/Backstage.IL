@@ -3,7 +3,7 @@
 	"name": "PolyLite PLA @IL.X1C",
 	"inherits": "PolyLite PLA @base",
 	"from": "system",
-	"setting_id": "5MUcuvGZJvFIbeIf",
+	"setting_id": "LTNIjVRCYdzwrOla",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"15"

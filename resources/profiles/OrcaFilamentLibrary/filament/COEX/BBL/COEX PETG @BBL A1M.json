@@ -3,7 +3,7 @@
 	"name": "COEX PETG @BBL A1M 0.4 nozzle",
 	"inherits": "COEX PETG @BBL X1C",
 	"from": "system",
-	"setting_id": "OVVZwYafB1y5Mo0H",
+	"setting_id": "B7lNUXhqUABBt95t",
 	"instantiation": "true",
 	"filament_flow_ratio": [
 		"0.94"

@@ -3,7 +3,7 @@
 	"name": "0.30 mm Fine @Elegoo N4Pro 1.0 nozzle",
 	"inherits": "0.50 mm Standard @Elegoo N4Pro 1.0 nozzle",
 	"from": "system",
-	"setting_id": "Fs44Eg0QxZTwNB4i",
+	"setting_id": "uKTlKpeQdodRs8s2",
 	"instantiation": "true",
 	"layer_height": "0.3"
 }

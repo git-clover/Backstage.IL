@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine 0.4 nozzle @Blocks_RD50_V2",
 	"inherits": "fdm_process_blocks_common",
 	"from": "system",
-	"setting_id": "8g0CmJDZhpbtbSLL",
+	"setting_id": "txIGRw6rM9OKBONf",
 	"instantiation": "true",
 	"layer_height": "0.12",
 	"bottom_shell_layers": "6",

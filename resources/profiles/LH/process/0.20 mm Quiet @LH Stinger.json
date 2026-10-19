@@ -3,7 +3,7 @@
 	"name": "0.20 mm Quiet @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
-	"setting_id": "pqEMaWAFWdh3iNwa",
+	"setting_id": "LIPNfKotkOzAZ2Pu",
 	"instantiation": "true",
 	"compatible_printers": [
 		"LH Stinger 0.4 nozzle",

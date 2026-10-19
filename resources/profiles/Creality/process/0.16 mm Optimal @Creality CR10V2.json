@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Creality CR10V2",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "QussxQZJlCnscRO8",
+	"setting_id": "UUeSylyyUFhVX46h",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.16",

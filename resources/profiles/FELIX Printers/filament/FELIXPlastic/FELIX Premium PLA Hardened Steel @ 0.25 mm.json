@@ -3,7 +3,7 @@
 	"name": "FELIX Premium PLA Hardened Steel @ 0.25 mm",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"setting_id": "RtjX1Noxcsnv5cHv",
+	"setting_id": "OmNwLqQ886G2pujQ",
 	"filament_id": "OFi00jWL",
 	"instantiation": "true",
 	"compatible_printers": [

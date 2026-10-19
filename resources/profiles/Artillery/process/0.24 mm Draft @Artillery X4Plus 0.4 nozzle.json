@@ -3,7 +3,7 @@
 	"name": "0.24 mm Draft @Artillery X4Plus 0.4 nozzle",
 	"inherits": "0.20 mm Standard @Artillery X4Plus 0.4 nozzle",
 	"from": "system",
-	"setting_id": "krzkGt2IApYkTbyY",
+	"setting_id": "mzWgKvA7YrvSmNtQ",
 	"instantiation": "true",
 	"initial_layer_print_height": "0.2",
 	"layer_height": "0.24",

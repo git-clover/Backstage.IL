@@ -3,7 +3,7 @@
   "name": "FELIX Tec 4 0.25 mm nozzle",
   "inherits": "fdm_felix_tec_common",
   "from": "system",
-  "setting_id": "ZCl6vJPnZDbehLUM",
+  "setting_id": "j5i15lASO9RkG2F8",
   "instantiation": "true",
   "printer_model": "FELIX Tec 4",
   "printer_variant": "0.25",

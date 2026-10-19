@@ -3,7 +3,7 @@
 	"name": "0.20 mm Strength @Elegoo N3Pro 0.4 nozzle",
 	"inherits": "0.20 mm Standard @Elegoo N3Pro 0.4 nozzle",
 	"from": "system",
-	"setting_id": "8A1LaTaH5mFRXIRT",
+	"setting_id": "kdvfreB2Y8ticWmD",
 	"instantiation": "true",
 	"wall_sequence": "inner-outer-inner wall",
 	"reduce_crossing_wall": "1",

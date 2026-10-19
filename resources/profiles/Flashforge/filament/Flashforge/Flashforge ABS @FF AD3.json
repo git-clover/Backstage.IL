@@ -3,7 +3,7 @@
 	"name": "Flashforge ABS",
 	"inherits": "fdm_filament_abs",
 	"from": "system",
-	"setting_id": "9pxqGyfi52tuVmZ1",
+	"setting_id": "DmKggb6eLdM8J9Pw",
 	"filament_id": "OF5SJ3jz",
 	"instantiation": "true",
 	"filament_vendor": [

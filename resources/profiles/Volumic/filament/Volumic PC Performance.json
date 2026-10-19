@@ -3,7 +3,7 @@
 	"name": "Volumic PC (Performance)",
 	"inherits": "fdm_filament_pc",
 	"from": "system",
-	"setting_id": "ht6Ar3ilCkPT7geN",
+	"setting_id": "dZkhOS2pUtukcyYW",
 	"filament_id": "OFgSbX7E",
 	"instantiation": "true",
 	"filament_flow_ratio": [

@@ -3,7 +3,7 @@
 	"name": "0.20 mm TPU @LH Stinger",
 	"inherits": "fdm_process_lh_common",
 	"from": "system",
-	"setting_id": "QIkswxTrtKlNxglR",
+	"setting_id": "DeM75SAokJPIPi6W",
 	"instantiation": "true",
 	"compatible_printers": [
 		"LH Stinger 0.4 nozzle",

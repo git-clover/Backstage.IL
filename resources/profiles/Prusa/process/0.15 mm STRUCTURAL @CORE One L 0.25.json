@@ -3,7 +3,7 @@
 	"name": "0.15 mm STRUCTURAL @CORE One L 0.25",
 	"inherits": "0.15 mm STRUCTURAL @MK4S 0.25",
 	"from": "system",
-	"setting_id": "TS1qx8bCgt6IQSlH",
+	"setting_id": "PSgOVMcNjdoX7x54",
 	"instantiation": "true",
 	"travel_speed": "500",
 	"travel_acceleration": "4000",

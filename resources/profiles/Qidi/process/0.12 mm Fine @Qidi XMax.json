@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Qidi XMax",
 	"inherits": "fdm_process_qidi_common",
 	"from": "system",
-	"setting_id": "Ls6f3OYdkl6qG2i2",
+	"setting_id": "Cy5BqRxKO3X3y8xy",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.12",

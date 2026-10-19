@@ -3,7 +3,7 @@
 	"name": "Volumic PVA-BVOH (Performance)",
 	"inherits": "fdm_filament_pva",
 	"from": "system",
-	"setting_id": "L9ZTGhwNpVWT6E5j",
+	"setting_id": "G5oflIgIovYsogQ2",
 	"filament_id": "OFRkjhxK",
 	"instantiation": "true",
 	"filament_flow_ratio": [

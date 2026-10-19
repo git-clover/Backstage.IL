@@ -3,7 +3,7 @@
 	"name": "0.35 mm TPU Vase @SeeMeCNC BOSSdelta 500 0510 0.7",
 	"inherits": "SeeMeCNC process base 0.7 mm",
 	"from": "System",
-	"setting_id": "kAkHtpml2l4gxVct",
+	"setting_id": "3ENjEdm84MVoEXql",
 	"instantiation": "true",
 	"print_settings_id": "0.35 mm TPU Vase @SeeMeCNC BOSSdelta 500 0510 0.7",
 	"compatible_printers": [

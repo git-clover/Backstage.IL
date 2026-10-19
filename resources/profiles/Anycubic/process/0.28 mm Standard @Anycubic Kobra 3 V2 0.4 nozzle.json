@@ -3,7 +3,7 @@
 	"name": "0.28 mm Standard @Anycubic Kobra 3 V2 0.4 nozzle",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "Qe8XQonRxfA8Jei1",
+	"setting_id": "QTQuyZsMYNKtCV4O",
 	"instantiation": "true",
 	"print_settings_id": "0.28 mm Standard @Anycubic Kobra 3 V2 0.4 nozzle",
 	"layer_height": "0.28",

@@ -3,7 +3,7 @@
 	"name": "COEX PCTG PRIME @BBL A1M 0.4 nozzle",
 	"inherits": "COEX PCTG PRIME @BBL X1C",
 	"from": "system",
-	"setting_id": "6VkUjoEkwOlOuhXW",
+	"setting_id": "eGA40c5EeJHMayJw",
 	"instantiation": "true",
 	"filament_flow_ratio": [
 		"0.94"

@@ -3,7 +3,7 @@
 	"name": "0.15 mm Standard @M3D Enabler D7500",
 	"inherits": "fdm_process_common",
 	"from": "system",
-	"setting_id": "zphrnDkwB2KgrWyG",
+	"setting_id": "dxxNmJlEUA8H8AlR",
 	"instantiation": "true",
 	"compatible_printers": [
 		"M3D Enabler D7500 0.4 nozzle"

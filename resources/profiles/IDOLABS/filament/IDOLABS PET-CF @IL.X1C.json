@@ -3,7 +3,7 @@
 	"name": "IDOLABS PET-CF @IL.X1C",
 	"inherits": "IDOLABS PET-CF @base",
 	"from": "system",
-	"setting_id": "vvn0qtZmexMRlvSa",
+	"setting_id": "KFK8pebbsw7GEIx8",
 	"instantiation": "true",
 	"slow_down_for_layer_cooling": [
 		"1"

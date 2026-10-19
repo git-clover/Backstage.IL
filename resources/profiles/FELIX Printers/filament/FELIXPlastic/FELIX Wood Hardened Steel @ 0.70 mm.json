@@ -3,7 +3,7 @@
 	"name": "FELIX Wood Hardened Steel @ 0.70 mm",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"setting_id": "LCRYcNn6HN4lviM2",
+	"setting_id": "JY5v3bol1eOmAjiP",
 	"filament_id": "OFsMMDMp",
 	"instantiation": "true",
 	"compatible_printers": [

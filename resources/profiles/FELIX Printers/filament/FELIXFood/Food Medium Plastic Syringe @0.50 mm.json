@@ -3,7 +3,7 @@
 	"name": "Food Medium Plastic Syringe @0.50 mm",
 	"inherits": "fdm_filament_food",
 	"from": "system",
-	"setting_id": "IQnumbi0N4BnvMfO",
+	"setting_id": "3YkVcL1FTCeqiil6",
 	"filament_id": "OFAzgHcF",
 	"instantiation": "true",
 	"compatible_printers": [

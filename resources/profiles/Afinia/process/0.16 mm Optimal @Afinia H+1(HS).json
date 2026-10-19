@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @Afinia H+1(HS)",
 	"inherits": "fdm_process_afinia_HS_common",
 	"from": "system",
-	"setting_id": "Ntf0ZMcETTPz7EY1",
+	"setting_id": "79hjjBY1IV0t5hmW",
 	"instantiation": "true",
 	"layer_height": "0.16",
 	"elefant_foot_compensation": "0.15",

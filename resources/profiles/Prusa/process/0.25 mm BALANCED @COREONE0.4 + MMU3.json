@@ -3,7 +3,7 @@
 	"name": "0.25 mm BALANCED @COREONE0.4 + MMU3",
 	"inherits": "0.25 mm SPEED @CORE One HF 0.4",
 	"from": "system",
-	"setting_id": "cEccdq6KND9xa5HS",
+	"setting_id": "uAbR9Xj1BJHHOwfK",
 	"instantiation": "true",
 	"bottom_shell_thickness": "0",
 	"compatible_printers": [

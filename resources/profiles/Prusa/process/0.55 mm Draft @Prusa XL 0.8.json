@@ -3,7 +3,7 @@
 	"name": "0.55 mm Draft @Prusa XL 0.8",
 	"inherits": "process_common_xl",
 	"from": "system",
-	"setting_id": "M2F7JmD5xGYpqZKq",
+	"setting_id": "mKVpD9Tl0dHsDheY",
 	"instantiation": "true",
 	"inital_layer_height": "0.2",
 	"layer_height": "0.55",

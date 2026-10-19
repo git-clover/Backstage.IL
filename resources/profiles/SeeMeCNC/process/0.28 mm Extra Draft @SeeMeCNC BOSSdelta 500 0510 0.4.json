@@ -3,7 +3,7 @@
 	"name": "0.28 mm Extra Draft @SeeMeCNC BOSSdelta 500 0510 0.4",
 	"inherits": "SeeMeCNC process base 0.4 mm",
 	"from": "System",
-	"setting_id": "sy4g8XWhOIsHvLpn",
+	"setting_id": "M12KiBmLsskMd3rz",
 	"instantiation": "true",
 	"print_settings_id": "0.28 mm Extra Draft @SeeMeCNC BOSSdelta 500 0510 0.4",
 	"compatible_printers": [

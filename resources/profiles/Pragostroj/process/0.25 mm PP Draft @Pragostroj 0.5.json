@@ -3,7 +3,7 @@
     "name": "0.25 mm PP Draft @Pragostroj 0.5",
     "inherits": "process_common_kinarb",
     "from": "system",
-    "setting_id": "uotzhmSKiQosuOpK",
+    "setting_id": "HtxJbdFejTBo4Ds5",
     "instantiation": "true",
     "layer_height": "0.25",
     "initial_layer_print_height": "0.25",

@@ -3,7 +3,7 @@
 	"name": "Very high speed - 0.25 mm",
 	"inherits": "fdm_process_volumic_common",
 	"from": "system",
-	"setting_id": "qy4K1ha3a6cbW0sw",
+	"setting_id": "7cKv2RVHzmWJ6vYK",
 	"instantiation": "true",
 	"layer_height": "0.25",
 	"initial_layer_print_height": "0.25",

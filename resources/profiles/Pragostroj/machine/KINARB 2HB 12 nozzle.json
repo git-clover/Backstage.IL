@@ -3,7 +3,7 @@
     "name": "KINARB 2HB 1.2 nozzle",
     "inherits": "kinarb_2hb_machine_common",
     "from": "system",
-    "setting_id": "vNQtksa68lUXWwha",
+    "setting_id": "PRjNRUoty6QhXdW5",
     "instantiation": "true",
     "printer_model": "KINARB 2HB",
     "extruders_count": "2",

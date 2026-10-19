@@ -3,7 +3,7 @@
   "name": "FELIX Plastic Coarse @ 0.70 mm",
   "inherits": "fdm_process_felix_plastic_common",
   "from": "system",
-  "setting_id": "0moSlAC1rSbmKNRe",
+  "setting_id": "HOZD0maGFpUSHb8n",
   "instantiation": "true",
   "compatible_printers": [
     "FELIX Pro 3 0.70 mm nozzle",

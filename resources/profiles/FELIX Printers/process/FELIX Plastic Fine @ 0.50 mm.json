@@ -3,7 +3,7 @@
   "name": "FELIX Plastic Fine @ 0.50 mm",
   "inherits": "fdm_process_felix_plastic_common",
   "from": "system",
-  "setting_id": "Ppv1UaodCxyBtQnW",
+  "setting_id": "pxC5lnjIECqBlrlG",
   "instantiation": "true",
   "compatible_printers": [
     "FELIX Pro 3 0.50 mm nozzle",

@@ -4,7 +4,7 @@
 	"inherits": "Generic PETG @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PETG @0.2 nozzle;IDOLABS Generic PETG 0.2 nozzle",
 	"from": "system",
-	"setting_id": "ZstQ3h8DGCpRWQJN",
+	"setting_id": "gcn9yUA9HJv85AQj",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"1"

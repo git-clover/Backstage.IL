@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Creality Ender3 0.6",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "Oc6OFEFHUMPYMB63",
+	"setting_id": "2ejGsWxhBuimVBL2",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"layer_height": "0.12",

@@ -4,7 +4,7 @@
 	"inherits": "Generic PC @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PC @0.2 nozzle;IDOLABS Generic PC 0.2 nozzle",
 	"from": "system",
-	"setting_id": "AEKvB4RVBo2zOkdg",
+	"setting_id": "UwRNWTUex9mvvSmb",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"1"

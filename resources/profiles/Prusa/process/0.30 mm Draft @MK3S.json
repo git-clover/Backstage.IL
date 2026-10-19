@@ -3,7 +3,7 @@
 	"name": "0.30 mm Draft @MK3S",
 	"inherits": "process_common_mk3",
 	"from": "system",
-	"setting_id": "ZKZEX0KIkQicEM07",
+	"setting_id": "heJabQHqD9mlWfYY",
 	"instantiation": "true",
 	"print_settings_id": "0.30 mm Draft @MK3S",
 	"bottom_shell_layers": "3",
