@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: orcaslicerua\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-07-17 16:25+0300\n"
 "Last-Translator: Andrij Mizyk <andm1zyk@proton.me>\n"
 "Language-Team: Ukrainian\n"
@@ -5117,11 +5117,11 @@ msgstr "Форма столу"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "Мінімальна температура вище %d℃ рекомендована для %s.\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "Максимальна температура нижче %d℃ рекомендована для %s.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "Мінімальна рекомендована температура не може бути вищою за максимальну рекомендовану температуру.\n"
@@ -5167,8 +5167,8 @@ msgstr "Поточна температура камери вища, ніж бе
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "Мінімальна температура камери (%d℃) вища за цільову температуру камери (%d℃). Мінімальне значення — це поріг, за якого починається друк, поки камера продовжує нагріватися до цільової температури, тому воно не повинно її перевищувати. Значення буде обмежено цільовим."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "Мінімальна температура камери (%d ℃) вища за цільову температуру камери (%d ℃). Мінімальне значення — це поріг, за якого починається друк, поки камера продовжує нагріватися до цільової температури, тому воно не повинно її перевищувати. Значення буде обмежено цільовим."
 
 # AI Translated
 #, c-format, boost-format
@@ -5547,15 +5547,13 @@ msgstr "Таймлапс не підтримується поки сховище
 msgid "To ensure your safety, certain processing tasks (such as laser) can only be resumed on printer."
 msgstr "Задля вашої безпеки певні операції обробки (наприклад, лазерні) можна відновити лише на принтері."
 
-# AI Translated
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Температура камери занадто висока, що може спричинити розмʼякшення філаменту. Зачекайте, доки температура камери не опуститься нижче %d℃. Ви можете відкрити передні дверцята або увімкнути вентилятори для охолодження."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "Температура AMS занадто висока, що може спричинити розмʼякшення філаменту. Зачекайте, доки температура AMS не опуститься нижче %d℃."
+msgstr ""
 
 # AI Translated
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
@@ -6060,30 +6058,12 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Поточне групування результату нарізання не оптимальне."
 
 # AI Translated
-#, boost-format
-
-
-
+# AI Translated
+# AI Translated
+# AI Translated
+# AI Translated
 # AI Translated
 #, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Збільшує витрату філаменту на %1%г і додає %2% зміну порівняно з оптимальним групуванням."
@@ -6135,7 +6115,6 @@ msgstr[0] "Збільшує витрату філаменту на %1%г, але
 msgstr[1] "Збільшує витрату філаменту на %1%г, але економить %2% зміни порівняно з принтером з одним соплом."
 msgstr[2] "Збільшує витрату філаменту на %1%г, але економить %2% змін порівняно з принтером з одним соплом."
 msgstr[3] "Збільшує витрату філаменту на %1%г, але економить %2% зміни порівняно з принтером з одним соплом."
-
 
 msgid "Set to Optimal"
 msgstr "Встановити до оптимального"
@@ -9572,8 +9551,8 @@ msgstr "Нарізка скасована"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Конфлікт температури столу: T%d (%s) встановлює для столу %d℃ — T%d (%s) потребує %d℃. Столом керує основний інструмент; вторинні інструменти друкують за температурою, яку він встановлює."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Конфлікт температури столу: T%d (%s) встановлює для столу %d ℃ — T%d (%s) потребує %d ℃. Столом керує основний інструмент; вторинні інструменти друкують за температурою, яку він встановлює."
 
 # AI Translated
 #, c-format, boost-format
@@ -24282,11 +24261,10 @@ msgstr "Початок, кінець або крок не є дійсним зн
 msgid "The number of printer extruders and the printer selected for calibration does not match."
 msgstr "Кількість екструдерів не підходить для принтера, що було обрано для калібрування."
 
-# AI Translated
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "Діаметр сопла екструдера %s становить 0.2 мм, що не підтримує автоматичне калібрування динаміки потоку."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 # AI Translated
 #. TRN %s is "left" or "right".
@@ -24321,6 +24299,11 @@ msgid ""
 msgstr ""
 "Поточно вибраний тип сопла екструдера %s не відповідає фактичному типу сопла принтера.\n"
 "Натисніть кнопку синхронізації вище та перезапустіть калібрування."
+
+# AI Translated
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "Діаметр сопла екструдера %s становить 0.2 мм, що не підтримує автоматичне калібрування динаміки потоку."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Неможливо калібрувати: можливо, через те, що діапазон встановлених значень калібрування занадто великий, або крок занадто малий"
@@ -25611,15 +25594,13 @@ msgstr "Сушіння — нагрівання"
 msgid "Drying-Dehumidifying"
 msgstr "Сушіння — осушення"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "Максимальна температура сушіння для %s — %d℃."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "Мінімальна температура сушіння для %s — %d℃."
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -32946,12 +32927,21 @@ msgid "Built-in"
 msgstr "Вбудовані"
 
 # AI Translated
+msgid "My textures"
+msgstr "Мої текстури"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Текстур не знайдено."
 
-# AI Translated
-msgid "My textures"
-msgstr "Мої текстури"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -35740,6 +35730,9 @@ msgstr "Скрипт"
 msgid "Slicing Pipeline"
 msgstr "Конвеєр нарізки"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Інтерфейс конфігурації плагіна порожній. Показано типовий редактор."
@@ -35886,6 +35879,24 @@ msgstr "Каталог плагіна містить одночасно вхід
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Каталог плагіна не містить вхідного файлу .py або .whl"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -36839,6 +36850,34 @@ msgid ""
 msgstr ""
 "Уникнення деформації\n"
 "Чи знаєте ви, що при друку матеріалами, схильними до деформації, такими як ABS, відповідне підвищення температури столу може зменшити ймовірність деформації?"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "Мінімальна температура вище %d ℃ рекомендована для %s.\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "Максимальна температура нижче %d ℃ рекомендована для %s.\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Температура камери занадто висока, що може спричинити розмʼякшення філаменту. Зачекайте, доки температура камери не опуститься нижче %d ℃. Ви можете відкрити передні дверцята або увімкнути вентилятори для охолодження."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "Температура AMS занадто висока, що може спричинити розмʼякшення філаменту. Зачекайте, доки температура AMS не опуститься нижче %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "Максимальна температура сушіння для %s — %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "Мінімальна температура сушіння для %s — %d ℃."
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "Будь ласка, виберіть колір філаменту"

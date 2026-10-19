@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-06-19 13:40+0700\n"
 "Last-Translator: Icezaza\n"
 "Language-Team: Thai\n"
@@ -5115,11 +5115,11 @@ msgstr "รูปทรงฐานพิมพ์"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "แนะนำให้ใช้อุณหภูมิต่ำสุดที่สูงกว่า %d℃ สำหรับ %s\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "แนะนำให้ใช้อุณหภูมิสูงสุดต่ำกว่า %d℃ สำหรับ %s\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "อุณหภูมิต่ำสุดที่แนะนำต้องไม่สูงกว่าอุณหภูมิสูงสุดที่แนะนำ\n"
@@ -5164,8 +5164,8 @@ msgstr "อุณหภูมิห้องพิมพ์ปัจจุบั
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "อุณหภูมิห้องพิมพ์ต่ำสุด (%d℃) สูงกว่าอุณหภูมิห้องพิมพ์เป้าหมาย (%d℃) ค่าต่ำสุดคือเกณฑ์ที่การพิมพ์จะเริ่มต้นในขณะที่ห้องพิมพ์ยังคงร้อนขึ้นไปสู่เป้าหมาย จึงไม่ควรเกินค่าเป้าหมาย ระบบจะจำกัดค่าให้เท่ากับเป้าหมาย"
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "อุณหภูมิห้องพิมพ์ต่ำสุด (%d ℃) สูงกว่าอุณหภูมิห้องพิมพ์เป้าหมาย (%d ℃) ค่าต่ำสุดคือเกณฑ์ที่การพิมพ์จะเริ่มต้นในขณะที่ห้องพิมพ์ยังคงร้อนขึ้นไปสู่เป้าหมาย จึงไม่ควรเกินค่าเป้าหมาย ระบบจะจำกัดค่าให้เท่ากับเป้าหมาย"
 
 # AI Translated
 #, c-format, boost-format
@@ -5546,11 +5546,11 @@ msgstr "เพื่อความปลอดภัยของคุณ ง�
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "อุณหภูมิในห้องเพาะเลี้ยงสูงเกินไป ซึ่งอาจทำให้เส้นพลาสติกนิ่มลง โปรดรอจนกว่าอุณหภูมิห้องจะลดลงต่ำกว่า %d℃ คุณสามารถเปิดประตูหน้าหรือเปิดพัดลมให้เย็นลงได้"
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "อุณหภูมิ AMS สูงเกินไป ซึ่งอาจทำให้เส้นพลาสติกอ่อนตัวลง โปรดรอจนกว่าอุณหภูมิ AMS จะลดลงต่ำกว่า %d℃"
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "อุณหภูมิห้องปัจจุบันหรืออุณหภูมิห้องเป้าหมายเกิน 45℃ เพื่อหลีกเลี่ยงการอุดตันของชุดดันเส้น ไม่อนุญาตให้โหลดเส้นพลาสติกที่มีอุณหภูมิต่ำ (PLA/PETG/TPU)"
@@ -6050,63 +6050,39 @@ msgstr "การจัดกลุ่มผลการสไลซ์ปัจ
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "เพิ่มเส้นพลาสติก %1% g และเปลี่ยน %2% ครั้ง เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "เพิ่มเส้นพลาสติก %1% g และลดการเปลี่ยน %2% ครั้ง เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "ประหยัดเส้นพลาสติก %1% g และเพิ่มการเปลี่ยน %2% ครั้ง เมื่อเปรียบเทียบกับการจัดกลุ่มที่เหมาะสมที่สุด"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "ประหยัดเส้นพลาสติก %1% g และลดการเปลี่ยน %2% ครั้ง เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเดียว"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "ประหยัดเส้นพลาสติก %1% g และเพิ่มการเปลี่ยน %2% ครั้ง เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเดียว"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "เพิ่มเส้นพลาสติก %1% g และลดการเปลี่ยน %2% ครั้ง เมื่อเปรียบเทียบกับเครื่องพิมพ์ที่มีหัวฉีดเดียว"
-
 
 msgid "Set to Optimal"
 msgstr "ตั้งค่าให้เหมาะสมที่สุด"
@@ -9458,8 +9434,8 @@ msgstr "ยกเลิกการสไลซ์แล้ว"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "อุณหภูมิฐานพิมพ์ขัดแย้งกัน: T%d (%s) ตั้งฐานพิมพ์ไว้ที่ %d℃ — T%d (%s) ต้องการ %d℃ เครื่องมือหลักเป็นผู้ควบคุมฐานพิมพ์ เครื่องมือรองจะพิมพ์ที่อุณหภูมิใดก็ตามที่เครื่องมือหลักตั้งไว้"
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "อุณหภูมิฐานพิมพ์ขัดแย้งกัน: T%d (%s) ตั้งฐานพิมพ์ไว้ที่ %d ℃ — T%d (%s) ต้องการ %d ℃ เครื่องมือหลักเป็นผู้ควบคุมฐานพิมพ์ เครื่องมือรองจะพิมพ์ที่อุณหภูมิใดก็ตามที่เครื่องมือหลักตั้งไว้"
 
 # AI Translated
 #, c-format, boost-format
@@ -23827,8 +23803,8 @@ msgstr "จำนวนชุดดันเส้นของเครื่อ
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "เส้นผ่านศูนย์กลางหัวฉีดของชุดดันเส้น %s คือ 0.2 มม. ซึ่งไม่รองรับการสอบเทียบ Flow Dynamics อัตโนมัติ"
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -23859,6 +23835,10 @@ msgid ""
 msgstr ""
 "ประเภทหัวฉีดที่เลือกในปัจจุบันของชุดดันเส้น %s ไม่ตรงกับประเภทหัวฉีดของเครื่องพิมพ์จริง\n"
 "โปรดคลิกปุ่มซิงค์ด้านบนแล้วเริ่มการปรับเทียบใหม่"
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "เส้นผ่านศูนย์กลางหัวฉีดของชุดดันเส้น %s คือ 0.2 มม. ซึ่งไม่รองรับการสอบเทียบ Flow Dynamics อัตโนมัติ"
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "ไม่สามารถสอบเทียบ: อาจเป็นเพราะช่วงค่าการสอบเทียบที่ตั้งไว้ใหญ่เกินไป หรือขั้นตอนเล็กเกินไป"
@@ -25162,15 +25142,13 @@ msgstr "อบแห้ง-ให้ความร้อน"
 msgid "Drying-Dehumidifying"
 msgstr "อบแห้ง-ลดความชื้น"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "อุณหภูมิอบแห้งสูงสุดของ %s คือ %d℃"
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "อุณหภูมิอบแห้งต่ำสุดของ %s คือ %d℃"
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -32401,12 +32379,21 @@ msgid "Built-in"
 msgstr "ในตัว"
 
 # AI Translated
+msgid "My textures"
+msgstr "พื้นผิวของฉัน"
+
+# AI Translated
 msgid "No textures found."
 msgstr "ไม่พบพื้นผิว"
 
-# AI Translated
-msgid "My textures"
-msgstr "พื้นผิวของฉัน"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -35101,6 +35088,9 @@ msgstr "สคริปต์"
 msgid "Slicing Pipeline"
 msgstr "ไปป์ไลน์การสไลซ์"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "UI การกำหนดค่าของปลั๊กอินว่างเปล่า กำลังแสดงตัวแก้ไขเริ่มต้น"
@@ -35247,6 +35237,24 @@ msgstr "ไดเรกทอรีปลั๊กอินมีทั้งไ
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "ไดเรกทอรีปลั๊กอินไม่มีไฟล์ entry .py หรือ .whl"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -36196,6 +36204,32 @@ msgid ""
 msgstr ""
 "หลีกเลี่ยงการบิดเบี้ยว\n"
 "คุณรู้หรือไม่ว่าเมื่อพิมพ์วัสดุที่มีแนวโน้มที่จะเกิดการบิดเบี้ยว เช่น ABS การเพิ่มอุณหภูมิฐานพิมพ์อย่างเหมาะสมสามารถลดความน่าจะเป็นของการบิดเบี้ยวได้"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "แนะนำให้ใช้อุณหภูมิต่ำสุดที่สูงกว่า %d ℃ สำหรับ %s\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "แนะนำให้ใช้อุณหภูมิสูงสุดต่ำกว่า %d ℃ สำหรับ %s\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "อุณหภูมิในห้องเพาะเลี้ยงสูงเกินไป ซึ่งอาจทำให้เส้นพลาสติกนิ่มลง โปรดรอจนกว่าอุณหภูมิห้องจะลดลงต่ำกว่า %d ℃ คุณสามารถเปิดประตูหน้าหรือเปิดพัดลมให้เย็นลงได้"
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "อุณหภูมิ AMS สูงเกินไป ซึ่งอาจทำให้เส้นพลาสติกอ่อนตัวลง โปรดรอจนกว่าอุณหภูมิ AMS จะลดลงต่ำกว่า %d ℃"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "อุณหภูมิอบแห้งสูงสุดของ %s คือ %d ℃"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "อุณหภูมิอบแห้งต่ำสุดของ %s คือ %d ℃"
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "กรุณาเลือกสีเส้นพลาสติก"

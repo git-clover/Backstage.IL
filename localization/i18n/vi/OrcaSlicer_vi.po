@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2025-10-02 17:43+0700\n"
 "Last-Translator: \n"
 "Language-Team: hainguyen.ts13@gmail.com\n"
@@ -5360,15 +5360,13 @@ msgstr "Chọn file STL để nhập model bàn in từ:"
 msgid "Bed Shape"
 msgstr "Hình dạng bàn in"
 
-# AI Translated
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "Nên đặt nhiệt độ tối thiểu trên %d℃ cho %s.\n"
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "Nên đặt nhiệt độ tối đa dưới %d℃ cho %s.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "Nhiệt độ tối thiểu khuyến nghị không thể cao hơn nhiệt độ tối đa khuyến nghị.\n"
@@ -5413,8 +5411,8 @@ msgstr "Nhiệt độ buồng hiện tại cao hơn nhiệt độ an toàn của
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "Nhiệt độ buồng tối thiểu (%d℃) cao hơn nhiệt độ buồng mục tiêu (%d℃). Giá trị tối thiểu là ngưỡng để bắt đầu in trong khi buồng vẫn tiếp tục gia nhiệt tới mục tiêu, nên nó không được vượt quá giá trị mục tiêu. Nó sẽ được giới hạn về mức mục tiêu."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "Nhiệt độ buồng tối thiểu (%d ℃) cao hơn nhiệt độ buồng mục tiêu (%d ℃). Giá trị tối thiểu là ngưỡng để bắt đầu in trong khi buồng vẫn tiếp tục gia nhiệt tới mục tiêu, nên nó không được vượt quá giá trị mục tiêu. Nó sẽ được giới hạn về mức mục tiêu."
 
 # AI Translated
 #, c-format, boost-format
@@ -5833,15 +5831,13 @@ msgstr "Không hỗ trợ timelapse khi bộ nhớ ở chế độ chỉ đọc.
 msgid "To ensure your safety, certain processing tasks (such as laser) can only be resumed on printer."
 msgstr "Để đảm bảo an toàn cho bạn, một số tác vụ xử lý (như laser) chỉ có thể được tiếp tục trên máy in."
 
-# AI Translated
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Nhiệt độ buồng quá cao, có thể làm mềm filament. Vui lòng đợi cho đến khi nhiệt độ buồng giảm xuống dưới %d℃. Bạn có thể mở cửa trước hoặc bật quạt để làm mát."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "Nhiệt độ AMS quá cao, có thể làm mềm filament. Vui lòng đợi cho đến khi nhiệt độ AMS giảm xuống dưới %d℃."
+msgstr ""
 
 # AI Translated
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
@@ -6367,30 +6363,12 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Cách nhóm hiện tại của kết quả slice chưa tối ưu."
 
 # AI Translated
-#, boost-format
-
-
-
+# AI Translated
+# AI Translated
+# AI Translated
+# AI Translated
 # AI Translated
 #, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Tăng %1% g filament và %2% lần đổi so với cách nhóm tối ưu."
@@ -6424,7 +6402,6 @@ msgstr[0] "Tiết kiệm %1% g filament và tăng %2% lần đổi so với máy
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Tăng %1% g filament và giảm %2% lần đổi so với máy in một đầu phun."
-
 
 # AI Translated
 msgid "Set to Optimal"
@@ -9937,8 +9914,8 @@ msgstr "Đã hủy slice"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Xung đột nhiệt độ bàn in: T%d (%s) đặt bàn in ở %d℃ — T%d (%s) yêu cầu %d℃. Công cụ chính điều khiển bàn in; các công cụ phụ in ở nhiệt độ mà nó đặt, dù là bao nhiêu."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Xung đột nhiệt độ bàn in: T%d (%s) đặt bàn in ở %d ℃ — T%d (%s) yêu cầu %d ℃. Công cụ chính điều khiển bàn in; các công cụ phụ in ở nhiệt độ mà nó đặt, dù là bao nhiêu."
 
 # AI Translated
 #, c-format, boost-format
@@ -24672,11 +24649,10 @@ msgstr "Giá trị bắt đầu, kết thúc hoặc bước không hợp lệ."
 msgid "The number of printer extruders and the printer selected for calibration does not match."
 msgstr "Số lượng extruder của máy in và máy in được chọn để hiệu chỉnh không khớp nhau."
 
-# AI Translated
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "Đường kính đầu phun của extruder %s là 0.2 mm nên không hỗ trợ hiệu chỉnh Flow Dynamics tự động."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 # AI Translated
 #. TRN %s is "left" or "right".
@@ -24711,6 +24687,11 @@ msgid ""
 msgstr ""
 "Loại đầu phun đang chọn của extruder %s không khớp với loại đầu phun thực tế của máy in.\n"
 "Vui lòng nhấn nút Đồng bộ ở trên và khởi động lại quá trình hiệu chỉnh."
+
+# AI Translated
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "Đường kính đầu phun của extruder %s là 0.2 mm nên không hỗ trợ hiệu chỉnh Flow Dynamics tự động."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Không thể hiệu chỉnh: có thể do phạm vi giá trị hiệu chỉnh được đặt quá lớn, hoặc bước quá nhỏ"
@@ -26155,15 +26136,13 @@ msgstr "Sấy - Gia nhiệt"
 msgid "Drying-Dehumidifying"
 msgstr "Sấy - Hút ẩm"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "Nhiệt độ sấy tối đa của %s là %d℃."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "Nhiệt độ sấy tối thiểu của %s là %d℃."
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -33400,12 +33379,21 @@ msgid "Built-in"
 msgstr "Tích hợp sẵn"
 
 # AI Translated
+msgid "My textures"
+msgstr "Kết cấu của tôi"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Không tìm thấy kết cấu nào."
 
-# AI Translated
-msgid "My textures"
-msgstr "Kết cấu của tôi"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -36099,6 +36087,9 @@ msgstr "Script"
 msgid "Slicing Pipeline"
 msgstr "Quy trình slice"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Giao diện cấu hình của plugin trống. Đang hiển thị trình chỉnh sửa mặc định."
@@ -36245,6 +36236,24 @@ msgstr "Thư mục plugin chứa cả file đầu vào .py và .whl"
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Thư mục plugin không chứa file đầu vào .py hoặc .whl"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -37192,6 +37201,36 @@ msgid ""
 msgstr ""
 "Tránh cong vênh\n"
 "Bạn có biết rằng khi in vật liệu dễ cong vênh như ABS, tăng nhiệt độ bàn nóng một cách thích hợp có thể giảm xác suất cong vênh không?"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "Nên đặt nhiệt độ tối thiểu trên %d ℃ cho %s.\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "Nên đặt nhiệt độ tối đa dưới %d ℃ cho %s.\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Nhiệt độ buồng quá cao, có thể làm mềm filament. Vui lòng đợi cho đến khi nhiệt độ buồng giảm xuống dưới %d ℃. Bạn có thể mở cửa trước hoặc bật quạt để làm mát."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "Nhiệt độ AMS quá cao, có thể làm mềm filament. Vui lòng đợi cho đến khi nhiệt độ AMS giảm xuống dưới %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "Nhiệt độ sấy tối đa của %s là %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "Nhiệt độ sấy tối thiểu của %s là %d ℃."
 
 # AI Translated
 #~ msgid "Please choose the filament color"

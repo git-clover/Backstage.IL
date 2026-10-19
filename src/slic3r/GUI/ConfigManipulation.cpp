@@ -272,7 +272,7 @@ void ConfigManipulation::check_chamber_minimal_temperature(DynamicPrintConfig* c
         const int chamber_min_temp    = config->option<ConfigOptionInts>("chamber_minimal_temperature")->get_at(0);
         const int chamber_target_temp = config->option<ConfigOptionInts>("chamber_temperature")->get_at(0);
         if (chamber_min_temp > chamber_target_temp) {
-            wxString msg_text = wxString::Format(_L("The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). "
+            wxString msg_text = wxString::Format(_L("The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). "
                                                     "The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, "
                                                     "so it should not exceed it. It will be clamped to the target."),
                                                  chamber_min_temp, chamber_target_temp);

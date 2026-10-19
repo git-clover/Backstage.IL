@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Guislain Cyril, Thomas Lété\n"
@@ -5024,11 +5024,11 @@ msgstr "Forme du plateau"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "Une température minimale supérieure à %d℃ est recommandée pour %s.\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "Une température maximale inférieure à %d℃ est recommandée pour %s.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "La température minimale recommandée ne peut être supérieure à la température maximale recommandée.\n"
@@ -5072,8 +5072,8 @@ msgid "Current chamber temperature is higher than the material's safe temperatur
 msgstr "La température actuelle du caisson est supérieure à la température de sécurité du matériau, ce qui peut entraîner un ramollissement et un bouchage du filament. La température de sécurité maximale pour le matériau est %d"
 
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "La température minimale du caisson (%d℃) est supérieure à la température cible du caisson (%d℃). La valeur minimale est le seuil à partir duquel l’impression démarre tandis que le caisson continue de chauffer vers la cible ; elle ne doit donc pas la dépasser. Elle sera limitée à la cible."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "La température minimale du caisson (%d ℃) est supérieure à la température cible du caisson (%d ℃). La valeur minimale est le seuil à partir duquel l’impression démarre tandis que le caisson continue de chauffer vers la cible ; elle ne doit donc pas la dépasser. Elle sera limitée à la cible."
 
 # AI Translated
 #, c-format, boost-format
@@ -5443,11 +5443,11 @@ msgstr "Pour garantir votre sécurité, certaines tâches de traitement (comme l
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "La température du caisson est trop élevée, ce qui peut ramollir le filament. Veuillez attendre que la température du caisson descende en dessous de %d℃. Vous pouvez ouvrir la porte avant ou activer les ventilateurs pour refroidir."
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "La température de l'AMS est trop élevée, ce qui peut ramollir le filament. Veuillez attendre que la température de l'AMS descende en dessous de %d℃."
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "La température actuelle ou cible du caisson dépasse 45℃. Afin d’éviter le bouchage de l’extrudeur, le chargement de filament basse température (PLA/PETG/TPU) n’est pas autorisé."
@@ -5947,69 +5947,45 @@ msgstr "Le regroupement actuel du résultat de tranchage n'est pas optimal."
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Augmentation de %1% g de filament et de %2% changement par rapport au regroupement optimal."
 msgstr[1] "Augmentation de %1% g de filament et de %2% changements par rapport au regroupement optimal."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "Augmentation de %1% g de filament et économie de %2% changement par rapport au regroupement optimal."
 msgstr[1] "Augmentation de %1% g de filament et économie de %2% changements par rapport au regroupement optimal."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "Économie de %1% g de filament et augmentation de %2% changement par rapport au regroupement optimal."
 msgstr[1] "Économie de %1% g de filament et augmentation de %2% changements par rapport au regroupement optimal."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "Économie de %1% g de filament et de %2% changement par rapport à une imprimante à une seule buse."
 msgstr[1] "Économie de %1% g de filament et de %2% changements par rapport à une imprimante à une seule buse."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "Économie de %1% g de filament et augmentation de %2% changement par rapport à une imprimante à une seule buse."
 msgstr[1] "Économie de %1% g de filament et augmentation de %2% changements par rapport à une imprimante à une seule buse."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Augmentation de %1% g de filament et économie de %2% changement par rapport à une imprimante à une seule buse."
 msgstr[1] "Augmentation de %1% g de filament et économie de %2% changements par rapport à une imprimante à une seule buse."
-
 
 msgid "Set to Optimal"
 msgstr "Définir comme optimal"
@@ -9323,8 +9299,8 @@ msgstr "Découpe annulée"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Conflit de température du plateau : T%d (%s) règle le plateau à %d℃ — T%d (%s) nécessite %d℃. L’outil principal contrôle le plateau ; les outils secondaires impriment à la température qu’il définit."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Conflit de température du plateau : T%d (%s) règle le plateau à %d ℃ — T%d (%s) nécessite %d ℃. L’outil principal contrôle le plateau ; les outils secondaires impriment à la température qu’il définit."
 
 # AI Translated
 #, c-format, boost-format
@@ -23380,8 +23356,8 @@ msgstr "Le nombre d'extrudeurs de l'imprimante et l'imprimante sélectionnée po
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "Le diamètre de buse de l'extrudeur %s est de 0,2 mm, ce qui ne prend pas en charge la calibration automatique de dynamique de débit."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -23412,6 +23388,10 @@ msgid ""
 msgstr ""
 "Le type de buse actuellement sélectionné de l'extrudeur %s ne correspond pas au type de buse réel de l'imprimante.\n"
 "Veuillez cliquer sur le bouton Synchroniser ci-dessus et redémarrer la calibration."
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "Le diamètre de buse de l'extrudeur %s est de 0,2 mm, ce qui ne prend pas en charge la calibration automatique de dynamique de débit."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Impossible de calibrer : il est possible que la plage de valeurs de calibrage définie est trop grande ou que l’intervalle est trop petit"
@@ -24674,15 +24654,13 @@ msgstr "Séchage - Chauffage"
 msgid "Drying-Dehumidifying"
 msgstr "Séchage - Déshumidification"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "La température de séchage maximale de %s est de %d℃."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "La température de séchage minimale de %s est de %d℃."
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -31624,12 +31602,21 @@ msgid "Built-in"
 msgstr "Prédéfinies"
 
 # AI Translated
+msgid "My textures"
+msgstr "Mes textures"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Aucune texture trouvée."
 
-# AI Translated
-msgid "My textures"
-msgstr "Mes textures"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -34332,6 +34319,9 @@ msgstr "Script"
 msgid "Slicing Pipeline"
 msgstr "Pipeline de découpage"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "L’interface de configuration du plugin était vide. Affichage de l’éditeur par défaut."
@@ -34478,6 +34468,24 @@ msgstr "Le répertoire du plugin contient à la fois des fichiers d’entrée .p
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Le répertoire du plugin ne contient aucun fichier d’entrée .py ou .whl"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -35424,6 +35432,32 @@ msgid ""
 msgstr ""
 "Éviter la déformation\n"
 "Saviez-vous que lors de l’impression de matériaux susceptibles de se déformer, tels que l’ABS, une augmentation appropriée de la température du plateau chauffant peut réduire la probabilité de déformation?"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "Une température minimale supérieure à %d ℃ est recommandée pour %s.\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "Une température maximale inférieure à %d ℃ est recommandée pour %s.\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "La température du caisson est trop élevée, ce qui peut ramollir le filament. Veuillez attendre que la température du caisson descende en dessous de %d ℃. Vous pouvez ouvrir la porte avant ou activer les ventilateurs pour refroidir."
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "La température de l'AMS est trop élevée, ce qui peut ramollir le filament. Veuillez attendre que la température de l'AMS descende en dessous de %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "La température de séchage maximale de %s est de %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "La température de séchage minimale de %s est de %d ℃."
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "Veuillez choisir la couleur du filament"

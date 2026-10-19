@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Slic3rPE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-06-11 12:37-0300\n"
 "Last-Translator: Handle <mail@bysb.net>\n"
 "Language-Team: \n"
@@ -219,7 +219,6 @@ msgstr "%s 在使用 0.4 mm 高流量喷嘴时存在堵头风险，谨慎使用�
 #, c-format, boost-format
 msgid "%s filaments are hard and brittle and could break in AMS, and there is also a risk of nozzle clogging when using 0.4 mm high-flow nozzles. Use with caution."
 msgstr "%s 耗材丝质地较硬且较脆，在 AMS 中使用时可能发生断裂，使用 0.4 mm 高流量喷嘴时还存在堵头风险，谨慎使用。"
-
 
 #, c-format, boost-format
 msgid "%s has a risk of nozzle clogging when using 0.4, 0.6, 0.8 mm high-flow nozzles. Use with caution."
@@ -5168,11 +5167,11 @@ msgstr "热床形状"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "建议最低温度高于 %d℃（适用于 %s）。\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "建议最高温度低于 %d℃（适用于 %s）。\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "推荐最低温度不能大于推荐最高温度。\n"
@@ -5220,8 +5219,8 @@ msgstr "当前腔体温度高于材料的安全温度，这可能导致材料软
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "最低腔体温度(%d℃)高于目标腔体温度(%d℃)。最低值是开始打印的阈值，此时腔体会持续朝目标温度加热，因此它不应超过目标值。该值将被限制到目标值。"
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "最低腔体温度(%d ℃)高于目标腔体温度(%d ℃)。最低值是开始打印的阈值，此时腔体会持续朝目标温度加热，因此它不应超过目标值。该值将被限制到目标值。"
 
 # AI Translated
 #, c-format, boost-format
@@ -5619,14 +5618,13 @@ msgstr "当存储为只读时，不支持延时摄影。"
 msgid "To ensure your safety, certain processing tasks (such as laser) can only be resumed on printer."
 msgstr "为了确保您的安全，某些处理任务（例如激光）只能在打印机上恢复。"
 
-# AI Translated
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "腔体温度过高，可能会导致耗材丝软化。请等待腔体温度降至%d℃以下。您可以打开前门或开启风扇降温。"
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "AMS 温度过高，可能会导致耗材丝软化。请等待 AMS 温度降至 %d℃ 以下。"
+msgstr ""
 
 # AI Translated
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
@@ -6160,63 +6158,39 @@ msgstr "当前切片结果的分组不是最佳的。"
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "与最佳分组相比，增加 %1% g 耗材丝和 %2% 次换料。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "与最佳分组相比，增加 %1% g 耗材丝，节省 %2% 次换料。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "与最佳分组相比，节省 %1% g 耗材丝，增加 %2% 次换料。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "与具有一个喷嘴的打印机相比，节省 %1% g 耗材丝和 %2% 次换料。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "与具有一个喷嘴的打印机相比，节省 %1% g 耗材丝，增加 %2% 次换料。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "与具有一个喷嘴的打印机相比，增加 %1% g 耗材丝，节省 %2% 次换料。"
-
 
 msgid "Set to Optimal"
 msgstr "设置为最佳"
@@ -9676,8 +9650,8 @@ msgstr "切片已取消"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "热床温度冲突：T%d（%s）将热床设为 %d℃，而 T%d（%s）需要 %d℃。热床温度由主工具头决定，副工具头只能沿用该温度。"
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "热床温度冲突：T%d（%s）将热床设为 %d ℃，而 T%d（%s）需要 %d ℃。热床温度由主工具头决定，副工具头只能沿用该温度。"
 
 # AI Translated
 #, c-format, boost-format
@@ -16962,29 +16936,20 @@ msgid ""
 "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-
 "冷却后耗材会收缩的百分比(如果测量的长度是94mm而不是1.0 mm，则为是收缩率为94%)\n"
 "补偿将按比例缩放xy轴该补偿仅考虑墙壁所使用的耗材\n"
-"请确保物体之间有足够的间距，因为补偿是在边界检查之后进行"
-
-"输入耗材丝冷却后的收缩百分比（如果测得 94mm 而不是 100mm，则为 94%）。零件将在 XY 方向上缩放以进行补偿。对于多材料打印，请确保所有使用的耗材丝的收缩率一致。\n"
+"请确保物体之间有足够的间距，因为补偿是在边界检查之后进行输入耗材丝冷却后的收缩百分比（如果测得 94mm 而不是 100mm，则为 94%）。零件将在 XY 方向上缩放以进行补偿。对于多材料打印，请确保所有使用的耗材丝的收缩率一致。\n"
 "请确保对象之间留有足够的间距，因为此补偿在检查之后进行。"
-
 
 msgid "Shrinkage (Z)"
 msgstr "收缩率（Z）"
 
 # AI Translated
 #, no-c-format, no-boost-format
-
 msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr ""
 "冷却后耗材会收缩的百分比(如果测量的长度是94mm而不是1.0 mm，则为是收缩率为94%)\n"
 "补偿将按比例缩放Z轴"
-
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in Z to compensate."
-msgstr "输入耗材丝冷却后的收缩百分比（如果测得 94mm 而不是 100mm，则为 94%）。零件将在 Z 方向上缩放以进行补偿。"
-
 
 msgid "Adhesiveness Category"
 msgstr "粘性分类"
@@ -18233,11 +18198,7 @@ msgstr ""
 "\n"
 "合并填充的层数是通过将此值除以层高并向下取整得出的。\n"
 "\n"
-
-"可以使用绝对 mm 值（例如 0.4 mm 喷嘴使用 0.32 mm）或百分比值（例如 80%）。此值不得大于喷嘴直径。"
-
-"可以使用绝对 mm 值（例如 0.4mm 喷嘴使用 0.32mm）或 % 值（例如 80%）。此值不得大于喷嘴直径。"
-
+"可以使用绝对 mm 值（例如 0.4 mm 喷嘴使用 0.32 mm）或百分比值（例如 80%）。此值不得大于喷嘴直径。可以使用绝对 mm 值（例如 0.4mm 喷嘴使用 0.32mm）或 % 值（例如 80%）。此值不得大于喷嘴直径。"
 
 msgid "Enable clumping detection"
 msgstr "启用结块检测"
@@ -20084,14 +20045,8 @@ msgstr "闭孔"
 msgid "Z offset"
 msgstr "Z偏移"
 
-
 msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3 mm far from the print bed, set this to -0.3 (or fix your endstop)."
 msgstr "此值将从输出 G-Code 中的所有 Z 坐标中添加(或减去)。它用于补偿损坏的 Z 端限位器置：例如，如果限位器零实际离开喷嘴 0.3 mm 远离打印板(打印床)，将其设置为 -0.3（或调整限位器）。"
-
-# AI Translated
-msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
-msgstr "此值将加到（或减去）输出 G-Code 中的所有 Z 坐标上。它用于补偿不准确的 Z 限位开关位置：例如，如果限位开关归零时喷嘴实际距离热床 0.3mm，则将此值设为 -0.3（或调整限位开关）。"
-
 
 msgid "Enable support"
 msgstr "开启支撑"
@@ -24596,16 +24551,10 @@ msgstr "起始、结束或者步长输入值无效。"
 msgid "The number of printer extruders and the printer selected for calibration does not match."
 msgstr "挤出机数量与所选择进行校准的打印机不匹配。"
 
-# AI Translated
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s 挤出机的喷嘴直径为 0.2 mm，不支持自动流体动力学校准。"
-
-msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s 挤出机的喷嘴直径为 0.2 mm，不支持自动动态流量校准。"
-
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -24637,6 +24586,11 @@ msgid ""
 msgstr ""
 "%s 挤出机当前选择的喷嘴类型与实际打印机喷嘴类型不匹配。\n"
 "请单击上面的同步按钮并重新启动校准。"
+
+# AI Translated
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "%s 挤出机的喷嘴直径为 0.2 mm，不支持自动流体动力学校准。"
 
 # AI Translated
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
@@ -25971,15 +25925,13 @@ msgstr "干燥-加热"
 msgid "Drying-Dehumidifying"
 msgstr "干燥-除湿"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "%s 的最高干燥温度为 %d℃。"
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "%s 的最低干燥温度为 %d℃。"
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -33650,12 +33602,21 @@ msgid "Built-in"
 msgstr "内置"
 
 # AI Translated
+msgid "My textures"
+msgstr "我的纹理"
+
+# AI Translated
 msgid "No textures found."
 msgstr "未找到纹理。"
 
-# AI Translated
-msgid "My textures"
-msgstr "我的纹理"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -36337,6 +36298,9 @@ msgstr "脚本"
 msgid "Slicing Pipeline"
 msgstr "切片流水线"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "插件的配置界面为空。正在显示默认编辑器。"
@@ -36484,6 +36448,24 @@ msgstr "插件目录同时包含 .py 和 .whl 入口文件"
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "插件目录不包含 .py 或 .whl 入口文件"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -37451,6 +37433,43 @@ msgid ""
 msgstr ""
 "避免翘曲\n"
 "您知道吗？打印ABS这类易翘曲材料时，适当提高热床温度可以降低翘曲的概率。"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "建议最低温度高于 %d ℃（适用于 %s）。\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "建议最高温度低于 %d ℃（适用于 %s）。\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "腔体温度过高，可能会导致耗材丝软化。请等待腔体温度降至%d ℃以下。您可以打开前门或开启风扇降温。"
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "AMS 温度过高，可能会导致耗材丝软化。请等待 AMS 温度降至 %d ℃ 以下。"
+
+#~ msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in Z to compensate."
+#~ msgstr "输入耗材丝冷却后的收缩百分比（如果测得 94mm 而不是 100mm，则为 94%）。零件将在 Z 方向上缩放以进行补偿。"
+
+# AI Translated
+#~ msgid "This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
+#~ msgstr "此值将加到（或减去）输出 G-Code 中的所有 Z 坐标上。它用于补偿不准确的 Z 限位开关位置：例如，如果限位开关归零时喷嘴实际距离热床 0.3mm，则将此值设为 -0.3（或调整限位开关）。"
+
+#~ msgid "The nozzle diameter of %s extruder is 0.2mm which does not support automatic Flow Dynamics calibration."
+#~ msgstr "%s 挤出机的喷嘴直径为 0.2 mm，不支持自动动态流量校准。"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "%s 的最高干燥温度为 %d ℃。"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "%s 的最低干燥温度为 %d ℃。"
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "请选择耗材丝颜色"

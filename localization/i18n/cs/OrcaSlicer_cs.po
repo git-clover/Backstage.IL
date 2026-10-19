@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jakub Hencl\n"
 "Language-Team: \n"
@@ -5182,11 +5182,11 @@ msgstr "Tvar podložky"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "Doporučená minimální teplota %d ℃   je nižší než %s.\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "Doporučená maximální teplota %d ℃   je nižší než %s.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "Doporučená minimální teplota nemůže být vyšší než doporučená maximální teplota.\n"
@@ -5231,8 +5231,8 @@ msgstr "Aktuální teplota komory je vyšší než bezpečná teplota materiálu
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "Minimální teplota komory (%d℃) je vyšší než cílová teplota komory (%d℃). Minimální hodnota je práh, při kterém tisk začíná, zatímco se komora dále ohřívá k cílové teplotě, takže by ji neměla překročit. Bude omezena na cílovou hodnotu."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "Minimální teplota komory (%d ℃) je vyšší než cílová teplota komory (%d ℃). Minimální hodnota je práh, při kterém tisk začíná, zatímco se komora dále ohřívá k cílové teplotě, takže by ji neměla překročit. Bude omezena na cílovou hodnotu."
 
 # AI Translated
 #, c-format, boost-format
@@ -5604,11 +5604,11 @@ msgstr "Kvůli zajištění bezpečnosti lze některé úlohy (například laser
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Teplota komory je příliš vysoká, což může způsobit změknutí filamentu. Počkejte prosím, dokud teplota komory neklesne pod %d ℃. Pro ochlazení můžete otevřít přední dvířka nebo zapnout ventilátory."
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "Teplota AMS je příliš vysoká, což může způsobit změknutí filamentu. Počkejte prosím, dokud teplota AMS neklesne pod %d ℃."
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "Aktuální nebo cílová teplota komory překračuje 45 ℃. Aby se zabránilo ucpání extruderu, není dovoleno zavádět nízkoteplotní filamenty (PLA/PETG/TPU)."
@@ -6111,75 +6111,51 @@ msgstr "Aktuální seskupení výsledku slicování není optimální."
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a přibude %2% změna."
 msgstr[1] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a přibudou %2% změny."
 msgstr[2] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a přibude %2% změn."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a ušetří se %2% změna."
 msgstr[1] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a ušetří se %2% změny."
 msgstr[2] "Oproti optimálnímu seskupení se zvýší spotřeba filamentu o %1% g a ušetří se %2% změn."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "Oproti optimálnímu seskupení se ušetří %1% g filamentu, ale přibude %2% změna."
 msgstr[1] "Oproti optimálnímu seskupení se ušetří %1% g filamentu, ale přibudou %2% změny."
 msgstr[2] "Oproti optimálnímu seskupení se ušetří %1% g filamentu, ale přibude %2% změn."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu a %2% změna."
 msgstr[1] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu a %2% změny."
 msgstr[2] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu a %2% změn."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu, ale přibude %2% změna."
 msgstr[1] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu, ale přibudou %2% změny."
 msgstr[2] "Ve srovnání s tiskárnou s jednou tryskou se ušetří %1% g filamentu, ale přibude %2% změn."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Ve srovnání s tiskárnou s jednou tryskou se zvýší spotřeba filamentu o %1% g a ušetří se %2% změna."
 msgstr[1] "Ve srovnání s tiskárnou s jednou tryskou se zvýší spotřeba filamentu o %1% g a ušetří se %2% změny."
 msgstr[2] "Ve srovnání s tiskárnou s jednou tryskou se zvýší spotřeba filamentu o %1% g a ušetří se %2% změn."
-
 
 msgid "Set to Optimal"
 msgstr "Nastavit optimální"
@@ -9584,8 +9560,8 @@ msgstr "Slicing zrušen"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Konflikt teploty podložky: T%d (%s) nastavuje podložku na %d℃ — T%d (%s) vyžaduje %d℃. Podložku řídí primární nástroj; sekundární nástroje tisknou při teplotě, kterou nastaví."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Konflikt teploty podložky: T%d (%s) nastavuje podložku na %d ℃ — T%d (%s) vyžaduje %d ℃. Podložku řídí primární nástroj; sekundární nástroje tisknou při teplotě, kterou nastaví."
 
 # AI Translated
 #, c-format, boost-format
@@ -23980,8 +23956,8 @@ msgstr "Počet extruderů tiskárny neodpovídá tiskárně vybrané pro kalibra
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "Průměr trysky extruderu %s je 0,2 mm, což nepodporuje automatickou kalibraci Flow Dynamics."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -24012,6 +23988,10 @@ msgid ""
 msgstr ""
 "Aktuálně zvolený typ trysky extruderu %s neodpovídá skutečnému typu trysky tiskárny.\n"
 "Klikněte prosím na tlačítko Synchronizovat výše a spusťte kalibraci znovu."
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "Průměr trysky extruderu %s je 0,2 mm, což nepodporuje automatickou kalibraci Flow Dynamics."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Nelze kalibrovat: možná je nastavený rozsah kalibračních hodnot příliš velký nebo je krok příliš malý"
@@ -25465,15 +25445,13 @@ msgstr "Sušení – ohřev"
 msgid "Drying-Dehumidifying"
 msgstr "Sušení – odvlhčování"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "Maximální teplota sušení pro %s je %d℃."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "Minimální teplota sušení pro %s je %d℃."
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -32772,12 +32750,21 @@ msgid "Built-in"
 msgstr "Vestavěné"
 
 # AI Translated
+msgid "My textures"
+msgstr "Moje textury"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Nebyly nalezeny žádné textury."
 
-# AI Translated
-msgid "My textures"
-msgstr "Moje textury"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -35522,6 +35509,9 @@ msgstr "Skript"
 msgid "Slicing Pipeline"
 msgstr "Proces slicování"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Konfigurační rozhraní pluginu bylo prázdné. Zobrazuje se výchozí editor."
@@ -35668,6 +35658,24 @@ msgstr "Adresář pluginu obsahuje vstupní soubory .py i .whl"
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Adresář pluginu neobsahuje vstupní soubor .py ani .whl"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -36616,6 +36624,32 @@ msgid ""
 msgstr ""
 "Zamezte kroucení\n"
 "Víte, že při tisku materiálů náchylných ke kroucení, jako je ABS, může vhodné zvýšení teploty vyhřívané desky snížit pravděpodobnost kroucení?"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "Doporučená minimální teplota %d ℃   je nižší než %s.\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "Doporučená maximální teplota %d ℃   je nižší než %s.\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Teplota komory je příliš vysoká, což může způsobit změknutí filamentu. Počkejte prosím, dokud teplota komory neklesne pod %d ℃. Pro ochlazení můžete otevřít přední dvířka nebo zapnout ventilátory."
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "Teplota AMS je příliš vysoká, což může způsobit změknutí filamentu. Počkejte prosím, dokud teplota AMS neklesne pod %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "Maximální teplota sušení pro %s je %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "Minimální teplota sušení pro %s je %d ℃."
 
 # AI Translated
 #~ msgid "Please choose the filament color"

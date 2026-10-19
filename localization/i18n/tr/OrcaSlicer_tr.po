@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-08-21 23:18+0300\n"
 "Last-Translator: GlauTech\n"
 "Language-Team: \n"
@@ -5164,15 +5164,13 @@ msgstr "Yatak modelini içe aktarmak için bir STL dosyası seçin:"
 msgid "Bed Shape"
 msgstr "Yatak Şekli"
 
-# AI Translated
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "%d℃'nin üzerinde bir minimum sıcaklık %s için önerilir.\n"
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "%d℃'nin altında bir maksimum sıcaklık %s için önerilir.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "Önerilen minimum sıcaklık, önerilen maksimum sıcaklıktan yüksek olamaz.\n"
@@ -5217,8 +5215,8 @@ msgstr "Mevcut hazne sıcaklığı malzemenin güvenli sıcaklığından yüksek
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "Minimum oda sıcaklığı (%d℃), hedef oda sıcaklığından (%d℃) yüksek. Minimum değer, oda hedefe doğru ısınmaya devam ederken baskının başladığı eşiktir; bu nedenle hedefi aşmamalıdır. Değer hedefe sınırlandırılacak."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "Minimum oda sıcaklığı (%d ℃), hedef oda sıcaklığından (%d ℃) yüksek. Minimum değer, oda hedefe doğru ısınmaya devam ederken baskının başladığı eşiktir; bu nedenle hedefi aşmamalıdır. Değer hedefe sınırlandırılacak."
 
 # AI Translated
 #, c-format, boost-format
@@ -5590,11 +5588,11 @@ msgstr "Güvenliğinizi sağlamak için belirli işleme görevleri (lazer gibi) 
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Oda sıcaklığı çok yüksek, bu da filamentin yumuşamasına neden olabilir. Lütfen hazne sıcaklığı %d℃'nin altına düşene kadar bekleyin. Ön kapıyı açabilir veya fanların soğumasını sağlayabilirsiniz."
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "AMS sıcaklığı çok yüksek, bu da filamentin yumuşamasına neden olabilir. Lütfen AMS sıcaklığı %d℃'nin altına düşene kadar bekleyin."
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "Mevcut hazne sıcaklığı veya hedef hazne sıcaklığı 45℃'yi aşıyor. Ekstruderin tıkanmasını önlemek için düşük sıcaklık filamentinin (PLA/PETG/TPU) yüklenmesine izin verilmez."
@@ -6096,69 +6094,45 @@ msgstr "Dilim sonucunun mevcut gruplaması optimal değil."
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Optimum gruplamaya kıyasla %1% g filament ve %2% değişim artışı."
 msgstr[1] "Optimum gruplamaya kıyasla %1% g filament ve %2% değişim artışı."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "Optimum gruplamaya kıyasla %1% g filament artışı ve %2% değişim tasarrufu."
 msgstr[1] "Optimum gruplamaya kıyasla %1% g filament artışı ve %2% değişim tasarrufu."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "Optimum gruplamaya kıyasla %1% g filament tasarrufu ve %2% değişim artışı."
 msgstr[1] "Optimum gruplamaya kıyasla %1% g filament tasarrufu ve %2% değişim artışı."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "Tek nozullu yazıcıya kıyasla %1% g filament ve %2% değişim tasarrufu."
 msgstr[1] "Tek nozullu yazıcıya kıyasla %1% g filament ve %2% değişim tasarrufu."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "Tek nozullu yazıcıya kıyasla %1% g filament tasarrufu ve %2% değişim artışı."
 msgstr[1] "Tek nozullu yazıcıya kıyasla %1% g filament tasarrufu ve %2% değişim artışı."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Tek nozullu yazıcıya kıyasla %1% g filament artışı ve %2% değişim tasarrufu."
 msgstr[1] "Tek nozullu yazıcıya kıyasla %1% g filament artışı ve %2% değişim tasarrufu."
-
 
 msgid "Set to Optimal"
 msgstr "Optimum'a Ayarla"
@@ -9544,8 +9518,8 @@ msgstr "Dilimleme İptal Edildi"
 # AI Translated
 # Needs human review: 'Tool' (T%d) is rendered 'araç' as in the old translation; the glossary row Tool (printer) is unsettled (Takım / Araç). Check the term once it is settled.
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Yatak sıcaklığı çakışması: T%d (%s) yatağı %d℃ değerine ayarlıyor — T%d (%s) ise %d℃ gerektiriyor. Yatağı birincil araç kontrol eder; ikincil araçlar onun ayarladığı sıcaklıkta basar."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Yatak sıcaklığı çakışması: T%d (%s) yatağı %d ℃ değerine ayarlıyor — T%d (%s) ise %d ℃ gerektiriyor. Yatağı birincil araç kontrol eder; ikincil araçlar onun ayarladığı sıcaklıkta basar."
 
 # AI Translated
 #, c-format, boost-format
@@ -23994,8 +23968,8 @@ msgstr "Yazıcı ekstrüderlerinin sayısı ve kalibrasyon için seçilen yazıc
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s ekstruderin nozul çapı 0,2 mm'dir ve bu, otomatik Akış Dinamiği kalibrasyonunu desteklemez."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -24026,6 +24000,10 @@ msgid ""
 msgstr ""
 "%s ekstruderin şu anda seçili olan püskürtme ucu türü, gerçek yazıcı püskürtme ucu türüyle eşleşmiyor.\n"
 "Lütfen yukarıdaki Senkronizasyon düğmesine tıklayın ve kalibrasyonu yeniden başlatın."
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "%s ekstruderin nozul çapı 0,2 mm'dir ve bu, otomatik Akış Dinamiği kalibrasyonunu desteklemez."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Kalibre edilemiyor: ayarlanan kalibrasyon değeri aralığı çok büyük veya adım çok küçük olduğu için olabilir"
@@ -25413,15 +25391,13 @@ msgstr "Kurutma-Isıtma"
 msgid "Drying-Dehumidifying"
 msgstr "Kurutma-Nem Alma"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "%s için maksimum kurutma sıcaklığı %d℃'dir."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "%s için minimum kurutma sıcaklığı %d℃'dir."
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -32692,12 +32668,21 @@ msgid "Built-in"
 msgstr "Yerleşik"
 
 # AI Translated
+msgid "My textures"
+msgstr "Dokularım"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Doku bulunamadı."
 
-# AI Translated
-msgid "My textures"
-msgstr "Dokularım"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -35405,6 +35390,9 @@ msgstr "Betik"
 msgid "Slicing Pipeline"
 msgstr "Dilimleme Hattı"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Eklentinin yapılandırma arayüzü boştu. Varsayılan düzenleyici gösteriliyor."
@@ -35551,6 +35539,24 @@ msgstr "Eklenti dizini hem .py hem de .whl giriş dosyaları içeriyor"
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Eklenti dizini bir .py veya .whl giriş dosyası içermiyor"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -36501,6 +36507,34 @@ msgid ""
 msgstr ""
 "Eğilmeyi önleyin\n"
 "ABS gibi bükülmeye yatkın malzemelere baskı yaparken, ısıtma yatağı sıcaklığının uygun şekilde arttırılmasının bükülme olasılığını azaltabileceğini biliyor muydunuz?"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "%d ℃'nin üzerinde bir minimum sıcaklık %s için önerilir.\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "%d ℃'nin altında bir maksimum sıcaklık %s için önerilir.\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Oda sıcaklığı çok yüksek, bu da filamentin yumuşamasına neden olabilir. Lütfen hazne sıcaklığı %d ℃'nin altına düşene kadar bekleyin. Ön kapıyı açabilir veya fanların soğumasını sağlayabilirsiniz."
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "AMS sıcaklığı çok yüksek, bu da filamentin yumuşamasına neden olabilir. Lütfen AMS sıcaklığı %d ℃'nin altına düşene kadar bekleyin."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "%s için maksimum kurutma sıcaklığı %d ℃'dir."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "%s için minimum kurutma sıcaklığı %d ℃'dir."
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "Lütfen filament rengini seçin"

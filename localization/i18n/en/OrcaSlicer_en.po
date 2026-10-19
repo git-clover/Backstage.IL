@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-06-17 15:44-0300\n"
 "Last-Translator: Alexandre Folle de Menezes\n"
 "Language-Team: \n"
@@ -4759,7 +4759,7 @@ msgid "Current chamber temperature is higher than the material's safe temperatur
 msgstr ""
 
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
 msgstr ""
 
 #, c-format, boost-format
@@ -5567,24 +5567,6 @@ msgid "Current grouping of slice result is not optimal."
 msgstr ""
 
 #, boost-format
-
-
-
-#, boost-format
-
-
-#, boost-format
-
-
-#, boost-format
-
-
-#, boost-format
-
-
-#, boost-format
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] ""
@@ -5619,7 +5601,6 @@ msgid "Increase %1% g filament and save %2% change compared to a printer with on
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] ""
 msgstr[1] ""
-
 
 msgid "Set to Optimal"
 msgstr ""
@@ -8692,7 +8673,7 @@ msgid "Slicing Canceled"
 msgstr ""
 
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
 msgstr ""
 
 #, c-format, boost-format
@@ -21006,7 +20987,7 @@ msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
 msgstr ""
 
 #. TRN %s is "left" or "right".
@@ -21031,6 +21012,10 @@ msgstr ""
 msgid ""
 "The currently selected nozzle type of %s extruder does not match the actual printer nozzle type.\n"
 "Please click the Sync button above and restart the calibration."
+msgstr ""
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
 msgstr ""
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
@@ -28086,10 +28071,19 @@ msgstr ""
 msgid "Built-in"
 msgstr ""
 
+msgid "My textures"
+msgstr ""
+
 msgid "No textures found."
 msgstr ""
 
-msgid "My textures"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
 msgstr ""
 
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -30142,6 +30136,9 @@ msgstr ""
 msgid "Slicing Pipeline"
 msgstr ""
 
+msgid "Resource Texture"
+msgstr ""
+
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr ""
 
@@ -30255,6 +30252,24 @@ msgid "Plugin directory contains both .py and .whl entry files"
 msgstr ""
 
 msgid "Plugin directory does not contain a .py or .whl entry file"
+msgstr ""
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
 msgstr ""
 
 #, boost-format

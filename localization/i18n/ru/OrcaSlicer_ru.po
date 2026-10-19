@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OrcaSlicer V2.5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-02-25 13:38+0300\n"
 "Last-Translator: Felix14_v2\n"
 "Language-Team: Felix14_v2 (ДС/ТГ: @felix14_v2, почта: aleks111001@list.ru), Andylg <andylg@yandex.ru>\n"
@@ -5116,11 +5116,11 @@ msgstr "Форма стола"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "Рекомендуется температура минимум в %d℃ для %s.\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "Рекомендуется температура не более %d℃ для %s.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "Минимально допустимая температура сопла не может быть выше максимально допустимой.\n"
@@ -5164,8 +5164,8 @@ msgid "Current chamber temperature is higher than the material's safe temperatur
 msgstr "Текущая температура внутри термокамеры превышает безопасную температуру для этого материала, что может привести к размягчению материала или засорению экструдера. Безопасная температура текущего материала составляет %d"
 
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "Стартовая температура внутри термокамеры (%d℃) превышает целевую (%d℃). Подразумевается, что печать начинается заранее, поэтому стартовая температура не должна превышать её. Значение будет уменьшено."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "Стартовая температура внутри термокамеры (%d ℃) превышает целевую (%d ℃). Подразумевается, что печать начинается заранее, поэтому стартовая температура не должна превышать её. Значение будет уменьшено."
 
 # AI Translated
 #, c-format, boost-format
@@ -5557,11 +5557,11 @@ msgstr "В целях безопасности некоторые виды об�
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Температура внутри камеры слишком высока и может вызвать размягчение материала. Дождитесь охлаждения термокамеры до %d℃. Для ускорения процесса можно открыть дверцу или включить вентиляторы."
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "Температура внутри AMS слишком высока и может вызвать размягчение материала. Дождитесь охлаждения AMS до %d℃."
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "Текущая или целевая температура внутри термокамеры превышает 45℃. Подача низкотемпературных материалов (PLA/PETG/TPU) не допускается во избежание засорения экструдера."
@@ -6074,87 +6074,51 @@ msgstr "Текущая группировка материалов не опти
 
 # AI Translated
 #, boost-format
-
-
-"Сравнение с оптимальной:\n"
-"потери материала: %1% г, лишние смены прутка: %2%"
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Больше на %1% г материала и на %2% смену по сравнению с оптимальной группировкой."
 msgstr[1] "Больше на %1% г материала и на %2% смены по сравнению с оптимальной группировкой."
 msgstr[2] "Больше на %1% г материала и на %2% смен по сравнению с оптимальной группировкой."
 
-
 # AI Translated
 #, boost-format
-
-
-"Сравнение с оптимальной:\n"
-"потери материала: %1% г, экономия смен прутка: %2%"
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "Больше на %1% г материала, но на %2% смену меньше по сравнению с оптимальной группировкой."
 msgstr[1] "Больше на %1% г материала, но на %2% смены меньше по сравнению с оптимальной группировкой."
 msgstr[2] "Больше на %1% г материала, но на %2% смен меньше по сравнению с оптимальной группировкой."
 
-
 # AI Translated
 #, boost-format
-
-
-"Сравнение с оптимальной:\n"
-"экономия материала: %1% г, лишние смены прутка: %2%"
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "Меньше на %1% г материала, но на %2% смену больше по сравнению с оптимальной группировкой."
 msgstr[1] "Меньше на %1% г материала, но на %2% смены больше по сравнению с оптимальной группировкой."
 msgstr[2] "Меньше на %1% г материала, но на %2% смен больше по сравнению с оптимальной группировкой."
 
-
 # AI Translated
 #, boost-format
-
-
-"Сравнение с печатью одним соплом:\n"
-"экономия материала: %1% г, экономия смен прутка: %2%"
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "Меньше на %1% г материала и на %2% смену по сравнению с принтером с одним соплом."
 msgstr[1] "Меньше на %1% г материала и на %2% смены по сравнению с принтером с одним соплом."
 msgstr[2] "Меньше на %1% г материала и на %2% смен по сравнению с принтером с одним соплом."
 
-
 # AI Translated
 #, boost-format
-
-
-"Сравнение с печатью одним соплом:\n"
-"экономия материала: %1% г, лишние смены прутка: %2%"
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "Меньше на %1% г материала, но на %2% смену больше по сравнению с принтером с одним соплом."
 msgstr[1] "Меньше на %1% г материала, но на %2% смены больше по сравнению с принтером с одним соплом."
 msgstr[2] "Меньше на %1% г материала, но на %2% смен больше по сравнению с принтером с одним соплом."
 
-
 # AI Translated
 #, boost-format
-
-
-"Сравнение с печатью одним соплом:\n"
-"потери материала: %1% г, экономия смен прутка: %2%"
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Больше на %1% г материала, но на %2% смену меньше по сравнению с принтером с одним соплом."
 msgstr[1] "Больше на %1% г материала, но на %2% смены меньше по сравнению с принтером с одним соплом."
 msgstr[2] "Больше на %1% г материала, но на %2% смен меньше по сравнению с принтером с одним соплом."
-
 
 msgid "Set to Optimal"
 msgstr "Оптимизировать"
@@ -8999,20 +8963,11 @@ msgstr "Печать материала смешанного цвета на п�
 msgid "Mixing %1% with %2% in printing is not recommended.\n"
 msgstr "Совмещение %1% с %2% при печати не рекомендуется.\n"
 
-
-# подстановка в составные уведомления (напр.: "0.2 mm Стандартный nozzle").
-# Часто речь идёт именно об экструдере, а не о сопле, плюс "экструдер" лучше
-# согласуется.
-msgid " nozzle"
-msgstr " экструдер"
-
 # Очень кривая подстановка (nozzle_diameter, volume_type), поэтому такой
 # вариант. Например, сейчас получается: "Не рекомендуется одновременно
 # использовать сопло 0.2 mm Стандартный экструдер и Bambu PETG Transparent"
-
 # AI Translated
 #. TRN %1% is the nozzle diameter, %2% the nozzle volume type, for example "Standard" or "High Flow".
-
 #, boost-format
 msgid "%1%mm %2% nozzle"
 msgstr "Сопло %1% мм (%2%)"
@@ -9560,8 +9515,8 @@ msgstr "Нарезка отменена"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Конфликт температуры стола: T%d (%s) задаёт температуру стола %d℃ — T%d (%s) требует %d℃. Столом управляет основной инструмент; остальные инструменты печатают при той температуре, которую он задаёт."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Конфликт температуры стола: T%d (%s) задаёт температуру стола %d ℃ — T%d (%s) требует %d ℃. Столом управляет основной инструмент; остальные инструменты печатают при той температуре, которую он задаёт."
 
 # AI Translated
 #, c-format, boost-format
@@ -24192,11 +24147,10 @@ msgstr "Недопустимое значение: начальное, коне�
 msgid "The number of printer extruders and the printer selected for calibration does not match."
 msgstr "Количество экструдеров принтера не совпадает с принтером, выбранным для калибровки."
 
-# подставляется "левый " или "правый " (с пробелами)
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "В данный момент %sэкструдер не поддерживает калибровку динамики потока, так как в нём установлено сопло с диаметром 0.2 мм."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -24227,6 +24181,11 @@ msgid ""
 msgstr ""
 "Выбранный тип сопла экструдера (%s) не соответствует фактическому типу сопла принтера.\n"
 "Нажмите кнопку синхронизации выше и перезапустите калибровку."
+
+# подставляется "левый " или "правый " (с пробелами)
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "В данный момент %sэкструдер не поддерживает калибровку динамики потока, так как в нём установлено сопло с диаметром 0.2 мм."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Невозможно выполнить калибровку: возможно, установленный диапазон значений калибровки слишком велик или шаг слишком мал"
@@ -25496,15 +25455,13 @@ msgstr "Сушка — нагрев"
 msgid "Drying-Dehumidifying"
 msgstr "Сушка — вывод влаги"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "Максимальная температура сушки для %s — %d℃."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "Минимальная температура сушки для %s — %d℃."
+msgstr ""
 
 msgid "This filament may not be completely dried."
 msgstr "Сушка этого материала может не быть эффективной."
@@ -32779,12 +32736,21 @@ msgid "Built-in"
 msgstr "Встроенные"
 
 # AI Translated
+msgid "My textures"
+msgstr "Мои текстуры"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Текстуры не найдены."
 
-# AI Translated
-msgid "My textures"
-msgstr "Мои текстуры"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -35523,6 +35489,9 @@ msgstr "Скрипт"
 msgid "Slicing Pipeline"
 msgstr "Конвейер нарезки"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Интерфейс настройки плагина пуст. Показан редактор по умолчанию."
@@ -35669,6 +35638,24 @@ msgstr "В папке плагина есть одновременно вход�
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "В папке плагина нет входного файла .py или .whl"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -36614,6 +36601,38 @@ msgstr ""
 "Предотвращение коробления материала\n"
 "Знаете ли вы, что при печати материалами, склонными к короблению, таких как ABS, повышение температуры подогреваемого стола может снизить эту вероятность?"
 
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "Рекомендуется температура минимум в %d ℃ для %s.\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "Рекомендуется температура не более %d ℃ для %s.\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Температура внутри камеры слишком высока и может вызвать размягчение материала. Дождитесь охлаждения термокамеры до %d ℃. Для ускорения процесса можно открыть дверцу или включить вентиляторы."
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "Температура внутри AMS слишком высока и может вызвать размягчение материала. Дождитесь охлаждения AMS до %d ℃."
+
+# подстановка в составные уведомления (напр.: "0.2 mm Стандартный nozzle").
+# Часто речь идёт именно об экструдере, а не о сопле, плюс "экструдер" лучше
+# согласуется.
+#~ msgid " nozzle"
+#~ msgstr " экструдер"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "Максимальная температура сушки для %s — %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "Минимальная температура сушки для %s — %d ℃."
+
 #~ msgid "Please choose the filament color"
 #~ msgstr "Изменение цвета"
 
@@ -36987,9 +37006,6 @@ msgstr ""
 # подстановка в составные уведомления (напр.: "0.2mm Стандартный nozzle").
 # Часто речь идёт именно об экструдере, а не о сопле, плюс "экструдер" лучше
 # согласуется.
-#~ msgid " nozzle"
-#~ msgstr " экструдер"
-
 # Очень кривая подстановка (nozzle_diameter, volume_type), поэтому такой
 # вариант. Например, сейчас получается: "Не рекомендуется одновременно
 # использовать сопло 0.2mm Стандартный экструдер и Bambu PETG Transparent"
@@ -37005,9 +37021,6 @@ msgstr ""
 #, boost-format
 #~ msgid "Remove all %1% mixed filaments?"
 #~ msgstr "Удалить все смешанные материалы (%1%)?"
-
-#~ msgid "Do you want to replace it"
-#~ msgstr "Хотите заменить его"
 
 # AI Translated
 #, c-format, boost-format

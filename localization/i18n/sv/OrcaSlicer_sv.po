@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5598,15 +5598,13 @@ msgstr "Välj  en STL fil att importera byggplattans model från:"
 msgid "Bed Shape"
 msgstr "Byggplattans Form"
 
-# AI Translated
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "En minimitemperatur över %d℃ rekommenderas för %s.\n"
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "En maxtemperatur under %d℃ rekommenderas för %s.\n"
+msgstr ""
 
 # AI Translated
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
@@ -5653,8 +5651,8 @@ msgstr "Kammarens aktuella temperatur är högre än materialets säkra temperat
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "Kammarens minimitemperatur (%d℃) är högre än kammarens måltemperatur (%d℃). Minimivärdet är tröskeln där utskriften startar medan kammaren fortsätter värmas mot målet, så det bör inte överstiga målet. Värdet begränsas till måltemperaturen."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "Kammarens minimitemperatur (%d ℃) är högre än kammarens måltemperatur (%d ℃). Minimivärdet är tröskeln där utskriften startar medan kammaren fortsätter värmas mot målet, så det bör inte överstiga målet. Värdet begränsas till måltemperaturen."
 
 # AI Translated
 #, c-format, boost-format
@@ -6076,15 +6074,13 @@ msgstr "Timelapse stöds inte när lagringsmediet är skrivskyddat."
 msgid "To ensure your safety, certain processing tasks (such as laser) can only be resumed on printer."
 msgstr "För din säkerhet kan vissa bearbetningsuppgifter (till exempel laser) endast återupptas på skrivaren."
 
-# AI Translated
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Kammartemperaturen är för hög, vilket kan göra att filamentet mjuknar. Vänta tills kammartemperaturen sjunker under %d℃. Du kan öppna framluckan eller aktivera fläktarna för att kyla ner."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "AMS-temperaturen är för hög, vilket kan göra att filamentet mjuknar. Vänta tills AMS-temperaturen sjunker under %d℃."
+msgstr ""
 
 # AI Translated
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
@@ -6641,30 +6637,12 @@ msgid "Current grouping of slice result is not optimal."
 msgstr "Den aktuella grupperingen i beredningsresultatet är inte optimal."
 
 # AI Translated
-#, boost-format
-
-
-
+# AI Translated
+# AI Translated
+# AI Translated
+# AI Translated
 # AI Translated
 #, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
-# AI Translated
-#, boost-format
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Ökar med %1% g filament och %2% byte jämfört med optimal gruppering."
@@ -6704,7 +6682,6 @@ msgid "Increase %1% g filament and save %2% change compared to a printer with on
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Ökar med %1% g filament men sparar %2% byte jämfört med en skrivare med en nozzel."
 msgstr[1] "Ökar med %1% g filament men sparar %2% byten jämfört med en skrivare med en nozzel."
-
 
 # AI Translated
 msgid "Set to Optimal"
@@ -10317,8 +10294,8 @@ msgstr "Beredning avbruten"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Konflikt i byggplattans temperatur: T%d (%s) ställer in byggplattan på %d℃ — T%d (%s) kräver %d℃. Det primära verktyget styr byggplattan; sekundära verktyg skriver ut vid den temperatur det ställer in."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Konflikt i byggplattans temperatur: T%d (%s) ställer in byggplattan på %d ℃ — T%d (%s) kräver %d ℃. Det primära verktyget styr byggplattan; sekundära verktyg skriver ut vid den temperatur det ställer in."
 
 # AI Translated
 #, c-format, boost-format
@@ -25957,11 +25934,10 @@ msgstr "Start, slut eller steg är inte giltigt värde."
 msgid "The number of printer extruders and the printer selected for calibration does not match."
 msgstr "Antalet extrudrar på skrivaren och den skrivare som valts för kalibrering stämmer inte överens."
 
-# AI Translated
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "Nozzeldiametern på extrudern %s är 0,2 mm, vilket inte stöder automatisk kalibrering av flödesdynamik."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 # AI Translated
 #. TRN %s is "left" or "right".
@@ -25996,6 +25972,11 @@ msgid ""
 msgstr ""
 "Den valda nozzeltypen för extrudern %s matchar inte skrivarens faktiska nozzeltyp.\n"
 "Klicka på Synkronisera-knappen ovan och starta om kalibreringen."
+
+# AI Translated
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "Nozzeldiametern på extrudern %s är 0,2 mm, vilket inte stöder automatisk kalibrering av flödesdynamik."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Går inte att kalibrera: kan bero på att det inställda kalibreringsvärdet är för stort, eller att steget är för litet"
@@ -27516,15 +27497,13 @@ msgstr "Torkning – uppvärmning"
 msgid "Drying-Dehumidifying"
 msgstr "Torkning – avfuktning"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "Maximal torktemperatur för %s är %d℃."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "Minimal torktemperatur för %s är %d℃."
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -34798,12 +34777,21 @@ msgid "Built-in"
 msgstr "Inbyggda"
 
 # AI Translated
+msgid "My textures"
+msgstr "Mina texturer"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Inga texturer hittades."
 
-# AI Translated
-msgid "My textures"
-msgstr "Mina texturer"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -37522,6 +37510,9 @@ msgstr "Skript"
 msgid "Slicing Pipeline"
 msgstr "Beredningspipeline"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Insticksmodulens konfigurationsgränssnitt var tomt. Standardredigeraren visas."
@@ -37668,6 +37659,24 @@ msgstr "Insticksmodulens mapp innehåller både .py- och .whl-startfiler"
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Insticksmodulens mapp innehåller ingen .py- eller .whl-startfil"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -38632,6 +38641,36 @@ msgid ""
 msgstr ""
 "Undvik vridning\n"
 "Visste du att när du skriver ut material som är benägna att vrida, såsom ABS, kan en lämplig ökning av värmebäddens temperatur minska sannolikheten för vridning?"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "En minimitemperatur över %d ℃ rekommenderas för %s.\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "En maxtemperatur under %d ℃ rekommenderas för %s.\n"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Kammartemperaturen är för hög, vilket kan göra att filamentet mjuknar. Vänta tills kammartemperaturen sjunker under %d ℃. Du kan öppna framluckan eller aktivera fläktarna för att kyla ner."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "AMS-temperaturen är för hög, vilket kan göra att filamentet mjuknar. Vänta tills AMS-temperaturen sjunker under %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "Maximal torktemperatur för %s är %d ℃."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "Minimal torktemperatur för %s är %d ℃."
 
 # AI Translated
 #~ msgid "Please choose the filament color"

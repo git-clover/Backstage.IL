@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: 2026-07-20 13:33+0200\n"
 "Last-Translator: Manu Goiogana <mgoiogana@gmail.com>\n"
 "Language-Team: \n"
@@ -5002,11 +5002,11 @@ msgstr "Ohearen forma"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "%d℃-tik gorako gehieneko tenperatura gomendatzen da honetarako: %s.\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "%d℃-tik beherako gehieneko tenperatura gomendatzen da honetarako: %s.\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "Gomendatutako gutxieneko tenperatura ezin da gomendatutako gehieneko tenperatura baino handiagoa izan.\n"
@@ -5049,7 +5049,7 @@ msgid "Current chamber temperature is higher than the material's safe temperatur
 msgstr "Uneko ganberako tenperatura materialaren tenperatura segurua baino handiagoa da, horrek materiala biguntzea ekar dezake eta buxaketak eragin ditzake. Materialaren gehienezko tenperatura segurua %d da"
 
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
 msgstr "Ganberako gutxieneko tenperatura (%d ℃) helburuko ganbera-tenperatura (%d ℃) baino altuagoa da. Gutxieneko balioa inprimaketa hasten den atalasea da, ganberak helbururantz berotzen jarraitzen duen bitartean; beraz, ez luke helburua gainditu behar. Helburuko baliora mugatuko da."
 
 # AI Translated
@@ -5420,11 +5420,11 @@ msgstr "Zure segurtasuna bermatzeko, prozesatze-lan batzuk (laser bidezkoak, adi
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "Ganberako tenperatura altuegia da, eta filamentua bigundu daiteke. Itxaron ganberako tenperatura %d ℃-tik behera jaitsi arte. Aurreko atea ireki edo haizagailuak gaitu ditzakezu hozteko."
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "AMSaren tenperatura altuegia da, eta filamentua bigundu daiteke. Itxaron AMSaren tenperatura %d ℃-tik behera jaitsi arte."
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "Ganberaren uneko tenperaturak edo helburuko tenperaturak 45 ℃ gainditzen ditu. Estrusorea buxatzea saihesteko, ezin da tenperatura baxuko filamenturik (PLA/PETG/TPU) kargatu."
@@ -5919,69 +5919,45 @@ msgstr "Xerratzearen emaitzaren uneko taldekatzea ez da optimoa."
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "Handitu %1% g filamentua eta %2% aldaketa taldekatze optimoarekin alderatuta."
 msgstr[1] "Handitu %1% g filamentua eta %2% aldaketa taldekatze optimoarekin alderatuta."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "Handitu %1% g filamentua eta aurreztu %2% aldaketa taldekatze optimoarekin alderatuta."
 msgstr[1] "Handitu %1% g filamentua eta aurreztu %2% aldaketa taldekatze optimoarekin alderatuta."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "Aurreztu %1% g filamentua eta handitu %2% aldaketa taldekatze optimoarekin alderatuta."
 msgstr[1] "Aurreztu %1% g filamentua eta handitu %2% aldaketa taldekatze optimoarekin alderatuta."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "Aurreztu %1% g filamentua eta %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 msgstr[1] "Aurreztu %1% g filamentua eta %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "Aurreztu %1% g filamentua eta handitu %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 msgstr[1] "Aurreztu %1% g filamentua eta handitu %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "Handitu %1% g filamentua eta aurreztu %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
 msgstr[1] "Handitu %1% g filamentua eta aurreztu %2% aldaketa pita bakarreko inprimagailu batekin alderatuta."
-
 
 msgid "Set to Optimal"
 msgstr "Ezarri optimo gisa"
@@ -9312,8 +9288,8 @@ msgstr "Xerraketa bertan behera utzita"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "Ohearen tenperatura-gatazka: T%d (%s) tresnak ohea %d℃-tan jartzen du — T%d (%s) tresnak %d℃ behar ditu. Tresna nagusiak kontrolatzen du ohea; bigarren mailako tresnek hark ezartzen duen tenperaturan inprimatzen dute."
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "Ohearen tenperatura-gatazka: T%d (%s) tresnak ohea %d ℃-tan jartzen du — T%d (%s) tresnak %d ℃ behar ditu. Tresna nagusiak kontrolatzen du ohea; bigarren mailako tresnek hark ezartzen duen tenperaturan inprimatzen dute."
 
 # AI Translated
 #, c-format, boost-format
@@ -23353,8 +23329,8 @@ msgstr "Inprimagailuaren estrusore kopurua ez dator bat kalibraziorako hautatuta
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s estrusorearen pitaren diametroa 0,2 mm da, eta ez du fluxu-dinamikaren kalibrazio automatikoa onartzen."
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -23385,6 +23361,10 @@ msgid ""
 msgstr ""
 "Une honetan %s estrusorearentzat hautatutako pita mota ez dator bat inprimagailuaren benetako pita motarekin.\n"
 "Egin klik goiko Sinkronizatu botoian eta berrabiarazi kalibrazioa."
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "%s estrusorearen pitaren diametroa 0,2 mm da, eta ez du fluxu-dinamikaren kalibrazio automatikoa onartzen."
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "Ezin da kalibratu: baliteke ezarritako kalibrazio-balioen tartea handiegia izatea edo urratsa txikiegia izatea"
@@ -24630,15 +24610,13 @@ msgstr "Lehortzen-Berotzen"
 msgid "Drying-Dehumidifying"
 msgstr "Lehortzen-Hezetasuna kentzen"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "%s: gehieneko lehortze-tenperatura %d℃ da."
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "%s: gutxieneko lehortze-tenperatura %d℃ da."
+msgstr ""
 
 msgid "This filament may not be completely dried."
 msgstr "Baliteke filamentu hau erabat lehortuta ez egotea."
@@ -31869,12 +31847,21 @@ msgid "Built-in"
 msgstr "Integratuak"
 
 # AI Translated
+msgid "My textures"
+msgstr "Nire testurak"
+
+# AI Translated
 msgid "No textures found."
 msgstr "Ez da testurarik aurkitu."
 
-# AI Translated
-msgid "My textures"
-msgstr "Nire testurak"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -34599,6 +34586,9 @@ msgstr "Scripta"
 msgid "Slicing Pipeline"
 msgstr "Xerratze-kanalizazioa"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "Pluginaren konfigurazio-interfazea hutsik zegoen. Editore lehenetsia erakusten."
@@ -34745,6 +34735,24 @@ msgstr "Pluginaren direktorioak .py eta .whl sarrera-fitxategiak ditu"
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Pluginaren direktorioak ez du .py edo .whl sarrera-fitxategirik"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -35691,6 +35699,32 @@ msgid ""
 msgstr ""
 "Saihestu okertzea\n"
 "Ba al zenekien ABS bezalako okertzeko joera duten materialak inprimatzean ohe beroaren tenperatura egoki igotzeak okertzeko probabilitatea murriztu dezakeela?"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "%d ℃-tik gorako gehieneko tenperatura gomendatzen da honetarako: %s.\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "%d ℃-tik beherako gehieneko tenperatura gomendatzen da honetarako: %s.\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "Ganberako tenperatura altuegia da, eta filamentua bigundu daiteke. Itxaron ganberako tenperatura %d ℃-tik behera jaitsi arte. Aurreko atea ireki edo haizagailuak gaitu ditzakezu hozteko."
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "AMSaren tenperatura altuegia da, eta filamentua bigundu daiteke. Itxaron AMSaren tenperatura %d ℃-tik behera jaitsi arte."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "%s: gehieneko lehortze-tenperatura %d ℃ da."
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "%s: gutxieneko lehortze-tenperatura %d ℃ da."
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "Hautatu filamentuen kolorea"

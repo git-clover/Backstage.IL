@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Orca Slicer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 17:40+0800\n"
+"POT-Creation-Date: 2026-10-19 10:19+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -5132,11 +5132,11 @@ msgstr "ベッド形状"
 
 #, c-format, boost-format
 msgid "A minimum temperature above %d℃ is recommended for %s.\n"
-msgstr "%d℃以上の最低温度が%sに推奨されます。\n"
+msgstr ""
 
 #, c-format, boost-format
 msgid "A maximum temperature below %d℃ is recommended for %s.\n"
-msgstr "%d℃以下の最高温度が%sに推奨されます。\n"
+msgstr ""
 
 msgid "The recommended minimum temperature cannot be higher than the recommended maximum temperature.\n"
 msgstr "推奨最低温度は推奨最高温度より高くすることはできません。\n"
@@ -5184,8 +5184,8 @@ msgstr "現在のチャンバー温度が材料の安全温度を超えていま
 
 # AI Translated
 #, c-format, boost-format
-msgid "The minimal chamber temperature (%d℃) is higher than the target chamber temperature (%d℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
-msgstr "最低庫内温度 (%d℃) が目標庫内温度 (%d℃) を上回っています。最低値は、チャンバーが目標に向けて加熱を続けながら印刷を開始するしきい値であるため、目標値を超えてはいけません。値は目標値に制限されます。"
+msgid "The minimal chamber temperature (%d ℃) is higher than the target chamber temperature (%d ℃). The minimal value is the threshold at which printing starts while the chamber keeps heating toward the target, so it should not exceed it. It will be clamped to the target."
+msgstr "最低庫内温度 (%d ℃) が目標庫内温度 (%d ℃) を上回っています。最低値は、チャンバーが目標に向けて加熱を続けながら印刷を開始するしきい値であるため、目標値を超えてはいけません。値は目標値に制限されます。"
 
 # AI Translated
 #, c-format, boost-format
@@ -5560,11 +5560,11 @@ msgstr "安全のため、レーザーなどの特定の処理タスクはプリ
 
 #, c-format, boost-format
 msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d℃. You may open the front door or enable fans to cool down."
-msgstr "チャンバー温度が高すぎるため、フィラメントが軟化する可能性があります。チャンバー温度が%d℃以下になるまでお待ちください。フロントドアを開けるかファンを有効にして冷却できます。"
+msgstr ""
 
 #, c-format, boost-format
 msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d℃."
-msgstr "AMS温度が高すぎるため、フィラメントが軟化する可能性があります。AMS温度が%d℃以下になるまでお待ちください。"
+msgstr ""
 
 msgid "The current chamber temperature or the target chamber temperature exceeds 45℃. In order to avoid extruder clogging, low temperature filament(PLA/PETG/TPU) is not allowed to be loaded."
 msgstr "現在のチャンバー温度または目標チャンバー温度が45℃を超えています。エクストルーダーの詰まりを避けるため、低温フィラメント（PLA/PETG/TPU）のロードは許可されません。"
@@ -6066,63 +6066,39 @@ msgstr "現在のスライス結果のグルーピングは最適ではありま
 
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and %2% changes compared to optimal grouping."
 msgstr[0] "最適なグルーピングと比較して%1% gのフィラメントと%2%回の変更が増加します。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to optimal grouping."
 msgid_plural "Increase %1% g filament and save %2% changes compared to optimal grouping."
 msgstr[0] "最適なグルーピングと比較して%1% gのフィラメントが増加し、%2%回の変更が節約されます。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to optimal grouping."
 msgid_plural "Save %1% g filament and increase %2% changes compared to optimal grouping."
 msgstr[0] "最適なグルーピングと比較して%1% gのフィラメントが節約され、%2%回の変更が増加します。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and %2% changes compared to a printer with one nozzle."
 msgstr[0] "シングルノズルプリンターと比較して%1% gのフィラメントと%2%回の変更が節約されます。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Save %1% g filament and increase %2% change compared to a printer with one nozzle."
 msgid_plural "Save %1% g filament and increase %2% changes compared to a printer with one nozzle."
 msgstr[0] "シングルノズルプリンターと比較して%1% gのフィラメントが節約され、%2%回の変更が増加します。"
 
-
 # AI Translated
 #, boost-format
-
-
-
 msgid "Increase %1% g filament and save %2% change compared to a printer with one nozzle."
 msgid_plural "Increase %1% g filament and save %2% changes compared to a printer with one nozzle."
 msgstr[0] "シングルノズルプリンターと比較して%1% gのフィラメントが増加し、%2%回の変更が節約されます。"
-
 
 msgid "Set to Optimal"
 msgstr "最適に設定"
@@ -9488,8 +9464,8 @@ msgstr "スライスを取消しました"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Bed temperature conflict: T%d (%s) sets the bed to %d℃ — T%d (%s) requires %d℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
-msgstr "ベッド温度の競合: T%d (%s) はベッドを%d℃に設定しますが、T%d (%s) は%d℃を必要とします。ベッドはプライマリツールが制御し、セカンダリツールはその設定温度で印刷します。"
+msgid "Bed temperature conflict: T%d (%s) sets the bed to %d ℃ — T%d (%s) requires %d ℃. The primary tool controls the bed; secondary tools print at whatever temperature it sets."
+msgstr "ベッド温度の競合: T%d (%s) はベッドを%d ℃に設定しますが、T%d (%s) は%d ℃を必要とします。ベッドはプライマリツールが制御し、セカンダリツールはその設定温度で印刷します。"
 
 # AI Translated
 #, c-format, boost-format
@@ -24302,8 +24278,8 @@ msgstr "プリンタの押出機の数と、キャリブレーション対象と
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s押出機のノズル径は0.2 mmのため、自動フローダイナミクスキャリブレーションには対応していません。"
+msgid "The nozzle diameter of %s extruder is 0.2 mm, which does not support automatic Flow Dynamics calibration."
+msgstr ""
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
@@ -24334,6 +24310,10 @@ msgid ""
 msgstr ""
 "現在選択されている%s 押出機のノズルタイプが、実際のプリンタのノズルタイプと一致していません。\n"
 "上の「同期」ボタンをクリックし、キャリブレーションを再開してください。"
+
+#, c-format, boost-format
+msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
+msgstr "%s押出機のノズル径は0.2 mmのため、自動フローダイナミクスキャリブレーションには対応していません。"
 
 msgid "Unable to calibrate: maybe because the set calibration value range is too large, or the step is too small"
 msgstr "キャリブレーションできません。設定されたキャリブレーション値の範囲が広すぎるか、ステップが小さすぎる可能性があります。"
@@ -25721,15 +25701,13 @@ msgstr "乾燥 - 加熱"
 msgid "Drying-Dehumidifying"
 msgstr "乾燥 - 除湿"
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s maximum drying temperature is %d℃."
-msgstr "%s の最高乾燥温度は %d℃ です。"
+msgstr ""
 
-# AI Translated
 #, c-format, boost-format
 msgid "%s minimum drying temperature is %d℃."
-msgstr "%s の最低乾燥温度は %d℃ です。"
+msgstr ""
 
 # AI Translated
 msgid "This filament may not be completely dried."
@@ -32958,12 +32936,21 @@ msgid "Built-in"
 msgstr "内蔵"
 
 # AI Translated
+msgid "My textures"
+msgstr "マイテクスチャ"
+
+# AI Translated
 msgid "No textures found."
 msgstr "テクスチャが見つかりません。"
 
-# AI Translated
-msgid "My textures"
-msgstr "マイテクスチャ"
+msgid "Texture libraries"
+msgstr ""
+
+msgid "Explore more texture libraries"
+msgstr ""
+
+msgid "Opens OrcaCloud in the Home page to browse for plugins."
+msgstr ""
 
 # AI Translated
 msgid "Import your own image as a height map. It is converted to the format the slicer bakes from and saved to your personal texture folder, kept separate from the textures shipped with OrcaSlicer."
@@ -35653,6 +35640,9 @@ msgstr "スクリプト"
 msgid "Slicing Pipeline"
 msgstr "スライスパイプライン"
 
+msgid "Resource Texture"
+msgstr ""
+
 # AI Translated
 msgid "The plugin's configuration UI was empty. Showing the default editor."
 msgstr "プラグインの設定UIが空でした。デフォルトのエディターを表示します。"
@@ -35799,6 +35789,24 @@ msgstr "プラグインのディレクトリに.pyと.whlの両方のエント�
 # AI Translated
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "プラグインのディレクトリに.pyまたは.whlのエントリファイルがありません"
+
+msgid "Resource texture directory is not set"
+msgstr ""
+
+msgid "Resource texture directory could not be resolved"
+msgstr ""
+
+msgid "Resource texture path is not a directory"
+msgstr ""
+
+msgid "Plugin folder could not be resolved"
+msgstr ""
+
+msgid "Resource texture directory is outside the plugin folder"
+msgstr ""
+
+msgid "Resource texture directory could not be read"
+msgstr ""
 
 # AI Translated
 #, boost-format
@@ -36757,6 +36765,32 @@ msgid ""
 msgstr ""
 "反りを避ける\n"
 "ABSのような反りやすい素材を印刷する場合、ヒートベッドの温度を適切に上げることで、反りが発生する確率を下げることができることをご存知ですか？"
+
+#, c-format, boost-format
+#~ msgid "A minimum temperature above %d ℃ is recommended for %s.\n"
+#~ msgstr "%d ℃以上の最低温度が%sに推奨されます。\n"
+
+#, c-format, boost-format
+#~ msgid "A maximum temperature below %d ℃ is recommended for %s.\n"
+#~ msgstr "%d ℃以下の最高温度が%sに推奨されます。\n"
+
+#, c-format, boost-format
+#~ msgid "The chamber temperature is too high, which may cause the filament to soften. Please wait until the chamber temperature drops below %d ℃. You may open the front door or enable fans to cool down."
+#~ msgstr "チャンバー温度が高すぎるため、フィラメントが軟化する可能性があります。チャンバー温度が%d ℃以下になるまでお待ちください。フロントドアを開けるかファンを有効にして冷却できます。"
+
+#, c-format, boost-format
+#~ msgid "AMS temperature is too high, which may cause the filament to soften. Please wait until the AMS temperature drops below %d ℃."
+#~ msgstr "AMS温度が高すぎるため、フィラメントが軟化する可能性があります。AMS温度が%d ℃以下になるまでお待ちください。"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s maximum drying temperature is %d ℃."
+#~ msgstr "%s の最高乾燥温度は %d ℃ です。"
+
+# AI Translated
+#, c-format, boost-format
+#~ msgid "%s minimum drying temperature is %d ℃."
+#~ msgstr "%s の最低乾燥温度は %d ℃ です。"
 
 #~ msgid "Please choose the filament color"
 #~ msgstr "フィラメントの色を選択してください"
