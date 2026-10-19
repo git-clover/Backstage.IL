@@ -1,6 +1,6 @@
 {
   "type": "process",
-  "name": "0.30mm Standard @Goofoo Velo+",
+  "name": "0.30 mm Standard @Goofoo Velo+",
   "inherits": "fdm_process_klipper_common",
   "from": "system",
   "setting_id": "mi8ogYOYpqb2x60z",

@@ -1,6 +1,6 @@
 {
   "type": "process",
-  "name": "0.20mm Standard @Goofoo GP1",
+  "name": "0.20 mm Standard @Goofoo GP1",
   "inherits": "fdm_process_klipper_common",
   "from": "system",
   "setting_id": "zrscQBUxp6L7BlQ9",

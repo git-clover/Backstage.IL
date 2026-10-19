@@ -1001,8 +1001,8 @@ namespace {
 // The outer radius of round_tube().
 const double tube_radius = 11.5;
 
-// Every setting the tube walls below are measured against. With 0.5mm walls a 1mm tube wall holds only the two
-// outer walls, touching, and every further 0.5mm makes room for one more inner wall.
+// Every setting the tube walls below are measured against. With 0.5 mm walls a 1mm tube wall holds only the two
+// outer walls, touching, and every further 0.5 mm makes room for one more inner wall.
 DynamicPrintConfig tube_config(const char *wall_generator, int wall_loops)
 {
     DynamicPrintConfig config = DynamicPrintConfig::full_print_config();
@@ -1156,7 +1156,7 @@ TEST_CASE("Each side of a tube wall prints its walls in the wall sequence order"
     Model model;
     round_tube(print, model, config, tube.wall);
     const std::vector<std::vector<TubeLoop>> layers = tube_loops(print, tube.wall);
-    // 2mm at 0.2mm layers.
+    // 2mm at 0.2 mm layers.
     REQUIRE(layers.size() == 10);
 
     const int walls = std::string(wall_generator) == "arachne" ? tube.arachne_walls : tube.classic_walls;
@@ -1196,7 +1196,7 @@ TEST_CASE("A thin wall hole is printed before the contour unless the outer walls
     }
 }
 
-// A 1.5mm tube wall leaves Inner/Outer/Inner no third wall to sandwich, only the inner wall Arachne lays in the middle
+// A 1.5 mm tube wall leaves Inner/Outer/Inner no third wall to sandwich, only the inner wall Arachne lays in the middle
 // for both sides, or Classic's gap fill. Past the first layer it prints the hole first, then the contour, then the
 // middle.
 TEST_CASE("Inner/Outer/Inner prints the hole of a narrow tube wall first and the middle last", "[Perimeters]")
@@ -1221,7 +1221,7 @@ TEST_CASE("Inner/Outer/Inner prints the hole of a narrow tube wall first and the
 }
 
 // The contour's walls run in the wall direction and the hole's against it, except that the walls of a thin wall
-// hole run with the contour, as does the inner wall Arachne shares between both sides of a 1.5mm tube wall.
+// hole run with the contour, as does the inner wall Arachne shares between both sides of a 1.5 mm tube wall.
 TEST_CASE("Tube walls run in the wall direction and hole walls against it", "[Perimeters]")
 {
     const double      wall           = GENERATE(1.0, 1.5, 2.0, 3.0);
