@@ -8,13 +8,13 @@ ptype = input("Filament? Machine? Process? Type it in: ")
 fullname = input("DON'T MAKE A TYPO! Name your new profile: ")
 '''
 
-print("CAUTION! Do not make a typo. You cannot go back once done.")
 if sys.argv[1] == "autopilot":
     vendor = sys.argv[2]
     ptype = sys.argv[3]
     pname = sys.argv[4]
 else:
-    print("Vendor: ")
+    print("CAUTION! Do not make a typo. You cannot go back once done.")
+    print("\nVendor: ")
     vendor = sys.stdin.readline().split('\n')[0]
     print("\nProfile type: ")
     ptype = sys.stdin.readline().split('\n')[0]
