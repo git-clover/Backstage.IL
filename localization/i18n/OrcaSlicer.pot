@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 10:19+0900\n"
+"POT-Creation-Date: 2026-10-19 09:48-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6049,7 +6049,7 @@ msgstr ""
 msgid "Size:"
 msgstr ""
 
-#, possible-boost-format
+#, possible-c-format, possible-boost-format
 msgid "Conflicts of G-code paths have been found at layer %d, Z = %.2lfmm. Please separate the conflicted objects farther (%s <-> %s)."
 msgstr ""
 
@@ -12318,7 +12318,7 @@ msgstr ""
 msgid "Left mouse"
 msgstr ""
 
-msgid "Available anywhere in the window, even while typing in a text field."
+msgid "Available anywhere in the window."
 msgstr ""
 
 msgid "Run favorite 1 to 10"
@@ -12413,9 +12413,6 @@ msgstr ""
 
 #, possible-c-format, possible-boost-format
 msgid "The default %s is assigned to %s. Reassign it to %s?"
-msgstr ""
-
-msgid "Global shortcuts also apply while typing."
 msgstr ""
 
 msgid "A key that types a character cannot be a global shortcut."
@@ -26505,17 +26502,18 @@ msgstr ""
 msgid "Basic Colors"
 msgstr ""
 
+#. TRN: Keep the brand name "Orca" unchanged; translate only the palette descriptor.
 msgid "Orca Palette"
 msgstr ""
 
-#. TRN: Keep the brand name "Orca" unchanged; translate only the palette descriptor.
+#. TRN: Keep the standard/brand name "RAL" unchanged.
 msgid "RAL Classic"
 msgstr ""
 
-#. TRN: Keep the standard/brand name "RAL" unchanged.
 msgid "Gradients"
 msgstr ""
 
+msgctxt "Color picker"
 msgid "Solid"
 msgstr ""
 
@@ -26890,7 +26888,7 @@ msgstr ""
 msgid "Medium violet red"
 msgstr ""
 
-msgid "PaleV violet red"
+msgid "Pale violet red"
 msgstr ""
 
 msgid "Deep pink"
@@ -27052,7 +27050,7 @@ msgstr ""
 msgid "Shallow sky"
 msgstr ""
 
-msgid "Electric bel"
+msgid "Electric blue"
 msgstr ""
 
 msgid "Dolphin"
@@ -27121,7 +27119,7 @@ msgstr ""
 msgid "Maize yellow"
 msgstr ""
 
-msgid "Dalmatian yellow"
+msgid "Daffodil yellow"
 msgstr ""
 
 msgid "Brown beige"
@@ -27382,7 +27380,7 @@ msgstr ""
 msgid "Turquoise blue"
 msgstr ""
 
-msgid "Capsanthin violet"
+msgid "Capri blue"
 msgstr ""
 
 msgid "Ocean blue"
@@ -27496,7 +27494,7 @@ msgstr ""
 msgid "Silver grey"
 msgstr ""
 
-msgid "Olivestone"
+msgid "Olive grey"
 msgstr ""
 
 msgid "Moss grey"
