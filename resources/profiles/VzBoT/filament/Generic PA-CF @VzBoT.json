@@ -1,0 +1,30 @@
+{
+	"type": "filament",
+	"name": "Generic PA-CF @VzBoT",
+	"renamed_from": "VzBoT Generic PA-CF",
+	"inherits": "fdm_filament_pa",
+	"from": "system",
+	"setting_id": "q8DtJmdJUN3KFV3E",
+	"filament_id": "OFQLcbps",
+	"instantiation": "true",
+	"filament_type": [
+		"PA-CF"
+	],
+	"nozzle_temperature_initial_layer": [
+		"280"
+	],
+	"nozzle_temperature": [
+		"280"
+	],
+	"filament_max_volumetric_speed": [
+		"50"
+	],
+	"compatible_printers": [
+		"VzBoT 235 AWD 0.4 nozzle",
+		"VzBoT 330 AWD 0.4 nozzle",
+		"VzBoT 235 AWD 0.5 nozzle",
+		"VzBoT 235 AWD 0.6 nozzle",
+		"VzBoT 330 AWD 0.5 nozzle",
+		"VzBoT 330 AWD 0.6 nozzle"
+	]
+}

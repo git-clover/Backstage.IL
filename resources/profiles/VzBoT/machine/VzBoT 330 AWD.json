@@ -1,0 +1,12 @@
+{
+	"type": "machine_model",
+	"name": "VzBoT 330 AWD",
+	"model_id": "VzBoT 330 AWD",
+	"nozzle_diameter": "0.4;0.5;0.6",
+	"machine_tech": "FFF",
+	"family": "VzBoT",
+	"bed_model": "Vz330SlicerBedModel-cnc.stl",
+	"bed_texture": "VzBot_PS_bed_330.svg",
+	"hotend_model": "Goliath.stl",
+	"default_materials": "Generic ABS @VzBoT;Generic PLA @VzBoT;Generic PLA-CF @VzBoT;Generic PETG @VzBoT;Generic TPU @VzBoT;Generic ASA @VzBoT;Generic PC @VzBoT;Generic PVA @VzBoT;Generic PA @VzBoT;Generic PA-CF @VzBoT"
+}

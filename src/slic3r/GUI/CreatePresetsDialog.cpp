@@ -135,7 +135,7 @@ static const std::vector<std::string> printer_vendors =
      "Raise3D",            "RatRig",             "re3D",               "RolohaunDesign",     "SecKit",             
      "Snapmaker",          "Sovol",              "Thinker X400",       "Tronxy",             "TwoTrees",           
      "UltiMaker",          "Vivedino",           "Volumic",            "Voron",              "Voxelab",            
-     "Vzbot",              "Wanhao",             "Z-Bolt"};
+     "VzBoT",              "Wanhao",             "Z-Bolt"};
 
 static const std::unordered_map<std::string, std::vector<std::string>> printer_model_map =
     {{"Anker",             {"Anker M5",                   "Anker M5 All-Metal Hot End", "Anker M5C"}},
@@ -215,7 +215,7 @@ static const std::unordered_map<std::string, std::vector<std::string>> printer_m
      {"Voron",             {"Voron 2.4 250",        "Voron 2.4 300",        "Voron 2.4 350",        "Voron Trident 250",    "Voron Trident 300",
                             "Voron Trident 350",    "Voron 0.1",            "Voron Switchwire 250"}},
      {"Voxelab",           {"Voxelab Aquila X2"}},
-     {"Vzbot",             {"Vzbot 235 AWD", "Vzbot 330 AWD"}},
+     {"VzBoT",             {"VzBoT 235 AWD", "VzBoT 330 AWD"}},
      {"Wanhao",            {"Wanhao D12-300"}},
      {"Z-Bolt",            {"Z-Bolt S300",      "Z-Bolt S300 Dual", "Z-Bolt S400",      "Z-Bolt S400 Dual", "Z-Bolt S600",
                             "Z-Bolt S600 Dual"}}};

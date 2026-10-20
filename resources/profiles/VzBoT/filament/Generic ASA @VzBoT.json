@@ -1,0 +1,24 @@
+{
+	"type": "filament",
+	"name": "Generic ASA @VzBoT",
+	"renamed_from": "VzBoT Generic ASA",
+	"inherits": "fdm_filament_asa",
+	"from": "system",
+	"setting_id": "0MutZpaR9XVzUGGS",
+	"filament_id": "OFLPAxz3",
+	"instantiation": "true",
+	"filament_flow_ratio": [
+		"0.93"
+	],
+	"filament_max_volumetric_speed": [
+		"50"
+	],
+	"compatible_printers": [
+		"VzBoT 235 AWD 0.4 nozzle",
+		"VzBoT 330 AWD 0.4 nozzle",
+		"VzBoT 235 AWD 0.5 nozzle",
+		"VzBoT 235 AWD 0.6 nozzle",
+		"VzBoT 330 AWD 0.5 nozzle",
+		"VzBoT 330 AWD 0.6 nozzle"
+	]
+}
