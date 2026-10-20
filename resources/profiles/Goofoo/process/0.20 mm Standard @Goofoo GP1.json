@@ -3,7 +3,7 @@
   "name": "0.20 mm Standard @Goofoo GP1",
   "inherits": "fdm_process_klipper_common",
   "from": "system",
-  "setting_id": "zrscQBUxp6L7BlQ9",
+  "setting_id": "eD6gFHhgvrmf7Grf",
   "instantiation": "true",
   "compatible_printers": [
     "Goofoo GP1 0.4 nozzle"

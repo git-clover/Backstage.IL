@@ -3,7 +3,7 @@
   "name": "0.20 mm Standard @Goofoo TurboM",
   "inherits": "fdm_process_klipper_common",
   "from": "system",
-  "setting_id": "LVXxUtAcYGCY6irA",
+  "setting_id": "JqvkBKxgcwNUQZHM",
   "instantiation": "true",
   "compatible_printers": [
     "Goofoo TurboM 0.4 nozzle"

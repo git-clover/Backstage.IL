@@ -3,7 +3,7 @@
 	"name": "0.10 mm Standard @Goofoo Velo+",
 	"inherits": "0.20 mm Standard @Goofoo Velo+",
 	"from": "system",
-	"setting_id": "dJV4bTrLbOPzW2YB",
+	"setting_id": "zCtW6FzNAtcqzHvQ",
 	"instantiation": "true",
 	"compatible_printers": [
 		"Goofoo Velo+ 0.2 nozzle"
