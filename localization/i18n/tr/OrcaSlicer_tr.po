@@ -35847,8 +35847,7 @@ msgstr "Betik"
 msgid "Slicing Pipeline"
 msgstr "Dilimleme Hattı"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -36001,23 +36000,7 @@ msgstr "Eklenti dizini hem .py hem de .whl giriş dosyaları içeriyor"
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Eklenti dizini bir .py veya .whl giriş dosyası içermiyor"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

@@ -35531,8 +35531,7 @@ msgstr "สคริปต์"
 msgid "Slicing Pipeline"
 msgstr "ไปป์ไลน์การสไลซ์"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -35685,23 +35684,7 @@ msgstr "ไดเรกทอรีปลั๊กอินมีทั้งไ
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "ไดเรกทอรีปลั๊กอินไม่มีไฟล์ entry .py หรือ .whl"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

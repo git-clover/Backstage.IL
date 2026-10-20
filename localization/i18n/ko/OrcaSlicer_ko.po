@@ -36080,8 +36080,7 @@ msgstr "스크립트"
 msgid "Slicing Pipeline"
 msgstr "슬라이스 파이프라인"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -36234,23 +36233,7 @@ msgstr "플러그인 디렉터리에 .py 및 .whl 진입 파일이 모두 있습
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "플러그인 디렉터리에 .py 또는 .whl 진입 파일이 없습니다"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

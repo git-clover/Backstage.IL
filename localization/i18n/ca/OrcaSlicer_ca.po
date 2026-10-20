@@ -35876,9 +35876,6 @@ msgstr "Script"
 msgid "Slicing Pipeline"
 msgstr "Flux de laminat"
 
-msgid "Resource Texture"
-msgstr ""
-
 # AI Translated
 msgid "Resource Texture"
 msgstr "Textura de recurs"
@@ -36030,23 +36027,7 @@ msgstr "El directori del connector conté fitxers d'entrada .py i .whl"
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "El directori del connector no conté cap fitxer d'entrada .py ni .whl"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

@@ -37963,8 +37963,7 @@ msgstr "Skript"
 msgid "Slicing Pipeline"
 msgstr "Beredningspipeline"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -38117,23 +38116,7 @@ msgstr "Insticksmodulens mapp innehåller både .py- och .whl-startfiler"
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "Insticksmodulens mapp innehåller ingen .py- eller .whl-startfil"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

@@ -36944,8 +36944,7 @@ msgstr "指令碼"
 msgid "Slicing Pipeline"
 msgstr "切片管線"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -37098,23 +37097,7 @@ msgstr "外掛目錄同時包含 .py 和 .whl 進入點檔案"
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "外掛目錄不包含 .py 或 .whl 進入點檔案"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

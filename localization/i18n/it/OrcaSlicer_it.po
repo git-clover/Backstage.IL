@@ -35567,8 +35567,7 @@ msgstr "Script"
 msgid "Slicing Pipeline"
 msgstr "Pipeline di slicing"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -35721,23 +35720,7 @@ msgstr "La cartella del plugin contiene sia file di ingresso .py che .whl"
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "La cartella del plugin non contiene un file di ingresso .py o .whl"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"

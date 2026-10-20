@@ -35737,8 +35737,7 @@ msgstr "Szkript"
 msgid "Slicing Pipeline"
 msgstr "Szeletelési folyamat"
 
-msgid "Resource Texture"
-msgstr ""
+
 
 # AI Translated
 msgid "Resource Texture"
@@ -35891,23 +35890,7 @@ msgstr "A bővítmény könyvtára .py és .whl belépési fájlt is tartalmaz"
 msgid "Plugin directory does not contain a .py or .whl entry file"
 msgstr "A bővítmény könyvtára nem tartalmaz .py vagy .whl belépési fájlt"
 
-msgid "Resource texture directory is not set"
-msgstr ""
 
-msgid "Resource texture directory could not be resolved"
-msgstr ""
-
-msgid "Resource texture path is not a directory"
-msgstr ""
-
-msgid "Plugin folder could not be resolved"
-msgstr ""
-
-msgid "Resource texture directory is outside the plugin folder"
-msgstr ""
-
-msgid "Resource texture directory could not be read"
-msgstr ""
 
 # AI Translated
 msgid "Resource texture directory is not set"
