@@ -9009,7 +9009,7 @@ msgstr "%1%와 %2%\n"
 #. TRN Slicing progress. %1% is the plate number, %2% the current slicing step.
 #, boost-format
 msgid "Slicing plate %1%: %2%"
-msgstr "플레이트 %1% 슬라이싱 중: %2%"
+msgstr "[스테이지 %1%] %2%"
 
 msgid "Invalid name, the following characters are not allowed:"
 msgstr "잘못된 이름입니다. 다음 문자는 사용할 수 없습니다:"
