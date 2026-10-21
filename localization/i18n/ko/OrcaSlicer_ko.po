@@ -784,7 +784,7 @@ msgid "Selection"
 msgstr "선택"
 
 msgid "Plate"
-msgstr "플레이트"
+msgstr "스테이지"
 
 # AI Translated
 msgid "Distribute"
