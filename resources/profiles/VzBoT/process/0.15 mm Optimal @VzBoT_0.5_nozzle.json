@@ -3,7 +3,7 @@
 	"name": "0.15 mm Optimal @VzBoT 0.5nozzle",
 	"inherits": "fdm_process_VzBoT_common_0.5_nozzle",
 	"from": "system",
-	"setting_id": "40XOyfppgVqmAnsV",
+	"setting_id": "y1cnWmzoiyEAflSe",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"top_shell_layers": "5",

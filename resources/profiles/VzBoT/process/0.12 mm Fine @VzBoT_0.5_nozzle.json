@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @VzBoT 0.5nozzle",
 	"inherits": "fdm_process_VzBoT_common_0.5_nozzle",
 	"from": "system",
-	"setting_id": "EQxnLpV60Gc7JZTj",
+	"setting_id": "giOi31Wp8hOwIwA8",
 	"instantiation": "true",
 	"layer_height": "0.12",
 	"bottom_shell_layers": "5",

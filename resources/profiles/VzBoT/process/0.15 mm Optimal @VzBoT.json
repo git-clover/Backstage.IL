@@ -3,7 +3,7 @@
 	"name": "0.15 mm Optimal @VzBoT",
 	"inherits": "fdm_process_VzBoT_common",
 	"from": "system",
-	"setting_id": "OdfbGk0kzWKNBAj2",
+	"setting_id": "BNNpAuVfXUNpj9ND",
 	"instantiation": "true",
 	"bottom_shell_layers": "4",
 	"top_shell_layers": "5",

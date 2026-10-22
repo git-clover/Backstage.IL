@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @VzBoT",
 	"inherits": "fdm_process_VzBoT_common",
 	"from": "system",
-	"setting_id": "FthAAEqkBuWGQCAj",
+	"setting_id": "h9tiMgrjDPU3kipH",
 	"instantiation": "true",
 	"layer_height": "0.2",
 	"bottom_shell_layers": "3",

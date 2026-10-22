@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @VzBoT",
 	"inherits": "fdm_process_VzBoT_common",
 	"from": "system",
-	"setting_id": "62oXJlzHpYVmPxZX",
+	"setting_id": "u3ls1Q1uH6OTDj1R",
 	"instantiation": "true",
 	"layer_height": "0.12",
 	"bottom_shell_layers": "5",

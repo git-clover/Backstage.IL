@@ -3,7 +3,7 @@
 	"name": "VzBoT 235 AWD 0.5 nozzle",
 	"inherits": "VzBoT 235 AWD 0.4 nozzle",
 	"from": "system",
-	"setting_id": "RxA0Pu5VwOqEKrov",
+	"setting_id": "Y7cHpPYwRPbeAm2Q",
 	"instantiation": "true",
 	"printer_model": "VzBoT 235 AWD",
 	"nozzle_diameter": [
