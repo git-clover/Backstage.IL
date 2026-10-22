@@ -5973,7 +5973,7 @@ std::string GCode::process_layer_change_gcode(const Print &print, coordf_t print
 
     PrintStatistics curr_print_statistics;
     for (const Extruder &extruder : m_writer.extruders()) {
-        double extruded_volume = extruder.extruded_volume() + (has_wipe_tower ? print.wipe_tower_data().used_filament[extruder.id()] * 2.4052f : 0.f); // assumes 1.75mm filament diameter
+        double extruded_volume = extruder.extruded_volume() + (has_wipe_tower ? print.wipe_tower_data().used_filament[extruder.id()] * 2.4052f : 0.f); // assumes \1.\75 mm filament diameter
         double filament_weight = extruded_volume * extruder.filament_density() * 0.001;
         if (filament_weight > 0.)
             curr_print_statistics.total_weight += filament_weight;

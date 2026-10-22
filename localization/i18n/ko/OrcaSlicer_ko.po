@@ -4365,7 +4365,7 @@ msgstr "출력 구성 전송 중"
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the device page in %ss"
-msgstr "성공적으로 보냈습니다. %s에서 자동으로 장치 페이지로 이동합니다"
+msgstr "%s초 후 현장 라이브가 시작됩니다."
 
 #, c-format, boost-format
 msgid "Successfully sent. Will automatically jump to the next page in %ss"
