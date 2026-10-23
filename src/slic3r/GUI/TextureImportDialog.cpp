@@ -2073,7 +2073,6 @@ void TextureImportDialog::build_params_panel(wxWindow* parent, wxSizer* sizer)
     m_btn_color_16->SetId(ID_COLOR_16);
     m_btn_color_auto = new Button(parent, _L("Auto"));
     m_btn_color_auto->SetId(ID_COLOR_AUTO);
-=======
     m_btn_color_auto->SetStyle(ButtonStyle::Regular, ButtonType::Window);
 
     update_color_count_preset_buttons();
