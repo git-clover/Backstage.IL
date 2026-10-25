@@ -51,7 +51,7 @@ result = tx.commit()
 # Process and printer default to their active presets. A caller can request a
 # different preset that is selectable in the corresponding UI dropdown.
 tx = orca.host.preset.process.begin_update(
-    preset_name="\0.\20 mm Standard"
+    preset_name="0.20 mm Standard"
 )
 tx.set("layer_height", "0.2")
 tx.commit()
