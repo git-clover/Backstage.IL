@@ -416,7 +416,7 @@ TEST_CASE("Top and bottom surfaces with gap fill print with their filaments", "[
     CHECK(idle_tool_changes(gcode) == 0);
 }
 
-// A 1.9mm plate leaves no room for sparse infill between its classic walls, only gap fill, which prints with the walls.
+// A \1.\9 mm plate leaves no room for sparse infill between its classic walls, only gap fill, which prints with the walls.
 TEST_CASE("Gap fill between walls does not schedule the sparse infill filament", "[MultiFilament]")
 {
     const std::string gcode = slice({ make_cube(20., 1.9, 5.) },
@@ -437,7 +437,7 @@ TEST_CASE("Gap fill between walls does not schedule the sparse infill filament",
     CHECK(idle_tool_changes(gcode) == 0);
 }
 
-// A 20x20x2mm base carrying a 0.5mm fin: the fin's layers fit a single wall, so they must not switch to the inner
+// A 20x20x2mm base carrying a \0.\5 mm fin: the fin's layers fit a single wall, so they must not switch to the inner
 // wall filament the base uses.
 TEST_CASE("A layer without inner walls does not switch to the inner wall filament", "[MultiFilament]")
 {

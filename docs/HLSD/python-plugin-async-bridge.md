@@ -319,7 +319,7 @@ class AutoTune(orca.script.ScriptPluginCapabilityBase):
     async def execute(self):
         # begin_update() blocks this worker until the user answers any
         # selection / unsaved-edit dialog. The UI thread stays responsive.
-        tx = orca.host.preset.process.begin_update(preset_name="0.20mm Standard")
+        tx = orca.host.preset.process.begin_update(preset_name="\0.\20 mm Standard")
         tx.set("layer_height", "0.2")
         tx.commit()
         return orca.ExecutionResult.success("process preset updated")
