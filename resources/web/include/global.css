@@ -16,9 +16,9 @@
 	{"#EEEEEE", "#4C4C55"} sidebar
 	{"#FEFFFF", "#242428"} bg color-
 	*/
-	--main-color			: #009688;
+	--main-color			: #004fbd;
 	--main-color-hover		: #26A69A;
-	--main-color-fixed		: #009688;
+	--main-color-fixed		: #004fbd;
 	--bg-color				: #FFFFFF;
 	--bg-color-secondary	: #F4F4F4;
 	--bg-color-alt			: #F0F0F0;
