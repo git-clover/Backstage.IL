@@ -25628,11 +25628,6 @@ msgstr "プリンタの押出機の数と、キャリブレーション対象と
 
 #. TRN %s is "left" or "right".
 #, c-format, boost-format
-msgid "The nozzle diameter of %s extruder is 0.2 mm which does not support automatic Flow Dynamics calibration."
-msgstr "%s押出機のノズル径は0.2 mmのため、自動動的流量キャリブレーションには対応していません。"
-
-#. TRN %s is "left" or "right".
-#, c-format, boost-format
 msgid ""
 "The currently selected nozzle diameter of %s extruder does not match the actual nozzle diameter.\n"
 "Please click the Sync button above and restart the calibration."
