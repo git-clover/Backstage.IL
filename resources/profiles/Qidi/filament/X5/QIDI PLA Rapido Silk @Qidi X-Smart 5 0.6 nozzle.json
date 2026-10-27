@@ -3,7 +3,7 @@
 	"name": "QIDI PLA Silk @Qidi X-Smart 5 0.6 nozzle",
 	"inherits": "QIDI PLA Silk@X-Smart 5-Series",
 	"from": "system",
-	"setting_id": "Y3SjMAlBOzWMffak",
+	"setting_id": "3TJssqMMitu93r1d",
 	"instantiation": "true",
 	"additional_cooling_fan_speed_unseal": [
 		"0"

@@ -1,14 +1,13 @@
 {
 	"type": "process",
-	"name": "0.40mm Standard @X-Smart 5 0.8 nozzle",
+	"name": "0.10 mm Standard @X-Smart 5 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "tMiNRqdm0hCDuI2S",
+	"setting_id": "23hqUS7vyo5YfGhK",
 	"instantiation": "true",
-	"bridge_flow": "1",
-	"bridge_speed": [
-		"30"
-	],
+	"bottom_color_penetration_layers": "5",
+	"bottom_shell_layers": "5",
+	"bridge_flow": "1.5",
 	"default_acceleration": [
 		"6000"
 	],
@@ -17,46 +16,37 @@
 	"enable_height_slowdown": [
 		"1"
 	],
-	"gap_infill_speed": [
-		"50"
-	],
 	"initial_layer_infill_speed": [
-		"55"
+		"28"
 	],
-	"initial_layer_line_width": "0.82",
-	"initial_layer_print_height": "0.4",
+	"initial_layer_line_width": "0.25",
+	"initial_layer_print_height": "0.1",
 	"initial_layer_speed": [
-		"35"
+		"16"
 	],
 	"inner_wall_acceleration": [
 		"0"
 	],
-	"inner_wall_line_width": "0.82",
-	"inner_wall_speed": [
-		"150"
-	],
-	"internal_solid_infill_line_width": "0.82",
-	"internal_solid_infill_speed": [
-		"150"
-	],
-	"layer_height": "0.4",
-	"line_width": "0.82",
+	"inner_wall_line_width": "0.22",
+	"internal_solid_infill_line_width": "0.22",
+	"layer_height": "0.1",
+	"line_width": "0.22",
 	"outer_wall_acceleration": [
 		"5000"
 	],
-	"outer_wall_line_width": "0.82",
-	"outer_wall_speed": [
-		"120"
+	"outer_wall_line_width": "0.22",
+	"overhang_2_4_speed": [
+		"60"
 	],
 	"overhang_3_4_speed": [
-		"25"
+		"60"
 	],
 	"overhang_4_4_speed": [
-		"5"
+		"35"
 	],
 	"prime_tower_brim_width": "-1",
-	"skeleton_infill_line_width": "0.82",
-	"skin_infill_line_width": "0.82",
+	"skeleton_infill_line_width": "0.22",
+	"skin_infill_line_width": "0.22",
 	"slowdown_end_acc": [
 		"10000"
 	],
@@ -75,13 +65,16 @@
 	"slowdown_start_speed": [
 		"350"
 	],
-	"sparse_infill_line_width": "0.82",
+	"sparse_infill_line_width": "0.22",
 	"sparse_infill_speed": [
 		"100"
 	],
-	"support_line_width": "0.82",
-	"top_surface_line_width": "0.82",
-	"top_surface_pattern": "monotonic",
+	"support_bottom_z_distance": "0.1",
+	"support_line_width": "0.4",
+	"support_top_z_distance": "0.1",
+	"top_color_penetration_layers": "7",
+	"top_shell_layers": "7",
+	"top_surface_line_width": "0.22",
 	"top_surface_speed": [
 		"150"
 	],
@@ -91,7 +84,8 @@
 	"travel_speed": [
 		"350"
 	],
+	"wall_loops": "4",
 	"compatible_printers": [
-		"Qidi X-Smart 5 0.8 nozzle"
+		"Qidi X-Smart 5 0.2 nozzle"
 	]
 }

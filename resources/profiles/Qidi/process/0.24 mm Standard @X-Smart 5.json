@@ -1,15 +1,13 @@
 {
 	"type": "process",
-	"name": "0.12mm High Quality @X-Smart 5",
+	"name": "0.24 mm Standard @X-Smart 5",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "RlguRJ9wy4d4YHqE",
+	"setting_id": "6QcuzRUjHEawi1uS",
 	"instantiation": "true",
-	"bottom_color_penetration_layers": "5",
-	"bottom_shell_layers": "5",
 	"bridge_flow": "1",
 	"default_acceleration": [
-		"4000"
+		"6000"
 	],
 	"elefant_foot_compensation": "0.075",
 	"enable_arc_fitting": "1",
@@ -19,30 +17,21 @@
 	"gap_infill_speed": [
 		"230"
 	],
-	"initial_layer_infill_speed": [
-		"105"
-	],
-	"initial_layer_speed": [
-		"50"
-	],
 	"inner_wall_acceleration": [
 		"0"
 	],
 	"inner_wall_speed": [
-		"150"
+		"230"
 	],
 	"internal_solid_infill_speed": [
-		"180"
+		"230"
 	],
-	"layer_height": "0.12",
+	"layer_height": "0.24",
 	"outer_wall_acceleration": [
-		"2000"
+		"5000"
 	],
 	"outer_wall_speed": [
-		"60"
-	],
-	"overhang_1_4_speed": [
-		"60"
+		"200"
 	],
 	"overhang_2_4_speed": [
 		"30"
@@ -50,8 +39,10 @@
 	"overhang_3_4_speed": [
 		"10"
 	],
+	"overhang_4_4_speed": [
+		"10"
+	],
 	"prime_tower_brim_width": "-1",
-	"sparse_infill_pattern": "gyroid",
 	"slowdown_end_acc": [
 		"10000"
 	],
@@ -71,21 +62,19 @@
 		"350"
 	],
 	"sparse_infill_speed": [
-		"180"
+		"230"
 	],
-	"support_bottom_z_distance": "0.12",
-	"support_threshold_angle": "20",
-	"support_top_z_distance": "0.12",
-	"top_color_penetration_layers": "5",
-	"top_shell_layers": "5",
-	"top_shell_thickness": "0.6",
-	"top_surface_speed": [
-		"150"
-	],
+	"support_threshold_angle": "35",
+	"top_color_penetration_layers": "4",
+	"top_shell_layers": "4",
+	"top_shell_thickness": "1.0",
+	"top_surface_line_width": "0.45",
 	"travel_acceleration": [
 		"8000"
 	],
-	"wall_loops": "2",
+	"travel_speed": [
+		"350"
+	],
 	"compatible_printers": [
 		"Qidi X-Smart 5 0.4 nozzle"
 	]

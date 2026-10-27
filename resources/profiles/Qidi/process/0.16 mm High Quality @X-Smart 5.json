@@ -1,12 +1,12 @@
 {
 	"type": "process",
-	"name": "0.08mm High Quality @X-Smart 5",
+	"name": "0.16 mm High Quality @X-Smart 5",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "nsipuLVAmIm9Chu5",
+	"setting_id": "nUHDrSQjKp8snqpJ",
 	"instantiation": "true",
-	"bottom_color_penetration_layers": "7",
-	"bottom_shell_layers": "7",
+	"bottom_color_penetration_layers": "4",
+	"bottom_shell_layers": "4",
 	"bridge_flow": "1",
 	"default_acceleration": [
 		"4000"
@@ -17,25 +17,15 @@
 		"1"
 	],
 	"gap_infill_speed": [
-		"210"
-	],
-	"initial_layer_infill_speed": [
-		"105"
-	],
-	"initial_layer_speed": [
-		"50"
+		"250"
 	],
 	"inner_wall_acceleration": [
 		"0"
 	],
-	"inner_wall_speed": [
-		"120"
-	],
 	"internal_solid_infill_speed": [
-		"150"
+		"200"
 	],
-	"ironing_flow": "8%",
-	"layer_height": "0.08",
+	"layer_height": "0.16",
 	"outer_wall_acceleration": [
 		"2000"
 	],
@@ -51,7 +41,6 @@
 	"overhang_3_4_speed": [
 		"10"
 	],
-	"prime_tower_brim_width": "-1",
 	"slowdown_end_acc": [
 		"10000"
 	],
@@ -70,16 +59,16 @@
 	"slowdown_start_speed": [
 		"350"
 	],
-	"sparse_infill_speed": [
-		"150"
-	],
 	"sparse_infill_pattern": "gyroid",
-	"support_bottom_z_distance": "0.08",
-	"support_threshold_angle": "15",
-	"support_top_z_distance": "0.08",
-	"top_color_penetration_layers": "9",
-	"top_shell_layers": "9",
-	"top_shell_thickness": "0.8",
+	"sparse_infill_speed": [
+		"200"
+	],
+	"support_bottom_z_distance": "0.16",
+	"support_threshold_angle": "25",
+	"support_top_z_distance": "0.16",
+	"top_color_penetration_layers": "6",
+	"top_shell_layers": "6",
+	"top_shell_thickness": "1.0",
 	"top_surface_speed": [
 		"150"
 	],

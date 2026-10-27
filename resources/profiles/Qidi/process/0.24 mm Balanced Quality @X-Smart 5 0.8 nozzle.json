@@ -1,14 +1,16 @@
 {
 	"type": "process",
-	"name": "0.20mm Steady @X-Smart 5",
+	"name": "0.24 mm Balanced Quality @X-Smart 5 0.8 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "cQJZt88z8uRP87Xu",
+	"setting_id": "0QadHuNI1Pb7zFPE",
 	"instantiation": "true",
-	"bottom_shell_layers": "3",
 	"bridge_flow": "1",
+	"bridge_speed": [
+		"30"
+	],
 	"default_acceleration": [
-		"3500"
+		"6000"
 	],
 	"elefant_foot_compensation": "0.075",
 	"enable_arc_fitting": "1",
@@ -16,33 +18,45 @@
 		"1"
 	],
 	"gap_infill_speed": [
-		"150"
+		"50"
+	],
+	"initial_layer_infill_speed": [
+		"55"
+	],
+	"initial_layer_line_width": "0.82",
+	"initial_layer_print_height": "0.4",
+	"initial_layer_speed": [
+		"35"
 	],
 	"inner_wall_acceleration": [
 		"0"
 	],
+	"inner_wall_line_width": "0.82",
 	"inner_wall_speed": [
 		"150"
 	],
-	"initial_layer_travel_acceleration": [
-		"5000"
-	],
+	"internal_solid_infill_line_width": "0.82",
 	"internal_solid_infill_speed": [
 		"150"
 	],
+	"layer_height": "0.24",
+	"line_width": "0.82",
 	"outer_wall_acceleration": [
-		"3500"
+		"5000"
 	],
+	"outer_wall_line_width": "0.82",
 	"outer_wall_speed": [
-		"150"
-	],
-	"overhang_2_4_speed": [
-		"30"
+		"120"
 	],
 	"overhang_3_4_speed": [
-		"10"
+		"25"
+	],
+	"overhang_4_4_speed": [
+		"5"
 	],
 	"prime_tower_brim_width": "-1",
+	"skeleton_infill_line_width": "0.82",
+	"skin_infill_line_width": "0.82",
 	"slowdown_end_acc": [
 		"10000"
 	],
@@ -61,21 +75,23 @@
 	"slowdown_start_speed": [
 		"350"
 	],
-	"sparse_infill_density": "15%",
+	"sparse_infill_line_width": "0.82",
 	"sparse_infill_speed": [
-		"150"
+		"100"
 	],
-	"top_color_penetration_layers": "5",
-	"top_shell_layers": "5",
-	"top_shell_thickness": "1.0",
+	"support_line_width": "0.82",
+	"top_surface_line_width": "0.82",
+	"top_surface_pattern": "monotonic",
 	"top_surface_speed": [
 		"150"
 	],
-	"wall_loops": "2",
 	"travel_acceleration": [
-		"4000"
+		"8000"
+	],
+	"travel_speed": [
+		"350"
 	],
 	"compatible_printers": [
-		"Qidi X-Smart 5 0.4 nozzle"
+		"Qidi X-Smart 5 0.8 nozzle"
 	]
 }

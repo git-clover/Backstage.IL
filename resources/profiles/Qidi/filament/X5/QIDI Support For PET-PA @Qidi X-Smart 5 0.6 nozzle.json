@@ -3,7 +3,7 @@
 	"name": "QIDI Support For PET/PA @Qidi X-Smart 5 0.6 nozzle",
 	"inherits": "QIDI Support For PET/PA@X-Smart 5-Series",
 	"from": "system",
-	"setting_id": "HB6c32wzFnv7BwvW",
+	"setting_id": "o2e8EVI2fpe7mwVi",
 	"instantiation": "true",
 	"additional_cooling_fan_speed": [
 		"0"

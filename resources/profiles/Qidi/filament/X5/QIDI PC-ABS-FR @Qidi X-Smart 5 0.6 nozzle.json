@@ -3,7 +3,7 @@
 	"name": "QIDI PC/ABS-FR @Qidi X-Smart 5 0.6 nozzle",
 	"inherits": "QIDI PC/ABS-FR@X-Smart 5-Series",
 	"from": "system",
-	"setting_id": "76s2Hzylq11YXq0i",
+	"setting_id": "DEdayLCKkbvSH0ay",
 	"instantiation": "true",
 	"additional_cooling_fan_speed_unseal": [
 		"0"

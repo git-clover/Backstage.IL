@@ -1,13 +1,13 @@
 {
 	"type": "process",
-	"name": "0.10mm Standard @X-Smart 5 0.2 nozzle",
+	"name": "0.12 mm Balanced Quality @X-Smart 5 0.2 nozzle",
 	"inherits": "fdm_process_n_common",
 	"from": "system",
-	"setting_id": "yRvZ1AURjgkUDQtk",
+	"setting_id": "XUTO2aw6aBWznYip",
 	"instantiation": "true",
 	"bottom_color_penetration_layers": "5",
 	"bottom_shell_layers": "5",
-	"bridge_flow": "1.5",
+	"bridge_flow": "1",
 	"default_acceleration": [
 		"6000"
 	],
@@ -29,20 +29,14 @@
 	],
 	"inner_wall_line_width": "0.22",
 	"internal_solid_infill_line_width": "0.22",
-	"layer_height": "0.1",
+	"layer_height": "0.12",
 	"line_width": "0.22",
 	"outer_wall_acceleration": [
 		"5000"
 	],
 	"outer_wall_line_width": "0.22",
-	"overhang_2_4_speed": [
-		"60"
-	],
-	"overhang_3_4_speed": [
-		"60"
-	],
-	"overhang_4_4_speed": [
-		"35"
+	"overhang_1_4_speed": [
+		"0"
 	],
 	"prime_tower_brim_width": "-1",
 	"skeleton_infill_line_width": "0.22",
@@ -69,9 +63,9 @@
 	"sparse_infill_speed": [
 		"100"
 	],
-	"support_bottom_z_distance": "0.1",
-	"support_line_width": "0.4",
-	"support_top_z_distance": "0.1",
+	"support_bottom_z_distance": "0.12",
+	"support_line_width": "0.22",
+	"support_top_z_distance": "0.12",
 	"top_color_penetration_layers": "7",
 	"top_shell_layers": "7",
 	"top_surface_line_width": "0.22",

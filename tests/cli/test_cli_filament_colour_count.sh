@@ -44,7 +44,7 @@ EOF
 
 FILAMENT="$PROFILES/filament/Bambu PLA Basic @BBL P1S 0.4 nozzle.json"
 timeout 300 "$BIN" --datadir "$WORK/datadir" \
-    --load-settings "$PROFILES/machine/Bambu Lab P1S 0.4 nozzle.json;$PROFILES/process/0.20mm Standard @BBL X1C.json" \
+    --load-settings "$PROFILES/machine/Bambu Lab P1S 0.4 nozzle.json;$PROFILES/process/0.20 mm Standard @BBL X1C.json" \
     --load-filaments "$FILAMENT;$FILAMENT" --load-custom-gcodes "$WORK/changes.json" \
     --slice 0 --outputdir "$WORK" --export-3mf out.3mf "$WORK/cube.stl" > "$WORK/log" 2>&1 \
     || { echo "FAIL: orca-slicer exited $?"; tail -n 40 "$WORK/log"; exit 1; }
