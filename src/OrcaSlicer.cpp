@@ -1303,6 +1303,13 @@ int CLI::run(int argc, char **argv)
     }
 #endif // __WXGTK__
 
+#ifdef _WIN32
+    // WebView2 152+ hides the pointer while typing and only restores it on a mouse event inside the
+    // webview, so closing one from the keyboard (e.g. Enter in the Speed Dial) leaves it hidden
+    // app-wide (WebView2Feedback#5687). Must be set before the first webview is created.
+    boost::nowide::setenv("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS", "--disable-features=HideCursorWhileTyping", /* replace */ false);
+#endif
+
 	// Switch boost::filesystem to utf8.
     try {
         boost::nowide::nowide_filesystem();
@@ -6643,7 +6650,8 @@ int CLI::run(int argc, char **argv)
                                                             // Only check for single-color object
                                                             for (size_t j = 0; j < inside_extruders.size(); ++j) {
                                                                 if (!inside_extruders[j]) {
-                                                                    std::vector<int> filaments = vol->get_extruders();
+                                                                    // A mixed filament prints with its component filaments.
+                                                                    const std::vector<int> filaments = expand_mixed_filament_ids(vol->get_extruders(), m_print_config);
                                                                     unprintable_filament_ids[j].insert(filaments.begin(), filaments.end());
                                                                 }
                                                             }
