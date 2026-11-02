@@ -1234,7 +1234,7 @@ Print &pinched_tube(Print &print, Model &model, const DynamicPrintConfig &config
         lobe.translate(0.f, y, 0.f);
         object->add_volume(std::move(lobe), ModelVolumeType::MODEL_PART, false);
     }
-    // The waist is sqrt(12^2 - 7^2) = 9.75mm from the centre.
+    // The waist is sqrt(12^2 - 7^2) =  9.75 mm from the centre.
     object->add_volume(make_cylinder(8.75, 2.), ModelVolumeType::NEGATIVE_VOLUME, false);
     object->add_instance();
     object->ensure_on_bed();
@@ -1259,7 +1259,7 @@ TEST_CASE("Inner/Outer/Inner prints both outer walls of a pinched wall before th
     Model model;
     pinched_tube(print, model, config);
     const auto layers = print.objects().front()->layers();
-    // 2mm at 0.2mm layers.
+    // 2mm at  0.2 mm layers.
     REQUIRE(layers.size() == 10);
 
     // The first layer is printed Inner/Outer.
@@ -1316,7 +1316,7 @@ Print &collar_slab(Print &print, Model &model, const DynamicPrintConfig &config)
     return print;
 }
 
-// A 6mm radius cup, 3mm tall, with a 2mm wall and a 1.2mm floor. On the floor's last layer the cup's wall is a band
+// A 6mm radius cup, 3mm tall, with a 2mm wall and a  1.2 mm floor. On the floor's last layer the cup's wall is a band
 // beside the floor's top surface, wide enough for three walls inside the cup's outer wall.
 Print &floored_cup(Print &print, Model &model, const DynamicPrintConfig &config)
 {
@@ -1364,7 +1364,7 @@ TEST_CASE("Walls beside a top surface keep their order by depth with only one wa
     else
         floored_cup(print, model, config);
 
-    // The slab's last layer at 2mm, or the floor's at 1.2mm. The walls around the axis as their mean distance from it, in
+    // The slab's last layer at 2mm, or the floor's at  1.2 mm. The walls around the axis as their mean distance from it, in
     // extrusion order.
     const double print_z = shape == "hole" ? 2. : 1.2;
     const Layer *layer   = nullptr;
@@ -1388,7 +1388,7 @@ TEST_CASE("Walls beside a top surface keep their order by depth with only one wa
             radii.push_back(radius);
         }
     REQUIRE(outer >= 0);
-    // With 0.5mm walls the first inner wall is about 0.5mm from the outer wall, the third wall about 1mm. The positions
+    // With  0.5 mm walls the first inner wall is about  0.5 mm from the outer wall, the third wall about 1mm. The positions
     // in extrusion order of the first inner walls and of the third walls and beyond.
     std::vector<int> first_inner;
     std::vector<int> third_wall;

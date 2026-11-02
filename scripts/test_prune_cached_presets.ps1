@@ -28,20 +28,20 @@ function New-Fixture {
     Remove-Item -Recurse -Force $work -ErrorAction SilentlyContinue
     $src = Join-Path $work 'src'
     Write-File "$src\Acme.json" ('{"machine_model_list":[{"sub_path":"machine/Acme One.json"}],' +
-        '"process_list":[{"sub_path":"process/0.20mm Standard @Acme.json"}],' +
+        '"process_list":[{"sub_path":"process/ 0.20 mm Standard @Acme.json"}],' +
         '"filament_list":[{"sub_path":"filament/Acme PLA.json"},{"sub_path":"filament/not shipped.json"}],' +
         '"machine_list":[{"sub_path":"machine/Acme One 0.4 nozzle.json"}]}')
     Write-File "$src\Acme.opc" 'cache'
     foreach ($preset in 'machine\Acme One.json', 'machine\Acme One 0.4 nozzle.json',
-                        'process\0.20mm Standard @Acme.json', 'filament\Acme PLA.json') {
+                        'process\ 0.20 mm Standard @Acme.json', 'filament\Acme PLA.json') {
         Write-File "$src\Acme\$preset" '{}'
     }
     Write-File "$src\Acme\machine\Acme One_cover.png" 'png'
     Write-File "$src\Acme\filament\colors.json" '{}'
     Write-File "$src\Acme\shapes\bed.stl" 'solid'
-    Write-File "$src\Beta.json" '{"process_list":[{"sub_path":"process/0.20mm Standard @Beta.json"}]}'
+    Write-File "$src\Beta.json" '{"process_list":[{"sub_path":"process/ 0.20 mm Standard @Beta.json"}]}'
     Write-File "$src\Beta.opc" 'cache'
-    Write-File "$src\Beta\process\0.20mm Standard @Beta.json" '{}'
+    Write-File "$src\Beta\process\ 0.20 mm Standard @Beta.json" '{}'
     Write-File "$src\Gamma.json" '{"filament_list":[{"sub_path":"filament/Gamma PLA.json"}]}'
     Write-File "$src\Gamma\filament\Gamma PLA.json" '{}'
     Write-File "$src\blacklist.json" '{}'
