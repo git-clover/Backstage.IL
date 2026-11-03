@@ -23721,7 +23721,7 @@ msgid "Generating support"
 msgstr "서포트 생성 중"
 
 msgid "Optimizing toolpath"
-msgstr "툴 경로 최적화"
+msgstr "멤버별 동선 최적화"
 
 msgid "Slicing mesh"
 msgstr "슬라이싱 메시"
