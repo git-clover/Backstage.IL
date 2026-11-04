@@ -3,7 +3,7 @@
 	"name": "0.48 mm Draft @BenFab 450 0.8 nozzle",
 	"inherits": "0.40 mm Standard @BenFab 450 0.8 nozzle",
 	"from": "system",
-	"setting_id": "PzS5G8JSwAIouuwS",
+	"setting_id": "0H2txsX6SKO9Ng5o",
 	"instantiation": "true",
 	"layer_height": "0.48"
 }
