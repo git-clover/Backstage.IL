@@ -6,7 +6,7 @@
 	"setting_id": "HOz7tFPKNbzbPyJj",
 	"instantiation": "true",
 	"printer_model": "Sovol SV08 MAX",
-	"default_print_profile": "0.50mm Standard @Sovol SV08 MAX 1.0 nozzle",
+	"default_print_profile": "0.50 mm Standard @Sovol SV08 MAX 1.0 nozzle",
 	"printer_variant": "1.0",
 	"nozzle_diameter": [
 		"1.0"
