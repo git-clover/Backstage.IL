@@ -71,7 +71,7 @@ EOF
 }
 
 slice base "$WORK/cube.stl" \
-    --load-settings "$PROFILES/machine/Bambu Lab H2D 0.4 nozzle.json;$PROFILES/process/0.20mm Standard @BBL H2D.json" \
+    --load-settings "$PROFILES/machine/Bambu Lab H2D 0.4 nozzle.json;$PROFILES/process/0.20 mm Standard @BBL H2D.json" \
     --load-filaments "$PROFILES/filament/Bambu PLA Basic @BBL H2D.json"
 
 # Prints the number of filaments to load: one per variant entry of the project's filament.
