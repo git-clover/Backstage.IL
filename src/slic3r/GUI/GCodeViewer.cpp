@@ -247,7 +247,7 @@ static std::string format_compact_weight(double value_in_grams, bool imperial_un
         unit = "kg";
     }
 
-    ::sprintf(buffer, "%s%.2f%s", value_in_grams < 0.0 ? "-" : "", scaled_value, unit);
+    ::sprintf(buffer, "%s%.2f %s", value_in_grams < 0.0 ? "-" : "", scaled_value, unit);
     return buffer;
 }
 

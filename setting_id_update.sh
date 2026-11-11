@@ -1,16 +1,34 @@
 execute=${1:-0}
 directory=$2
+bsd=$3
 
-if [[ $execute == 1001485 ]]; then
+if [ $execute = 1001485 ]; then
 	rg "\"setting_id\": \"[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
 		p1=$(echo "$file" | sd "resources/profiles/" "" | sd "/" "{}" | sd ".json" "")
 		IFS="{}" read -r -a p2 <<< "$p1"
 		p3=$(python quickgen.py autopilot "${p2[0]}" "${p2[2]}" "${p2[-1]}")
 		echo "For ${p2[0]} ${p2[2]} ${p2[-1]}"
 		echo $p3
-		sd "^([ \t]*)\"setting_id\": \"[^\"]*\"" "\$1${p3}" "$file"
+		if [ $bsd = 'bsd' ]; then
+			sed -iE '' "s|^([:blank:]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
+		elif [ $bsd = 'gnu' ]; then
+			sed -iE "s|^([:blank:]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
+		else
+			echo "BSD and GNU has different sed builds. Specify your sed."
+			exit 1234
+		fi
 	done
-elif [[ $execute == 1 ]]; then
+
+# BEFORE SED/GREP
+#        rg "\"setting_id\": \"[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
+#                p1=$(echo "$file" | sd "resources/profiles/" "" | sd "/" "{}" | sd ".json" "")
+#                IFS="{}" read -r -a p2 <<< "$p1"
+#                p3=$(python quickgen.py autopilot "${p2[0]}" "${p2[2]}" "${p2[-1]}")
+#                echo "For ${p2[0]} ${p2[2]} ${p2[-1]}"
+#                echo $p3
+#                sd "^([ \t]*)\"setting_id\": \"[^\"]*\"" "\$1${p3}" "$file"
+
+elif [ $execute = 1 ]; then
 	echo "You are about to update every single setting_id as you run this script."
 	echo "If a directory is specified, only that directory is affected."
 	echo "To reset afterwards, type: git reset --hard && git clean -fd"
