@@ -2,6 +2,7 @@ execute=${1:-0}
 directory=$2
 bsd=$3
 
+# MIGRATION IN PROGRESS! Things may work differently than expected for a few weeks from now. Thank you for your patience.
 if [ $execute = 1001485 ]; then
 	rg "\"setting_id\": \"[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
 		p1=$(echo "$file" | sd "resources/profiles/" "" | sd "/" "{}" | sd ".json" "")
@@ -10,9 +11,9 @@ if [ $execute = 1001485 ]; then
 		echo "For ${p2[0]} ${p2[2]} ${p2[-1]}"
 		echo $p3
 		if [ $bsd = 'bsd' ]; then
-			sed -iE '' "s|^([:blank:]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
+			sed -iE '' "s|^([[:blank:]]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
 		elif [ $bsd = 'gnu' ]; then
-			sed -iE "s|^([:blank:]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
+			sed -iE "s|^([[:blank:]]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
 		else
 			echo "BSD and GNU has different sed builds. Specify your sed."
 			exit 1234
