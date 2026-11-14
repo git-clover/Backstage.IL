@@ -90,7 +90,7 @@ check() {
 }
 
 BBL="$PROFILES/BBL"
-H2D=(--load-settings "$BBL/machine/Bambu Lab H2D 0.4 nozzle.json;$BBL/process/0.20mm Standard @BBL H2D.json"
+H2D=(--load-settings "$BBL/machine/Bambu Lab H2D 0.4 nozzle.json;$BBL/process/0.20 mm Standard @BBL H2D.json"
      --load-filaments "$BBL/filament/Bambu PLA Basic @BBL H2D.json;$BBL/filament/Bambu PLA Basic @BBL H2D.json")
 
 # A two-nozzle printer with two filaments takes the printer's default per nozzle.
@@ -100,7 +100,7 @@ check base "$WORK/base/out.3mf" "Standard,Standard"
 # Printer defaults other than Standard.
 PRUSA="$PROFILES/Prusa"
 slice defaults "$WORK/cube.stl" \
-    --load-settings "$PRUSA/machine/Prusa CORE One INDX 4T HF 0.4 nozzle.json;$PRUSA/process/0.20mm Balanced @Prusa CORE One INDX HF 0.4.json" \
+    --load-settings "$PRUSA/machine/Prusa CORE One INDX 4T HF 0.4 nozzle.json;$PRUSA/process/0.20 mm Balanced @Prusa CORE One INDX HF 0.4.json" \
     --load-filaments "$PRUSA/filament/Generic PLA @Prusa CORE One INDX.json;$PRUSA/filament/Generic PLA @Prusa CORE One INDX.json"
 check defaults "$WORK/defaults/out.3mf" "High Flow,High Flow,High Flow,High Flow"
 

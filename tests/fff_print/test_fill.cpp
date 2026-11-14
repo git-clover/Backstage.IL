@@ -691,7 +691,7 @@ TEST_CASE("Z anti-aliasing keeps the infill rotation template's step", "[Fill]")
 
 static constexpr double rotate_template_first_layer_height = 0.2;
 
-// Slices a 20-layer box whose first layer is first_layer_height thick and the rest 0.2mm.
+// Slices a 20-layer box whose first layer is first_layer_height thick and the rest 0.2 mm.
 static void slice_for_rotate_templates(Print &print, double first_layer_height)
 {
     Slic3r::Test::init_and_process_print({make_cube(20, 20, 3.8 + first_layer_height)}, print,
@@ -846,7 +846,7 @@ TEST_CASE("Infill rotation template range can be a height in mm, cm, m, feet, in
         {"+90/0.2cm", turn_9_per_layer},
         {"+90/0.002m", turn_9_per_layer},
         {"+90/50%", turn_9_per_layer},
-        // 0.01' is 3.048mm and 0.1" is 2.54mm, which do not end on a layer.
+        // 0.01' is 3.048 mm and 0.1" is 2.54 mm, which do not end on a layer.
         {"+90/0.01'", {5.91, 11.81, 17.72, 23.62, 29.53, 35.43, 41.34, 47.24, 53.15, 59.06,
                        64.96, 70.87, 76.77, 82.68, 88.58, 95.91, 101.81, 107.72, 113.62, 119.53}},
         {"+90/0.1\"", {7.09, 14.17, 21.26, 28.35, 35.43, 42.52, 49.61, 56.69, 63.78, 70.87,
@@ -858,9 +858,9 @@ TEST_CASE("Infill rotation template range can be a height in mm, cm, m, feet, in
 TEST_CASE("Infill rotation template layer height unit counts layer_height under a thicker first layer", "[Fill][RotateTemplate]")
 {
     const auto [first_layer_height, expected] = GENERATE(table<double, std::vector<double>>({
-        // 5 layers of 0.2mm.
+        // 5 layers of 0.2 mm.
         {0.2, turn_18_per_layer},
-        // With a 0.4mm first layer, the first range is still 5 x 0.2mm = 1mm, so the first layer turns twice as far.
+        // With a 0.4 mm first layer, the first range is still 5 x 0.2 mm = 1mm, so the first layer turns twice as far.
         {0.4, {36, 54, 72, 90, 108, 126, 144, 162, 180, 198, 216, 234, 252, 270, 288, 306, 324, 342, 360, 378}},
     }));
     CAPTURE(first_layer_height);
@@ -1795,10 +1795,10 @@ TEST_CASE("Hilbert curve sparse infill lines up across layers of different sizes
                                          {"resolution", 0.012}});
 
     const PrintObject &object = *print.objects().front();
-    // 10mm at 0.2mm.
+    // 10mm at 0.2 mm.
     REQUIRE(object.layers().size() == 50);
-    const Layer    &lower = *object.get_layer(12); // 2.4mm to 2.6mm
-    const Layer    &upper = *object.get_layer(37); // 7.4mm to 7.6mm
+    const Layer    &lower = *object.get_layer(12); // 2.4 mm to 2.6 mm
+    const Layer    &upper = *object.get_layer(37); // 7.4 mm to 7.6 mm
     const Polylines below = layer_paths(lower, erInternalInfill);
     REQUIRE_FALSE(below.empty());
     const AABBTreeLines::LinesDistancer<Line> below_tree(to_lines(below));
