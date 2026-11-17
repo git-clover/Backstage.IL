@@ -1,4 +1,4 @@
-fon:
+on:
     workflow_call:
       inputs:
         cache-key:
