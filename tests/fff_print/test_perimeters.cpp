@@ -42,7 +42,7 @@ const double ledge_z = 5.0;
 // The first layer, at initial_layer_print_height.
 const double first_layer_z = 0.2;
 
-// TestMesh::step scaled 3x in X/Y: a 60x60x5 base carrying a 54x54 column up to z=10, leaving a 3mm
+// TestMesh::step scaled 3x in X/Y: a 60x60x5 base carrying a 54x54 column up to z=10, leaving a 3 mm
 // top ledge around a feature that keeps rising. That is the geometry both only_one_wall_top and the
 // top surface expansion act on. The ledge has to stay wider than the wall band plus two top-infill
 // lines, or the expansion discards it as a sliver and the tests below assert nothing.
@@ -69,7 +69,7 @@ DynamicPrintConfig base_config(const char *wall_generator)
         { "top_surface_expansion",      0.0 },
         { "only_one_wall_top",          false },
         { "only_one_wall_first_layer",  false },
-        // Do not let the one-wall threshold discard the 3mm ledge before the feature sees it.
+        // Do not let the one-wall threshold discard the 3 mm ledge before the feature sees it.
         { "min_width_top_surface",      0.0 },
     });
     return config;
@@ -329,7 +329,7 @@ DynamicPrintConfig narrow_wall_config(bool only_one_wall_top, double top_surface
     return config;
 }
 
-// Inner wall length the layer at print_z extrudes within 3mm of its +Y edge: the tube wall facing away from the tab.
+// Inner wall length the layer at print_z extrudes within 3 mm of its +Y edge: the tube wall facing away from the tab.
 double far_wall_inner_wall_length(const Print &print, double print_z)
 {
     for (const Layer *layer : print.objects().front()->layers()) {
@@ -399,7 +399,7 @@ namespace {
 // The layer that closes the cavity of box_over_cavity(), the first one printed over air.
 const double cavity_ceiling_z = 6.2;
 
-// A cone standing on its tip, flaring by 5mm of radius per mm of height: at a layer height of 0.2 every
+// A cone standing on its tip, flaring by 5 mm of radius per mm of height: at a layer height of 0.2 every
 // wall of a layer lands a full millimetre outside the one below, entirely off the layer below but right
 // alongside the walls printed with it.
 TriangleMesh flared_cone()
@@ -410,9 +410,9 @@ TriangleMesh flared_cone()
     return cone;
 }
 
-// A 30mm box holding a 20mm cavity from z=2 to z=6, with a 4mm hole punched down through the ceiling
+// A 30 mm box holding a 20 mm cavity from z=2 to z=6, with a 4 mm hole punched down through the ceiling
 // of that cavity. The layer at cavity_ceiling_z bridges the cavity, and the walls of the hole sit in
-// the middle of that bridge, 15mm clear of anything the layer below supports.
+// the middle of that bridge, 15 mm clear of anything the layer below supports.
 Print &box_over_cavity(Print &print, Model &model, const DynamicPrintConfig &config)
 {
     ModelObject *object = model.add_object();
@@ -757,10 +757,10 @@ TEST_CASE("A lower layer sliver too thin to print does not support the wall abov
     const double unprintable = overhang_for(unprintable_rib);
     const double printable   = overhang_for(printable_rib);
 
-    // Only where the slab meets the tower is it held up from below, so both of its 20mm walls overhang.
+    // Only where the slab meets the tower is it held up from below, so both of its 20 mm walls overhang.
     REQUIRE(no_rib > scale_(30.));
     CHECK_THAT(unprintable, Catch::Matchers::WithinAbs(no_rib, scale_(1.)));
-    // A rib that does get printed takes the 20mm outer wall running along it out of the overhangs.
+    // A rib that does get printed takes the 20 mm outer wall running along it out of the overhangs.
     CHECK(printable < no_rib - scale_(15.));
 }
 
@@ -814,7 +814,7 @@ double mid_span_wall_spread(const Print &print, double print_z)
 
 } // namespace
 
-// TestMesh::bridge is a 50.10 mm deck from z=5 to z=8 on two 5mm-wide pillars, leaving a 40mm span. The deck's
+// TestMesh::bridge is a 50.10 mm deck from z=5 to z=8 on two 5 mm-wide pillars, leaving a 40 mm span. The deck's
 // first layer (print_z 5.2) crosses the span unsupported; the layers above it rest on the deck.
 TEST_CASE("Fuzzy skin leaves the walls of a bridge smooth", "[Perimeters]")
 {
@@ -881,7 +881,7 @@ Print &square_tube(Print &print, Model &model, const DynamicPrintConfig &config,
 }
 
 // Every setting the wall thicknesses below are measured against. With these widths the two outer walls of
-// a 0.8 mm wall touch, a 1mm wall leaves a gap between them for gap fill, and an inner wall needs about 1.5 mm.
+// a 0.8 mm wall touch, a 1 mm wall leaves a gap between them for gap fill, and an inner wall needs about 1.5 mm.
 // Both one wall options are on, so the first and the last layer have a single wall whatever wall_loops asks.
 DynamicPrintConfig hole_direction_config(int wall_loops, const char *wall_direction)
 {
@@ -939,7 +939,7 @@ std::vector<WallDirections> wall_directions(const Print &print)
 
 // Holes run against the wall direction, so the inside of a hole keeps its direction on the layers where the
 // hole opens into the contour. That holds on every layer, the single wall ones included, as soon as anything
-// fits beside the outer wall of the hole: infill, an inner wall, or only gap fill. The 1mm tube with a 3mm far
+// fits beside the outer wall of the hole: infill, an inner wall, or only gap fill. The 1 mm tube with a 3 mm far
 // side is the shape that used to flip, where the far side has an inner wall on most layers and gap fill runs
 // around the rest.
 TEST_CASE("Holes run against the wall direction", "[Perimeters]")
@@ -953,7 +953,7 @@ TEST_CASE("Holes run against the wall direction", "[Perimeters]")
     Model model;
     square_tube(print, model, hole_direction_config(wall_loops, wall_direction), wall, far_wall);
     const std::vector<WallDirections> layers = wall_directions(print);
-    // 5mm at 0.2 mm layers.
+    // 5 mm at 0.2 mm layers.
     REQUIRE(layers.size() == 25);
     // Without gap fill between the outer walls the thin tubes would test the case below instead.
     if (wall < 2.)
@@ -1001,7 +1001,7 @@ namespace {
 // The outer radius of round_tube().
 const double tube_radius = 11.5;
 
-// Every setting the tube walls below are measured against. With 0.5 mm walls a 1mm tube wall holds only the two
+// Every setting the tube walls below are measured against. With 0.5 mm walls a 1 mm tube wall holds only the two
 // outer walls, touching, and every further 0.5 mm makes room for one more inner wall.
 DynamicPrintConfig tube_config(const char *wall_generator, int wall_loops)
 {
@@ -1028,7 +1028,7 @@ DynamicPrintConfig tube_config(const char *wall_generator, int wall_loops)
     return config;
 }
 
-// A 2mm tall round tube whose wall is `wall` mm thick.
+// A 2 mm tall round tube whose wall is `wall` mm thick.
 Print &round_tube(Print &print, Model &model, const DynamicPrintConfig &config, double wall)
 {
     ModelObject *object = model.add_object();
@@ -1156,7 +1156,7 @@ TEST_CASE("Each side of a tube wall prints its walls in the wall sequence order"
     Model model;
     round_tube(print, model, config, tube.wall);
     const std::vector<std::vector<TubeLoop>> layers = tube_loops(print, tube.wall);
-    // 2mm at 0.2 mm layers.
+    // 2 mm at 0.2 mm layers.
     REQUIRE(layers.size() == 10);
 
     const int walls = std::string(wall_generator) == "arachne" ? tube.arachne_walls : tube.classic_walls;
@@ -1222,7 +1222,7 @@ TEST_CASE("Inner/Outer/Inner prints the hole of a narrow tube wall first and the
 
 namespace {
 
-// Two 12mm radius cylinders 14mm apart, 2mm tall, with a round hole in the middle 1mm short of the waist on either
+// Two 12 mm radius cylinders 14 mm apart, 2 mm tall, with a round hole in the middle 1 mm short of the waist on either
 // side. At the waist the two outer walls touch with nothing between them, so each inner wall turns there and runs back
 // along the other outer wall: an inner wall of both the contour and the hole.
 Print &pinched_tube(Print &print, Model &model, const DynamicPrintConfig &config)
@@ -1259,7 +1259,7 @@ TEST_CASE("Inner/Outer/Inner prints both outer walls of a pinched wall before th
     Model model;
     pinched_tube(print, model, config);
     const auto layers = print.objects().front()->layers();
-    // 2mm at  0.2 mm layers.
+    // 2 mm at  0.2 mm layers.
     REQUIRE(layers.size() == 10);
 
     // The first layer is printed Inner/Outer.
@@ -1294,7 +1294,7 @@ TEST_CASE("Inner/Outer/Inner prints both outer walls of a pinched wall before th
 
 namespace {
 
-// A 24x24x2mm slab with a round hole of 3mm radius, and a 2mm wide collar around the hole rising to 4mm. On the slab's
+// A 24x24x2 mm slab with a round hole of 3 mm radius, and a 2 mm wide collar around the hole rising to 4 mm. On the slab's
 // last layer the collar leaves a band around the hole that is not top surface, wide enough for three walls.
 Print &collar_slab(Print &print, Model &model, const DynamicPrintConfig &config)
 {
@@ -1316,7 +1316,7 @@ Print &collar_slab(Print &print, Model &model, const DynamicPrintConfig &config)
     return print;
 }
 
-// A 6mm radius cup, 3mm tall, with a 2mm wall and a  1.2 mm floor. On the floor's last layer the cup's wall is a band
+// A 6 mm radius cup, 3 mm tall, with a 2 mm wall and a  1.2 mm floor. On the floor's last layer the cup's wall is a band
 // beside the floor's top surface, wide enough for three walls inside the cup's outer wall.
 Print &floored_cup(Print &print, Model &model, const DynamicPrintConfig &config)
 {
@@ -1364,7 +1364,7 @@ TEST_CASE("Walls beside a top surface keep their order by depth with only one wa
     else
         floored_cup(print, model, config);
 
-    // The slab's last layer at 2mm, or the floor's at  1.2 mm. The walls around the axis as their mean distance from it, in
+    // The slab's last layer at 2 mm, or the floor's at  1.2 mm. The walls around the axis as their mean distance from it, in
     // extrusion order.
     const double print_z = shape == "hole" ? 2. : 1.2;
     const Layer *layer   = nullptr;
@@ -1388,7 +1388,7 @@ TEST_CASE("Walls beside a top surface keep their order by depth with only one wa
             radii.push_back(radius);
         }
     REQUIRE(outer >= 0);
-    // With  0.5 mm walls the first inner wall is about  0.5 mm from the outer wall, the third wall about 1mm. The positions
+    // With  0.5 mm walls the first inner wall is about  0.5 mm from the outer wall, the third wall about 1 mm. The positions
     // in extrusion order of the first inner walls and of the third walls and beyond.
     std::vector<int> first_inner;
     std::vector<int> third_wall;
@@ -1516,7 +1516,7 @@ TEST_CASE("A brim against the outer walls makes the first layer print them first
     const std::vector<std::vector<TubeLoop>> layers = tube_loops(print, wall);
     REQUIRE(layers.size() == 10);
 
-    // The thin wall hole has its outer wall a side, the 3mm tube wall three walls a side.
+    // The thin wall hole has its outer wall a side, the 3 mm tube wall three walls a side.
     const size_t walls = wall == 1. ? 1 : 3;
     for (const size_t i : { size_t(0), size_t(1) }) {
         const bool outer_walls_first = brim.outer_walls_first && i == 0;

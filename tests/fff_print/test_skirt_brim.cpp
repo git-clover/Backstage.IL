@@ -96,7 +96,7 @@ static bool brim_enters_first_layer_hole(Print &print)
 // height 0); per-object skirts are rejected in By object printing (no room between objects).
 TEST_CASE("Skirt is emitted once per layer it spans", "[SkirtBrim]")
 {
-    const int object_layers = 100; // 20mm cube at 0.2 mm layers
+    const int object_layers = 100; // 20 mm cube at 0.2 mm layers
     const char *skirt_type   = GENERATE("combined", "perobject");
     const char *print_seq    = GENERATE("by layer", "by object");
     const char *draft_shield = GENERATE("disabled", "enabled");
@@ -441,7 +441,7 @@ TEST_CASE("Outer-only painted brim ears stay out of model holes", "[SkirtBrim]")
 }
 
 SCENARIO("Skirt has the configured number of loops", "[SkirtBrim]") {
-    GIVEN("20mm cube and default config") {
+    GIVEN("20 mm cube and default config") {
         WHEN("skirt_loops is set to 2")  {
             Print print;
             init_and_process_print({cube(20)}, print, {
@@ -458,8 +458,8 @@ SCENARIO("Skirt has the configured number of loops", "[SkirtBrim]") {
 }
 
 SCENARIO("Brim has the configured number of loops", "[SkirtBrim]") {
-    GIVEN("20mm cube and default config, 1mm first layer width") {
-        WHEN("Brim is set to 6mm")  {
+    GIVEN("20 mm cube and default config, 1 mm first layer width") {
+        WHEN("Brim is set to 6 mm")  {
 	        Print print;
 	        init_and_process_print({cube(20)}, print, {
                     { "brim_type",                "outer_only" },
@@ -470,7 +470,7 @@ SCENARIO("Brim has the configured number of loops", "[SkirtBrim]") {
                 REQUIRE(brim_loop_count(print) == 6);
             }
         }
-        WHEN("Brim is set to 6mm, extrusion width 0.5 mm")  {
+        WHEN("Brim is set to 6 mm, extrusion width 0.5 mm")  {
 	        Print print;
 	        init_and_process_print({cube(20)}, print, {
                     { "brim_type",                "outer_only" },
@@ -634,7 +634,7 @@ SCENARIO("Skirt and brim generation", "[SkirtBrim]") {
         }
 
         WHEN("Large minimum skirt length is used.") {
-            // One skirt loop around a 20mm cube is ~88mm, so 5.0 mm forces extra loops.
+            // One skirt loop around a 20 mm cube is ~88 mm, so 5.0 mm forces extra loops.
             config.set_deserialize_strict({
                 { "skirt_loops",      1 },
                 { "min_skirt_length", 500 },

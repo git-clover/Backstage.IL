@@ -806,7 +806,7 @@ constexpr double filament_diameter = 1.75;
 constexpr double max_volumetric_speed = 20.;
 constexpr double layer_height = 0.2;
 
-// A 20mm cube sliced at 0.2mm layers with volumetric speeds `enabled` and `extra` applied last.
+// A 20 mm cube sliced at 0.2 mm layers with volumetric speeds `enabled` and `extra` applied last.
 std::string volumetric_speed_gcode(bool enabled, std::initializer_list<ConfigBase::SetDeserializeItem> extra)
 {
     DynamicPrintConfig config = DynamicPrintConfig::full_print_config();
@@ -824,7 +824,7 @@ std::string volumetric_speed_gcode(bool enabled, std::initializer_list<ConfigBas
     return Test::slice({Test::cube(20.)}, config);
 }
 
-// For each extrusion move longer than 1mm of `role` above the first layer: its feed rate (mm/s) and extruded flow (mm³/s).
+// For each extrusion move longer than 1 mm of `role` above the first layer: its feed rate (mm/s) and extruded flow (mm³/s).
 std::vector<std::pair<double, double>> role_speeds_and_flows(const std::string &gcode, std::string_view role)
 {
     const double filament_area = 0.25 * M_PI * filament_diameter * filament_diameter;
@@ -891,7 +891,7 @@ TEST_CASE("Volumetric speeds are ignored while disabled", "[GCode]")
 
 TEST_CASE("The max external volumetric speed limits outer walls but not inner walls", "[GCode]")
 {
-    // At 200mm/s both walls would extrude well above the external limit and below the filament limit.
+    // At 200 mm/s both walls would extrude well above the external limit and below the filament limit.
     const double max_external = 5.;
     const std::string gcode = volumetric_speed_gcode(false, {{"filament_max_external_volumetric_speed", max_external},
                                                              {"outer_wall_speed", 200.},

@@ -47,8 +47,8 @@ cat > "$WORK/process.json" <<'EOF'
 }
 EOF
 
-# capital.stl is a 40x40mm cap on an 8x8mm stem: the cap reaches ~22mm past the stem, beyond
-# the 6mm cantilever limit of PrintObject::is_support_necessary(). cube.stl has no overhang at
+# capital.stl is a 40x40 mm cap on an 8x8 mm stem: the cap reaches ~22 mm past the stem, beyond
+# the 6 mm cantilever limit of PrintObject::is_support_necessary(). cube.stl has no overhang at
 # all, so it slices without raising the warning.
 "$PY" - "$WORK/capital.stl" "$WORK/cube.stl" <<'EOF'
 import sys

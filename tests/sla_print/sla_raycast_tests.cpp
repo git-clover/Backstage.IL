@@ -44,13 +44,13 @@ TEST_CASE("Raycaster - find intersections of a line and cylinder")
 }
 
 #ifdef SLIC3R_HOLE_RAYCASTER
-// Create a simple scene with a 20mm cube and a big hole in the front wall 
-// with 5mm radius. Then shoot rays from interesting positions and see where
+// Create a simple scene with a 20 mm cube and a big hole in the front wall 
+// with 5 mm radius. Then shoot rays from interesting positions and see where
 // they land.
 TEST_CASE("Raycaster with loaded drillholes", "[sla_raycast]") 
 {
     // Load the cube and make it hollow.
-    TriangleMesh cube = load_model("20mm_cube.obj");
+    TriangleMesh cube = load_model("20 mm_cube.obj");
     sla::HollowingConfig hcfg;
     std::unique_ptr<TriangleMesh> cube_inside = sla::generate_interior(cube, hcfg);
     REQUIRE(cube_inside);
@@ -58,7 +58,7 @@ TEST_CASE("Raycaster with loaded drillholes", "[sla_raycast]")
     // Helper bb
     auto boxbb = cube.bounding_box();
     
-    // Create the big 10mm long drainhole in the front wall.
+    // Create the big 10 mm long drainhole in the front wall.
     Vec3f center = boxbb.center().cast<float>();
     Vec3f p = {center.x(), 0., center.z()};
     Vec3f normal = {0.f, 1.f, 0.f};
@@ -95,6 +95,6 @@ TEST_CASE("Raycaster with loaded drillholes", "[sla_raycast]")
     REQUIRE(hit.distance() == Catch::Approx(s.z() - boxbb.min.z() - hcfg.min_thickness));
 
     // Check for support tree correctness
-    test_support_model_collision("20mm_cube.obj", {}, hcfg, holes);
+    test_support_model_collision("20 mm_cube.obj", {}, hcfg, holes);
 }
 #endif

@@ -36,12 +36,12 @@ using namespace Slic3r;
 namespace {
 
 const char *const BELOW_PAD_TEST_OBJECTS[] = {
-    "20mm_cube.obj",
+    "20 mm_cube.obj",
     "V.obj",
 };
 
 const char *const AROUND_PAD_TEST_OBJECTS[] = {
-    "20mm_cube.obj",
+    "20 mm_cube.obj",
     "V.obj",
     "frog_legs.obj",
     "cube_with_concave_hole_enlarged.obj",

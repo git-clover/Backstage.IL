@@ -392,7 +392,7 @@ TEST_CASE("Infill and surfaces left on Default print with the object filament", 
     }
 }
 
-// A 20x20mm slab on a 4x4mm pillar: on the slab's first layer both walls are overhangs from end to end, so
+// A 20x20 mm slab on a 4x4 mm pillar: on the slab's first layer both walls are overhangs from end to end, so
 // only their wall index tells the inner wall from the outer one.
 TEST_CASE("Overhanging inner walls print with the inner wall filament", "[MultiFilament]")
 {
@@ -887,7 +887,7 @@ TEST_CASE("Wipe tower temperature-wait park is regenerated when the tower moves"
     // dual-extruder keys would drag in the extruder-variant expansion, which is not
     // idempotent on the default machine profile and would pollute the re-apply diff below.
     // Rectangle wall and no brim keep the tower-local footprint inside [0, 35], so the park
-    // sits at the generator's 2mm side gap: local -2 or 37.
+    // sits at the generator's 2 mm side gap: local -2 or 37.
     DynamicPrintConfig config = multifilament_config(2, {
         { "single_extruder_multi_material", 0 },
         { "enable_prime_tower",             1 },
@@ -2112,8 +2112,8 @@ TEST_CASE("Shared heater on IMEX printer stays hot until all filaments on it are
         }
     });
 
-    // Filaments 1 and 2 share head 0, and filament 1 prints up to 10mm.
-    // T0 must not shut down at ~4mm when filament 2 finishes.
+    // Filaments 1 and 2 share head 0, and filament 1 prints up to 10 mm.
+    // T0 must not shut down at ~4 mm when filament 2 finishes.
     CHECK_FALSE(premature_s0_t0);
 }
 
@@ -2145,8 +2145,8 @@ TEST_CASE("Unused extruder turns off after its final layer on multi-object print
         }
     }
 
-    // T1 (extruder 2, 4mm cube) gets exactly one S0 after its last layer.
-    // T0 (extruder 1, 10mm cube) never gets S0 mid-print.
+    // T1 (extruder 2, 4 mm cube) gets exactly one S0 after its last layer.
+    // T0 (extruder 1, 10 mm cube) never gets S0 mid-print.
     CHECK(t1_s0_cooldown_count == 1);
     CHECK(t0_s0_cooldown_count == 0);
 }
@@ -2185,7 +2185,7 @@ TEST_CASE("Unused extruder turns off on non-IMEX three-tool print", "[MultiFilam
         }
     });
 
-    // T1 and T2 print up to 10mm — neither should get S0 before that.
+    // T1 and T2 print up to 10 mm — neither should get S0 before that.
     CHECK_FALSE(premature_s0_t1);
     CHECK_FALSE(premature_s0_t2);
 }

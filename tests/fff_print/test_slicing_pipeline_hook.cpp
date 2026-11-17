@@ -168,7 +168,7 @@ TEST_CASE("Duplicate objects share a slice: Slice hook fires exactly once", "[sl
         o1->config.set_key_value("extruder", new Slic3r::ConfigOptionInt(1));
     // Clone o1: shares mesh_ptr and copies the volume transformation + config (genuine duplicate).
     Slic3r::ModelObject* o2 = model.add_object(*o1);
-    // Shift the clone in X so validate() sees no collision (20mm cubes -> 40mm centres = 20mm gap).
+    // Shift the clone in X so validate() sees no collision (20 mm cubes -> 40 mm centres = 20 mm gap).
     for (Slic3r::ModelInstance* inst : o2->instances)
         inst->set_offset(inst->get_offset() + Slic3r::Vec3d(40.0, 0.0, 0.0));
 
@@ -250,7 +250,7 @@ TEST_CASE("Changing print_plugin_config_overrides invalidates posSlice", "[slici
 // seam and cascade the sample drives through the slices.set() + Layer::make_slices() path. Two
 // end-to-end invariants after process() confirm the approach:
 //   (1) a pure rotation is a similarity with scale 1, so total fill area is preserved, and
-//   (2) the mutation genuinely cascaded into make_perimeters' fill_surfaces -- a 20mm square
+//   (2) the mutation genuinely cascaded into make_perimeters' fill_surfaces -- a 20 mm square
 //       rotated 45 deg becomes a diamond whose bbox is ~sqrt(2)x wider (it did not stay
 //       axis-aligned), proving downstream geometry was rebuilt from the twisted slices.
 TEST_CASE("Rotating slices at the Slice boundary cascades (area preserved, bbox rotated)", "[slicing_pipeline]") {
@@ -453,7 +453,7 @@ TEST_CASE("fill_surfaces mutation cascades at PrepareInfill but not at Infill", 
 // lslices (the layer's merged islands) are built once in slice() and never rebuilt by
 // make_perimeters, so mutating region slices leaves them stale. The slices.set() + Layer::make_slices()
 // path re-derives them; this C++ analogue proves the mechanism -- without the
-// refresh the islands keep the original 20mm footprint, with it they track the 18mm inset.
+// refresh the islands keep the original 20 mm footprint, with it they track the 18 mm inset.
 TEST_CASE("refreshing lslices after a slice mutation makes islands track the geometry", "[slicing_pipeline]") {
     auto lslices_width = [](bool refresh) {
         Slic3r::Print print; Slic3r::Model model;

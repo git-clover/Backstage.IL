@@ -37,7 +37,7 @@ enum class TestMesh {
     L,
     V,
     _40x10,
-    sphere_50mm,
+    sphere_50 mm,
     bridge,
     bridge_with_hole,
     cube_with_concave_hole,
@@ -111,16 +111,16 @@ std::string slice(std::initializer_list<TriangleMesh> meshes, std::initializer_l
 std::string slice_with_object_overrides(std::initializer_list<TriangleMesh> meshes, const DynamicPrintConfig &config,
     const std::vector<std::vector<Slic3r::ConfigBase::SetDeserializeItem>> &per_object_overrides);
 
-// Slice two auto-arranged 20mm cubes (the arranger positions them).
+// Slice two auto-arranged 20 mm cubes (the arranger positions them).
 std::string slice_two_cubes_arranged(std::initializer_list<Slic3r::ConfigBase::SetDeserializeItem> config_items);
 
-// Place two 20mm cubes `gap` mm apart edge-to-edge, not auto-arranged (the caller controls spacing).
+// Place two 20 mm cubes `gap` mm apart edge-to-edge, not auto-arranged (the caller controls spacing).
 void place_two_cubes_apart(double gap, std::initializer_list<Slic3r::ConfigBase::SetDeserializeItem> config_items,
     Slic3r::Print &print, Slic3r::Model &model);
-// Slice two 20mm cubes `gap` mm apart (not auto-arranged) and return the G-code.
+// Slice two 20 mm cubes `gap` mm apart (not auto-arranged) and return the G-code.
 std::string slice_two_cubes_apart(double gap, std::initializer_list<Slic3r::ConfigBase::SetDeserializeItem> config_items);
 
-// Place two instances of one 20mm cube `gap` mm apart edge-to-edge.
+// Place two instances of one 20 mm cube `gap` mm apart edge-to-edge.
 void place_two_cube_instances_apart(double gap, std::initializer_list<Slic3r::ConfigBase::SetDeserializeItem> config_items,
     Slic3r::Print &print, Slic3r::Model &model);
 

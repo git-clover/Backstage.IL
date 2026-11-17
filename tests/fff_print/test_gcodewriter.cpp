@@ -1065,7 +1065,7 @@ SCENARIO("Prime-tower visits without a filament change do not advance the toolch
 // exist" here instead of only in the field.
 // ---------------------------------------------------------------------------
 
-// Two 20mm cubes on separate extruders of a BBL machine, printed by object so exactly
+// Two 20 mm cubes on separate extruders of a BBL machine, printed by object so exactly
 // one real toolchange fires and drives the change_filament_gcode. Returns the g-code.
 static std::string slice_two_object_bbl(DynamicPrintConfig &config)
 {
@@ -1583,7 +1583,7 @@ SCENARIO("Belt: the first travel does not lift through the uninitialised origin"
             writer.lazy_lift(LiftType::NormalLift);
 
             // First object point in slicing coordinates: a near-belt point (y ~= -z)
-            // so its transformed gantry Y is small (~1mm). The bogus origin lift, in
+            // so its transformed gantry Y is small (~1 mm). The bogus origin lift, in
             // contrast, would shear to machine Y ~= nominal_z.
             const double nominal_z = 100.0;
             std::string gcode = writer.travel_to_xyz(Vec3d(10.0, -(nominal_z - 1.0), nominal_z));
@@ -1595,7 +1595,7 @@ SCENARIO("Belt: the first travel does not lift through the uninitialised origin"
                     if (line.cmd_is("G1") && line.has(Y))
                         max_y = std::max(max_y, double(line.y()));
                 });
-                // The destination shears to machine Y ~= 1mm. The old origin-lift bug
+                // The destination shears to machine Y ~= 1 mm. The old origin-lift bug
                 // produced a separate move at machine Y ~= nominal_z (1.0 mm), so any
                 // Y well above the part means the origin leaked into a move.
                 REQUIRE(max_y > 0.0);   // the destination move was emitted and parsed

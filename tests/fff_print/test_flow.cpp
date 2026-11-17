@@ -17,7 +17,7 @@ using namespace Slic3r;
 /// Test the expected behavior for auto-width,
 /// spacing, etc
 SCENARIO("Flow math for non-bridges", "[Flow]") {
-    GIVEN("Nozzle Diameter of 0.4, a desired width of 1mm and layer height of 0.5") {
+    GIVEN("Nozzle Diameter of 0.4, a desired width of 1 mm and layer height of 0.5") {
         ConfigOptionFloatOrPercent	width(1.0, false);
         float nozzle_diameter	= 0.4f;
         float layer_height		= 0.4f;
@@ -79,7 +79,7 @@ SCENARIO("Flow math for non-bridges", "[Flow]") {
 
 /// Spacing, width calculation for bridge extrusions
 SCENARIO("Flow math for bridges", "[Flow]") {
-    GIVEN("Nozzle Diameter of 0.4, a desired width of 1mm and layer height of 0.5") {
+    GIVEN("Nozzle Diameter of 0.4, a desired width of 1 mm and layer height of 0.5") {
 		float nozzle_diameter	= 0.4f;
 		float bridge_flow		= 1.0f;
         WHEN("Flow role is frExternalPerimeter") {

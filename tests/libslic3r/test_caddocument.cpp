@@ -1168,7 +1168,7 @@ TEST_CASE("sweep builds a solid by sweeping a profile along a path", "[CadDocume
 TEST_CASE("pattern replicates a body linearly and circularly", "[CadDocument]")
 {
 
-    // Linear: a 10x10x10 box (V=1000) repeated 3x at 20mm spacing along plane X.
+    // Linear: a 10x10x10 box (V=1000) repeated 3x at 20 mm spacing along plane X.
     // 20 > 10 so the copies are disjoint -> total V = 3*1000 = 3000.
     {
         CadDocument doc;
@@ -2625,7 +2625,7 @@ TEST_CASE("surface_deviation: identical solids ~0, shifted solid ~shift", "[Devi
     REQUIRE(d0.sample_count > 0);
     REQUIRE_THAT(d0.max_mm, Catch::Matchers::WithinAbs(0.0, 1e-6));
 
-    // candidate shifted +2mm in X: far corner vertices sit 2mm outside the reference
+    // candidate shifted +2 mm in X: far corner vertices sit 2 mm outside the reference
     gp_Trsf t; t.SetTranslation(gp_Vec(2.0, 0.0, 0.0));
     TopoDS_Shape shifted = BRepBuilderAPI_Transform(ref, t, true).Shape();
     auto d1 = GeometryEngine::surface_deviation(shifted, ref, 0.5);
@@ -5873,7 +5873,7 @@ TEST_CASE("planar mate: normal distance becomes mate_offset", "[CadDocument][mat
     GProp_GProps props;
     BRepGProp::VolumeProperties(doc.bodies[1].shape, props);
     gp_Pnt com = props.CentreOfMass();
-    // Connector B was at z=0 (bottom of 10mm cylinder). After planar mate with
+    // Connector B was at z=0 (bottom of 10 mm cylinder). After planar mate with
     // offset=3 and A at z=5, the z-distance from A to B becomes 3 => B.z = 8.
     // The cylinder centroid (was at z=5) moves to z=13.
     REQUIRE_THAT(double(com.Z()), WithinAbs(13.0, 1e-4));
@@ -6395,8 +6395,8 @@ TEST_CASE("planar mate: antiparallel normals with asymmetric body", "[CadDocumen
 
     // With the fix: 180° rotation about faceB centroid, then translation.
     // Body B's X-extents are mirrored. After rotation, centroid X = 2*o_B.x - pre_cx = -20,
-    // then translated by offset ≈ 20mm → centroid returns near 0.
-    // Without the fix: no rotation, body just translates ~+20mm → centroid X ≈ 20.
+    // then translated by offset ≈ 20 mm → centroid returns near 0.
+    // Without the fix: no rotation, body just translates ~+20 mm → centroid X ≈ 20.
     GProp_GProps post_props;
     BRepGProp::VolumeProperties(doc.bodies[1].shape, post_props);
     double post_cx = post_props.CentreOfMass().X();
@@ -7284,7 +7284,7 @@ TEST_CASE("interference: overlapping bodies reported with overlap volume", "[Cad
     REQUIRE(doc.recompute());
     REQUIRE(doc.bodies.size() == 2);
 
-    // Lift B by 6mm: the two overlap over 4mm of height => 20*20*4 = 1600 mm^3.
+    // Lift B by 6 mm: the two overlap over 4 mm of height => 20*20*4 = 1600 mm^3.
     doc.add_transform(1, Vec3d(0, 0, 6), Vec3d(0, 0, 1), Vec3d(0, 0, 0), 0.0, false, "LiftB");
     REQUIRE(doc.recompute());
     REQUIRE(doc.error.empty());

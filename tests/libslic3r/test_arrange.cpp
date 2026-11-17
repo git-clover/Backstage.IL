@@ -224,14 +224,14 @@ TEST_CASE("Arranged items do not overlap", "[Arrange]")
 TEST_CASE("Arrange spaces items by their inflation", "[Arrange]")
 {
     // Per-item inflation is how the arranger enforces clearance (the GUI fills it
-    // from min_obj_distance). Two items inflated 4mm each end up >= 8mm apart.
+    // from min_obj_distance). Two items inflated 4 mm each end up >= 8 mm apart.
     ArrangePolygons items = squares(4, 20.);
     for (ArrangePolygon &ap : items)
         ap.inflation = scaled(4.);
     arrange(items, bed(200, 200), quiet_params());
 
     // Axis-aligned squares are their own bounding boxes, so the clearance between
-    // a pair is the distance between their boxes (1mm slack for nester rounding).
+    // a pair is the distance between their boxes (1 mm slack for nester rounding).
     std::vector<BoundingBox> boxes;
     for (const ExPolygon &e : placed_shapes(items))
         boxes.push_back(e.contour.bounding_box());
@@ -318,7 +318,7 @@ TEST_CASE("Arranging uses the whole bed when the extruders share no printable ar
 
 TEST_CASE("Items overflowing one bed spill onto virtual beds", "[Arrange]")
 {
-    ArrangePolygons items = squares(8, 90.); // eight 90mm squares cannot share a 200x200 bed
+    ArrangePolygons items = squares(8, 90.); // eight 90 mm squares cannot share a 200x200 bed
     arrange(items, bed(200, 200), quiet_params(scaled(2.)));
 
     int max_bed = 0;

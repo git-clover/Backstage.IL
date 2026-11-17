@@ -1514,7 +1514,7 @@ TEST_CASE("min_object_distance floors object spacing per print sequence", "[Conf
         {"sequential FFF holds the floor at the radius",            ptFFF, PrintSequence::ByObject,  6.,  6.},
         {"sequential FFF holds the floor below the radius",         ptFFF, PrintSequence::ByObject,  4.,  6.},
         {"layered FFF ignores the clearance radius",                ptFFF, PrintSequence::ByLayer,  12.,  6.},
-        {"SLA is a flat 6mm",                                       ptSLA, PrintSequence::ByObject, 12.,  6.},
+        {"SLA is a flat 6 mm",                                       ptSLA, PrintSequence::ByObject, 12.,  6.},
         {"SLA ignores the print sequence too",                      ptSLA, PrintSequence::ByLayer,  12.,  6.},
     }));
 

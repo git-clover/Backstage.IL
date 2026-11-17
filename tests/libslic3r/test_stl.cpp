@@ -24,7 +24,7 @@ SCENARIO("Reading an STL file", "[stl]") {
         WHEN("STL file is read") {
 			Slic3r::Model model;
 			THEN("load should succeed") {
-                REQUIRE(Slic3r::load_stl(stl_path("Geräte/20mmbox-čřšřěá.stl").c_str(), &model));
+                REQUIRE(Slic3r::load_stl(stl_path("Geräte/20 mmbox-čřšřěá.stl").c_str(), &model));
 				REQUIRE(is_approx(model.objects.front()->volumes.front()->mesh().size(), Vec3d(20, 20, 20)));
             }
         }
@@ -33,14 +33,14 @@ SCENARIO("Reading an STL file", "[stl]") {
 		WHEN("line endings LF") {
 			Slic3r::Model model;
 			THEN("load should succeed") {
-				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20mmbox-LF.stl").c_str(), &model));
+				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20 mmbox-LF.stl").c_str(), &model));
 				REQUIRE(is_approx(model.objects.front()->volumes.front()->mesh().size(), Vec3d(20, 20, 20)));
 			}
 		}
 		WHEN("line endings CRLF") {
 			Slic3r::Model model;
 			THEN("load should succeed") {
-				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20mmbox-CRLF.stl").c_str(), &model));
+				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20 mmbox-CRLF.stl").c_str(), &model));
 				REQUIRE(is_approx(model.objects.front()->volumes.front()->mesh().size(), Vec3d(20, 20, 20)));
 			}
 		}
@@ -49,7 +49,7 @@ SCENARIO("Reading an STL file", "[stl]") {
 		WHEN("line endings CR") {
 			Slic3r::Model model;
 			THEN("load should succeed") {
-				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20mmbox-CR.stl").c_str(), &model));
+				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20 mmbox-CR.stl").c_str(), &model));
 				REQUIRE(is_approx(model.objects.front()->volumes.front()->mesh().size(), Vec3d(20, 20, 20)));
 			}
 		}
@@ -58,7 +58,7 @@ SCENARIO("Reading an STL file", "[stl]") {
 		WHEN("nonstandard STL file (text after ending tags, invalid normals, for example infinities)") {
 			Slic3r::Model model;
 			THEN("load should succeed") {
-				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20mmbox-nonstandard.stl").c_str(), &model));
+				REQUIRE(Slic3r::load_stl(stl_path("ASCII/20 mmbox-nonstandard.stl").c_str(), &model));
 				REQUIRE(is_approx(model.objects.front()->volumes.front()->mesh().size(), Vec3d(20, 20, 20)));
 			}
 		}

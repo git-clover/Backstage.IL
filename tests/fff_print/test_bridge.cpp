@@ -39,7 +39,7 @@ using namespace Slic3r::Test;
 
 namespace {
 
-// Two 10x20x6mm pillars 10mm apart in one filament, bridged at z=[5,6] by a 10x20mm deck in another, the way a
+// Two 10x20x6 mm pillars 10 mm apart in one filament, bridged at z=[5,6] by a 10x20 mm deck in another, the way a
 // painted underside of a bridge is segmented. The deck's first layer (print_z 5.2) lies entirely over the gap,
 // next to the tops of the pillars on the same layer.
 DynamicPrintConfig painted_bridge_config(const char *wall_generator, bool thick_bridges = false, bool extra_perimeters = false)
@@ -194,7 +194,7 @@ TEST_CASE("A bridge in another filament is anchored on a neighbour two walls thi
     const bool divided = GENERATE(false, true);
     CAPTURE(wall_generator, divided);
 
-    // A 20x20x6mm square tube with walls two outer walls thick in one filament, closed at z=[5,6] by a lid in another,
+    // A 20x20x6 mm square tube with walls two outer walls thick in one filament, closed at z=[5,6] by a lid in another,
     // the way a painted sacrificial layer over a hole is segmented.
     const double wall = 2. * 0.42;
     TriangleMesh tube = make_cube(wall, 20., 6.);

@@ -131,7 +131,7 @@ TEST_CASE("a config missing the nozzle clearance keys falls back to the register
     REQUIRE(l.primary_zone_box.has_value());
     check_rect(*l.primary_zone_box, 0.0, 0.0, 100.0, 200.0);
 
-    // One X boundary, one strip, 30mm wide against it.
+    // One X boundary, one strip, 30 mm wide against it.
     REQUIRE(l.collision_zones.size() == 1);
     check_box_xy(l.collision_zones[0], 70.0, 0.0, 100.0, 200.0);
 

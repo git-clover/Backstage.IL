@@ -46,8 +46,8 @@ using namespace Slic3r;
 using namespace Slic3r::Test;
 
 SCENARIO("Object layer heights", "[PrintObject]") {
-    GIVEN("A 20mm cube") {
-        WHEN("sliced with a 2mm layer height and a 3mm nozzle") {
+    GIVEN("A 20 mm cube") {
+        WHEN("sliced with a 2 mm layer height and a 3 mm nozzle") {
             Slic3r::Print print;
             Slic3r::Test::init_and_process_print({cube(20)}, print, {
                 { "initial_layer_print_height", 2 },
@@ -58,7 +58,7 @@ SCENARIO("Object layer heights", "[PrintObject]") {
             THEN("The output vector has 10 entries") {
                 REQUIRE(layers.size() == 10);
             }
-            AND_THEN("Each layer is approximately 2mm above the previous Z") {
+            AND_THEN("Each layer is approximately 2 mm above the previous Z") {
                 coordf_t last = 0.0;
                 for (size_t i = 0; i < layers.size(); ++ i) {
                     REQUIRE_THAT(layers[i]->print_z - last, Catch::Matchers::WithinAbs(2.0, 1e-4));
@@ -66,7 +66,7 @@ SCENARIO("Object layer heights", "[PrintObject]") {
                 }
             }
         }
-        WHEN("sliced with a 10mm layer height and an 11mm nozzle") {
+        WHEN("sliced with a 10 mm layer height and an 11 mm nozzle") {
             Slic3r::Print print;
             Slic3r::Test::init_and_process_print({cube(20)}, print, {
                 { "initial_layer_print_height", 2 },
@@ -77,14 +77,14 @@ SCENARIO("Object layer heights", "[PrintObject]") {
 			THEN("The output vector has 3 entries") {
                 REQUIRE(layers.size() == 3);
             }
-            AND_THEN("Layer 0 is at 2mm") {
+            AND_THEN("Layer 0 is at 2 mm") {
                 REQUIRE_THAT(layers.front()->print_z, Catch::Matchers::WithinAbs(2.0, 1e-4));
             }
-            AND_THEN("Layer 1 is at 12mm") {
+            AND_THEN("Layer 1 is at 12 mm") {
                 REQUIRE_THAT(layers[1]->print_z, Catch::Matchers::WithinAbs(12.0, 1e-4));
             }
         }
-        WHEN("sliced with a 15mm layer height and a 16mm nozzle") {
+        WHEN("sliced with a 15 mm layer height and a 16 mm nozzle") {
             Slic3r::Print print;
             Slic3r::Test::init_and_process_print({cube(20)}, print, {
                 { "initial_layer_print_height", 2 },
@@ -95,10 +95,10 @@ SCENARIO("Object layer heights", "[PrintObject]") {
 			THEN("The output vector has 2 entries") {
                 REQUIRE(layers.size() == 2);
             }
-            AND_THEN("Layer 0 is at 2mm") {
+            AND_THEN("Layer 0 is at 2 mm") {
                 REQUIRE_THAT(layers[0]->print_z, Catch::Matchers::WithinAbs(2.0, 1e-4));
             }
-            AND_THEN("Layer 1 is at 17mm") {
+            AND_THEN("Layer 1 is at 17 mm") {
                 REQUIRE_THAT(layers[1]->print_z, Catch::Matchers::WithinAbs(17.0, 1e-4));
             }
         }
@@ -118,7 +118,7 @@ SCENARIO("Object layer heights", "[PrintObject]") {
 }
 
 SCENARIO("Perimeter generation", "[PrintObject]") {
-    GIVEN("20mm cube and default config") {
+    GIVEN("20 mm cube and default config") {
         WHEN("make_perimeters() is called")  {
             Slic3r::Print print;
             Slic3r::Test::init_and_process_print({cube(20)}, print, { { "sparse_infill_density", 0 } });

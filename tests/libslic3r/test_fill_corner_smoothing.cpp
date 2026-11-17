@@ -97,15 +97,15 @@ TEST_CASE("Corner smoothing keeps the path untouched at a zero factor", "[FillCo
 TEST_CASE("Corner smoothing consumes at most half of the shorter leg", "[FillCornerSmoothing]")
 {
     // The curve must not reach beyond the middle of either adjoining segment, otherwise the curves of
-    // two adjacent corners would overlap. The shorter leg is 10mm long, so the corner at (10, 0) is\
-    // rounded within 5mm of it on both legs, even though the other leg is 100mm long.
+    // two adjacent corners would overlap. The shorter leg is 10 mm long, so the corner at (10, 0) is\
+    // rounded within 5 mm of it on both legs, even though the other leg is 100 mm long.
     Polyline smooth = asymmetric_corner();
     smooth_polyline_corners(smooth, smoothing(1.));
 
     REQUIRE(departure_before_corner(smooth) > 0.);
     REQUIRE(departure_before_corner(smooth) <= 5.);
     // The rounded corner is the polygon of the curve's tangents, which stays inside the box spanned by the
-    // two legs, and every vertex of it is within 5mm of the corner along the outgoing leg.
+    // two legs, and every vertex of it is within 5 mm of the corner along the outgoing leg.
     for (const Point &point : smooth.points) {
         REQUIRE(point.x() >= 0);
         REQUIRE(point.y() >= 0);
@@ -123,7 +123,7 @@ TEST_CASE("Corner smoothing scales the curve with the factor", "[FillCornerSmoot
     Polyline full = asymmetric_corner();
     smooth_polyline_corners(full, smoothing(1.));
 
-    // Half of the factor leaves the 10mm leg closer to the corner.
+    // Half of the factor leaves the 10 mm leg closer to the corner.
     REQUIRE(departure_before_corner(half) < departure_before_corner(full));
     // A larger factor rounds a wider portion of the legs, cutting more of the corner off.
     REQUIRE(full.length() < half.length());
@@ -178,7 +178,7 @@ TEST_CASE("Corner smoothing rounds every vertex of a polygon", "[FillCornerSmoot
     const Vec2d incoming = (rounded[rounded.size() - 1] - rounded[rounded.size() - 2]).cast<double>().normalized();
     const Vec2d outgoing = (rounded[1] - rounded[0]).cast<double>().normalized();
     REQUIRE(incoming.dot(outgoing) > 0.9);
-    // None of the corners is cut by more than half of a 10mm side.
+    // None of the corners is cut by more than half of a 10 mm side.
     for (const Point &point : smooth.front().points) {
         REQUIRE(point.x() >= 0);
         REQUIRE(point.y() >= 0);
@@ -218,7 +218,7 @@ TEST_CASE("Corner smoothing ignores vertices splitting a straight leg", "[FillCo
     smooth_polyline_corners(smooth_split, smoothing(1.));
 
     REQUIRE(smooth_split.points == smooth_plain.points);
-    // Both corners reach equally far into the 10mm run they share.
+    // Both corners reach equally far into the 10 mm run they share.
     double first = 20., last = 10.;
     for (const Point &point : smooth_plain.points)
         if (point.y() == 0) {

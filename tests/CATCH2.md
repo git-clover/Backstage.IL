@@ -234,7 +234,7 @@ TEST_CASE("Config loading", "[Config]") {
 // File I/O
 TEST_CASE("STL file parsing", "[FileFormat]") {
     TriangleMesh mesh;
-    REQUIRE_NOTHROW(mesh.ReadSTLFile((std::string(TEST_DATA_DIR) + "/test_stl/20mmbox.stl").c_str()));
+    REQUIRE_NOTHROW(mesh.ReadSTLFile((std::string(TEST_DATA_DIR) + "/test_stl/20 mmbox.stl").c_str()));
     REQUIRE_FALSE(mesh.empty());
     REQUIRE(mesh.volume() > 0);
 }

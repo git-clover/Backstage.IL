@@ -285,7 +285,7 @@ for my $pattern (qw(rectilinear honeycomb hilbertcurve concentric)) {
     $config->set('layer_height', 0.05);
     $config->set('perimeter_extruder', 1);
     $config->set('infill_extruder', 2);
-    my $print = Slic3r::Test::init_print('20mm_cube', config => $config, scale => 2);
+    my $print = Slic3r::Test::init_print('20 mm_cube', config => $config, scale => 2);
     ok my $gcode = Slic3r::Test::gcode($print), "successful $pattern infill generation";
     my $tool = undef;
     my @perimeter_points = my @infill_points = ();
@@ -366,7 +366,7 @@ for my $pattern (qw(rectilinear honeycomb hilbertcurve concentric)) {
     $config->set('cooling', 0);
     $config->set('first_layer_speed', '100%');
 
-    my $print = Slic3r::Test::init_print('20mm_cube', config => $config);
+    my $print = Slic3r::Test::init_print('20 mm_cube', config => $config);
     my %layers_with_extrusion = ();
     Slic3r::GCode::Reader->new->parse(Slic3r::Test::gcode($print), sub {
             my ($self, $cmd, $args, $info) = @_;
@@ -432,7 +432,7 @@ for my $pattern (qw(rectilinear honeycomb hilbertcurve concentric)) {
     $config->set('infill_extruder', 2);         # in order to distinguish infill
         $config->set('solid_infill_extruder', 2);   # in order to distinguish infill
 
-        my $print = Slic3r::Test::init_print('20mm_cube', config => $config);
+        my $print = Slic3r::Test::init_print('20 mm_cube', config => $config);
     my %infill = ();  # Z => [ Line, Line ... ]
         my %other  = ();  # Z => [ Line, Line ... ]
         my $tool = undef;
@@ -672,7 +672,7 @@ TEST_CASE("Z anti-aliasing keeps the infill rotation template's step", "[Fill]")
                                          {"zaa_min_z", 0.05},
                                          {"layer_height", 0.2}});
 
-    // Z contouring varies the layer heights, so the layer count is not 10mm / 0.2 mm here.
+    // Z contouring varies the layer heights, so the layer count is not 10 mm / 0.2 mm here.
     const std::vector<int> angles = angles_per_layer(print, solid_role);
     REQUIRE(angles.size() > 10);
     REQUIRE(std::count(angles.begin(), angles.end(), -1) == 0);
@@ -841,9 +841,9 @@ TEST_CASE("Infill rotation template minus before the count flips the joint", "[F
 TEST_CASE("Infill rotation template range can be a height in mm, cm, m, feet, inches or percent", "[Fill][RotateTemplate]")
 {
     const auto [rotate_template, expected] = GENERATE(table<std::string, std::vector<double>>({
-        // 1mm is 5 layers.
-        {"+90/1mm", turn_18_per_layer},
-        // 0.2cm, 0.002m and 50% of the 4mm object are each 10 layers.
+        // 1 mm is 5 layers.
+        {"+90/1 mm", turn_18_per_layer},
+        // 0.2cm, 0.002m and 50% of the 4 mm object are each 10 layers.
         {"+90/0.2cm", turn_9_per_layer},
         {"+90/0.002m", turn_9_per_layer},
         {"+90/50%", turn_9_per_layer},
@@ -861,7 +861,7 @@ TEST_CASE("Infill rotation template layer height unit counts layer_height under 
     const auto [first_layer_height, expected] = GENERATE(table<double, std::vector<double>>({
         // 5 layers of 0.2 mm.
         {0.2, turn_18_per_layer},
-        // With a 0.4 mm first layer, the first range is still 5 x 0.2 mm = 1mm, so the first layer turns twice as far.
+        // With a 0.4 mm first layer, the first range is still 5 x 0.2 mm = 1 mm, so the first layer turns twice as far.
         {0.4, {36, 54, 72, 90, 108, 126, 144, 162, 180, 198, 216, 234, 252, 270, 288, 306, 324, 342, 360, 378}},
     }));
     CAPTURE(first_layer_height);
@@ -1777,7 +1777,7 @@ TEST_CASE("Gyroid infill of an object matches the infill of a larger object with
 
 TEST_CASE("Hilbert curve sparse infill lines up across layers of different sizes", "[Fill]")
 {
-    // A 40mm square up to 5mm, with a 12mm square off its center on top of it up to 10mm, so the
+    // A 40 mm square up to 5 mm, with a 12 mm square off its center on top of it up to 10 mm, so the
     // two islands neither share a corner nor need the same size of curve.
     TriangleMesh step = make_cube(40, 40, 5);
     TriangleMesh top  = make_cube(12, 12, 5);
@@ -1796,7 +1796,7 @@ TEST_CASE("Hilbert curve sparse infill lines up across layers of different sizes
                                          {"resolution", 0.012}});
 
     const PrintObject &object = *print.objects().front();
-    // 10mm at 0.2 mm.
+    // 10 mm at 0.2 mm.
     REQUIRE(object.layers().size() == 50);
     const Layer    &lower = *object.get_layer(12); // 2.4 mm to 2.6 mm
     const Layer    &upper = *object.get_layer(37); // 7.4 mm to 7.6 mm
@@ -2027,7 +2027,7 @@ TEST_CASE("Multiline adaptive cubic infill keeps its lines apart without closing
     CAPTURE(pattern, multiline);
 
     // A sphere refines the octree all around, so the finer lines end on the coarser ones at every layer.
-    TriangleMesh sphere = Slic3r::Test::mesh(Slic3r::Test::TestMesh::sphere_50mm);
+    TriangleMesh sphere = Slic3r::Test::mesh(Slic3r::Test::TestMesh::sphere_50 mm);
     sphere.scale(0.3f);
     Print print;
     Slic3r::Test::init_and_process_print({sphere}, print,

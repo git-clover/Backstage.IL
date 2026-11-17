@@ -150,7 +150,7 @@ TEST_CASE("G29 preparation time is added only once", "[GCodeTiming][Regression]"
 
 TEST_CASE("Filament-change time is attributed to tool-change moves, not extrusion roles", "[GCodeTiming]")
 {
-    // Relative extrusion (M83) so every "E5" is a real 5mm extrusion move rather
+    // Relative extrusion (M83) so every "E5" is a real 5 mm extrusion move rather
     // than a zero-delta travel. Two real travels precede T0 so its delay is flushed
     // cleanly. The extrusions after T0 span several roles (Outer wall, Sparse infill,
     // Inner wall); the first pending block at T1 is an "Outer wall" move, so the
@@ -527,8 +527,8 @@ FullPrintConfig make_junction_config(GCodeFlavor flavor, double corner_velocity,
 constexpr double junction_x = 60.0;
 constexpr double junction_y = 60.0;
 
-// Two 40mm moves meeting at (junction_x, junction_y) with the given turn, rotated by `orientation`.
-// 40mm is long enough to reach the commanded 1.0 mm/s and brake back to any corner speed these tests
+// Two 40 mm moves meeting at (junction_x, junction_y) with the given turn, rotated by `orientation`.
+// 40 mm is long enough to reach the commanded 1.0 mm/s and brake back to any corner speed these tests
 // produce. `e_per_mm` of zero makes them travels, which keeps the junction vector purely geometric
 // as the formulas below assume.
 std::string corner_gcode(double turn_deg, double orientation_deg, double e_per_mm = 0.0)

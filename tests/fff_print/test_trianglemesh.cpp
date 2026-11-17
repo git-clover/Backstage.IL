@@ -25,12 +25,12 @@ using namespace Slic3r;
 static inline TriangleMesh make_cube() { return make_cube(20., 20, 20); }
 
 SCENARIO("Basic mesh statistics", "[TriangleMesh]") {
-    GIVEN( "A 20mm cube, built from constexpr std::array" ) {
+    GIVEN( "A 20 mm cube, built from constexpr std::array" ) {
         std::vector<Vec3f> vertices { {20,20,0}, {20,0,0}, {0,0,0}, {0,20,0}, {20,20,20}, {0,20,20}, {0,0,20}, {20,0,20} };
         std::vector<Vec3i32> facets { {0,1,2}, {0,2,3}, {4,5,6}, {4,6,7}, {0,4,7}, {0,7,1}, {1,7,6}, {1,6,2}, {2,6,5}, {2,5,3}, {4,0,3}, {4,3,5} };
         TriangleMesh cube(vertices, facets);
         
-        THEN( "Volume is appropriate for 20mm square cube.") {
+        THEN( "Volume is appropriate for 20 mm square cube.") {
             REQUIRE(abs(cube.volume() - 20.0*20.0*20.0) < 1e-2);
         }
 
@@ -77,7 +77,7 @@ SCENARIO("Basic mesh statistics", "[TriangleMesh]") {
 }
 
 SCENARIO("Transformation functions affect the mesh as expected", "[TriangleMesh]") {
-    GIVEN( "A 20mm cube with one corner on the origin") {
+    GIVEN( "A 20 mm cube with one corner on the origin") {
         auto cube = make_cube();
 
         WHEN( "The cube is scaled 200% uniformly") {
@@ -140,7 +140,7 @@ SCENARIO("Transformation functions affect the mesh as expected", "[TriangleMesh]
 }
 
 SCENARIO("Slice behavior", "[TriangleMesh]") {
-    GIVEN( "A 20mm cube with one corner on the origin") {
+    GIVEN( "A 20 mm cube with one corner on the origin") {
         auto cube = make_cube();
         
         WHEN("Cube is sliced with z = [0+EPSILON,2,4,8,6,8,10,12,14,16,18,20]") {
@@ -238,7 +238,7 @@ SCENARIO("make_xxx functions produce meshes", "[TriangleMesh]") {
 }
 
 SCENARIO("Split functionality", "[TriangleMesh]") {
-    GIVEN( "A 20mm cube with one corner on the origin") {
+    GIVEN( "A 20 mm cube with one corner on the origin") {
 		auto cube = make_cube();
         WHEN( "The mesh is split into its component parts.") {
             std::vector<TriangleMesh> meshes = cube.split();
@@ -248,7 +248,7 @@ SCENARIO("Split functionality", "[TriangleMesh]") {
             }
         }
     }
-    GIVEN( "Two 20mm cubes, each with one corner on the origin, merged into a single TriangleMesh") {
+    GIVEN( "Two 20 mm cubes, each with one corner on the origin, merged into a single TriangleMesh") {
 		auto cube = make_cube();
 		TriangleMesh cube2(cube);
 
@@ -266,7 +266,7 @@ SCENARIO("Split functionality", "[TriangleMesh]") {
 }
 
 SCENARIO("Mesh merge functions", "[TriangleMesh]") {
-    GIVEN( "Two 20mm cubes, each with one corner on the origin") {
+    GIVEN( "Two 20 mm cubes, each with one corner on the origin") {
 		auto cube = make_cube();
 		TriangleMesh cube2(cube);
 
@@ -280,7 +280,7 @@ SCENARIO("Mesh merge functions", "[TriangleMesh]") {
 }
 
 SCENARIO("Cut behavior", "[TriangleMesh]") {
-    GIVEN( "A 20mm cube with one corner on the origin") {
+    GIVEN( "A 20 mm cube with one corner on the origin") {
 		auto cube = make_cube();
         WHEN( "Object is cut at the bottom") {
             indexed_triangle_set upper {};

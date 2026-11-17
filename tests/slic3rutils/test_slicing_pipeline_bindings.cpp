@@ -675,7 +675,7 @@ TEST_CASE("orca.host: in-place edit of surface.expolygon through a live collecti
     py::gil_scoped_acquire gil;
 
     const coord_t s = (coord_t) scale_(10.0);
-    // Live LayerRegion holding one surface (a 10mm square at the origin).
+    // Live LayerRegion holding one surface (a 10 mm square at the origin).
     TestLayerRegion region;
     Slic3r::ExPolygon sq;
     sq.contour.points = { Slic3r::Point(0, 0), Slic3r::Point(s, 0),

@@ -222,7 +222,7 @@ static void check_zero(const Vec2d &offset)
     CHECK_THAT(offset.y(), WithinAbs(0.0, 1e-12));
 }
 
-// Slice one 20mm cube. Note what is NOT here: no offset is handed to the Print. Whatever shift
+// Slice one 20 mm cube. Note what is NOT here: no offset is handed to the Print. Whatever shift
 // the G-code comes out with, the Print derived on its own from `config`.
 static std::string slice_cube(const DynamicPrintConfig &config, const Vec3d &plate_origin = Vec3d::Zero())
 {

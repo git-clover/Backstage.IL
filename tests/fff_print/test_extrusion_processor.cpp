@@ -200,7 +200,7 @@ std::vector<double> back_wall_feed_rates(const std::string& gcode)
 const double caged_layer_above_slope_z = std::ceil(caged_slope_z_max / caged_layer_height) * caged_layer_height;
 
 // The parts of that wall standing on the cage rather than the slope, so on a contour identical to their own.
-// Where the support changes is found by bisection, which stops at spans of 2mm, so the move spanning each end of
+// Where the support changes is found by bisection, which stops at spans of 2 mm, so the move spanning each end of
 // the slope reaches a little way into the cage. Taking only the moves lying wholly outside the slope's x range
 // leaves the wall that is unambiguously supported, without asserting how closely the bisection converged.
 std::vector<double> cage_shoulder_feed_rates(const std::string& gcode)
@@ -214,7 +214,7 @@ std::vector<double> cage_shoulder_feed_rates(const std::string& gcode)
     });
 }
 
-// The readings a 40mm wall takes over a previous layer whose edge falls away by 0.03 mm towards the
+// The readings a 40 mm wall takes over a previous layer whose edge falls away by 0.03 mm towards the
 // middle: both ends read the same, and the middle reads slightly further out over air. Whether that
 // middle reading survives is what decides the speed the wall is printed at.
 std::vector<ExtendedPoint<2>> sampled_wall_over_dished_layer(const std::function<float(float)>& distance_to_speed)
@@ -232,7 +232,7 @@ std::vector<ExtendedPoint<2>> sampled_wall_over_dished_layer(const std::function
                                                               dished_min_distance, distance_to_speed);
 }
 
-// A straight, otherwise supported wall over a previous-layer boundary with a 2mm-wide pocket. Moving the
+// A straight, otherwise supported wall over a previous-layer boundary with a 2 mm-wide pocket. Moving the
 // pocket between x = 10 and x = 20 covers both discovery away from the wall's midpoint and refinement around
 // a midpoint that has already been discovered. The current wall is inset half its width from the flat boundary,
 // so its supported readings are zero after the estimator applies its boundary offset.

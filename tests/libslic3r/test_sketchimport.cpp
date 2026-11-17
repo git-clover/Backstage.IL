@@ -21,7 +21,7 @@ using namespace Slic3r;
 static void write_square_svg(const std::string& path)
 {
     std::ofstream f(path);
-    f << "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10mm\" height=\"10mm\" "
+    f << "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10 mm\" height=\"10 mm\" "
          "viewBox=\"0 0 10 10\">"
          "<path d=\"M0,0 L10,0 L10,10 L0,10 Z\" fill=\"#000000\"/></svg>";
     REQUIRE(f.good());

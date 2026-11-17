@@ -346,7 +346,7 @@ static std::vector<PrintBase::SlicingStatus> support_needed_statuses(bool no_che
 
 TEST_CASE("An overhang sliced with support off reports that support is needed", "[SupportMaterial]")
 {
-    // The 40mm cap reaches ~22mm past its 8mm stem, beyond the 6mm cantilever limit of
+    // The 40 mm cap reaches ~22 mm past its 8 mm stem, beyond the 6 mm cantilever limit of
     // PrintObject::is_support_necessary().
     const std::vector<PrintBase::SlicingStatus> statuses = support_needed_statuses(false);
     REQUIRE(! statuses.empty());
@@ -364,7 +364,7 @@ TEST_CASE("The no-check flag skips the support-needed check", "[SupportMaterial]
 
 SCENARIO("Support layer Z honors contact distance", "[SupportMaterial]")
 {
-    // Box h = 20mm, hole bottom at 5mm, hole height 10mm (top edge at 15mm).
+    // Box h = 20 mm, hole bottom at 5 mm, hole height 10 mm (top edge at 15 mm).
     TriangleMesh mesh = Slic3r::Test::mesh(Slic3r::Test::TestMesh::cube_with_hole);
     mesh.rotate_x(float(M_PI / 2));
 

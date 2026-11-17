@@ -189,7 +189,7 @@ static DynamicPrintConfig wipe_tower_toolchange_config(const std::string &gcode_
     });
 }
 
-// Slices a 10mm cube under `config`. Not plain Test::slice: a brand-new Print's first `apply()`
+// Slices a 10 mm cube under `config`. Not plain Test::slice: a brand-new Print's first `apply()`
 // counts one filament in use, and DynamicPrintConfig::normalize_fdm_2's single-filament rule then
 // clears `enable_prime_tower`. A second apply, once init_print's regions have settled, sees both
 // filaments and the tower survives.
@@ -446,8 +446,8 @@ TEST_CASE("The tower is sized for the thinnest layer any object on the plate is 
 
     // One purge at 0.1 mm: 100 / (0.1 * 50) = 20 mm, above the 20 mm-tall tower's stability
     // floor. At the preset's 0.2 mm it would be half that, so the two are easy to tell apart.
-    const float floor_20mm = WipeTower::get_limit_depth_by_height(20.f);
-    REQUIRE(floor_20mm < 10.f);
+    const float floor_20 mm = WipeTower::get_limit_depth_by_height(20.f);
+    REQUIRE(floor_20 mm < 10.f);
     CHECK_THAT(print.wipe_tower_data(2).depth, Catch::Matchers::WithinAbs(20., 1e-4));
 }
 
@@ -865,7 +865,7 @@ TEST_CASE("A merged tower layer declares its own height to the G-code processor"
     CHECK(count_height_tags(combined.gcode, "0.4") - count_height_tags(plain.gcode, "0.4") == combined.folded);
 }
 
-// Filament 2 only for the bottom 2mm of a 10mm cube, nothing changes for the remaining ~8mm, so the
+// Filament 2 only for the bottom 2 mm of a 10 mm cube, nothing changes for the remaining ~8 mm, so the
 // wipe tower's last active layer sits well below the object's last printed layer.
 static std::string slice_short_tower_cube(Print &print, const DynamicPrintConfig &config)
 {

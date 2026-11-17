@@ -122,7 +122,7 @@ TEST_CASE("Timelapse g-code is emitted once per layer for Bambu and non-Bambu pr
 }
 
 SCENARIO("Changing the number of solid shell layers does not make all surfaces internal", "[Print]") {
-    GIVEN("sliced 20mm cube and config with top_shell_layers = 2 and bottom_shell_layers = 1") {
+    GIVEN("sliced 20 mm cube and config with top_shell_layers = 2 and bottom_shell_layers = 1") {
         Slic3r::DynamicPrintConfig config = Slic3r::DynamicPrintConfig::full_print_config();
 		config.set_deserialize_strict({
             { "top_shell_layers",           2 },
@@ -389,7 +389,7 @@ TEST_CASE("Objects whose center offsets differ do not share slices", "[Print][Re
 // ---------------------------------------------------------------------------
 namespace {
 
-// Build `n` 20mm cubes (spread apart, or stacked at the origin when `overlap`) into
+// Build `n` 20 mm cubes (spread apart, or stacked at the origin when `overlap`) into
 // `model`/`print` and apply `config`, leaving the print ready to validate(). No slicing needed.
 void build_cubes(Slic3r::Model& model, Slic3r::Print& print,
                  DynamicPrintConfig config, int n, bool overlap)
@@ -523,7 +523,7 @@ TEST_CASE("Print validation applies shared exclusions and ignores volumes above 
         CHECK(error.string.find("extruder 2") != std::string::npos);
     }
 
-    SECTION("elevated shared volume clears a 20mm cube") {
+    SECTION("elevated shared volume clears a 20 mm cube") {
         DynamicPrintConfig config = dual_extruder_exclusion_config(BedExcludeVolumeMode::Shared, {"", ""}, {1});
         config.set_key_value("bed_exclude_volumes", new ConfigOptionString("30..50;-100x-100,300x-100,300x300,-100x300"));
         const StringObjectException error = validate_cubes(config, warnings);
@@ -557,7 +557,7 @@ TEST_CASE("Print validation checks every nozzle used by a multimaterial object",
 // ---------------------------------------------------------------------------
 namespace {
 
-// Add a printable 20mm cube named `name` to `model`; returns it so the caller can tweak it.
+// Add a printable 20 mm cube named `name` to `model`; returns it so the caller can tweak it.
 ModelObject* add_named_cube(Model& model, const std::string& name)
 {
     ModelObject* obj = model.add_object();
@@ -1026,7 +1026,7 @@ TEST_CASE("Custom G-code placeholders are substituted", "[Print]")
     CHECK(slice({ cube(20) }, { { "machine_start_gcode", "; Extruder [current_extruder]" } })
               .find("; Extruder 0") != std::string::npos);
 
-    // [layer_num] / [layer_z] in the end G-code (a 20mm cube at 0.1 mm is 200 layers).
+    // [layer_num] / [layer_z] in the end G-code (a 20 mm cube at 0.1 mm is 200 layers).
     const std::string end_gcode = slice({ cube(20) }, {
         { "machine_end_gcode",          "; Layer_num [layer_num]\n; Layer_z [layer_z]" },
         { "layer_height",               0.1 },
@@ -1043,7 +1043,7 @@ TEST_CASE("Custom G-code placeholders are substituted", "[Print]")
               .find("; between-object-gcode") != std::string::npos);
 
     // [layer_num] keeps counting across sequentially printed objects (199 then 399), and [max_layer_z]
-    // stays at the first object's 20mm top while the second object starts.
+    // stays at the first object's 20 mm top while the second object starts.
     const std::string per_layer = slice_two_cubes_arranged({
         { "print_sequence",             "by object" },
         { "layer_change_gcode",         ";Layer:[layer_num] ([layer_z] mm) max [max_layer_z]" },
@@ -1223,7 +1223,7 @@ TEST_CASE("Print statistics in custom G-code match the final print statistics", 
     };
     // The same statistics filename_format is expanded with.
     DynamicConfig stats = print.print_statistics().config();
-    // A 20mm cube with filament_density 1.25 weighs something, unlike the running extruded_weight_total in the header.
+    // A 20 mm cube with filament_density 1.25 weighs something, unlike the running extruded_weight_total in the header.
     CHECK(stats.opt_float("total_weight") > 0.);
     for (const std::string &key : number_keys) {
         CAPTURE(key);
