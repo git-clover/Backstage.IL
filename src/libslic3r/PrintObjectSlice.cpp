@@ -789,7 +789,7 @@ std::string fix_slicing_errors(PrintObject* object, LayerPtrs &layers, const std
             for (size_t buggy_layer_idx = range.begin(); buggy_layer_idx < range.end(); ++ buggy_layer_idx) {
                 throw_if_canceled();
                 size_t idx_layer = buggy_layers[buggy_layer_idx];
-                // BBS: only replace empty layers lower than 1mm
+                // BBS: only replace empty layers lower than 1 mm
                 const coordf_t thresh_empty_layer_height = 1;
                 Layer* layer = layers[idx_layer];
                 if (layer->print_z>= thresh_empty_layer_height)
@@ -802,7 +802,7 @@ std::string fix_slicing_errors(PrintObject* object, LayerPtrs &layers, const std
                     // Find the first valid layer below / above the current layer.
                     const Surfaces *upper_surfaces = nullptr;
                     const Surfaces *lower_surfaces = nullptr;
-                    //BBS: only repair empty layers lowers than 1mm
+                    //BBS: only repair empty layers lowers than 1 mm
                     for (size_t j = idx_layer + 1; j < layers.size(); ++j) {
                         if (!layers[j]->slicing_errors) {
                             upper_surfaces = &layers[j]->regions()[region_id]->slices.surfaces;

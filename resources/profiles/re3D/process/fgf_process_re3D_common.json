@@ -92,7 +92,7 @@
 	"prime_tower_width": "35",
 	"xy_hole_compensation": "0",
 	"xy_contour_compensation": "0",
-	"infill_anchor": "2mm",
+	"infill_anchor": "2 mm",
 	"ensure_vertical_shell_thickness": "none",
 	"accel_to_decel_enable": "0",
 	"slow_down_layers": "1",

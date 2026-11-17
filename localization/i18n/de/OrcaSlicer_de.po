@@ -14694,7 +14694,7 @@ msgstr "Objekte per Rechteck auswählen"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Tastatur 1-9: Filament für Objekt/Teil einstellen"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Bewegungsschritt auf 1 mm eingestellt"
 
 msgid "Movement in camera space"
@@ -14719,7 +14719,7 @@ msgstr "Malen"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Verfügbar, während ein Mal-Gizmo geöffnet ist: Stützen, Naht, Fuzzy Skin oder Farben malen."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Verschieben: Drücken, um in 1 mm einzurasten"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17214,7 +17214,7 @@ msgstr "Diese separate Einstellung beeinflusst die Geschwindigkeit von Umfängen
 msgid "Small perimeters threshold"
 msgstr "Schwelle für kleine Strukturen"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Dies legt die Schwelle für eine kleine Umfangslänge fest. Der Standardwert für die Schwelle beträgt 0 mm."
 
 # AI Translated
@@ -17230,7 +17230,7 @@ msgid "Small support perimeters threshold"
 msgstr "Schwellenwert für feine Strukturen der Stützen"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Legt den Schwellenwert für die Länge feiner Stützstrukturen fest. Der Standardschwellenwert beträgt 0 mm."
 
 msgid "Walls printing order"
@@ -17352,7 +17352,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Abstand der Abtastpunkte"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Diese Option legt den bevorzugten Abstand zwischen den Abtastpunkten (Raster-Größe) für die X- und Y-Richtung fest, wobei der Standardwert für beide X und Y 50 mm beträgt."
 
 msgid "Mesh margin"
@@ -17638,18 +17638,18 @@ msgstr "Schrumpfung (XY)"
 # Needs human review: Reused the earlier human translation, but its third sentence ('only the perimeter filament is considered') no longer matched the English; replaced it with the multi-material sentence and fixed three typos.
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"Gib das Schrumpfungsprozent ein, das das Filament nach dem Abkühlen haben wird (94%, wenn du 94mm anstatt 100mm misst). Das Teil wird in der xy-Ebene skaliert, um zu kompensieren. Bei Drucken mit mehreren Materialien muss die Filament-Schrumpfung bei allen verwendeten Filamenten übereinstimmen.\n"
+"Gib das Schrumpfungsprozent ein, das das Filament nach dem Abkühlen haben wird (94%, wenn du 94 mm anstatt 100 mm misst). Das Teil wird in der xy-Ebene skaliert, um zu kompensieren. Bei Drucken mit mehreren Materialien muss die Filament-Schrumpfung bei allen verwendeten Filamenten übereinstimmen.\n"
 "Stelle sicher, dass genügend Platz zwischen den Objekten vorhanden ist, da diese Kompensation nach den Überprüfungen durchgeführt wird."
 
 msgid "Shrinkage (Z)"
 msgstr "Schrumpfung (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
-msgstr "Gib das Schrumpfungsprozent ein, die das Filament nach dem Abkühlen haben wird(94%, wenn du 94mm anstatt 1.0 mm misst). Das Teil wird in der Z-Ebene skaliert, um das zukompensieren."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgstr "Gib das Schrumpfungsprozent ein, die das Filament nach dem Abkühlen haben wird(94%, wenn du 94 mm anstatt 1.0 mm misst). Das Teil wird in der Z-Ebene skaliert, um das zukompensieren."
 
 msgid "Adhesiveness Category"
 msgstr "Haftungskategorie"
@@ -31291,16 +31291,16 @@ msgstr "Aus Zwischenablage einfügen"
 msgid "Toggle printable for object/part"
 msgstr "Druckbar für Objekt/Teil umschalten"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Auswahl 10 mm in negativer X-Richtung verschieben"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Auswahl 10 mm in positiver X-Richtung verschieben"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Auswahl 10 mm in positiver Y-Richtung verschieben"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Auswahl 10 mm in negativer Y-Richtung verschieben"
 
 # AI Translated

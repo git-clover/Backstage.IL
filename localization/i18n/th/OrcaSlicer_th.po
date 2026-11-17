@@ -14730,7 +14730,7 @@ msgstr "เลือกวัตถุตามสี่เหลี่ยม"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "แป้นพิมพ์ 1-9: ตั้งค่าเส้นพลาสติกสำหรับวัตถุ/ชิ้นส่วน"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "ตั้งระยะขยับเป็น 1 มม."
 
 msgid "Movement in camera space"
@@ -14755,7 +14755,7 @@ msgstr "การระบายสี"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "ใช้ได้ขณะที่กิสโม่ระบายสีเปิดอยู่: ส่วนรองรับ, รอยตะเข็บ, ผิวฟัซซี หรือการระบายสี"
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "ย้าย: กดเพื่อสแน็ป 1 มม"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17310,7 +17310,7 @@ msgstr "การตั้งค่าแยกนี้จะส่งผลต
 msgid "Small perimeters threshold"
 msgstr "เกณฑ์ขอบเขตขนาดเล็ก"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "นี่เป็นการกำหนดเกณฑ์สำหรับความยาวเส้นรอบวงเล็กน้อย เกณฑ์เริ่มต้นคือ 0 มม."
 
 # AI Translated
@@ -17326,8 +17326,8 @@ msgid "Small support perimeters threshold"
 msgstr "เกณฑ์เส้นรอบรูปส่วนรองรับขนาดเล็ก"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "ตั้งค่าเกณฑ์สำหรับความยาวเส้นรอบรูปส่วนรองรับขนาดเล็ก เกณฑ์เริ่มต้นคือ 0mm"
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "ตั้งค่าเกณฑ์สำหรับความยาวเส้นรอบรูปส่วนรองรับขนาดเล็ก เกณฑ์เริ่มต้นคือ 0 mm"
 
 msgid "Walls printing order"
 msgstr "สั่งพิมพ์ผนัง"
@@ -17450,7 +17450,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "ระยะทางจุดโพรบ"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "ตัวเลือกนี้จะตั้งค่าระยะห่างที่ต้องการระหว่างจุดโพรบ (ขนาดตาราง) สำหรับทิศทาง X และ Y โดยค่าเริ่มต้นคือ 50 มม. สำหรับทั้ง X และ Y"
 
 msgid "Mesh margin"
@@ -17734,7 +17734,7 @@ msgstr "การหดตัว (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "ป้อนเปอร์เซ็นต์การหดตัวที่เส้นพลาสติกจะได้รับหลังจากการทำความเย็น (94% หากคุณวัด 94 มม. แทนที่จะเป็น 100 มม.) ชิ้นส่วนจะถูกปรับขนาดเป็น XY เพื่อชดเชย สำหรับการพิมพ์แบบหลายวัสดุ ตรวจสอบให้แน่ใจว่าการหดตัวของเส้นพลาสติกตรงกันกับเส้นพลาสติกที่ใช้ทั้งหมด\n"
@@ -17744,7 +17744,7 @@ msgid "Shrinkage (Z)"
 msgstr "การหดตัว (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "ป้อนเปอร์เซ็นต์การหดตัวที่เส้นพลาสติกจะได้รับหลังจากการทำความเย็น (94% หากคุณวัด 94 มม. แทนที่จะเป็น 100 มม.) ชิ้นส่วนจะถูกปรับขนาดเป็น Z เพื่อชดเชย"
 
 msgid "Adhesiveness Category"
@@ -31532,16 +31532,16 @@ msgstr "วางจากคลิปบอร์ด"
 msgid "Toggle printable for object/part"
 msgstr "สลับการพิมพ์สำหรับวัตถุ/ชิ้นส่วน"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "ย้ายส่วนที่เลือกไป 10 มม. ในทิศทาง X ลบ"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "เลื่อนส่วนที่เลือกไป 10 มม. ในทิศทาง X บวก"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "เลื่อนส่วนที่เลือกไป 10 มม. ในทิศทางบวก Y"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "ย้ายส่วนที่เลือกไป 10 มม. ในทิศทางลบ Y"
 
 # AI Translated

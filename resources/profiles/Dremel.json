@@ -27,56 +27,56 @@
 			"sub_path": "process/fdm_process_dremel_common.json"
 		},
 		{
-			"name": ".05mm Super Detail @Dremel 3D40 0.4",
-			"sub_path": "process/.05mm Super Detail @Dremel 3D40 0.4.json"
+			"name": ".05 mm Super Detail @Dremel 3D40 0.4",
+			"sub_path": "process/.05 mm Super Detail @Dremel 3D40 0.4.json"
 		},
 		{
-			"name": ".05mm Super Detail @Dremel 3D45 0.4",
-			"sub_path": "process/.05mm Super Detail @Dremel 3D45 0.4.json"
+			"name": ".05 mm Super Detail @Dremel 3D45 0.4",
+			"sub_path": "process/.05 mm Super Detail @Dremel 3D45 0.4.json"
 		},
 		{
-			"name": ".10mm Detail @Dremel 3D20 0.4",
-			"sub_path": "process/.10mm Detail @Dremel 3D20 0.4.json"
+			"name": ".10 mm Detail @Dremel 3D20 0.4",
+			"sub_path": "process/.10 mm Detail @Dremel 3D20 0.4.json"
 		},
 		{
-			"name": ".10mm Detail @Dremel 3D40 0.4",
-			"sub_path": "process/.10mm Detail @Dremel 3D40 0.4.json"
+			"name": ".10 mm Detail @Dremel 3D40 0.4",
+			"sub_path": "process/.10 mm Detail @Dremel 3D40 0.4.json"
 		},
 		{
-			"name": ".10mm Detail @Dremel 3D45 0.4",
-			"sub_path": "process/.10mm Detail @Dremel 3D45 0.4.json"
+			"name": ".10 mm Detail @Dremel 3D45 0.4",
+			"sub_path": "process/.10 mm Detail @Dremel 3D45 0.4.json"
 		},
 		{
-			"name": ".20mm Standard @Dremel 3D20 0.4",
-			"sub_path": "process/.20mm Standard @Dremel 3D20 0.4.json"
+			"name": ".20 mm Standard @Dremel 3D20 0.4",
+			"sub_path": "process/.20 mm Standard @Dremel 3D20 0.4.json"
 		},
 		{
-			"name": ".20mm Standard @Dremel 3D40 0.4",
-			"sub_path": "process/.20mm Standard @Dremel 3D40 0.4.json"
+			"name": ".20 mm Standard @Dremel 3D40 0.4",
+			"sub_path": "process/.20 mm Standard @Dremel 3D40 0.4.json"
 		},
 		{
-			"name": ".20mm Standard @Dremel 3D45 0.4",
-			"sub_path": "process/.20mm Standard @Dremel 3D45 0.4.json"
+			"name": ".20 mm Standard @Dremel 3D45 0.4",
+			"sub_path": "process/.20 mm Standard @Dremel 3D45 0.4.json"
 		},
 		{
-			"name": ".30mm Draft @Dremel 3D20 0.4",
-			"sub_path": "process/.30mm Draft @Dremel 3D20 0.4.json"
+			"name": ".30 mm Draft @Dremel 3D20 0.4",
+			"sub_path": "process/.30 mm Draft @Dremel 3D20 0.4.json"
 		},
 		{
-			"name": ".30mm Draft @Dremel 3D40 0.4",
-			"sub_path": "process/.30mm Draft @Dremel 3D40 0.4.json"
+			"name": ".30 mm Draft @Dremel 3D40 0.4",
+			"sub_path": "process/.30 mm Draft @Dremel 3D40 0.4.json"
 		},
 		{
-			"name": ".30mm Draft @Dremel 3D45 0.4",
-			"sub_path": "process/.30mm Draft @Dremel 3D45 0.4.json"
+			"name": ".30 mm Draft @Dremel 3D45 0.4",
+			"sub_path": "process/.30 mm Draft @Dremel 3D45 0.4.json"
 		},
 		{
-			"name": ".34mm SuperDraft @Dremel 3D40 0.4",
-			"sub_path": "process/.34mm SuperDraft @Dremel 3D40 0.4.json"
+			"name": ".34 mm SuperDraft @Dremel 3D40 0.4",
+			"sub_path": "process/.34 mm SuperDraft @Dremel 3D40 0.4.json"
 		},
 		{
-			"name": ".34mm SuperDraft @Dremel 3D45 0.4",
-			"sub_path": "process/.34mm SuperDraft @Dremel 3D45 0.4.json"
+			"name": ".34 mm SuperDraft @Dremel 3D45 0.4",
+			"sub_path": "process/.34 mm SuperDraft @Dremel 3D45 0.4.json"
 		}
 	],
 	"filament_list": [

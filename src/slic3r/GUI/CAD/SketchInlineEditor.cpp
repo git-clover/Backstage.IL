@@ -50,7 +50,7 @@ bool parse_value(const char* text, double& out)
     for (char& c : t)
         if (c == ',') c = '.';
     // strtod, not std::stod: no exceptions, and `end` tells us whether the WHOLE field was a
-    // number. "12mm" must be refused, not silently read as 12.
+    // number. "12 mm" must be refused, not silently read as 12.
     const char* b = t.c_str();
     char* end = nullptr;
     const double v = std::strtod(b, &end);

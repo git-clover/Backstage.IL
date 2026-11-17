@@ -2535,7 +2535,7 @@ static void create_layer_pathing(const TreeModelVolumes &volumes, const TreeSupp
     bool new_element = false;
     const auto _tiny_area_threshold = tiny_area_threshold();
 
-    // Ensures at least one merge operation per 3mm height, 50 layers, 1 mm movement of slow speed or 5mm movement of fast speed (whatever is lowest). Values were guessed.
+    // Ensures at least one merge operation per 3 mm height, 50 layers, 1 mm movement of slow speed or 5 mm movement of fast speed (whatever is lowest). Values were guessed.
     size_t max_merge_every_x_layers = std::min(std::min(5000 / (std::max(config.maximum_move_distance, coord_t(100))), 1000 / std::max(config.maximum_move_distance_slow, coord_t(20))), 3000 / config.layer_height);
     size_t merge_every_x_layers = 1;
     // Calculate the influence areas for each layer below (Top down)
@@ -3417,9 +3417,9 @@ static void organic_smooth_branches_avoid_collisions(
                     ++ num_moved;
                     double dxy = sqrt(sqr(radius) - sqr(v.z()));
                     double nudge_dist_max = dxy - std::hypot(v.x(), v.y())
-                        //FIXME 1mm gap
+                        //FIXME 1 mm gap
                         + collision_extra_gap;
-                    // Shift by maximum 2mm.
+                    // Shift by maximum 2 mm.
                     double nudge_dist = std::min(std::max(0., nudge_dist_max), max_nudge_collision_avoidance);
                     Vec2d nudge_v = to_2d(v).normalized() * (- nudge_dist);
                     pts[i].x() += nudge_v.x();
@@ -3454,7 +3454,7 @@ static void organic_smooth_branches_avoid_collisions(
                 Vec2d new_pos = (1. - smoothing_factor) * old_pos + smoothing_factor * avg;
                 Vec2d shift = new_pos - old_pos;
                 double nudge_dist_max = shift.norm();
-                // Shift by maximum 1mm, less than the collision avoidance factor.
+                // Shift by maximum 1 mm, less than the collision avoidance factor.
                 double nudge_dist = std::min(std::max(0., nudge_dist_max), max_nudge_smoothing);
                 Vec2d nudge_v = shift.normalized() * nudge_dist;
                 pts[i].x() += nudge_v.x();

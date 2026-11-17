@@ -14525,7 +14525,7 @@ msgstr "Hautatu objektuak laukizuzen bidez"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "1-9 teklak: ezarri filamentua objektuari/piezari"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Mugimendu-urratsa 1 mm-an ezarri da"
 
 msgid "Movement in camera space"
@@ -14550,7 +14550,7 @@ msgstr "Margotzea"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Erabilgarri margotzeko tresna bat irekita dagoen bitartean: euskarriak, jostura, gainazal zimurra edo kolore-margotzea."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Mugitu: sakatu 1 mm-ko jauzietan atxikitzeko"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17028,7 +17028,7 @@ msgstr "Ezarpen bereizi honek erradioa <= small_perimeter_threshold duten perime
 msgid "Small perimeters threshold"
 msgstr "Perimetro txikien atalasea"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Perimetro txikien luzeraren atalasea ezartzen du. Atalase lehenetsia 0 mm da."
 
 msgid "Small support perimeters"
@@ -17041,7 +17041,7 @@ msgstr "\"Perimetro txikiak\" ezarpenaren berdina, baina euskarrietarako. Ezarpe
 msgid "Small support perimeters threshold"
 msgstr "Euskarri-perimetro txikien atalasea"
 
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Honek euskarri-perimetro txikien luzera-atalasea ezartzen du. Lehenetsitako atalasea 0 mm da."
 
 msgid "Walls printing order"
@@ -17162,7 +17162,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Zunda-puntuen distantzia"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Aukera honek X eta Y norabideetako zunda-puntuen arteko distantzia hobetsia ezartzen du (sare-tamaina); lehenetsia 50 mm da X zein Y-rako."
 
 msgid "Mesh margin"
@@ -17444,7 +17444,7 @@ msgstr "Uzkurdura (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Sartu hoztu ondoren filamentuak izango duen uzkurdura-ehunekoa (adibidez, 100 mm-ren ordez 94 mm neurtzen badituzu, %94). Pieza XYn eskalatuko da konpentsatzeko. Material anitzeko inprimaketetan, ziurtatu erabilitako filamentuen uzkurdurak bat datozela.\n"
@@ -17454,7 +17454,7 @@ msgid "Shrinkage (Z)"
 msgstr "Uzkurdura (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Sartu filamentuak hoztu ondoren izango duen uzkurdura-portzentajea (%94, 100 mm-ren ordez 94 mm neurtzen badituzu). Pieza Z ardatzean eskalatuko da konpentsatzeko."
 
 msgid "Adhesiveness Category"
@@ -31024,16 +31024,16 @@ msgstr "Itsatsi arbeletik"
 msgid "Toggle printable for object/part"
 msgstr "Txandakatu objektuaren/piezaren inprimagarritasuna"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Mugitu hautapena 10 mm X noranzko negatiboan"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Mugitu hautapena 10 mm X noranzko positiboan"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Mugitu hautapena 10 mm Y noranzko positiboan"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Mugitu hautapena 10 mm Y noranzko negatiboan"
 
 # AI Translated

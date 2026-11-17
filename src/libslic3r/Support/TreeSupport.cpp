@@ -961,7 +961,7 @@ void TreeSupport::detect_overhangs(bool check_support_necessity/* = false*/)
                 // every layer -- the leading strip that produced the spurious support nub.
                 if (belt_ovh_active) {
                     // surface_polygon() is a +/-10.0 mm half-plane. Unioning that raw with
-                    // 20mm-scale geometry and then offsetting it puts a huge dynamic range
+                    // 20 mm-scale geometry and then offsetting it puts a huge dynamic range
                     // through Clipper, which left intermittent artefacts every few layers.
                     // Clip it to the layer's own bounding box first.
                     // Evaluate the belt surface at the BOTTOM of the layer, not its top:
@@ -1068,7 +1068,7 @@ void TreeSupport::detect_overhangs(bool check_support_necessity/* = false*/)
                         }
                         dist_max = std::max(dist_max, dist_pt);
                     }
-                    if (dist_max > scale_(3)) {  // is cantilever if the farmost point is larger than 3mm away from base
+                    if (dist_max > scale_(3)) {  // is cantilever if the farmost point is larger than 3 mm away from base
                         max_cantilever_dist = std::max(max_cantilever_dist, dist_max);
                         layer->cantilevers.emplace_back(poly);
                         BOOST_LOG_TRIVIAL(debug) << "found a cantilever cluster. layer_nr=" << layer_nr << dist_max;
@@ -1232,7 +1232,7 @@ void TreeSupport::detect_overhangs(bool check_support_necessity/* = false*/)
         auto layer = m_object->get_layer(layer_nr);
         auto lower_layer = layer->lower_layer;
 
-        // add support for every 1mm height for sharp tails
+        // add support for every 1 mm height for sharp tails
         ExPolygons sharp_tail_overhangs;
         if (lower_layer == nullptr)
             sharp_tail_overhangs = layer->sharp_tails;
@@ -2908,7 +2908,7 @@ void TreeSupport::drop_nodes()
     const bool has_belt_floor = std::abs(m_slicing_params.belt_floor_shear_factor) > EPSILON;
     const size_t bottom_interface_layers = number_of_support_interface_bottom_layers(config);
     SupportNode::diameter_angle_scale_factor = diameter_angle_scale_factor;
-    float        DO_NOT_MOVER_UNDER_MM       = is_slim ? 0 : 5;                     // do not move contact points under 5mm
+    float        DO_NOT_MOVER_UNDER_MM       = is_slim ? 0 : 5;                     // do not move contact points under 5 mm
 
     auto get_max_move_dist = [this, tan_angle, support_extrusion_width](const SupportNode *node, int power = 1) {
         if (node->max_move_dist == 0) {
@@ -3279,8 +3279,8 @@ void TreeSupport::drop_nodes()
                 std::vector<Point>       moves;
                 std::vector<float>       weights;
                 const std::vector<Point>& neighbours = mst.adjacent_nodes(node.position);
-                // 1. do not merge neighbors under 5mm
-                // 2. Only merge node with single neighbor in distance between [max_move_distance, 10mm/layer_height]
+                // 1. do not merge neighbors under 5 mm
+                // 2. Only merge node with single neighbor in distance between [max_move_distance, 10 mm/layer_height]
                 float dist2_to_first_neighbor = neighbours.empty() ? 0 : vsize2_with_unscale(neighbours[0] - node.position);
                 if (node.print_z > DO_NOT_MOVER_UNDER_MM &&
                     (neighbours.size() > 1 || (neighbours.size() == 1 && dist2_to_first_neighbor >= get_max_move_dist(p_node, 2)))) // Only nodes that aren't about to collapse.

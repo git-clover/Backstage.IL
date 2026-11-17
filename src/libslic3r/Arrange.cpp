@@ -230,7 +230,7 @@ void update_unselected_items_inflation(ArrangePolygons& unselected, const Dynami
     float exclusion_gap = 1.f;
     if (params.is_seq_print) {
         // bed_shrink_x includes the bed's growth by min_obj_distance / 2; add it back so the gap is the bed margin.
-        exclusion_gap = std::max(exclusion_gap, unscale<float>(params.min_obj_distance) / 2 + params.bed_shrink_x + 1.f);  // +1mm gap so the exclusion region is not too close
+        exclusion_gap = std::max(exclusion_gap, unscale<float>(params.min_obj_distance) / 2 + params.bed_shrink_x + 1.f);  // +1 mm gap so the exclusion region is not too close
         // dont forget to move the excluded region when the bed grows
         for (auto& region : unselected) {
             if (region.is_virt_object) region.poly.translate(scaled(std::min(0.f, params.bed_shrink_x)), scaled(std::min(0.f, params.bed_shrink_y)));

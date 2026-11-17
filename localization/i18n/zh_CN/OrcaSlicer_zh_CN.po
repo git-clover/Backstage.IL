@@ -15098,8 +15098,8 @@ msgstr "框选对象"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "按键1-9：设置对象/零件的耗材丝"
 
-msgid "Movement step set to 1mm"
-msgstr "沿X、Y轴以1mm为步进移动对象"
+msgid "Movement step set to 1 mm"
+msgstr "沿X、Y轴以1 mm为步进移动对象"
 
 msgid "Movement in camera space"
 msgstr "沿相机视角移动对象"
@@ -15124,8 +15124,8 @@ msgstr "绘制"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "在绘制小工具打开时可用：支撑、接缝、绒毛表面或涂色。"
 
-msgid "Move: press to snap by 1mm"
-msgstr "移动：以1mm为步进移动"
+msgid "Move: press to snap by 1 mm"
+msgstr "移动：以1 mm为步进移动"
 
 # AI Translated
 msgid "Support/Color Painting: adjust pen radius"
@@ -17751,8 +17751,8 @@ msgstr "此设置将影响半径小于等于 small_perimeter_threshold 的墙（
 msgid "Small perimeters threshold"
 msgstr "微小部位周长阈值"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "这将设置微小部位周长的阈值。默认阈值为0mm。"
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "这将设置微小部位周长的阈值。默认阈值为0 mm。"
 
 # AI Translated
 msgid "Small support perimeters"
@@ -17767,8 +17767,8 @@ msgid "Small support perimeters threshold"
 msgstr "支撑微小部位阈值"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "此项设置支撑微小部位周长的阈值。默认阈值为 0mm。"
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "此项设置支撑微小部位周长的阈值。默认阈值为 0 mm。"
 
 msgid "Walls printing order"
 msgstr "墙顺序"
@@ -17894,8 +17894,8 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "网格点间距离"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
-msgstr "此选项设置了X和Y方向的探针点（网格大小）之间的首选距离，其默认值为X和Y方向均为50mm。"
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
+msgstr "此选项设置了X和Y方向的探针点（网格大小）之间的首选距离，其默认值为X和Y方向均为50 mm。"
 
 msgid "Mesh margin"
 msgstr "网床边缘外扩"
@@ -18198,12 +18198,12 @@ msgstr "收缩率（XY）"
 # AI Translated
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"冷却后耗材会收缩的百分比(如果测量的长度是94mm而不是1.0 mm，则为是收缩率为94%)\n"
+"冷却后耗材会收缩的百分比(如果测量的长度是94 mm而不是1.0 mm，则为是收缩率为94%)\n"
 "补偿将按比例缩放xy轴该补偿仅考虑墙壁所使用的耗材\n"
-"请确保物体之间有足够的间距，因为补偿是在边界检查之后进行输入耗材丝冷却后的收缩百分比（如果测得 94mm 而不是 1.0 mm，则为 94%）。零件将在 XY 方向上缩放以进行补偿。对于多材料打印，请确保所有使用的耗材丝的收缩率一致。\n"
+"请确保物体之间有足够的间距，因为补偿是在边界检查之后进行输入耗材丝冷却后的收缩百分比（如果测得 94 mm 而不是 1.0 mm，则为 94%）。零件将在 XY 方向上缩放以进行补偿。对于多材料打印，请确保所有使用的耗材丝的收缩率一致。\n"
 "请确保对象之间留有足够的间距，因为此补偿在检查之后进行。"
 
 msgid "Shrinkage (Z)"
@@ -18211,9 +18211,9 @@ msgstr "收缩率（Z）"
 
 # AI Translated
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr ""
-"冷却后耗材会收缩的百分比(如果测量的长度是94mm而不是1.0 mm，则为是收缩率为94%)\n"
+"冷却后耗材会收缩的百分比(如果测量的长度是94 mm而不是1.0 mm，则为是收缩率为94%)\n"
 "补偿将按比例缩放Z轴"
 
 msgid "Adhesiveness Category"
@@ -20796,7 +20796,7 @@ msgid ""
 "\n"
 "If the speed specified here is higher than the speed of the outer or inner walls, the printer will default to the slower of the two speeds. When specified as a percentage (e.g., 80%), the speed is calculated based on the respective outer or inner wall speed. The default value is set to 100%."
 msgstr ""
-"这个选项设置斜拼接缝的打印速度。建议以较慢的速度（小于100mm/s）打印斜拼接缝。如果设置的速度与外墙或内墙的速度相差较大，建议启用“平滑挤出率”。\n"
+"这个选项设置斜拼接缝的打印速度。建议以较慢的速度（小于100 mm/s）打印斜拼接缝。如果设置的速度与外墙或内墙的速度相差较大，建议启用“平滑挤出率”。\n"
 "\n"
 "如果此处指定的速度高于外墙或内墙的速度，则打印机将默认使用两者中较慢的速度。当以百分比（例如80%）指定时，速度将基于外墙或内墙的速度进行计算。默认值为100%。"
 
@@ -32366,20 +32366,20 @@ msgid "Toggle printable for object/part"
 msgstr "切换对象/零件的可打印状态"
 
 # AI Translated
-msgid "Move selection 10mm in negative X direction"
-msgstr "将所选项沿 X 轴负方向移动 10mm"
+msgid "Move selection 10 mm in negative X direction"
+msgstr "将所选项沿 X 轴负方向移动 10 mm"
 
 # AI Translated
-msgid "Move selection 10mm in positive X direction"
-msgstr "将所选项沿 X 轴正方向移动 10mm"
+msgid "Move selection 10 mm in positive X direction"
+msgstr "将所选项沿 X 轴正方向移动 10 mm"
 
 # AI Translated
-msgid "Move selection 10mm in positive Y direction"
-msgstr "将所选项沿 Y 轴正方向移动 10mm"
+msgid "Move selection 10 mm in positive Y direction"
+msgstr "将所选项沿 Y 轴正方向移动 10 mm"
 
 # AI Translated
-msgid "Move selection 10mm in negative Y direction"
-msgstr "将所选项沿 Y 轴负方向移动 10mm"
+msgid "Move selection 10 mm in negative Y direction"
+msgstr "将所选项沿 Y 轴负方向移动 10 mm"
 
 # AI Translated
 msgid "Rotate selection 45 degrees counterclockwise"

@@ -55,7 +55,7 @@ std::vector<ExtendedPoint<L::Dim>> estimate_points_properties(const POINTS&     
                                                               float                                   max_line_length = -1.0f,
                                                               float                                   min_distance    = -1.0f,
                                                               // Speed an overhang distance prints at. Without it, interior sampling
-                                                              // is skipped and every line over 4mm is split.
+                                                              // is skipped and every line over 4 mm is split.
                                                               const std::function<float(float)>&      distance_to_speed = {},
                                                               // Overlap (1 - distance / flow_width) at or below which the overhang
                                                               // fan switches on; negative when the fan does not depend on overlap.
@@ -156,12 +156,12 @@ std::vector<ExtendedPoint<L::Dim>> estimate_points_properties(const POINTS&     
     auto fan_on = [fan_overlap_threshold, width_inv](float distance) {
         return fan_overlap_threshold >= 0.f && 1.f - distance * width_inv <= fan_overlap_threshold;
     };
-    // Whether two overhang distances are interchangeable ie have the same speed (beyond a 1mm/sec threshold that gcode.cpp filters out on) 
+    // Whether two overhang distances are interchangeable ie have the same speed (beyond a 1 mm/sec threshold that gcode.cpp filters out on) 
     // and the same fan state.
     auto same_speed_and_fan = [&distance_to_speed, &fan_on](float a, float b) {
         return std::abs(distance_to_speed(a) - distance_to_speed(b)) <= 1.f && fan_on(a) == fan_on(b);
     };
-    // Whether the first overhang distance prints slower than the second, beyond the 1mm/sec gcode.cpp tolerance, or turns the overhang
+    // Whether the first overhang distance prints slower than the second, beyond the 1 mm/sec gcode.cpp tolerance, or turns the overhang
     // fan on where the second does not. Against a supported point (overhang distance 0) it tells whether an end is
     // affected by the overhang.
     auto slower_or_cooled = [&distance_to_speed, &fan_on](float a, float b) {
@@ -179,7 +179,7 @@ std::vector<ExtendedPoint<L::Dim>> estimate_points_properties(const POINTS&     
     // the points it could add would change the G-code.
     if (PREV_LAYER_BOUNDARY_OFFSET && ADD_INTERSECTIONS && distance_to_speed && (min_distance > 0 || fan_overlap_threshold >= 0.f)) {
         // Probe at least this densely before treating matching samples as evidence that a span is uniform. The
-        // segmentation pass below only splits lines of 2mm or more, and every pass here drops points closer
+        // segmentation pass below only splits lines of 2 mm or more, and every pass here drops points closer
         // together than min_spacing, so finer discovery would not produce a more precise transition.
         const double max_probe_spacing = std::max(2., 4. * min_spacing);
         // A backstop for that length test, which on a non-finite length would never be met.
@@ -277,11 +277,11 @@ std::vector<ExtendedPoint<L::Dim>> estimate_points_properties(const POINTS&     
 
                 // ORCA: A line prints as slow as its slower end and is cooled if either end is, so an overhang at one
                 // end would otherwise slow down or cool the whole line. Split the line so that only the part beside
-                // that end prints that way, if the line is reasonably long (2mm or more) and at least one end prints
+                // that end prints that way, if the line is reasonably long (2 mm or more) and at least one end prints
                 // slower or cooled compared with a supported point (overhang distance 0). Deciding on how the end
                 // prints, rather than on its overhang distance against min_distance, also catches an end whose overhang
                 // distance is exactly where the slowdown begins, such as an outline crossing at half a line width.
-                // Without distance_to_speed, split every line over 4mm.
+                // Without distance_to_speed, split every line over 4 mm.
                 const bool split_line = distance_to_speed ?
                     line_len >= 2.f && (slower_or_cooled(curr.distance, 0.f) || slower_or_cooled(next.distance, 0.f)) :
                     line_len > 4.0f;

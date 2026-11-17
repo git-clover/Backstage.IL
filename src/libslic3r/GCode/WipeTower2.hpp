@@ -136,6 +136,15 @@ public:
 		
 		// Calculate extrusion flow from desired line width, nozzle diameter, filament diameter and layer_height:
 		m_extrusion_flow = extrusion_flow(layer_height);
+
+        // Orca: with volumetric speeds, a speed is its flow divided by this layer's line cross section.
+        const float mm3_per_mm = m_extrusion_flow * filament_area();
+        if (m_infill_volumetric_flow > 0.f)
+            m_infill_speed = m_infill_volumetric_flow / mm3_per_mm;
+        if (m_perimeter_volumetric_flow > 0.f)
+            m_perimeter_speed = m_perimeter_volumetric_flow / mm3_per_mm;
+        if (m_first_layer_volumetric_flow > 0.f)
+            m_first_layer_speed = m_first_layer_volumetric_flow / mm3_per_mm;
 	}
 
 	// Return the wipe tower position.
@@ -226,7 +235,7 @@ private:
 
 	bool   m_semm               = true; // Are we using a single extruder multimaterial printer?
 	bool   m_enable_filament_ramming = true;
-	bool   m_is_mk4mmu3         = false;
+	bool   m_is_mk4 mmu3         = false;
     int    m_wipe_tower_filament = 0;   // 1-based config value, 0 means auto
     Vec2f  m_wipe_tower_pos; 			// Left front corner of the wipe tower in mm.
 	float  m_wipe_tower_width; 			// Width of the wipe tower.
@@ -248,6 +257,10 @@ private:
     float  m_wipe_tower_max_purge_speed   = 90.f;
 	float  m_perimeter_speed    = 0.f;
     float  m_first_layer_speed  = 0.f;
+    // Volumetric flows (mm³/s) set_layer() derives the speeds above from, 0 without volumetric speeds.
+    float  m_infill_volumetric_flow      = 0.f;
+    float  m_perimeter_volumetric_flow   = 0.f;
+    float  m_first_layer_volumetric_flow = 0.f;
     size_t m_first_layer_idx    = size_t(-1);
     bool   m_enable_tower_interface_features = false;
     bool   m_enable_tower_interface_cooldown_during_tower = false;

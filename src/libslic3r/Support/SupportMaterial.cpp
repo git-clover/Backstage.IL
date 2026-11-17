@@ -1437,7 +1437,7 @@ struct SlicesMarginCache
 };
 
 // BBS
-static const double length_thresh_well_supported = scale_(6);  // min: 6mm
+static const double length_thresh_well_supported = scale_(6);  // min: 6 mm
 static const double area_thresh_well_supported = SQ(length_thresh_well_supported);  // min: 6x6.36 mm^2
 static const double sharp_tail_xy_gap = 0.2f;
 static const double no_overlap_xy_gap = 0.2f;
@@ -1628,7 +1628,7 @@ static inline ExPolygons detect_overhangs(
                 }
                 dist_max = std::max(dist_max, dist_pt);
             }
-            if (dist_max > scale_(3)) {  // is cantilever if the farmost point is larger than 3mm away from base                            
+            if (dist_max > scale_(3)) {  // is cantilever if the farmost point is larger than 3 mm away from base                            
                 layer.cantilevers.emplace_back(poly);
             }
         }

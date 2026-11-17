@@ -15262,8 +15262,8 @@ msgstr "矩形でオブジェクトを選択"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "キー1-9: オブジェクト/パーツのフィラメントを設定"
 
-msgid "Movement step set to 1mm"
-msgstr "移動ステップを1mmに設定"
+msgid "Movement step set to 1 mm"
+msgstr "移動ステップを1 mmに設定"
 
 # AI Translated
 # Needs human review: Rewrote a person's translation: Dropped 'in camera space'
@@ -15289,8 +15289,8 @@ msgstr "ペイント"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "ペイントギズモ (サポート、継ぎ目、ファジー壁面、色塗り) が開いているときに使用できます。"
 
-msgid "Move: press to snap by 1mm"
-msgstr "1mm単位で移動"
+msgid "Move: press to snap by 1 mm"
+msgstr "1 mm単位で移動"
 
 msgid "Support/Color Painting: adjust pen radius"
 msgstr "サポート/色塗り: 半径のサイズ"
@@ -17991,8 +17991,8 @@ msgid "Small perimeters threshold"
 msgstr "小さな外周のしきい値"
 
 # AI Translated
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "小さな外周の長さのしきい値を設定します。デフォルトのしきい値は0mmです。"
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "小さな外周の長さのしきい値を設定します。デフォルトのしきい値は0 mmです。"
 
 # AI Translated
 msgid "Small support perimeters"
@@ -18007,8 +18007,8 @@ msgid "Small support perimeters threshold"
 msgstr "小さなサポート外周のしきい値"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "小さなサポート外周の長さのしきい値を設定します。デフォルトのしきい値は0mmです。"
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "小さなサポート外周の長さのしきい値を設定します。デフォルトのしきい値は0 mmです。"
 
 msgid "Walls printing order"
 msgstr "壁の印刷順序"
@@ -18133,8 +18133,8 @@ msgid "Probe point distance"
 msgstr "プローブポイント距離"
 
 # AI Translated
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
-msgstr "このオプションは、X方向とY方向のプローブ点間の推奨距離 (グリッドサイズ) を設定します。デフォルトはXY両方とも50mmです。"
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
+msgstr "このオプションは、X方向とY方向のプローブ点間の推奨距離 (グリッドサイズ) を設定します。デフォルトはXY両方とも50 mmです。"
 
 msgid "Mesh margin"
 msgstr "メッシュマージン"
@@ -18442,7 +18442,7 @@ msgstr "収縮率 (XY)"
 # Needs human review: Rewrote a person's translation: Third sentence contradicted the English (said only the perimeter filament is considered).
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "フィラメントが冷却後に収縮する率を入力します（100 mm → 94 mmならば94%）。パーツはこれを補正するようにXY方向にスケーリングされます。マルチマテリアル造形では、使用するすべてのフィラメントの収縮率を一致させてください。\n"
@@ -18454,8 +18454,8 @@ msgstr "収縮率 (Z)"
 
 # AI Translated
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
-msgstr "冷却後にフィラメントが収縮する割合をパーセントで入力します (1.0 mmのはずが94mmであれば94%)。パーツはこれを補正するようにZ方向にスケールされます。"
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgstr "冷却後にフィラメントが収縮する割合をパーセントで入力します (1.0 mmのはずが94 mmであれば94%)。パーツはこれを補正するようにZ方向にスケールされます。"
 
 msgid "Adhesiveness Category"
 msgstr "接着性カテゴリ"
@@ -32918,17 +32918,17 @@ msgstr "貼り付け"
 msgid "Toggle printable for object/part"
 msgstr "オブジェクト/パーツの印刷可否を切り替え"
 
-msgid "Move selection 10mm in negative X direction"
-msgstr "X方向 -10mm"
+msgid "Move selection 10 mm in negative X direction"
+msgstr "X方向 -10 mm"
 
-msgid "Move selection 10mm in positive X direction"
-msgstr "X方向 10mm"
+msgid "Move selection 10 mm in positive X direction"
+msgstr "X方向 10 mm"
 
-msgid "Move selection 10mm in positive Y direction"
-msgstr "Y方向 10mm"
+msgid "Move selection 10 mm in positive Y direction"
+msgstr "Y方向 10 mm"
 
-msgid "Move selection 10mm in negative Y direction"
-msgstr "Y方向 -10mm"
+msgid "Move selection 10 mm in negative Y direction"
+msgstr "Y方向 -10 mm"
 
 # AI Translated
 msgid "Rotate selection 45 degrees counterclockwise"

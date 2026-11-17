@@ -14916,7 +14916,7 @@ msgstr "Seleccionar objectes per rectangle"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "teclat 1-9: establir filament per a objecte/peça"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Pas de moviment configurat a 1 mm"
 
 msgid "Movement in camera space"
@@ -14942,7 +14942,7 @@ msgstr "Pintat"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Disponible mentre hi ha obert un gizmo de pintat: suports, costura, pell difusa o pintura en color."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Moure: Clicka per ajustar en passos d'1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17497,8 +17497,8 @@ msgstr "Aquest ajustament independent afectarà la velocitat dels perímetres am
 msgid "Small perimeters threshold"
 msgstr "Llindar de perímetres petits"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "Això estableix el llindar per a la longitud perimetral petita. El llindar predeterminat és de 0mm"
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "Això estableix el llindar per a la longitud perimetral petita. El llindar predeterminat és de 0 mm"
 
 # AI Translated
 msgid "Small support perimeters"
@@ -17513,7 +17513,7 @@ msgid "Small support perimeters threshold"
 msgstr "Llindar de petits perímetres de suport"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Estableix el llindar per a la longitud dels petits perímetres de suport. El llindar per defecte és 0 mm."
 
 msgid "Walls printing order"
@@ -17635,7 +17635,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Distància entre els punts de sondeig"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Aquesta opció estableix la distància preferida entre els punts de sondeig (mida de la quadrícula ) per a les direccions X i Y, amb el valor per defecte de 50 mm tant per a X com per a Y."
 
 msgid "Mesh margin"
@@ -17922,17 +17922,17 @@ msgstr "Encongiment (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"Introduïu el percentatge de contracció que obtindrà el filament després del refredament ( 94% i si mesureu 94mm en lloc de 1.0 mm ). La peça s'escalarà en XY per compensar. Només es té en compte el filament utilitzat per al perímetre.\n"
+"Introduïu el percentatge de contracció que obtindrà el filament després del refredament ( 94% i si mesureu 94 mm en lloc de 1.0 mm ). La peça s'escalarà en XY per compensar. Només es té en compte el filament utilitzat per al perímetre.\n"
 "Assegureu-vos de deixar prou espai entre objectes, ja que aquesta compensació es fa després de les comprovacions."
 
 msgid "Shrinkage (Z)"
 msgstr "Encongiment (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Introduïu el percentatge de contracció que obtindrà el filament després de refredar-se (94% isi mesureu 94 mm en lloc de 100 mm). La part s'escalarà en Z per compensar."
 
 msgid "Adhesiveness Category"
@@ -31835,16 +31835,16 @@ msgstr "Enganxa des del porta-retalls"
 msgid "Toggle printable for object/part"
 msgstr "Commutar la impressibilitat de l'objecte/peça"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Moure la selecció 10 mm en direcció X negativa"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Moure la selecció 10 mm en direcció X positiva"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Moure la selecció 10 mm en direcció Y positiva"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Moure la selecció 10 mm en direcció Y negativa"
 
 # AI Translated

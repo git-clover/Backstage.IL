@@ -91,6 +91,10 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/xml_parser.hpp>
 #include <boost/foreach.hpp>
+#include <boost/thread/condition_variable.hpp>
+#include <boost/thread/mutex.hpp>
+#include <boost/thread/thread.hpp>
+#include <boost/format.hpp>
 #include <openssl/md5.h>
 #include <string>
 #include <vector>
@@ -8188,7 +8192,7 @@ void PlateData::parse_filament_info(GCodeProcessorResult *result)
             ++count;
             sla::DrainHoles drain_holes = object->sla_drain_holes;
 
-            // The holes were placed 1mm above the mesh in the first implementation.
+            // The holes were placed 1 mm above the mesh in the first implementation.
             // This was a bad idea and the reference point was changed in 2.3 so
             // to be on the mesh exactly. The elevated position is still saved
             // in 3MFs for compatibility reasons.

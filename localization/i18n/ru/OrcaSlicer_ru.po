@@ -14342,7 +14342,7 @@ msgstr "Выбор прямоугольником"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Задать материал для модели/части"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Зафиксировать шаг перемещения на 1 мм"
 
 msgid "Movement in camera space"
@@ -14363,7 +14363,7 @@ msgstr "Рисование"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Горячие клавиши инструментов покраски/рисования поддержек, шва и нечёткой оболочки."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Перемещение: сместить с шагом в 1 мм"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -16843,7 +16843,7 @@ msgid "Small perimeters threshold"
 msgstr "Порог коротких периметров"
 
 # Информация о формуле с Вики
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Пороговое значение (радиус) для расчёта длины коротких периметров (по формуле длины окружности). Значение по умолчанию – 0 мм."
 
 msgid "Small support perimeters"
@@ -16855,7 +16855,7 @@ msgstr "Аналогично скорости «Коротких перимет�
 msgid "Small support perimeters threshold"
 msgstr "Порог коротких периметров поддержек"
 
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Пороговое значение (радиус) для расчёта длины коротких периметров поддержек (по формуле длины окружности). Значение по умолчанию – 0 мм."
 
 msgid "Walls printing order"
@@ -16976,7 +16976,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Интервал точек измерения высот"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Расстояние между точками снятия высоты (размер сетки) в направлениях X и Y. Значения по умолчанию – 50 мм."
 
 msgid "Mesh margin"
@@ -17269,7 +17269,7 @@ msgstr "Компенсация усадки (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Введите процент от исходного размера модели после усадки (94%, если по замерам получилось 94 вместо 100 мм). Используется для автоматического масштабирования моделей по X и Y. Усадка учитывается только при совпадении значения у всех используемых в печати материалов.\n"
@@ -17279,7 +17279,7 @@ msgid "Shrinkage (Z)"
 msgstr "Компенсация усадки (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Введите процент от исходного размера модели после усадки (94%, если по замерам получилось 94 вместо 100 мм). Используется для автоматического масштабирования моделей по Z."
 
 msgid "Adhesiveness Category"
@@ -31072,16 +31072,16 @@ msgstr "Вставить из буфера обмена"
 msgid "Toggle printable for object/part"
 msgstr "Переключить печать модели"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Перемещение выбранного на -10 мм по оси X"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Перемещение выбранного на +10 мм по оси X"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Перемещение выбранного на +10 мм по оси Y"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Перемещение выбранного на -10 мм по оси Y"
 
 # AI Translated

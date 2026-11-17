@@ -14645,7 +14645,7 @@ msgstr "Nesneleri dikdörtgene göre seç"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Klavye 1-9: nesneye/parçaya filament ata"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Hareket adımı 1 mm'ye ayarlandı"
 
 msgid "Movement in camera space"
@@ -14670,7 +14670,7 @@ msgstr "Boyama"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Bir boyama gizmosu açıkken kullanılabilir: destek, dikiş, pütürlü yüzey veya renkli boyama."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Hareket Ettir: 1 mm kadar yaslamak için basın"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17216,7 +17216,7 @@ msgstr "Bu ayrı ayar, yarıçapı <= small_perimeter_threshold olan çevrelerin
 msgid "Small perimeters threshold"
 msgstr "Küçük çevre (perimeter) eşiği"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Bu, küçük çevre uzunluğu için eşiği belirler. Varsayılan eşik 0 mm'dir."
 
 # AI Translated
@@ -17232,7 +17232,7 @@ msgid "Small support perimeters threshold"
 msgstr "Küçük destek çevreleri eşiği"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Bu, küçük destek çevresi uzunluğu için eşiği belirler. Varsayılan eşik 0 mm'dir."
 
 msgid "Walls printing order"
@@ -17354,7 +17354,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Prob noktası mesafesi"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Bu seçenek, X ve Y yönleri için prob noktaları arasındaki tercih edilen mesafeyi (ızgara boyutu) ayarlar; varsayılan değer hem X hem de Y için 50 mm'dir."
 
 msgid "Mesh margin"
@@ -17642,7 +17642,7 @@ msgstr "Büzülme (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Filamentin soğuduktan sonra alacağı büzülme yüzdesini girin (100 mm yerine 94 mm ölçerseniz 94%). Parça, telafi etmek için xy'de ölçeklendirilecektir. Yalnızca çevre için kullanılan filament dikkate alınır.\n"
@@ -17652,7 +17652,7 @@ msgid "Shrinkage (Z)"
 msgstr "Büzülme (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Filamentin soğuduktan sonra alacağı çekme yüzdesini girin (100 mm yerine 94 mm ölçerseniz %94). Telafi etmek için parça Z olarak ölçeklendirilecektir."
 
 msgid "Adhesiveness Category"
@@ -31582,16 +31582,16 @@ msgstr "Panodan yapıştır"
 msgid "Toggle printable for object/part"
 msgstr "Nesne/parça için yazdırılabilirliği aç/kapat"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Seçimi negatif X yönünde 10 mm taşı"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Seçimi pozitif X yönünde 10 mm taşı"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Seçimi pozitif Y yönünde 10 mm taşı"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Seçimi negatif Y yönünde 10 mm taşı"
 
 # AI Translated

@@ -256,7 +256,7 @@ void KBShortcutsDialog::fill_pages()
             fixed(Section::Selection, { shift, left_button }, L("Select objects by rectangle")),
             fixed(Section::Selection, { esc }, L("Deselect All")),
             fixed(Section::Objects, { "1-9" }, L("Keyboard 1-9: set filament for object/part")),
-            fixed(Section::Placement, { shift, any_key }, L("Movement step set to 1mm")),
+            fixed(Section::Placement, { shift, any_key }, L("Movement step set to 1 mm")),
             fixed(Section::Placement, { ctrl, any_key }, L("Movement in camera space")),
             mouse(Section::Camera, left_button, "left_mouse_drag_action"),
             mouse(Section::Camera, _L("Middle mouse"), "middle_mouse_drag_action"),
@@ -267,7 +267,7 @@ void KBShortcutsDialog::fill_pages()
 
         page(_L("Painting"), _L("Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."), ShortcutContext::Painting, {
             fixed(Section::Gizmos, { esc }, L("Deselect All")),
-            fixed(Section::Gizmos, { shift, left_button }, L("Move: press to snap by 1mm")),
+            fixed(Section::Gizmos, { shift, left_button }, L("Move: press to snap by 1 mm")),
             fixed(Section::PaintingTools, { ctrl, wheel }, L("Support/Color Painting: adjust pen radius")),
         });
 

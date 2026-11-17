@@ -93,7 +93,7 @@ static constexpr double SUPPORT_RESOLUTION = 0.0375;
 // Maximum perimeter length for the loop to apply the small perimeter speed. 
 #define                 SMALL_PERIMETER_LENGTH(LENGTH)  (((LENGTH) / SCALING_FACTOR) * 2 * PI)
 static constexpr double INSET_OVERLAP_TOLERANCE = 0.4;
-// 3mm ring around the top / bottom / bridging areas.
+// 3 mm ring around the top / bottom / bridging areas.
 //FIXME This is quite a lot.
 static constexpr double EXTERNAL_INFILL_MARGIN = 3;
 static constexpr double BRIDGE_INFILL_MARGIN = 1;

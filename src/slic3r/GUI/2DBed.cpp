@@ -53,7 +53,7 @@ int Bed_2D::calculate_grid_step(const BoundingBox& bb, const double& scale)
     return   min_edge >= 6000 ? 100        // Short edge >= 60.0 mm  Main Grid: 5 x 100 = 5.0 mm
            : min_edge >= 1200 ? 50         // Short edge >= 12.0 mm  Main Grid: 5 x 50  = 2.0 mm
            : min_edge >= 600  ? 20         // Short edge >= 6.0 mm   Main Grid: 5 x 20  = 1.0 mm
-           : 10;                           // Short edge <  6.0 mm   Main Grid: 5 x 10  =  50mm
+           : 10;                           // Short edge <  6.0 mm   Main Grid: 5 x 10  =  50 mm
 }
 
 std::vector<Polylines> Bed_2D::generate_grid(const ExPolygon& poly, const BoundingBox& bb, const Vec2d& origin, const double& step, const double& scale)

@@ -15000,7 +15000,7 @@ msgstr "Виділити обʼєкти прямокутником"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "клавіатура 1-9: встановити філамент для обʼєкта/деталі"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Крок переміщення встановлено на 1 мм"
 
 msgid "Movement in camera space"
@@ -15025,7 +15025,7 @@ msgstr "Малювання"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Доступно, коли відкрито gizmo малювання: підтримок, шва, шорсткої поверхні або фарбування."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Переміщення: натисніть для переміщення на 1 мм"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17605,7 +17605,7 @@ msgstr "Це окреме налаштування впливає на швид�
 msgid "Small perimeters threshold"
 msgstr "Поріг малих периметрів"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "При цьому встановлюється поріг для невеликої довжини периметра. Порігове за замовчуванням - 0 мм"
 
 # AI Translated
@@ -17621,7 +17621,7 @@ msgid "Small support perimeters threshold"
 msgstr "Поріг малих периметрів підтримок"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Задає поріг довжини малого периметра підтримок. Типовий поріг — 0 мм."
 
 msgid "Walls printing order"
@@ -17743,7 +17743,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Відстань до зонда"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Цей параметр встановлює бажану відстань між точками зонда (розмір сітки) для напрямків X і Y, за замовчуванням 50 мм для X і Y."
 
 msgid "Mesh margin"
@@ -18045,7 +18045,7 @@ msgstr "Усадка (XY)"
 # AI Translated
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Введіть відсоток усадки, який отримає філамент після охолодження (94%, якщо ви вимірюєте 94 мм замість 100 мм). Деталь буде масштабовано у XY для компенсації. Для друку кількома матеріалами переконайтеся, що усадка збігається для всіх використаних філаментів\n"
@@ -18055,7 +18055,7 @@ msgid "Shrinkage (Z)"
 msgstr "Усадка (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Введіть відсоток усадки, якого зазнає філамент після охолодження (94%, якщо виміряне значення становить 94 мм замість 100 мм). Деталь буде масштабована по осі Z для компенсації."
 
 # AI Translated
@@ -32072,16 +32072,16 @@ msgstr "Вставити з буфера обміну"
 msgid "Toggle printable for object/part"
 msgstr "Перемкнути можливість друку для обʼєкта/частини"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Перемістити виділення на 10 мм у негативному напрямку по осі X"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Перемістити виділення на 10 мм у позитивному напрямку X"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Перемістити виділення на 10 мм у позитивному напрямку Y"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Перемістити виділення на 10 мм у негативному напрямку Y"
 
 # AI Translated

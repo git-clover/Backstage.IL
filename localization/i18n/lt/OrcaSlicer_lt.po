@@ -14794,7 +14794,7 @@ msgstr "Pasirinkti objektus stačiakampio rėmeliu"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Klaviatūra 1-9: nustatyti objekto/dalies giją"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Judėjimo žingsnis nustatytas į 1 mm"
 
 msgid "Movement in camera space"
@@ -14819,7 +14819,7 @@ msgstr "Piešimas"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Veikia, kai atidarytas piešimo manipuliatorius: atramų, siūlės, grublėto paviršiaus ar spalvų piešimo."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Perkėlimas: paspauskite, kad pritrauktumėte kas 1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17331,7 +17331,7 @@ msgstr "Šis atskiras nustatymas valdo perimetrų, kurių spindulys <= small_per
 msgid "Small perimeters threshold"
 msgstr "Mažų perimetrų riba"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Nustato mažų perimetrų ilgio arba spindulio ribą. Numatytoji reikšmė – 0 mm."
 
 msgid "Small support perimeters"
@@ -17344,7 +17344,7 @@ msgstr "Tas pats, kas „Mažos trajektorijos (Small perimeters)“, bet skirta 
 msgid "Small support perimeters threshold"
 msgstr "Mažo atramų perimetro ribos"
 
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Nustatoma mažo atramų perimetro ilgio riba. Numatytoji riba yra 0 mm"
 
 msgid "Walls printing order"
@@ -17465,7 +17465,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Atstumas iki zondo taško"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Nustato pageidaujamą atstumą tarp matavimo taškų (tinklelio tankį) X ir Y kryptimis. Numatytasis atstumas abiem kryptimis yra 50 mm."
 
 msgid "Mesh margin"
@@ -17754,7 +17754,7 @@ msgstr "Susitraukimas (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Įveskite susitraukimo procentą, kurį gija pasieks po aušinimo (pvz., 94%, jei vietoj 100 mm išmatuojate 94 mm). Detalės mastelis bus pakeistas XY ašyse, kad tai kompensuotų. Spausdinant iš kelių medžiagų, įsitikinkite, kad visų naudojamų gijų susitraukimas sutampa.\n"
@@ -17764,7 +17764,7 @@ msgid "Shrinkage (Z)"
 msgstr "Susitraukimas (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Įveskite susitraukimo procentą, kurį gija pasieks po aušinimo (pvz., 94%, jei vietoj 100 mm išmatuojate 94 mm). Detalės mastelis bus pakeistas Z ašyje, kad tai kompensuotų."
 
 msgid "Adhesiveness Category"
@@ -31484,16 +31484,16 @@ msgstr "Įklijuoti iš mainų srities"
 msgid "Toggle printable for object/part"
 msgstr "Perjungti objekto / dalies spausdinimą"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Perkelti pasirinkimą 10 mm neigiama X kryptimi"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Perkelti pasirinkimą 10 mm teigiama X kryptimi"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Perkelti pasirinkimą 10 mm teigiama Y kryptimi"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Perkelti pasirinkimą 10 mm neigiama Y kryptimi"
 
 # AI Translated

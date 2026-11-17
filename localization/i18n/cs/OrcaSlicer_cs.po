@@ -14969,7 +14969,7 @@ msgstr "Vyberte objekty obdélníkem"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Klávesy 1–9: nastavit filament pro objekt/část"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Krok pohybu nastaven na 1 mm"
 
 msgid "Movement in camera space"
@@ -14994,7 +14994,7 @@ msgstr "Malování"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Dostupné, když je otevřeno gizmo malování: podpory, šev, fuzzy skin nebo barevné malování."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Pohyb: stiskněte pro posun o 1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17525,7 +17525,7 @@ msgstr "Toto samostatné nastavení ovlivní rychlost obvodů s poloměrem <= sm
 msgid "Small perimeters threshold"
 msgstr "Práh malých obvodů"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Tímto se nastavuje práh délky malého obvodu. Výchozí práh je 0 mm."
 
 # AI Translated
@@ -17541,7 +17541,7 @@ msgid "Small support perimeters threshold"
 msgstr "Práh malých obvodů podpor"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Nastavuje práh pro délku malého obvodu podpor. Výchozí práh je 0 mm."
 
 msgid "Walls printing order"
@@ -17662,7 +17662,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Vzdálenost sondovacích bodů"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Tato volba nastavuje preferovanou vzdálenost mezi měřicími body (velikost mřížky) ve směrech X a Y, přičemž výchozí hodnota je 50 mm pro oba směry."
 
 msgid "Mesh margin"
@@ -17945,7 +17945,7 @@ msgstr "Smrštění (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Zadejte procento smrštění filamentu po ochlazení (94 %, pokud naměříte 94 mm místo 100 mm). Model bude v osách XY upraven pro kompenzaci smrštění. U vícebarevného tisku zajistěte, aby smrštění odpovídalo u všech použitých filamentů.\n"
@@ -17955,7 +17955,7 @@ msgid "Shrinkage (Z)"
 msgstr "Srážení (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Zadejte procento smrštění, které filament prodělá po ochlazení (94 %, pokud naměříte 94 mm místo 100 mm). Objekt bude škálován v ose Z pro kompenzaci."
 
 # AI Translated
@@ -31918,16 +31918,16 @@ msgstr "Vložit ze schránky"
 msgid "Toggle printable for object/part"
 msgstr "Přepnout tisknutelnost objektu/části"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Přesuňte výběr o 10 mm v záporném směru osy X"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Přesuňte výběr o 10 mm v kladném směru osy X"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Přesuňte výběr o 10 mm v kladném směru osy Y"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Přesuňte výběr o 10 mm v záporném směru osy Y"
 
 # AI Translated

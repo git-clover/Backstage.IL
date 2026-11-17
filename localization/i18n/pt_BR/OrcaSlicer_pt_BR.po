@@ -13886,8 +13886,8 @@ msgstr "Selecionar objetos por retângulo"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Teclado 1-9: ajustar filamento para objeto/peça"
 
-msgid "Movement step set to 1mm"
-msgstr "Passo de movimento definido para 1mm"
+msgid "Movement step set to 1 mm"
+msgstr "Passo de movimento definido para 1 mm"
 
 msgid "Movement in camera space"
 msgstr "Movimento no espaço da câmera"
@@ -13907,8 +13907,8 @@ msgstr "Pintura"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Disponível enquanto um gizmo de pintura estiver aberto: suportes, costura, textura difusa ou pintura de cores."
 
-msgid "Move: press to snap by 1mm"
-msgstr "Mover: pressione para ajustar em 1mm"
+msgid "Move: press to snap by 1 mm"
+msgstr "Mover: pressione para ajustar em 1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
 msgstr "Suporte/Pintura em cores: ajustar o raio da caneta"
@@ -16330,7 +16330,7 @@ msgstr "Essa configuração separada afetará a velocidade dos perímetros com r
 msgid "Small perimeters threshold"
 msgstr "Limiar de pequenos perímetros"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Isso define o limiar para o comprimento do perímetro pequeno. O limiar padrão é 0 mm."
 
 msgid "Small support perimeters"
@@ -16343,8 +16343,8 @@ msgstr "Igual a \"Pequenos perímetros\", mas para suportes. Esta configuração
 msgid "Small support perimeters threshold"
 msgstr "Limiar de pequenos perímetros de suporte"
 
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "Isto define o limite para o comprimento de pequenos perímetros de suporte. O limite padrão é 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "Isto define o limite para o comprimento de pequenos perímetros de suporte. O limite padrão é 0 mm."
 
 msgid "Walls printing order"
 msgstr "Ordem de impressão das paredes"
@@ -16462,8 +16462,8 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Distância entre pontos de sonda"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
-msgstr "Esta opção define a distância preferencial entre pontos de sonda (tamanho da grade) para as direções X e Y, sendo o padrão 50mm para ambas as direções X e Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
+msgstr "Esta opção define a distância preferencial entre pontos de sonda (tamanho da grade) para as direções X e Y, sendo o padrão 50 mm para ambas as direções X e Y."
 
 msgid "Mesh margin"
 msgstr "Margem da malha"
@@ -16738,18 +16738,18 @@ msgstr "Encolhimento (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"Informe a porcentagem de retração que o filamento terá após o resfriamento (94% se você medir 94mm em vez de 1.0 mm). A peça será escalada em XY para compensar. Apenas o filamento usado para o perímetro é levado em consideração.\n"
+"Informe a porcentagem de retração que o filamento terá após o resfriamento (94% se você medir 94 mm em vez de 1.0 mm). A peça será escalada em XY para compensar. Apenas o filamento usado para o perímetro é levado em consideração.\n"
 "Certifique-se de permitir espaço suficiente entre objetos, pois essa compensação é feita após as verificações."
 
 msgid "Shrinkage (Z)"
 msgstr "Encolhimento (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
-msgstr "Informe a porcentagem de retração que o filamento terá após o resfriamento (94% se você medir 94mm em vez de 1.0 mm). A peça será escalada em Z para compensar."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgstr "Informe a porcentagem de retração que o filamento terá após o resfriamento (94% se você medir 94 mm em vez de 1.0 mm). A peça será escalada em Z para compensar."
 
 msgid "Adhesiveness Category"
 msgstr "Categoria de Adesão"
@@ -30022,17 +30022,17 @@ msgstr "Colar da área de transferência"
 msgid "Toggle printable for object/part"
 msgstr "Alternar modo de impressão para objeto/peça"
 
-msgid "Move selection 10mm in negative X direction"
-msgstr "Mover seleção 10mm na direção X negativa"
+msgid "Move selection 10 mm in negative X direction"
+msgstr "Mover seleção 10 mm na direção X negativa"
 
-msgid "Move selection 10mm in positive X direction"
-msgstr "Mover seleção 10mm na direção X positiva"
+msgid "Move selection 10 mm in positive X direction"
+msgstr "Mover seleção 10 mm na direção X positiva"
 
-msgid "Move selection 10mm in positive Y direction"
-msgstr "Mover seleção 10mm na direção Y positiva"
+msgid "Move selection 10 mm in positive Y direction"
+msgstr "Mover seleção 10 mm na direção Y positiva"
 
-msgid "Move selection 10mm in negative Y direction"
-msgstr "Mover seleção 10mm na direção Y negativa"
+msgid "Move selection 10 mm in negative Y direction"
+msgstr "Mover seleção 10 mm na direção Y negativa"
 
 # AI Translated
 msgid "Rotate selection 45 degrees counterclockwise"

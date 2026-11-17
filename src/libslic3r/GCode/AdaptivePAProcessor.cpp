@@ -97,7 +97,7 @@ std::string AdaptivePAProcessor::process_layer(std::string &&gcode) {
     std::istringstream stream(gcode);
     std::string line;
     std::ostringstream output;
-    double mm3mm_value = 0.0;
+    double mm3 mm_value = 0.0;
     unsigned int accel_value = 0;
     std::string pa_change_line;
     bool wipe_command = false;
@@ -143,7 +143,7 @@ std::string AdaptivePAProcessor::process_layer(std::string &&gcode) {
             if (std::regex_search(line, m_match, m_pa_change_pattern)) {
                 // The tag carries the filament config index, which selects the PA settings of the filament's extruder variant
                 int config_index = std::stoi(m_match[1].str());
-                mm3mm_value = std::stod(m_match[2].str());
+                mm3 mm_value = std::stod(m_match[2].str());
                 accel_value = std::stod(m_match[3].str());
                 int isBridge = std::stoi(m_match[4].str());
                 int roleChange = std::stoi(m_match[5].str());
@@ -293,7 +293,7 @@ std::string AdaptivePAProcessor::process_layer(std::string &&gcode) {
                     }
                     
                     // Calculate the adaptive PA value
-                    predicted_pa = (*interpolator)(mm3mm_value * adaptive_PA_speed, accel_value);
+                    predicted_pa = (*interpolator)(mm3 mm_value * adaptive_PA_speed, accel_value);
                     
                     // This is a bridge, use the dedicated PA setting.
                     if(isBridge && m_config.adaptive_pressure_advance_bridges.get_at(m_last_config_index) > EPSILON)
@@ -313,7 +313,7 @@ std::string AdaptivePAProcessor::process_layer(std::string &&gcode) {
                     output << "; APA Next Speed: " << std::to_string(m_next_feedrate) << "\n";
                     output << "; APA Max Next Speed: " << std::to_string(m_max_next_feedrate) << "\n";
                     output << "; APA Speed Used: " << std::to_string(adaptive_PA_speed) << "\n";
-                    output << "; APA Flow rate: " << std::to_string(mm3mm_value * m_max_next_feedrate) << "\n";
+                    output << "; APA Flow rate: " << std::to_string(mm3 mm_value * m_max_next_feedrate) << "\n";
                     output << "; APA Prev PA: " << std::to_string(m_last_predicted_pa) << " New PA: " << std::to_string(predicted_pa) << "\n"; 
                 }
                 if (config_index_changed || std::fabs(predicted_pa - m_last_predicted_pa) > EPSILON) {

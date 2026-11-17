@@ -1465,7 +1465,7 @@ void GCodeViewer::load_as_gcode(const GCodeProcessorResult& gcode_result, const 
         // correction the surface back-transforms onto the model, but a few elevated
         // features (bridges/overhangs over the chevron gap) are mis-mapped by the linear
         // inverse to well outside the model body; if one becomes the bbox minimum it
-        // drags the min-corner anchor by ~20mm. Drop moves that land clearly outside the
+        // drags the min-corner anchor by ~20 mm. Drop moves that land clearly outside the
         // (correct) model bbox — a geometric filter, not a role guess.
         // Tolerance around the model bbox for outlier rejection, and the minimum fraction
         // of MOVES (by count) the clip must retain before we trust it over the full bbox.

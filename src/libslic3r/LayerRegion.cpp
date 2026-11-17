@@ -682,7 +682,7 @@ void LayerRegion::process_external_surfaces(const Layer *lower_layer, const Poly
     export_region_fill_surfaces_to_svg_debug("3_process_external_surfaces-initial");
 #endif /* SLIC3R_DEBUG_SLICE_PROCESSING */
 
-    // 1) Collect bottom and bridge surfaces, each of them grown by a fixed 3mm offset
+    // 1) Collect bottom and bridge surfaces, each of them grown by a fixed 3 mm offset
     // for better anchoring.
     // Bottom surfaces, grown.
     Surfaces                    bottom;
@@ -714,11 +714,11 @@ void LayerRegion::process_external_surfaces(const Layer *lower_layer, const Poly
                 if (max_grid_area < 0 || surface.expolygon.area() < max_grid_area)
                     surfaces_append(top, offset_ex(surface.expolygon, margin, EXTERNAL_SURFACES_OFFSET_PARAMETERS), surface);
                 else
-                    //BBS: Don't need to expand too much in this situation. Expand 3mm to eliminate hole and 1mm for contour
+                    //BBS: Don't need to expand too much in this situation. Expand 3 mm to eliminate hole and 1 mm for contour
                     surfaces_append(top, intersection_ex(offset(surface.expolygon.contour, margin / 3.0, EXTERNAL_SURFACES_OFFSET_PARAMETERS),
                                                          offset_ex(surface.expolygon, margin, EXTERNAL_SURFACES_OFFSET_PARAMETERS)), surface);
             } else if (surface.surface_type == stBottom || (surface.surface_type == stBottomBridge && lower_layer == nullptr)) {
-                // Grown by 3mm.
+                // Grown by 3 mm.
                 surfaces_append(bottom, offset_ex(surface.expolygon, margin, EXTERNAL_SURFACES_OFFSET_PARAMETERS), surface);
             } else if (surface.surface_type == stBottomBridge) {
                 if (! surface.empty())
@@ -787,7 +787,7 @@ void LayerRegion::process_external_surfaces(const Layer *lower_layer, const Poly
                         idx_island = j;
                         break;
                     }
-                // Grown by 3mm.
+                // Grown by 3 mm.
                 //BBS: eliminate too narrow area to avoid generating bridge on top layer when wall loop is 1
                 //Polygons polys = offset(bridges[i].expolygon, bridge_margin, EXTERNAL_SURFACES_OFFSET_PARAMETERS);
                 Polygons polys = offset2({ bridges[i].expolygon }, -scale_(nozzle_diameter * 0.1), bridge_margin, EXTERNAL_SURFACES_OFFSET_PARAMETERS);

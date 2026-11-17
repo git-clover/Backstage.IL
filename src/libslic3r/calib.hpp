@@ -356,7 +356,7 @@ private:
     from slic3r documentation: spacing = extrusion_width - layer_height * (1 - PI/4)
     "spacing" = center-to-center distance of adjacent extrusions, which partially overlap
         https://manual.slic3r.org/advanced/flow-math
-        https://ellis3dp.com/Print-Tuning-Guide/articles/misconceptions.html#two-04mm-perimeters--08mm
+        https://ellis3dp.com/Print-Tuning-Guide/articles/misconceptions.html#two-04 mm-perimeters--08 mm
     */
     double line_spacing() const { return line_width() - height_layer() * (1 - M_PI / 4); };
     double line_spacing_first_layer() const { return line_width_first_layer() - height_first_layer() * (1 - M_PI / 4); };

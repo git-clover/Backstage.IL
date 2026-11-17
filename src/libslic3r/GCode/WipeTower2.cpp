@@ -1086,6 +1086,14 @@ WipeTower2::WipeTower2(const PrintConfig& config, const PrintRegionConfig& defau
     if (m_perimeter_speed == 0.f)
         m_perimeter_speed = 80.f;
 
+    if (config.enable_volumetric_speeds) {
+        const size_t extruder_idx         = get_extruder_index(config, (unsigned int)initial_tool);
+        const double max_volumetric_speed = config.filament_max_volumetric_speed.get_at(initial_tool);
+        m_infill_volumetric_flow      = float(default_region_config.sparse_infill_volumetric_flow.get_at(extruder_idx).get_abs_value(max_volumetric_speed));
+        m_perimeter_volumetric_flow   = float(default_region_config.inner_wall_volumetric_flow.get_at(extruder_idx).get_abs_value(max_volumetric_speed));
+        m_first_layer_volumetric_flow = float(config.initial_layer_volumetric_flow.get_at(extruder_idx).get_abs_value(max_volumetric_speed));
+    }
+
 
     // If this is a single extruder MM printer, we will use all the SE-specific config values.
     // Otherwise, the defaults will be used to turn off the SE stuff.
@@ -1097,7 +1105,7 @@ WipeTower2::WipeTower2(const PrintConfig& config, const PrintRegionConfig& defau
         m_set_extruder_trimpot    = config.high_current_on_filament_swap;
     }
 
-    m_is_mk4mmu3 = boost::icontains(config.printer_notes.value, "PRINTER_MODEL_MK4") && boost::icontains(config.printer_notes.value, "MMU");
+    m_is_mk4 mmu3 = boost::icontains(config.printer_notes.value, "PRINTER_MODEL_MK4") && boost::icontains(config.printer_notes.value, "MMU");
 
     // Calculate where the priming lines should be - very naive test not detecting parallelograms etc.
     const std::vector<Vec2d>& bed_points = config.printable_area.values;
@@ -1482,7 +1490,7 @@ void WipeTower2::toolchange_Unload(
 	float e_done = 0;									// measures E move done from each segment   
 
     const bool do_ramming = tool_ramming_enabled(m_current_tool);
-    const bool cold_ramming = m_is_mk4mmu3;
+    const bool cold_ramming = m_is_mk4 mmu3;
     // Orca: see set_toolchange() — quantized ram band + wipe restart at the boundary.
     const bool boundary_wipe_start = boundary_wipe_start_enabled(m_current_tool);
     float planned_ramming_depth = 0.f;
@@ -1496,7 +1504,7 @@ void WipeTower2::toolchange_Unload(
             // ram band; step inward first, then move to the band clear of the wall.
             writer.travel(Vec2f(ramming_start_pos.x(), writer.y()));
         writer.travel(ramming_start_pos); // move to starting position
-        if (! m_is_mk4mmu3)
+        if (! m_is_mk4 mmu3)
             writer.disable_linear_advance();
         if (cold_ramming)
             writer.set_extruder_temp(old_temperature - 20);
@@ -1535,7 +1543,7 @@ void WipeTower2::toolchange_Unload(
         }
     }
 
-    if (m_is_mk4mmu3) {
+    if (m_is_mk4 mmu3) {
         writer.switch_filament_monitoring(false);
         writer.wait(1.5f);
     }
@@ -1598,9 +1606,9 @@ void WipeTower2::toolchange_Unload(
     float turning_point = (!m_left_to_right ? xl : xr );
     if (m_enable_filament_ramming && m_semm && (m_cooling_tube_retraction != 0 || m_cooling_tube_length != 0)) {
         writer.append("; Retract(unload)\n");
-        float total_retraction_distance = m_cooling_tube_retraction + m_cooling_tube_length/2.f - 15.f; // the 15mm is reserved for the first part after ramming
+        float total_retraction_distance = m_cooling_tube_retraction + m_cooling_tube_length/2.f - 15.f; // the 15 mm is reserved for the first part after ramming
         writer.suppress_preview()
-              .retract(15.f, m_filpar[m_current_tool].unloading_speed_start * 60.f) // feedrate 50.0 mm/min = 83mm/s
+              .retract(15.f, m_filpar[m_current_tool].unloading_speed_start * 60.f) // feedrate 50.0 mm/min = 83 mm/s
               .retract(0.70f * total_retraction_distance, 1.0f * m_filpar[m_current_tool].unloading_speed * 60.f)
               .retract(0.20f * total_retraction_distance, 0.5f * m_filpar[m_current_tool].unloading_speed * 60.f)
               .retract(0.10f * total_retraction_distance, 0.3f * m_filpar[m_current_tool].unloading_speed * 60.f)
@@ -1634,7 +1642,7 @@ void WipeTower2::toolchange_Unload(
 
         float speed_inc = (final_speed - initial_speed) / (2.f * number_of_cooling_moves - 1.f);
 
-        if (m_is_mk4mmu3)
+        if (m_is_mk4 mmu3)
             writer.disable_linear_advance();
 
         writer.suppress_preview()
@@ -1648,10 +1656,10 @@ void WipeTower2::toolchange_Unload(
             // Stamping - happens after every cooling move except for the last one.
             if (i>0 && m_filpar[m_current_tool].filament_stamping_distance != 0) {
 
-                // Stamping turning point shall be no farther than 20mm from the current nozzle position:
+                // Stamping turning point shall be no farther than 20 mm from the current nozzle position:
                 float stamping_turning_point = std::clamp(old_x + 20.f * (turning_point - old_x > 0.f ? 1.f : -1.f), xl, xr);
 
-                // Only last 5mm will be done with the fast x travel. The point is to spread possible blobs
+                // Only last 5 mm will be done with the fast x travel. The point is to spread possible blobs
                 // along the whole wipe tower.
                 if (stamping_dist_e > 5) {
                     float cent = writer.x();
@@ -1740,7 +1748,7 @@ void WipeTower2::toolchange_Change(
     writer.append("[restore_layer_z_before_toolchange]\n");
     writer.append("[change_filament_gcode]\n");
 
-    if (m_is_mk4mmu3)
+    if (m_is_mk4 mmu3)
         writer.switch_filament_monitoring(true);
 
     const bool wait_for_temp_here = m_wait_for_temp_on_wipe_tower && wait_for_temp > 0;

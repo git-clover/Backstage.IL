@@ -14836,8 +14836,8 @@ msgstr "Objektumok kijelölése téglalapok alapján"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "filament hozzárendelése az objektumhoz/tárgyhoz"
 
-msgid "Movement step set to 1mm"
-msgstr "Mozgatás lépéstávolsága 1mm-re állítva"
+msgid "Movement step set to 1 mm"
+msgstr "Mozgatás lépéstávolsága 1 mm-re állítva"
 
 msgid "Movement in camera space"
 msgstr "Mozgás a kameratérben"
@@ -14861,7 +14861,7 @@ msgstr "Festés"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Akkor érhető el, ha egy festő gizmó nyitva van: támasz-, varrat-, barázdált felület- vagy színfestés."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Mozgatás: lenyomva 1 mm-es lépésekre illeszt"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17391,7 +17391,7 @@ msgstr "Ez a külön beállítás a <= small_perimeter_threshold sugarú kerüle
 msgid "Small perimeters threshold"
 msgstr "Kis kerületek küszöbértéke"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "A kis peremek hosszának küszöbértékét határozza meg. Az alapértelmezett érték 0 mm"
 
 # AI Translated
@@ -17407,7 +17407,7 @@ msgid "Small support perimeters threshold"
 msgstr "Kis támaszfalak küszöbértéke"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Ez állítja be a kis támaszfalak hosszának küszöbértékét. Az alapértelmezett küszöbérték 0 mm."
 
 msgid "Walls printing order"
@@ -17528,7 +17528,7 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Szondázási pontok távolsága"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Ez az opció az X és Y irányú szondapontok közötti kívánt távolságot (rácsméretet) állítja be; az alapértelmezett érték mindkét irányban 50 mm."
 
 msgid "Mesh margin"
@@ -17818,7 +17818,7 @@ msgstr "Zsugorodás (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Add meg a filament lehűlés utáni zsugorodási százalékát (például 94%, ha 100 mm helyett 94 mm-t mérsz). Az alkatrész XY irányban lesz skálázva a kompenzációhoz. Többanyagú nyomtatásnál ügyelj arra, hogy a zsugorodás minden használt filamentnél megegyezzen.\n"
@@ -17828,7 +17828,7 @@ msgid "Shrinkage (Z)"
 msgstr "Zsugorodás (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Add meg a filament lehűlés utáni zsugorodási százalékát (például 94%, ha 100 mm helyett 94 mm-t mérsz). Az alkatrész Z irányban lesz skálázva a kompenzációhoz."
 
 msgid "Adhesiveness Category"
@@ -31681,16 +31681,16 @@ msgstr "Beillesztés a vágólapról"
 msgid "Toggle printable for object/part"
 msgstr "Nyomtathatóság váltása objektumhoz/alkatrészhez"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Kijelölés mozgatása 10 mm-rel negatív X irányban"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Kijelölés mozgatása 10 mm-rel pozitív X irányban"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Kijelölés mozgatása 10 mm-rel pozitív Y irányban"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Kijelölés mozgatása 10 mm-rel negatív Y irányban"
 
 # AI Translated

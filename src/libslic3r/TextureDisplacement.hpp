@@ -130,8 +130,8 @@ enum class TextureBlendMode : int
 {
     Add      = 0, // acc + value          (default; several layers pile their relief up together)
     Subtract = 1, // acc - value          (carve this layer's relief out of the layers below)
-    Multiply = 2, // acc * (value / 1mm)  (mask/modulate the layers below by this layer)
-    Divide   = 3, // acc / (value / 1mm)  (inverse mask; guarded against a zero/near-zero divisor)
+    Multiply = 2, // acc * (value / 1 mm)  (mask/modulate the layers below by this layer)
+    Divide   = 3, // acc / (value / 1 mm)  (inverse mask; guarded against a zero/near-zero divisor)
     // acc = value: this layer replaces what is under it instead of combining with it, so where it is
     // painted only its own relief remains. The image editor's "Normal" mode, under the name the panel
     // uses. Note the stack's *colour* already behaves this way - a higher slot's colour overwrites a

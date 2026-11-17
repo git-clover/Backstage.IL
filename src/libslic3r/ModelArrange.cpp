@@ -177,8 +177,8 @@ ArrangePolygon get_instance_arrange_poly(ModelInstance* instance, const Slic3r::
 
     ap.brim_width = 1.0;
     // For by-layer printing, need to shrink bed a little, so the support won't go outside bed.
-    // We set it to 5mm because that's how much a normal support will grow by default.
-    // normal support 5mm, other support 22mm, no support 0mm
+    // We set it to 5 mm because that's how much a normal support will grow by default.
+    // normal support 5 mm, other support 22 mm, no support 0 mm
     auto supp_type_ptr = obj->get_config_value<ConfigOptionBool>(config, "enable_support");
     auto support_type_ptr = obj->get_config_value<ConfigOptionEnum<SupportType>>(config, "support_type");
     auto support_type = support_type_ptr->value;

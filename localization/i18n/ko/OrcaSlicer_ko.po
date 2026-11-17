@@ -14986,8 +14986,8 @@ msgid "Keyboard 1-9: set filament for object/part"
 msgstr "키보드 1-9: 객체/부품에 필라멘트 할당"
 
 # AI Translated
-msgid "Movement step set to 1mm"
-msgstr "이동 단위를 1mm로 설정"
+msgid "Movement step set to 1 mm"
+msgstr "이동 단위를 1 mm로 설정"
 
 msgid "Movement in camera space"
 msgstr "카메라 공간에서 이동"
@@ -15010,7 +15010,7 @@ msgstr ""
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "칠하기 변형도구(서포트, 재봉선, 퍼지 스킨 또는 색상 칠하기)가 열려 있을 때 사용할 수 있습니다."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "이동: 눌러서 1 mm씩 이동"
 
 msgid "Support/Color Painting: adjust pen radius"
@@ -17591,8 +17591,8 @@ msgstr "이 별도의 설정은 반지름이 small_perimeter_threshold 이하인
 msgid "Small perimeters threshold"
 msgstr "작은 둘레 임계값"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "작은 둘레 길이에 대한 임계값을 설정합니다. 기본 임계값은 0mm입니다"
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "작은 둘레 길이에 대한 임계값을 설정합니다. 기본 임계값은 0 mm입니다"
 
 # AI Translated
 msgid "Small support perimeters"
@@ -17607,8 +17607,8 @@ msgid "Small support perimeters threshold"
 msgstr "작은 서포트 둘레 임계값"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "작은 서포트 둘레 길이의 임계값을 설정합니다. 기본 임계값은 0mm입니다."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "작은 서포트 둘레 길이의 임계값을 설정합니다. 기본 임계값은 0 mm입니다."
 
 msgid "Walls printing order"
 msgstr "벽 출력 순서"
@@ -17729,8 +17729,8 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "프로브 포인트 거리"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
-msgstr "이 옵션은 X와 Y 방향에 대한 프로브 점(그리드 크기) 사이의 기본 거리를 설정하며 X와 Y 모두에 대한 기본값은 50mm입니다."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
+msgstr "이 옵션은 X와 Y 방향에 대한 프로브 점(그리드 크기) 사이의 기본 거리를 설정하며 X와 Y 모두에 대한 기본값은 50 mm입니다."
 
 msgid "Mesh margin"
 msgstr "메시 공간"
@@ -18024,18 +18024,18 @@ msgstr "수축(XY)"
 # AI Translated
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"필라멘트가 냉각된 후의 수축률을 백분율로 입력하십시오(1.0 mm 대신 94mm로 측정되면 94%). 이를 보정하기 위해 부품이 XY 방향으로 확대/축소됩니다. 다중 재료 출력에서는 사용하는 모든 필라멘트의 수축률이 서로 일치하는지 확인하십시오\n"
+"필라멘트가 냉각된 후의 수축률을 백분율로 입력하십시오(1.0 mm 대신 94 mm로 측정되면 94%). 이를 보정하기 위해 부품이 XY 방향으로 확대/축소됩니다. 다중 재료 출력에서는 사용하는 모든 필라멘트의 수축률이 서로 일치하는지 확인하십시오\n"
 "이 보정은 검사 이후에 수행되므로 객체 사이에 충분한 공간을 확보하십시오."
 
 msgid "Shrinkage (Z)"
 msgstr "수축(Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
-msgstr "냉각 후 필라멘트가 얻게 될 수축률을 입력합니다(1.0 mm 대신 94mm를 측정하는 경우 94%). 보상을 위해 부품의 크기가 Z로 조정됩니다."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgstr "냉각 후 필라멘트가 얻게 될 수축률을 입력합니다(1.0 mm 대신 94 mm를 측정하는 경우 94%). 보상을 위해 부품의 크기가 Z로 조정됩니다."
 
 msgid "Adhesiveness Category"
 msgstr "접착력 카테고리"
@@ -20583,7 +20583,7 @@ msgid ""
 "\n"
 "If the speed specified here is higher than the speed of the outer or inner walls, the printer will default to the slower of the two speeds. When specified as a percentage (e.g., 80%), the speed is calculated based on the respective outer or inner wall speed. The default value is set to 100%."
 msgstr ""
-"이 옵션은 스카프 조인트의 출력 속도를 설정합니다. 스카프 조인트를 느린 속도(100mm/s 미만)로 출력하는 것이 좋습니다. 또한 설정 속도가 외벽 또는 내벽의 속도와 크게 다른 경우 '압출 속도 평탄화'를 활성화하는 것이 좋습니다.\n"
+"이 옵션은 스카프 조인트의 출력 속도를 설정합니다. 스카프 조인트를 느린 속도(100 mm/s 미만)로 출력하는 것이 좋습니다. 또한 설정 속도가 외벽 또는 내벽의 속도와 크게 다른 경우 '압출 속도 평탄화'를 활성화하는 것이 좋습니다.\n"
 "\n"
 "여기에 지정된 속도가 외부 또는 내부 벽의 속도보다 높을 경우 프린터는 기본적으로 두 가지 속도 중 더 느린 속도로 설정됩니다. 백분율(예: 80%)로 지정되면 속도는 각각의 외부 또는 내부 벽 속도를 기준으로 계산됩니다. 기본값은 100%로 설정되어 있습니다."
 
@@ -32055,17 +32055,17 @@ msgstr "클립보드에서 붙여넣기"
 msgid "Toggle printable for object/part"
 msgstr "객체/부품의 출력 가능 여부 전환"
 
-msgid "Move selection 10mm in negative X direction"
-msgstr "선택 항목을 -X 방향으로 10mm 이동"
+msgid "Move selection 10 mm in negative X direction"
+msgstr "선택 항목을 -X 방향으로 10 mm 이동"
 
-msgid "Move selection 10mm in positive X direction"
-msgstr "선택 항목을 +X 방향으로 10mm 이동"
+msgid "Move selection 10 mm in positive X direction"
+msgstr "선택 항목을 +X 방향으로 10 mm 이동"
 
-msgid "Move selection 10mm in positive Y direction"
-msgstr "선택 항목을 +Y 방향으로 10mm 이동"
+msgid "Move selection 10 mm in positive Y direction"
+msgstr "선택 항목을 +Y 방향으로 10 mm 이동"
 
-msgid "Move selection 10mm in negative Y direction"
-msgstr "선택 항목을 -Y 방향으로 10mm 이동"
+msgid "Move selection 10 mm in negative Y direction"
+msgstr "선택 항목을 -Y 방향으로 10 mm 이동"
 
 # AI Translated
 msgid "Rotate selection 45 degrees counterclockwise"

@@ -15804,8 +15804,8 @@ msgstr "Objecten selecteren door rechthoek"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Toets 1-9: kies filament voor het object/onderdeel"
 
-msgid "Movement step set to 1mm"
-msgstr "Bewegingsinterval ingesteld op 1mm"
+msgid "Movement step set to 1 mm"
+msgstr "Bewegingsinterval ingesteld op 1 mm"
 
 msgid "Movement in camera space"
 msgstr "Beweging in cameragebied"
@@ -15829,7 +15829,7 @@ msgstr "Schilderen"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Beschikbaar wanneer een schildergizmo geopend is: ondersteuning, naad, vage buitenkant of kleuren schilderen."
 
-msgid "Move: press to snap by 1mm"
+msgid "Move: press to snap by 1 mm"
 msgstr "Verplaatsen: druk om 1 mm te verplaatsen"
 
 # AI Translated
@@ -18539,7 +18539,7 @@ msgstr "Deze afzonderlijke instelling beïnvloedt de snelheid van perimeters met
 msgid "Small perimeters threshold"
 msgstr "Drempel voor kleine perimeters"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
 msgstr "Dit stelt de drempel voor kleine omtreklengte in. De standaarddrempel is 0 mm"
 
 # AI Translated
@@ -18555,7 +18555,7 @@ msgid "Small support perimeters threshold"
 msgstr "Drempel voor kleine ondersteuningsperimeters"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Hiermee stelt u de drempel voor de lengte van kleine ondersteuningsperimeters in. De standaarddrempel is 0 mm."
 
 # AI Translated
@@ -18691,7 +18691,7 @@ msgid "Probe point distance"
 msgstr "Afstand tussen meetpunten"
 
 # AI Translated
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Hiermee stelt u de gewenste afstand tussen meetpunten (rastergrootte) in voor de X- en Y-richting; standaard is dat 50 mm voor zowel X als Y."
 
 # AI Translated
@@ -19016,7 +19016,7 @@ msgstr "Krimp (XY)"
 # AI Translated
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Voer het krimppercentage in dat het filament na afkoeling krijgt (94% als u 94 mm meet in plaats van 100 mm). Het onderdeel wordt in XY geschaald om dit te compenseren. Zorg bij prints met meerdere materialen dat de filamentkrimp voor alle gebruikte filamenten overeenkomt\n"
@@ -19028,7 +19028,7 @@ msgstr "Krimp (Z)"
 
 # AI Translated
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Voer het krimppercentage in dat het filament na afkoeling krijgt (94% als u 94 mm meet in plaats van 100 mm). Het onderdeel wordt in Z geschaald om dit te compenseren."
 
 # AI Translated
@@ -33694,17 +33694,17 @@ msgstr "Plakken vanuit klembord"
 msgid "Toggle printable for object/part"
 msgstr "Printbaar in-/uitschakelen voor object/onderdeel"
 
-msgid "Move selection 10mm in negative X direction"
-msgstr "Verplaats de selectie 10mm in een negatieve X richting"
+msgid "Move selection 10 mm in negative X direction"
+msgstr "Verplaats de selectie 10 mm in een negatieve X richting"
 
-msgid "Move selection 10mm in positive X direction"
-msgstr "Verplaats de selectie 10mm in een positieve X richting"
+msgid "Move selection 10 mm in positive X direction"
+msgstr "Verplaats de selectie 10 mm in een positieve X richting"
 
-msgid "Move selection 10mm in positive Y direction"
-msgstr "Verplaats de selectie 10mm in een positieve Y richting"
+msgid "Move selection 10 mm in positive Y direction"
+msgstr "Verplaats de selectie 10 mm in een positieve Y richting"
 
-msgid "Move selection 10mm in negative Y direction"
-msgstr "Verplaats de selectie 10mm in een negatieve Y richting"
+msgid "Move selection 10 mm in negative Y direction"
+msgstr "Verplaats de selectie 10 mm in een negatieve Y richting"
 
 # AI Translated
 msgid "Rotate selection 45 degrees counterclockwise"

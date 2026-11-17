@@ -15989,8 +15989,8 @@ msgstr "Välj objekt efter rektangel"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "tangentbord 1-9: fastställer filament för objekt/del"
 
-msgid "Movement step set to 1mm"
-msgstr "Rörelse steg är vald till 1mm"
+msgid "Movement step set to 1 mm"
+msgstr "Rörelse steg är vald till 1 mm"
 
 msgid "Movement in camera space"
 msgstr "Rörelse i kamera område"
@@ -16014,8 +16014,8 @@ msgstr "Målning"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Tillgängligt när ett målnings-gizmo är öppet: support, söm, ojämn yta eller färgläggning."
 
-msgid "Move: press to snap by 1mm"
-msgstr "Flytta: tryck för att låsa med 1mm"
+msgid "Move: press to snap by 1 mm"
+msgstr "Flytta: tryck för att låsa med 1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
 msgstr "Support/Färgläggning: justera penn radie"
@@ -18727,8 +18727,8 @@ msgstr "Den här separata inställningen påverkar hastigheten för perimetrar m
 msgid "Small perimeters threshold"
 msgstr "Tröskel för små perimetrar"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "Detta ställer in tröskelvärdet för liten perimeterlängd. Standardgränsen är 0mm"
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "Detta ställer in tröskelvärdet för liten perimeterlängd. Standardgränsen är 0 mm"
 
 # AI Translated
 msgid "Small support perimeters"
@@ -18743,7 +18743,7 @@ msgid "Small support perimeters threshold"
 msgstr "Tröskel för små supportperimetrar"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
 msgstr "Detta anger tröskeln för längden på små supportperimetrar. Standardtröskeln är 0 mm."
 
 # AI Translated
@@ -18879,7 +18879,7 @@ msgid "Probe point distance"
 msgstr "Avstånd mellan sondpunkter"
 
 # AI Translated
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
 msgstr "Det här alternativet anger önskat avstånd mellan sondpunkter (rutstorlek) i X- och Y-riktningen, med 50 mm som standard för både X och Y."
 
 # AI Translated
@@ -19203,7 +19203,7 @@ msgstr "Krympning (XY)"
 # AI Translated
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
 "Ange den krympning i procent som filamentet får efter nedkylning (94 % om du mäter 94 mm i stället för 100 mm). Delen skalas i XY för att kompensera. Vid multimaterialutskrifter bör filamentkrympningen vara densamma för alla använda filament\n"
@@ -19215,7 +19215,7 @@ msgstr "Krympning (Z)"
 
 # AI Translated
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
 msgstr "Ange den krympning i procent som filamentet får efter nedkylning (94 % om du mäter 94 mm i stället för 100 mm). Delen skalas i Z för att kompensera."
 
 # AI Translated
@@ -20044,7 +20044,7 @@ msgstr ""
 "Extrudering: Läge där mönstret bildas av mängden extruderad plast. Detta är den snabba och raka algoritmen utan onödiga nozzelskakningar, som ger ett jämnt mönster. Den är dock mest användbar för att forma lösa väggar i hela deras uppsättning.\n"
 "Kombinerad: Kombinerat läge [Förskjutning] + [Extrudering]. Väggarnas utseende liknar läget [Förskjutning], men det lämnar inga porer mellan perimetrarna.\n"
 "\n"
-"Obs! Lägena [Extrudering] och [Kombinerad] fungerar bara när parametern fuzzy_skin_thickness inte är större än tjockleken på det utskrivna varvet. Samtidigt får extruderingsbredden för ett visst lager inte heller vara under en viss nivå. Den är oftast lika med 15-25% av en lagerhöjd. Den maximala tjockleken på ojämn yta med en perimeterbredd på 0,4 mm och en lagerhöjd på 0,2 mm blir därför 0,4-(0,2*0,25)=±0,35mm! Om du anger ett högre värde än så visas felet Flow::spacing() och modellen bereds inte. Du kan justera talet tills felet inte längre uppstår."
+"Obs! Lägena [Extrudering] och [Kombinerad] fungerar bara när parametern fuzzy_skin_thickness inte är större än tjockleken på det utskrivna varvet. Samtidigt får extruderingsbredden för ett visst lager inte heller vara under en viss nivå. Den är oftast lika med 15-25% av en lagerhöjd. Den maximala tjockleken på ojämn yta med en perimeterbredd på 0,4 mm och en lagerhöjd på 0,2 mm blir därför 0,4-(0,2*0,25)=±0,35 mm! Om du anger ett högre värde än så visas felet Flow::spacing() och modellen bereds inte. Du kan justera talet tills felet inte längre uppstår."
 
 # AI Translated
 msgid "Displacement"
@@ -33907,17 +33907,17 @@ msgstr "Klistra in ifrån urklipp"
 msgid "Toggle printable for object/part"
 msgstr "Växla utskrivbar för objekt/del"
 
-msgid "Move selection 10mm in negative X direction"
-msgstr "Flytta markeringen 10mm i negativ X riktning"
+msgid "Move selection 10 mm in negative X direction"
+msgstr "Flytta markeringen 10 mm i negativ X riktning"
 
-msgid "Move selection 10mm in positive X direction"
-msgstr "Flytta markeringen 10mm i positiv X riktning"
+msgid "Move selection 10 mm in positive X direction"
+msgstr "Flytta markeringen 10 mm i positiv X riktning"
 
-msgid "Move selection 10mm in positive Y direction"
-msgstr "Flytta markeringen 10mm i positiv Y riktning"
+msgid "Move selection 10 mm in positive Y direction"
+msgstr "Flytta markeringen 10 mm i positiv Y riktning"
 
-msgid "Move selection 10mm in negative Y direction"
-msgstr "Flytta markeringen 10mm i negativ Y riktning"
+msgid "Move selection 10 mm in negative Y direction"
+msgstr "Flytta markeringen 10 mm i negativ Y riktning"
 
 # AI Translated
 msgid "Rotate selection 45 degrees counterclockwise"

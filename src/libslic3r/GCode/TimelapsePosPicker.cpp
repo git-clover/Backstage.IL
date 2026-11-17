@@ -426,7 +426,7 @@ namespace Slic3r {
                     }else{
                         Point direct_of_line = poly.points[next_idx_modulo(idx, poly.points)] - poly.points[idx];
                         double length_L1      = direct_of_line.cwiseAbs().sum();
-                        int    num_steps      = static_cast<int>(length_L1 / candidate_point_segment); // for long line use 5mm segmentation to check
+                        int    num_steps      = static_cast<int>(length_L1 / candidate_point_segment); // for long line use 5 mm segmentation to check
                         // devide by length_L1 instead of steps, prevent lose accuracy for the step length
                         direct_of_line.x()    = static_cast<coord_t>(static_cast<double> (direct_of_line.x()) * candidate_point_segment / length_L1);
                         direct_of_line.y()    = static_cast<coord_t>(static_cast<double> (direct_of_line.y()) * candidate_point_segment / length_L1);

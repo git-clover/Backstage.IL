@@ -14366,7 +14366,7 @@ msgstr "Seleccionar objetos por rectángulo"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "Teclado 1-9: ajustar el filamento para el objeto/pieza"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Paso de movimiento configurado a 1 mm"
 
 msgid "Movement in camera space"
@@ -14391,8 +14391,8 @@ msgstr "Pintado"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Disponible mientras una herramienta de pintado está abierta: pintado de soportes, costura, piel rugosa o color."
 
-msgid "Move: press to snap by 1mm"
-msgstr "Mover: pulsar para ajustar 1mm"
+msgid "Move: press to snap by 1 mm"
+msgstr "Mover: pulsar para ajustar 1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
 msgstr "Soporte/Pintado en color: ajuste del radio del pincel"
@@ -16850,8 +16850,8 @@ msgstr "Este ajuste independiente afectará a la velocidad de los perímetros co
 msgid "Small perimeters threshold"
 msgstr "Umbral de Perímetros pequeños"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "Esto configura el umbral de longitud de perímetros pequeños. El umbral por defecto es 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "Esto configura el umbral de longitud de perímetros pequeños. El umbral por defecto es 0 mm."
 
 msgid "Small support perimeters"
 msgstr "Perímetros pequeños de soporte"
@@ -16863,8 +16863,8 @@ msgstr "Igual que \"Perímetros pequeños\", pero para los soportes. Este ajuste
 msgid "Small support perimeters threshold"
 msgstr "Umbral de perímetros pequeños de soporte"
 
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "Esto establece el umbral para la longitud de los perímetros pequeños de soporte. El umbral predeterminado es 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "Esto establece el umbral para la longitud de los perímetros pequeños de soporte. El umbral predeterminado es 0 mm."
 
 msgid "Walls printing order"
 msgstr "Orden de impresión de perímetros"
@@ -16984,8 +16984,8 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Distancia entre puntos de medición"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
-msgstr "Esta opción establece la distancia preferida entre puntos de medición (tamaño de cuadrícula) para las direcciones X e Y, siendo el valor predeterminado 50mm tanto para X como para Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
+msgstr "Esta opción establece la distancia preferida entre puntos de medición (tamaño de cuadrícula) para las direcciones X e Y, siendo el valor predeterminado 50 mm tanto para X como para Y."
 
 msgid "Mesh margin"
 msgstr "Margen de malla"
@@ -17266,18 +17266,18 @@ msgstr "Contracción (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"Introduzca el factor de contracción que sufrirá el filamento después de enfriarse ('94% i' si mide 94mm en lugar de 1.0 mm). La pieza se escalará en X-Y para compensar. Sólo se tiene en cuenta el filamento utilizado para el perímetro exterior.\n"
+"Introduzca el factor de contracción que sufrirá el filamento después de enfriarse ('94% i' si mide 94 mm en lugar de 1.0 mm). La pieza se escalará en X-Y para compensar. Sólo se tiene en cuenta el filamento utilizado para el perímetro exterior.\n"
 "Asegúrese de dejar suficiente espacio entre los objetos, ya que esta compensación se realiza después de las comprobaciones."
 
 msgid "Shrinkage (Z)"
 msgstr "Contracción (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
-msgstr "Introduzca el porcentaje de contracción que tendrá el filamento después de enfriarse (94% si mide 94mm en lugar de 1.0 mm). La pieza se escalará en Z para compensar."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgstr "Introduzca el porcentaje de contracción que tendrá el filamento después de enfriarse (94% si mide 94 mm en lugar de 1.0 mm). La pieza se escalará en Z para compensar."
 
 msgid "Adhesiveness Category"
 msgstr "Categoría de adhesividad"
@@ -30791,16 +30791,16 @@ msgstr "Pegar desde el portapapeles"
 msgid "Toggle printable for object/part"
 msgstr "Activar/desactivar la impresión para el objeto/pieza"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Mover la selección 10 mm en dirección X negativa"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Mover la selección 10 mm en dirección X positiva"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Mover la selección 10 mm en dirección Y positiva"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Mover la selección 10 mm en dirección Y negativa"
 
 # AI Translated

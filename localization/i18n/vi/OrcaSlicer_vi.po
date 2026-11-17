@@ -15439,7 +15439,7 @@ msgstr "Chọn đối tượng bằng hình chữ nhật"
 msgid "Keyboard 1-9: set filament for object/part"
 msgstr "bàn phím 1-9: đặt filament cho đối tượng/phần"
 
-msgid "Movement step set to 1mm"
+msgid "Movement step set to 1 mm"
 msgstr "Bước di chuyển được đặt thành 1 mm"
 
 msgid "Movement in camera space"
@@ -15465,8 +15465,8 @@ msgstr "Vẽ"
 msgid "Available while a painting gizmo is open: supports, seam, fuzzy skin or color painting."
 msgstr "Khả dụng khi một gizmo vẽ đang mở: vẽ support, đường nối, fuzzy skin hoặc tô màu."
 
-msgid "Move: press to snap by 1mm"
-msgstr "Di chuyển: nhấn để bám theo 1mm"
+msgid "Move: press to snap by 1 mm"
+msgstr "Di chuyển: nhấn để bám theo 1 mm"
 
 msgid "Support/Color Painting: adjust pen radius"
 msgstr "Tô support/màu: điều chỉnh bán kính bút"
@@ -18033,8 +18033,8 @@ msgstr "Cài đặt riêng biệt này sẽ ảnh hưởng đến tốc độ c�
 msgid "Small perimeters threshold"
 msgstr "Ngưỡng chu vi nhỏ"
 
-msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
-msgstr "Điều này đặt ngưỡng cho độ dài chu vi nhỏ. Ngưỡng mặc định là 0mm."
+msgid "This sets the threshold for small perimeter length. Default threshold is 0 mm."
+msgstr "Điều này đặt ngưỡng cho độ dài chu vi nhỏ. Ngưỡng mặc định là 0 mm."
 
 # AI Translated
 msgid "Small support perimeters"
@@ -18049,8 +18049,8 @@ msgid "Small support perimeters threshold"
 msgstr "Ngưỡng chu vi support nhỏ"
 
 # AI Translated
-msgid "This sets the threshold for small support perimeter length. The default threshold is 0mm."
-msgstr "Đặt ngưỡng cho độ dài chu vi support nhỏ. Ngưỡng mặc định là 0mm."
+msgid "This sets the threshold for small support perimeter length. The default threshold is 0 mm."
+msgstr "Đặt ngưỡng cho độ dài chu vi support nhỏ. Ngưỡng mặc định là 0 mm."
 
 msgid "Walls printing order"
 msgstr "Thứ tự in thành"
@@ -18171,8 +18171,8 @@ msgstr ""
 msgid "Probe point distance"
 msgstr "Khoảng cách điểm dò"
 
-msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
-msgstr "Tùy chọn này đặt khoảng cách ưa thích giữa các điểm dò (kích thước lưới) cho hướng X và Y, với mặc định là 50mm cho cả X và Y."
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50 mm for both X and Y."
+msgstr "Tùy chọn này đặt khoảng cách ưa thích giữa các điểm dò (kích thước lưới) cho hướng X và Y, với mặc định là 50 mm cho cả X và Y."
 
 msgid "Mesh margin"
 msgstr "Lề lưới"
@@ -18475,18 +18475,18 @@ msgstr "Co ngót (XY)"
 
 #, no-c-format, no-boost-format
 msgid ""
-"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 100 mm). The part will be scaled in XY to compensate. For multi-material prints, ensure filament shrinkage matches across all used filaments.\n"
 "Be sure to allow enough space between objects, as this compensation is done after the checks."
 msgstr ""
-"Nhập phần trăm co ngót mà filament sẽ có sau khi làm mát (94% nếu bạn đo 94mm thay vì 1.0 mm). Phần sẽ được tỷ lệ trong XY để bù. Chỉ filament được sử dụng cho chu vi được tính.\n"
+"Nhập phần trăm co ngót mà filament sẽ có sau khi làm mát (94% nếu bạn đo 94 mm thay vì 1.0 mm). Phần sẽ được tỷ lệ trong XY để bù. Chỉ filament được sử dụng cho chu vi được tính.\n"
 "Hãy chắc chắn để đủ khoảng cách giữa các đối tượng, vì bù này được thực hiện sau khi kiểm tra."
 
 msgid "Shrinkage (Z)"
 msgstr "Co ngót (Z)"
 
 #, no-c-format, no-boost-format
-msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 1.0 mm). The part will be scaled in Z to compensate."
-msgstr "Nhập phần trăm co ngót mà filament sẽ có sau khi làm mát (94% nếu bạn đo 94mm thay vì 1.0 mm). Phần sẽ được tỷ lệ trong Z để bù."
+msgid "Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94 mm instead of 1.0 mm). The part will be scaled in Z to compensate."
+msgstr "Nhập phần trăm co ngót mà filament sẽ có sau khi làm mát (94% nếu bạn đo 94 mm thay vì 1.0 mm). Phần sẽ được tỷ lệ trong Z để bù."
 
 # AI Translated
 msgid "Adhesiveness Category"
@@ -32508,16 +32508,16 @@ msgstr "Dán từ clipboard"
 msgid "Toggle printable for object/part"
 msgstr "Bật/tắt khả năng in cho vật thể/phần"
 
-msgid "Move selection 10mm in negative X direction"
+msgid "Move selection 10 mm in negative X direction"
 msgstr "Di chuyển lựa chọn 10 mm theo hướng X âm"
 
-msgid "Move selection 10mm in positive X direction"
+msgid "Move selection 10 mm in positive X direction"
 msgstr "Di chuyển lựa chọn 10 mm theo hướng X dương"
 
-msgid "Move selection 10mm in positive Y direction"
+msgid "Move selection 10 mm in positive Y direction"
 msgstr "Di chuyển lựa chọn 10 mm theo hướng Y dương"
 
-msgid "Move selection 10mm in negative Y direction"
+msgid "Move selection 10 mm in negative Y direction"
 msgstr "Di chuyển lựa chọn 10 mm theo hướng Y âm"
 
 # AI Translated
