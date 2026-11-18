@@ -1105,7 +1105,7 @@ WipeTower2::WipeTower2(const PrintConfig& config, const PrintRegionConfig& defau
         m_set_extruder_trimpot    = config.high_current_on_filament_swap;
     }
 
-    m_is_mk4 mmu3 = boost::icontains(config.printer_notes.value, "PRINTER_MODEL_MK4") && boost::icontains(config.printer_notes.value, "MMU");
+    m_is_mk4_mmu3 = boost::icontains(config.printer_notes.value, "PRINTER_MODEL_MK4") && boost::icontains(config.printer_notes.value, "MMU");
 
     // Calculate where the priming lines should be - very naive test not detecting parallelograms etc.
     const std::vector<Vec2d>& bed_points = config.printable_area.values;
@@ -1490,7 +1490,7 @@ void WipeTower2::toolchange_Unload(
 	float e_done = 0;									// measures E move done from each segment   
 
     const bool do_ramming = tool_ramming_enabled(m_current_tool);
-    const bool cold_ramming = m_is_mk4 mmu3;
+    const bool cold_ramming = m_is_mk4_mmu3;
     // Orca: see set_toolchange() — quantized ram band + wipe restart at the boundary.
     const bool boundary_wipe_start = boundary_wipe_start_enabled(m_current_tool);
     float planned_ramming_depth = 0.f;
@@ -1504,7 +1504,7 @@ void WipeTower2::toolchange_Unload(
             // ram band; step inward first, then move to the band clear of the wall.
             writer.travel(Vec2f(ramming_start_pos.x(), writer.y()));
         writer.travel(ramming_start_pos); // move to starting position
-        if (! m_is_mk4 mmu3)
+        if (! m_is_mk4_mmu3)
             writer.disable_linear_advance();
         if (cold_ramming)
             writer.set_extruder_temp(old_temperature - 20);
@@ -1543,7 +1543,7 @@ void WipeTower2::toolchange_Unload(
         }
     }
 
-    if (m_is_mk4 mmu3) {
+    if (m_is_mk4_mmu3) {
         writer.switch_filament_monitoring(false);
         writer.wait(1.5f);
     }
@@ -1642,7 +1642,7 @@ void WipeTower2::toolchange_Unload(
 
         float speed_inc = (final_speed - initial_speed) / (2.f * number_of_cooling_moves - 1.f);
 
-        if (m_is_mk4 mmu3)
+        if (m_is_mk4_mmu3)
             writer.disable_linear_advance();
 
         writer.suppress_preview()
@@ -1748,7 +1748,7 @@ void WipeTower2::toolchange_Change(
     writer.append("[restore_layer_z_before_toolchange]\n");
     writer.append("[change_filament_gcode]\n");
 
-    if (m_is_mk4 mmu3)
+    if (m_is_mk4_mmu3)
         writer.switch_filament_monitoring(true);
 
     const bool wait_for_temp_here = m_wait_for_temp_on_wipe_tower && wait_for_temp > 0;
