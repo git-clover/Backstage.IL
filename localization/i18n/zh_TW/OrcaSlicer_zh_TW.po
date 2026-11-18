@@ -7,7 +7,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Orca Slicer\n"
+"Project-Id-Version: Backstage.IL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-06 11:18-0600\n"
 "PO-Revision-Date: 2025-11-28 13:48-0600\n"
@@ -2388,10 +2388,10 @@ msgstr "'printer.cer' 中的 TLS/CA 憑證遺失或損毀，也可能導致此�
 
 # AI Translated
 msgid ""
-"Orca Slicer requires the Microsoft WebView2 Runtime to operate certain features.\n"
+"Backstage.IL requires the Microsoft WebView2 Runtime to operate certain features.\n"
 "Click Yes to install it now."
 msgstr ""
-"Orca Slicer 需要 Microsoft WebView2 Runtime 才能使用部分功能。\n"
+"Backstage.IL 需要 Microsoft WebView2 Runtime 才能使用部分功能。\n"
 "按一下「是」立即安裝。"
 
 msgid "WebView2 Runtime"
@@ -2402,11 +2402,11 @@ msgstr "WebView2 Runtime"
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
 "Some features, including the setup wizard, may appear blank until it is installed.\n"
-"Please install it manually from %1% and restart Orca Slicer."
+"Please install it manually from %1% and restart Backstage.IL."
 msgstr ""
 "無法安裝 Microsoft WebView2 Runtime。\n"
 "在安裝完成之前，部分功能（包括設定精靈）可能會顯示空白。\n"
-"請從 %1% 手動安裝，然後重新啟動 Orca Slicer。"
+"請從 %1% 手動安裝，然後重新啟動 Backstage.IL。"
 
 #, c-format, boost-format
 msgid "Resources path does not exist or is not a directory: %s"
@@ -2531,8 +2531,8 @@ msgid "Open Project"
 msgstr "開啟專案"
 
 # AI Translated
-msgid "The version of Orca Slicer is too low and needs to be updated to the latest version before it can be used normally."
-msgstr "Orca Slicer 版本過舊，需要更新至最新版本才能正常使用。"
+msgid "The version of Backstage.IL is too low and needs to be updated to the latest version before it can be used normally."
+msgstr "Backstage.IL 版本過舊，需要更新至最新版本才能正常使用。"
 
 # AI Translated
 msgid "Cloud sync conflict:"
@@ -2783,8 +2783,8 @@ msgstr "%s 已移除。"
 
 # AI Translated
 #, c-format, boost-format
-msgid "Switching Orca Slicer to language %s failed."
-msgstr "無法將 Orca Slicer 切換為 %s 語言。"
+msgid "Switching Backstage.IL to language %s failed."
+msgstr "無法將 Backstage.IL 切換為 %s 語言。"
 
 # AI Translated
 msgid ""
@@ -2799,8 +2799,8 @@ msgid "Application will close."
 msgstr "應用程式將會關閉。"
 
 # AI Translated
-msgid "Orca Slicer - Switching language failed"
-msgstr "Orca Slicer：無法切換語言"
+msgid "Backstage.IL - Switching language failed"
+msgstr "Backstage.IL：無法切換語言"
 
 msgid "*"
 msgstr "*"
@@ -2884,8 +2884,8 @@ msgstr "開啟"
 msgid "Rename"
 msgstr "重新命名"
 
-msgid "Orca Slicer GUI initialization failed"
-msgstr "Orca Slicer 圖形介面初始化失敗"
+msgid "Backstage.IL GUI initialization failed"
+msgstr "Backstage.IL 圖形介面初始化失敗"
 
 # AI Translated
 #, boost-format
@@ -4764,14 +4764,14 @@ msgid "License"
 msgstr "授權"
 
 # AI Translated
-msgid "Orca Slicer is licensed under "
-msgstr "Orca Slicer 採用的授權條款為 "
+msgid "Backstage.IL is licensed under "
+msgstr "Backstage.IL 採用的授權條款為 "
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "GNU Affero 通用公共授權條款，版本 3"
 
-msgid "Orca Slicer is based on PrusaSlicer and BambuStudio"
-msgstr "Orca Slicer 基於 PrusaSlicer 與 BambuStudio"
+msgid "Backstage.IL is based on PrusaSlicer and BambuStudio"
+msgstr "Backstage.IL 基於 PrusaSlicer 與 BambuStudio"
 
 msgid "Libraries"
 msgstr "函式庫"
@@ -8360,11 +8360,11 @@ msgstr "正在下載虛擬攝影機工具包"
 # AI Translated
 msgid ""
 "Another virtual camera is running.\n"
-"Orca Slicer supports only a single virtual camera.\n"
+"Backstage.IL supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "另一個虛擬攝影機正在執行。\n"
-"Orca Slicer 只支援一個虛擬攝影機。\n"
+"Backstage.IL 只支援一個虛擬攝影機。\n"
 "要停止此虛擬攝影機嗎？"
 
 #, c-format, boost-format
@@ -8483,8 +8483,8 @@ msgid "Failed to parse model information."
 msgstr "無法解析模型資訊。"
 
 # AI Translated
-msgid "The .gcode.3mf file contains no G-code data. Please slice it with Orca Slicer and export a new .gcode.3mf file."
-msgstr ".gcode.3mf 檔案不包含 G-code 資料。請使用 Orca Slicer 切片並匯出新的 .gcode.3mf 檔案。"
+msgid "The .gcode.3mf file contains no G-code data. Please slice it with Backstage.IL and export a new .gcode.3mf file."
+msgstr ".gcode.3mf 檔案不包含 G-code 資料。請使用 Backstage.IL 切片並匯出新的 .gcode.3mf 檔案。"
 
 # AI Translated
 #, c-format, boost-format
@@ -9061,8 +9061,8 @@ msgid "The 3MF file version is in Beta and it is newer than the current OrcaSlic
 msgstr "該 3MF 檔案版本為測試版，且較目前的 OrcaSlicer 版本更新。"
 
 # AI Translated
-msgid "If you would like to try Orca Slicer Beta, you may click to"
-msgstr "如果您想試用 Orca Slicer 測試版，可以點選"
+msgid "If you would like to try Backstage.IL Beta, you may click to"
+msgstr "如果您想試用 Backstage.IL 測試版，可以點選"
 
 msgid "Download Beta Version"
 msgstr "下載測試版"
@@ -10234,10 +10234,10 @@ msgstr "與 AMS 同步線材"
 
 msgid ""
 "There are some unknown or incompatible filaments mapped to generic preset.\n"
-"Please update Orca Slicer or restart Orca Slicer to check if there is an update to system presets."
+"Please update Backstage.IL or restart Backstage.IL to check if there is an update to system presets."
 msgstr ""
 "有一些未知或不相容的線材被對應到通用預設。\n"
-"請更新 Orca Slicer 或重新啟動 Orca Slicer 以檢查系統預設是否有更新。"
+"請更新 Backstage.IL 或重新啟動 Backstage.IL 以檢查系統預設是否有更新。"
 
 msgid "Only filament color information has been synchronized from printer."
 msgstr "僅從列印裝置同步了線材顏色資訊。"
@@ -10755,8 +10755,8 @@ msgid "Download failed; unknown file format."
 msgstr "下載失敗，未知的檔案格式。"
 
 # AI Translated
-msgid "Importing to Orca Slicer failed. Please download the file and manually import it."
-msgstr "無法匯入至 Orca Slicer。請下載該檔案並手動匯入。"
+msgid "Importing to Backstage.IL failed. Please download the file and manually import it."
+msgstr "無法匯入至 Backstage.IL。請下載該檔案並手動匯入。"
 
 msgid "Downloading project..."
 msgstr "專案下載中..."
@@ -13399,8 +13399,8 @@ msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr "所選列印裝置與選擇的列印裝置預設不相容。"
 
 # AI Translated
-msgid "The printer is required to be on the same LAN as Orca Slicer."
-msgstr "列印裝置需要與 Orca Slicer 位於同一個 LAN。"
+msgid "The printer is required to be on the same LAN as Backstage.IL."
+msgstr "列印裝置需要與 Backstage.IL 位於同一個 LAN。"
 
 msgid "The printer does not support sending to printer storage."
 msgstr "列印裝置不支援傳送至列印裝置儲存空間。"
@@ -15109,8 +15109,8 @@ msgid "Ramming line"
 msgstr "尖端成型線條"
 
 # AI Translated
-msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Orca Slicer > Preferences"
-msgstr "每當線材顏色或線材變更時，Orca 都會重新計算清理體積。您可以在「Orca Slicer > 偏好設定」中停用自動計算"
+msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Backstage.IL > Preferences"
+msgstr "每當線材顏色或線材變更時，Orca 都會重新計算清理體積。您可以在「Backstage.IL > 偏好設定」中停用自動計算"
 
 # AI Translated
 msgid "Flushing volume (mm³) for each filament pair."
@@ -15170,12 +15170,12 @@ msgctxt "Printer vendor"
 msgid "Custom"
 msgstr "自訂"
 
-msgid "Welcome to Orca Slicer"
-msgstr "歡迎使用 Orca Slicer"
+msgid "Welcome to Backstage.IL"
+msgstr "歡迎使用 Backstage.IL"
 
 # AI Translated
-msgid "Orca Slicer will be set up in several steps. Let's start!"
-msgstr "Orca Slicer 將透過幾個步驟完成設定。讓我們開始吧！"
+msgid "Backstage.IL will be set up in several steps. Let's start!"
+msgstr "Backstage.IL 將透過幾個步驟完成設定。讓我們開始吧！"
 
 msgid "Get Started"
 msgstr "開始"
@@ -15510,8 +15510,8 @@ msgid "Network plug-in update"
 msgstr "網路外掛程式升級"
 
 # AI Translated
-msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Orca Slicer launches."
-msgstr "按一下「確定」立即更新網路外掛。若有檔案正在使用中，更新會在下次啟動 Orca Slicer 時套用。"
+msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Backstage.IL launches."
+msgstr "按一下「確定」立即更新網路外掛。若有檔案正在使用中，更新會在下次啟動 Backstage.IL 時套用。"
 
 # AI Translated
 msgid "A new Network plug-in is available. Do you want to install it?"
@@ -15522,8 +15522,8 @@ msgstr "有可用的新網路外掛。您要安裝它嗎？"
 msgid "A new Network plug-in (%s) is available. Do you want to install it?"
 msgstr "有新的網路外掛程式（%s）可用。要安裝嗎？"
 
-msgid "New version of Orca Slicer"
-msgstr "新版本的 Orca Slicer"
+msgid "New version of Backstage.IL"
+msgstr "新版本的 Backstage.IL"
 
 msgid "Check on Microsoft Store"
 msgstr "在 Microsoft Store 上檢視"
@@ -15551,8 +15551,8 @@ msgid "Try the following methods to update the connection parameters and reconne
 msgstr "請嘗試以下方法更新連線參數並重新連線列印裝置。"
 
 # AI Translated
-msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
-msgstr "1. 請確認 Orca Slicer 與您的列印裝置位於同一個 LAN 內。"
+msgid "1. Please confirm Backstage.IL and your printer are in the same LAN."
+msgstr "1. 請確認 Backstage.IL 與您的列印裝置位於同一個 LAN 內。"
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
 msgstr "2. 若下方的 IP 和存取代碼與列印裝置上的實際值不同，請修正它們。"
@@ -15709,8 +15709,8 @@ msgid "An important update was detected and needs to be run before printing can 
 msgstr "偵測到重要更新，必須執行後才能繼續列印。要立即更新嗎？您也可以稍後在「更新韌體」中更新。"
 
 # AI Translated
-msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Orca Slicer."
-msgstr "韌體版本異常，必須修復並更新後才能列印。要立即更新嗎？您也可以稍後在列印裝置上更新，或在下次啟動 Orca Slicer 時更新。"
+msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Backstage.IL."
+msgstr "韌體版本異常，必須修復並更新後才能列印。要立即更新嗎？您也可以稍後在列印裝置上更新，或在下次啟動 Backstage.IL 時更新。"
 
 msgid "Extension Board"
 msgstr "擴充板"
@@ -16704,8 +16704,8 @@ msgstr "允許透過第三方列印主機控制 BambuLab 列印裝置。"
 msgid "Use 3MF instead of G-code"
 msgstr "使用 3MF 取代 G-code"
 
-msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
-msgstr "若列印裝置接受 3MF 檔案作為列印作業，請啟用此選項。啟用後，Orca Slicer 會將切片後的檔案以 .gcode.3mf 形式傳送，而非單純的 .gcode 檔案。"
+msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Backstage.IL sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
+msgstr "若列印裝置接受 3MF 檔案作為列印作業，請啟用此選項。啟用後，Backstage.IL 會將切片後的檔案以 .gcode.3mf 形式傳送，而非單純的 .gcode 檔案。"
 
 msgid "Printer Agent"
 msgstr "列印裝置代理"
@@ -16718,8 +16718,8 @@ msgid "Hostname, IP or URL"
 msgstr "主機名稱、IP 或 URL"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
-msgstr "Orca Slicer 可以將 G-code 檔案上傳至列印主機。此欄位應填入列印主機實例的主機名稱、IP 位址或 URL。若列印主機位於啟用基本驗證的 HAProxy 之後，可將使用者名稱和密碼以下列格式放入 URL 中來存取：https://username:password@your-octopi-address/"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
+msgstr "Backstage.IL 可以將 G-code 檔案上傳至列印主機。此欄位應填入列印主機實例的主機名稱、IP 位址或 URL。若列印主機位於啟用基本驗證的 HAProxy 之後，可將使用者名稱和密碼以下列格式放入 URL 中來存取：https://username:password@your-octopi-address/"
 
 msgid "Device UI"
 msgstr "裝置使用者介面"
@@ -16732,8 +16732,8 @@ msgid "API Key / Password"
 msgstr "API 金鑰 / 密碼"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
-msgstr "Orca Slicer 可以將 G-code 檔案上傳至列印主機。此欄位應填入驗證所需的 API 金鑰或密碼。"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgstr "Backstage.IL 可以將 G-code 檔案上傳至列印主機。此欄位應填入驗證所需的 API 金鑰或密碼。"
 
 msgid "Serial Number"
 msgstr "序號"
@@ -18620,8 +18620,8 @@ msgid "Minimal purge on wipe tower"
 msgstr "換料塔上的最小清理量"
 
 # AI Translated
-msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
-msgstr "換工具後，新載入的線材在噴嘴內的確切位置可能未知，線材壓力也可能尚未穩定。在將工具頭清理到填充或犧牲物件之前，Orca Slicer 一定會先將此數量的材料擠入換料塔，以便後續可靠地擠出填充或犧牲物件。"
+msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Backstage.IL will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
+msgstr "換工具後，新載入的線材在噴嘴內的確切位置可能未知，線材壓力也可能尚未穩定。在將工具頭清理到填充或犧牲物件之前，Backstage.IL 一定會先將此數量的材料擠入換料塔，以便後續可靠地擠出填充或犧牲物件。"
 
 # AI Translated
 msgid "Wipe tower cooling"
@@ -19983,10 +19983,10 @@ msgstr "稀疏填充錨線長度"
 
 # AI Translated
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
 "Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
 msgstr ""
-"用一小段額外的牆將填充線連接到內牆。如果以百分比表示（例如 15%），將以填充線寬為基準計算。Orca Slicer 會嘗試用一小段牆連接兩條相鄰的填充線。如果找不到短於 infill_anchor_max 的牆段，填充線只會在一側連接到牆段，所取牆段的長度以此參數為上限，但不超過 anchor_length_max。\n"
+"用一小段額外的牆將填充線連接到內牆。如果以百分比表示（例如 15%），將以填充線寬為基準計算。Backstage.IL 會嘗試用一小段牆連接兩條相鄰的填充線。如果找不到短於 infill_anchor_max 的牆段，填充線只會在一側連接到牆段，所取牆段的長度以此參數為上限，但不超過 anchor_length_max。\n"
 "將此參數設為 0，可停用連接單條填充線的錨定牆。"
 
 msgid "0 (no open anchors)"
@@ -20000,10 +20000,10 @@ msgstr "填充錨線的最大長度"
 
 # AI Translated
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
 "If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
 msgstr ""
-"用一小段額外的牆將填充線連接到內牆。如果以百分比表示（例如 15%），將以填充線寬為基準計算。Orca Slicer 會嘗試用一小段牆連接兩條相鄰的填充線。如果找不到短於此參數的牆段，填充線只會在一側連接到牆段，所取牆段的長度以 infill_anchor 為上限，但不超過此參數。\n"
+"用一小段額外的牆將填充線連接到內牆。如果以百分比表示（例如 15%），將以填充線寬為基準計算。Backstage.IL 會嘗試用一小段牆連接兩條相鄰的填充線。如果找不到短於此參數的牆段，填充線只會在一側連接到牆段，所取牆段的長度以 infill_anchor 為上限，但不超過此參數。\n"
 "若設為 0，將使用舊版填充連接演算法，結果應與設為 1000 和 0 時相同。"
 
 msgid "0 (Simple connect)"
@@ -20656,8 +20656,8 @@ msgid "Host Type"
 msgstr "主機類型"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
-msgstr "Orca Slicer 可以將 G-code 檔案上傳到列印裝置主機。此欄位必須包含主機的類型。"
+msgid "Backstage.IL can upload G-code files to a printer host. This field must contain the kind of the host."
+msgstr "Backstage.IL 可以將 G-code 檔案上傳到列印裝置主機。此欄位必須包含主機的類型。"
 
 msgid "Nozzle volume"
 msgstr "噴嘴內腔體積"
@@ -20826,8 +20826,8 @@ msgstr ""
 "不建議將此選項與閃電填充一起使用，因為可供額外的牆錨定的填充有限。"
 
 # AI Translated
-msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment variables."
-msgstr "如果您想透過自訂腳本處理輸出的 G-code，只需在此處列出它們的絕對路徑即可。多個腳本請以分號分隔。腳本會收到 G-code 檔案的絕對路徑作為第一個參數，並可透過讀取環境變數來取得 Orca Slicer 的設定。"
+msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Backstage.IL config settings by reading environment variables."
+msgstr "如果您想透過自訂腳本處理輸出的 G-code，只需在此處列出它們的絕對路徑即可。多個腳本請以分號分隔。腳本會收到 G-code 檔案的絕對路徑作為第一個參數，並可透過讀取環境變數來取得 Backstage.IL 的設定。"
 
 # AI Translated
 msgid "Change extrusion role G-code (process)"
@@ -36023,32 +36023,32 @@ msgstr "• %1% — %2%：%3%"
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"以下設定參照了 Orca Slicer 無法在這台電腦上識別的外掛：\n"
+"以下設定參照了 Backstage.IL 無法在這台電腦上識別的外掛：\n"
 "\n"
 "%1%\n"
 "\n"
-"如果仍要儲存，預設將不會保留這些設定的外掛參照。在其他電腦上，Orca Slicer 將無法得知該提供哪些外掛，這些設定也可能無法正常運作。"
+"如果仍要儲存，預設將不會保留這些設定的外掛參照。在其他電腦上，Backstage.IL 將無法得知該提供哪些外掛，這些設定也可能無法正常運作。"
 
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"以下設定參照了 Orca Slicer 無法在這台電腦上識別的外掛：\n"
+"以下設定參照了 Backstage.IL 無法在這台電腦上識別的外掛：\n"
 "\n"
 "%1%\n"
 "\n"
-"如果仍要儲存，專案將不會保留這些設定的外掛參照。在其他電腦上，Orca Slicer 將無法得知該提供哪些外掛，這些設定也可能無法正常運作。"
+"如果仍要儲存，專案將不會保留這些設定的外掛參照。在其他電腦上，Backstage.IL 將無法得知該提供哪些外掛，這些設定也可能無法正常運作。"
 
 # AI Translated
 msgid "Plugin Not Identified"
@@ -36061,17 +36061,17 @@ msgstr "仍要儲存"
 # AI Translated
 #, boost-format
 msgid ""
-"The presets being saved refer to plugins Orca Slicer can't identify on this computer:\n"
+"The presets being saved refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"要儲存的預設參照了 Orca Slicer 無法在這台電腦上識別的外掛：\n"
+"要儲存的預設參照了 Backstage.IL 無法在這台電腦上識別的外掛：\n"
 "\n"
 "%1%\n"
 "\n"
-"如果仍要儲存，這些預設將不會保留這些設定的外掛參照。在其他電腦上，Orca Slicer 將無法得知該提供哪些外掛，這些設定也可能無法正常運作。"
+"如果仍要儲存，這些預設將不會保留這些設定的外掛參照。在其他電腦上，Backstage.IL 將無法得知該提供哪些外掛，這些設定也可能無法正常運作。"
 
 # AI Translated
 msgctxt "Texture Displacement"
@@ -40163,10 +40163,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Orca Slicer offers a wide range of keyboard shortcuts and 3D scene operations?"
+"Did you know that Backstage.IL offers a wide range of keyboard shortcuts and 3D scene operations?"
 msgstr ""
 "如何使用鍵盤快速鍵\n"
-"您知道嗎？Orca Slicer 提供了廣泛的鍵盤快速鍵和 3D 場景操作。"
+"您知道嗎？Backstage.IL 提供了廣泛的鍵盤快速鍵和 3D 場景操作。"
 
 #: resources/data/hints.ini: [hint:Reverse on even]
 msgid ""
@@ -40239,10 +40239,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Search Functionality]
 msgid ""
 "Search Functionality\n"
-"Did you know that you use the Search tool to quickly find a specific Orca Slicer setting?"
+"Did you know that you use the Search tool to quickly find a specific Backstage.IL setting?"
 msgstr ""
 "搜尋功能\n"
-"您知道嗎？使用「搜尋工具」可以快速定位特定的 Orca Slicer 設定。"
+"您知道嗎？使用「搜尋工具」可以快速定位特定的 Backstage.IL 設定。"
 
 # AI Translated
 #: resources/data/hints.ini: [hint:Simplify Model]
@@ -40275,21 +40275,21 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Orca Slicer."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Backstage.IL."
 msgstr ""
 "減去零件\n"
-"您知道嗎？您可以使用「負零件」修改器將一個網格從另一個網格中減去。這樣，就能直接在 Orca Slicer 裡輕鬆建立尺寸可調的孔洞。"
+"您知道嗎？您可以使用「負零件」修改器將一個網格從另一個網格中減去。這樣，就能直接在 Backstage.IL 裡輕鬆建立尺寸可調的孔洞。"
 
 # AI Translated
 #: resources/data/hints.ini: [hint:STEP]
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Orca Slicer supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Backstage.IL supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "您知道嗎？切片 STEP 檔案而非 STL 檔案可以提高列印品質。\n"
-"Orca Slicer 支援切片 STEP 檔案，能提供比低解析度 STL 更平滑的結果。試試看！"
+"Backstage.IL 支援切片 STEP 檔案，能提供比低解析度 STL 更平滑的結果。試試看！"
 
 # AI Translated
 #: resources/data/hints.ini: [hint:Z seam location]

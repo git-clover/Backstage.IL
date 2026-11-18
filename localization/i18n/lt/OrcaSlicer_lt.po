@@ -2294,7 +2294,7 @@ msgid "A missing or damaged TLS/CA certificate in 'printer.cer' can also cause t
 msgstr "Šią klaidą taip pat gali sukelti trūkstamas arba sugadintas TLS/CA sertifikatas faile 'printer.cer'."
 
 msgid ""
-"Orca Slicer requires the Microsoft WebView2 Runtime to operate certain features.\n"
+"Backstage.IL requires the Microsoft WebView2 Runtime to operate certain features.\n"
 "Click Yes to install it now."
 msgstr ""
 "Norint naudoti kai kurias „OrcaSlicer“ funkcijas, reikalinga „Microsoft WebView2 Runtime“.\n"
@@ -2308,11 +2308,11 @@ msgstr "„WebView2“ paleidimo terpė"
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
 "Some features, including the setup wizard, may appear blank until it is installed.\n"
-"Please install it manually from %1% and restart Orca Slicer."
+"Please install it manually from %1% and restart Backstage.IL."
 msgstr ""
 "Nepavyko įdiegti „Microsoft WebView2 Runtime“.\n"
 "Kai kurios funkcijos, įskaitant nustatymų vedlį, gali būti rodomos tuščios, kol jis neįdiegtas.\n"
-"Įdiekite jį rankiniu būdu iš %1% ir paleiskite Orca Slicer iš naujo."
+"Įdiekite jį rankiniu būdu iš %1% ir paleiskite Backstage.IL iš naujo."
 
 #, c-format, boost-format
 msgid "Resources path does not exist or is not a directory: %s"
@@ -2428,7 +2428,7 @@ msgstr "Kurti ar atidaryti naujo projekto failo sluoksniavimo (slicing) metu neg
 msgid "Open Project"
 msgstr "Atidaryti projektą"
 
-msgid "The version of Orca Slicer is too low and needs to be updated to the latest version before it can be used normally."
+msgid "The version of Backstage.IL is too low and needs to be updated to the latest version before it can be used normally."
 msgstr "OrcaSlicer versija yra pasenusi. Norint naudotis, reikia ją atnaujinti į naujausią versiją."
 
 msgid "Cloud sync conflict:"
@@ -2669,8 +2669,8 @@ msgstr "%s buvo pašalintas."
 
 # AI Translated
 #, c-format, boost-format
-msgid "Switching Orca Slicer to language %s failed."
-msgstr "Nepavyko perjungti Orca Slicer į kalbą %s."
+msgid "Switching Backstage.IL to language %s failed."
+msgstr "Nepavyko perjungti Backstage.IL į kalbą %s."
 
 # AI Translated
 msgid ""
@@ -2685,8 +2685,8 @@ msgid "Application will close."
 msgstr "Programa bus uždaryta."
 
 # AI Translated
-msgid "Orca Slicer - Switching language failed"
-msgstr "Orca Slicer – kalbos perjungimas nepavyko"
+msgid "Backstage.IL - Switching language failed"
+msgstr "Backstage.IL – kalbos perjungimas nepavyko"
 
 msgid "*"
 msgstr "*"
@@ -2769,7 +2769,7 @@ msgstr "Atverti"
 msgid "Rename"
 msgstr "Pervardyti"
 
-msgid "Orca Slicer GUI initialization failed"
+msgid "Backstage.IL GUI initialization failed"
 msgstr "Nepavyko inicijuoti „OrcaSlicer“ grafinės naudotojo sąsajos"
 
 #, boost-format
@@ -4558,14 +4558,14 @@ msgstr "Autorių teisės"
 msgid "License"
 msgstr "Licencija"
 
-msgid "Orca Slicer is licensed under "
-msgstr "Orca Slicer yra licencijuojama pagal "
+msgid "Backstage.IL is licensed under "
+msgstr "Backstage.IL yra licencijuojama pagal "
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "GNU Affero bendroji viešoji licencija, 3 versija"
 
-msgid "Orca Slicer is based on PrusaSlicer and BambuStudio"
-msgstr "Orca Slicer sukurtas remiantis PrusaSlicer ir BambuStudio"
+msgid "Backstage.IL is based on PrusaSlicer and BambuStudio"
+msgstr "Backstage.IL sukurtas remiantis PrusaSlicer ir BambuStudio"
 
 msgid "Libraries"
 msgstr "Bibliotekos"
@@ -8042,11 +8042,11 @@ msgstr "Atsisiunčiami virtualios kameros įrankiai"
 
 msgid ""
 "Another virtual camera is running.\n"
-"Orca Slicer supports only a single virtual camera.\n"
+"Backstage.IL supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "Veikia kita virtuali kamera.\n"
-"„Orca Slicer“ palaiko tik vieną virtualią kamerą.\n"
+"„Backstage.IL“ palaiko tik vieną virtualią kamerą.\n"
 "Ar norite sustabdyti anksčiau paleistą virtualią kamerą?"
 
 #, c-format, boost-format
@@ -8162,8 +8162,8 @@ msgid "Failed to parse model information."
 msgstr "Nepavyko apdoroti modelio informacijos."
 
 # AI Translated
-msgid "The .gcode.3mf file contains no G-code data. Please slice it with Orca Slicer and export a new .gcode.3mf file."
-msgstr "Failas „.gcode.3mf“ neturi G-code duomenų. Supjaustykite jį su „Orca Slicer“ ir eksportuokite naują „.gcode.3mf“ failą."
+msgid "The .gcode.3mf file contains no G-code data. Please slice it with Backstage.IL and export a new .gcode.3mf file."
+msgstr "Failas „.gcode.3mf“ neturi G-code duomenų. Supjaustykite jį su „Backstage.IL“ ir eksportuokite naują „.gcode.3mf“ failą."
 
 #, c-format, boost-format
 msgid "File '%s' was lost! Please download it again."
@@ -8716,7 +8716,7 @@ msgstr "Naujesnė 3MF versija"
 msgid "The 3MF file version is in Beta and it is newer than the current OrcaSlicer version."
 msgstr "3MF failo versija yra „Beta“ stadijos ir yra naujesnė už dabartinę „OrcaSlicer“ versiją."
 
-msgid "If you would like to try Orca Slicer Beta, you may click to"
+msgid "If you would like to try Backstage.IL Beta, you may click to"
 msgstr "Jei norite išbandyti „OrcaSlicer Beta“, spustelėkite"
 
 msgid "Download Beta Version"
@@ -9867,7 +9867,7 @@ msgstr "Sinchronizuoti gijas su AMS"
 
 msgid ""
 "There are some unknown or incompatible filaments mapped to generic preset.\n"
-"Please update Orca Slicer or restart Orca Slicer to check if there is an update to system presets."
+"Please update Backstage.IL or restart Backstage.IL to check if there is an update to system presets."
 msgstr ""
 "Yra keletas nežinomų arba nesuderinamų gijų, priskirtų bendrajam profiliui.\n"
 "Atnaujinkite „OrcaSlicer“ arba paleiskite programą iš naujo, kad patikrintumėte, ar yra sistemos profilių atnaujinimų."
@@ -9933,7 +9933,7 @@ msgid "Load 3MF"
 msgstr "Įkelti 3MF"
 
 msgid "The 3MF is not supported by OrcaSlicer, loading geometry data only."
-msgstr "3MF nepalaikomas Orca Slicer. Įkeliami tik geometrijos duomenys."
+msgstr "3MF nepalaikomas Backstage.IL. Įkeliami tik geometrijos duomenys."
 
 msgid "The 3MF file was generated by an old OrcaSlicer version, loading geometry data only."
 msgstr "3MF failas buvo sukurtas naudojant seną „OrcaSlicer“ versiją, įkeliami tik geometrijos duomenys."
@@ -10363,8 +10363,8 @@ msgstr "Ruošiamas 3MF failas..."
 msgid "Download failed; unknown file format."
 msgstr "Atsisuntimas nepavyko, nežinomas failo tipas."
 
-msgid "Importing to Orca Slicer failed. Please download the file and manually import it."
-msgstr "Nepavyko importuoti į Orca Slicer. Prašome atsisiųsti failą ir rankiniu būdu jį importuoti."
+msgid "Importing to Backstage.IL failed. Please download the file and manually import it."
+msgstr "Nepavyko importuoti į Backstage.IL. Prašome atsisiųsti failą ir rankiniu būdu jį importuoti."
 
 msgid "Downloading project..."
 msgstr "Projektas atsisiunčiamas..."
@@ -10924,13 +10924,13 @@ msgid "Enable dark Mode"
 msgstr "Įjungti tamsųjį režimą"
 
 msgid "Allow only one OrcaSlicer instance"
-msgstr "Leisti tik vieną Orca Slicer egzempliorių"
+msgstr "Leisti tik vieną Backstage.IL egzempliorių"
 
 msgid "On OSX there is always only one instance of app running by default. However it is allowed to run multiple instances of same app from the command line. In such case this settings will allow only one instance."
 msgstr "OSX visada veikia tik vienas programos egzempliorius pagal numatytuosius nustatymus. Tačiau komandinėje eilutėje leidžiama paleisti kelis tos pačios programos egzempliorius. Šiuo atveju nustatymai leis tik vieną egzempliorių."
 
 msgid "If this is enabled, when starting OrcaSlicer and another instance of the same OrcaSlicer is already running, that instance will be reactivated instead."
-msgstr "Jei įjungta, paleidus „Orca Slicer“ kai kitas tos pačios „Orca Slicer“ programos egzempliorius jau veikia, bus suaktyvintas tas jau veikiantis egzempliorius, o ne paleistas naujas."
+msgstr "Jei įjungta, paleidus „Backstage.IL“ kai kitas tos pačios „Backstage.IL“ programos egzempliorius jau veikia, bus suaktyvintas tas jau veikiantis egzempliorius, o ne paleistas naujas."
 
 msgid "Show splash screen"
 msgstr "Rodyti paleidimo ekraną"
@@ -11163,7 +11163,7 @@ msgstr ""
 "Mažesnės vertės sukuria mažesnius failus, bet prarandama daugiau geometrinių detalių; didesnės vertės išsaugo daugiau detalių, tačiau failai būna didesni."
 
 msgid "Associate files to OrcaSlicer"
-msgstr "Susieti failus su Orca Slicer"
+msgstr "Susieti failus su Backstage.IL"
 
 msgid "File associations for the Microsoft Store version are managed by Windows Settings."
 msgstr "„Microsoft Store“ versijos failų susiejimai valdomi „Windows“ nustatymuose."
@@ -11196,7 +11196,7 @@ msgid "If enabled, this sets OrcaSlicer as the default application to open STEP 
 msgstr "Jei įjungta, „OrcaSlicer“ nustatoma kaip numatytoji programa STEP failams atidaryti."
 
 msgid "Associate web links to OrcaSlicer"
-msgstr "Susieti interneto nuorodas su Orca Slicer"
+msgstr "Susieti interneto nuorodas su Backstage.IL"
 
 msgid "Behaviour"
 msgstr "Elgsena"
@@ -12907,7 +12907,7 @@ msgstr "Negalima nusiųsti spausdinimo užduočių aparatinės programinės įra
 msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr "Pasirinktas spausdintuvas yra nesuderinamas su parinktais spausdintuvo profiliais."
 
-msgid "The printer is required to be on the same LAN as Orca Slicer."
+msgid "The printer is required to be on the same LAN as Backstage.IL."
 msgstr "Spausdintuvas privalo būti tame pačiame vietiniame tinkle (LAN) kaip ir „OrcaSlicer“."
 
 msgid "The printer does not support sending to printer storage."
@@ -14542,8 +14542,8 @@ msgstr "Bendras supresavimas (ramming)"
 msgid "Ramming line"
 msgstr "Supresavimo (ramming) linija"
 
-msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Orca Slicer > Preferences"
-msgstr "„Orca“ iš naujo perskaičiuos jūsų išvalymo (flushing) tūrius kiekvieną kartą, kai pasikeis gijos spalva arba pati gija. Šį automatinį perskaičiavimą galite išjungti skiltyje „Orca Slicer“ > „Nuostatos“ (Preferences)."
+msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Backstage.IL > Preferences"
+msgstr "„Orca“ iš naujo perskaičiuos jūsų išvalymo (flushing) tūrius kiekvieną kartą, kai pasikeis gijos spalva arba pati gija. Šį automatinį perskaičiavimą galite išjungti skiltyje „Backstage.IL“ > „Nuostatos“ (Preferences)."
 
 msgid "Flushing volume (mm³) for each filament pair."
 msgstr "Kiekvienos gijų poros išmetimo tūris (mm³)."
@@ -14599,11 +14599,11 @@ msgctxt "Printer vendor"
 msgid "Custom"
 msgstr "Pasirinktiniai"
 
-msgid "Welcome to Orca Slicer"
-msgstr "Pasisveikinkite su Orca Slicer"
+msgid "Welcome to Backstage.IL"
+msgstr "Pasisveikinkite su Backstage.IL"
 
-msgid "Orca Slicer will be set up in several steps. Let's start!"
-msgstr "Orca Slicer bus nustatyta per kelis žingsnius. Pradėkime!"
+msgid "Backstage.IL will be set up in several steps. Let's start!"
+msgstr "Backstage.IL bus nustatyta per kelis žingsnius. Pradėkime!"
 
 msgid "Get Started"
 msgstr "Pradėti"
@@ -14920,8 +14920,8 @@ msgid "Network plug-in update"
 msgstr "Tinklo papildinio atnaujinimas"
 
 # AI Translated
-msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Orca Slicer launches."
-msgstr "Spustelėkite Gerai, kad dabar atnaujintumėte tinklo papildinį. Jei failas naudojamas, atnaujinimas bus pritaikytas kitą kartą paleidus Orca Slicer."
+msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Backstage.IL launches."
+msgstr "Spustelėkite Gerai, kad dabar atnaujintumėte tinklo papildinį. Jei failas naudojamas, atnaujinimas bus pritaikytas kitą kartą paleidus Backstage.IL."
 
 # AI Translated
 msgid "A new Network plug-in is available. Do you want to install it?"
@@ -14931,8 +14931,8 @@ msgstr "Yra prieinamas naujas tinklo papildinys. Ar norite jį įdiegti?"
 msgid "A new Network plug-in (%s) is available. Do you want to install it?"
 msgstr "Yra naujas tinklo papildinys(%s), ar norite jį įdiegti?"
 
-msgid "New version of Orca Slicer"
-msgstr "Nauja \"Orca Slicer\" versija"
+msgid "New version of Backstage.IL"
+msgstr "Nauja \"Backstage.IL\" versija"
 
 msgid "Check on Microsoft Store"
 msgstr "Tikrinti „Microsoft Store“"
@@ -14959,8 +14959,8 @@ msgstr "Prijunkite spausdintuvą naudodami IP ir prieigos kodą"
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr "Išbandykite šiuos būdus, kad atnaujintumėte ryšio parametrus ir vėl prisijungtumėte prie spausdintuvo."
 
-msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
-msgstr "1. Įsitikinkite, kad „Orca Slicer“ ir jūsų spausdintuvas yra tame pačiame vietiniame tinkle (LAN)."
+msgid "1. Please confirm Backstage.IL and your printer are in the same LAN."
+msgstr "1. Įsitikinkite, kad „Backstage.IL“ ir jūsų spausdintuvas yra tame pačiame vietiniame tinkle (LAN)."
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
 msgstr "2. Jei žemiau nurodytas IP adresas ir prieigos kodas nesutampa su tikrosiomis spausdintuvo reikšmėmis, juos ištaisykite."
@@ -15103,7 +15103,7 @@ msgstr "Ar tikrai norite atnaujinti? Tai užtruks apie 10 minučių. Neišjunkit
 msgid "An important update was detected and needs to be run before printing can continue. Do you want to update now? You can also update later from 'Update firmware'."
 msgstr "Buvo aptiktas svarbus atnaujinimas, kurį reikia paleisti, kad spausdinimas būtų tęsiamas. Ar norite atnaujinti dabar? Taip pat galite atnaujinti vėliau, naudodami \"Atnaujinti programinę įrangą\"."
 
-msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Orca Slicer."
+msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Backstage.IL."
 msgstr "Įterptinės programinės įrangos versija yra nenormali. Prieš spausdinant reikia pataisyti ir atnaujinti. Ar norite atnaujinti dabar? Taip pat galite atnaujinti vėliau spausdintuve arba atnaujinti kitą kartą paleisdami \"OrcaSlicer\"."
 
 msgid "Extension Board"
@@ -16047,8 +16047,8 @@ msgstr "Leisti valdyti „BambuLab“ spausdintuvą per trečiųjų šalių spau
 msgid "Use 3MF instead of G-code"
 msgstr "Vietoj G-code naudoti 3MF"
 
-msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
-msgstr "Įjunkite, jei spausdintuvas spausdinimo užduotims priima 3MF failus. Kai įjungta, „Orca Slicer“ sugeneruotą failą siunčia kaip „.gcode.3mf“, o ne kaip paprastą „.gcode“ failą."
+msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Backstage.IL sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
+msgstr "Įjunkite, jei spausdintuvas spausdinimo užduotims priima 3MF failus. Kai įjungta, „Backstage.IL“ sugeneruotą failą siunčia kaip „.gcode.3mf“, o ne kaip paprastą „.gcode“ failą."
 
 msgid "Printer Agent"
 msgstr "Spausdintuvo agentas"
@@ -16060,8 +16060,8 @@ msgid "Hostname, IP or URL"
 msgstr "Mazgo (host) pavadinimas, IP arba URL"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
-msgstr "„Orca Slicer“ gali įkelti G-code failus į spausdinimo serverį (host). Šiame lauke turi būti nurodytas serverio mazgo pavadinimas, IP adresas arba URL. Spausdinimo serverį, esantį už „HAProxy“ su įjungta bazine autentifikacija, galima pasiekti įrašant naudotojo vardą ir slaptažodį į URL tokiu formatu: https://naudotojas:slaptažodis@jūsų-octopi-adresas/"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
+msgstr "„Backstage.IL“ gali įkelti G-code failus į spausdinimo serverį (host). Šiame lauke turi būti nurodytas serverio mazgo pavadinimas, IP adresas arba URL. Spausdinimo serverį, esantį už „HAProxy“ su įjungta bazine autentifikacija, galima pasiekti įrašant naudotojo vardą ir slaptažodį į URL tokiu formatu: https://naudotojas:slaptažodis@jūsų-octopi-adresas/"
 
 msgid "Device UI"
 msgstr "Įrenginio sąsaja"
@@ -16073,8 +16073,8 @@ msgid "API Key / Password"
 msgstr "API raktas / slaptažodis"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
-msgstr "\"Orca Slicer\" gali įkelti G-code failus į spausdintuvą. Šiame lauke turėtų būti nurodytas API raktas arba autentifikavimui reikalingas slaptažodis."
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgstr "\"Backstage.IL\" gali įkelti G-code failus į spausdintuvą. Šiame lauke turėtų būti nurodytas API raktas arba autentifikavimui reikalingas slaptažodis."
 
 msgid "Serial Number"
 msgstr "Serijos numeris"
@@ -17830,7 +17830,7 @@ msgstr "Aušinimo judesiai palaipsniui greitėja, pradedant tokiu greičiu."
 msgid "Minimal purge on wipe tower"
 msgstr "Minimalus valymas ant šluostymo bokštelio"
 
-msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
+msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Backstage.IL will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
 msgstr "Pakeitus įrankį, tiksli naujai įkrautos gijos padėtis purkštuke gali būti nežinoma, o slėgis gijoje greičiausiai dar nėra stabilus. Prieš nukreipiant spausdinimo galvutės prapūtimą į užpildą arba pagalbinį objektą, „OrcaSlicer“ visada paruoš šį medžiagos kiekį valymo bokštelyje, kad būtų patikimai suformuoti tolesni užpildo ar pagalbinio objekto sluoksniai."
 
 msgid "Wipe tower cooling"
@@ -19078,7 +19078,7 @@ msgid "Sparse infill anchor length"
 msgstr "Reto užpildo tvirtinimo ilgis"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
 "Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
 msgstr ""
 "Sujungia užpildo liniją su vidiniu perimetru trumpa papildomo perimetro atkarpa. Jei išreiškiama procentais (pvz., 10%), ji apskaičiuojama pagal užpildo ekstruzijos plotį. „OrcaSlicer“ bando sujungti dvi artimas užpildo linijas trumpu perimetro segmentu. Jei tokio perimetro segmento, trumpesnio už infill_anchor_max, nerandama, užpildo linija sujungiama su perimetro segmentu tik vienoje pusėje, o paimto perimetro segmento ilgis apribojamas šiuo parametru, bet ne ilgiau nei anchor_length_max.\n"
@@ -19094,7 +19094,7 @@ msgid "Maximum length of the infill anchor"
 msgstr "Maksimalus užpildo tvirtinimo ilgis"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
 "If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
 msgstr ""
 "Sujungia užpildo liniją su vidiniu perimetru trumpa papildomo perimetro atkarpa. Jei išreiškiama procentais (pvz., 10%), ji apskaičiuojama pagal užpildo ekstruzijos plotį. „OrcaSlicer“ bando sujungti dvi artimas užpildo linijas trumpu perimetro segmentu. Jei tokio perimetro segmento, trumpesnio už šį parametrą, nerandama, užpildo linija sujungiama su perimetro segmentu tik vienoje pusėje, o paimto perimetro segmento ilgis apribojamas iki infill_anchor, bet ne ilgiau nei šis parametras.\n"
@@ -19710,7 +19710,7 @@ msgstr "Čia galite įdėti savo asmeninius užrašus. Šis tekstas bus pridėta
 msgid "Host Type"
 msgstr "Serverio (Host) tipas"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
+msgid "Backstage.IL can upload G-code files to a printer host. This field must contain the kind of the host."
 msgstr "„OrcaSlicer“ gali įkelti G-kodo (G-code) failus į spausdintuvo serverį (Host). Šiame lauke turi būti nurodytas serverio tipas."
 
 msgid "Nozzle volume"
@@ -19860,7 +19860,7 @@ msgstr ""
 "\n"
 "Naudoti žaibo užpildą kartu su šia parinktimi nerekomenduojama, nes yra nedaug užpildo, prie kurio būtų galima pritvirtinti papildomą perimetrą."
 
-msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment variables."
+msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Backstage.IL config settings by reading environment variables."
 msgstr "Jei norite apdoroti išvesties G-kodą (G-code) per pasirinktinius scenarijus (scripts), nurodykite jų absoliučiuosius kelius čia. Kelis scenarijus atskirkite kabliataškiu. Scenarijams kaip pirmasis argumentas bus perduotas absoliutusis kelias iki G-kodo failo, o „OrcaSlicer“ konfigūracijos nustatymus jie galės pasiekti per aplinkos kintamuosius (environment variables)."
 
 # AI Translated
@@ -34595,32 +34595,32 @@ msgstr "• %1% – %2%: %3%"
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Šie nustatymai nurodo papildinius, kurių „Orca Slicer“ šiame kompiuteryje negali atpažinti:\n"
+"Šie nustatymai nurodo papildinius, kurių „Backstage.IL“ šiame kompiuteryje negali atpažinti:\n"
 "\n"
 "%1%\n"
 "\n"
-"Jei vis tiek išsaugosite, profilis neišsaugos šių nustatymų nuorodų į papildinius. Kitame kompiuteryje „Orca Slicer“ nežinos, kuriuos papildinius pasiūlyti, ir nustatymai ten gali neveikti."
+"Jei vis tiek išsaugosite, profilis neišsaugos šių nustatymų nuorodų į papildinius. Kitame kompiuteryje „Backstage.IL“ nežinos, kuriuos papildinius pasiūlyti, ir nustatymai ten gali neveikti."
 
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Šie nustatymai nurodo papildinius, kurių „Orca Slicer“ šiame kompiuteryje negali atpažinti:\n"
+"Šie nustatymai nurodo papildinius, kurių „Backstage.IL“ šiame kompiuteryje negali atpažinti:\n"
 "\n"
 "%1%\n"
 "\n"
-"Jei vis tiek išsaugosite, projektas neišsaugos šių nustatymų nuorodų į papildinius. Kitame kompiuteryje „Orca Slicer“ nežinos, kuriuos papildinius pasiūlyti, ir nustatymai ten gali neveikti."
+"Jei vis tiek išsaugosite, projektas neišsaugos šių nustatymų nuorodų į papildinius. Kitame kompiuteryje „Backstage.IL“ nežinos, kuriuos papildinius pasiūlyti, ir nustatymai ten gali neveikti."
 
 # AI Translated
 msgid "Plugin Not Identified"
@@ -34633,17 +34633,17 @@ msgstr "Vis tiek išsaugoti"
 # AI Translated
 #, boost-format
 msgid ""
-"The presets being saved refer to plugins Orca Slicer can't identify on this computer:\n"
+"The presets being saved refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Išsaugomi profiliai nurodo papildinius, kurių „Orca Slicer“ šiame kompiuteryje negali atpažinti:\n"
+"Išsaugomi profiliai nurodo papildinius, kurių „Backstage.IL“ šiame kompiuteryje negali atpažinti:\n"
 "\n"
 "%1%\n"
 "\n"
-"Jei vis tiek išsaugosite, profiliai neišsaugos šių nustatymų nuorodų į papildinius. Kitame kompiuteryje „Orca Slicer“ nežinos, kuriuos papildinius pasiūlyti, ir nustatymai ten gali neveikti."
+"Jei vis tiek išsaugosite, profiliai neišsaugos šių nustatymų nuorodų į papildinius. Kitame kompiuteryje „Backstage.IL“ nežinos, kuriuos papildinius pasiūlyti, ir nustatymai ten gali neveikti."
 
 # AI Translated
 msgctxt "Texture Displacement"
@@ -38815,7 +38815,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Orca Slicer offers a wide range of keyboard shortcuts and 3D scene operations?"
+"Did you know that Backstage.IL offers a wide range of keyboard shortcuts and 3D scene operations?"
 msgstr ""
 "Kaip naudoti sparčiuosius klavišus\n"
 "Ar žinojote, kad „OrcaSlicer“ siūlo platų sparčiųjų klavišų ir 3D scenos operacijų pasirinkimą?"
@@ -38887,7 +38887,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Search Functionality]
 msgid ""
 "Search Functionality\n"
-"Did you know that you use the Search tool to quickly find a specific Orca Slicer setting?"
+"Did you know that you use the Search tool to quickly find a specific Backstage.IL setting?"
 msgstr ""
 "Paieškos funkcija\n"
 "Ar žinojote, kad naudodami paieškos įrankį galite greitai rasti konkretų „OrcaSlicer“ nustatymą?"
@@ -38919,7 +38919,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Orca Slicer."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Backstage.IL."
 msgstr ""
 "Atimti dalį\n"
 "Ar žinojote, kad galite atimti vieną tinklelį iš kito naudodami neigiamos dalies (Negative part) modifikatorių? Taip galite, pavyzdžiui, tiesiogiai „OrcaSlicer“ programoje kurti lengvai keičiamo dydžio skyles."
@@ -38928,7 +38928,7 @@ msgstr ""
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Orca Slicer supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Backstage.IL supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "Ar žinojote, kad spausdinimo kokybę galite pagerinti pjaustydami ne STL, o STEP failą?\n"

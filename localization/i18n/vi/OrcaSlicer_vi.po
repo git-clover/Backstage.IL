@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Orca Slicer\n"
+"Project-Id-Version: Backstage.IL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-06 11:06-0600\n"
 "PO-Revision-Date: 2025-10-02 17:43+0700\n"
@@ -2365,10 +2365,10 @@ msgid "A missing or damaged TLS/CA certificate in 'printer.cer' can also cause t
 msgstr "Chứng chỉ TLS/CA trong 'printer.cer' bị thiếu hoặc bị hỏng cũng có thể gây ra lỗi này."
 
 msgid ""
-"Orca Slicer requires the Microsoft WebView2 Runtime to operate certain features.\n"
+"Backstage.IL requires the Microsoft WebView2 Runtime to operate certain features.\n"
 "Click Yes to install it now."
 msgstr ""
-"Orca Slicer yêu cầu Microsoft WebView2 Runtime để vận hành một số tính năng.\n"
+"Backstage.IL yêu cầu Microsoft WebView2 Runtime để vận hành một số tính năng.\n"
 "Nhấn Yes để cài đặt ngay."
 
 msgid "WebView2 Runtime"
@@ -2379,11 +2379,11 @@ msgstr "WebView2 Runtime"
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
 "Some features, including the setup wizard, may appear blank until it is installed.\n"
-"Please install it manually from %1% and restart Orca Slicer."
+"Please install it manually from %1% and restart Backstage.IL."
 msgstr ""
 "Không thể cài đặt Microsoft WebView2 Runtime.\n"
 "Một số tính năng, bao gồm trình hướng dẫn thiết lập, có thể hiển thị trống cho đến khi nó được cài đặt.\n"
-"Vui lòng cài đặt thủ công từ %1% rồi khởi động lại Orca Slicer."
+"Vui lòng cài đặt thủ công từ %1% rồi khởi động lại Backstage.IL."
 
 #, c-format, boost-format
 msgid "Resources path does not exist or is not a directory: %s"
@@ -2405,7 +2405,7 @@ msgid "Click to download new version in default browser: %s"
 msgstr "Nhấn để tải phiên bản mới trong trình duyệt mặc định: %s"
 
 msgid "OrcaSlicer needs an update"
-msgstr "Orca Slicer cần nâng cấp"
+msgstr "Backstage.IL cần nâng cấp"
 
 msgid "This is the newest version."
 msgstr "Đây là phiên bản mới nhất."
@@ -2506,8 +2506,8 @@ msgstr "không được tạo hoặc mở file dự án trong quá trình slice!
 msgid "Open Project"
 msgstr "Mở dự án"
 
-msgid "The version of Orca Slicer is too low and needs to be updated to the latest version before it can be used normally."
-msgstr "Phiên bản Orca Slicer quá cũ và cần được cập nhật lên phiên bản mới nhất trước khi có thể sử dụng bình thường."
+msgid "The version of Backstage.IL is too low and needs to be updated to the latest version before it can be used normally."
+msgstr "Phiên bản Backstage.IL quá cũ và cần được cập nhật lên phiên bản mới nhất trước khi có thể sử dụng bình thường."
 
 # AI Translated
 msgid "Cloud sync conflict:"
@@ -2776,8 +2776,8 @@ msgstr "%s đã bị xóa."
 
 # AI Translated
 #, c-format, boost-format
-msgid "Switching Orca Slicer to language %s failed."
-msgstr "Chuyển Orca Slicer sang ngôn ngữ %s thất bại."
+msgid "Switching Backstage.IL to language %s failed."
+msgstr "Chuyển Backstage.IL sang ngôn ngữ %s thất bại."
 
 # AI Translated
 msgid ""
@@ -2792,8 +2792,8 @@ msgid "Application will close."
 msgstr "Ứng dụng sẽ đóng."
 
 # AI Translated
-msgid "Orca Slicer - Switching language failed"
-msgstr "Orca Slicer - Chuyển ngôn ngữ thất bại"
+msgid "Backstage.IL - Switching language failed"
+msgstr "Backstage.IL - Chuyển ngôn ngữ thất bại"
 
 msgid "*"
 msgstr "*"
@@ -2875,8 +2875,8 @@ msgstr "Mở"
 msgid "Rename"
 msgstr "Đổi tên"
 
-msgid "Orca Slicer GUI initialization failed"
-msgstr "Khởi tạo giao diện Orca Slicer thất bại"
+msgid "Backstage.IL GUI initialization failed"
+msgstr "Khởi tạo giao diện Backstage.IL thất bại"
 
 #, boost-format
 msgid "Fatal error, exception: %1%"
@@ -4750,14 +4750,14 @@ msgstr "Bản quyền"
 msgid "License"
 msgstr "Giấy phép"
 
-msgid "Orca Slicer is licensed under "
-msgstr "Orca Slicer được cấp phép theo "
+msgid "Backstage.IL is licensed under "
+msgstr "Backstage.IL được cấp phép theo "
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "GNU Affero General Public License, phiên bản 3"
 
-msgid "Orca Slicer is based on PrusaSlicer and BambuStudio"
-msgstr "Orca Slicer dựa trên PrusaSlicer và BambuStudio"
+msgid "Backstage.IL is based on PrusaSlicer and BambuStudio"
+msgstr "Backstage.IL dựa trên PrusaSlicer và BambuStudio"
 
 msgid "Libraries"
 msgstr "Thư viện"
@@ -8346,11 +8346,11 @@ msgstr "Đang tải công cụ camera ảo"
 
 msgid ""
 "Another virtual camera is running.\n"
-"Orca Slicer supports only a single virtual camera.\n"
+"Backstage.IL supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "Một camera ảo khác đang chạy.\n"
-"Orca Slicer chỉ hỗ trợ một camera ảo duy nhất.\n"
+"Backstage.IL chỉ hỗ trợ một camera ảo duy nhất.\n"
 "Bạn có muốn dừng camera ảo này?"
 
 #, c-format, boost-format
@@ -8466,8 +8466,8 @@ msgstr "Không thể lấy thông tin model từ máy in."
 msgid "Failed to parse model information."
 msgstr "Không thể phân tích thông tin model."
 
-msgid "The .gcode.3mf file contains no G-code data. Please slice it with Orca Slicer and export a new .gcode.3mf file."
-msgstr "File .gcode.3mf không chứa dữ liệu G-code. Vui lòng slice với Orca Slicer và xuất file .gcode.3mf mới."
+msgid "The .gcode.3mf file contains no G-code data. Please slice it with Backstage.IL and export a new .gcode.3mf file."
+msgstr "File .gcode.3mf không chứa dữ liệu G-code. Vui lòng slice với Backstage.IL và xuất file .gcode.3mf mới."
 
 #, c-format, boost-format
 msgid "File '%s' was lost! Please download it again."
@@ -9063,17 +9063,17 @@ msgstr "Phiên bản 3MF mới hơn"
 msgid "The 3MF file version is in Beta and it is newer than the current OrcaSlicer version."
 msgstr "Phiên bản file 3MF đang ở chế độ Beta và mới hơn phiên bản OrcaSlicer hiện tại."
 
-msgid "If you would like to try Orca Slicer Beta, you may click to"
-msgstr "Nếu bạn muốn dùng thử Orca Slicer Beta, bạn có thể nhấp để"
+msgid "If you would like to try Backstage.IL Beta, you may click to"
+msgstr "Nếu bạn muốn dùng thử Backstage.IL Beta, bạn có thể nhấp để"
 
 msgid "Download Beta Version"
 msgstr "Tải phiên bản Beta"
 
 msgid "The 3MF file version is newer than the current OrcaSlicer version."
-msgstr "Phiên bản file 3MF mới hơn phiên bản Orca Slicer hiện tại."
+msgstr "Phiên bản file 3MF mới hơn phiên bản Backstage.IL hiện tại."
 
 msgid "Updating your OrcaSlicer could enable all functionality in the 3MF file."
-msgstr "Cập nhật Orca Slicer của bạn có thể kích hoạt tất cả chức năng trong file 3MF."
+msgstr "Cập nhật Backstage.IL của bạn có thể kích hoạt tất cả chức năng trong file 3MF."
 
 msgid "Current Version: "
 msgstr "Phiên bản hiện tại: "
@@ -10247,10 +10247,10 @@ msgstr "Đồng bộ filament với AMS"
 # AI Translated
 msgid ""
 "There are some unknown or incompatible filaments mapped to generic preset.\n"
-"Please update Orca Slicer or restart Orca Slicer to check if there is an update to system presets."
+"Please update Backstage.IL or restart Backstage.IL to check if there is an update to system presets."
 msgstr ""
 "Có một số filament không xác định hoặc không tương thích được ánh xạ sang cài đặt sẵn chung.\n"
-"Vui lòng cập nhật Orca Slicer hoặc khởi động lại Orca Slicer để kiểm tra xem có bản cập nhật cài đặt sẵn hệ thống hay không."
+"Vui lòng cập nhật Backstage.IL hoặc khởi động lại Backstage.IL để kiểm tra xem có bản cập nhật cài đặt sẵn hệ thống hay không."
 
 # AI Translated
 msgid "Only filament color information has been synchronized from printer."
@@ -10764,8 +10764,8 @@ msgstr "chuẩn bị file 3MF..."
 msgid "Download failed; unknown file format."
 msgstr "Tải xuống thất bại, định dạng file không xác định."
 
-msgid "Importing to Orca Slicer failed. Please download the file and manually import it."
-msgstr "Nhập vào Orca Slicer thất bại. Vui lòng tải file xuống và nhập thủ công."
+msgid "Importing to Backstage.IL failed. Please download the file and manually import it."
+msgstr "Nhập vào Backstage.IL thất bại. Vui lòng tải file xuống và nhập thủ công."
 
 msgid "Downloading project..."
 msgstr "đang tải dự án xuống..."
@@ -13483,8 +13483,8 @@ msgstr "Không thể gửi tác vụ in khi đang nâng cấp"
 msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr "Máy in đã chọn không tương thích với preset máy in đã chọn."
 
-msgid "The printer is required to be on the same LAN as Orca Slicer."
-msgstr "Máy in cần phải ở cùng LAN với Orca Slicer."
+msgid "The printer is required to be on the same LAN as Backstage.IL."
+msgstr "Máy in cần phải ở cùng LAN với Backstage.IL."
 
 # AI Translated
 msgid "The printer does not support sending to printer storage."
@@ -15163,8 +15163,8 @@ msgid "Ramming line"
 msgstr "Đường ramming"
 
 # AI Translated
-msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Orca Slicer > Preferences"
-msgstr "Orca sẽ tính lại thể tích xả mỗi khi màu filament hoặc filament thay đổi. Bạn có thể tắt tính năng tự động tính trong Orca Slicer > Tùy chọn"
+msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Backstage.IL > Preferences"
+msgstr "Orca sẽ tính lại thể tích xả mỗi khi màu filament hoặc filament thay đổi. Bạn có thể tắt tính năng tự động tính trong Backstage.IL > Tùy chọn"
 
 msgid "Flushing volume (mm³) for each filament pair."
 msgstr "Khối lượng xả (mm³) cho mỗi cặp filament."
@@ -15223,12 +15223,12 @@ msgid "Custom"
 msgstr "Tùy chỉnh"
 
 # AI Translated
-msgid "Welcome to Orca Slicer"
-msgstr "Chào mừng đến với Orca Slicer"
+msgid "Welcome to Backstage.IL"
+msgstr "Chào mừng đến với Backstage.IL"
 
 # AI Translated
-msgid "Orca Slicer will be set up in several steps. Let's start!"
-msgstr "Orca Slicer sẽ được thiết lập qua vài bước. Hãy bắt đầu nào!"
+msgid "Backstage.IL will be set up in several steps. Let's start!"
+msgstr "Backstage.IL sẽ được thiết lập qua vài bước. Hãy bắt đầu nào!"
 
 # AI Translated
 msgid "Get Started"
@@ -15566,8 +15566,8 @@ msgid "Network plug-in update"
 msgstr "Cập nhật plug-in mạng"
 
 # AI Translated
-msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Orca Slicer launches."
-msgstr "Nhấn OK để cập nhật Plug-in mạng ngay bây giờ. Nếu có file đang được sử dụng, bản cập nhật sẽ được áp dụng vào lần khởi động Orca Slicer tiếp theo."
+msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Backstage.IL launches."
+msgstr "Nhấn OK để cập nhật Plug-in mạng ngay bây giờ. Nếu có file đang được sử dụng, bản cập nhật sẽ được áp dụng vào lần khởi động Backstage.IL tiếp theo."
 
 # AI Translated
 msgid "A new Network plug-in is available. Do you want to install it?"
@@ -15577,8 +15577,8 @@ msgstr "Có Plug-in mạng mới. Bạn có muốn cài đặt không?"
 msgid "A new Network plug-in (%s) is available. Do you want to install it?"
 msgstr "Có plug-in mạng mới (%s). Bạn có muốn cài đặt nó?"
 
-msgid "New version of Orca Slicer"
-msgstr "Phiên bản mới của Orca Slicer"
+msgid "New version of Backstage.IL"
+msgstr "Phiên bản mới của Backstage.IL"
 
 # AI Translated
 msgid "Check on Microsoft Store"
@@ -15611,8 +15611,8 @@ msgid "Try the following methods to update the connection parameters and reconne
 msgstr "Hãy thử các cách sau để cập nhật tham số kết nối và kết nối lại với máy in."
 
 # AI Translated
-msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
-msgstr "1. Vui lòng xác nhận Orca Slicer và máy in của bạn ở cùng một mạng LAN."
+msgid "1. Please confirm Backstage.IL and your printer are in the same LAN."
+msgstr "1. Vui lòng xác nhận Backstage.IL và máy in của bạn ở cùng một mạng LAN."
 
 # AI Translated
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
@@ -15765,7 +15765,7 @@ msgstr "Bạn có chắc chắn muốn cập nhật? Điều này sẽ mất kho
 msgid "An important update was detected and needs to be run before printing can continue. Do you want to update now? You can also update later from 'Update firmware'."
 msgstr "Phát hiện cập nhật quan trọng và cần được chạy trước khi việc in có thể tiếp tục. Bạn có muốn cập nhật ngay bây giờ? Bạn cũng có thể cập nhật sau từ 'Nâng cấp firmware'."
 
-msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Orca Slicer."
+msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Backstage.IL."
 msgstr "Phiên bản firmware bất thường. Cần sửa chữa và cập nhật trước khi in. Bạn có muốn cập nhật ngay bây giờ? Bạn cũng có thể cập nhật sau trên máy in hoặc cập nhật lần sau khi khởi động Orca."
 
 msgid "Extension Board"
@@ -16729,8 +16729,8 @@ msgid "Use 3MF instead of G-code"
 msgstr "Dùng 3MF thay cho G-code"
 
 # AI Translated
-msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
-msgstr "Bật tùy chọn này nếu máy in nhận file 3MF làm tác vụ in. Khi bật, Orca Slicer sẽ gửi file đã slice dưới dạng .gcode.3mf thay vì file .gcode thuần."
+msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Backstage.IL sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
+msgstr "Bật tùy chọn này nếu máy in nhận file 3MF làm tác vụ in. Khi bật, Backstage.IL sẽ gửi file đã slice dưới dạng .gcode.3mf thay vì file .gcode thuần."
 
 # AI Translated
 msgid "Printer Agent"
@@ -16743,8 +16743,8 @@ msgstr "Chọn cách triển khai tác nhân mạng cho việc giao tiếp với
 msgid "Hostname, IP or URL"
 msgstr "Tên máy chủ, IP hoặc URL"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
-msgstr "Orca Slicer có thể tải file G-code lên máy chủ máy in. Trường này nên chứa tên máy chủ, địa chỉ IP hoặc URL của phiên bản máy chủ máy in. Máy chủ in đằng sau HAProxy với xác thực cơ bản được bật có thể được truy cập bằng cách đặt tên người dùng và mật khẩu vào URL theo định dạng sau: https://username:password@your-octopi-address/"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
+msgstr "Backstage.IL có thể tải file G-code lên máy chủ máy in. Trường này nên chứa tên máy chủ, địa chỉ IP hoặc URL của phiên bản máy chủ máy in. Máy chủ in đằng sau HAProxy với xác thực cơ bản được bật có thể được truy cập bằng cách đặt tên người dùng và mật khẩu vào URL theo định dạng sau: https://username:password@your-octopi-address/"
 
 msgid "Device UI"
 msgstr "Giao diện thiết bị"
@@ -16755,8 +16755,8 @@ msgstr "Chỉ định URL của giao diện người dùng thiết bị nếu n�
 msgid "API Key / Password"
 msgstr "Khóa API / Mật khẩu"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
-msgstr "Orca Slicer có thể tải file G-code lên máy chủ máy in. Trường này nên chứa khóa API hoặc mật khẩu cần thiết để xác thực."
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgstr "Backstage.IL có thể tải file G-code lên máy chủ máy in. Trường này nên chứa khóa API hoặc mật khẩu cần thiết để xác thực."
 
 # AI Translated
 msgid "Serial Number"
@@ -18553,8 +18553,8 @@ msgstr "Các động tác làm mát dần dần tăng tốc bắt đầu ở t�
 msgid "Minimal purge on wipe tower"
 msgstr "Xả tối thiểu trên wipe tower"
 
-msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
-msgstr "Sau khi thay công cụ, vị trí chính xác của filament mới được nạp bên trong đầu phun có thể không được biết, và áp suất filament có thể chưa ổn định. Trước khi xả đầu in vào infill hoặc đối tượng hy sinh, Orca Slicer sẽ luôn nạp lượng vật liệu này vào wipe tower để tạo ra các đùn infill hoặc đối tượng hy sinh liên tiếp một cách đáng tin cậy."
+msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Backstage.IL will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
+msgstr "Sau khi thay công cụ, vị trí chính xác của filament mới được nạp bên trong đầu phun có thể không được biết, và áp suất filament có thể chưa ổn định. Trước khi xả đầu in vào infill hoặc đối tượng hy sinh, Backstage.IL sẽ luôn nạp lượng vật liệu này vào wipe tower để tạo ra các đùn infill hoặc đối tượng hy sinh liên tiếp một cách đáng tin cậy."
 
 # AI Translated
 msgid "Wipe tower cooling"
@@ -19848,10 +19848,10 @@ msgid "Sparse infill anchor length"
 msgstr "Độ dài neo infill thưa"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
 "Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
 msgstr ""
-"Kết nối đường infill với chu vi bên trong bằng một đoạn ngắn của chu vi bổ sung. Nếu được biểu thị dưới dạng phần trăm (ví dụ: 15%) nó được tính trên độ rộng đùn infill. Orca Slicer cố gắng kết nối hai đường infill gần với một đoạn chu vi ngắn. Nếu không tìm thấy đoạn chu vi  ngắn hơn infill_anchor_max, đường infill được kết nối với đoạn chu vi chỉ ở một phía và độ dài của đoạn chu vi được lấy bị giới hạn ở tham số này, nhưng không dài hơn anchor_length_max.\n"
+"Kết nối đường infill với chu vi bên trong bằng một đoạn ngắn của chu vi bổ sung. Nếu được biểu thị dưới dạng phần trăm (ví dụ: 15%) nó được tính trên độ rộng đùn infill. Backstage.IL cố gắng kết nối hai đường infill gần với một đoạn chu vi ngắn. Nếu không tìm thấy đoạn chu vi  ngắn hơn infill_anchor_max, đường infill được kết nối với đoạn chu vi chỉ ở một phía và độ dài của đoạn chu vi được lấy bị giới hạn ở tham số này, nhưng không dài hơn anchor_length_max.\n"
 "Đặt tham số này thành không để tắt neo chu vi được kết nối với một đường infill đơn."
 
 msgid "0 (no open anchors)"
@@ -19864,10 +19864,10 @@ msgid "Maximum length of the infill anchor"
 msgstr "Độ dài tối đa của neo infill"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
 "If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
 msgstr ""
-"Kết nối đường infill với chu vi bên trong bằng một đoạn ngắn của chu vi bổ sung. Nếu được biểu thị dưới dạng phần trăm (ví dụ: 15%) nó được tính trên độ rộng đùn infill. Orca Slicer cố gắng kết nối hai đường infill gần với một đoạn chu vi ngắn. Nếu không tìm thấy đoạn chu vi  ngắn hơn tham số này, đường infill được kết nối với đoạn chu vi chỉ ở một phía và độ dài của đoạn chu vi  được lấy bị giới hạn ở infill_anchor, nhưng không dài hơn tham số này.\n"
+"Kết nối đường infill với chu vi bên trong bằng một đoạn ngắn của chu vi bổ sung. Nếu được biểu thị dưới dạng phần trăm (ví dụ: 15%) nó được tính trên độ rộng đùn infill. Backstage.IL cố gắng kết nối hai đường infill gần với một đoạn chu vi ngắn. Nếu không tìm thấy đoạn chu vi  ngắn hơn tham số này, đường infill được kết nối với đoạn chu vi chỉ ở một phía và độ dài của đoạn chu vi  được lấy bị giới hạn ở infill_anchor, nhưng không dài hơn tham số này.\n"
 "Nếu đặt thành 0, thuật toán cũ cho kết nối infill sẽ được sử dụng, nó nên tạo ra kết quả giống như với 1000 & 0."
 
 msgid "0 (Simple connect)"
@@ -20501,8 +20501,8 @@ msgstr "Bạn có thể đặt ghi chú cá nhân ở đây. Văn bản này s�
 msgid "Host Type"
 msgstr "Loại máy chủ"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
-msgstr "Orca Slicer có thể tải file G-code lên máy chủ máy in. Trường này phải chứa loại máy chủ."
+msgid "Backstage.IL can upload G-code files to a printer host. This field must contain the kind of the host."
+msgstr "Backstage.IL có thể tải file G-code lên máy chủ máy in. Trường này phải chứa loại máy chủ."
 
 msgid "Nozzle volume"
 msgstr "Thể tích đầu phun"
@@ -20656,8 +20656,8 @@ msgstr ""
 "\n"
 "Sử dụng infill tia chớp cùng với tùy chọn này không được khuyến nghị vì có infill hạn chế để neo các chu vi bổ sung vào."
 
-msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment variables."
-msgstr "Nếu bạn muốn xử lý G-code đầu ra thông qua script tùy chỉnh, chỉ cần liệt kê đường dẫn tuyệt đối của chúng ở đây. Ngăn cách nhiều script bằng dấu chấm phẩy. Script sẽ được truyền đường dẫn tuyệt đối đến file G-code làm tham số đầu tiên, và chúng có thể truy cập cài đặt cấu hình Orca Slicer bằng cách đọc biến môi trường."
+msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Backstage.IL config settings by reading environment variables."
+msgstr "Nếu bạn muốn xử lý G-code đầu ra thông qua script tùy chỉnh, chỉ cần liệt kê đường dẫn tuyệt đối của chúng ở đây. Ngăn cách nhiều script bằng dấu chấm phẩy. Script sẽ được truyền đường dẫn tuyệt đối đến file G-code làm tham số đầu tiên, và chúng có thể truy cập cài đặt cấu hình Backstage.IL bằng cách đọc biến môi trường."
 
 # AI Translated
 msgid "Change extrusion role G-code (process)"
@@ -35605,32 +35605,32 @@ msgstr "• %1% — %2%: %3%"
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Các cài đặt sau tham chiếu đến plugin mà Orca Slicer không nhận dạng được trên máy tính này:\n"
+"Các cài đặt sau tham chiếu đến plugin mà Backstage.IL không nhận dạng được trên máy tính này:\n"
 "\n"
 "%1%\n"
 "\n"
-"Nếu vẫn lưu, cài đặt sẵn sẽ không giữ tham chiếu plugin cho các cài đặt này. Trên máy tính khác, Orca Slicer sẽ không biết cần đề xuất plugin nào, và các cài đặt có thể không hoạt động ở đó."
+"Nếu vẫn lưu, cài đặt sẵn sẽ không giữ tham chiếu plugin cho các cài đặt này. Trên máy tính khác, Backstage.IL sẽ không biết cần đề xuất plugin nào, và các cài đặt có thể không hoạt động ở đó."
 
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Các cài đặt sau tham chiếu đến plugin mà Orca Slicer không nhận dạng được trên máy tính này:\n"
+"Các cài đặt sau tham chiếu đến plugin mà Backstage.IL không nhận dạng được trên máy tính này:\n"
 "\n"
 "%1%\n"
 "\n"
-"Nếu vẫn lưu, dự án sẽ không giữ tham chiếu plugin cho các cài đặt này. Trên máy tính khác, Orca Slicer sẽ không biết cần đề xuất plugin nào, và các cài đặt có thể không hoạt động ở đó."
+"Nếu vẫn lưu, dự án sẽ không giữ tham chiếu plugin cho các cài đặt này. Trên máy tính khác, Backstage.IL sẽ không biết cần đề xuất plugin nào, và các cài đặt có thể không hoạt động ở đó."
 
 # AI Translated
 msgid "Plugin Not Identified"
@@ -35643,17 +35643,17 @@ msgstr "Vẫn lưu"
 # AI Translated
 #, boost-format
 msgid ""
-"The presets being saved refer to plugins Orca Slicer can't identify on this computer:\n"
+"The presets being saved refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Các cài đặt sẵn đang được lưu tham chiếu đến plugin mà Orca Slicer không nhận dạng được trên máy tính này:\n"
+"Các cài đặt sẵn đang được lưu tham chiếu đến plugin mà Backstage.IL không nhận dạng được trên máy tính này:\n"
 "\n"
 "%1%\n"
 "\n"
-"Nếu vẫn lưu, các cài đặt sẵn sẽ không giữ tham chiếu plugin cho các cài đặt này. Trên máy tính khác, Orca Slicer sẽ không biết cần đề xuất plugin nào, và các cài đặt có thể không hoạt động ở đó."
+"Nếu vẫn lưu, các cài đặt sẵn sẽ không giữ tham chiếu plugin cho các cài đặt này. Trên máy tính khác, Backstage.IL sẽ không biết cần đề xuất plugin nào, và các cài đặt có thể không hoạt động ở đó."
 
 # AI Translated
 msgctxt "Texture Displacement"
@@ -39742,10 +39742,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Orca Slicer offers a wide range of keyboard shortcuts and 3D scene operations?"
+"Did you know that Backstage.IL offers a wide range of keyboard shortcuts and 3D scene operations?"
 msgstr ""
 "Cách sử dụng phím tắt\n"
-"Bạn có biết rằng Orca Slicer cung cấp nhiều phím tắt và thao tác cảnh 3D không?"
+"Bạn có biết rằng Backstage.IL cung cấp nhiều phím tắt và thao tác cảnh 3D không?"
 
 # AI Translated
 #: resources/data/hints.ini: [hint:Reverse on even]
@@ -39815,10 +39815,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Search Functionality]
 msgid ""
 "Search Functionality\n"
-"Did you know that you use the Search tool to quickly find a specific Orca Slicer setting?"
+"Did you know that you use the Search tool to quickly find a specific Backstage.IL setting?"
 msgstr ""
 "Chức năng tìm kiếm\n"
-"Bạn có biết rằng bạn có thể sử dụng công cụ Tìm kiếm để nhanh chóng tìm cài đặt Orca Slicer cụ thể không?"
+"Bạn có biết rằng bạn có thể sử dụng công cụ Tìm kiếm để nhanh chóng tìm cài đặt Backstage.IL cụ thể không?"
 
 #: resources/data/hints.ini: [hint:Simplify Model]
 msgid ""
@@ -39847,20 +39847,20 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Orca Slicer."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Backstage.IL."
 msgstr ""
 "Trừ một phần\n"
-"Bạn có biết rằng bạn có thể trừ một mesh từ mesh khác bằng cách sử dụng modifier phần âm không? Theo cách đó, ví dụ, bạn có thể tạo lỗ dễ thay đổi kích thước trực tiếp trong Orca Slicer."
+"Bạn có biết rằng bạn có thể trừ một mesh từ mesh khác bằng cách sử dụng modifier phần âm không? Theo cách đó, ví dụ, bạn có thể tạo lỗ dễ thay đổi kích thước trực tiếp trong Backstage.IL."
 
 #: resources/data/hints.ini: [hint:STEP]
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Orca Slicer supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Backstage.IL supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "Bạn có biết rằng bạn có thể cải thiện chất lượng in bằng cách slice file STEP thay vì STL không?\n"
-"Orca Slicer hỗ trợ slice file STEP, cung cấp kết quả mịn hơn STL độ phân giải thấp hơn. Hãy thử nó!"
+"Backstage.IL hỗ trợ slice file STEP, cung cấp kết quả mịn hơn STL độ phân giải thấp hơn. Hãy thử nó!"
 
 #: resources/data/hints.ini: [hint:Z seam location]
 msgid ""

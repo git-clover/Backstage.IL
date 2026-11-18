@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 
-"Project-Id-Version: Orca Slicer\n"
+"Project-Id-Version: Backstage.IL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-06 11:06-0600\n"
 "PO-Revision-Date: \n"
@@ -2288,10 +2288,10 @@ msgid "A missing or damaged TLS/CA certificate in 'printer.cer' can also cause t
 msgstr "Ezt a hibát a 'printer.cer' fájlban lévő hiányzó vagy sérült TLS/CA-tanúsítvány is okozhatja."
 
 msgid ""
-"Orca Slicer requires the Microsoft WebView2 Runtime to operate certain features.\n"
+"Backstage.IL requires the Microsoft WebView2 Runtime to operate certain features.\n"
 "Click Yes to install it now."
 msgstr ""
-"Az Orca Slicer bizonyos funkciók működéséhez Microsoft WebView2 Runtime-ot igényel.\n"
+"Az Backstage.IL bizonyos funkciók működéséhez Microsoft WebView2 Runtime-ot igényel.\n"
 "Kattints az Igen gombra a telepítéshez."
 
 msgid "WebView2 Runtime"
@@ -2302,11 +2302,11 @@ msgstr "WebView2 Runtime"
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
 "Some features, including the setup wizard, may appear blank until it is installed.\n"
-"Please install it manually from %1% and restart Orca Slicer."
+"Please install it manually from %1% and restart Backstage.IL."
 msgstr ""
 "A Microsoft WebView2 Runtime telepítése nem sikerült.\n"
 "Egyes funkciók, köztük a beállítási varázsló, üresen jelenhetnek meg a telepítéséig.\n"
-"Kérlek, telepítsd kézzel innen: %1%, majd indítsd újra az Orca Slicert."
+"Kérlek, telepítsd kézzel innen: %1%, majd indítsd újra az Backstage.ILt."
 
 #, c-format, boost-format
 msgid "Resources path does not exist or is not a directory: %s"
@@ -2427,8 +2427,8 @@ msgstr "a projektfájlokkal kapcsolatos műveletek nem engedélyezettek szeleté
 msgid "Open Project"
 msgstr "Projekt megnyitása"
 
-msgid "The version of Orca Slicer is too low and needs to be updated to the latest version before it can be used normally."
-msgstr "Az Orca Slicer ezen verziója túl régi. A megfelelő működéshez frissítsd a legújabb verzióra."
+msgid "The version of Backstage.IL is too low and needs to be updated to the latest version before it can be used normally."
+msgstr "Az Backstage.IL ezen verziója túl régi. A megfelelő működéshez frissítsd a legújabb verzióra."
 
 # AI Translated
 msgid "Cloud sync conflict:"
@@ -2679,8 +2679,8 @@ msgstr "%s eltávolítva."
 
 # AI Translated
 #, c-format, boost-format
-msgid "Switching Orca Slicer to language %s failed."
-msgstr "Az Orca Slicer átváltása a következő nyelvre sikertelen: %s."
+msgid "Switching Backstage.IL to language %s failed."
+msgstr "Az Backstage.IL átváltása a következő nyelvre sikertelen: %s."
 
 # AI Translated
 msgid ""
@@ -2695,8 +2695,8 @@ msgid "Application will close."
 msgstr "Az alkalmazás bezárul."
 
 # AI Translated
-msgid "Orca Slicer - Switching language failed"
-msgstr "Orca Slicer – A nyelvváltás sikertelen"
+msgid "Backstage.IL - Switching language failed"
+msgstr "Backstage.IL – A nyelvváltás sikertelen"
 
 msgid "*"
 msgstr "*"
@@ -2778,8 +2778,8 @@ msgstr "Megnyitás"
 msgid "Rename"
 msgstr "Átnevezés"
 
-msgid "Orca Slicer GUI initialization failed"
-msgstr "Nem sikerült inicializálni az Orca Slicer grafikus felületét"
+msgid "Backstage.IL GUI initialization failed"
+msgstr "Nem sikerült inicializálni az Backstage.IL grafikus felületét"
 
 #, boost-format
 msgid "Fatal error, exception: %1%"
@@ -4565,14 +4565,14 @@ msgstr "Copyright"
 msgid "License"
 msgstr "Licenc"
 
-msgid "Orca Slicer is licensed under "
-msgstr "Az Orca Slicer a következő licencet használja "
+msgid "Backstage.IL is licensed under "
+msgstr "Az Backstage.IL a következő licencet használja "
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "GNU Affero General Public License, 3-as verzió"
 
-msgid "Orca Slicer is based on PrusaSlicer and BambuStudio"
-msgstr "Az Orca Slicer a PrusaSlicerre és a BambuStudio-ra épül"
+msgid "Backstage.IL is based on PrusaSlicer and BambuStudio"
+msgstr "Az Backstage.IL a PrusaSlicerre és a BambuStudio-ra épül"
 
 msgid "Libraries"
 msgstr "Könyvtárak"
@@ -8027,11 +8027,11 @@ msgstr "Virtuális kameraeszközök letöltése"
 
 msgid ""
 "Another virtual camera is running.\n"
-"Orca Slicer supports only a single virtual camera.\n"
+"Backstage.IL supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "Már fut egy másik virtuális kamera.\n"
-"Az Orca Slicer csak egy virtuális kamerát támogat.\n"
+"Az Backstage.IL csak egy virtuális kamerát támogat.\n"
 "Leállítod ezt a virtuális kamerát?"
 
 #, c-format, boost-format
@@ -8147,8 +8147,8 @@ msgid "Failed to parse model information."
 msgstr "Nem sikerült feldolgozni a modellinformációkat"
 
 # AI Translated
-msgid "The .gcode.3mf file contains no G-code data. Please slice it with Orca Slicer and export a new .gcode.3mf file."
-msgstr "A .gcode.3mf fájl nem tartalmaz G-code adatot. Szeleteld újra Orca Slicerrel, majd exportálj egy új .gcode.3mf fájlt."
+msgid "The .gcode.3mf file contains no G-code data. Please slice it with Backstage.IL and export a new .gcode.3mf file."
+msgstr "A .gcode.3mf fájl nem tartalmaz G-code adatot. Szeleteld újra Backstage.ILrel, majd exportálj egy új .gcode.3mf fájlt."
 
 #, c-format, boost-format
 msgid "File '%s' was lost! Please download it again."
@@ -8704,8 +8704,8 @@ msgstr "Újabb 3MF verzió"
 msgid "The 3MF file version is in Beta and it is newer than the current OrcaSlicer version."
 msgstr "A 3MF fájlverzió béta állapotú, és újabb a jelenlegi OrcaSlicer verziónál."
 
-msgid "If you would like to try Orca Slicer Beta, you may click to"
-msgstr "Ha kipróbálnád az Orca Slicer Béta verzióját, kattints ide:"
+msgid "If you would like to try Backstage.IL Beta, you may click to"
+msgstr "Ha kipróbálnád az Backstage.IL Béta verzióját, kattints ide:"
 
 msgid "Download Beta Version"
 msgstr "Béta verzió letöltése"
@@ -9852,10 +9852,10 @@ msgstr "Filamentek szinkronizálása az AMS-sel"
 
 msgid ""
 "There are some unknown or incompatible filaments mapped to generic preset.\n"
-"Please update Orca Slicer or restart Orca Slicer to check if there is an update to system presets."
+"Please update Backstage.IL or restart Backstage.IL to check if there is an update to system presets."
 msgstr ""
 "Néhány ismeretlen vagy inkompatibilis filament általános beállításhoz van rendelve.\n"
-"Frissítsd az Orca Slicert, vagy indítsd újra, hogy ellenőrizhesd a rendszerbeállítások frissítését."
+"Frissítsd az Backstage.ILt, vagy indítsd újra, hogy ellenőrizhesd a rendszerbeállítások frissítését."
 
 msgid "Only filament color information has been synchronized from printer."
 msgstr "A nyomtatóról csak a filament színadatai szinkronizálódtak."
@@ -10352,8 +10352,8 @@ msgstr "3mf fájl előkészítése..."
 msgid "Download failed; unknown file format."
 msgstr "Letöltés sikertelen, ismeretlen fájlformátum."
 
-msgid "Importing to Orca Slicer failed. Please download the file and manually import it."
-msgstr "Az Orca Slicerbe importálás sikertelen. Töltsd le a fájlt, majd importáld kézzel."
+msgid "Importing to Backstage.IL failed. Please download the file and manually import it."
+msgstr "Az Backstage.ILbe importálás sikertelen. Töltsd le a fájlt, majd importáld kézzel."
 
 msgid "Downloading project..."
 msgstr "Projekt letöltése..."
@@ -12926,8 +12926,8 @@ msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr "A nyomtató nem kompatibilis a kiválasztott nyomtatóbeállításokkal."
 
 # AI Translated
-msgid "The printer is required to be on the same LAN as Orca Slicer."
-msgstr "A nyomtatónak ugyanazon a helyi hálózaton (LAN) kell lennie, mint az Orca Slicernek."
+msgid "The printer is required to be on the same LAN as Backstage.IL."
+msgstr "A nyomtatónak ugyanazon a helyi hálózaton (LAN) kell lennie, mint az Backstage.ILnek."
 
 msgid "The printer does not support sending to printer storage."
 msgstr "A nyomtató nem támogatja a nyomtató tárhelyére küldést."
@@ -14566,8 +14566,8 @@ msgstr "Összes tömörítés"
 msgid "Ramming line"
 msgstr "Tömörítési sor"
 
-msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Orca Slicer > Preferences"
-msgstr "Az Orca újraszámolja az öblítési mennyiségeket minden alkalommal, amikor a filament színe vagy maga a filament megváltozik. Az automatikus számítást kikapcsolhatod itt: Orca Slicer > Beállítások"
+msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Backstage.IL > Preferences"
+msgstr "Az Orca újraszámolja az öblítési mennyiségeket minden alkalommal, amikor a filament színe vagy maga a filament megváltozik. Az automatikus számítást kikapcsolhatod itt: Backstage.IL > Beállítások"
 
 msgid "Flushing volume (mm³) for each filament pair."
 msgstr "Öblítési mennyiség (mm³) minden filamentpárhoz."
@@ -14624,12 +14624,12 @@ msgid "Custom"
 msgstr "Egyéni"
 
 # AI Translated
-msgid "Welcome to Orca Slicer"
-msgstr "Üdvözöl az Orca Slicer"
+msgid "Welcome to Backstage.IL"
+msgstr "Üdvözöl az Backstage.IL"
 
 # AI Translated
-msgid "Orca Slicer will be set up in several steps. Let's start!"
-msgstr "Az Orca Slicer beállítása több lépésben történik. Kezdjük!"
+msgid "Backstage.IL will be set up in several steps. Let's start!"
+msgstr "Az Backstage.IL beállítása több lépésben történik. Kezdjük!"
 
 # AI Translated
 msgid "Get Started"
@@ -14962,8 +14962,8 @@ msgid "Network plug-in update"
 msgstr "Hálózati bővítmény frissítése"
 
 # AI Translated
-msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Orca Slicer launches."
-msgstr "Kattints az OK gombra a hálózati bővítmény azonnali frissítéséhez. Ha egy fájl éppen használatban van, a frissítés az Orca Slicer következő indításakor lép életbe."
+msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Backstage.IL launches."
+msgstr "Kattints az OK gombra a hálózati bővítmény azonnali frissítéséhez. Ha egy fájl éppen használatban van, a frissítés az Backstage.IL következő indításakor lép életbe."
 
 # AI Translated
 msgid "A new Network plug-in is available. Do you want to install it?"
@@ -14973,8 +14973,8 @@ msgstr "Új hálózati bővítmény érhető el. Szeretnéd telepíteni?"
 msgid "A new Network plug-in (%s) is available. Do you want to install it?"
 msgstr "Új hálózati bővítmény (%s) érhető el. Szeretnéd telepíteni?"
 
-msgid "New version of Orca Slicer"
-msgstr "Az Orca Slicer új verziója"
+msgid "New version of Backstage.IL"
+msgstr "Az Backstage.IL új verziója"
 
 # AI Translated
 msgid "Check on Microsoft Store"
@@ -15004,8 +15004,8 @@ msgstr "Nyomtató csatlakoztatása IP-címmel és hozzáférési kóddal"
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr "Próbáld meg a következő módszereket a kapcsolati paraméterek frissítéséhez és a nyomtatóhoz való újracsatlakozáshoz."
 
-msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
-msgstr "1. Kérlek, ellenőrizd, hogy az Orca Slicer és a nyomtató ugyanazon a helyi hálózaton van."
+msgid "1. Please confirm Backstage.IL and your printer are in the same LAN."
+msgstr "1. Kérlek, ellenőrizd, hogy az Backstage.IL és a nyomtató ugyanazon a helyi hálózaton van."
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
 msgstr "2. Ha az alábbi IP-cím és hozzáférési kód eltér a nyomtatón látható valós értékektől, javítsd ki őket."
@@ -15148,8 +15148,8 @@ msgid "An important update was detected and needs to be run before printing can 
 msgstr "Fontos frissítést találtunk, amelyet a nyomtatás előtt telepíteni kell. Szeretnél most frissíteni? A frissítés később is elvégezhető a \"Firmware frissítése\" menüpontban."
 
 # AI Translated
-msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Orca Slicer."
-msgstr "A firmware-verzió hibás. Nyomtatás előtt javítani és frissíteni kell. Szeretnéd most frissíteni? Ezt később a nyomtatón vagy az Orca Slicer következő indításakor is megteheted."
+msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Backstage.IL."
+msgstr "A firmware-verzió hibás. Nyomtatás előtt javítani és frissíteni kell. Szeretnéd most frissíteni? Ezt később a nyomtatón vagy az Backstage.IL következő indításakor is megteheted."
 
 msgid "Extension Board"
 msgstr "Bővítőpanel"
@@ -16106,8 +16106,8 @@ msgid "Use 3MF instead of G-code"
 msgstr "3MF használata G-code helyett"
 
 # AI Translated
-msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
-msgstr "Kapcsold be, ha a nyomtató 3MF fájlt fogad el nyomtatási feladatként. Bekapcsolva az Orca Slicer a szeletelt fájlt .gcode.3mf formátumban küldi el egyszerű .gcode fájl helyett."
+msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Backstage.IL sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
+msgstr "Kapcsold be, ha a nyomtató 3MF fájlt fogad el nyomtatási feladatként. Bekapcsolva az Backstage.IL a szeletelt fájlt .gcode.3mf formátumban küldi el egyszerű .gcode fájl helyett."
 
 msgid "Printer Agent"
 msgstr "Nyomtatóügynök"
@@ -16119,8 +16119,8 @@ msgid "Hostname, IP or URL"
 msgstr "Gazdagépnév, IP vagy URL"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
-msgstr "Az Orca Slicer képes G-code fájlokat feltölteni a nyomtatóra. Ennek a mezőnek a nyomtató gazdagépnevét, IP-címét vagy URL-címét kell tartalmaznia. A HAProxy mögött lévő nyomtató alapszintű hitelesítéssel érhető el, ha a felhasználónevet és a jelszót a következő formátumban írod az URL-be: https://username:password@your-octopi-address/"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
+msgstr "Az Backstage.IL képes G-code fájlokat feltölteni a nyomtatóra. Ennek a mezőnek a nyomtató gazdagépnevét, IP-címét vagy URL-címét kell tartalmaznia. A HAProxy mögött lévő nyomtató alapszintű hitelesítéssel érhető el, ha a felhasználónevet és a jelszót a következő formátumban írod az URL-be: https://username:password@your-octopi-address/"
 
 msgid "Device UI"
 msgstr "Eszköz UI"
@@ -16132,8 +16132,8 @@ msgid "API Key / Password"
 msgstr "API kulcs / jelszó"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
-msgstr "Az Orca Slicer képes G-code fájlokat feltölteni a nyomtatóra. Ennek a mezőnek a hitelesítéshez szükséges API-kulcsot vagy jelszót kell tartalmaznia."
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgstr "Az Backstage.IL képes G-code fájlokat feltölteni a nyomtatóra. Ennek a mezőnek a hitelesítéshez szükséges API-kulcsot vagy jelszót kell tartalmaznia."
 
 # AI Translated
 msgid "Serial Number"
@@ -17894,8 +17894,8 @@ msgstr "A hűtési lépések fokozatosan felgyorsulnak ettől a sebességtől ke
 msgid "Minimal purge on wipe tower"
 msgstr "Minimális öblítés a törlőtoronyban"
 
-msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
-msgstr "Szerszámváltás után az újonnan betöltött filament pontos helyzete a fúvókában nem feltétlenül ismert, és a filament nyomása valószínűleg még nem stabil. Mielőtt a nyomtatófej egy kitöltésbe vagy áldozati objektumba ürítene, az Orca Slicer ezt az anyagmennyiséget mindig először a törlőtoronyba extrudálja, hogy a későbbi kitöltési vagy áldozati objektum extrudálások megbízhatóan történjenek."
+msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Backstage.IL will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
+msgstr "Szerszámváltás után az újonnan betöltött filament pontos helyzete a fúvókában nem feltétlenül ismert, és a filament nyomása valószínűleg még nem stabil. Mielőtt a nyomtatófej egy kitöltésbe vagy áldozati objektumba ürítene, az Backstage.IL ezt az anyagmennyiséget mindig először a törlőtoronyba extrudálja, hogy a későbbi kitöltési vagy áldozati objektum extrudálások megbízhatóan történjenek."
 
 msgid "Wipe tower cooling"
 msgstr "Törlőtorony hűtése"
@@ -19157,10 +19157,10 @@ msgid "Sparse infill anchor length"
 msgstr "Kitöltés horgonyhossza"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
 "Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
 msgstr ""
-"A kitöltési vonalat egy további rövid kerületszakasszal kapcsolja a belső kerülethez. Ha százalékban van megadva (például: 15%), a kitöltési extrudálási szélesség alapján lesz kiszámítva. Az Orca Slicer megpróbál két közeli kitöltési vonalat egy rövid kerületszakaszhoz kapcsolni. Ha nem talál az infill_anchor_max értéknél rövidebb ilyen kerületszakaszt, akkor a kitöltési vonal csak az egyik oldalon kapcsolódik egy kerületszakaszhoz, és az igénybe vett kerületszakasz hossza erre a paraméterre lesz korlátozva, de nem lehet hosszabb, mint az anchor_length_max.\n"
+"A kitöltési vonalat egy további rövid kerületszakasszal kapcsolja a belső kerülethez. Ha százalékban van megadva (például: 15%), a kitöltési extrudálási szélesség alapján lesz kiszámítva. Az Backstage.IL megpróbál két közeli kitöltési vonalat egy rövid kerületszakaszhoz kapcsolni. Ha nem talál az infill_anchor_max értéknél rövidebb ilyen kerületszakaszt, akkor a kitöltési vonal csak az egyik oldalon kapcsolódik egy kerületszakaszhoz, és az igénybe vett kerületszakasz hossza erre a paraméterre lesz korlátozva, de nem lehet hosszabb, mint az anchor_length_max.\n"
 "Állítsd ezt a paramétert 0-ra az egyetlen kitöltési vonalhoz kapcsolódó horgonyzó kerületek kikapcsolásához."
 
 msgid "0 (no open anchors)"
@@ -19173,10 +19173,10 @@ msgid "Maximum length of the infill anchor"
 msgstr "A kitöltőhorgony maximális hossza"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
 "If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
 msgstr ""
-"Egy kitöltési vonalat egy további rövid kerületszakasszal kapcsol a belső kerülethez. Ha százalékban van megadva (például 15%), akkor a kitöltés extrudálási szélessége alapján kerül kiszámításra. Az Orca Slicer megpróbál két közeli kitöltési vonalat egy rövid kerületszakaszhoz kapcsolni. Ha nem talál ennél a paraméternél rövidebb ilyen kerületszakaszt, akkor a kitöltési vonal csak az egyik oldalon kapcsolódik egy kerületszakaszhoz, és a felhasznált kerületszakasz hossza az infill_anchor értékre lesz korlátozva, de ennél a paraméternél nem lehet hosszabb.\n"
+"Egy kitöltési vonalat egy további rövid kerületszakasszal kapcsol a belső kerülethez. Ha százalékban van megadva (például 15%), akkor a kitöltés extrudálási szélessége alapján kerül kiszámításra. Az Backstage.IL megpróbál két közeli kitöltési vonalat egy rövid kerületszakaszhoz kapcsolni. Ha nem talál ennél a paraméternél rövidebb ilyen kerületszakaszt, akkor a kitöltési vonal csak az egyik oldalon kapcsolódik egy kerületszakaszhoz, és a felhasznált kerületszakasz hossza az infill_anchor értékre lesz korlátozva, de ennél a paraméternél nem lehet hosszabb.\n"
 "Ha 0-ra állítod, a régi kitöltéskapcsolási algoritmus lesz használva, amely ugyanazt az eredményt adja, mint az 1000 és 0 értékek kombinációja."
 
 msgid "0 (Simple connect)"
@@ -19789,8 +19789,8 @@ msgid "Host Type"
 msgstr "Host típusa"
 
 # AI Translated
-msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
-msgstr "Az Orca Slicer képes G-code fájlokat feltölteni a nyomtatóra. Ennek a mezőnek a gazdagép típusát kell tartalmaznia."
+msgid "Backstage.IL can upload G-code files to a printer host. This field must contain the kind of the host."
+msgstr "Az Backstage.IL képes G-code fájlokat feltölteni a nyomtatóra. Ennek a mezőnek a gazdagép típusát kell tartalmaznia."
 
 msgid "Nozzle volume"
 msgstr "Fúvóka térfogata"
@@ -19945,8 +19945,8 @@ msgstr ""
 "A villám kitöltés használata ezzel az opcióval együtt nem ajánlott, mert korlátozott mennyiségű kitöltés áll rendelkezésre az extra kerületek rögzítéséhez."
 
 # AI Translated
-msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment variables."
-msgstr "Ha az elkészült G-code-ot egyedi szkriptekkel szeretnéd feldolgozni, itt add meg azok abszolút elérési útját. Több szkriptet pontosvesszővel válassz el. A szkriptek első argumentumként megkapják a G-code fájl abszolút elérési útját, és a környezeti változók olvasásával hozzáférhetnek az Orca Slicer konfigurációs beállításaihoz."
+msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Backstage.IL config settings by reading environment variables."
+msgstr "Ha az elkészült G-code-ot egyedi szkriptekkel szeretnéd feldolgozni, itt add meg azok abszolút elérési útját. Több szkriptet pontosvesszővel válassz el. A szkriptek első argumentumként megkapják a G-code fájl abszolút elérési útját, és a környezeti változók olvasásával hozzáférhetnek az Backstage.IL konfigurációs beállításaihoz."
 
 # AI Translated
 msgid "Change extrusion role G-code (process)"
@@ -19954,7 +19954,7 @@ msgstr "Extrudálási szerepkör G-code módosítása (folyamat)"
 
 # AI Translated
 msgid "This G-code is inserted when the extrusion role is changed. It runs after the machine and filament extrusion role G-code."
-msgstr "Az Orca Slicer az extrudálási szerep megváltozásakor illeszti be ezt a G-code-ot. A gép és a filament extrudálási szerepéhez tartozó G-code után fut le."
+msgstr "Az Backstage.IL az extrudálási szerep megváltozásakor illeszti be ezt a G-code-ot. A gép és a filament extrudálási szerepéhez tartozó G-code után fut le."
 
 # AI Translated
 msgid "Plugins Used"
@@ -21446,11 +21446,11 @@ msgstr "Felismeri azokat a vékony falakat, amelyekben nem fér el két vonal, �
 
 # AI Translated
 msgid "This G-code is inserted when filament is changed, including T commands to trigger tool change."
-msgstr "Az Orca Slicer filamentcserekor illeszti be ezt a G-code-ot, beleértve a szerszámváltást indító T parancsokat is."
+msgstr "Az Backstage.IL filamentcserekor illeszti be ezt a G-code-ot, beleértve a szerszámváltást indító T parancsokat is."
 
 # AI Translated
 msgid "This G-code is inserted when the extrusion role is changed."
-msgstr "Az Orca Slicer az extrudálási szerep megváltozásakor illeszti be ezt a G-code-ot."
+msgstr "Az Backstage.IL az extrudálási szerep megváltozásakor illeszti be ezt a G-code-ot."
 
 # AI Translated
 msgid "Change extrusion role G-code (filament)"
@@ -21458,7 +21458,7 @@ msgstr "Az extrudálási szerep G-code-jának módosítása (filament)"
 
 # AI Translated
 msgid "This G-code is inserted when the extrusion role is changed for the active filament."
-msgstr "Az Orca Slicer akkor illeszti be ezt a G-code-ot, amikor megváltozik az aktív filament extrudálási szerepe."
+msgstr "Az Backstage.IL akkor illeszti be ezt a G-code-ot, amikor megváltozik az aktív filament extrudálási szerepe."
 
 msgid "Line width for top surfaces. If expressed as a %, it will be computed over the nozzle diameter."
 msgstr "A felső felületek vonalszélessége. Ha %-ban van megadva, a rendszer a fúvóka átmérője alapján számítja ki."
@@ -34786,32 +34786,32 @@ msgstr "• %1% – %2%: %3%"
 # Needs human review: 'Beállítás' renders both the preset (glossary) and the settings it holds; check the sentence reads unambiguously.
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Az alábbi beállítások olyan bővítményekre hivatkoznak, amelyeket az Orca Slicer nem tud azonosítani ezen a számítógépen:\n"
+"Az alábbi beállítások olyan bővítményekre hivatkoznak, amelyeket az Backstage.IL nem tud azonosítani ezen a számítógépen:\n"
 "\n"
 "%1%\n"
 "\n"
-"Ha mégis mented, a mentett beállítás nem őrzi meg ezeknek a beállításoknak a bővítményhivatkozásait. Egy másik számítógépen az Orca Slicer nem fogja tudni, mely bővítményeket ajánlja fel, és előfordulhat, hogy a beállítások ott nem működnek."
+"Ha mégis mented, a mentett beállítás nem őrzi meg ezeknek a beállításoknak a bővítményhivatkozásait. Egy másik számítógépen az Backstage.IL nem fogja tudni, mely bővítményeket ajánlja fel, és előfordulhat, hogy a beállítások ott nem működnek."
 
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"Az alábbi beállítások olyan bővítményekre hivatkoznak, amelyeket az Orca Slicer nem tud azonosítani ezen a számítógépen:\n"
+"Az alábbi beállítások olyan bővítményekre hivatkoznak, amelyeket az Backstage.IL nem tud azonosítani ezen a számítógépen:\n"
 "\n"
 "%1%\n"
 "\n"
-"Ha mégis mented, a projekt nem őrzi meg ezeknek a beállításoknak a bővítményhivatkozásait. Egy másik számítógépen az Orca Slicer nem fogja tudni, mely bővítményeket ajánlja fel, és előfordulhat, hogy a beállítások ott nem működnek."
+"Ha mégis mented, a projekt nem őrzi meg ezeknek a beállításoknak a bővítményhivatkozásait. Egy másik számítógépen az Backstage.IL nem fogja tudni, mely bővítményeket ajánlja fel, és előfordulhat, hogy a beállítások ott nem működnek."
 
 # AI Translated
 msgid "Plugin Not Identified"
@@ -34825,17 +34825,17 @@ msgstr "Mentés mindenképp"
 # Needs human review: 'Beállítás' renders both the presets (glossary) and the settings they hold; check the sentence reads unambiguously.
 #, boost-format
 msgid ""
-"The presets being saved refer to plugins Orca Slicer can't identify on this computer:\n"
+"The presets being saved refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"A mentendő beállítások olyan bővítményekre hivatkoznak, amelyeket az Orca Slicer nem tud azonosítani ezen a számítógépen:\n"
+"A mentendő beállítások olyan bővítményekre hivatkoznak, amelyeket az Backstage.IL nem tud azonosítani ezen a számítógépen:\n"
 "\n"
 "%1%\n"
 "\n"
-"Ha mégis mented őket, nem őrzik meg a felsorolt beállítások bővítményhivatkozásait. Egy másik számítógépen az Orca Slicer nem fogja tudni, mely bővítményeket ajánlja fel, és előfordulhat, hogy a beállítások ott nem működnek."
+"Ha mégis mented őket, nem őrzik meg a felsorolt beállítások bővítményhivatkozásait. Egy másik számítógépen az Backstage.IL nem fogja tudni, mely bővítményeket ajánlja fel, és előfordulhat, hogy a beállítások ott nem működnek."
 
 # AI Translated
 msgctxt "Texture Displacement"
@@ -38976,10 +38976,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Orca Slicer offers a wide range of keyboard shortcuts and 3D scene operations?"
+"Did you know that Backstage.IL offers a wide range of keyboard shortcuts and 3D scene operations?"
 msgstr ""
 "Billentyűparancsok használata\n"
-"Tudtad, hogy az Orca Slicer számos billentyűparancsot és 3D jelenetműveletet kínál?"
+"Tudtad, hogy az Backstage.IL számos billentyűparancsot és 3D jelenetműveletet kínál?"
 
 #: resources/data/hints.ini: [hint:Reverse on even]
 msgid ""
@@ -39048,10 +39048,10 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Search Functionality]
 msgid ""
 "Search Functionality\n"
-"Did you know that you use the Search tool to quickly find a specific Orca Slicer setting?"
+"Did you know that you use the Search tool to quickly find a specific Backstage.IL setting?"
 msgstr ""
 "Keresési funkció\n"
-"Tudtad, hogy a Keresés eszközzel gyorsan megtalálhatsz egy adott Orca Slicer beállítást?"
+"Tudtad, hogy a Keresés eszközzel gyorsan megtalálhatsz egy adott Backstage.IL beállítást?"
 
 #: resources/data/hints.ini: [hint:Simplify Model]
 msgid ""
@@ -39080,20 +39080,20 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Orca Slicer."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Backstage.IL."
 msgstr ""
 "Alkatrész kivonása\n"
-"Tudtad, hogy a Negatív alkatrész módosítóval kivonhatsz egy hálót egy másikból? Így például könnyen átméretezhető lyukakat hozhatsz létre közvetlenül az Orca Slicerben."
+"Tudtad, hogy a Negatív alkatrész módosítóval kivonhatsz egy hálót egy másikból? Így például könnyen átméretezhető lyukakat hozhatsz létre közvetlenül az Backstage.ILben."
 
 #: resources/data/hints.ini: [hint:STEP]
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Orca Slicer supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Backstage.IL supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "Tudtad, hogy javíthatod a nyomtatási minőséget, ha STL helyett STEP fájlt szeletelsz?\n"
-"Az Orca Slicer támogatja a STEP fájlok szeletelését, és simább eredményt ad, mint egy alacsonyabb felbontású STL. Próbáld ki!"
+"Az Backstage.IL támogatja a STEP fájlok szeletelését, és simább eredményt ad, mint egy alacsonyabb felbontású STL. Próbáld ki!"
 
 #: resources/data/hints.ini: [hint:Z seam location]
 msgid ""

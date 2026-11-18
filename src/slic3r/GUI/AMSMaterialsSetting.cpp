@@ -223,7 +223,7 @@ void AMSMaterialsSetting::create()
 
     m_sizer_button->Add(0, 0, 1, wxEXPAND, 0);
 
-    // Orca: link to the Orca Slicer pressure-advance wiki (region-agnostic).
+    // Orca: link to the Backstage.IL pressure-advance wiki (region-agnostic).
     m_wiki_ctrl = new Button(this, "", "toolbar_wiki", 0, 15);
     auto wiki_url = "https://www.orcaslicer.com/wiki/pressure_advance_calib";
     m_wiki_ctrl->SetToolTip(_L("Wiki Guide") + "\n" + wiki_url);

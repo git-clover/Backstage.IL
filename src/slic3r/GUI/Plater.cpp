@@ -6475,7 +6475,7 @@ void Sidebar::sync_ams_list(bool is_from_big_sync_btn)
     wxGetApp().app_config ->set("ams_filament_ids", p->ams_list_device, ams_filament_ids);
     if (!unknowns.empty()) {
         MessageDialog dlg(this,
-            _L("There are some unknown or incompatible filaments mapped to generic preset.\nPlease update Orca Slicer or restart Orca Slicer to check if there is an update to system presets.") + detail,
+            _L("There are some unknown or incompatible filaments mapped to generic preset.\nPlease update Backstage.IL or restart Backstage.IL to check if there is an update to system presets.") + detail,
             _L("Sync filaments with AMS"), wxOK);
         dlg.ShowModal();
     }
@@ -15950,7 +15950,7 @@ void Plater::priv::bring_instance_forward() const
         BOOST_LOG_TRIVIAL(debug) << "Couldnt bring instance forward - mainframe is null";
         return;
     }
-    BOOST_LOG_TRIVIAL(debug) << "Orca Slicer window going forward";
+    BOOST_LOG_TRIVIAL(debug) << "Backstage.IL window going forward";
     //this code maximize app window on Fedora
     {
         main_frame->Iconize(false);
@@ -16831,7 +16831,7 @@ void Plater::import_model_id(wxString download_info)
             unused_filename.clear();
         }
         if (unused_filename.empty()) {
-            msg = _L("Importing to Orca Slicer failed. Please download the file and manually import it.");
+            msg = _L("Importing to Backstage.IL failed. Please download the file and manually import it.");
             return;
         }
         filename = from_u8(unused_filename);
@@ -16890,7 +16890,7 @@ void Plater::import_model_id(wxString download_info)
                         error);
 
                     if (retry_count == max_retries) {
-                        msg = _L("Importing to Orca Slicer failed. Please download the file and manually import it.");
+                        msg = _L("Importing to Backstage.IL failed. Please download the file and manually import it.");
                         cont = false;
                     }
                 })
@@ -16913,7 +16913,7 @@ void Plater::import_model_id(wxString download_info)
                         }
                         boost::system::error_code ec;
                         fs::remove(tmp_path, ec);
-                        msg = _L("Importing to Orca Slicer failed. Please download the file and manually import it.");
+                        msg = _L("Importing to Backstage.IL failed. Please download the file and manually import it.");
                 }).perform_sync();
 
                 // for break while

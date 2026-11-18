@@ -18,7 +18,7 @@ TEST_CASE("A file URL keeps characters special to URLs in its path", "[FileUrl]"
     const std::string path = GENERATE(as<std::string>{},
         "/opt/test#dir/resources/web/homepage/index.html",
         "/opt/test%20x/resources/web/homepage/index.html",
-        "/opt/Orca Slicer/resources/web/homepage/index.html",
+        "/opt/Backstage.IL/resources/web/homepage/index.html",
         "/opt/what?/resources/web/homepage/index.html",
         "/home/Jos\xC3\xA9/\xE8\xB5\x84\xE6\xBA\x90/resources/web/homepage/index.html");
 

@@ -2122,7 +2122,7 @@ msgid "A missing or damaged TLS/CA certificate in 'printer.cer' can also cause t
 msgstr ""
 
 msgid ""
-"Orca Slicer requires the Microsoft WebView2 Runtime to operate certain features.\n"
+"Backstage.IL requires the Microsoft WebView2 Runtime to operate certain features.\n"
 "Click Yes to install it now."
 msgstr ""
 
@@ -2133,7 +2133,7 @@ msgstr ""
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
 "Some features, including the setup wizard, may appear blank until it is installed.\n"
-"Please install it manually from %1% and restart Orca Slicer."
+"Please install it manually from %1% and restart Backstage.IL."
 msgstr ""
 
 #, possible-c-format, possible-boost-format
@@ -2242,7 +2242,7 @@ msgstr ""
 msgid "Open Project"
 msgstr ""
 
-msgid "The version of Orca Slicer is too low and needs to be updated to the latest version before it can be used normally."
+msgid "The version of Backstage.IL is too low and needs to be updated to the latest version before it can be used normally."
 msgstr ""
 
 msgid "Cloud sync conflict:"
@@ -2435,7 +2435,7 @@ msgid "%s has been removed."
 msgstr ""
 
 #, possible-c-format, possible-boost-format
-msgid "Switching Orca Slicer to language %s failed."
+msgid "Switching Backstage.IL to language %s failed."
 msgstr ""
 
 msgid ""
@@ -2446,7 +2446,7 @@ msgstr ""
 msgid "Application will close."
 msgstr ""
 
-msgid "Orca Slicer - Switching language failed"
+msgid "Backstage.IL - Switching language failed"
 msgstr ""
 
 msgid "*"
@@ -2519,7 +2519,7 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-msgid "Orca Slicer GUI initialization failed"
+msgid "Backstage.IL GUI initialization failed"
 msgstr ""
 
 #, possible-boost-format
@@ -4174,13 +4174,13 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-msgid "Orca Slicer is licensed under "
+msgid "Backstage.IL is licensed under "
 msgstr ""
 
 msgid "GNU Affero General Public License, version 3"
 msgstr ""
 
-msgid "Orca Slicer is based on PrusaSlicer and BambuStudio"
+msgid "Backstage.IL is based on PrusaSlicer and BambuStudio"
 msgstr ""
 
 msgid "Libraries"
@@ -7259,7 +7259,7 @@ msgstr ""
 
 msgid ""
 "Another virtual camera is running.\n"
-"Orca Slicer supports only a single virtual camera.\n"
+"Backstage.IL supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 
@@ -7373,7 +7373,7 @@ msgstr ""
 msgid "Failed to parse model information."
 msgstr ""
 
-msgid "The .gcode.3mf file contains no G-code data. Please slice it with Orca Slicer and export a new .gcode.3mf file."
+msgid "The .gcode.3mf file contains no G-code data. Please slice it with Backstage.IL and export a new .gcode.3mf file."
 msgstr ""
 
 #, possible-c-format, possible-boost-format
@@ -7896,7 +7896,7 @@ msgstr ""
 msgid "The 3MF file version is in Beta and it is newer than the current OrcaSlicer version."
 msgstr ""
 
-msgid "If you would like to try Orca Slicer Beta, you may click to"
+msgid "If you would like to try Backstage.IL Beta, you may click to"
 msgstr ""
 
 msgid "Download Beta Version"
@@ -8874,7 +8874,7 @@ msgstr ""
 
 msgid ""
 "There are some unknown or incompatible filaments mapped to generic preset.\n"
-"Please update Orca Slicer or restart Orca Slicer to check if there is an update to system presets."
+"Please update Backstage.IL or restart Backstage.IL to check if there is an update to system presets."
 msgstr ""
 
 msgid "Only filament color information has been synchronized from printer."
@@ -9310,7 +9310,7 @@ msgstr ""
 msgid "Download failed; unknown file format."
 msgstr ""
 
-msgid "Importing to Orca Slicer failed. Please download the file and manually import it."
+msgid "Importing to Backstage.IL failed. Please download the file and manually import it."
 msgstr ""
 
 msgid "Downloading project..."
@@ -11511,7 +11511,7 @@ msgstr ""
 msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr ""
 
-msgid "The printer is required to be on the same LAN as Orca Slicer."
+msgid "The printer is required to be on the same LAN as Backstage.IL."
 msgstr ""
 
 msgid "The printer does not support sending to printer storage."
@@ -12938,7 +12938,7 @@ msgstr ""
 msgid "Ramming line"
 msgstr ""
 
-msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Orca Slicer > Preferences"
+msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Backstage.IL > Preferences"
 msgstr ""
 
 msgid "Flushing volume (mm³) for each filament pair."
@@ -12991,10 +12991,10 @@ msgctxt "Printer vendor"
 msgid "Custom"
 msgstr ""
 
-msgid "Welcome to Orca Slicer"
+msgid "Welcome to Backstage.IL"
 msgstr ""
 
-msgid "Orca Slicer will be set up in several steps. Let's start!"
+msgid "Backstage.IL will be set up in several steps. Let's start!"
 msgstr ""
 
 msgid "Get Started"
@@ -13268,7 +13268,7 @@ msgstr ""
 msgid "Network plug-in update"
 msgstr ""
 
-msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Orca Slicer launches."
+msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Backstage.IL launches."
 msgstr ""
 
 msgid "A new Network plug-in is available. Do you want to install it?"
@@ -13278,7 +13278,7 @@ msgstr ""
 msgid "A new Network plug-in (%s) is available. Do you want to install it?"
 msgstr ""
 
-msgid "New version of Orca Slicer"
+msgid "New version of Backstage.IL"
 msgstr ""
 
 msgid "Check on Microsoft Store"
@@ -13306,7 +13306,7 @@ msgstr ""
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr ""
 
-msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
+msgid "1. Please confirm Backstage.IL and your printer are in the same LAN."
 msgstr ""
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
@@ -13444,7 +13444,7 @@ msgstr ""
 msgid "An important update was detected and needs to be run before printing can continue. Do you want to update now? You can also update later from 'Update firmware'."
 msgstr ""
 
-msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Orca Slicer."
+msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Backstage.IL."
 msgstr ""
 
 msgid "Extension Board"
@@ -14253,7 +14253,7 @@ msgstr ""
 msgid "Use 3MF instead of G-code"
 msgstr ""
 
-msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
+msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Backstage.IL sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
 msgstr ""
 
 msgid "Printer Agent"
@@ -14265,7 +14265,7 @@ msgstr ""
 msgid "Hostname, IP or URL"
 msgstr ""
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
 msgstr ""
 
 msgid "Device UI"
@@ -14277,7 +14277,7 @@ msgstr ""
 msgid "API Key / Password"
 msgstr ""
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
 msgstr ""
 
 msgid "Serial Number"
@@ -15669,7 +15669,7 @@ msgstr ""
 msgid "Minimal purge on wipe tower"
 msgstr ""
 
-msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
+msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Backstage.IL will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
 msgstr ""
 
 msgid "Wipe tower cooling"
@@ -16742,7 +16742,7 @@ msgid "Sparse infill anchor length"
 msgstr ""
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
 "Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
 msgstr ""
 
@@ -16756,7 +16756,7 @@ msgid "Maximum length of the infill anchor"
 msgstr ""
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
 "If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
 msgstr ""
 
@@ -17290,7 +17290,7 @@ msgstr ""
 msgid "Host Type"
 msgstr ""
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
+msgid "Backstage.IL can upload G-code files to a printer host. This field must contain the kind of the host."
 msgstr ""
 
 msgid "Nozzle volume"
@@ -17423,7 +17423,7 @@ msgid ""
 "Using lightning infill together with this option is not recommended as there is limited infill to anchor the extra perimeters to."
 msgstr ""
 
-msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment variables."
+msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Backstage.IL config settings by reading environment variables."
 msgstr ""
 
 msgid "Change extrusion role G-code (process)"
@@ -29396,20 +29396,20 @@ msgstr ""
 
 #, possible-boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
 
 #, possible-boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
 
 msgid "Plugin Not Identified"
@@ -29420,11 +29420,11 @@ msgstr ""
 
 #, possible-boost-format
 msgid ""
-"The presets being saved refer to plugins Orca Slicer can't identify on this computer:\n"
+"The presets being saved refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
 
 msgctxt "Texture Displacement"
@@ -32509,7 +32509,7 @@ msgid "Switch workspaces\nYou can switch between <b>Prepare</b> and <b>Preview</
 msgstr ""
 
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
-msgid "How to use keyboard shortcuts\nDid you know that Orca Slicer offers a wide range of keyboard shortcuts and 3D scene operations?"
+msgid "How to use keyboard shortcuts\nDid you know that Backstage.IL offers a wide range of keyboard shortcuts and 3D scene operations?"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Reverse on even]
@@ -32545,7 +32545,7 @@ msgid "Object List\nDid you know that you can view all objects/parts in a list a
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Search Functionality]
-msgid "Search Functionality\nDid you know that you use the Search tool to quickly find a specific Orca Slicer setting?"
+msgid "Search Functionality\nDid you know that you use the Search tool to quickly find a specific Backstage.IL setting?"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Simplify Model]
@@ -32561,11 +32561,11 @@ msgid "Split to Objects/Parts\nDid you know that you can split a big object into
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Subtract a Part]
-msgid "Subtract a Part\nDid you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Orca Slicer."
+msgid "Subtract a Part\nDid you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Backstage.IL."
 msgstr ""
 
 #: resources/data/hints.ini: [hint:STEP]
-msgid "STEP\nDid you know that you can improve your print quality by slicing a STEP file instead of an STL?\nOrca Slicer supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+msgid "STEP\nDid you know that you can improve your print quality by slicing a STEP file instead of an STL?\nBackstage.IL supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 
 #: resources/data/hints.ini: [hint:Z seam location]

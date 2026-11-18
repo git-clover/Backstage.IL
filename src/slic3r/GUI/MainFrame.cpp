@@ -2246,7 +2246,7 @@ std::vector<MainFrame::PrintSelectType> MainFrame::available_print_actions() con
         return actions;
     }
 
-    // Orca Slicer actions
+    // Backstage.IL actions
     bool support_send      = true;
     bool support_print_all = true;
     if (preset_bundle && !preset_bundle->use_bbl_network() && !use_printer_agents) {

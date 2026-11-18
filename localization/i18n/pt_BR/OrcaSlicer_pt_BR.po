@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Orca Slicer\n"
+"Project-Id-Version: Backstage.IL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-06 11:06-0600\n"
 "PO-Revision-Date: 2026-10-30 19:59-0300\n"
@@ -2158,7 +2158,7 @@ msgid "A missing or damaged TLS/CA certificate in 'printer.cer' can also cause t
 msgstr "Um certificado TLS/CA ausente ou danificado em 'printer.cer' também pode causar este erro."
 
 msgid ""
-"Orca Slicer requires the Microsoft WebView2 Runtime to operate certain features.\n"
+"Backstage.IL requires the Microsoft WebView2 Runtime to operate certain features.\n"
 "Click Yes to install it now."
 msgstr ""
 "O OrcaSlicer requer o Microsoft WebView2 Runtime para operar determinados recursos.\n"
@@ -2171,7 +2171,7 @@ msgstr "Tempo de execução WebView2"
 msgid ""
 "The Microsoft WebView2 Runtime could not be installed.\n"
 "Some features, including the setup wizard, may appear blank until it is installed.\n"
-"Please install it manually from %1% and restart Orca Slicer."
+"Please install it manually from %1% and restart Backstage.IL."
 msgstr ""
 "Não foi possível instalar o Microsoft WebView2 Runtime.\n"
 "Alguns recursos, incluindo o assistente de configuração, podem aparecer em branco até que ele seja instalado.\n"
@@ -2288,7 +2288,7 @@ msgstr "criar ou abrir um arquivo de projeto novo não é permitido durante o pr
 msgid "Open Project"
 msgstr "Abrir Projeto"
 
-msgid "The version of Orca Slicer is too low and needs to be updated to the latest version before it can be used normally."
+msgid "The version of Backstage.IL is too low and needs to be updated to the latest version before it can be used normally."
 msgstr "Esta versão do OrcaSlicer é muito antiga e precisa ser atualizada para a versão mais recente antes de poder ser usada normalmente."
 
 msgid "Cloud sync conflict:"
@@ -2514,7 +2514,7 @@ msgid "%s has been removed."
 msgstr "%s foi removido."
 
 #, c-format, boost-format
-msgid "Switching Orca Slicer to language %s failed."
+msgid "Switching Backstage.IL to language %s failed."
 msgstr "Falha ao mudar o idioma do OrcaSlicer para %s."
 
 msgid ""
@@ -2527,7 +2527,7 @@ msgstr ""
 msgid "Application will close."
 msgstr "O aplicativo será fechado."
 
-msgid "Orca Slicer - Switching language failed"
+msgid "Backstage.IL - Switching language failed"
 msgstr "OrcaSlicer - Falha ao mudar o idioma"
 
 msgid "*"
@@ -2602,7 +2602,7 @@ msgstr "Abrir"
 msgid "Rename"
 msgstr "Renomear"
 
-msgid "Orca Slicer GUI initialization failed"
+msgid "Backstage.IL GUI initialization failed"
 msgstr "Falha na inicialização da interface do OrcaSlicer"
 
 #, boost-format
@@ -4276,13 +4276,13 @@ msgstr "Direitos autorais"
 msgid "License"
 msgstr "Licença"
 
-msgid "Orca Slicer is licensed under "
+msgid "Backstage.IL is licensed under "
 msgstr "O OrcaSlicer é licenciado sob "
 
 msgid "GNU Affero General Public License, version 3"
 msgstr "Licença Pública Geral Affero GNU, versão 3"
 
-msgid "Orca Slicer is based on PrusaSlicer and BambuStudio"
+msgid "Backstage.IL is based on PrusaSlicer and BambuStudio"
 msgstr "O OrcaSlicer é baseado no PrusaSlicer e Bambu Studio"
 
 msgid "Libraries"
@@ -7596,7 +7596,7 @@ msgstr "Baixando Ferramentas de Câmera Virtual"
 
 msgid ""
 "Another virtual camera is running.\n"
-"Orca Slicer supports only a single virtual camera.\n"
+"Backstage.IL supports only a single virtual camera.\n"
 "Do you want to stop this virtual camera?"
 msgstr ""
 "Outra câmera virtual está em execução.\n"
@@ -7713,7 +7713,7 @@ msgstr "Falha ao obter informação do modelo da impressora."
 msgid "Failed to parse model information."
 msgstr "Falha ao processar a informação do modelo."
 
-msgid "The .gcode.3mf file contains no G-code data. Please slice it with Orca Slicer and export a new .gcode.3mf file."
+msgid "The .gcode.3mf file contains no G-code data. Please slice it with Backstage.IL and export a new .gcode.3mf file."
 msgstr "O arquivo .gcode.3mf não contém dados de G-code. Por favor, fatie com OrcaSlicer e exporte um novo arquivo .gcode.3mf."
 
 #, c-format, boost-format
@@ -8253,7 +8253,7 @@ msgstr "Nova versão 3MF"
 msgid "The 3MF file version is in Beta and it is newer than the current OrcaSlicer version."
 msgstr "A versão do arquivo 3MF está em Beta e é mais nova do que a versão atual do OrcaSlicer."
 
-msgid "If you would like to try Orca Slicer Beta, you may click to"
+msgid "If you would like to try Backstage.IL Beta, you may click to"
 msgstr "Se você gostaria de testar o OrcaSlicer Beta, clique para"
 
 msgid "Download Beta Version"
@@ -9256,7 +9256,7 @@ msgstr "Sincronizar filamentos com AMS"
 
 msgid ""
 "There are some unknown or incompatible filaments mapped to generic preset.\n"
-"Please update Orca Slicer or restart Orca Slicer to check if there is an update to system presets."
+"Please update Backstage.IL or restart Backstage.IL to check if there is an update to system presets."
 msgstr ""
 "Existem alguns filamentos desconhecidos ou incompatíveis mapeados para predefinições genéricas.\n"
 "Atualize ou reinicie o OrcaSlicer para verificar se há alguma atualização para as predefinições do sistema."
@@ -9721,7 +9721,7 @@ msgstr "Preparando o arquivo 3MF…"
 msgid "Download failed; unknown file format."
 msgstr "Baixar falhou, formato de arquivo desconhecido."
 
-msgid "Importing to Orca Slicer failed. Please download the file and manually import it."
+msgid "Importing to Backstage.IL failed. Please download the file and manually import it."
 msgstr "A importação para o OrcaSlicer falhou. Por favor, baixe o arquivo e importe manualmente."
 
 msgid "Downloading project..."
@@ -12071,7 +12071,7 @@ msgstr "Não é possível enviar tarefas de impressão quando uma atualização 
 msgid "The selected printer is incompatible with the chosen printer presets."
 msgstr "A impressora selecionada é incompatível com as predefinições de impressora escolhidas."
 
-msgid "The printer is required to be on the same LAN as Orca Slicer."
+msgid "The printer is required to be on the same LAN as Backstage.IL."
 msgstr "A impressora deve estar na mesma LAN do OrcaSlicer."
 
 msgid "The printer does not support sending to printer storage."
@@ -13646,7 +13646,7 @@ msgstr "Moldeamento total"
 msgid "Ramming line"
 msgstr "Linha de moldeamento"
 
-msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Orca Slicer > Preferences"
+msgid "Orca would re-calculate your flushing volumes everytime the filaments color changed or filaments changed. You could disable the auto-calculate in Backstage.IL > Preferences"
 msgstr "O Orca recalculará seus volumes de purga toda vez que a cor dos filamentos ou os filamentos forem alterados. Você pode desativar o cálculo automático em OrcaSlicer > Preferências"
 
 msgid "Flushing volume (mm³) for each filament pair."
@@ -13701,10 +13701,10 @@ msgctxt "Printer vendor"
 msgid "Custom"
 msgstr "Personalizado"
 
-msgid "Welcome to Orca Slicer"
+msgid "Welcome to Backstage.IL"
 msgstr "Bem-vindo ao OrcaSlicer"
 
-msgid "Orca Slicer will be set up in several steps. Let's start!"
+msgid "Backstage.IL will be set up in several steps. Let's start!"
 msgstr "O OrcaSlicer será configurado em várias etapas. Vamos começar!"
 
 msgid "Get Started"
@@ -13993,7 +13993,7 @@ msgstr "informações de atualização da versão %s:"
 msgid "Network plug-in update"
 msgstr "Atualização do plug-in de rede"
 
-msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Orca Slicer launches."
+msgid "Click OK to update the Network plug-in now. If a file is in use, the update will be applied the next time Backstage.IL launches."
 msgstr "Clique em OK para atualizar o plug-in de Rede agora. Se um arquivo estiver em uso, a atualização será aplicada na próxima vez que o OrcaSlicer for iniciado."
 
 msgid "A new Network plug-in is available. Do you want to install it?"
@@ -14003,7 +14003,7 @@ msgstr "Um novo plug-in de Rede está disponível. Deseja instalá-lo?"
 msgid "A new Network plug-in (%s) is available. Do you want to install it?"
 msgstr "Um novo plug-in de rede (%s) está disponível, deseja instalá-lo?"
 
-msgid "New version of Orca Slicer"
+msgid "New version of Backstage.IL"
 msgstr "Nova versão do OrcaSlicer"
 
 msgid "Check on Microsoft Store"
@@ -14031,8 +14031,8 @@ msgstr "Conecte a impressora usando IP e código de acesso"
 msgid "Try the following methods to update the connection parameters and reconnect to the printer."
 msgstr "Tente os seguintes métodos para atualizar os parâmetros de conexão e reconectar à impressora."
 
-msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
-msgstr "1. Confirme se o Orca Slicer e sua impressora estão na mesma rede local."
+msgid "1. Please confirm Backstage.IL and your printer are in the same LAN."
+msgstr "1. Confirme se o Backstage.IL e sua impressora estão na mesma rede local."
 
 msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
 msgstr "2. Se o IP e o Código de Acesso abaixo forem diferentes dos valores reais da sua impressora, corrija-os."
@@ -14169,7 +14169,7 @@ msgstr "Tem certeza de que deseja atualizar? Isso levará cerca de 10 minutos. N
 msgid "An important update was detected and needs to be run before printing can continue. Do you want to update now? You can also update later from 'Update firmware'."
 msgstr "Uma atualização importante foi detectada e precisa ser executada antes que a impressão possa continuar. Deseja atualizar agora? Você também pode atualizar posteriormente em 'Atualizar firmware'."
 
-msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Orca Slicer."
+msgid "The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on the printer or update next time you start Backstage.IL."
 msgstr "A versão do firmware está anormal. Reparar e atualizar é necessário antes de imprimir. Você deseja atualizar agora? Você também pode atualizar mais tarde na impressora ou atualizar da próxima vez que iniciar o OrcaSlicer."
 
 msgid "Extension Board"
@@ -15088,7 +15088,7 @@ msgstr "Permitir o controle da impressora BambuLab por meio de hosts de impress�
 msgid "Use 3MF instead of G-code"
 msgstr "Usar 3MF em vez de G-code"
 
-msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Orca Slicer sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
+msgid "Enable this if the printer accepts a 3MF file as the print job. When enabled, Backstage.IL sends the sliced file as a .gcode.3mf, instead of a plain .gcode file."
 msgstr "Ative esta opção se a impressora aceitar um arquivo 3MF como trabalho de impressão. Quando ativada, o OrcaSlicer envia o arquivo fatiado como .gcode.3mf, em vez de um arquivo .gcode comum."
 
 msgid "Printer Agent"
@@ -15100,7 +15100,7 @@ msgstr "Selecione a implementação do agente de rede para comunicação com a i
 msgid "Hostname, IP or URL"
 msgstr "Nome do host, IP ou URL"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://username:password@your-octopi-address/"
 msgstr "O OrcaSlicer pode enviar arquivos G-code para um host de impressora. Este campo deve conter o nome do host, o endereço IP ou a URL da instância do host de impressora. O host de impressão atrás do HAProxy com autenticação básica ativada pode ser acessado colocando o nome de usuário e senha na URL no seguinte formato: https://username:password@your-octopi-address/"
 
 msgid "Device UI"
@@ -15112,7 +15112,7 @@ msgstr "Especifique a URL da interface do usuário do seu dispositivo se não fo
 msgid "API Key / Password"
 msgstr "Chave da API / Senha"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgid "Backstage.IL can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
 msgstr "O OrcaSlicer pode enviar arquivos G-code para um host de impressora. Este campo deve conter a Chave da API ou a senha necessária para autenticação."
 
 msgid "Serial Number"
@@ -16814,7 +16814,7 @@ msgstr "Os movimentos de resfriamento estão gradualmente acelerando a partir de
 msgid "Minimal purge on wipe tower"
 msgstr "Purga mínima na torre de purga"
 
-msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
+msgid "After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet stable. Before purging the print head into an infill or a sacrificial object, Backstage.IL will always prime this amount of material into the wipe tower to produce successive infill or sacrificial object extrusions reliably."
 msgstr "Após uma troca de ferramenta, a posição exata do filamento recém-carregado dentro do bico pode não ser conhecida, e a pressão do filamento provavelmente ainda não está estável. Antes de purgar a cabeça de impressão em um preenchimento ou em um objeto de sacrifício, o OrcaSlicer sempre preparará essa quantidade de material na torre de purga para produzir extrusões sucessivas de preenchimento ou de objeto de sacrifício de forma confiável."
 
 msgid "Wipe tower cooling"
@@ -18019,7 +18019,7 @@ msgid "Sparse infill anchor length"
 msgstr "Comprimento da âncora de preenchimento esparso"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to this parameter, but no longer than anchor_length_max.\n"
 "Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
 msgstr ""
 "Conecte uma linha de preenchimento a um perímetro interno com um segmento curto de um perímetro adicional. Se expresso como porcentagem (exemplo: 15%), é calculado sobre a largura de extrusão do preenchimento. O OrcaSlicer tenta conectar duas linhas de preenchimento próximas a um segmento curto de perímetro. Se nenhum segmento de perímetro mais curto que infill_anchor_max for encontrado, a linha de preenchimento é conectada a um segmento de perímetro em apenas um lado e o comprimento do segmento de perímetro tomado é limitado a este parâmetro, mas não mais do que anchor_length_max.\n"
@@ -18035,7 +18035,7 @@ msgid "Maximum length of the infill anchor"
 msgstr "Comprimento máximo da âncora de preenchimento"
 
 msgid ""
-"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is calculated over infill extrusion width. Backstage.IL tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken is limited to infill_anchor, but no longer than this parameter.\n"
 "If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
 msgstr ""
 "Conecte uma linha de preenchimento a um perímetro interno com um segmento curto de um perímetro adicional. Se expresso como porcentagem (exemplo: 15%), é calculado sobre a largura de extrusão do preenchimento. O OrcaSlicer tenta conectar duas linhas de preenchimento próximas a um segmento curto de perímetro. Se nenhum segmento de perímetro mais curto que este parâmetro for encontrado, a linha de preenchimento é conectada a um segmento de perímetro em apenas um lado e o comprimento do segmento de perímetro tomado é limitado a infill_anchor, mas não mais do que este parâmetro.\n"
@@ -18629,7 +18629,7 @@ msgstr "Você pode colocar aqui suas notas pessoais. Este texto será adicionado
 msgid "Host Type"
 msgstr "Tipo de Host"
 
-msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
+msgid "Backstage.IL can upload G-code files to a printer host. This field must contain the kind of the host."
 msgstr "O OrcaSlicer pode carregar arquivos de G-code para um hospedeiro de impressora. Este campo deve conter o tipo de hospedeiro."
 
 msgid "Nozzle volume"
@@ -18778,7 +18778,7 @@ msgstr ""
 "\n"
 "Não é recomendado usar o preenchimento relâmpago junto com esta opção, pois há preenchimento limitado para ancorar os perímetros extras."
 
-msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment variables."
+msgid "If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts will be passed the absolute path to the G-code file as the first argument, and they can access the Backstage.IL config settings by reading environment variables."
 msgstr "Se você deseja processar o G-code de saída por meio de scripts personalizados, basta listar seus caminhos absolutos aqui. Separe vários scripts com um ponto e vírgula. Os scripts receberão o caminho absoluto para o arquivo G-code como primeiro argumento, e eles podem acessar as configurações do OrcaSlicer lendo variáveis de ambiente."
 
 msgid "Change extrusion role G-code (process)"
@@ -32947,32 +32947,32 @@ msgstr "• %1% — %2%: %3%"
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the preset won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"As configurações a seguir fazem referência a plugins que o Orca Slicer não consegue identificar neste computador:\n"
+"As configurações a seguir fazem referência a plugins que o Backstage.IL não consegue identificar neste computador:\n"
 "\n"
 "%1%\n"
 "\n"
-"Se você salvar mesmo assim, a predefinição não manterá as referências a plugins dessas configurações. Em outro computador, o Orca Slicer não saberá quais plugins oferecer, e as configurações podem não funcionar lá."
+"Se você salvar mesmo assim, a predefinição não manterá as referências a plugins dessas configurações. Em outro computador, o Backstage.IL não saberá quais plugins oferecer, e as configurações podem não funcionar lá."
 
 # AI Translated
 #, boost-format
 msgid ""
-"The following settings refer to plugins Orca Slicer can't identify on this computer:\n"
+"The following settings refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the project won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"As configurações a seguir fazem referência a plugins que o Orca Slicer não consegue identificar neste computador:\n"
+"As configurações a seguir fazem referência a plugins que o Backstage.IL não consegue identificar neste computador:\n"
 "\n"
 "%1%\n"
 "\n"
-"Se você salvar mesmo assim, o projeto não manterá as referências a plugins dessas configurações. Em outro computador, o Orca Slicer não saberá quais plugins oferecer, e as configurações podem não funcionar lá."
+"Se você salvar mesmo assim, o projeto não manterá as referências a plugins dessas configurações. Em outro computador, o Backstage.IL não saberá quais plugins oferecer, e as configurações podem não funcionar lá."
 
 # AI Translated
 msgid "Plugin Not Identified"
@@ -32985,17 +32985,17 @@ msgstr "Salvar mesmo assim"
 # AI Translated
 #, boost-format
 msgid ""
-"The presets being saved refer to plugins Orca Slicer can't identify on this computer:\n"
+"The presets being saved refer to plugins Backstage.IL can't identify on this computer:\n"
 "\n"
 "%1%\n"
 "\n"
-"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Orca Slicer won't know which plugins to offer, and the settings may not work there."
+"If you save anyway, the presets won't keep the plugin references for these settings. On another computer, Backstage.IL won't know which plugins to offer, and the settings may not work there."
 msgstr ""
-"As predefinições que estão sendo salvas fazem referência a plugins que o Orca Slicer não consegue identificar neste computador:\n"
+"As predefinições que estão sendo salvas fazem referência a plugins que o Backstage.IL não consegue identificar neste computador:\n"
 "\n"
 "%1%\n"
 "\n"
-"Se você salvar mesmo assim, as predefinições não manterão as referências a plugins dessas configurações. Em outro computador, o Orca Slicer não saberá quais plugins oferecer, e as configurações podem não funcionar lá."
+"Se você salvar mesmo assim, as predefinições não manterão as referências a plugins dessas configurações. Em outro computador, o Backstage.IL não saberá quais plugins oferecer, e as configurações podem não funcionar lá."
 
 msgctxt "Texture Displacement"
 msgid "Bake"
@@ -36850,7 +36850,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:How to use keyboard shortcuts]
 msgid ""
 "How to use keyboard shortcuts\n"
-"Did you know that Orca Slicer offers a wide range of keyboard shortcuts and 3D scene operations?"
+"Did you know that Backstage.IL offers a wide range of keyboard shortcuts and 3D scene operations?"
 msgstr ""
 "Como usar atalhos de teclado\n"
 "Você sabia que o OrcaSlicer oferece uma ampla gama de atalhos de teclado e operações de cena 3D?"
@@ -36922,7 +36922,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Search Functionality]
 msgid ""
 "Search Functionality\n"
-"Did you know that you use the Search tool to quickly find a specific Orca Slicer setting?"
+"Did you know that you use the Search tool to quickly find a specific Backstage.IL setting?"
 msgstr ""
 "Funcionalidade de Busca\n"
 "Você sabia que pode usar a ferramenta de busca para encontrar rapidamente uma configuração específica do OrcaSlicer?"
@@ -36954,7 +36954,7 @@ msgstr ""
 #: resources/data/hints.ini: [hint:Subtract a Part]
 msgid ""
 "Subtract a Part\n"
-"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Orca Slicer."
+"Did you know that you can subtract one mesh from another using the Negative part modifier? That way you can, for example, create easily resizable holes directly in Backstage.IL."
 msgstr ""
 "Subtrair uma Peça\n"
 "Você sabia que pode subtrair uma malha da outra usando o modificador de peça negativa? Dessa forma, você pode, por exemplo, criar facilmente furos redimensionáveis diretamente no OrcaSlicer."
@@ -36963,7 +36963,7 @@ msgstr ""
 msgid ""
 "STEP\n"
 "Did you know that you can improve your print quality by slicing a STEP file instead of an STL?\n"
-"Orca Slicer supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
+"Backstage.IL supports slicing STEP files, providing smoother results than a lower resolution STL. Give it a try!"
 msgstr ""
 "STEP\n"
 "Você sabia que pode melhorar a qualidade da impressão fatiando um arquivo STEP ao invés de um STL?\n"
