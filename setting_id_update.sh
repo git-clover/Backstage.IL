@@ -7,7 +7,7 @@ directory=$3
 # MIGRATION IN PROGRESS! Only rg-grep remains for further conversion
 
 fileCOUNT0=$(rg "\"setting_id\": \"[^\"]*\"" -g "!resources/profiles/BBL/" -l resources/profiles/"$directory" | wc -l)
-fileCOUNT1=$(rg "\"setting_id\": \"[^ mm]*mm[^\"]*\"" -g "!resources/profiles/BBL/" -l resources/profiles/"$directory" | wc -l)
+fileCOUNT1=$(rg "\"setting_id\": \"[^ mm]* mm[^\"]*\"" -g "!resources/profiles/BBL/" -l resources/profiles/"$directory" | wc -l)
 currentPOS=0
 
 # MAIN-LOOP
@@ -35,7 +35,7 @@ if [ $execute = 1001485 ]; then
 		fi
 		done
 elif [ $execute = '1001485R' ]; then
-	rg "\"setting_id\": \"[^mm]*mm[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
+	rg "\"setting_id\": \"[^ mm]* mm[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
 		echo $p3
 		if [ $bsd = 'bsd' ]; then
 			(( currentPOS++ ))
