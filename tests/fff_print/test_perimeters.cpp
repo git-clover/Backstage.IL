@@ -395,7 +395,7 @@ TEST_CASE("Only one wall on top surfaces keeps the top fill off inner walls that
 }
 
 // Arachne cuts its inner walls at the top surface instead of dropping them, so the walls under the posts stay. Each
-// post sits on two outer sides of the base, each carrying both inner walls of wall_loops 3: 4 x 2 x 2 x 10mm, of
+// post sits on two outer sides of the base, each carrying both inner walls of wall_loops 3: 4 x 2 x 2 x 10 mm, of
 // which the cut at the inner sides of the posts may take some, but not half.
 TEST_CASE("Only one wall on top surfaces keeps the Arachne inner walls under the geometry that keeps rising", "[Perimeters]")
 {
