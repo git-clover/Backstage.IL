@@ -446,8 +446,8 @@ TEST_CASE("The tower is sized for the thinnest layer any object on the plate is 
 
     // One purge at 0.1 mm: 100 / (0.1 * 50) = 20 mm, above the 20 mm-tall tower's stability
     // floor. At the preset's 0.2 mm it would be half that, so the two are easy to tell apart.
-    const float floor_20 mm = WipeTower::get_limit_depth_by_height(20.f);
-    REQUIRE(floor_20 mm < 10.f);
+    const float floor_20_mm = WipeTower::get_limit_depth_by_height(20.f);
+    REQUIRE(floor_20_mm < 10.f);
     CHECK_THAT(print.wipe_tower_data(2).depth, Catch::Matchers::WithinAbs(20., 1e-4));
 }
 

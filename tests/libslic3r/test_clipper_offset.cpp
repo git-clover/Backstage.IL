@@ -64,7 +64,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 					output = Slic3r::variable_offset_outer(box_20_mm, { deltas_plus }, miter);
 #ifdef TESTS_EXPORT_SVGS
 					{
-						SVG svg(debug_out_path("variable_offset_box_20_mm_plus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+						SVG svg(debug_out_path("variable_offset-box_20_mm-plus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 						svg.draw(box_20_mm, "blue");
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}
@@ -78,7 +78,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 					output = Slic3r::variable_offset_inner(box_20_mm, { deltas_minus }, miter);
 #ifdef TESTS_EXPORT_SVGS
 					{
-						SVG svg(debug_out_path("variable_offset_box_20_mm_minus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+						SVG svg(debug_out_path("variable_offset-box_20_mm-minus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 						svg.draw(box_20_mm, "blue");
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}
@@ -106,7 +106,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						output = Slic3r::offset_ex(box_20_mm, 1. * s, jtMiter, miter);
 #ifdef TESTS_EXPORT_SVGS
 						{
-							SVG svg(debug_out_path("constant_offset_box_20_mm_10 mm_hole_plus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+							SVG svg(debug_out_path("constant_offset-box_20_mm-10_mm_hole-plus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 							svg.draw(box_20_mm, "blue");
 							svg.draw_outline(to_polygons(output), "black", coord_t(scale_(0.01)));
 						}
@@ -120,7 +120,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						output = Slic3r::offset_ex(box_20_mm, - 1. * s, jtMiter, miter);
 #ifdef TESTS_EXPORT_SVGS
 						{
-							SVG svg(debug_out_path("constant_offset_box_20_mm_10 mm_hole_minus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+							SVG svg(debug_out_path("constant_offset-box_20_mm-10_mm_hole-minus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 							svg.draw(box_20_mm, "blue");
 							svg.draw_outline(to_polygons(output), "black", coord_t(scale_(0.01)));
 						}
@@ -140,7 +140,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						output = Slic3r::variable_offset_outer_ex(box_20_mm, { deltas_plus, deltas_plus }, miter);
 #ifdef TESTS_EXPORT_SVGS
 						{
-							SVG svg(debug_out_path("variable_offset_box_20_mm_10 mm_hole_plus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+							SVG svg(debug_out_path("variable_offset-box_20_mm-10_mm_hole-plus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 							svg.draw(box_20_mm, "blue");
 							svg.draw_outline(to_polygons(output), "black", coord_t(scale_(0.01)));
 						}
@@ -154,7 +154,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 						output = Slic3r::variable_offset_inner_ex(box_20_mm, { deltas_minus, deltas_minus }, miter);
 #ifdef TESTS_EXPORT_SVGS
 						{
-							SVG svg(debug_out_path("variable_offset_box_20_mm_10 mm_hole_minus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+							SVG svg(debug_out_path("variable_offset-box_20_mm-10_mm_hole-minus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 							svg.draw(box_20_mm, "blue");
 							svg.draw_outline(to_polygons(output), "black", coord_t(scale_(0.01)));
 						}
@@ -205,7 +205,7 @@ SCENARIO("Constant offset", "[ClipperUtils]") {
 					output = Slic3r::variable_offset_outer(triangle_20_mm, { deltas }, 2.0);
 #ifdef TESTS_EXPORT_SVGS
 					{
-						SVG svg(debug_out_path("variable_offset_triangle_20_mm_plus_1_mm_miter%lf.svg", miter).c_str(), get_extents(output));
+						SVG svg(debug_out_path("variable_offset-triangle_20_mm-plus_1_mm-miter%lf.svg", miter).c_str(), get_extents(output));
 						svg.draw(triangle_20_mm, "blue");
 						svg.draw_outline(output, "black", coord_t(scale_(0.01)));
 					}

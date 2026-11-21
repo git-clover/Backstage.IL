@@ -786,7 +786,7 @@ TEST_CASE("Exported overhang outer walls get the seams of outer walls", "[GCodeP
     INFO("seam slope " << seam_slope);
     Print print;
     Model model;
-    Test::init_print({ Test::TestMesh::sphere_50 mm }, print, model,
+    Test::init_print({ Test::TestMesh::sphere_50_mm }, print, model,
                      { { "detect_overhang_wall", true }, { "layer_height", 0.4 }, { "initial_layer_print_height", 0.4 },
                        { "wall_loops", 1 }, { "sparse_infill_density", "0%" }, { "top_shell_layers", 0 }, { "bottom_shell_layers", 0 },
                        { "skirt_loops", 0 }, { "brim_type", "no_brim" }, { "seam_slope_type", seam_slope }, { "seam_gap", "10%" },
@@ -814,7 +814,7 @@ TEST_CASE("Inner walls of an exported sphere are not tagged", "[GCodeProcessor][
     // A single island per layer has one outer wall, so one seam at most per layer.
     Print print;
     Model model;
-    Test::init_print({ Test::TestMesh::sphere_50 mm }, print, model,
+    Test::init_print({ Test::TestMesh::sphere_50_mm }, print, model,
                      { { "detect_overhang_wall", true }, { "layer_height", 0.4 }, { "initial_layer_print_height", 0.4 },
                        { "wall_loops", 2 }, { "sparse_infill_density", "0%" }, { "top_shell_layers", 0 }, { "bottom_shell_layers", 0 } });
     GCodeProcessorResult result;

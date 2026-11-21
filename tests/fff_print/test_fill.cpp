@@ -2090,7 +2090,7 @@ TEST_CASE("Multiline adaptive cubic infill keeps its lines apart without closing
     CAPTURE(pattern, multiline);
 
     // A sphere refines the octree all around, so the finer lines end on the coarser ones at every layer.
-    TriangleMesh sphere = Slic3r::Test::mesh(Slic3r::Test::TestMesh::sphere_50 mm);
+    TriangleMesh sphere = Slic3r::Test::mesh(Slic3r::Test::TestMesh::sphere_50_mm);
     sphere.scale(0.3f);
     Print print;
     Slic3r::Test::init_and_process_print({sphere}, print,
