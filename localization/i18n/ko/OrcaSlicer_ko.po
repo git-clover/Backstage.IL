@@ -8689,7 +8689,7 @@ msgstr "나중에"
 
 #, c-format, boost-format
 msgid "%s error"
-msgstr "%s 에러"
+msgstr "%s 오류"
 
 #, c-format, boost-format
 msgid "%s has encountered an error"
