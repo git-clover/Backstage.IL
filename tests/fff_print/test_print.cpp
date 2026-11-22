@@ -3528,7 +3528,7 @@ namespace {
 std::vector<TriangleMesh> distinct_objects()
 {
     std::vector<TriangleMesh> meshes;
-    for (TestMesh m : { TestMesh::cube_with_hole, TestMesh::pyramid, TestMesh::sphere_50mm, TestMesh::overhang })
+    for (TestMesh m : { TestMesh::cube_with_hole, TestMesh::pyramid, TestMesh::sphere_50_mm, TestMesh::overhang })
         meshes.emplace_back(Test::mesh(m));
     return meshes;
 }
