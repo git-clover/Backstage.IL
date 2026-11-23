@@ -24,7 +24,7 @@ on:
 
 jobs:
   build_orca:
-    name: Build OrcaSlicer
+    name: Build Backstage.IL
     runs-on: ${{ inputs.os }}
     env:
       date:
@@ -803,8 +803,8 @@ jobs:
           # -P ships the system preset caches into the package before the AppImage is packed from it.
           ./build_linux.sh -istrlLP
           ./scripts/check_appimage_libs.sh ./build/package ./build/package/bin/orca-slicer
-          appimage=./build/OrcaSlicer_Linux_AppImage${{ env.ubuntu-ver-str }}${{ env.arch_suffix }}_${{ env.ver }}.AppImage
-          mv -n ./build/OrcaSlicer_Linux_V${{ env.ver_pure }}.AppImage "$appimage"
+          appimage=./build/Backstage.IL_ubuntu${{ env.ubuntu-ver-str }}${{ env.arch_suffix }}_${{ env.ver }}.AppImage
+          mv -n ./build/Backstage.IL_v${{ env.ver_pure }}.AppImage "$appimage"
           chmod +x "$appimage"
           # CMakeFiles holds only object files and precompiled headers, which ctest never reads.
           tar -cf build_tests.tar --exclude='*/CMakeFiles' build/tests
@@ -864,14 +864,14 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: Backstage.IL_ubuntu${{ env.ubuntu-ver }}${{ env.arch_suffix }}_${{ env.ver }}
-          path: "./build/OrcaSlicer_Linux_AppImage${{ env.ubuntu-ver-str }}${{ env.arch_suffix }}_${{ env.ver }}.AppImage"
+          path: "./build/Backstage.IL_ubuntu${{ env.ubuntu-ver-str }}${{ env.arch_suffix }}_${{ env.ver }}.AppImage"
 
       - name: Upload OrcaSlicer_profile_validator Ubuntu
         if: ${{ ! env.ACT && runner.os == 'Linux' && !vars.SELF_HOSTED && inputs.arch != 'aarch64' }}
         uses: actions/upload-artifact@v7
         with:
-          name: OrcaSlicer_profile_validator_Linux_ubuntu_${{ env.ubuntu-ver }}_${{ env.ver }}
-          path: './build/src/Release/OrcaSlicer_profile_validator'
+          name: Backstage.IL_profile_validator_Linux_ubuntu_${{ env.ubuntu-ver }}_${{ env.ver }}
+          path: './build/src/Release/Backstage.IL_profile_validator'
 
       # generate_system_cache is what scripts/build_preset_cache.sh bakes the
       # <vendor>.opc caches with; build_linux.sh -P already built it to ship the
