@@ -116,6 +116,8 @@ void Label::initSysFont()
         wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/HarmonyOS_Sans_SC_Regular.ttf"));
         wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/Pretendard-Regular.ttf"));
         wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/Pretendard-ExtraBold.ttf"));
+        wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/Sarabun-Medium.ttf"));
+        wxFont::AddPrivateFont(wxString::FromUTF8(resource_path + "/fonts/Sarabun-SemiBold.ttf"));
     }
 #endif
     Head_48 = Label::sysFont(48, true);
