@@ -804,7 +804,8 @@ jobs:
           ./build_linux.sh -istrlLP
           ./scripts/check_appimage_libs.sh ./build/package ./build/package/bin/orca-slicer
           appimage=./build/Backstage.IL_ubuntu${{ env.ubuntu-ver-str }}${{ env.arch_suffix }}_${{ env.ver }}.AppImage
-          mv -n ./build/Backstage.IL_${{ env.arch_suffix }}.AppImage "$appimage"
+          mv -n ./build/Backstage.IL-$(uname -m).AppImage "$appimage"
+          # Please don't tell me this works
           chmod +x "$appimage"
           # CMakeFiles holds only object files and precompiled headers, which ctest never reads.
           tar -cf build_tests.tar --exclude='*/CMakeFiles' build/tests
