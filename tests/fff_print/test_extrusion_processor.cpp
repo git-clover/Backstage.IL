@@ -349,7 +349,7 @@ double cooled_length(const std::vector<ExtendedPoint<2>>& points, float fan_over
 }
 
 // The overhang settings of these tests, on top of `config`, which gives the printer and its filaments. They set one
-// 0.4mm nozzle: a test on more nozzles sets nozzle_diameter again.
+// 0.4 mm nozzle: a test on more nozzles sets nozzle_diameter again.
 DynamicPrintConfig caged_overhang_config(const char* wall_generator,
                                          DynamicPrintConfig config = DynamicPrintConfig::full_print_config()){
     config.set_deserialize_strict({
@@ -772,8 +772,8 @@ TEST_CASE("Walls are slowed for the curled edges of the layer below them whichev
     Layer *layer = object->add_layer(2, 0.2, 0.6, 0.5);
     below->lower_layer = stale;
     layer->lower_layer = below;
-    // The 0.4mm wide wall runs 0.2mm inside the edge of the layer below, so it is fully supported, but along an edge
-    // that curled up 1mm. The stale layer ends 0.8mm short of the wall and has no curled edges: measured against it,
+    // The 0.4 mm wide wall runs 0.2 mm inside the edge of the layer below, so it is fully supported, but along an edge
+    // that curled up 1 mm. The stale layer ends 0.8 mm short of the wall and has no curled edges: measured against it,
     // the wall would be a full overhang.
     below->lslices      = {ExPolygon(Polygon{Point::new_scale(0, 0), Point::new_scale(40, 0),
                                              Point::new_scale(40, 10), Point::new_scale(0, 10)})};
@@ -790,12 +790,12 @@ TEST_CASE("Walls are slowed for the curled edges of the layer below them whichev
     if (prepared_before >= 2)
         estimator.prepare_for_new_layer(object, below);
     estimator.prepare_for_new_layer(object, layer);
-    // 100mm/s when fully supported, 20mm/s when a whole width out.
+    // 100 mm/s when fully supported, 20 mm/s when a whole width out.
     const std::vector<ProcessedPoint> points = estimator.estimate_extrusion_quality(wall,
         ConfigOptionPercents({100, 0}),
         ConfigOptionFloatsOrPercents({FloatOrPercent{100, false}, FloatOrPercent{20, false}}), 100.f, 100.f, true);
 
-    // A 1mm curl under a 0.2mm layer reads as half the width, 0.2mm, out: halfway between the two speeds.
+    // A 1 mm curl under a 0.2 mm layer reads as half the width, 0.2 mm, out: halfway between the two speeds.
     REQUIRE_FALSE(points.empty());
     for (const ProcessedPoint &point : points) {
         CHECK_THAT(point.speed, Catch::Matchers::WithinAbs(60., 0.5));
@@ -911,7 +911,7 @@ TEST_CASE("Caged external overhangs are slowed when printed by object or through
 
 namespace {
 
-// A 20 x 10 x 2mm wedge whose front face leans out by one layer height per layer (45 degrees), from y = 2 at the bed
+// A 20 x 10 x 2 mm wedge whose front face leans out by one layer height per layer (45 degrees), from y = 2 at the bed
 // to y = 0 at the top, while its back face at y = 12 stands vertical and fully supported.
 constexpr double wedge_height       = 2.;
 constexpr double wedge_base_front_y = 2.;

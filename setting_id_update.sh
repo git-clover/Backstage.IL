@@ -13,7 +13,6 @@ currentPOS=0
 # MAIN-LOOP
 if [ $execute = 1001485 ]; then
 	rg "\"setting_id\": \"[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
-		echo $p3
 		if [ $bsd = 'bsd' ]; then
 			(( currentPOS++ ))
 			p1=$(echo "$file" | sed '' 's|resources/profiles/||g' | sed '' 's|/|{}|g' | sed '' 's|.json||g')
@@ -21,6 +20,7 @@ if [ $execute = 1001485 ]; then
 			p3=$(python quickgen.py autopilot "${p2[0]}" "${p2[2]}" "${p2[-1]}")
 			printf "[$currentPOS/$fileCOUNT0] ${p2[0]} ${p2[2]} ${p2[-1]}"
 			sed -E -i '' "s/^([[:blank:]]*)\"setting_id\": \"[^\"]*\"|\1${p3}/g" "$file"
+			echo "\n$p3"
 		elif [ $bsd = 'gnu' ]; then
 			(( currentPOS++ ))
 			p1=$(printf "$file" | sed 's|resources/profiles/||g' | sed 's|/|{}|g' | sed 's|.json||g')
@@ -29,14 +29,14 @@ if [ $execute = 1001485 ]; then
 			p3=$(python3 quickgen.py autopilot "${p2[0]}" "${p2[2]}" "${p2[-1]}")
 			printf "[$currentPOS/$fileCOUNT0] ${p2[0]} ${p2[2]} ${p2[-1]}"
 			sed -E -i "s|^([[:blank:]]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
+			echo "\n$p3"
 		else
 			echo "BSD and GNU has different sed builds. Specify your sed."
 			exit 1234
 		fi
 		done
 elif [ $execute = '1001485R' ]; then
-	rg "\"setting_id\": \"[^ mm]* mm[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
-		echo $p3
+	rg "\"setting_id\": \"[^mm]* mm[^\"]*\"" -g "!resources/profiles/BBL/" -l0 resources/profiles/"$directory" | while IFS= read -r -d '' file; do
 		if [ $bsd = 'bsd' ]; then
 			(( currentPOS++ ))
 			p1=$(echo "$file" | sed '' 's|resources/profiles/||g' | sed '' 's|/|{}|g' | sed '' 's|.json||g')
@@ -44,6 +44,7 @@ elif [ $execute = '1001485R' ]; then
 			p3=$(python quickgen.py autopilot "${p2[0]}" "${p2[2]}" "${p2[-1]}")
 			printf "[$currentPOS/$fileCOUNT1] ${p2[0]} ${p2[2]} ${p2[-1]}"
 			sed -E -i '' "s/^([[:blank:]]*)\"setting_id\": \"[^\"]*\"|\1${p3}/g" "$file"
+			echo "\n$p3"
 		elif [ $bsd = 'gnu' ]; then
 			(( currentPOS++ ))
 			p1=$(printf "$file" | sed 's|resources/profiles/||g' | sed 's|/|{}|g' | sed 's|.json||g')
@@ -52,6 +53,7 @@ elif [ $execute = '1001485R' ]; then
 			p3=$(python3 quickgen.py autopilot "${p2[0]}" "${p2[2]}" "${p2[-1]}")
 			printf "[$currentPOS/$fileCOUNT1] ${p2[0]} ${p2[2]} ${p2[-1]}"
 			sed -E -i "s|^([[:blank:]]*)\"setting_id\": \"[^\"]*\"|\1${p3}|g" "$file"
+			echo "\n$p3"
 		else
 			echo "BSD and GNU has different sed builds. Specify your sed."
 			exit 1234
