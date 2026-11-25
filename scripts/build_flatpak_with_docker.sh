@@ -84,7 +84,7 @@ if [ -z "$VER_PURE" ]; then
 fi
 VER="V${VER_PURE}"
 GIT_COMMIT_HASH=$(git rev-parse HEAD)
-BUNDLE_NAME="OrcaSlicer-Linux-flatpak_${VER}_${ARCH}.flatpak"
+BUNDLE_NAME="Backstage.IL-Linux-flatpak_${VER}_${ARCH}.flatpak"
 
 echo "=== OrcaSlicer Flatpak Build ==="
 echo "  Version:    ${VER} (${VER_PURE})"
