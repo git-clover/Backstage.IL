@@ -66,7 +66,7 @@
     upstream/main, else origin/main).
 
 .PARAMETER Validator
-    OrcaSlicer_profile_validator.exe to use; also $env:ORCA_PROFILE_VALIDATOR. Default: the local
+    Backstage.IL_profile_validator.exe to use; also $env:ORCA_PROFILE_VALIDATOR. Default: the local
     build*\ Release build (then RelWithDebInfo, MinSizeRel, Debug) for this architecture, else
     the nightly release build is downloaded.
 
@@ -357,14 +357,14 @@ function Get-ExeArch([string] $Path) {
     } catch { '' }
 }
 
-# First locally built OrcaSlicer_profile_validator.exe, in the order above. An x86 build, and on
+# First locally built Backstage.IL_profile_validator.exe, in the order above. An x86 build, and on
 # ARM64 an x64 one, is kept only as a fallback: it runs, but emulated. An ARM64 build on an x64
 # host does not run at all and is never offered.
 function Find-LocalValidator {
     $emulated = ''
     foreach ($pattern in (Get-ValidatorSearchDirs)) {
         foreach ($dir in @(Resolve-Path -Path $pattern -ErrorAction SilentlyContinue)) {
-            $candidate = Join-Path $dir.Path 'OrcaSlicer_profile_validator.exe'
+            $candidate = Join-Path $dir.Path 'Backstage.IL_profile_validator.exe'
             if (-not (Test-Path -LiteralPath $candidate -PathType Leaf)) { continue }
             $arch = Get-ExeArch $candidate
             if (-not $arch -or $arch -eq $HostArch) { return $candidate }
@@ -380,8 +380,8 @@ function Save-NightlyValidator {
     if ($HostArch -ne 'x64') {
         Write-Host "the nightly Windows validator is x64; it runs here under emulation"
     }
-    $exe = Join-Path $WorkDir 'validator\OrcaSlicer_profile_validator.exe'
-    Save-Asset -Url "$ValidatorReleaseUrl/OrcaSlicer_profile_validator_Windows_nightly.exe" -Dest $exe
+    $exe = Join-Path $WorkDir 'validator\Backstage.IL_profile_validator.exe'
+    Save-Asset -Url "$ValidatorReleaseUrl/Backstage.IL_profile_validator_Windows_nightly.exe" -Dest $exe
     return $exe
 }
 

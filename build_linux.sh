@@ -636,8 +636,8 @@ if [[ -n "${BUILD_ORCA}" ]] || [[ -n "${BUILD_TESTS}" ]] ; then
     if [[ -n "${BUILD_ORCA}" ]]; then
 	echo "Building OrcaSlicer ..."
 	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target OrcaSlicer
-	echo "Building OrcaSlicer_profile_validator .."
-	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target OrcaSlicer_profile_validator
+	echo "Building Backstage.IL_profile_validator .."
+	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target Backstage.IL_profile_validator
 	echo "Building generate_system_cache ..."
 	print_and_run cmake --build $BUILD_DIR --config "${BUILD_CONFIG}" --target generate_system_cache
 	./scripts/run_gettext.sh

@@ -99,8 +99,8 @@ jobs:
       - name: Download
         working-directory: ${{ github.workspace }}
         run: |
-          curl -L -o OrcaSlicer_profile_validator https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_profile_validator_Linux_Ubuntu2404_nightly
-          chmod +x ./OrcaSlicer_profile_validator
+          curl -L -o Backstage.IL_profile_validator https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/Backstage.IL_profile_validator_Linux_Ubuntu2404_nightly
+          chmod +x ./Backstage.IL_profile_validator
 
       # Validate all system profiles.
       - name: validate system profiles
@@ -108,7 +108,7 @@ jobs:
         continue-on-error: true
         run: |
           set +e
-          ./OrcaSlicer_profile_validator -p ${{ github.workspace }}/resources/profiles -l 2 2>&1 | tee ${{ runner.temp }}/validate_system.log
+          ./Backstage.IL_profile_validator -p ${{ github.workspace }}/resources/profiles -l 2 2>&1 | tee ${{ runner.temp }}/validate_system.log
           exit ${PIPESTATUS[0]}
       # The validator above is the nightly build of main, so it cannot slice profiles that use
       # settings a PR adds to the engine: it reports their placeholders as undefined. A PR that
@@ -133,7 +133,7 @@ jobs:
         continue-on-error: true
         run: |
           set +e
-          ./OrcaSlicer_profile_validator -p ${{ github.workspace }}/resources/profiles -s -l 2 2>&1 | tee ${{ runner.temp }}/validate_slice.log
+          ./Backstage.IL_profile_validator -p ${{ github.workspace }}/resources/profiles -s -l 2 2>&1 | tee ${{ runner.temp }}/validate_slice.log
           exit ${PIPESTATUS[0]}
       # All vendors' filament_id collisions were fixed, so the duplicate-filament-subtype
       # check runs tree-wide.
@@ -142,7 +142,7 @@ jobs:
         continue-on-error: true
         run: |
           set +e
-          ./OrcaSlicer_profile_validator -p ${{ github.workspace }}/resources/profiles -l 2 -f 2>&1 | tee ${{ runner.temp }}/validate_filament_subtypes.log
+          ./Backstage.IL_profile_validator -p ${{ github.workspace }}/resources/profiles -l 2 -f 2>&1 | tee ${{ runner.temp }}/validate_filament_subtypes.log
           exit ${PIPESTATUS[0]}
 
       - name: validate custom presets
@@ -216,7 +216,7 @@ jobs:
             unzip -q "${fixture_zip}" -d "${profile_tree}"
 
             set +e
-            ./OrcaSlicer_profile_validator -p "${profile_tree}" -l 2 > "${log_path}" 2>&1
+            ./Backstage.IL_profile_validator -p "${profile_tree}" -l 2 > "${log_path}" 2>&1
             result=$?
             set -e
 

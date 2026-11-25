@@ -350,9 +350,9 @@ jobs:
             codesign --verify --deep --strict --verbose=2 "$app"
           }
           sign_app "${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer.app"
-          # Sign OrcaSlicer_profile_validator.app if it exists
-          if [ -f "${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer_profile_validator.app/Contents/MacOS/OrcaSlicer_profile_validator" ]; then
-            sign_app "${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer_profile_validator.app"
+          # Sign Backstage.IL_profile_validator.app if it exists
+          if [ -f "${{ github.workspace }}/build/universal/OrcaSlicer/Backstage.IL_profile_validator.app/Contents/MacOS/Backstage.IL_profile_validator" ]; then
+            sign_app "${{ github.workspace }}/build/universal/OrcaSlicer/Backstage.IL_profile_validator.app"
           fi
           
           # Create main OrcaSlicer DMG without the profile validator helper
@@ -363,14 +363,14 @@ jobs:
           create_dmg "OrcaSlicer" ${{ github.workspace }}/build/universal/OrcaSlicer_dmg Backstage.IL_macOS_universal_${{ env.ver }}.dmg
           codesign --deep --force --verbose --options runtime --timestamp --entitlements "$ENTITLEMENTS" --sign "$CERTIFICATE_ID" Backstage.IL_macOS_universal_${{ env.ver }}.dmg
           
-          # Create separate OrcaSlicer_profile_validator DMG if the app exists
-          if [ -f "${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer_profile_validator.app/Contents/MacOS/OrcaSlicer_profile_validator" ]; then
-            mkdir -p ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg
-            rm -rf ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg/*
-            cp -R ${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer_profile_validator.app ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg/
-            ln -sfn /Applications ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg/Applications
-            create_dmg "OrcaSlicer Profile Validator" ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg
-            codesign --deep --force --verbose --options runtime --timestamp --entitlements "$ENTITLEMENTS" --sign "$CERTIFICATE_ID" OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg
+          # Create separate Backstage.IL_profile_validator DMG if the app exists
+          if [ -f "${{ github.workspace }}/build/universal/OrcaSlicer/Backstage.IL_profile_validator.app/Contents/MacOS/Backstage.IL_profile_validator" ]; then
+            mkdir -p ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg
+            rm -rf ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg/*
+            cp -R ${{ github.workspace }}/build/universal/OrcaSlicer/Backstage.IL_profile_validator.app ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg/
+            ln -sfn /Applications ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg/Applications
+            create_dmg "OrcaSlicer Profile Validator" ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg
+            codesign --deep --force --verbose --options runtime --timestamp --entitlements "$ENTITLEMENTS" --sign "$CERTIFICATE_ID" Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg
           fi
           
           # Notarize main DMG
@@ -378,9 +378,9 @@ jobs:
           xcrun stapler staple Backstage.IL_macOS_universal_${{ env.ver }}.dmg
 
           # Notarize profile validator DMG if it exists
-          if [ -f "OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg" ]; then
-            xcrun notarytool submit "OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg" --apple-id "${{ secrets.APPLE_DEV_ACCOUNT }}" --team-id "${{ secrets.TEAM_ID }}" --password "${{ secrets.APP_PWD }}" --wait
-            retry xcrun stapler staple OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg
+          if [ -f "Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg" ]; then
+            xcrun notarytool submit "Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg" --apple-id "${{ secrets.APPLE_DEV_ACCOUNT }}" --team-id "${{ secrets.TEAM_ID }}" --password "${{ secrets.APP_PWD }}" --wait
+            retry xcrun stapler staple Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg
           fi
 
       - name: Create DMG without notary
@@ -396,13 +396,13 @@ jobs:
           ln -sfn /Applications ${{ github.workspace }}/build/universal/OrcaSlicer_dmg/Applications
           create_dmg "OrcaSlicer" ${{ github.workspace }}/build/universal/OrcaSlicer_dmg Backstage.IL_macOS_universal_${{ env.ver }}.dmg
           
-          # Create separate OrcaSlicer_profile_validator DMG if the app exists
-          if [ -f "${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer_profile_validator.app/Contents/MacOS/OrcaSlicer_profile_validator" ]; then
-            mkdir -p ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg
-            rm -rf ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg/*
-            cp -R ${{ github.workspace }}/build/universal/OrcaSlicer/OrcaSlicer_profile_validator.app ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg/
-            ln -sfn /Applications ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg/Applications
-            create_dmg "OrcaSlicer Profile Validator" ${{ github.workspace }}/build/universal/OrcaSlicer_profile_validator_dmg OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg
+          # Create separate Backstage.IL_profile_validator DMG if the app exists
+          if [ -f "${{ github.workspace }}/build/universal/OrcaSlicer/Backstage.IL_profile_validator.app/Contents/MacOS/Backstage.IL_profile_validator" ]; then
+            mkdir -p ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg
+            rm -rf ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg/*
+            cp -R ${{ github.workspace }}/build/universal/OrcaSlicer/Backstage.IL_profile_validator.app ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg/
+            ln -sfn /Applications ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg/Applications
+            create_dmg "OrcaSlicer Profile Validator" ${{ github.workspace }}/build/universal/Backstage.IL_profile_validator_dmg Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg
           fi
 
       # Delete the per-arch bundles only after signing/DMG creation succeeded, so a
@@ -422,12 +422,12 @@ jobs:
           name: Backstage.IL_macOS_universal_${{ env.ver }}
           path: ${{ github.workspace }}/Backstage.IL_macOS_universal_${{ env.ver }}.dmg
 
-      - name: Upload OrcaSlicer_profile_validator DMG mac
+      - name: Upload Backstage.IL_profile_validator DMG mac
         if: runner.os == 'macOS' && inputs.macos-combine-only && !vars.SELF_HOSTED
         uses: actions/upload-artifact@v7
         with:
-          name: OrcaSlicer_profile_validator_Mac_universal_DMG_${{ env.ver }}
-          path: ${{ github.workspace }}/OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg
+          name: Backstage.IL_profile_validator_Mac_universal_DMG_${{ env.ver }}
+          path: ${{ github.workspace }}/Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg
           if-no-files-found: ignore
 
       - name: Deploy Mac release
@@ -438,12 +438,12 @@ jobs:
           asset_name: Backstage.IL_macOS_universal_nightly${{ env.nightly_suffix }}.dmg
 
       # The DMG is only built when the validator app was.
-      - name: Deploy Mac OrcaSlicer_profile_validator DMG release
-        if: github.repository == 'OrcaSlicer/OrcaSlicer' && github.ref == 'refs/heads/main' && runner.os == 'macOS' && inputs.macos-combine-only && !vars.SELF_HOSTED && hashFiles(format('OrcaSlicer_profile_validator_Mac_universal_{0}.dmg', env.ver)) != ''
+      - name: Deploy Mac Backstage.IL_profile_validator DMG release
+        if: github.repository == 'OrcaSlicer/OrcaSlicer' && github.ref == 'refs/heads/main' && runner.os == 'macOS' && inputs.macos-combine-only && !vars.SELF_HOSTED && hashFiles(format('Backstage.IL_profile_validator_Mac_universal_{0}.dmg', env.ver)) != ''
         uses: ./.github/actions/deploy-nightly
         with:
-          asset_path: ${{ github.workspace }}/OrcaSlicer_profile_validator_Mac_universal_${{ env.ver }}.dmg
-          asset_name: OrcaSlicer_profile_validator_Mac_universal_nightly.dmg
+          asset_path: ${{ github.workspace }}/Backstage.IL_profile_validator_Mac_universal_${{ env.ver }}.dmg
+          asset_name: Backstage.IL_profile_validator_Mac_universal_nightly.dmg
 
 # Windows
       - name: Set Windows build variables
@@ -593,7 +593,7 @@ jobs:
           ORCA_SIGN_REUSE: ${{ runner.temp }}/signed-files.json
         run: |
           $paths = @("$env:BUILD_DIR/OrcaSlicer")
-          foreach ($extra in 'build/src/Release/OrcaSlicer_profile_validator.exe', "$env:RUNNER_TEMP/nsis/Plugins") {
+          foreach ($extra in 'build/src/Release/Backstage.IL_profile_validator.exe', "$env:RUNNER_TEMP/nsis/Plugins") {
             if (Test-Path $extra) { $paths += $extra }
           }
           ./scripts/sign_windows.ps1 -Path $paths
@@ -689,7 +689,7 @@ jobs:
         shell: pwsh
         run: |
           $paths = @("$env:BUILD_DIR/OrcaSlicer")
-          $validator = 'build/src/Release/OrcaSlicer_profile_validator.exe'
+          $validator = 'build/src/Release/Backstage.IL_profile_validator.exe'
           if (Test-Path $validator) { $paths += $validator }
           $installer = Get-ChildItem "$env:BUILD_DIR/OrcaSlicer_Windows_Installer_*.exe" | Select-Object -First 1
           if ($installer) {
@@ -723,12 +723,12 @@ jobs:
           name: PDB${{ inputs.compiler != 'clang' && '_msvc' || '' }}
           path: ${{ github.workspace }}/build/src/Release/Debug_PDB_${{ env.ver }}_for_developers_only.7z
 
-      - name: Upload OrcaSlicer_profile_validator Win
+      - name: Upload Backstage.IL_profile_validator Win
         if: runner.os == 'Windows' && inputs.arch != 'arm64' && !vars.SELF_HOSTED && inputs.compiler == 'clang'
         uses: actions/upload-artifact@v7
         with:
-          name: OrcaSlicer_profile_validator_Windows_${{ env.ver }}
-          path: ${{ github.workspace }}/build/src/Release/OrcaSlicer_profile_validator.exe
+          name: Backstage.IL_profile_validator_Windows_${{ env.ver }}
+          path: ${{ github.workspace }}/build/src/Release/Backstage.IL_profile_validator.exe
 
       - name: Check exception throw info Win
         if: runner.os == 'Windows' && inputs.compiler == 'clang'
@@ -753,12 +753,12 @@ jobs:
           asset_name: Backstage.IL_Windows_Installer${{ env.ARCH_SUFFIX }}_nightly${{ env.nightly_suffix }}.exe
           content_type: application/x-msdownload
 
-      - name: Deploy Windows OrcaSlicer_profile_validator release
+      - name: Deploy Windows Backstage.IL_profile_validator release
         if: github.repository == 'OrcaSlicer/OrcaSlicer' && github.ref == 'refs/heads/main' && runner.os == 'Windows' && inputs.arch != 'arm64' && !vars.SELF_HOSTED && inputs.compiler == 'clang'
         uses: ./.github/actions/deploy-nightly
         with:
-          asset_path: ${{ github.workspace }}/build/src/Release/OrcaSlicer_profile_validator.exe
-          asset_name: OrcaSlicer_profile_validator_Windows_nightly.exe
+          asset_path: ${{ github.workspace }}/build/src/Release/Backstage.IL_profile_validator.exe
+          asset_name: Backstage.IL_profile_validator_Windows_nightly.exe
           content_type: application/x-msdownload
 
       - name: Build MSIX Store package Win
@@ -832,7 +832,7 @@ jobs:
         with:
           name: ${{ github.sha }}-profile-validator-linux-${{ inputs.arch == 'aarch64' && 'aarch64' || 'x86_64' }}
           overwrite: true
-          path: ./build/src/Release/OrcaSlicer_profile_validator
+          path: ./build/src/Release/Backstage.IL_profile_validator
           retention-days: 5
           if-no-files-found: error
           
@@ -852,7 +852,7 @@ jobs:
         working-directory: ${{ github.workspace }}/build/src/Release
         shell: bash
         run: |
-          ./OrcaSlicer_profile_validator -p ${{ github.workspace }}/resources/profiles -g 1
+          ./Backstage.IL_profile_validator -p ${{ github.workspace }}/resources/profiles -g 1
           cd ${{ github.workspace }}/resources/profiles
           zip -r orca_custom_preset_tests.zip user/
 
@@ -863,7 +863,7 @@ jobs:
           name: Backstage.IL_ubuntu${{ env.ubuntu-ver }}${{ env.arch_suffix }}_${{ env.ver }}
           path: "./build/Backstage.IL_ubuntu${{ env.ubuntu-ver-str }}${{ env.arch_suffix }}_${{ env.ver }}.AppImage"
 
-      - name: Upload OrcaSlicer_profile_validator Ubuntu
+      - name: Upload Backstage.IL_profile_validator Ubuntu
         if: ${{ ! env.ACT && runner.os == 'Linux' && !vars.SELF_HOSTED && inputs.arch != 'aarch64' }}
         uses: actions/upload-artifact@v7
         with:
@@ -894,12 +894,12 @@ jobs:
           git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" tag -f -a nightly-builds "${GITHUB_SHA}" -m nightly-builds
           git push -f origin refs/tags/nightly-builds
 
-      - name: Deploy Ubuntu OrcaSlicer_profile_validator release
+      - name: Deploy Ubuntu Backstage.IL_profile_validator release
         if: ${{ github.repository == 'OrcaSlicer/OrcaSlicer' && ! env.ACT && github.ref == 'refs/heads/main' && runner.os == 'Linux' && !vars.SELF_HOSTED && inputs.arch != 'aarch64' }}
         uses: ./.github/actions/deploy-nightly
         with:
-          asset_path: ./build/src/Release/OrcaSlicer_profile_validator
-          asset_name: OrcaSlicer_profile_validator_Linux${{ env.ubuntu-ver-str }}_nightly
+          asset_path: ./build/src/Release/Backstage.IL_profile_validator
+          asset_name: Backstage.IL_profile_validator_Linux${{ env.ubuntu-ver-str }}_nightly
 
       - name: Deploy Ubuntu generate_system_cache release
         if: ${{ github.repository == 'OrcaSlicer/OrcaSlicer' && ! env.ACT && github.ref == 'refs/heads/main' && runner.os == 'Linux' && !vars.SELF_HOSTED && inputs.arch != 'aarch64' }}

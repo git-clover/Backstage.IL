@@ -378,14 +378,14 @@ function build_slicer() {
 
             verify_python_runtime ./OrcaSlicer.app
             
-            # Copy OrcaSlicer_profile_validator.app if it exists
-            if [ -f "../src$BUILD_DIR_CONFIG_SUBDIR/OrcaSlicer_profile_validator.app/Contents/MacOS/OrcaSlicer_profile_validator" ]; then
-                echo "Copying OrcaSlicer_profile_validator.app..."
-                rm -rf ./OrcaSlicer_profile_validator.app
-                cp -pR "../src$BUILD_DIR_CONFIG_SUBDIR/OrcaSlicer_profile_validator.app" ./OrcaSlicer_profile_validator.app
+            # Copy Backstage.IL_profile_validator.app if it exists
+            if [ -f "../src$BUILD_DIR_CONFIG_SUBDIR/Backstage.IL_profile_validator.app/Contents/MacOS/Backstage.IL_profile_validator" ]; then
+                echo "Copying Backstage.IL_profile_validator.app..."
+                rm -rf ./Backstage.IL_profile_validator.app
+                cp -pR "../src$BUILD_DIR_CONFIG_SUBDIR/Backstage.IL_profile_validator.app" ./Backstage.IL_profile_validator.app
                 # delete .DS_Store file
-                find ./OrcaSlicer_profile_validator.app/ -name '.DS_Store' -delete
-                verify_python_runtime ./OrcaSlicer_profile_validator.app
+                find ./Backstage.IL_profile_validator.app/ -name '.DS_Store' -delete
+                verify_python_runtime ./Backstage.IL_profile_validator.app
             fi
         )
 
@@ -444,15 +444,15 @@ function build_universal() {
     verify_python_runtime "$UNIVERSAL_APP"
 
     # Create universal binary for profile validator if it exists
-    ARM64_VALIDATOR="$PROJECT_DIR/build/arm64/OrcaSlicer/OrcaSlicer_profile_validator.app"
-    X86_64_VALIDATOR="$PROJECT_DIR/build/x86_64/OrcaSlicer/OrcaSlicer_profile_validator.app"
+    ARM64_VALIDATOR="$PROJECT_DIR/build/arm64/OrcaSlicer/Backstage.IL_profile_validator.app"
+    X86_64_VALIDATOR="$PROJECT_DIR/build/x86_64/OrcaSlicer/Backstage.IL_profile_validator.app"
     if [ -d "$ARM64_VALIDATOR" ] && [ -d "$X86_64_VALIDATOR" ]; then
-        echo "Creating universal binaries for OrcaSlicer_profile_validator.app..."
-        UNIVERSAL_VALIDATOR_APP="$PROJECT_BUILD_DIR/OrcaSlicer/OrcaSlicer_profile_validator.app"
+        echo "Creating universal binaries for Backstage.IL_profile_validator.app..."
+        UNIVERSAL_VALIDATOR_APP="$PROJECT_BUILD_DIR/OrcaSlicer/Backstage.IL_profile_validator.app"
         rm -rf "$UNIVERSAL_VALIDATOR_APP"
         cp -R "$ARM64_VALIDATOR" "$UNIVERSAL_VALIDATOR_APP"
         lipo_dir "$UNIVERSAL_VALIDATOR_APP" "$X86_64_VALIDATOR"
-        echo "Universal OrcaSlicer_profile_validator.app created at $UNIVERSAL_VALIDATOR_APP"
+        echo "Universal Backstage.IL_profile_validator.app created at $UNIVERSAL_VALIDATOR_APP"
     fi
 }
 

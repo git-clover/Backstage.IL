@@ -41,7 +41,7 @@
     Check the signatures instead of signing.
 
 .EXAMPLE
-    scripts\sign_windows.ps1 -Path build\OrcaSlicer, build\src\Release\OrcaSlicer_profile_validator.exe
+    scripts\sign_windows.ps1 -Path build\OrcaSlicer, build\src\Release\Backstage.IL_profile_validator.exe
 #>
 param(
     [Parameter(Mandatory)] [string[]] $Path,

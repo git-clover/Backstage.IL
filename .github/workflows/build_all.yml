@@ -276,8 +276,8 @@ jobs:
       - name: Validate slice (expand custom g-code)
         timeout-minutes: 60
         run: |
-          chmod +x validator-bin/OrcaSlicer_profile_validator
-          ./validator-bin/OrcaSlicer_profile_validator -p "${{ github.workspace }}/resources/profiles" -s -l 2
+          chmod +x validator-bin/Backstage.IL_profile_validator
+          ./validator-bin/Backstage.IL_profile_validator -p "${{ github.workspace }}/resources/profiles" -s -l 2
   publish_test_results:
     name: Publish Test Results
     needs: [unit_tests_linux_x86_64, unit_tests_linux_aarch64, unit_tests_windows_x64, unit_tests_windows_arm64, unit_tests_macos_arm64, flatpak]
