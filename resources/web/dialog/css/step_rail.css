@@ -8,7 +8,7 @@
   --sr-fg: var(--orca-fg, #262e30);
   --sr-muted: var(--orca-muted, #6b7478);
   --sr-rule: var(--border, #dcdfe1);
-  --sr-accent: var(--orca-accent, #009688);
+  --sr-accent: var(--orca-accent, #004fbd);
   --sr-accent-fg: var(--orca-accent-fg, #ffffff);
   --sr-pass: var(--plugin-status-ok, #137333);
   --sr-fail: var(--plugin-status-danger, #b42318);

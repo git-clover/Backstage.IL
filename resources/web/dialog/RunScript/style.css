@@ -7,7 +7,7 @@
   --rs-fg: var(--orca-fg, #262e30);
   --rs-muted: var(--orca-muted, #6b7478);
   --rs-rule: var(--border, #dcdfe1);
-  --rs-accent: var(--orca-accent, #009688);
+  --rs-accent: var(--orca-accent, #004fbd);
   --rs-accent-fg: var(--orca-accent-fg, #ffffff);
   --rs-accent-text: #00796b;
   --rs-accent-tint: var(--plugin-source-mine-bg, rgba(0, 150, 136, 0.12));

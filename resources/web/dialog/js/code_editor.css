@@ -8,7 +8,7 @@
   --code-fg: var(--orca-fg, #262e30);
   --code-muted: var(--orca-muted, #6b7478);
   --code-rule: var(--border, #dcdfe1);
-  --code-accent: var(--orca-accent, #009688);
+  --code-accent: var(--orca-accent, #004fbd);
   --code-accent-tint: var(--plugin-source-mine-bg, rgba(0, 150, 136, 0.12));
   --code-gutter: #f6f7f8;
   --code-selection: rgba(0, 150, 136, 0.22);
