@@ -42,7 +42,7 @@ with no modal open reads the reply's URL to know it ran in the Home page. Measur
 Home page answers, and `widget_list` lists its web view alone.
 
 **Leaves:** The drop-down list's project and printer: the Klipper printer with `support_multi_bed_types` on as an
-unsaved edit, `0.20mm Standard @MyKlipper` and one `Generic PLA @System` slot; the project saved as
+unsaved edit, `0.20 mm Standard @MyKlipper` and one `Generic PLA @System` slot; the project saved as
 `OUT/plate_type.3mf` and changed since, its plate type `Cool Plate`, which the app also stores for the printer. The
 next `start()` discards the edit and the project, and the sidebar then stores the printer's default plate type, `High
 Temp Plate`, again. The auto-answer rules for "Uniform scale" and "per-object setting mode". The Generic Marlin Printer
@@ -145,7 +145,7 @@ part`, printable, on plate 0.
 
 It starts with the Add Cube action's cube, the Objects switch on, and a cylinder modifier added from the cube row's
 menu as in the rows scenario. The start is checked: `objects()` is `Cube: Cube part + Generic-Cylinder modifier`,
-`app_state.presets.process` is `0.20mm Standard @MyKlipper`, and `windows()` holds no `Compare presets`. `SIDE` is
+`app_state.presets.process` is `0.20 mm Standard @MyKlipper`, and `windows()` holds no `Compare presets`. `SIDE` is
 the labels of the main window's side buttons, as `widget_list {target: "main", query: "SideButton", include_menus:
 false}` lists them: `Slice plate`, its unlabelled arrow, the print button, its unlabelled arrow. `TRANSFER` is the
 locator `{label: "Transfer values from left to right", within: "Compare presets"}`, the window's transfer checkbox,
@@ -156,11 +156,11 @@ them without it.
 | # | Step | Checked after |
 |---|---|---|
 | 1 | `widget_click {target: {label: "Compare presets"}}` | `windows()` holds `Compare presets`; `dialogs()` `[]`, as it is modeless |
-| 2 | `widget_set_value {target: {class: "PresetComboBox", within: "Compare presets", index: 5}, value: "0.12mm Fine @MyKlipper"}`, then `widget_set_value {target: TRANSFER, value: false}` | `rows()` of the window hold the header row `"0.20mm Standard @MyKlipper" vs "0.12mm Fine @MyKlipper"` and, under it, `Quality>Layer height>Layer height` with the value `0.2 \| 0.12`: both presets' values |
+| 2 | `widget_set_value {target: {class: "PresetComboBox", within: "Compare presets", index: 5}, value: "0.12 mm Fine @MyKlipper"}`, then `widget_set_value {target: TRANSFER, value: false}` | `rows()` of the window hold the header row `"0.20 mm Standard @MyKlipper" vs "0.12 mm Fine @MyKlipper"` and, under it, `Quality>Layer height>Layer height` with the value `0.2 \| 0.12`: both presets' values |
 | 3 | `widget_click {target: {row: "Quality>Layer height>Layer height", within: "Compare presets"}}` | reply `clicked` holds that path; `rows()` read the row as selected |
-| 4 | `keyboard_press {target: {class: "DiffPresetDialog"}, keys: "Escape"}` | `windows()` holds no `Compare presets`; `app_state.presets.process` is still `0.20mm Standard @MyKlipper` and `preset_list` marks no process preset modified: comparing changed nothing |
+| 4 | `keyboard_press {target: {class: "DiffPresetDialog"}, keys: "Escape"}` | `windows()` holds no `Compare presets`; `app_state.presets.process` is still `0.20 mm Standard @MyKlipper` and `preset_list` marks no process preset modified: comparing changed nothing |
 | 5 | steps 1 to 3 again, then `widget_set_value {target: TRANSFER, value: true}`; then `widget_set_value {value: false}` on each option row `rows()` reads checked, and `widget_set_value {target: {row: "Quality>Layer height>Layer height", within: "Compare presets"}, value: true}` | after the checkbox, `rows()` read every option row checked, as each row's toggle starts on; at the end, the layer height row alone of the option rows reads checked, and the bottom shell layers row (3 against 5) reads unchecked |
-| 6 | once `widget_list` of the window lists the `Transfer` button enabled, waited up to 30 s, `widget_click {target: {label: "Transfer", within: "Compare presets"}}` | the wait is met; `windows()` holds no `Compare presets`; `app_state.presets.process` is `0.12mm Fine @MyKlipper` and `preset_list` marks it modified; `settings_get` of the process gives `layer_height` `"0.2"`, the left preset's value, and `bottom_shell_layers` `"5"`, the right preset's own: only the checked row was transferred |
+| 6 | once `widget_list` of the window lists the `Transfer` button enabled, waited up to 30 s, `widget_click {target: {label: "Transfer", within: "Compare presets"}}` | the wait is met; `windows()` holds no `Compare presets`; `app_state.presets.process` is `0.12 mm Fine @MyKlipper` and `preset_list` marks it modified; `settings_get` of the process gives `layer_height` `"0.2"`, the left preset's value, and `bottom_shell_layers` `"5"`, the right preset's own: only the checked row was transferred |
 | 7 | `object_select {objects: [0]}`, then `widget_click {target: {row: "Plate 1>Cube"}, button: "right", popup_item: "Edit in Parameter Table"}` | `selection()` objects `[0]`, no parts, after the select; the click replies `blocked_by_dialog`; `dialogs()` `["Object/Part Settings"]` |
 | 8 | `widget_list {target: "dialog"}` | the table's rows are `Cube` twice (the object, then its part) and `Generic-Cylinder` once |
 | 9 | `widget_click {target: {row: "Generic-Cylinder", within: "Object/Part Settings", column: "Wall loops"}}` | `selection()` parts `[[0, 1]]`: a cell's click selects its part, as the table tells the object list; the click's result has `column` `Wall loops`, read from its reply or, when it replies `blocked_by_dialog`, from its job once step 10 has closed the dialog |
@@ -274,7 +274,7 @@ stored state (see **To settle**). The start is checked: the project's `curr_bed_
   `transfer_options()` selects the right-hand preset and gives it the toggled rows' left-hand values
   (`MainFrame::make_diff_dialog()`, `Tab.cpp`). A row's toggle starts on (`ModelNode::m_toggle`) and is set as a row's
   checkbox, which `widget_set_value` takes. The two presets' values come from the Custom vendor's profiles:
-  `layer_height` 0.2 against 0.12, `bottom_shell_layers` 3 (`fdm_process_common`) against 5 (`0.12mm Fine @MyKlipper`).
+  `layer_height` 0.2 against 0.12, `bottom_shell_layers` 3 (`fdm_process_common`) against 5 (`0.12 mm Fine @MyKlipper`).
 - The print button's popup (dialog rows, steps 11 to 13): a printer of another vendor than Bambu Lab, with
   `use_printer_agents` off, offers `Print` and `Export G-code file`, and `Export plate sliced file` only when the
   printer takes a G-code 3MF (`use_3mf`), which the Klipper printer does not (`MainFrame::available_print_actions`).
@@ -383,7 +383,7 @@ process fields the first scenario sets. The recordings' sizes are measured from 
 follow whatever size the window has. Recordings go to the test's output folder `OUT`, and ffmpeg is found from the
 environment, not the data folder: the app keeps no folder or encoder setting there that a check reads.
 
-**Leaves:** The Klipper printer with `0.20mm Standard @MyKlipper` and, as an unsaved change, the layer height 0.16
+**Leaves:** The Klipper printer with `0.20 mm Standard @MyKlipper` and, as an unsaved change, the layer height 0.16
 the first scenario set, which each scenario's `project_new` keeps and the next `start()` discards; the encode
 scenario's empty project; no recording running. Not the window, whose placement the app stores only when it closes
 itself, and the runner ends it. The last folder opened, the handy models' folder of the import. Nothing else in the
@@ -492,7 +492,7 @@ The default limit of an hour is step 1 of the first scenario (`max_seconds` 3600
 - The Klipper printer's G-code holds the config block after the moves and marks each layer with `;Z:<z>` (first
   scenario, step 8); `GCode.cpp` writes the block before the moves and `; Z_HEIGHT: <z>` for a Bambu Lab printer
   only. Its own layer-change G-code writes the height as `;<z>` without `Z:`, so the `;Z:` lines are the app's marks
-  alone. `0.20mm Standard @MyKlipper`'s first layer is 0.2 mm (`fdm_process_common` of the Custom vendor).
+  alone. `0.20 mm Standard @MyKlipper`'s first layer is 0.2 mm (`fdm_process_common` of the Custom vendor).
 
 **Not checked:**
 - The frames' pixels: the captions and the pointer are drawn into MJPEG frames that the sweep's Python cannot decode
@@ -532,7 +532,7 @@ filaments: [GENERIC_PLA]}`: no form it checks is a Bambu Lab printer's own. It s
 clicks the canvas at a pixel, reads a field's text or captures a picture, and the Preview's legend rows it reads are
 listed whatever view type the Preview last showed, which the app keeps in the data folder.
 
-**Leaves:** The Klipper printer with `0.20mm Standard @MyKlipper` and its filament unmodified, since the shown-view
+**Leaves:** The Klipper printer with `0.20 mm Standard @MyKlipper` and its filament unmodified, since the shown-view
 scenario's opening `project_new` discards what the silent calibration changed. That scenario's project, its 20 mm cube
 sliced and shown in the Preview, and the auto-answer rule for the restore prompt, which the next `start()` replaces
 and clears. The last folder opened, the handy models' folder of the imports. It saves no project; the G-code and STL
@@ -616,7 +616,7 @@ is checked: `objects()` is one object, on plate 0, `bbox.size` `[20, 20, 20]` to
 - The temperature dialog's Cancel ends its job without an error (dialog, step 2); the reply's fields are not fixed.
 - Deselect All closes the open gizmo (shown view, step 6), as `object_select`'s description says of `none`, which the
   action's arguments are.
-- The 20 mm object slices to 100 layers at `0.20mm Standard @MyKlipper`'s 0.2 mm first and other layers, and Go to
+- The 20 mm object slices to 100 layers at `0.20 mm Standard @MyKlipper`'s 0.2 mm first and other layers, and Go to
   layer 50 % shows layers 1 to 51 (shown view, step 8): `show_layer_percent()` takes the top to `lround(0.5 × 99) + 1`.
 - The exported G-code's first line is `; HEADER_BLOCK_START` (names, step 18): the Klipper printer has no file start
   G-code and no BTT thumbnail, either of which would come first (`GCode.cpp`).

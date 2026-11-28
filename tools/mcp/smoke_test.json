@@ -18,7 +18,7 @@
     {"tool": "project_new", "args": {"silent": true}},
     // The slice runs on the default printer's presets, whichever the last run on the data folder left selected.
     {"tool": "preset_select", "args": {"type": "printer", "name": "MyKlipper 0.4 nozzle", "preset_changes": "discard"}},
-    {"tool": "preset_select", "args": {"type": "process", "name": "0.20mm Standard @MyKlipper", "preset_changes": "discard"}},
+    {"tool": "preset_select", "args": {"type": "process", "name": "0.20 mm Standard @MyKlipper", "preset_changes": "discard"}},
     {"tool": "preset_select", "args": {"type": "filament", "name": "Generic PLA @System", "filament_slot": 1, "preset_changes": "discard"}},
     {"tool": "project_import", "args": {"paths": ["${vars.model}"]}, "expect": {"/added": {"eq": 1}}},
     {"tool": "settings_set", "args": {"type": "process", "values": {"wall_loops": 3}}},

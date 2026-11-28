@@ -90,7 +90,7 @@ order:
   the app applies only when it starts again, and its entry says so.
 
 **The default printer.** A data folder `orca_mcp.py launch` seeds has one printer, the Generic Klipper Printer of
-the Custom vendor with its 0.4 nozzle: `MyKlipper 0.4 nozzle`, `0.20mm Standard @MyKlipper` and `Generic PLA
+the Custom vendor with its 0.4 nozzle: `MyKlipper 0.4 nozzle`, `0.20 mm Standard @MyKlipper` and `Generic PLA
 @System`. The app then installs only the two vendors it always needs, Custom and the Orca Filament Library, so a
 new folder's first start copies about 1,500 profile files instead of 4,000. A test that exercises a Bambu Lab
 printer's own behaviour, such as Send over the Bambu network, starts on the Bambu Lab X1 Carbon 0.4 nozzle, which

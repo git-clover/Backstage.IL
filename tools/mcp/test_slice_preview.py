@@ -1272,7 +1272,7 @@ class SlicePreviewTest:
     def conf(self, key, expected):
         """The app section's value of `key` in the configuration file, read until it is `expected`, since the app writes
         the file at an idle moment; when 30 s pass first, the value read last, which the caller's check then shows."""
-        path = os.path.join(self.session["datadir"], "OrcaSlicer.conf")
+        path = os.path.join(self.session["datadir"], "Backstage.IL.conf")
         seen = {}
 
         def holds():
@@ -1285,7 +1285,7 @@ class SlicePreviewTest:
             return "value" in seen and seen["value"] == expected
 
         try:
-            until(holds, f"{key} in OrcaSlicer.conf is {expected!r}", interval_s=0.1)
+            until(holds, f"{key} in Backstage.IL.conf is {expected!r}", interval_s=0.1)
         except TimeoutError:
             pass
         return seen.get("value")

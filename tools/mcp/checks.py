@@ -140,8 +140,8 @@ def wait(client, condition, timeout_s=30, job=None):
 
 # The default printer's presets, which a data folder orca_mcp.py launch seeds selects, and the Bambu Lab X1 Carbon
 # 0.4 nozzle's, for a test of a Bambu Lab printer's own behaviour.
-KLIPPER, KLIPPER_STD, GENERIC_PLA = "MyKlipper 0.4 nozzle", "0.20mm Standard @MyKlipper", "Generic PLA @System"
-X1C, X1C_STD, BAMBU_PLA = "Bambu Lab X1 Carbon 0.4 nozzle", "0.20mm Standard @BBL X1C", "Bambu PLA Basic @BBL X1C"
+KLIPPER, KLIPPER_STD, GENERIC_PLA = "MyKlipper 0.4 nozzle", "0.20 mm Standard @MyKlipper", "Generic PLA @System"
+X1C, X1C_STD, BAMBU_PLA = "Bambu Lab X1 Carbon 0.4 nozzle", "0.20 mm Standard @BBL X1C", "Bambu PLA Basic @BBL X1C"
 # The printers start() knows: what printer_install installs each from, its default process and filament, and the plate
 # type a new data folder's project has on it.
 PRINTERS = {KLIPPER: ({"vendor": "Custom", "model": "Generic Klipper Printer", "nozzles": ["0.4"]}, KLIPPER_STD, GENERIC_PLA,
@@ -229,8 +229,8 @@ def launched(datadir, binary, token, launch_args=(), env=None):
 
 
 def read_conf(datadir):
-    """OrcaSlicer.conf's JSON, without the checksum line after it."""
-    with open(os.path.join(datadir, "OrcaSlicer.conf"), encoding="utf-8") as f:
+    """Backstage.IL.conf's JSON, without the checksum line after it."""
+    with open(os.path.join(datadir, "Backstage.IL.conf"), encoding="utf-8") as f:
         text = f.read()
     return json.loads(text[: text.rfind("}") + 1])
 

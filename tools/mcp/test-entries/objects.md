@@ -87,7 +87,7 @@ and reading the state back, not from the log.
 - `corner(p)`: plate p's `origin` from `plate_list`, and `rect(p)`: its `origin` and `size`.
 - `gcode_prints(path)`: the `; printing object <name> id:<n> copy <c>` comments of a G-code file, as the names in the
   order they first print, each with the number of different `id`, `copy` pairs printed under it: its copies
-  (`gcode_label_objects` is on in `0.20mm Standard @MyKlipper`, as the app's default has it).
+  (`gcode_label_objects` is on in `0.20 mm Standard @MyKlipper`, as the app's default has it).
 - `unsaved(type)`: the keys in which the preset being edited differs from the stored one, from `settings_get {compare:
   ":saved"}`.
 - Geometry on `bbox`: an instance's square is its `bbox` in x and y; two squares are apart when they do not overlap;

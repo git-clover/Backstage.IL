@@ -5920,7 +5920,7 @@ TEST_CASE("sketch_insert_svg adds an SVG's outlines to the open sketch", "[Mcp][
     // A drawing 40 mm square with one filled 10 x 10 mm square off its centre, and the same square unfilled.
     const ScopedTemporaryFile square(".svg"), unfilled(".svg");
     const auto write = [](const ScopedTemporaryFile& file, const char* fill) {
-        std::ofstream(file.string()) << R"(<svg xmlns="http://www.w3.org/2000/svg" width="40mm" height="40mm" viewBox="0 0 40 40">)"
+        std::ofstream(file.string()) << R"(<svg xmlns="http://www.w3.org/2000/svg" width="40 mm" height="40 mm" viewBox="0 0 40 40">)"
                                      << R"(<rect x="20" y="5" width="10" height="10" fill=")" << fill << R"("/></svg>)";
     };
     write(square, "black");

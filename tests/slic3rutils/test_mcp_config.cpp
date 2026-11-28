@@ -107,7 +107,7 @@ struct Processes
 
     Processes()
     {
-        add("0.20mm Standard").is_system = true;
+        add("0.20 mm Standard").is_system = true;
         add("Mine");
         add("Other");
         add("In Project").is_project_embedded = true;
@@ -396,7 +396,7 @@ TEST_CASE("preset_save refuses the names the Save preset dialog refuses", "[Mcp]
     CHECK_THROWS_AS(save_preset_inside_project(p.presets, "", json::object()), ToolFailure);
     CHECK_THROWS_AS(save_preset_inside_project(p.presets, "Mine ", json::object()), ToolFailure);
     // A system preset is never overwritten.
-    CHECK_THROWS_AS(save_preset_inside_project(p.presets, "0.20mm Standard", json{{"overwrite", true}}), ToolFailure);
+    CHECK_THROWS_AS(save_preset_inside_project(p.presets, "0.20 mm Standard", json{{"overwrite", true}}), ToolFailure);
 }
 
 TEST_CASE("preset_save replaces another preset only with overwrite, and saves the selected one again without", "[Mcp]")
@@ -663,7 +663,7 @@ TEST_CASE("preset_delete refuses the presets the tab does not delete", "[Mcp]")
     CHECK(check_preset_deletable(p.presets, "In Project", false, p.presets, filaments).empty());
     CHECK(check_preset_deletable(p.presets, "Mine Child", false, p.presets, filaments).empty());
 
-    CHECK_THROWS_WITH(check_preset_deletable(p.presets, "0.20mm Standard", false, p.presets, filaments), ContainsSubstring("system preset"));
+    CHECK_THROWS_WITH(check_preset_deletable(p.presets, "0.20 mm Standard", false, p.presets, filaments), ContainsSubstring("system preset"));
     CHECK_THROWS_WITH(check_preset_deletable(p.presets, "From Bundle", false, p.presets, filaments), ContainsSubstring("preset bundle"));
     try {
         check_preset_deletable(p.presets, "Other process", false, p.presets, filaments);

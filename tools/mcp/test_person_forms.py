@@ -52,7 +52,7 @@ def last_output_dir(session):
     """The folder the app remembers for its last export (app.last_export_path), where the G-code picker starts; None when
     it has none. On Windows the app writes a checksum line after the config file's JSON, so only the JSON is read."""
     try:
-        with open(os.path.join(session["datadir"], "OrcaSlicer.conf"), encoding="utf-8") as f:
+        with open(os.path.join(session["datadir"], "Backstage.IL.conf"), encoding="utf-8") as f:
             text = f.read()
         return json.loads(text[:text.rfind("}") + 1]).get("app", {}).get("last_export_path") or None
     except (OSError, ValueError, KeyError, TypeError, AttributeError):

@@ -664,7 +664,7 @@ TEST_CASE("an unrestricted script may touch any file but the categorically denie
     CHECK(wrote.status == "finished");
     CHECK(wrote.result == "x");
 
-    const std::string      denied = (outside.path() / "OrcaSlicer.conf").generic_string();
+    const std::string      denied = (outside.path() / "Backstage.IL.conf").generic_string();
     const PythonRunOutcome refused = run("open(args['file'], 'w')", json{{"file", denied}});
     CHECK(refused.status == "raised");
     CHECK_THAT(refused.message, ContainsSubstring("PermissionError"));
@@ -1973,7 +1973,7 @@ TEST_CASE("code a script leaves for its result, exception or namespace runs unde
         SKIP("Bundled Python interpreter unavailable: " + PythonInterpreter::instance().last_error());
 
     ScopedTemporaryDir outside("orca-python-script-leftovers");
-    const std::string  denied = (outside.path() / "OrcaSlicer.conf").generic_string();
+    const std::string  denied = (outside.path() / "Backstage.IL.conf").generic_string();
 
     // An exception's own __str__ runs when the run reports it.
     const PythonRunOutcome raised = run(R"PY(

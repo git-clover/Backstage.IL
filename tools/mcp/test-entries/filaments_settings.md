@@ -49,16 +49,16 @@ the slice counts the purge as `tower_g` and leaves `flush_g` 0, so the flush set
 **Starts from:** each scenario's own `start()`, and the filaments it shows by name hidden before its first scenario
 (the presets' letters are given under Terms):
 - `start(client, filaments=[B] * n)` for each scenario before the project's own settings, `n` being the slots it
-  needs: a new project on `MyKlipper 0.4 nozzle` with `0.20mm Standard @MyKlipper` and `n` slots holding `B`.
-  `presets()` is `{printer: "MyKlipper 0.4 nozzle", process: "0.20mm Standard @MyKlipper", filaments: [B, …]}`, one
+  needs: a new project on `MyKlipper 0.4 nozzle` with `0.20 mm Standard @MyKlipper` and `n` slots holding `B`.
+  `presets()` is `{printer: "MyKlipper 0.4 nozzle", process: "0.20 mm Standard @MyKlipper", filaments: [B, …]}`, one
   `B` per slot. The baseline's Auto-flush All, which the slot scenarios' volumes follow, is read back with
   `preferences_get` as `all`.
 - `start(client, filaments=[B, M])` for the project's own settings, then `settings_set {type: "printer", values:
   {support_multi_bed_types: true}}`, which `settings_get` reads as "1": an unsaved edit of the printer preset, which
   turns on its plate types and which the next `start()` discards. `presets()` is `{printer: "MyKlipper 0.4 nozzle",
-  process: "0.20mm Standard @MyKlipper", filaments: [B, M]}`.
+  process: "0.20 mm Standard @MyKlipper", filaments: [B, M]}`.
 - The mixed start, for each of the mixed filaments' scenarios: `start(client)`, whose `presets()` must be `{printer:
-  "MyKlipper 0.4 nozzle", process: "0.20mm Standard @MyKlipper", filaments: [B]}`, then `add_slot` twice, with
+  "MyKlipper 0.4 nozzle", process: "0.20 mm Standard @MyKlipper", filaments: [B]}`, then `add_slot` twice, with
   `#00C1AE` and `#F4E2C1`, the baseline's colours of slots 2 and 3, or with `#FF0000` and `#0000FF` in a scenario that
   reads a mix's colour, which then checks that `filament_list` gives slots 2 and 3 those two: `slots()` is `0,0,0`, and
   the three physical rows of `filament_list` have `preset` "Generic PLA @System" and `type` "PLA". `start()` deletes
@@ -77,7 +77,7 @@ the slice counts the purge as `tower_g` and leaves `flush_g` 0, so the flush set
   settings the mode shows, and `slow_down_layer_time` is one of them.
 
 **Leaves:** what the last scenario, deleting or merging, leaves on the baseline its `start()` set: the Klipper printer
-with `0.20mm Standard @MyKlipper`; one physical slot of `B` in `#00C1AE`, slot 2's colour of the mixed start, which
+with `0.20 mm Standard @MyKlipper`; one physical slot of `B` in `#00C1AE`, slot 2's colour of the mixed start, which
 the deletes moved into slot 1, and two broken mixed filaments, which the sidebar hides beside one physical filament and
 which the next test's `start()` replaces (it adds a slot, so that the mixes can be deleted, deletes them, and goes back
 to one slot); and its project, unsaved, with the cubes `on_one` and `on_mix`. What an earlier scenario sets beyond
@@ -352,7 +352,7 @@ filament change into the prime tower, so the purges of the slices below are in `
 | 7 | `settings_set {target: "part", object: 0, part: 1, values: {extruder: null}}` | `cube 1 (1, 1) · cylinder 1` | reply `applied.extruder` "1"; `item(part 0/1, extruder)` `{value: "1", effective: "1", source: "part"}`: a part's Default writes its object's filament into the part (`ObjectList::set_extruder_for_items()`) |
 | 8 | `settings_set {target: "part", object: 0, part: 1, values: {extruder: 2}}`, then `settings_set {target: "object", object: 1, values: {extruder: 2}}` | `cube 1 (1, 2) · cylinder 2` | `item(part 0/1, extruder)` as after 5; `item(object 1, extruder)` as after 1 |
 | 9 | `settings_set {target: "object", object: 0, values: {extruder: 2, wall_loops: 5}}` | `cube 2 (2, 2) · cylinder 2` | reply `applied` `{extruder: "2", wall_loops: "5"}`; `item(object 0, extruder)` `{value: "2", effective: "2", source: "object"}` with no `parts`: the object's filament clears its parts'; `item(object 0, wall_loops)` `{value: "5", effective: "5", source: "object"}` |
-| 10 | `undo` | `cube 1 (1, 2) · cylinder 2` | `item(object 0, extruder)` as after 5; `item(object 0, wall_loops)` `{value: null, effective: "3", source: "global"}`, the `wall_loops` of `0.20mm Standard @MyKlipper`: the call was one undo step |
+| 10 | `undo` | `cube 1 (1, 2) · cylinder 2` | `item(object 0, extruder)` as after 5; `item(object 0, wall_loops)` `{value: null, effective: "3", source: "global"}`, the `wall_loops` of `0.20 mm Standard @MyKlipper`: the call was one undo step |
 | 11 | `plate_slice` | as after 10 | outcome `ok`; `grams()` slot 2 `model_g` above step 6's: the cylinder prints with filament 2 too; slot 1 `model_g` above 0; `filament_changes` above 0 |
 
 **Scenario: one slot merged into another**
@@ -372,7 +372,7 @@ filaments' scenarios merge into a mix.
 **Scenario: the slot colours, the flushing and the project's own settings, the print and the file**
 
 From `start(client, filaments=[B, M])` and the printer's plate types turned on (see Starts from): `presets()` is
-`{printer: "MyKlipper 0.4 nozzle", process: "0.20mm Standard @MyKlipper", filaments: [B, M]}`, `support_multi_bed_types`
+`{printer: "MyKlipper 0.4 nozzle", process: "0.20 mm Standard @MyKlipper", filaments: [B, M]}`, `support_multi_bed_types`
 reads "1" and `slots()` is `0,0`. The cube, its part and the cylinder of the scenario before are added the same way,
 and the part and the cylinder given filament 2 with `settings_set`: `filaments()` is `cube 1 (1, 2) · cylinder 2`.
 Then the colours `#111111;#222222` with `filament_set_colour`, the matrix `0,777,777,0` and the multiplier 1 with
@@ -593,16 +593,16 @@ filament slot's, and the settings an object and a region take; then `settings_se
 part, a modifier and a height range, named by index and taken from the selection, with each value's `effective` and
 `source` in the order the slicer applies them; what the targets' settings do in the print; and the height ranges
 replaced, the range that stays keeping its settings. It runs on the Generic Klipper Printer 0.4 with the process
-0.20mm Standard @MyKlipper (`layer_height` 0.2, `wall_loops` 3, `sparse_infill_density` 15%, `top_shell_layers` 4):
+0.20 mm Standard @MyKlipper (`layer_height` 0.2, `wall_loops` 3, `sparse_infill_density` 15%, `top_shell_layers` 4):
 nothing it checks is a Bambu Lab printer's own.
 
-**Starts from:** every scenario's `start(client)`: a new project on `MyKlipper 0.4 nozzle` with `0.20mm Standard
+**Starts from:** every scenario's `start(client)`: a new project on `MyKlipper 0.4 nozzle` with `0.20 mm Standard
 @MyKlipper` and one slot holding `B` (Generic PLA @System), the printer's default filament. `presets()` is `{printer:
-"MyKlipper 0.4 nozzle", process: "0.20mm Standard @MyKlipper", filaments: [B]}`, and `object_list` lists no object.
+"MyKlipper 0.4 nozzle", process: "0.20 mm Standard @MyKlipper", filaments: [B]}`, and `object_list` lists no object.
 Nothing beyond the baseline reaches its checks: the settings commands read the presets and the project alike in every
 mode, and no preference changes what they give.
 
-**Leaves:** what the targets scenario leaves on the baseline its `start()` set: the Klipper printer with `0.20mm
+**Leaves:** what the targets scenario leaves on the baseline its `start()` set: the Klipper printer with `0.20 mm
 Standard @MyKlipper` and one slot of `B`, and `settings.3mf` open as the project, with its cube, saved in the test's
 temporary folder and deleted with it, in the recent projects, with that folder as the last one opened. It saves no
 preset, installs nothing and sets no preference: `Generic PETG @System`, which the first scenario puts in slot 2, is
@@ -640,7 +640,7 @@ replaces, and its project file goes to a new temporary folder.
 | 3 | `listed(filament)` | `total` above 100, whole as in 1; `filament_type` "PLA", `slow_down_layer_time` "4" |
 | 4 | `listed(process, include_meta: true)`, then with `offset` 100, 200 and on until a page has no `next_offset` | each page but the last holds 100 items and `next_offset` the next hundred; every item has `meta`; the pages' keys, in order, are step 1's |
 | 5 | `listed(process, limit: 50)` | 50 items, `next_offset` 50, none with `meta`; they are step 1's first 50 |
-| 6 | `listed(process, preset: "0.16mm Optimal @MyKlipper")` | `layer_height` "0.16"; `presets().process` is still 0.20mm Standard @MyKlipper: reading a preset does not select it |
+| 6 | `listed(process, preset: "0.16 mm Optimal @MyKlipper")` | `layer_height` "0.16"; `presets().process` is still 0.20 mm Standard @MyKlipper: reading a preset does not select it |
 | 7 | `add_slot` with `#00C1AE`, the baseline's colour of slot 2, then `preset_select {type: "filament", name: "Generic PETG", filament_slot: 2}` | `presets().filaments` `[B, Generic PETG @System]`; `listed(filament, filament_slot: 2)` gives `filament_type` "PETG" and `slow_down_layer_time` "8", `listed(filament, filament_slot: 1)` "PLA" and "4" |
 
 **Scenario: what an object and a region take**

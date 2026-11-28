@@ -341,7 +341,7 @@ def vendor_printer(vendor, model, nozzle, filament=None, profiles=PROFILES):
 
 
 def seed_datadir(datadir, printer):
-    """Seed a fresh datadir's OrcaSlicer.conf, and return True; a datadir that has one keeps it, and gets False.
+    """Seed a fresh datadir's Backstage.IL.conf, and return True; a datadir that has one keeps it, and gets False.
 
     A fresh datadir keeps the Orca Cloud login in its own token file (use_encrypted_token_file), not in the
     system's secret store, so the instance starts signed out and never reads the person's login: on macOS
@@ -349,7 +349,7 @@ def seed_datadir(datadir, printer):
     opens WINDOW_SIZE at the top left of the work area: the app trims a saved window to the work area, so one
     placed over the macOS menu bar would open that much shorter."""
     os.makedirs(datadir, exist_ok=True)
-    conf = os.path.join(datadir, "OrcaSlicer.conf")
+    conf = os.path.join(datadir, "Backstage.IL.conf")
     if os.path.exists(conf):
         return False
     x, y = work_area_origin()

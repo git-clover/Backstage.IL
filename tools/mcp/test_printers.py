@@ -16,9 +16,9 @@ import orca_mcp  # noqa: E402
 from checks import BAMBU_PLA, X1C, X1C_STD, Checks, dialogs, refusal, run, start  # noqa: E402
 
 H2D, H2D_06 = "Bambu Lab H2D 0.4 nozzle", "Bambu Lab H2D 0.6 nozzle"
-H2D_STD, H2D_PLA = "0.20mm Standard @BBL H2D", "Bambu PLA Basic @BBL H2D"
+H2D_STD, H2D_PLA = "0.20 mm Standard @BBL H2D", "Bambu PLA Basic @BBL H2D"
 A1_MINI = "Bambu Lab A1 mini 0.4 nozzle"
-ER20, ER20_STD, GENERIC_PLA = "Eryone ER20 0.4 nozzle", "0.20mm Standard @Eryone ER20", "Generic PLA @System"
+ER20, ER20_STD, GENERIC_PLA = "Eryone ER20 0.4 nozzle", "0.20 mm Standard @Eryone ER20", "Generic PLA @System"
 # What printer_install installs each printer start() does not know from.
 MODELS = {H2D: {"vendor": "BBL", "model": "Bambu Lab H2D", "nozzles": ["0.4"]},
           ER20: {"vendor": "Eryone", "model": "Eryone ER20", "nozzles": ["0.4"]}}

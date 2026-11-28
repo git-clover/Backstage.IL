@@ -637,7 +637,7 @@ def rung_project_model():
 # ---------------------------------------------------------------- text and art
 
 # A drawing 40 mm square with one filled 10 x 10 mm square off its centre.
-SQUARE_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" width="40mm" height="40mm" viewBox="0 0 40 40">'
+SQUARE_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" width="40 mm" height="40 mm" viewBox="0 0 40 40">'
               '<rect x="20" y="5" width="10" height="10" fill="black"/></svg>')
 
 

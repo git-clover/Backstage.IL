@@ -1659,7 +1659,7 @@ TEST_CASE("a write of several preferences is checked whole before any is written
     CHECK(code_of(refused) == "not_a_folder");
     REQUIRE(refused);
     CHECK(refused->english() == "download_path takes the absolute path of an existing folder, which \"" + missing + "\" is not.");
-    CHECK(code_of(check_preferences(table, {{"download_path", folder + "/20mm_cube.obj"}})) == "not_a_folder");
+    CHECK(code_of(check_preferences(table, {{"download_path", folder + "/20 mm_cube.obj"}})) == "not_a_folder");
     CHECK(code_of(check_preferences(table, {{"download_path", "data"}})) == "not_a_folder");
     CHECK(code_of(check_preferences(table, {{"download_path", ""}})) == "not_a_folder");
 

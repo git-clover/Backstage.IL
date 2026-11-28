@@ -25,7 +25,7 @@ from checks import (GENERIC_PLA, KLIPPER, KLIPPER_STD, Checks, answer_all, dialo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
-BOX_STL = os.path.join(REPO, "tests", "data", "test_stl", "ASCII", "20mmbox-LF.stl")
+BOX_STL = os.path.join(REPO, "tests", "data", "test_stl", "ASCII", "20 mmbox-LF.stl")
 STEP = os.path.join(REPO, "tests", "data", "named_single_body.step")
 BENCHY = os.path.join(REPO, "resources", "handy_models", "3DBenchy.drc")
 HEIGHTMAP = os.path.join(HERE, "tests", "fixtures", "heightmap.png")
@@ -217,7 +217,7 @@ class FilesTest:
         if USER_PLA in self.user_filaments():
             self.run("preset_delete", type="filament", name=USER_PLA)
         self.t.check(f"{s}: no {USER_PLA} preset", USER_PLA not in self.user_filaments(), self.user_filaments())
-        shutil.copyfile(BOX_STL, self.w("20mmbox-LF.stl"))
+        shutil.copyfile(BOX_STL, self.w("20 mmbox-LF.stl"))
         with open(self.w("mcp_files_pla.json"), "w", encoding="utf-8") as f:
             json.dump(USER_PLA_FILE, f, indent=4)
 
@@ -501,19 +501,19 @@ class FilesTest:
 
     def importing_scenario(self):
         s = "importing models"
-        box = ("20mmbox-LF.stl", 12, 8000, [20, 20, 20])
-        box_stl = self.w("20mmbox-LF.stl")
+        box = ("20 mmbox-LF.stl", 12, 8000, [20, 20, 20])
+        box_stl = self.w("20 mmbox-LF.stl")
         self.start(s)
         undo_steps(self.c)
         reply = self.run("project_import", paths=[box_stl])
         self.meshes_are(f"{s} 1", box)
         self.t.equal(f"{s} 1: the reply",
                      {k: reply.get(k) for k in ("opened", "added", "objects", "names", "plates")},
-                     {"opened": "models", "added": 1, "objects": 1, "names": ["20mmbox-LF.stl"], "plates": 1})
-        self.project_is(f"{s} 1: an untitled project takes the first file's name", "20mmbox-LF", None, "dirty")
-        self.steps_are(f"{s} 1", ["Import Objects: 20mmbox-LF.stl"])
+                     {"opened": "models", "added": 1, "objects": 1, "names": ["20 mmbox-LF.stl"], "plates": 1})
+        self.project_is(f"{s} 1: an untitled project takes the first file's name", "20 mmbox-LF", None, "dirty")
+        self.steps_are(f"{s} 1", ["Import Objects: 20 mmbox-LF.stl"])
         self.unsaved_is(f"{s} 1", [])
-        self.recent_has(f"{s} 1", "20mmbox-LF.stl", held=False)
+        self.recent_has(f"{s} 1", "20 mmbox-LF.stl", held=False)
         self.run("undo", history="project")
         self.names_are(f"{s} 2: the import is one undo step")
 
@@ -521,10 +521,10 @@ class FilesTest:
         self.cylinder("cyl")
         self.run("settings_set", values={"top_shell_layers": 7})
         reply = self.run("project_import", paths=[box_stl])
-        self.names_are(f"{s} 3", "cyl", "20mmbox-LF.stl")
+        self.names_are(f"{s} 3", "cyl", "20 mmbox-LF.stl")
         self.meshes_are(f"{s} 3: the box", box, got=meshes(self.c)[1:])
         self.t.equal(f"{s} 3: the reply's added", reply.get("added"), 1)
-        self.project_is(f"{s} 3", "20mmbox-LF", None, "dirty")
+        self.project_is(f"{s} 3", "20 mmbox-LF", None, "dirty")
         self.values_are(f"{s} 3", {"top_shell_layers": "7"})
         self.unsaved_is(f"{s} 3", ["top_shell_layers"])
         self.run("undo", history="project")

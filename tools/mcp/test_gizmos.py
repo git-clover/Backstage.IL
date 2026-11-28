@@ -25,7 +25,7 @@ FIXTURES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tests", "fi
 STAR = os.path.join(FIXTURES, "star.svg")
 HEIGHTMAP = os.path.join(FIXTURES, "heightmap.png")
 STANDARD = KLIPPER_STD
-FINE = "0.16mm Optimal @MyKlipper"
+FINE = "0.16 mm Optimal @MyKlipper"
 FUZZY_WARNING = "Warning: Fuzzy skin is disabled, painted fuzzy skin will not take effect!"
 BRIM_WARNING = 'Warning: The brim type is not set to "painted", the brim ears will not take effect!'
 

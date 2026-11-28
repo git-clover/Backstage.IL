@@ -154,7 +154,7 @@ def seed(datadir):
     """orca_mcp.py launch's fresh data folder, with preset sync off and the update check sent to the loopback's discard
     port, where nothing answers."""
     seed_datadir(datadir, DEFAULT_PRINTER)
-    conf = os.path.join(datadir, "OrcaSlicer.conf")
+    conf = os.path.join(datadir, "Backstage.IL.conf")
     with open(conf, encoding="utf-8") as f:
         data = json.load(f)
     data["app"].update({"sync_user_preset": False, "version_check_url": "http://127.0.0.1:9/"})

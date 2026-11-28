@@ -57,9 +57,9 @@ printer. Measured on the X1 Carbon with that Orca machine stored, and in the app
 its two machines stored: `{"connected": false}`. The guard stays, since a person's own folder may hold a bound
 printer.
 
-The H2D part starts from `start()` on `Bambu Lab H2D 0.4 nozzle`, `0.20mm Standard @BBL H2D` and two slots of
+The H2D part starts from `start()` on `Bambu Lab H2D 0.4 nozzle`, `0.20 mm Standard @BBL H2D` and two slots of
 `Bambu PLA Basic @BBL H2D`, two filaments for two extruders; the ER20 part from `start()` on `Eryone ER20 0.4
-nozzle`, `0.20mm Standard @Eryone ER20` and `Generic PLA @System`. `checks.PRINTERS` does not list these two, so the
+nozzle`, `0.20 mm Standard @Eryone ER20` and `Generic PLA @System`. `checks.PRINTERS` does not list these two, so the
 test installs each first, after `project_new`, with `printer_install` (`{vendor: "BBL", model: "Bambu Lab H2D",
 nozzles: ["0.4"]}`, `{vendor: "Eryone", model: "Eryone ER20", nozzles: ["0.4"]}`) when `preset_list` does not list
 it installed. The conf remembers each printer preset's nozzle flow types (`nozzle_volume_types`), which a variant
@@ -134,7 +134,7 @@ the process settings saved with it (`layer_height` 0.28), and that the preferenc
 default printer, the Generic Klipper Printer 0.4 nozzle: nothing in it is a Bambu Lab printer's own.
 
 **Starts from:** A new data folder of its own, seeded by `seed_datadir()` with the default printer (`MyKlipper 0.4
-nozzle`, `0.20mm Standard @MyKlipper`, `Generic PLA @System`), with `project_load_behaviour` written into the seeded
+nozzle`, `0.20 mm Standard @MyKlipper`, `Generic PLA @System`), with `project_load_behaviour` written into the seeded
 conf before the launch, as Preferences > Load behavior writes it. The test reads both back before its first step:
 `app_state.presets` and `preferences_get`. No other test's state reaches the folder.
 
@@ -142,12 +142,12 @@ conf before the launch, as Preferences > Load behavior writes it. The test reads
 names it.
 
 **Decides by:** Exits 1 when a check prints FAIL, when its own launch fails, or on an uncaught exception.
-- Start: `app_state.presets` is `{printer: "MyKlipper 0.4 nozzle", process: "0.20mm Standard @MyKlipper", filaments:
+- Start: `app_state.presets` is `{printer: "MyKlipper 0.4 nozzle", process: "0.20 mm Standard @MyKlipper", filaments:
   ["Generic PLA @System"]}`.
 - Preference: `preferences_get` reads `project_load_behaviour` = `load_geometry_only`, both before and after the
   open.
 - Layer height: the process `layer_height` from `settings_get` is checked three times. It is 0.28 after
-  `settings_set`, 0.2 after `project_new` drops the presets' changes (the layer height of `0.20mm Standard
+  `settings_set`, 0.2 after `project_new` drops the presets' changes (the layer height of `0.20 mm Standard
   @MyKlipper`), and 0.28 again after `project_open`.
 - Open: the `names` in `project_open`'s reply has exactly one entry.
 
@@ -171,7 +171,7 @@ are checked exactly, though only one setting is covered.
 **Leaves:** Nothing: the folder is deleted at the end unless `--datadir` names its root.
 
 **Decides by:** Exits 1 when a check prints FAIL or on an uncaught exception.
-- "the app starts" and "the window layout the first run saved has the sidebar": the first launch succeeds, and the `window_layout` in `OrcaSlicer.conf` has a `name=sidebar;` entry. The app writes the conf at its next idle moment and the stop writes nothing (on Windows it kills the app), so the first run is stopped once the conf on disk holds that entry, read with `until()` for up to 30 s; when it never does, the check fails.
+- "the app starts" and "the window layout the first run saved has the sidebar": the first launch succeeds, and the `window_layout` in `Backstage.IL.conf` has a `name=sidebar;` entry. The app writes the conf at its next idle moment and the stop writes nothing (on Windows it kills the app), so the first run is stopped once the conf on disk holds that entry, read with `until()` for up to 30 s; when it never does, the check fails.
 - "view_set of sidebar_width while the sidebar floats is refused": the call must raise, with "The sidebar floats in a window of its own" in the message.
 - "and the sidebar's width stays as it was": `app_state.view.sidebar_width` equals the value read before.
 

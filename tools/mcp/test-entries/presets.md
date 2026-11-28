@@ -70,14 +70,14 @@ presets leaves that preference off; the next `start()` resets both. A failure on
 mixed slot leaves it with six slots, the last mixed before step 11, or five; the next `start()` deletes the mixes and
 then the last physical slot, which asks nothing, and puts the printer back.
 What each printer it selected was last used with: the Klipper's 0.4, 0.6 and 0.8
-nozzles Std and PLA, the Klipper's 0.2 nozzle what the start's install selected with it (0.08mm Extra Fine @MyKlipper
-and PLA in a run after `test_operation_routes`), the Marlin 0.20mm Standard @MyMarlin and PLA, the ToolChanger TC Std
+nozzles Std and PLA, the Klipper's 0.2 nozzle what the start's install selected with it (0.08 mm Extra Fine @MyKlipper
+and PLA in a run after `test_operation_routes`), the Marlin 0.20 mm Standard @MyMarlin and PLA, the ToolChanger TC Std
 and TC PLA in five slots, and an entry for "MCP Test Printer", which deleting the preset leaves. In the recent projects, `inside.3mf` in the test's own folder, which is gone once the
 test ends, so the Recent Projects menu does not list it. A new project with `Klipper | Std | PLA` in one slot.
 
 **Terms:** printers `Klipper` (MyKlipper 0.4 nozzle), `Klipper 0.6` (MyKlipper 0.6 nozzle), `Klipper 0.8`
 (MyKlipper 0.8 nozzle), `Marlin` (MyMarlin 0.4 nozzle), `ToolChanger` (MyToolChanger 0.4 nozzle); processes `Std`
-(0.20mm Standard @MyKlipper), `Opt` (0.16mm Optimal @MyKlipper), `TC Std` (0.20mm Standard @MyToolChanger); filaments
+(0.20 mm Standard @MyKlipper), `Opt` (0.16 mm Optimal @MyKlipper), `TC Std` (0.20 mm Standard @MyToolChanger); filaments
 `PLA` (Generic PLA @System), `TC PLA` (Generic PLA @MyToolChanger). Presets the test
 makes are written by their full names ("MCP Test PLA"). A value written `v×n` is n entries, each v, joined by commas:
 `220×6` is "220,220,220,220,220,220".
@@ -129,7 +129,7 @@ With `remember_printer_config` off (see **Starts from**).
 | 1 | `preset_list {type: printer}` | `Klipper \| Std \| PLA` | the Klipper is listed with `selected: true`, and neither the Klipper 0.8 nor the Marlin is listed: the start's uninstall hid them, and nothing has shown them since |
 | 2 | `preset_select {type: printer, name: "MyKlipper 0.8 nozzle"}` | `Klipper 0.8 \| Std \| PLA` | reply `shown` Klipper 0.8; no dialog opened. Std lists the 0.8 nozzle among its printers and PLA fits every printer, so both stay |
 | 3 | `preset_select` of Klipper | `Klipper \| Std \| PLA` | |
-| 4 | `preset_select {type: printer, name: "MyMarlin 0.4 nozzle", preset_changes: "discard"}` | `Marlin \| 0.20mm Standard @MyMarlin \| PLA` | reply `shown` Marlin. Std does not fit the Marlin, so the process moves to the Marlin's preset of the same alias, 0.20mm Standard; PLA fits it and stays |
+| 4 | `preset_select {type: printer, name: "MyMarlin 0.4 nozzle", preset_changes: "discard"}` | `Marlin \| 0.20 mm Standard @MyMarlin \| PLA` | reply `shown` Marlin. Std does not fit the Marlin, so the process moves to the Marlin's preset of the same alias, 0.20 mm Standard; PLA fits it and stays |
 | 5 | `preset_select` of Klipper, then Std, then PLA in slot 1 | `Klipper \| Std \| PLA` | |
 
 A hidden filament shown by name, and the name a slot's selector shows, are `test_filaments`' (its hidden filaments
@@ -209,7 +209,7 @@ The scenario first selects "MCP Test PLA" (filament cost 23) in slot 1.
 | # | Step | Selection after | Also checked |
 |---|---|---|---|
 | 1 | `settings_set {type: process, reset_all: true, values: {wall_loops: 5, sparse_infill_density: "25%"}}` | `Klipper \| Std[sparse_infill_density 25%, wall_loops 5] \| PLA` | reply `changed` `{wall_loops: "5", sparse_infill_density: "25%"}` |
-| 2 | `settings_get {type: process, compare: ":saved"}` | as after 1 | `total` 2, `left` "0.20mm Standard @MyKlipper (edited)", items `sparse_infill_density` "25%" (other "15%") and `wall_loops` "5" (other "3"), in that order |
+| 2 | `settings_get {type: process, compare: ":saved"}` | as after 1 | `total` 2, `left` "0.20 mm Standard @MyKlipper (edited)", items `sparse_infill_density` "25%" (other "15%") and `wall_loops` "5" (other "3"), in that order |
 | 3 | `settings_get {type: process, preset: <Std>, keys: [wall_loops]}`; `settings_get {type: process, preset: <Opt>, keys: [layer_height]}` | as after 1 | "3", the saved value without the edit, and "0.16"; reading Opt did not select it |
 | 4 | `settings_get {type: process, compare: <Opt>, keys: [layer_height, wall_loops]}` | as after 1 | `right` Opt; items `layer_height` "0.2" (other "0.16") and `wall_loops` "5" (other "3") |
 
@@ -228,11 +228,11 @@ selects again what it was last used with: Std and PLA, from hidden presets step 
 | 1 | none | process Opt | `Klipper \| Opt \| PLA` | no dialog opened; the reply has no `discarded` and no `modified` |
 | 2 | process | process Opt, `preset_changes: "transfer"` | `Klipper \| Opt[wall_loops 5] \| PLA` | reply `modified` `{process: {name: Opt, keys: [wall_loops]}}`, no `discarded` |
 | 3 | process | process Opt, asks, answered Discard | `Klipper \| Opt \| PLA` | one dialog held the call, titled "Transfer or discard changes", with the buttons Transfer, Discard and Save; the job's reply `discarded` `{process: {name: Std, keys: [wall_loops]}}`, no `modified` |
-| 4 | process | process Opt, asks, closed (`cancel`) | `Klipper \| Std[wall_loops 5] \| PLA` | the job ends refused, `selection_cancelled`, `Selecting "0.16mm Optimal @MyKlipper" was cancelled.` |
+| 4 | process | process Opt, asks, closed (`cancel`) | `Klipper \| Std[wall_loops 5] \| PLA` | the job ends refused, `selection_cancelled`, `Selecting "0.16 mm Optimal @MyKlipper" was cancelled.` |
 | 5 | process | process Std, the one the tab edits; asks, closed | `Klipper \| Std[wall_loops 5] \| PLA` | a dialog of the title and buttons of row 3 held it; refused, `selection_cancelled` |
 | 6 | none | process "No Such Process" | `Klipper \| Std \| PLA` | refused, `preset_not_offered`, `The preset selector does not offer "No Such Process".` |
-| 7 | none | process "0.16mm Optimal", Opt's alias | `Klipper \| Std \| PLA` | refused, `preset_not_offered`, `The preset selector does not offer "0.16mm Optimal".`, its details' `similar` starting with Opt: a compatible preset carries the name, under another name in the selector |
-| 8 | none | process "0.20mm Standard @MyMarlin" | `Klipper \| Std \| PLA` | refused, `preset_incompatible`, `"0.20mm Standard @MyMarlin" is not compatible with the selected printer.` |
+| 7 | none | process "0.16 mm Optimal", Opt's alias | `Klipper \| Std \| PLA` | refused, `preset_not_offered`, `The preset selector does not offer "0.16 mm Optimal".`, its details' `similar` starting with Opt: a compatible preset carries the name, under another name in the selector |
+| 8 | none | process "0.20 mm Standard @MyMarlin" | `Klipper \| Std \| PLA` | refused, `preset_incompatible`, `"0.20 mm Standard @MyMarlin" is not compatible with the selected printer.` |
 | 9 | printer | printer Klipper 0.8, `"transfer"` | `Klipper[printer_notes "MCP pin"] \| Std \| PLA` | refused, `transfer_not_offered`, "The unsaved changes cannot be transferred: a printer's changes stay with it." |
 | 10 | printer | printer Klipper 0.8, asks, answered Discard | `Klipper 0.8 \| Std \| PLA` | the dialog's title as in row 3, its buttons Discard and Save, no Transfer; the job's reply `discarded` `{printer: {name: Klipper, keys: [printer_notes]}}` |
 | 11 | printer | printer Klipper 0.8, asks, closed | `Klipper[printer_notes "MCP pin"] \| Std \| PLA` | refused, `selection_cancelled` |
@@ -293,7 +293,7 @@ It starts by selecting "MCP Test PLA" in slot 1 and setting `sparse_infill_densi
 
 | # | Step | Selection after | Also checked |
 |---|---|---|---|
-| 1 | `settings_set` `wall_loops` 6, then `project_new {discard_changes: true}` | `Klipper \| Std[wall_loops 6] \| PLA` | reply `modified` `{process: {name: Std, keys: [wall_loops]}}`, no `discarded`; `preset_list {type: process, query: "0.20mm Standard @MyKlipper"}` gives the item `modified: true` |
+| 1 | `settings_set` `wall_loops` 6, then `project_new {discard_changes: true}` | `Klipper \| Std[wall_loops 6] \| PLA` | reply `modified` `{process: {name: Std, keys: [wall_loops]}}`, no `discarded`; `preset_list {type: process, query: "0.20 mm Standard @MyKlipper"}` gives the item `modified: true` |
 | 2 | `project_new {discard_changes: true, preset_changes: "keep"}` | as after 1 | reply as in step 1 |
 | 3 | `project_new {discard_changes: true, preset_changes: "discard"}` | `Klipper \| Std \| PLA` | reply `discarded` `{process: {name: Std, keys: [wall_loops]}}`, no `modified`; the item has no `modified` |
 
@@ -325,7 +325,7 @@ It starts with "MCP Test PLA" in slot 1. The presets it deletes are those the sc
 | 6 | Developer mode on, `preset_save {type: process, name: "MCP Delete Base", detach: true}`, Developer mode off | `Klipper \| MCP Delete Base \| PLA` | reply `user` true and no `inherits` |
 | 7 | `settings_set` `wall_loops` 2, then `preset_save {type: process, name: "MCP Delete Child"}` | `Klipper \| MCP Delete Child \| PLA` | reply `inherits` "MCP Delete Base", `selected` true; the child reads `wall_loops` "2", where the base holds Std's 3 |
 | 8 | `preset_delete` of "MCP Delete Base" | as after 7 | refused, `"MCP Delete Base" cannot be deleted while other presets inherit from it`; `listed(process, query: "MCP Delete")` has both |
-| 9 | `preset_select` of Std, `wall_loops` 4, then `preset_delete` of "MCP Delete Child" | `Klipper \| Std[wall_loops 4] \| PLA` | refused, `The edited process "0.20mm Standard @MyKlipper" has unsaved changes`; both still listed |
+| 9 | `preset_select` of Std, `wall_loops` 4, then `preset_delete` of "MCP Delete Child" | `Klipper \| Std[wall_loops 4] \| PLA` | refused, `The edited process "0.20 mm Standard @MyKlipper" has unsaved changes`; both still listed |
 | 10 | `settings_set {type: process, reset_all: true}`, then `preset_delete` of "MCP Delete Child" | `Klipper \| Std \| PLA` | reply `deleted` "MCP Delete Child", `selected` Std, no `discarded`: it was selected, deleted and the selection restored; "MCP Delete Base" alone is listed |
 | 11 | `preset_select` of "MCP Delete Base", `wall_loops` 5, then `preset_delete` of it | `Klipper \| <P> \| PLA` | `<P>` is the reply's `selected`, a process other than "MCP Delete Base"; `discarded` `{process: {name: "MCP Delete Base", keys: [wall_loops]}}`; `listed(process, query: "MCP Delete")` is empty |
 | 12 | `preset_select` of Std, then `preset_save {type: printer, name: "MCP Test Printer"}` | `MCP Test Printer \| Std \| PLA` | reply `user` true, `inherits` Klipper, `selected` true |
@@ -532,9 +532,9 @@ Retraction"}` lists exactly the ten keys of that group (`publishable_printer_ret
   why the Klipper is selected again before it; the install selects the first nozzle it adds. That also hides a
   printer that the data folder's last selection showed when the app started.
 - The Marlin's process (hidden presets, step 4). Std does not fit the Marlin, and the compatibility update picks the
-  Marlin's process with Std's alias, "0.20mm Standard" (`PreferedProfileMatch` in `PresetBundle.cpp`). With
+  Marlin's process with Std's alias, "0.20 mm Standard" (`PreferedProfileMatch` in `PresetBundle.cpp`). With
   `remember_printer_config` on, the switch first selects what the Marlin was last used with, and on a folder where it
-  was never used it lands on the first of its processes, "0.08mm Extra Fine @MyMarlin", instead; the scenario turns
+  was never used it lands on the first of its processes, "0.08 mm Extra Fine @MyMarlin", instead; the scenario turns
   the preference off for that reason as well.
 - The filament a printer that is not the Klipper takes. PLA's `compatible_printers` is empty, so it fits every
   printer of the vendor but the ToolChanger, which has a Generic PLA of its own (the library leaves its generic
@@ -545,8 +545,8 @@ Retraction"}` lists exactly the ten keys of that group (`publishable_printer_ret
 - The compatible printers of a saved filament (saving, step 2). `Tab::save_preset()` sets the printer selected as
   `compatible_printers` when the preset saved has none, so that a filament made from a library one does not fit every
   printer by accident.
-- An alias as a name (switching, row 7; plugin API, row 6). `"0.16mm Optimal"` is the alias of Opt and of the
-  ToolChanger's 0.16mm Optimal. The tab's selector lists Opt by its full name, so the name matches no row and no
+- An alias as a name (switching, row 7; plugin API, row 6). `"0.16 mm Optimal"` is the alias of Opt and of the
+  ToolChanger's 0.16 mm Optimal. The tab's selector lists Opt by its full name, so the name matches no row and no
   hidden preset. The refusal is `preset_not_offered` with the `similar` names, since a compatible preset, Opt, carries
   the name (`not_offered()` in `src/slic3r/GUI/Operations/PresetOps.cpp`); `similar_preset_names()` ranks Opt first
   (both words matched, and compatible). Row 8's name, which no compatible preset carries, is `preset_incompatible`.

@@ -15,13 +15,13 @@ refusals of the Preview's fields; height range modifiers, variable layer heights
 to reach the G-code and to be kept by a 3MF; every command that takes a plate index, given one the project lacks and one
 it has; the display switches, the sidebar, the legend fold and the G-code window of `view_set`, shown on the 3D view and
 kept in the app's configuration; and `app_state`'s account, network plug-in and configuration folder. It runs on the
-default printer, the Generic Klipper Printer 0.4 nozzle with 0.20mm Standard @MyKlipper and Generic PLA (0.2 mm layers,
+default printer, the Generic Klipper Printer 0.4 nozzle with 0.20 mm Standard @MyKlipper and Generic PLA (0.2 mm layers,
 a first layer of 0.2 mm, 15 % crosshatch sparse infill, the prime tower on, `travel_speed` 350 mm/s,
 `machine_pause_gcode` `PAUSE`, layer heights 0.08 to 0.32 mm, no silent-mode estimate). Nothing it checks needs a Bambu
 Lab printer's own behaviour, and its G-code is read as a printer outside the Bambu network writes it. Its sweep entry
 sets `timeout_s` 1500: it slices about thirty times, three of them a Benchy.
 
-**Starts from:** `start(client)`, whose `presets()` must be `{printer: "MyKlipper 0.4 nozzle", process: "0.20mm Standard
+**Starts from:** `start(client)`, whose `presets()` must be `{printer: "MyKlipper 0.4 nozzle", process: "0.20 mm Standard
 @MyKlipper", filaments: ["Generic PLA @System"]}`, and `filament_list` read back: slot 1 `#26A69A` and the flush
 multiplier 0.3, the baseline's, since the purge between two slots, and so the depth of the two-colour slices' prime
 tower, follows both (To settle). The baseline's `auto_slice_after_change` false has a plate sliced only when a row
@@ -67,7 +67,7 @@ off again in a `finally` once its step 9 has turned it on.
   node, asking every 0.25 s: the notification a slice leaves has gone. After 15 s it goes on without failing, since
   the notification counts down only while the main window is active, and one that stays draws the same in every
   capture.
-- `conf(key)` (new) gives the `app` section's value of `key` in `<datadir>/OrcaSlicer.conf`, the datadir the session
+- `conf(key)` (new) gives the `app` section's value of `key` in `<datadir>/Backstage.IL.conf`, the datadir the session
   file names (the job's data folder), read with `until()` every 0.1 s until it holds the expected value, since the app
   writes the file at an idle moment; after 30 s it gives the value read last, which the row's check then fails on.
 - `snapshots()` gives the undo snapshots taken since its last call, from `tests/fixtures/ops_undo.py`.

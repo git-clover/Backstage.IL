@@ -41,7 +41,7 @@ run() {
     [ "$rc" = 0 ] || { echo "FAIL: $(basename "$out"): orca-slicer exited $rc"; tail -n 40 "$out/log"; exit 1; }
 }
 
-X1C=(--load-settings "$PROFILES/machine/Bambu Lab X1 Carbon 0.4 nozzle.json;$PROFILES/process/0.20mm Standard @BBL X1C.json"
+X1C=(--load-settings "$PROFILES/machine/Bambu Lab X1 Carbon 0.4 nozzle.json;$PROFILES/process/0.20 mm Standard @BBL X1C.json"
      --load-filaments "$PROFILES/filament/Bambu PLA Basic @BBL X1C.json")
 
 # retarget <tag> <plate> <machine> <process> <plate 1 x list> <plate 2 x list>: export a two-plate X1 Carbon
@@ -73,9 +73,9 @@ EOF
 
 # Plates on the X1 Carbon's 256 mm bed are 307.2 mm apart, so the cube 20 mm into plate 2 is within the
 # H2S bed's 340 mm width of plate 1's origin.
-retarget larger 2 "Bambu Lab H2S 0.4 nozzle" "0.20mm Standard @BBL H2S" 120 20,120
+retarget larger 2 "Bambu Lab H2S 0.4 nozzle" "0.20 mm Standard @BBL H2S" 120 20,120
 
 # The cube 230 mm into plate 1 is past the A1 mini bed's 180 mm width.
-retarget smaller 1 "Bambu Lab A1 mini 0.4 nozzle" "0.20mm Standard @BBL A1M" 150,230 120
+retarget smaller 1 "Bambu Lab A1 mini 0.4 nozzle" "0.20 mm Standard @BBL A1M" 150,230 120
 
 echo "PASS: slicing a plate on a larger or smaller bed keeps every object on it"

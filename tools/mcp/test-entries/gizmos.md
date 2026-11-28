@@ -31,7 +31,7 @@ scenario's pans need. Beyond the baseline it sets Expert mode (the Expert action
 `expert`), since some panel items show only there.
 
 **Leaves:** Expert mode. The last scenario's project, unsaved: A with its text and SVG parts and B, the SVG gizmo
-open. The Klipper printer with `0.20mm Standard @MyKlipper` and one `Generic PLA @System` slot: openings refused
+open. The Klipper printer with `0.20 mm Standard @MyKlipper` and one `Generic PLA @System` slot: openings refused
 takes back to one the two slots the painting and opening scenarios make. The imported height map in the data
 folder's texture library, `textures/displacement/heightmap.png` (or `heightmap (n).png`, see painting and texture
 layers), first in the app's recent textures. The Text tool's last style, `ITALIC`, which the app stores as the gizmo
@@ -92,18 +92,18 @@ purpose.
 
 The preset prompt that asks to transfer or discard unsaved changes is answered by an auto-answer rule naming the
 button. `wall_loops` is read with `settings_get {type: "process"}` and the selected process preset from
-`app_state`. Both presets, `0.20mm Standard @MyKlipper` and `0.16mm Optimal @MyKlipper`, inherit `wall_loops` "3"
+`app_state`. Both presets, `0.20 mm Standard @MyKlipper` and `0.16 mm Optimal @MyKlipper`, inherit `wall_loops` "3"
 from the Custom vendor's `fdm_process_common`. A rule presses its button once the prompt's modal loop runs
 (`ModalTracker::Enter`), so a switch the prompt holds may first reply `blocked_by_dialog`; the test follows its job to
 the end with `app_wait {for: "job"}` and checks the job's reply.
 
 | # | Step | Process after | Also checked |
 |---|---|---|---|
-| 0 | start | 0.20mm Standard, `wall_loops` "3" | `rules()` lists no rule |
-| 1 | `dialog_auto_answer {rules: [{match: "Transfer or discard", button: "Transfer"}]}`, then `preset_select {type: "process", name: "0.20mm Standard @MyKlipper"}` | 0.20mm Standard, "3" | `rules()`: the rule, `uses` 0 |
-| 2 | `settings_set {type: "process", values: {wall_loops: 5}}` | 0.20mm Standard, "5" | |
-| 3 | `preset_select` of "0.16mm Optimal @MyKlipper" | 0.16mm Optimal, "5" | the reply's `selected`; the rule's `uses` is 1: the prompt was asked once and Transfer moved the edit (the preset's own value is "3") |
-| 4 | the rules replaced by `[{match: "Transfer or discard", button: "Discard"}]`, then `preset_select` of "0.20mm Standard @MyKlipper" | 0.20mm Standard, "3" (the edit was dropped, not moved back) | the reply's `selected`; the new rule's `uses` goes from 0 to 1; `app_state.project.dirty` is false |
+| 0 | start | 0.20 mm Standard, `wall_loops` "3" | `rules()` lists no rule |
+| 1 | `dialog_auto_answer {rules: [{match: "Transfer or discard", button: "Transfer"}]}`, then `preset_select {type: "process", name: "0.20 mm Standard @MyKlipper"}` | 0.20 mm Standard, "3" | `rules()`: the rule, `uses` 0 |
+| 2 | `settings_set {type: "process", values: {wall_loops: 5}}` | 0.20 mm Standard, "5" | |
+| 3 | `preset_select` of "0.16 mm Optimal @MyKlipper" | 0.16 mm Optimal, "5" | the reply's `selected`; the rule's `uses` is 1: the prompt was asked once and Transfer moved the edit (the preset's own value is "3") |
+| 4 | the rules replaced by `[{match: "Transfer or discard", button: "Discard"}]`, then `preset_select` of "0.20 mm Standard @MyKlipper" | 0.20 mm Standard, "3" (the edit was dropped, not moved back) | the reply's `selected`; the new rule's `uses` goes from 0 to 1; `app_state.project.dirty` is false |
 
 **Scenario: Move, Rotate and Scale**
 

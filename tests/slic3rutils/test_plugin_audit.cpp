@@ -826,7 +826,7 @@ TEST_CASE("Plugin audit denies host-managed filenames anywhere", "[audit]")
 
     SECTION("an unrelated name that merely shares a stem is not denied")
     {
-        // The prefix is the full registered name ("OrcaSlicer.conf"), not the stem "OrcaSlicer",
+        // The prefix is the full registered name ("Backstage.IL.conf"), not the stem "OrcaSlicer",
         // so a sibling file with a different extension/suffix stays allowed.
         CHECK_FALSE(mgr.is_denied_filename(fs::path(data_dir()) / (SLIC3R_APP_KEY "_other.txt")));
         CHECK_FALSE(mgr.is_denied_filename(fs::path(data_dir()) / (SLIC3R_APP_KEY ".json")));

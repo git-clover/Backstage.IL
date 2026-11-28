@@ -11,11 +11,11 @@ a project file and saving one under a name; importing models (STL, a project's `
 files that hold no model); and exporting the objects as STL and DRC, the model as a 3MF, the plate's G-code and the
 sliced file. Every written file is read back: the test opens it itself (a G-code's text, a sliced file's entries, a
 folder's file names and sizes), or the app reads it (an exported mesh imported into an empty project, a saved project
-opened again). It runs on the default printer, the Generic Klipper Printer 0.4, with its 0.20mm Standard @MyKlipper
+opened again). It runs on the default printer, the Generic Klipper Printer 0.4, with its 0.20 mm Standard @MyKlipper
 process (`wall_loops` 3, `top_shell_layers` 4, layers of 0.2 mm from the first, `exclude_object` on) and one Generic
 PLA slot. Nothing it checks needs a Bambu Lab printer's own behaviour.
 
-**Starts from:** `start(client)`, whose `presets()` must be `{printer: "MyKlipper 0.4 nozzle", process: "0.20mm
+**Starts from:** `start(client)`, whose `presets()` must be `{printer: "MyKlipper 0.4 nozzle", process: "0.20 mm
 Standard @MyKlipper", filaments: ["Generic PLA @System"]}`. It sets nothing beyond the baseline. It reads back with
 `preferences_get` the preferences its checks depend on, each at the baseline's value, a new folder's:
 `project_load_behaviour` `ask_when_relevant` (an open loads the project's settings and asks nothing about them),
@@ -40,7 +40,7 @@ nothing in a `finally`.
 imports, written with `zipfile` and an ASCII STL writer of its own, and every file the app exports or saves. It reads
 `tests/data/named_single_body.step` (a tetrahedron with 10 mm legs: 4 triangles, 166.667 mm³),
 `resources/handy_models/3DBenchy.drc` and `tools/mcp/tests/fixtures/heightmap.png`. It copies
-`tests/data/test_stl/ASCII/20mmbox-LF.stl` (a 20 mm box, 12 triangles) into `W` as `W/20mmbox-LF.stl`, so that the
+`tests/data/test_stl/ASCII/20 mmbox-LF.stl` (a 20 mm box, 12 triangles) into `W` as `W/20 mmbox-LF.stl`, so that the
 path the recent-projects check looks for is this run's alone. It writes a filament preset file of its own,
 `W/mcp_files_pla.json`: `{name: "MCP Files PLA", filament_settings_id: ["MCP Files PLA"], inherits: "Generic PLA
 @System", from: "User", filament_cost: ["24"], version: "2.8.0.16"}`, a preset the Klipper printer takes
@@ -114,9 +114,9 @@ call leaves the tab as it was. New Project (the action) is `action_run {id: "new
 | 6 | New Project | as after 5 | reply `blocked_by_dialog`; `dialogs()` is one dialog, titled `Creating a new project: unsaved changes`: a project with no objects asks nothing about saving it |
 | 7 | `dialog_answer` Discard; the job is followed to its end | `Untitled · none · clean` | `top_shell_layers` `4`; `unsaved("process")` `[]`; `dialogs()` empty; tab `prepare` |
 | 8 | `settings_set {values: {top_shell_layers: 7}}`, New Project, `dialog_answer` Transfer, the job followed to its end | `Untitled · none · clean` | the dialog of 6 opened; `top_shell_layers` `7`, `unsaved("process")` `[top_shell_layers]`: the change is carried into the new project; tab `prepare` |
-| 9 | `project_new {discard_changes: true, preset_changes: "discard"}` | `Untitled · none · clean` | reply `discarded` `{process: {name: "0.20mm Standard @MyKlipper", keys: ["top_shell_layers"]}}` and no `modified`; `top_shell_layers` `4`; `unsaved("process")` `[]`; tab `prepare` |
+| 9 | `project_new {discard_changes: true, preset_changes: "discard"}` | `Untitled · none · clean` | reply `discarded` `{process: {name: "0.20 mm Standard @MyKlipper", keys: ["top_shell_layers"]}}` and no `modified`; `top_shell_layers` `4`; `unsaved("process")` `[]`; tab `prepare` |
 | 10 | `settings_set {values: {top_shell_layers: 7}}`, then `project_new {silent: true}` | `Untitled · none · dirty` | refused, `unsaved_changes`; `top_shell_layers` `7`; tab `home` |
-| 11 | `project_new {discard_changes: true}` | `Untitled · none · clean` | reply `modified` `{process: {name: "0.20mm Standard @MyKlipper", keys: ["top_shell_layers"]}}` and no `discarded`; `top_shell_layers` `7`, `unsaved("process")` `[top_shell_layers]`: the presets' changes carry over by default |
+| 11 | `project_new {discard_changes: true}` | `Untitled · none · clean` | reply `modified` `{process: {name: "0.20 mm Standard @MyKlipper", keys: ["top_shell_layers"]}}` and no `discarded`; `top_shell_layers` `7`, `unsaved("process")` `[top_shell_layers]`: the presets' changes carry over by default |
 
 **Scenario: New Project's question keeps the layer G-code**
 
@@ -173,9 +173,9 @@ Each save's `undo_steps()` is `[]`: a save takes no undo step.
 
 | # | Step | Objects after | Also checked |
 |---|---|---|---|
-| 1 | `project_import {paths: [W/20mmbox-LF.stl]}` | `20mmbox-LF.stl 12/8000 [20, 20, 20]` | reply `{opened: "models", added: 1, objects: 1, names: ["20mmbox-LF.stl"], plates: 1}`; `project()` `20mmbox-LF · none · dirty`: an untitled project takes the name of the first file imported, as File > Import names it; `undo_steps()` `["Import Objects: 20mmbox-LF.stl"]`; `unsaved("process")` `[]`; `recent()` lacks `W/20mmbox-LF.stl` (the `recent_models` preference is off) |
+| 1 | `project_import {paths: [W/20 mmbox-LF.stl]}` | `20 mmbox-LF.stl 12/8000 [20, 20, 20]` | reply `{opened: "models", added: 1, objects: 1, names: ["20 mmbox-LF.stl"], plates: 1}`; `project()` `20 mmbox-LF · none · dirty`: an untitled project takes the name of the first file imported, as File > Import names it; `undo_steps()` `["Import Objects: 20 mmbox-LF.stl"]`; `unsaved("process")` `[]`; `recent()` lacks `W/20 mmbox-LF.stl` (the `recent_models` preference is off) |
 | 2 | `undo` | `[]` | the import is one undo step |
-| 3 | (new project) cylinder `cyl` `[20, 10]`, `settings_set {values: {top_shell_layers: 7}}`, then the import of 1 | `[cyl, 20mmbox-LF.stl]`, the box as in 1 | reply `added` 1; `project()` `20mmbox-LF · none · dirty`; `top_shell_layers` `7`; `unsaved("process")` `[top_shell_layers]` |
+| 3 | (new project) cylinder `cyl` `[20, 10]`, `settings_set {values: {top_shell_layers: 7}}`, then the import of 1 | `[cyl, 20 mmbox-LF.stl]`, the box as in 1 | reply `added` 1; `project()` `20 mmbox-LF · none · dirty`; `top_shell_layers` `7`; `unsaved("process")` `[top_shell_layers]` |
 | 4 | `undo` | `[cyl]` | `top_shell_layers` `7`; `unsaved("process")` `[top_shell_layers]` |
 | 5 | (new project) cube `source` 20 at (100, 100), `settings_set {values: {wall_loops: 5}}`, `project_save {path: W/import_src.3mf}`; (new project) cylinder `cyl` `[20, 10]`, `settings_set {values: {top_shell_layers: 7}}` | `[cyl]` | `values([wall_loops, top_shell_layers])` `3`, `7` |
 | 6 | `project_import {paths: [W/import_src.3mf]}` | `[cyl, source]`, `source 12/8000 [20, 20, 20]` | reply not `blocked_by_dialog`, `added` 1; `dialogs()` empty; `values([wall_loops, top_shell_layers])` `3`, `7`: a project's `.3mf` adds its objects and none of its settings; `unsaved` of process `[top_shell_layers]`, of filament and printer `[]`; `project()` `import_src · none · dirty`; `undo_steps()` `["Import Objects: import_src.3mf"]` |
@@ -378,7 +378,7 @@ refusal with other words fails at once.
   the saved copy the project's dirty state compares with (`update_saved_preset_from_current_preset()`, read by
   `has_unsaved_preset_changes()` in `ProjectDirtyStateManager::update_from_presets()`), while `unsaved()` compares with
   the preset as stored (`compare: ":saved"` finds the stored preset). After an open (opening, "opened") `unsaved("process")`
-  is exactly `[wall_loops]`: the project's own `wall_loops` 5 is the one key that differs from the 0.20mm Standard
+  is exactly `[wall_loops]`: the project's own `wall_loops` 5 is the one key that differs from the 0.20 mm Standard
   @MyKlipper process it names.
 - The layer count of the 0.25 mm layers (the G-code written): 0.25 is exact in binary, so the 80 layer tops fall on
   0.25 to 20.0; if the slicer adds a layer, the count is 81 and the expectation moves with it.

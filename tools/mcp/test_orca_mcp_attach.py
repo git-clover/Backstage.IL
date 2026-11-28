@@ -303,7 +303,7 @@ def check_seed_datadir():
     ok("seed_datadir() seeds the default printer")
 
     reused = scratch("orca-seed-reused-")
-    orca_mcp.write_conf(os.path.join(reused, "OrcaSlicer.conf"), {"app": {"use_encrypted_token_file": False}})
+    orca_mcp.write_conf(os.path.join(reused, "Backstage.IL.conf"), {"app": {"use_encrypted_token_file": False}})
     kept = orca_mcp.seed_datadir(reused, orca_mcp.DEFAULT_PRINTER)
     conf = read_conf(reused)
     assert conf == {"app": {"use_encrypted_token_file": False}}, conf
@@ -348,7 +348,7 @@ def check_launch_baseline():
 
     calls.clear()
     reused = scratch("orca-launch-reused-")
-    orca_mcp.write_conf(os.path.join(reused, "OrcaSlicer.conf"), {"app": {}})
+    orca_mcp.write_conf(os.path.join(reused, "Backstage.IL.conf"), {"app": {}})
     baseline = launched(reused)
     assert not os.path.exists(baseline), os.listdir(reused)
     assert "preferences_get" not in calls, calls

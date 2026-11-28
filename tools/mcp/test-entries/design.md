@@ -91,7 +91,7 @@ The replay files are the test's input; the sweep runs none of them on its own. `
 its own, since it runs with a reply budget of 4 s.
 
 **Starts from:** Each part starts from the same state, whatever the part before it left: `start(client)`, the
-baseline on the Generic Klipper Printer with `0.20mm Standard @MyKlipper` and `Generic PLA @System`, which closes
+baseline on the Generic Klipper Printer with `0.20 mm Standard @MyKlipper` and `Generic PLA @System`, which closes
 the open dialogs and what `design_cancel_tool` closes in the Design tab (a card, a sketch, the Text dialog, a plane pick);
 then `reset_switches()` on the Design tab, and Prepare shown again. So a part that fails with a dialog or a sketch
 open does not fail the next one. Each part then sets its own start, given with it below.

@@ -3,8 +3,8 @@ Its design is the test_sidebar_floating entry of tools/mcp/test-entries/windows_
 
 No command floats the sidebar; a person drags its caption off the dock, and the window layout saved keeps it floating.
 So this test launches OrcaSlicer itself, twice, on a fresh data folder. The first run writes its window layout
-(OrcaSlicer.conf, app.window_layout) as it starts its empty project (Plater::priv::reset()), and the app writes
-OrcaSlicer.conf at its next idle moment; once the file holds the layout, orca_mcp.py stop ends the run, on Windows by
+(Backstage.IL.conf, app.window_layout) as it starts its empty project (Plater::priv::reset()), and the app writes
+Backstage.IL.conf at its next idle moment; once the file holds the layout, orca_mcp.py stop ends the run, on Windows by
 killing the process, which saves nothing more. The test marks the sidebar's entry of that layout floating, as the drag
 leaves it, and the second run starts with the sidebar floating. There view_set {sidebar_width} is refused and the
 width stays as it was. A native Wayland app drops the saved floating state, so on Linux both runs start as X11 clients
@@ -33,7 +33,7 @@ check = t.check
 
 
 def layout_saved(datadir):
-    """Whether OrcaSlicer.conf holds a window layout with the sidebar's entry; False too while the app writes it."""
+    """Whether Backstage.IL.conf holds a window layout with the sidebar's entry; False too while the app writes it."""
     try:
         layout = read_conf(datadir).get("app", {}).get("window_layout", "")
     except (OSError, ValueError):
@@ -56,7 +56,7 @@ def float_sidebar(datadir):
     entries = layout.split("|")
     found = any(entry.startswith("name=sidebar;") for entry in entries)
     config["app"]["window_layout"] = "|".join(floating(e) if e.startswith("name=sidebar;") else e for e in entries)
-    with open(os.path.join(datadir, "OrcaSlicer.conf"), "w", encoding="utf-8") as f:
+    with open(os.path.join(datadir, "Backstage.IL.conf"), "w", encoding="utf-8") as f:
         json.dump(config, f, indent=4)
     return found
 
@@ -74,7 +74,7 @@ def main():
             # layout at its next idle moment.
             if started:
                 try:
-                    until(lambda: layout_saved(datadir), "OrcaSlicer.conf holds the window layout with the sidebar")
+                    until(lambda: layout_saved(datadir), "Backstage.IL.conf holds the window layout with the sidebar")
                 except TimeoutError as e:
                     print(e, flush=True)
         check("the app starts", started)

@@ -4,7 +4,7 @@ Its design is the test_project_open_settings entry of tools/mcp/test-entries/win
 Launches OrcaSlicer on a fresh data folder, seeded with the default printer, whose Preferences say to load the
 geometry of a project only (project_load_behaviour load_geometry_only, which a person picks under Load behavior),
 imports a cube, sets the process's layer_height to 0.28, saves the project, starts a new one that drops the presets'
-changes, which gives back the 0.2 of 0.20mm Standard @MyKlipper, and opens the saved file as a project: the process
+changes, which gives back the 0.2 of 0.20 mm Standard @MyKlipper, and opens the saved file as a project: the process
 then has the project's layer_height again, and the preference is unchanged.
 Run it as python tools/mcp/test_project_open_settings.py [--bin PATH] [--datadir PATH].
 """
@@ -19,10 +19,10 @@ sys.path.insert(0, HERE)
 from checks import GENERIC_PLA, KLIPPER, KLIPPER_STD, Checks, free_port, harness, presets  # noqa: E402
 from orca_mcp import DEFAULT_PRINTER, OrcaMcp, app_env, seed_datadir, write_conf  # noqa: E402
 
-CUBE = os.path.join(os.path.dirname(os.path.dirname(HERE)), "tests", "data", "20mm_cube.obj")
+CUBE = os.path.join(os.path.dirname(os.path.dirname(HERE)), "tests", "data", "20 mm_cube.obj")
 TOKEN = "project-open-settings-test-token"
 LAYER_HEIGHT = 0.28
-# The layer height of the seeded process, 0.20mm Standard @MyKlipper.
+# The layer height of the seeded process, 0.20 mm Standard @MyKlipper.
 PRESET_LAYER_HEIGHT = 0.2
 # The test's named checks; check() records one and prints it.
 t = Checks()
@@ -44,7 +44,7 @@ def main():
     try:
         # The preference a person sets under Preferences > Load behavior: a project's geometry only.
         seed_datadir(datadir, DEFAULT_PRINTER)
-        conf = os.path.join(datadir, "OrcaSlicer.conf")
+        conf = os.path.join(datadir, "Backstage.IL.conf")
         with open(conf, encoding="utf-8") as f:
             seeded = json.load(f)
         seeded["app"]["project_load_behaviour"] = "load_geometry_only"

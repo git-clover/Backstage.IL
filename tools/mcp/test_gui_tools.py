@@ -29,7 +29,7 @@ PRESET_BUNDLE = "orca_command:preset_bundle:orca"
 SETUP_WIZARD = "orca_command:help_setup_wizard:orca"
 # The Orca Filament Library's Bambu PLA Basic, which suits any printer and opens Orca's own filament picker.
 PLA = "Bambu PLA Basic @System"
-FINE = "0.12mm Fine @MyKlipper"
+FINE = "0.12 mm Fine @MyKlipper"
 # The Generic Marlin Printer, whose card the setup wizard's printer page ticks.
 MARLIN = "MyMarlin 0.4 nozzle"
 

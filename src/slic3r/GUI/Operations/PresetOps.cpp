@@ -132,7 +132,7 @@ void show_default_filaments(PresetBundle& bundle, const std::string& printer_nam
 Refusal not_offered(PresetCollection& presets, const std::string& name, int filament_slot)
 {
     // Incompatible only when no compatible preset carries the name: one that does is listed under another name (an
-    // alias such as "0.16mm Optimal" names presets for many printers), which the similar names point to.
+    // alias such as "0.16 mm Optimal" names presets for many printers), which the similar names point to.
     if (const std::vector<Preset*> incompatible = presets_named(presets, name, [](const Preset& p) { return !p.is_compatible; });
         !incompatible.empty() && presets_named(presets, name, [](const Preset& p) { return p.is_compatible; }).empty())
         return {RefusalKind::Precondition, "preset_incompatible", L("\"%1%\" is not compatible with the selected printer."), {name},

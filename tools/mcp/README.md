@@ -17,7 +17,7 @@ Python. It uses only the standard library. `docs/HLSD/mcp-server.md` covers the 
 | `stop` | Stop the app and its private display, and remove the session |
 
 `launch` creates a fresh temporary datadir unless you pass `--datadir`. It seeds the datadir with
-an `OrcaSlicer.conf` that has a finished setup wizard and one printer and filament (by default the
+an `Backstage.IL.conf` that has a finished setup wizard and one printer and filament (by default the
 Custom vendor's Generic Klipper Printer 0.4 nozzle with Generic PLA, so a first start copies no other vendor's
 profiles; `--vendor V --printer "<model>@<nozzle>"` seeds another, its preset named as the vendor's profiles name
 it, with `--filament` or the model's first default filament), with update checks and daily tips turned off, and with the Orca Cloud login kept
@@ -29,7 +29,7 @@ screen, and the tests' views and screenshots all have one size; the tests that s
 the same 1600×900. `--cad` starts the app with
 `--cad`, which turns the Design (CAD) tab on for that run, and with it its commands, and
 `--unrestricted-scripts` starts it with `--unrestricted-scripts`, which lets Python scripts
-(`script_run`) run unrestricted for that run. Neither writes the datadir's `OrcaSlicer.conf`, and a later
+(`script_run`) run unrestricted for that run. Neither writes the datadir's `Backstage.IL.conf`, and a later
 launch without them has the settings the datadir holds. The token comes from
 `ORCA_MCP_TOKEN` or is generated, and it reaches the app through the environment, not the command
 line. On Linux, `launch` also sets `SSL_CERT_FILE`, so a fresh datadir doesn't prompt for a CA

@@ -167,7 +167,7 @@ class SettingsTest:
         self.t.check(f"{s} 5: step 1's first 50", [i["key"] for i in page["items"]] == keys[:50],
                      [i["key"] for i in page["items"]][:5])
 
-        fine = self.listed("process", preset="0.16mm Optimal @MyKlipper")
+        fine = self.listed("process", preset="0.16 mm Optimal @MyKlipper")
         self.has(f"{s} 6", fine, {"layer_height": "0.16"})
         self.t.equal(f"{s} 6: reading a preset does not select it", presets(self.c)["process"], KLIPPER_STD)
 

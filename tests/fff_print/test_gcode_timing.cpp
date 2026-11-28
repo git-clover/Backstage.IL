@@ -725,7 +725,7 @@ std::string straight_up(double x, double y, double length, double feedrate)
     return os.str();
 }
 
-// Time of `move` after a 40mm extrusion at 150mm/s reaching its start (x, y) heading `heading_deg`.
+// Time of `move` after a 40 mm extrusion at 150 mm/s reaching its start (x, y) heading `heading_deg`.
 double time_after_lead_in(double x, double y, double heading_deg, const std::string& move, bool is_bbl_printer,
                           double jerk)
 {
@@ -745,9 +745,9 @@ double time_after_lead_in(double x, double y, double heading_deg, const std::str
 
 TEST_CASE("A Bambu Lab arc is timed as one smooth move rather than as jerk-limited chords", "[GCodeTiming][Regression]")
 {
-    // Entered along its tangent, the arc has no corner at its start or between its chords, where a 1mm/s jerk
-    // would nearly stop the toolhead. A 50mm radius keeps the centripetal limit, sqrt(1000 * 50) = 224mm/s,
-    // above the commanded 150mm/s, so the half circle takes as long as a straight move of its length.
+    // Entered along its tangent, the arc has no corner at its start or between its chords, where a 1 mm/s jerk
+    // would nearly stop the toolhead. A 50 mm radius keeps the centripetal limit, sqrt(1000 * 50) = 224 mm/s,
+    // above the commanded 150 mm/s, so the half circle takes as long as a straight move of its length.
     const double radius   = 50.0;
     const double jerk     = 1.0;
     const double straight = time_after_lead_in(10.0, 60.0, 90.0, straight_up(10.0, 60.0, M_PI * radius, 9000.0), true, jerk);
@@ -759,9 +759,9 @@ TEST_CASE("A Bambu Lab arc is timed as one smooth move rather than as jerk-limit
 
 TEST_CASE("A Bambu Lab arc is limited by its own radius however it is entered", "[GCodeTiming][Regression]")
 {
-    // A 5mm radius limits the arc to sqrt(1000 * 5) = 70.7mm/s. Entered at a 25 degree corner, it takes as long
+    // A 5 mm radius limits the arc to sqrt(1000 * 5) = 70.7 mm/s. Entered at a 25 degree corner, it takes as long
     // as a straight move at that speed turning the same corner: the corner is not read as the arc's curvature.
-    // A 100mm/s jerk lets both take the corner at that speed.
+    // A 100 mm/s jerk lets both take the corner at that speed.
     const double radius   = 5.0;
     const double jerk     = 100.0;
     const double limit    = std::sqrt(1000.0 * radius) * 60.0; // mm/min

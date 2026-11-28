@@ -25,12 +25,12 @@ KLIPPER_06 = "MyKlipper 0.6 nozzle"
 KLIPPER_08 = "MyKlipper 0.8 nozzle"
 MARLIN = "MyMarlin 0.4 nozzle"
 STD = KLIPPER_STD
-OPT = "0.16mm Optimal @MyKlipper"
+OPT = "0.16 mm Optimal @MyKlipper"
 PLA = GENERIC_PLA
 # A printer of the Custom vendor that PLA does not fit, with five extruders, and the Generic PLA of its own that takes
 # PLA's place.
 TOOLCHANGER = "MyToolChanger 0.4 nozzle"
-TOOLCHANGER_STD = "0.20mm Standard @MyToolChanger"
+TOOLCHANGER_STD = "0.20 mm Standard @MyToolChanger"
 TOOLCHANGER_PLA = "Generic PLA @MyToolChanger"
 # The printer's Extruder page's Retraction group, in the tab's order (publishable_printer_retraction_options()).
 RETRACTION_KEYS = ["retraction_length", "retract_restart_extra", "retraction_speed", "deretraction_speed",
@@ -297,8 +297,8 @@ ROWS = {
     4: ("process", "process", OPT, "cancel", "Klipper | Std[wall_loops 5] | PLA"),
     5: ("process", "process", STD, "cancel", "Klipper | Std[wall_loops 5] | PLA"),
     6: (None, "process", "No Such Process", None, "Klipper | Std | PLA"),
-    7: (None, "process", "0.16mm Optimal", None, "Klipper | Std | PLA"),
-    8: (None, "process", "0.20mm Standard @MyMarlin", None, "Klipper | Std | PLA"),
+    7: (None, "process", "0.16 mm Optimal", None, "Klipper | Std | PLA"),
+    8: (None, "process", "0.20 mm Standard @MyMarlin", None, "Klipper | Std | PLA"),
     9: ("printer", "printer", KLIPPER_08, "transfer", 'Klipper[printer_notes "MCP pin"] | Std | PLA'),
     10: ("printer", "printer", KLIPPER_08, "Discard", "Klipper 0.8 | Std | PLA"),
     11: ("printer", "printer", KLIPPER_08, "cancel", 'Klipper[printer_notes "MCP pin"] | Std | PLA'),
@@ -313,8 +313,8 @@ REFUSALS = {
     4: ("selection_cancelled", f'Selecting "{OPT}" was cancelled.'),
     5: ("selection_cancelled", None),
     6: ("preset_not_offered", 'The preset selector does not offer "No Such Process".'),
-    7: ("preset_not_offered", 'The preset selector does not offer "0.16mm Optimal".'),
-    8: ("preset_incompatible", '"0.20mm Standard @MyMarlin" is not compatible with the selected printer.'),
+    7: ("preset_not_offered", 'The preset selector does not offer "0.16 mm Optimal".'),
+    8: ("preset_incompatible", '"0.20 mm Standard @MyMarlin" is not compatible with the selected printer.'),
     9: ("transfer_not_offered", "The unsaved changes cannot be transferred: a printer's changes stay with it."),
     11: ("selection_cancelled", None),
     16: ("preset_not_offered", None),
@@ -458,7 +458,7 @@ class PresetsTest:
         self.selection_is(f"{s} 3", "Klipper | Std | PLA")
         reply = self.select("printer", MARLIN, preset_changes="discard")
         self.t.equal(f"{s} 4: the reply's shown", reply.get("shown"), MARLIN)
-        self.selection_is(f"{s} 4", "Marlin | 0.20mm Standard @MyMarlin | PLA")
+        self.selection_is(f"{s} 4", "Marlin | 0.20 mm Standard @MyMarlin | PLA")
         self.select("printer", KLIPPER, preset_changes="discard")
         self.select("process", STD, preset_changes="discard")
         self.select("filament", PLA, slot=1)
