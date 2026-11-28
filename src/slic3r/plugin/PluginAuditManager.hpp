@@ -121,7 +121,7 @@ public:
     //
     // The comparison is case-insensitive on every platform, unlike the _WIN32-only iequals
     // in is_inside_allowed_root: the default macOS APFS configuration is case-insensitive
-    // too, so `orcaslicer.conf` reaches the real file there.  Over-blocking a genuinely
+    // too, so `backstage.il.conf` reaches the real file there.  Over-blocking a genuinely
     // distinct name on Linux is the fail-safe direction and costs nothing real.
     void add_denied_filename(const std::string& filename);
 

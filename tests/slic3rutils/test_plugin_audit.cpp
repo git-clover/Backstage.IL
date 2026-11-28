@@ -819,8 +819,8 @@ TEST_CASE("Plugin audit denies host-managed filenames anywhere", "[audit]")
 
     SECTION("matching is case-insensitive on every platform")
     {
-        CHECK(mgr.is_denied_filename(fs::path("orcaslicer.conf")));
-        CHECK(mgr.is_denied_filename(fs::path("ORCASLICER.CONF")));
+        CHECK(mgr.is_denied_filename(fs::path("backstage.il.conf")));
+        CHECK(mgr.is_denied_filename(fs::path("BACKSTAGE.IL.CONF")));
         CHECK(mgr.is_denied_filename(fs::path("ORCA_REFRESH_TOKEN.SEC")));
     }
 
