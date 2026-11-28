@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic PA-CF @IDOLABS",
-	"inherits": "fdm_filament_pa",
 	"renamed_from": "IDOLABS Generic PA-CF",
+	"inherits": "fdm_filament_pa",
 	"from": "system",
-	"setting_id": "mQnW0NR5puGg4g1B",
+	"setting_id": "xnqXhOWgoFbGXDyY",
 	"filament_id": "OFQLcbps",
 	"instantiation": "true",
 	"filament_type": [

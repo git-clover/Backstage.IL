@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Impact @base",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"filament_id": "OFjXrKFO",
+	"filament_id": "OFPEqmiJ",
 	"instantiation": "false",
 	"filament_vendor": [
 		"IDOLABS"

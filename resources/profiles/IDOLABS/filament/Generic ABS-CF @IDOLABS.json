@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic ABS @IDOLABS",
-	"inherits": "Generic ABS @IDOLABS base",
 	"renamed_from": "IDOLABS Generic ABS",
+	"inherits": "Generic ABS @IDOLABS base",
 	"from": "system",
-	"setting_id": "UNRTVCoP3aKUgtLd",
+	"setting_id": "21vRh1eXo1jsuXyr",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

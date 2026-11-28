@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic PC @IDOLABS",
-	"inherits": "Generic PC @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PC",
+	"inherits": "Generic PC @IDOLABS base",
 	"from": "system",
-	"setting_id": "Ab0rx509bajTOz4r",
+	"setting_id": "ZkVQa6e4H6iBoBzw",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

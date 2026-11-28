@@ -4,7 +4,7 @@
 	"renamed_from": "0.32 mm Draft @re3D fdm 0.4",
 	"inherits": "fdm_process_re3D_common",
 	"from": "system",
-	"setting_id": "eVhEFgDarXBdj18g",
+	"setting_id": "pcKSZbNmByNtOHYX",
 	"instantiation": "true",
 	"compatible_printers": [
 		"re3D Gigabot 4 0.4 nozzle",

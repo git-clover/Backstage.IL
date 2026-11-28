@@ -1,10 +1,10 @@
 {
 	"type": "filament",
-	"name": "Generic ASA @IDOLABS",
-	"inherits": "Generic ASA @IDOLABS base",
-	"renamed_from": "IDOLABS Generic ASA",
+	"name": "Generic PVA @IDOLABS",
+	"renamed_from": "IDOLABS Generic PVA",
+	"inherits": "Generic PVA @IDOLABS base",
 	"from": "system",
-	"setting_id": "CUmomjm5b9qE65Fu",
+	"setting_id": "NGxrcYD3VFlOODlQ",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

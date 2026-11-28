@@ -1,10 +1,10 @@
 {
 	"type": "filament",
-	"name": "Generic PLA-CF @IDOLABS",
-	"inherits": "Generic PLA-CF @IDOLABS base",
-	"renamed_from": "IDOLABS Generic PLA-CF",
+	"name": "Generic ABS @IDOLABS",
+	"renamed_from": "IDOLABS Generic ABS",
+	"inherits": "Generic ABS @IDOLABS base",
 	"from": "system",
-	"setting_id": "RL3x66nvGfOg2s4R",
+	"setting_id": "21vRh1eXo1jsuXyr",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

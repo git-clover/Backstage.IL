@@ -3,7 +3,7 @@
 	"name": "IDOLABS PA-CF @base",
 	"inherits": "fdm_filament_pa",
 	"from": "system",
-	"filament_id": "OFA026vt",
+	"filament_id": "OFQB5RGr",
 	"instantiation": "false",
 	"required_nozzle_HRC": [
 		"40"

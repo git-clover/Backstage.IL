@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic PC @IDOLABS",
-	"inherits": "Generic PC @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PC",
+	"inherits": "Generic PC @IDOLABS base",
 	"from": "system",
 	"setting_id": "ZkVQa6e4H6iBoBzw",
 	"instantiation": "true",

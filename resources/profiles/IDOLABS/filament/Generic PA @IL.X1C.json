@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic PA @IDOLABS",
-	"inherits": "fdm_filament_pa",
 	"renamed_from": "IDOLABS Generic PA",
+	"inherits": "fdm_filament_pa",
 	"from": "system",
-	"setting_id": "QsBkQC8L7KX6quQq",
+	"setting_id": "nx2uFOuOA2JjV4fS",
 	"filament_id": "OFg8ndtj",
 	"instantiation": "true",
 	"required_nozzle_HRC": [

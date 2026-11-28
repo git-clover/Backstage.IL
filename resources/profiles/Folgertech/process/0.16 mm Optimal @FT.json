@@ -3,7 +3,7 @@
 	"name": "0.16 mm Optimal @FT 0.4 nozzle",
 	"inherits": "fdm_process_folgertech_common",
 	"from": "system",
-	"setting_id": "qH00X2bLDGrliW2e",
+	"setting_id": "2vGUHll8ijfyhYfX",
 	"instantiation": "true",
 	"layer_height": "0.16",
 	"elefant_foot_compensation": "0.15",

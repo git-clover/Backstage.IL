@@ -3,7 +3,7 @@
 	"name": "IDOLABS PET-CF @base",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
-	"filament_id": "OFc87pL3",
+	"filament_id": "OFZRUq3K",
 	"instantiation": "false",
 	"temperature_vitrification": [
 		"185"

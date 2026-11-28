@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic PETG @IDOLABS 0.2 nozzle",
-	"inherits": "Generic PETG @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PETG @0.2 nozzle;IDOLABS Generic PETG 0.2 nozzle",
+	"inherits": "Generic PETG @IDOLABS base",
 	"from": "system",
 	"setting_id": "gcn9yUA9HJv85AQj",
 	"instantiation": "true",

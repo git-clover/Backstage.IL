@@ -3,7 +3,7 @@
 	"name": "0.20 mm Standard @Anycubic Kobra 3 Max V2 0.8 nozzle",
 	"inherits": "fdm_process_anycubic_kobra_3_max_v2_nozzle_0.8",
 	"from": "system",
-	"setting_id": "TC2cyEg58TvRDF0Q",
+	"setting_id": "Hpl5ecud2mS8qFFX",
 	"instantiation": "true",
 	"inner_wall_speed": [
 		"120"

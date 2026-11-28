@@ -3,7 +3,7 @@
 	"name": "IDOLABS PC @base",
 	"inherits": "fdm_filament_pc",
 	"from": "system",
-	"filament_id": "OFrr67nG",
+	"filament_id": "OFoE5GKK",
 	"instantiation": "false",
 	"filament_vendor": [
 		"IDOLABS"

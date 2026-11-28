@@ -3,7 +3,7 @@
 	"name": "IDOLABS Support G @base",
 	"inherits": "fdm_filament_pa",
 	"from": "system",
-	"filament_id": "OFIPjqHt",
+	"filament_id": "OFCUdsX0",
 	"instantiation": "false",
 	"required_nozzle_HRC": [
 		"3"

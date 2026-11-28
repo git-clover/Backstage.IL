@@ -1,10 +1,10 @@
 {
 	"type": "filament",
-	"name": "Generic PLA @IDOLABS",
-	"inherits": "Generic PLA @IDOLABS base",
-	"renamed_from": "IDOLABS Generic PLA",
+	"name": "Generic PETG @IDOLABS",
+	"renamed_from": "IDOLABS Generic PETG",
+	"inherits": "Generic PETG @IDOLABS base",
 	"from": "system",
-	"setting_id": "Tg2oWOHOKCHmhFrE",
+	"setting_id": "A4W596ehbAHONuN8",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

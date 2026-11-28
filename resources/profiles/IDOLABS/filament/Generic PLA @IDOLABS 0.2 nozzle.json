@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic PLA @IDOLABS 0.2 nozzle",
-	"inherits": "Generic PLA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PLA @0.2 nozzle;IDOLABS Generic PLA 0.2 nozzle",
+	"inherits": "Generic PLA @IDOLABS base",
 	"from": "system",
 	"setting_id": "KGVmDATrkMtrMjyi",
 	"instantiation": "true",

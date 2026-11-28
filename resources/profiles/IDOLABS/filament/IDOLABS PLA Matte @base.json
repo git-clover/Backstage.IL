@@ -3,7 +3,7 @@
 	"name": "IDOLABS PLA Matte @base",
 	"inherits": "fdm_filament_pla",
 	"from": "system",
-	"filament_id": "OFgptDSf",
+	"filament_id": "OFRneeVS",
 	"instantiation": "false",
 	"filament_vendor": [
 		"IDOLABS"

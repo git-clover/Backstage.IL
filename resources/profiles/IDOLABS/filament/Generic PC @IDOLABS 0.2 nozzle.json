@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic PC @IDOLABS 0.2 nozzle",
-	"inherits": "Generic PC @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PC @0.2 nozzle;IDOLABS Generic PC 0.2 nozzle",
+	"inherits": "Generic PC @IDOLABS base",
 	"from": "system",
 	"setting_id": "vEZJGv84bfGlTA4O",
 	"instantiation": "true",

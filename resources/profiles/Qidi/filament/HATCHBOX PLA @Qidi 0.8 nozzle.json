@@ -3,7 +3,7 @@
 	"name": "HATCHBOX PLA @0.8 nozzle",
 	"inherits": "HATCHBOX PLA @Qidi",
 	"from": "system",
-	"setting_id": "Sg7TL1IycFlUwalq",
+	"setting_id": "OjSAPfXD7c9LpDZI",
 	"filament_id": "OFeelsSM",
 	"instantiation": "true",
 	"filament_flow_ratio": [

@@ -3,7 +3,7 @@
 	"name": "COEX PCTG PRIME @BBL X1C 0.8 nozzle",
 	"inherits": "COEX PCTG PRIME @base",
 	"from": "system",
-	"setting_id": "m7SNC69 mm4Mq16z2",
+	"setting_id": "m7SNC69mm4Mq16z2",
 	"instantiation": "true",
 	"fan_max_speed": [
 		"40"

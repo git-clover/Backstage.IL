@@ -1,10 +1,10 @@
 {
 	"type": "filament",
-	"name": "Generic PVA @IDOLABS",
-	"inherits": "Generic PVA @IDOLABS base",
-	"renamed_from": "IDOLABS Generic PVA",
+	"name": "Generic PC @IDOLABS",
+	"renamed_from": "IDOLABS Generic PC",
+	"inherits": "Generic PC @IDOLABS base",
 	"from": "system",
-	"setting_id": "seUtH9zqEofsdiJr",
+	"setting_id": "ZkVQa6e4H6iBoBzw",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

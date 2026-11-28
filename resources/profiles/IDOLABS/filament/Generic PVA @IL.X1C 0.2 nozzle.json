@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic PVA @IDOLABS 0.2 nozzle",
-	"inherits": "Generic PVA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PVA @0.2 nozzle;IDOLABS Generic PVA 0.2 nozzle",
+	"inherits": "Generic PVA @IDOLABS base",
 	"from": "system",
-	"setting_id": "pF1nloTyBp0wYL5z",
+	"setting_id": "ic20mD0hOHqOpKpM",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"0.5"

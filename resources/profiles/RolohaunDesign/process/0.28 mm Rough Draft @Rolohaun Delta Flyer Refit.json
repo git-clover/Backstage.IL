@@ -3,7 +3,7 @@
 	"name": "0.28 mm Rough Draft @Delta Flyer Refit",
 	"inherits": "fdm_process_Rook MK1 LDO_common",
 	"from": "system",
-	"setting_id": "O8ZbEDcGF1OCMzTb",
+	"setting_id": "oBlOqGh5R0Tbp2I0",
 	"instantiation": "true",
 	"bottom_shell_layers": "2",
 	"initial_layer_infill_speed": "100",

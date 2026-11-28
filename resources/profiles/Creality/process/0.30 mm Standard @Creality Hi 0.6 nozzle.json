@@ -3,7 +3,7 @@
 	"name": "0.30 mm Standard @Creality Hi",
 	"inherits": "fdm_process_creality_common",
 	"from": "system",
-	"setting_id": "aFmknwuoSOzw6eZu",
+	"setting_id": "r6P4rPN7cHW9xJWX",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"max_travel_detour_distance": "0",

@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic PLA-CF @IDOLABS",
-	"inherits": "Generic PLA-CF @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PLA-CF",
+	"inherits": "Generic PLA-CF @IDOLABS base",
 	"from": "system",
 	"setting_id": "AzOZqrN26u5nehRu",
 	"instantiation": "true",

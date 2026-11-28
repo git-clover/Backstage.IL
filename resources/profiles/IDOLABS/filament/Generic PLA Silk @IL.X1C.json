@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic PLA Silk @IDOLABS",
-	"inherits": "Generic PLA Silk @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PLA Silk",
+	"inherits": "Generic PLA Silk @IDOLABS base",
 	"from": "system",
-	"setting_id": "hrpvk6PwsHd77GSX",
+	"setting_id": "gM2onXSNNi0jE218",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"7.5"

@@ -3,7 +3,7 @@
 	"name": "0.12 mm Fine @Creality K1 SE",
 	"inherits": "fdm_process_common_klipper",
 	"from": "system",
-	"setting_id": "FHT29GVsMZqB8Zpt",
+	"setting_id": "H1i6sI7L5HO1Y2Be",
 	"instantiation": "true",
 	"reduce_crossing_wall": "0",
 	"max_travel_detour_distance": "0",

@@ -3,7 +3,7 @@
 	"name": "IDOLABS PETG Basic @base",
 	"inherits": "fdm_filament_pet",
 	"from": "system",
-	"filament_id": "OFNBlAPT",
+	"filament_id": "OFubbt5A",
 	"instantiation": "false",
 	"filament_flow_ratio": [
 		"0.95"

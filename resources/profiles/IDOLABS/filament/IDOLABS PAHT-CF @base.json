@@ -3,7 +3,7 @@
 	"name": "IDOLABS PAHT-CF @base",
 	"inherits": "fdm_filament_pa",
 	"from": "system",
-	"filament_id": "OFtOPlK6",
+	"filament_id": "OF2UgdNh",
 	"instantiation": "false",
 	"filament_max_volumetric_speed": [
 		"8"

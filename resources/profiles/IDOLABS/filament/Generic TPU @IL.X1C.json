@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic TPU @IDOLABS",
-	"inherits": "fdm_filament_tpu",
 	"renamed_from": "IDOLABS Generic TPU",
+	"inherits": "fdm_filament_tpu",
 	"from": "system",
-	"setting_id": "yHKeDU2Jd5c4ONyo",
+	"setting_id": "U5SGQTvifnMkWNpn",
 	"filament_id": "OFgbpcy9",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [

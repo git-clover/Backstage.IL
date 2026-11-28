@@ -3,7 +3,7 @@
 	"name": "0.56 mm Standard @MyToolChanger",
 	"inherits": "fdm_process_mytoolchanger_common",
 	"from": "system",
-	"setting_id": "Q5K5lI0aQUgRHodJ",
+	"setting_id": "0rameIRrGxgF8WlO",
 	"instantiation": "true",
 	"print_extruder_id": [
 		"1",

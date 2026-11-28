@@ -1,10 +1,10 @@
 {
 	"type": "filament",
-	"name": "Generic PC @IDOLABS",
-	"inherits": "Generic PC @IDOLABS base",
-	"renamed_from": "IDOLABS Generic PC",
+	"name": "Generic PLA @IDOLABS",
+	"renamed_from": "IDOLABS Generic PLA",
+	"inherits": "Generic PLA @IDOLABS base",
 	"from": "system",
-	"setting_id": "3e4QZk9XOR6LD06l",
+	"setting_id": "796UGqZZkoQFvq1o",
 	"instantiation": "true",
 	"compatible_printers": [
 		"IL.X1C 0.4 nozzle",

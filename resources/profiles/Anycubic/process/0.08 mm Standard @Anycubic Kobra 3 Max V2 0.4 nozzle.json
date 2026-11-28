@@ -3,7 +3,7 @@
 	"name": "0.08 mm Standard @Anycubic Kobra 3 Max V2 0.4 nozzle",
 	"inherits": "fdm_process_anycubic_kobra_3_max_v2_nozzle_0.4",
 	"from": "system",
-	"setting_id": "xbUiVCquj4AzyMz2",
+	"setting_id": "lT9M8H4V9KovhvxE",
 	"instantiation": "true",
 	"initial_layer_infill_speed": [
 		"45"

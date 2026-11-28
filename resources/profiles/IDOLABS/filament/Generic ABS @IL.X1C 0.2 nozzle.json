@@ -1,10 +1,10 @@
 {
 	"type": "filament",
 	"name": "Generic ABS @IDOLABS 0.2 nozzle",
-	"inherits": "Generic ABS @IDOLABS base",
 	"renamed_from": "IDOLABS Generic ABS @0.2 nozzle;IDOLABS Generic ABS 0.2 nozzle",
+	"inherits": "Generic ABS @IDOLABS base",
 	"from": "system",
-	"setting_id": "htHdy5iG1JWaNynI",
+	"setting_id": "S5UpDnzyuBYxeyYt",
 	"instantiation": "true",
 	"filament_max_volumetric_speed": [
 		"2"

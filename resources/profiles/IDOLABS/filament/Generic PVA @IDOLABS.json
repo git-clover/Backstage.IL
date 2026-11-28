@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic PVA @IDOLABS",
-	"inherits": "Generic PVA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic PVA",
+	"inherits": "Generic PVA @IDOLABS base",
 	"from": "system",
 	"setting_id": "NGxrcYD3VFlOODlQ",
 	"instantiation": "true",

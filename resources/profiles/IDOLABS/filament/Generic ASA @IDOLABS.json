@@ -1,8 +1,8 @@
 {
 	"type": "filament",
 	"name": "Generic ASA @IDOLABS",
-	"inherits": "Generic ASA @IDOLABS base",
 	"renamed_from": "IDOLABS Generic ASA",
+	"inherits": "Generic ASA @IDOLABS base",
 	"from": "system",
 	"setting_id": "FfYs1IMfUEZ76T02",
 	"instantiation": "true",

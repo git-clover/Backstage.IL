@@ -3,7 +3,7 @@
 	"name": "UltiMaker S5 0.4 nozzle - Single Extruder",
 	"inherits": "UltiMaker S5 0.4 nozzle",
 	"from": "system",
-	"setting_id": "Hx0AwzMGSS7foPS4",
+	"setting_id": "7BKZlwffTrzDsUgj",
 	"instantiation": "true",
 	"printer_model": "UltiMaker S5",
 	"default_print_profile": "0.18 mm Standard @UltiMaker S5",
