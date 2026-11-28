@@ -240,11 +240,11 @@ input[onclear="1"] {
 }
 
 #NoticeContent {
-	padding: 4 mm 10 mm;	
+	padding: 4mm 10mm;	
 }
 
 #NoticeBtns {
-	margin-top: 4 mm;
+	margin-top: 4mm;
 	display: flex;
 	justify-content:flex-end;
 }
